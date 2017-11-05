@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20AD8499-D9DF-4452-B7EE-2417D17CFD32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3F7E1DBF-4F55-44D6-8751-C683DAF1BBC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGV.Basilius.Tests", "tests\HGV.Basilius.Tests\HGV.Basilius.Tests.csproj", "{F8F20DB8-1B44-48B1-826E-DF7F4CAA3A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGV.Basilius", "src\HGV.Basilius\HGV.Basilius.csproj", "{30AD62C4-223C-4116-B388-74B4ADE6852F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8F20DB8-1B44-48B1-826E-DF7F4CAA3A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F20DB8-1B44-48B1-826E-DF7F4CAA3A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F20DB8-1B44-48B1-826E-DF7F4CAA3A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F20DB8-1B44-48B1-826E-DF7F4CAA3A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AD62C4-223C-4116-B388-74B4ADE6852F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AD62C4-223C-4116-B388-74B4ADE6852F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AD62C4-223C-4116-B388-74B4ADE6852F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AD62C4-223C-4116-B388-74B4ADE6852F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8F20DB8-1B44-48B1-826E-DF7F4CAA3A9A} = {3F7E1DBF-4F55-44D6-8751-C683DAF1BBC9}
+		{30AD62C4-223C-4116-B388-74B4ADE6852F} = {20AD8499-D9DF-4452-B7EE-2417D17CFD32}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A239D36-DB9C-4B65-99B8-540B16E4623E}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = cd99a10a-39fa-48fb-a606-c01a86e67135
+	EndGlobalSection
+EndGlobal
