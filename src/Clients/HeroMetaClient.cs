@@ -255,183 +255,182 @@ namespace HGV.Basilius.Clients
             {
                 var key = (string)hero_data["Ability1"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability2"] != null)
             {
                 var key = (string)hero_data["Ability2"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability3"] != null)
             {
                 var key = (string)hero_data["Ability3"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability4"] != null)
             {
                 var key = (string)hero_data["Ability4"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability5"] != null)
             {
                 var key = (string)hero_data["Ability5"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability6"] != null)
             {
                 var key = (string)hero_data["Ability6"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability7"] != null)
             {
                 var key = (string)hero_data["Ability7"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability8"] != null)
             {
                 var key = (string)hero_data["Ability8"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability9"] != null)
             {
                 var key = (string)hero_data["Ability9"];
                 var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (ability != null)
+                {
+                    ability.hero_id = hero_id;
+                    hero.abilities.Add(ability);
+                }
             }
             if (hero_data["Ability10"] != null)
             {
                 var key = (string)hero_data["Ability10"];
-                if (key.Contains("special_bonus"))
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (key.Contains("special_bonus") == false)
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        ability.hero_id = hero_id;
+                        hero.abilities.Add(ability);
+                    }
+                }
             }
             if (hero_data["Ability11"] != null)
             {
                 var key = (string)hero_data["Ability11"];
-                if (key.Contains("special_bonus"))
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (key.Contains("special_bonus") == false)
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        ability.hero_id = hero_id;
+                        hero.abilities.Add(ability);
+                    }
+                }
             }
             if (hero_data["Ability12"] != null)
             {
                 var key = (string)hero_data["Ability12"];
-                if (key.Contains("special_bonus"))
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (key.Contains("special_bonus") == false)
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        ability.hero_id = hero_id;
+                        hero.abilities.Add(ability);
+                    }
+                }
             }
             if (hero_data["Ability13"] != null)
             {
                 var key = (string)hero_data["Ability13"];
-                if (key.Contains("special_bonus"))
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (key.Contains("special_bonus") == false)
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        ability.hero_id = hero_id;
+                        hero.abilities.Add(ability);
+                    }
+                }
             }
             if (hero_data["Ability14"] != null)
             {
                 var key = (string)hero_data["Ability14"];
-                if (key.Contains("special_bonus"))
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (key.Contains("special_bonus") == false)
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        ability.hero_id = hero_id;
+                        hero.abilities.Add(ability);
+                    }
+                }
             }
             if (hero_data["Ability15"] != null)
             {
                 var key = (string)hero_data["Ability15"];
-                if (key.Contains("special_bonus"))
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (key.Contains("special_bonus") == false)
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        ability.hero_id = hero_id;
+                        hero.abilities.Add(ability);
+                    }
+                }
             }
             if (hero_data["Ability16"] != null)
             {
                 var key = (string)hero_data["Ability16"];
-                if (key.Contains("special_bonus"))
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                if (ability == null)
-                    return;
-
-                ability.hero_id = hero_id;
-                hero.abilities.Add(ability);
+                if (key.Contains("special_bonus") == false)
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        ability.hero_id = hero_id;
+                        hero.abilities.Add(ability);
+                    }
+                }
             }
         }
 
@@ -443,152 +442,197 @@ namespace HGV.Basilius.Clients
             if (hero_data["Ability10"] != null)
             {
                 var key = (string)hero_data["Ability10"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if(ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability11"] != null)
             {
                 var key = (string)hero_data["Ability11"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability12"] != null)
             {
                 var key = (string)hero_data["Ability12"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability13"] != null)
             {
                 var key = (string)hero_data["Ability13"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability14"] != null)
             {
                 var key = (string)hero_data["Ability14"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability15"] != null)
             {
                 var key = (string)hero_data["Ability15"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability16"] != null)
             {
                 var key = (string)hero_data["Ability16"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability17"] != null)
             {
                 var key = (string)hero_data["Ability17"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability18"] != null)
             {
                 var key = (string)hero_data["Ability18"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability19"] != null)
             {
                 var key = (string)hero_data["Ability19"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability20"] != null)
             {
                 var key = (string)hero_data["Ability20"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability21"] != null)
             {
                 var key = (string)hero_data["Ability21"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability22"] != null)
             {
                 var key = (string)hero_data["Ability22"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability23"] != null)
             {
                 var key = (string)hero_data["Ability23"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
             if (hero_data["Ability24"] != null)
             {
                 var key = (string)hero_data["Ability24"];
-                if (key.Contains("special_bonus") == false)
-                    return;
-
-                var ability = skills.Where(_ => _.key == key).FirstOrDefault();
-                var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
-                hero.talenets.Add(talenet);
+                if (key.Contains("special_bonus"))
+                {
+                    var ability = skills.Where(_ => _.key == key).FirstOrDefault();
+                    if (ability != null)
+                    {
+                        var talenet = new Talenet() { ability_id = ability.ability_id, hero_id = hero.hero_id, key = ability.key, name = ability.name, level = levels.Dequeue() };
+                        hero.talenets.Add(talenet);
+                    }
+                }
             }
         }
 
