@@ -1,5 +1,5 @@
 # Basilius
-[![highgroundvision MyGet Build Status](https://www.myget.org/BuildSource/Badge/highgroundvision?identifier=166a9d3d-db39-4d84-badc-494e0863907b)](https://www.myget.org/)
+[![Build status](https://ci.appveyor.com/api/projects/status/vte24gipwwfg3nfq?svg=true)](https://ci.appveyor.com/project/RGBKnights/basilius-r4i0u)
 
 A set clients for downloading base stats on heroes, abilties, items for a daily cahce provided by DotaBuff
 
