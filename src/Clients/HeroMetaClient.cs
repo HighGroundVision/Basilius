@@ -142,7 +142,7 @@ namespace HGV.Basilius.Clients
             if (hero_data["AttackCapabilities"] != null)
             {
                 var attack_capabilities = (string)hero_data["AttackCapabilities"];
-                hero.attack_capabilities = attack_capabilities == "DOTA_UNIT_CAP_MELEE_ATTACK" ? 0 : 1;
+                hero.attack_capabilities = attack_capabilities == "DOTA_UNIT_CAP_MELEE_ATTACK" ? 1 : attack_capabilities == "DOTA_UNIT_CAP_RANGED_ATTACK" ? 2 : 0;
             }
             if (hero_data["AttackDamageMin"] != null)
             {
