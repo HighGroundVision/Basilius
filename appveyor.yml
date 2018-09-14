@@ -14,7 +14,7 @@ dotnet_csproj:
 before_build:
 - cmd: nuget restore
 build:
-  project: /src/HGV.Basilius/HGV.Basilius.csproj
+  project:  .\src\HGV.Basilius\HGV.Basilius.csproj
   publish_nuget: true
   verbosity: minimal
 deploy:
