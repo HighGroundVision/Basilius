@@ -18,7 +18,7 @@ build:
   publish_nuget: true
   verbosity: minimal
 artifacts:
-- path: '*/bin/*/*'
+- path: '*/bin/*.*'
   name: Test
 deploy:
 - provider: NuGet
