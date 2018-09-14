@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HGV.Basilius", "HGV.Basilius\HGV.Basilius.csproj", "{35C49C19-760B-4081-AA48-88D91B2AD6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGV.Basilius.Tools.Collection", "HGV.Basilius.Tools.Collection\HGV.Basilius.Tools.Collection.csproj", "{7F7BE0F7-F359-4B97-82EB-C6A827E73A1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C49C19-760B-4081-AA48-88D91B2AD6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C49C19-760B-4081-AA48-88D91B2AD6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C49C19-760B-4081-AA48-88D91B2AD6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C49C19-760B-4081-AA48-88D91B2AD6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7BE0F7-F359-4B97-82EB-C6A827E73A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7BE0F7-F359-4B97-82EB-C6A827E73A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7BE0F7-F359-4B97-82EB-C6A827E73A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7BE0F7-F359-4B97-82EB-C6A827E73A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A239D36-DB9C-4B65-99B8-540B16E4623E}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = cd99a10a-39fa-48fb-a606-c01a86e67135
+	EndGlobalSection
+EndGlobal
