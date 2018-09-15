@@ -12,7 +12,7 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-- cmd: nuget restore /src/HGV.Basilius.sln
+- cmd: nuget restore './src/HGV.Basilius.sln'
 build:
   project: /src/HGV.Basilius.sln
   publish_nuget: true
