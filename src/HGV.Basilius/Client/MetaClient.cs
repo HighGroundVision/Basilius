@@ -48,7 +48,7 @@ namespace HGV.Basilius
             }
         }
 
-        private string GetModeName(int mode)
+        public string GetModeName(int mode)
         {
             switch (mode)
             {
