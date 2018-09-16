@@ -48,6 +48,66 @@ namespace HGV.Basilius
             }
         }
 
+        private string GetModeName(int mode)
+        {
+            switch (mode)
+            {
+                case 0:
+                    return "All Pick";
+                case 1:
+                    return "All Pick";
+                case 2:
+                    return "Captains Mode";
+                case 3:
+                    return "Random Draft";
+                case 4:
+                    return "Single Draft";
+                case 5:
+                    return "All Random";
+                case 6:
+                    return "Unknown";
+                case 7:
+                    return "Unknown";
+                case 8:
+                    return "Reverse Captains Mode";
+                case 9:
+                    return "Unknown";
+                case 10:
+                    return "Tutorial";
+                case 11:
+                    return "Mid Only";
+                case 12:
+                    return "Least Played";
+                case 13:
+                    return "Limited Heroes";
+                case 14:
+                    return "Unknown";
+                case 15:
+                    return "Custom Game Mode";
+                case 16:
+                    return "Captains Draft";
+                case 17:
+                    return "Unknown";
+                case 18:
+                    return "Ability Draft";
+                case 19:
+                    return "Event Game";
+                case 20:
+                    return "All Random Death Match";
+                case 21:
+                    return "Mid 1v1";
+                case 22:
+                    return "All Pick";
+                case 23:
+                    return "Turbo";
+                case 24:
+                    return "Mutation";
+                default:
+                    return "Unknown";
+            }
+        }
+
+
         public List<Hero> GetHeroes()
         {
             return this.heroes;
