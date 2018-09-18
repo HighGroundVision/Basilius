@@ -217,6 +217,14 @@ namespace HGV.Basilius.Tools.Collection
                         abilityDraftIncludes.Add((string)item);
                     }
                 }
+
+                if(heroData["AbilityDraftUniqueAbilities"] != null)
+                {
+                    foreach (var item in heroData["AbilityDraftUniqueAbilities"])
+                    {
+                        abilityDraftIncludes.Add((string)item);
+                    }
+                }
             }
 
             // Get Abilties and Talents
@@ -244,6 +252,15 @@ namespace HGV.Basilius.Tools.Collection
                 {
                     var talent = ExtractTalent(languageAbilties, abiltiesData, abilityKey);
                     hero.Talents.Add(talent);
+                }
+            }
+
+            foreach (var ability in hero.Abilities)
+            {
+                if (ability.Linked != null)
+                {
+                    var link = hero.Abilities.Where(_ => _.Key == ability.Linked).FirstOrDefault();
+                    link.AbilityDraftEnabled = ability.AbilityDraftEnabled;
                 }
             }
 
@@ -342,8 +359,9 @@ namespace HGV.Basilius.Tools.Collection
             ability.FightRecapLevel = getValue<int>(abiltiesData, "ability_base", key, "FightRecapLevel");
 
             ability.AbilityDraftEnabled = false;
+            ability.Linked = getValue<string>(abiltiesData, "ability_base", key, "LinkedAbility") ?? getValue<string>(abiltiesData, "ability_base", key, "AbilityDraftPreAbility");
 
-            if(abilityData["AbilitySpecial"] != null && abilityData["AbilitySpecial"].Type == JTokenType.Array)
+            if (abilityData["AbilitySpecial"] != null && abilityData["AbilitySpecial"].Type == JTokenType.Array)
             {
                 var items = (JArray)abilityData["AbilitySpecial"];
                 foreach (JObject item in items)

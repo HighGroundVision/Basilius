@@ -51,6 +51,8 @@ namespace HGV.Basilius
 
         public bool AbilityDraftEnabled { get; set; }
 
+        public string Linked { get; set; }
+
         public Dictionary<string, List<double>> AbilitySpecial { get; set; }
 
         public Ability()
