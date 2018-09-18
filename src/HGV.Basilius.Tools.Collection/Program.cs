@@ -71,7 +71,7 @@ namespace HGV.Basilius.Tools.Collection
             var outputHeroes = Newtonsoft.Json.JsonConvert.SerializeObject(heroes, Newtonsoft.Json.Formatting.Indented);
             System.IO.File.WriteAllText("Heroes.json", outputHeroes);
 
-            var abilities = heroes.SelectMany(_ => _.Abilities.Where(__ => __.Id != 6251));
+            var abilities = heroes.SelectMany(_ => _.Abilities.Where(__ => __.Id != Ability.GENERIC));
 
             var outputAbilities = Newtonsoft.Json.JsonConvert.SerializeObject(abilities, Newtonsoft.Json.Formatting.Indented);
             System.IO.File.WriteAllText("Abilities.json", outputAbilities);
