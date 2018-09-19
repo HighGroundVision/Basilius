@@ -260,7 +260,10 @@ namespace HGV.Basilius.Tools.Collection
                 if (ability.Linked != null)
                 {
                     var link = hero.Abilities.Where(_ => _.Key == ability.Linked).FirstOrDefault();
-                    link.AbilityDraftEnabled = ability.AbilityDraftEnabled;
+                    if(link.AbilityDraftEnabled == false)
+                    {
+                        link.AbilityDraftEnabled = ability.AbilityDraftEnabled;
+                    }
                 }
             }
 
