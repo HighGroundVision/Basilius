@@ -29,9 +29,9 @@ namespace HGV.Basilius
         public string Name { get; set; }
         public string Key { get; set; }
 
-        public string ImageProfile { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/heroes/banner/{0}.png", this.Key); } }
+        public string ImageProfile { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/heroes/profile/{0}.png", this.Key); } }
         public string ImageIcon { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/heroes/icons/{0}.png", this.Key); } }
-        public string ImageBanner { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/heroes/profile/{0}.png", this.Key); } }
+        public string ImageBanner { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/heroes/banner/{0}.png", this.Key); } }
 
         public bool Enabled { get; set; }
         public bool NewPlayerEnable { get; set; }
