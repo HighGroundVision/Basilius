@@ -397,7 +397,7 @@ namespace HGV.Basilius.Tools.Collection
                     ability.Description = ability.Description.Replace(identifier, value);
                 }
 
-                ability.Description = ability.Description.Replace("\n\n", " ").Replace("%%", "%");
+                ability.Description = ability.Description.Replace("\\n\\n", " ").Replace("%%", "%");
             }
 
             return ability;
