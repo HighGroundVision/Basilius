@@ -47878,7 +47878,7 @@
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
     "FightRecapLevel": 1,
-    "AbilityDraftEnabled": false,
+    "AbilityDraftEnabled": true,
     "Linked": "dark_willow_terrorize",
     "AbilitySpecial": {
       "attack_damage": [
@@ -47966,7 +47966,7 @@
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
     "FightRecapLevel": 1,
-    "AbilityDraftEnabled": false,
+    "AbilityDraftEnabled": true,
     "Linked": "dark_willow_bedlam",
     "AbilitySpecial": {
       "destination_travel_speed": [

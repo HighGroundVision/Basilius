@@ -204,7 +204,7 @@ namespace HGV.Basilius.Tools.Collection
             hero.TeamName = team == "DOTA_TEAM_GOODGUYS" ? "Radiant" : "Dire";
 
             hero.VisionDaytimeRange = getValue<int>(heroesData, "npc_dota_hero_base", key, "VisionDaytimeRange");
-            hero.VisionDaytimeRange = getValue<int>(heroesData, "npc_dota_hero_base", key, "VisionDaytimeRange");
+            hero.VisionNighttimeRange = getValue<int>(heroesData, "npc_dota_hero_base", key, "VisionNighttimeRange");
 
             var abilityDraftIgnoreCount = getValue<int>(heroesData, "npc_dota_hero_base", key, "AbilityDraftIgnoreCount");
             var abilityDraftIncludes = new List<string>();

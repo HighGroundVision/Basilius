@@ -732,7 +732,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -1315,7 +1315,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -1930,7 +1930,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -2615,7 +2615,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -3270,7 +3270,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -3911,7 +3911,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -4531,7 +4531,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -5173,7 +5173,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -5813,7 +5813,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -6468,7 +6468,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -7120,7 +7120,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -7761,7 +7761,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -8360,7 +8360,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -8968,7 +8968,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -9577,7 +9577,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -10250,7 +10250,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -10853,7 +10853,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -11492,7 +11492,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -12102,7 +12102,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -12834,7 +12834,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -13460,7 +13460,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -14100,7 +14100,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -14941,7 +14941,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -15551,7 +15551,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -16188,7 +16188,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -16809,7 +16809,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -17593,7 +17593,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -18213,7 +18213,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -18875,7 +18875,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -19486,7 +19486,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 1800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -20068,7 +20068,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -20698,7 +20698,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -21334,7 +21334,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -21962,7 +21962,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -22596,7 +22596,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -23251,7 +23251,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -23858,7 +23858,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -24530,7 +24530,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -25151,7 +25151,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -25752,7 +25752,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -26356,7 +26356,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 1400,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -27012,7 +27012,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -27633,7 +27633,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -28242,7 +28242,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -28859,7 +28859,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -29496,7 +29496,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -30245,7 +30245,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -30870,7 +30870,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -31529,7 +31529,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -32176,7 +32176,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -32807,7 +32807,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -33461,7 +33461,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -34118,7 +34118,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -34735,7 +34735,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -35361,7 +35361,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -35986,7 +35986,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -36595,7 +36595,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -37238,7 +37238,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -37894,7 +37894,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -38582,7 +38582,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1200,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -39216,7 +39216,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -39961,7 +39961,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -40605,7 +40605,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -41196,7 +41196,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -41831,7 +41831,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 1000,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -42429,7 +42429,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -43082,7 +43082,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -44703,7 +44703,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -45305,7 +45305,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -45945,7 +45945,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -46598,7 +46598,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -47246,7 +47246,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -47944,7 +47944,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -48560,7 +48560,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -49244,7 +49244,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -49882,7 +49882,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -50541,7 +50541,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -51185,7 +51185,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -51803,7 +51803,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -52449,7 +52449,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -53389,7 +53389,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -54013,7 +54013,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -54814,7 +54814,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -55451,7 +55451,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -56115,7 +56115,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -56745,7 +56745,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -57458,7 +57458,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -58181,7 +58181,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -59133,7 +59133,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -59792,7 +59792,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -60391,7 +60391,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -61049,7 +61049,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -61670,7 +61670,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -62307,7 +62307,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 1800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -63139,7 +63139,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -63778,7 +63778,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -64415,7 +64415,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -65168,7 +65168,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -65809,7 +65809,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -66440,7 +66440,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -67190,7 +67190,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -67808,7 +67808,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -68475,7 +68475,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -69103,7 +69103,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -69731,7 +69731,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -70670,7 +70670,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -71272,7 +71272,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -71920,7 +71920,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -72536,7 +72536,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -73176,7 +73176,7 @@
     "Team": 2,
     "TeamName": "Dire",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -73789,7 +73789,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -74499,7 +74499,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -75311,7 +75311,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -75954,7 +75954,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -76693,7 +76693,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
@@ -77414,7 +77414,7 @@
     "Team": 1,
     "TeamName": "Radiant",
     "VisionDaytimeRange": 1800,
-    "VisionNighttimeRange": 0,
+    "VisionNighttimeRange": 800,
     "Bot": {
       "HeroTypes": null,
       "SoloDesire": 0,
