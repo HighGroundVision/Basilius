@@ -1914,7 +1914,7 @@
     "Id": 5177,
     "Key": "beastmaster_primal_roar",
     "Name": "Primal Roar",
-    "Description": "Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Additionally, Beastmaster and his units gain 30% movement speed for 3 seconds. Upgradable by Aghanim's Scepter.",
+    "Description": "Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Additionally, Beastmaster and his units gain 40% movement speed for 3 seconds. Upgradable by Aghanim's Scepter.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/beastmaster_primal_roar.png",
     "HeroId": 38,
     "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -3544,9 +3544,9 @@
     ],
     "AbilityManaCost": [
       80.0,
-      90.0,
       100.0,
-      110.0
+      120.0,
+      140.0
     ],
     "AbilityModifierSupportValue": 0.35,
     "AbilityModifierSupportBonus": 0.0,
@@ -3870,7 +3870,7 @@
         2.5
       ],
       "duration": [
-        10.0
+        8.0
       ],
       "radius": [
         1200.0
@@ -5004,9 +5004,9 @@
     "AbilitySpecial": {
       "trueshot_ranged_attack_speed": [
         20.0,
-        36.0,
-        52.0,
-        68.0
+        40.0,
+        60.0,
+        80.0
       ]
     }
   },
@@ -14777,9 +14777,9 @@
       0.0
     ],
     "AbilityCooldown": [
-      34.0,
-      28.0,
-      22.0,
+      40.0,
+      32.0,
+      24.0,
       16.0
     ],
     "AbilityDuration": [
@@ -14795,10 +14795,7 @@
       0.0
     ],
     "AbilityManaCost": [
-      60.0,
-      50.0,
-      40.0,
-      30.0
+      60.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -16649,16 +16646,16 @@
       0.0
     ],
     "AbilityCooldown": [
-      21.0,
+      22.0,
       20.0,
-      19.0,
-      18.0
+      18.0,
+      16.0
     ],
     "AbilityDuration": [
-      1.0,
-      1.5,
-      2.0,
-      2.5
+      1.4,
+      1.8,
+      2.2,
+      2.6
     ],
     "AbilityDamage": [
       0.0,
@@ -16773,7 +16770,7 @@
         -80.0
       ],
       "overload_attack_slow": [
-        -50.0
+        -80.0
       ],
       "tooltip_duration": [
         0.6,
@@ -17123,10 +17120,10 @@
         20.0
       ],
       "hp_shield": [
-        100.0,
-        200.0,
-        300.0,
-        400.0
+        110.0,
+        220.0,
+        330.0,
+        440.0
       ],
       "radius": [
         700.0
@@ -18948,9 +18945,9 @@
       ],
       "movement_speed": [
         -11.0,
-        -12.0,
         -13.0,
-        -14.0
+        -15.0,
+        -17.0
       ]
     }
   },
@@ -27750,7 +27747,7 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
-      800
+      1200
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
@@ -27800,9 +27797,9 @@
         6.0
       ],
       "attack_rate": [
-        1.8,
         1.65,
-        1.5
+        1.5,
+        1.35
       ],
       "spawn_interval": [
         0.8
@@ -28044,7 +28041,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      20.0
+      18.0
     ],
     "AbilityDuration": [
       0.0,
@@ -28068,16 +28065,16 @@
     "Linked": null,
     "AbilitySpecial": {
       "mana_steal": [
-        60.0,
         80.0,
         100.0,
-        120.0
+        120.0,
+        140.0
       ],
       "movement_slow": [
-        8.0,
-        16.0,
-        24.0,
-        32.0
+        12.0,
+        20.0,
+        28.0,
+        36.0
       ],
       "slow_duration": [
         1.75
@@ -29118,10 +29115,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      42.0,
-      34.0,
-      26.0,
-      18.0
+      44.0,
+      36.0,
+      28.0,
+      20.0
     ],
     "AbilityDuration": [
       0.0,
@@ -29148,10 +29145,10 @@
     "Linked": null,
     "AbilitySpecial": {
       "bonus_attack_speed": [
-        30.0,
-        50.0,
-        70.0,
-        90.0
+        20.0,
+        40.0,
+        60.0,
+        80.0
       ],
       "lifesteal_percent": [
         40.0,
@@ -30330,9 +30327,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "fade_time": [
-        4.75,
         4.0,
-        3.25,
+        3.5,
+        3.0,
         2.5
       ],
       "radius": [
@@ -30342,10 +30339,10 @@
         0.75
       ],
       "movement_speed": [
-        10.0,
-        15.0,
-        20.0,
-        25.0
+        14.0,
+        18.0,
+        22.0,
+        26.0
       ],
       "bash_duration": [
         0.4,
@@ -31391,10 +31388,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      8.0,
       7.0,
       6.0,
-      5.0
+      5.0,
+      4.0
     ],
     "AbilityDuration": [
       0.0,
@@ -31441,7 +31438,7 @@
     "Id": 5429,
     "Key": "chaos_knight_phantasm",
     "Name": "Phantasm",
-    "Description": "Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms deal 40/70/100% damage, but take 260% damage. Upgradeable by Aghanim's Scepter.\\nDISPEL TYPE: Basic Dispel",
+    "Description": "Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms deal 50/75/100% damage, but take 260% damage. Upgradeable by Aghanim's Scepter.\\nDISPEL TYPE: Basic Dispel",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chaos_knight_phantasm.png",
     "HeroId": 81,
     "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -31511,13 +31508,13 @@
         30.0
       ],
       "outgoing_damage": [
-        -60.0,
-        -30.0,
+        -50.0,
+        -25.0,
         0.0
       ],
       "outgoing_damage_tooltip": [
-        40.0,
-        70.0,
+        50.0,
+        75.0,
         100.0
       ],
       "incoming_damage": [
@@ -33328,10 +33325,10 @@
         1200.0
       ],
       "primary_attribute": [
-        8.0,
-        14.0,
-        20.0,
-        26.0
+        6.0,
+        12.0,
+        18.0,
+        24.0
       ],
       "bonus_night_vision": [
         250.0,
@@ -37236,10 +37233,10 @@
         375.0
       ],
       "poof_damage": [
-        80.0,
-        100.0,
-        120.0,
-        140.0
+        70.0,
+        90.0,
+        110.0,
+        130.0
       ]
     }
   },
@@ -37312,10 +37309,10 @@
     "Linked": null,
     "AbilitySpecial": {
       "health_steal_heroes": [
-        8.0,
-        12.0,
-        16.0,
-        20.0
+        6.0,
+        10.0,
+        14.0,
+        18.0
       ],
       "health_steal_creeps": [
         4.0,
@@ -38070,7 +38067,7 @@
         20.0
       ],
       "max_stacks": [
-        10.0
+        13.0
       ],
       "aura_radius": [
         1200.0
@@ -38350,10 +38347,13 @@
         120.0
       ],
       "leash_duration": [
+        2.75,
+        3.0,
+        3.25,
         3.5
       ],
       "leash_radius": [
-        325.0
+        350.0
       ]
     }
   },
@@ -38361,7 +38361,7 @@
     "Id": 5496,
     "Key": "slark_essence_shift",
     "Name": "Essence Shift",
-    "Description": "Slark steals the life essence of enemy heroes with his attacks, draining each of their attributes and converting them to bonus Agility.",
+    "Description": "Slark steals the life essence of enemy heroes with his attacks, draining each of their attributes and converting them to bonus Agility. If Slark kills an affected enemy hero, he permanently steals 1 Agility.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/slark_essence_shift.png",
     "HeroId": 93,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -38479,6 +38479,8 @@
       0.0
     ],
     "AbilityCooldown": [
+      80.0,
+      70.0,
       60.0
     ],
     "AbilityDuration": [
@@ -42855,10 +42857,10 @@
         550.0
       ],
       "bonus_hero_damage": [
-        30.0,
-        60.0,
-        90.0,
-        120.0
+        35.0,
+        70.0,
+        105.0,
+        140.0
       ],
       "attack_interval": [
         0.2
