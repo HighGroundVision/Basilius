@@ -693,13 +693,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "movement_speed": [
-        6.0
-      ],
-      "bonus_speed": [
-        8.0
-      ],
-      "duration": [
-        5.0
+        20.0
       ]
     },
     "ItemDeclarations": [],
@@ -1835,7 +1829,7 @@
     "Id": 29,
     "Key": "item_boots",
     "Name": null,
-    "Description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "Movement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_boots.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2785,7 +2779,7 @@
         6.0
       ],
       "true_sight_range": [
-        850.0
+        1000.0
       ],
       "sentry_duration_minutes_tooltip": [
         6.0
@@ -3210,7 +3204,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_movement_speed": [
-        32.0
+        35.0
       ],
       "maximum_distance": [
         575.0
@@ -3302,7 +3296,7 @@
     "Id": 50,
     "Key": "item_phase_boots",
     "Name": null,
-    "Description": "<h1>Passive: Phase</h1> When targeting an enemy unit up to 900 range away, you gain 20% increased movement speed on melee heroes, and 10% on ranged heroes, and lets you move through units and turn more quickly.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Phase</h1> Gives 22% increased movement speed on melee heroes, and 10% on ranged heroes, and lets you move through units and turn more quickly for 3 seconds.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_phase_boots.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -3315,8 +3309,11 @@
       "bonus_movement_speed": [
         15.0
       ],
-      "bonus_damage": [
-        0.0
+      "bonus_damage_melee": [
+        18.0
+      ],
+      "bonus_damage_range": [
+        12.0
       ],
       "damage_block_melee": [
         0.0
@@ -3328,7 +3325,7 @@
         0.0
       ],
       "phase_movement_speed": [
-        20.0
+        22.0
       ],
       "phase_movement_speed_range": [
         10.0
@@ -3337,16 +3334,10 @@
         3.0
       ],
       "bonus_attack_speed": [
-        25.0
+        0.0
       ],
       "bonus_armor": [
-        5.0
-      ],
-      "attack_range_limit": [
-        900.0
-      ],
-      "phase_buffer": [
-        0.5
+        6.0
       ]
     },
     "ItemDeclarations": [],
@@ -3971,7 +3962,7 @@
     "Id": 63,
     "Key": "item_power_treads",
     "Name": null,
-    "Description": "<h1>Active: Switch Attribute</h1>Switches between +12 Strength, +12 Agility, or +12 Intelligence.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Switch Attribute</h1>Switches between +10 Strength, +10 Agility, or +10 Intelligence.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_power_treads.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -3985,13 +3976,13 @@
         15.0
       ],
       "bonus_stat": [
-        12.0
+        10.0
       ],
       "bonus_attack_speed": [
-        0.0
+        20.0
       ],
       "bonus_damage": [
-        16.0
+        0.0
       ]
     },
     "ItemDeclarations": [],
@@ -4500,7 +4491,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_strength": [
-        8.0
+        6.0
       ],
       "bonus_agility": [
         3.0
@@ -4606,13 +4597,13 @@
         3.0
       ],
       "bonus_agility": [
-        8.0
+        6.0
       ],
       "bonus_intellect": [
         3.0
       ],
       "bonus_attack_speed": [
-        7.0
+        6.0
       ]
     },
     "ItemDeclarations": [],
@@ -4712,7 +4703,7 @@
         3.0
       ],
       "bonus_intellect": [
-        8.0
+        6.0
       ],
       "bonus_spell_amp": [
         3.0
@@ -4827,7 +4818,7 @@
         2.0
       ],
       "heal_armor_duration": [
-        25.0
+        15.0
       ],
       "heal_radius": [
         1200.0
@@ -4913,7 +4904,7 @@
     "Id": 81,
     "Key": "item_vladmir",
     "Name": null,
-    "Description": "<h1>Passive: Vladmir's Aura</h1>Grants lifesteal (15% for melee heroes, 10% for ranged), 2.5 health regeneration, 1.75 mana regeneration, 15% bonus attack damage, and 4 armor to nearby allies. <br><br>Radius: 1200",
+    "Description": "<h1>Passive: Vladmir's Aura</h1>Grants lifesteal (15% for melee heroes, 10% for ranged), 1.75 mana regeneration, 15% bonus attack damage, and 4 armor to nearby allies. <br><br>Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_vladmir.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4923,12 +4914,6 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "bonus_all_stats": [
-        2.0
-      ],
-      "hp_regen": [
-        2.5
-      ],
       "mana_regen_aura": [
         1.75
       ],
@@ -5028,7 +5013,7 @@
     "Id": 86,
     "Key": "item_buckler",
     "Name": null,
-    "Description": "<h1>Active: Armor Bonus</h1> Gives +2 armor to all allied units.  Lasts 25 seconds on heroes, 30 seconds on units.<br><br>Radius: 1200",
+    "Description": "<h1>Active: Armor Bonus</h1> Gives +2 armor to all allied units.  Lasts 15 seconds on heroes, 30 seconds on units.<br><br>Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_buckler.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -5054,7 +5039,7 @@
         30.0
       ],
       "bonus_aoe_duration_hero": [
-        25.0
+        15.0
       ]
     },
     "ItemDeclarations": [],
@@ -5256,11 +5241,11 @@
       "bonus_health": [
         200.0
       ],
+      "bonus_mana": [
+        325.0
+      ],
       "health_regen": [
         4.0
-      ],
-      "mana_regen": [
-        3.0
       ],
       "magic_resist": [
         15.0
@@ -5938,7 +5923,7 @@
         30.0
       ],
       "bonus_damage": [
-        60.0
+        68.0
       ],
       "bonus_mana_regen": [
         5.5
@@ -6180,7 +6165,7 @@
         5.0
       ],
       "bonus_movement_speed": [
-        6.0
+        20.0
       ],
       "cyclone_duration": [
         2.5
@@ -7297,7 +7282,7 @@
     "Id": 106,
     "Key": "item_necronomicon",
     "Name": null,
-    "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700/800/900<br>Damage: 75/100/125<br>Mana Break Damage: 30/40/50<br>Last Will Damage: 550/675/800<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700/800/900<br>Damage: 60/90/120<br>Aura Move Speed: 5/7/9<br>Aura Attack Speed: 5/7/9<br>Aura Radius: 1200",
+    "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700/800/900<br>Damage: 75/100/125<br>Mana Break Damage: 30/40/50<br>Last Will Damage: 600/700/800<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700/800/900<br>Damage: 60/90/120<br>Aura Move Speed: 5/7/9<br>Aura Attack Speed: 5/7/9<br>Aura Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_necronomicon.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -7341,8 +7326,8 @@
         50.0
       ],
       "explosion": [
-        550.0,
-        675.0,
+        600.0,
+        700.0,
         800.0
       ],
       "warrior_truesight": [
@@ -7412,7 +7397,7 @@
     "Id": 193,
     "Key": "item_necronomicon_2",
     "Name": null,
-    "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700/800/900<br>Damage: 75/100/125<br>Mana Break Damage: 30/40/50<br>Last Will Damage: 550/675/800<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700/800/900<br>Damage: 60/90/120<br>Aura Move Speed: 5/7/9<br>Aura Attack Speed: 5/10/15<br>Aura Radius: 1200",
+    "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700/800/900<br>Damage: 75/100/125<br>Mana Break Damage: 30/40/50<br>Last Will Damage: 600/700/800<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700/800/900<br>Damage: 60/90/120<br>Aura Move Speed: 5/7/9<br>Aura Attack Speed: 5/10/15<br>Aura Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_necronomicon_2.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -7456,8 +7441,8 @@
         50.0
       ],
       "explosion": [
-        550.0,
-        675.0,
+        600.0,
+        700.0,
         800.0
       ],
       "warrior_truesight": [
@@ -7527,7 +7512,7 @@
     "Id": 194,
     "Key": "item_necronomicon_3",
     "Name": null,
-    "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700/800/900<br>Damage: 75/100/125<br>Mana Break Damage: 30/40/50<br>Last Will Damage: 550/675/800<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700/800/900<br>Damage: 60/90/120<br>Aura Move Speed: 5/7/9<br>Aura Attack Speed: 5/10/15<br>Aura Radius: 1200",
+    "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700/800/900<br>Damage: 75/100/125<br>Mana Break Damage: 30/40/50<br>Last Will Damage: 600/700/800<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700/800/900<br>Damage: 60/90/120<br>Aura Move Speed: 5/7/9<br>Aura Attack Speed: 5/10/15<br>Aura Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_necronomicon_3.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -7571,8 +7556,8 @@
         50.0
       ],
       "explosion": [
-        550.0,
-        675.0,
+        600.0,
+        700.0,
         800.0
       ],
       "warrior_truesight": [
@@ -8386,7 +8371,7 @@
     "Id": 121,
     "Key": "item_bloodstone",
     "Name": null,
-    "Description": "<h1>Active: Bloodpact</h1> Converts 60% of your current mana to health regeneration over 2 seconds.\\n <h1>Passive: Mana Battery</h1>Each charge provides 0.25 HP and MP regen. Nearby kills provide 1 charges. Dying causes you to lose 3 charges. Starts with 12 charges.",
+    "Description": "<h1>Active: Bloodpact</h1> Converts 30% of your max mana to health regeneration over 2 seconds.\\n <h1>Passive: Mana Battery</h1>Each charge provides 0.3 HP and MP regen. Nearby kills provide 1 charges. Dying causes you to lose 3 charges. Starts with 14 charges.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_bloodstone.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -8412,7 +8397,7 @@
         200.0
       ],
       "regen_per_charge": [
-        0.25
+        0.3
       ],
       "death_charges": [
         3.0
@@ -8424,10 +8409,10 @@
         1600.0
       ],
       "initial_charges_tooltip": [
-        12.0
+        14.0
       ],
       "mana_cost_percentage": [
-        60.0
+        30.0
       ],
       "restore_duration": [
         2.0
@@ -8728,7 +8713,7 @@
     "Id": 223,
     "Key": "item_meteor_hammer",
     "Name": null,
-    "Description": "<h1>Active: Meteor Hammer</h1> CHANNELED - After a successful channel, summons a meteor that strikes a 300 AoE, stunning enemies for 2 seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for 6 seconds.<BR><BR>Building Impact Damage: 75 <BR>Building Over Time Damage: 50 <BR><BR>Non-Building Impact Damage: 150 <BR>Non-Building Over Time Damage: 90 <BR><BR>Channel Duration: 2.5 seconds.<BR>Landing Time: 0.5 seconds.",
+    "Description": "<h1>Active: Meteor Hammer</h1> CHANNELED - After a successful channel, summons a meteor that strikes a 315 AoE, stunning enemies for 2 seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for 6 seconds.<BR><BR>Building Impact Damage: 75 <BR>Building Over Time Damage: 50 <BR><BR>Non-Building Impact Damage: 150 <BR>Non-Building Over Time Damage: 90 <BR><BR>Channel Duration: 2.5 seconds.<BR>Landing Time: 0.5 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_meteor_hammer.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -8769,7 +8754,7 @@
         0.5
       ],
       "impact_radius": [
-        300.0
+        315.0
       ],
       "max_duration": [
         2.5
@@ -8861,7 +8846,7 @@
     "Id": 225,
     "Key": "item_nullifier",
     "Name": null,
-    "Description": "<h1>Active: Nullify</h1> Dispels the target and mutes them for 5 seconds. Anytime the muted target is attacked, it will be slowed by 100% for 0.4 seconds.<br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Nullify</h1> Dispels the target and mutes them for 6 seconds. Anytime the muted target is attacked, it will be slowed by 100% for 0.4 seconds.<br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_nullifier.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -8881,7 +8866,7 @@
         6.0
       ],
       "mute_duration": [
-        5.0
+        6.0
       ],
       "projectile_speed": [
         750.0
@@ -8973,7 +8958,7 @@
     "Id": 256,
     "Key": "item_aeon_disk",
     "Name": null,
-    "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below 70%, a strong dispel is applied and you gain a 2.5 second buff that provides +50% Status Resistance and causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage.",
+    "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below 70%, a strong dispel is applied and you gain a 2.5 second buff that provides +75% Status Resistance and causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_aeon_disk.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -8993,7 +8978,7 @@
         70.0
       ],
       "status_resistance": [
-        50.0
+        75.0
       ],
       "buff_duration": [
         2.5
@@ -9314,7 +9299,7 @@
     "Id": 267,
     "Key": "item_spirit_vessel",
     "Name": null,
-    "Description": "<h1>Active: Soul Release</h1> When used against enemies, it reduces health by 4.5% of current health per second, and reduces HP regeneration and healing by 70%. Deals 25 damage per second. <br><br>When used on allies, it provides 30 health regeneration per second. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.<br><br>Cast Range: 950 ",
+    "Description": "<h1>Active: Soul Release</h1> When used against enemies, it reduces health by 5% of current health per second, and reduces HP regeneration and healing by 70%. Deals 25 damage per second. <br><br>When used on allies, it provides 30 health regeneration per second. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.<br><br>Cast Range: 950 ",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_spirit_vessel.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -9328,7 +9313,7 @@
         250.0
       ],
       "bonus_movement_speed": [
-        6.0
+        20.0
       ],
       "bonus_mana_regen": [
         1.5
@@ -9364,7 +9349,7 @@
         70.0
       ],
       "enemy_hp_drain": [
-        4.5
+        5.0
       ]
     },
     "ItemDeclarations": [],
@@ -10613,7 +10598,7 @@
     "Id": 145,
     "Key": "item_bfury",
     "Name": null,
-    "Description": "<h1>Active: Chop Tree/Ward</h1> Destroy a target tree or ward.<br><br>Tree Cast Range: 350<br>Ward Cast Range: 450 \\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 60% for melee heroes, and 25% for ranged. \\n<h1>Passive: Cleave</h1> Deals 60% of attack damage as physical damage in a cone up to 650 around the target. (Melee Only)",
+    "Description": "<h1>Active: Chop Tree/Ward</h1> Destroy a target tree or ward.<br><br>Tree Cast Range: 350<br>Ward Cast Range: 450 \\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 24 for melee heroes, and 7 for ranged. \\n<h1>Passive: Cleave</h1> Deals 60% of attack damage as physical damage in a cone up to 650 around the target. (Melee Only)",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_bfury.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10636,10 +10621,10 @@
         60.0
       ],
       "quelling_bonus": [
-        150.0
+        24.0
       ],
       "quelling_bonus_ranged": [
-        125.0
+        7.0
       ],
       "cleave_starting_width": [
         150.0
@@ -10655,12 +10640,6 @@
       ],
       "cast_range_ward": [
         450.0
-      ],
-      "tooltip_quelling_bonus": [
-        60.0
-      ],
-      "tooltip_quelling_bonus_ranged": [
-        25.0
       ]
     },
     "ItemDeclarations": [],
@@ -10763,10 +10742,10 @@
         10.0
       ],
       "bonus_attack_speed": [
-        10.0
+        12.0
       ],
       "bonus_movement_speed": [
-        8.0
+        20.0
       ],
       "images_count": [
         2.0
@@ -11471,7 +11450,7 @@
         16.0
       ],
       "movement_speed_percent_bonus": [
-        12.0
+        30.0
       ],
       "bonus_damage": [
         12.0
@@ -11689,7 +11668,7 @@
         16.0
       ],
       "movement_speed_percent_bonus": [
-        12.0
+        30.0
       ],
       "spell_amp": [
         12.0
@@ -12585,7 +12564,7 @@
         12.0
       ],
       "movement_speed_percent_bonus": [
-        8.0
+        20.0
       ]
     },
     "ItemDeclarations": [],
@@ -12668,7 +12647,7 @@
     "Id": 172,
     "Key": "item_mask_of_madness",
     "Name": null,
-    "Description": "<h1>Active: Berserk</h1>Gives 110 attack speed and 12% movement speed, but reduces your armor by 8 and silences you.  Lasts 8 seconds.\\n<h1>Passive: Lifesteal</h1>Heals the attacker for 15% of attack damage dealt.",
+    "Description": "<h1>Active: Berserk</h1>Gives 110 attack speed and 25 movement speed, but reduces your armor by 8 and silences you.  Lasts 8 seconds.\\n<h1>Passive: Lifesteal</h1>Heals the attacker for 20% of attack damage dealt.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mask_of_madness.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12685,13 +12664,13 @@
         10.0
       ],
       "lifesteal_percent": [
-        15.0
+        20.0
       ],
       "berserk_bonus_attack_speed": [
         110.0
       ],
       "berserk_bonus_movement_speed": [
-        12.0
+        25.0
       ],
       "berserk_armor_reduction": [
         8.0
@@ -12901,7 +12880,7 @@
     "Id": 176,
     "Key": "item_ethereal_blade",
     "Name": null,
-    "Description": "<h1>Active: Ether Blast</h1>Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and -40% more vulnerable to magic damage.  Lasts for 4 seconds on allies and 3 seconds on enemies.<br><br>  Enemy targets are also slowed by -80%, and take 2x your primary attribute + 75 as magical damage.<br><br>Range: 800",
+    "Description": "<h1>Active: Ether Blast</h1>Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and -40% more vulnerable to magic damage.  Lasts for 4 seconds on allies and 4 seconds on enemies.<br><br>  Enemy targets are also slowed by -80%, and take 2x your primary attribute + 75 as magical damage.<br><br>Range: 800",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_ethereal_blade.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12924,7 +12903,7 @@
         -80.0
       ],
       "duration": [
-        3.0
+        4.0
       ],
       "blast_agility_multiplier": [
         2.0
@@ -13131,7 +13110,7 @@
     "Id": 180,
     "Key": "item_arcane_boots",
     "Name": null,
-    "Description": "<h1>Active: Replenish Mana</h1>Restores 160 mana to all nearby allies.<br><br>Radius: 1200\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Replenish Mana</h1>Restores 160 mana to all nearby allies.<br><br>Radius: 1200\\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_arcane_boots.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13459,7 +13438,7 @@
     "Id": 185,
     "Key": "item_ancient_janggo",
     "Name": null,
-    "Description": "<h1>Active: Endurance</h1> Gives +35 attack speed and +13% movement speed to nearby allies for 6 seconds. <br><br>Radius: 1200\\n<h1>Passive: Swiftness Aura</h1>Gives 6 movement speed to nearby allies. <br><br>Radius: 1200",
+    "Description": "<h1>Active: Endurance</h1> Gives +35 attack speed and +13% movement speed to nearby allies for 6 seconds. <br><br>Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_ancient_janggo.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13481,8 +13460,8 @@
       "bonus_mana_regen": [
         1.5
       ],
-      "bonus_aura_movement_speed": [
-        6.0
+      "bonus_movement_speed": [
+        20.0
       ],
       "bonus_attack_speed_pct": [
         35.0
@@ -13700,7 +13679,7 @@
         10.0
       ],
       "self_movement_speed": [
-        6.0
+        20.0
       ],
       "bonus_mana_regen_pct": [
         1.5
@@ -14026,7 +14005,7 @@
     "Id": 231,
     "Key": "item_guardian_greaves",
     "Name": null,
-    "Description": "<h1>Active: Mend</h1>Restores 300 health and 200 mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: 1200<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n<h1>Passive: Guardian Aura</h1> Provides nearby allies with 4.5 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 16 health regeneration and 15 armor.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Mend</h1>Restores 300 health and 200 mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: 1200<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n<h1>Passive: Guardian Aura</h1> Provides nearby allies with 4.5 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 16 health regeneration and 15 armor.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_guardian_greaves.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14737,7 +14716,7 @@
     "Id": 214,
     "Key": "item_tranquil_boots",
     "Name": null,
-    "Description": "<h1>Passive: Break</h1> Whenever you attack a hero or are attacked by any unit, the bonus 16 HP regen is lost and the movement speed bonus is reduced to 20% for 13 seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Passive: Break</h1> Whenever you attack a hero or are attacked by any unit, the bonus 16 HP regen is lost and the movement speed bonus is reduced to 18% for 13 seconds.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_tranquil_boots.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14748,7 +14727,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_movement_speed": [
-        28.0
+        26.0
       ],
       "bonus_armor": [
         0.0
@@ -14775,7 +14754,7 @@
         20.0
       ],
       "broken_movement_speed": [
-        20.0
+        18.0
       ]
     },
     "ItemDeclarations": [],

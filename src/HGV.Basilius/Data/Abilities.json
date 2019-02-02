@@ -159,9 +159,9 @@
       0.0
     ],
     "AbilityManaCost": [
-      65.0,
-      80.0,
-      95.0,
+      50.0,
+      70.0,
+      90.0,
       110.0
     ],
     "AbilityModifierSupportValue": 1.0,
@@ -203,7 +203,7 @@
     "Id": 5347,
     "Key": "ancient_apparition_chilling_touch",
     "Name": "Chilling Touch",
-    "Description": "Enchances your attacks with heavy magic damage and slow. Gives increases attack range for this attack.",
+    "Description": "Enhances your attacks with heavy magic damage and slow. Grants increased range for this attack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/ancient_apparition_chilling_touch.png",
     "HeroId": 68,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -274,9 +274,9 @@
     "AbilitySpecial": {
       "damage": [
         50.0,
-        85.0,
-        120.0,
-        155.0
+        90.0,
+        130.0,
+        170.0
       ],
       "slow": [
         100.0
@@ -686,7 +686,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      40.0
+      45.0,
+      50.0,
+      55.0,
+      60.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -701,7 +704,7 @@
         45.0
       ],
       "duration": [
-        1.4
+        1.2
       ]
     }
   },
@@ -1012,9 +1015,9 @@
       0.0
     ],
     "AbilityDamage": [
-      75.0,
-      110.0,
-      145.0,
+      60.0,
+      100.0,
+      140.0,
       180.0
     ],
     "AbilityManaCost": [
@@ -1195,10 +1198,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      70.0,
-      90.0,
-      110.0,
-      130.0
+      50.0,
+      75.0,
+      100.0,
+      125.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -1213,10 +1216,10 @@
         60.0
       ],
       "attack_speed_reduction": [
-        40.0,
-        60.0,
-        80.0,
-        100.0
+        50.0,
+        75.0,
+        100.0,
+        125.0
       ],
       "duration": [
         8.0
@@ -1441,9 +1444,7 @@
       0.4
     ],
     "AbilityChannelTime": [
-      5.0,
-      5.0,
-      5.0
+      6.0
     ],
     "AbilityCooldown": [
       120.0,
@@ -1480,9 +1481,7 @@
         5.0
       ],
       "fiend_grip_duration": [
-        5.0,
-        5.0,
-        5.0
+        6.0
       ],
       "fiend_grip_damage": [
         100.0,
@@ -1812,10 +1811,10 @@
         60.0
       ],
       "hawk_hp_tooltip": [
-        300.0,
-        450.0,
-        600.0,
-        750.0
+        150.0,
+        200.0,
+        250.0,
+        300.0
       ],
       "hawk_speed_tooltip": [
         300.0,
@@ -1903,10 +1902,10 @@
         1200.0
       ],
       "bonus_attack_speed": [
-        15.0,
-        25.0,
-        35.0,
-        45.0
+        10.0,
+        20.0,
+        30.0,
+        40.0
       ]
     }
   },
@@ -2499,7 +2498,7 @@
     "Id": 7306,
     "Key": "chen_divine_favor",
     "Name": "Divine Favor",
-    "Description": "Provides increased health regeneration, amplifies all health restore by a percentage, and boosts damage.",
+    "Description": "Provides increased health regeneration, amplifies all health restore by a percentage, and boosts damage. Provides double bonus damage for non-hero targets.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chen_divine_favor.png",
     "HeroId": 66,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -2555,7 +2554,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      110.0
+      70.0,
+      80.0,
+      90.0,
+      100.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -2573,13 +2575,13 @@
         25.0
       ],
       "damage_bonus": [
-        10.0,
-        20.0,
-        40.0,
-        80.0
+        12.0,
+        24.0,
+        36.0,
+        48.0
       ],
       "duration": [
-        12.0
+        14.0
       ]
     }
   },
@@ -2735,9 +2737,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "heal_amount": [
-        250.0,
-        400.0,
-        550.0
+        300.0,
+        450.0,
+        600.0
       ],
       "ancient_creeps_scepter": [
         1.0,
@@ -3001,16 +3003,16 @@
     "Linked": null,
     "AbilitySpecial": {
       "mana_regen": [
-        1.2,
-        1.7,
-        2.2,
-        2.7
+        1.0,
+        1.5,
+        2.0,
+        2.5
       ],
       "mana_regen_self": [
-        2.4,
-        4.4,
-        6.4,
-        8.4
+        2.5,
+        4.5,
+        6.5,
+        8.5
       ]
     }
   },
@@ -3018,7 +3020,7 @@
     "Id": 5129,
     "Key": "crystal_maiden_freezing_field",
     "Name": "Freezing Field",
-    "Description": "CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage.  Lasts 10 seconds. Upgradable by Aghanim's Scepter.",
+    "Description": "CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage. Grants bonus armor while channeling. Lasts 10 seconds. Upgradable by Aghanim's Scepter.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/crystal_maiden_freezing_field.png",
     "HeroId": 5,
     "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -3079,6 +3081,9 @@
       "explosion_radius": [
         300.0
       ],
+      "bonus_armor": [
+        10.0
+      ],
       "explosion_interval": [
         0.1
       ],
@@ -3098,9 +3103,9 @@
         785.0
       ],
       "damage": [
-        105.0,
-        170.0,
-        250.0
+        125.0,
+        200.0,
+        275.0
       ],
       "duration_tooltip": [
         10.0
@@ -3362,10 +3367,10 @@
         6.0
       ],
       "speed_boost": [
-        36.0,
-        54.0,
-        72.0,
-        90.0
+        30.0,
+        45.0,
+        60.0,
+        75.0
       ]
     }
   },
@@ -3484,7 +3489,7 @@
     "Id": 5233,
     "Key": "dazzle_poison_touch",
     "Name": "Poison Touch",
-    "Description": "Releases a cone of poisonous magic that strikes multiple enemy units. Deals damage over time and slows the targets. Anytime the targets get attacked, the debuff duration is refreshed.",
+    "Description": "Releases a cone of poison that strikes multiple enemy units. Deals damage over time and slows the targets. Anytime the targets get attacked, the debuff duration is refreshed.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/dazzle_poison_touch.png",
     "HeroId": 50,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -3506,10 +3511,10 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
+      500,
       600,
       700,
-      800,
-      900
+      800
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
@@ -3543,9 +3548,9 @@
       0.0
     ],
     "AbilityManaCost": [
-      80.0,
-      100.0,
+      110.0,
       120.0,
+      130.0,
       140.0
     ],
     "AbilityModifierSupportValue": 0.35,
@@ -3600,10 +3605,10 @@
         7.0
       ],
       "range_tooltip": [
+        500.0,
         600.0,
         700.0,
-        800.0,
-        900.0
+        800.0
       ]
     }
   },
@@ -3651,9 +3656,9 @@
     ],
     "AbilityCooldown": [
       60.0,
-      45.0,
-      30.0,
-      15.0
+      46.0,
+      32.0,
+      18.0
     ],
     "AbilityDuration": [
       5.0,
@@ -3720,7 +3725,7 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
-      900
+      800
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
@@ -3736,10 +3741,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      13.0,
-      11.0,
-      9.0,
-      7.0
+      14.0,
+      12.0,
+      10.0,
+      8.0
     ],
     "AbilityDuration": [
       0.0,
@@ -3860,8 +3865,8 @@
     "Linked": null,
     "AbilitySpecial": {
       "cooldown_reduction": [
-        30.0,
-        40.0,
+        20.0,
+        35.0,
         50.0
       ],
       "armor_reduction": [
@@ -4130,9 +4135,9 @@
     "AbilitySpecial": {
       "bonus_health_regen": [
         4.0,
-        7.0,
-        10.0,
-        13.0
+        8.0,
+        12.0,
+        16.0
       ],
       "bonus_armor": [
         3.0,
@@ -4238,7 +4243,7 @@
         -30.0
       ],
       "frost_bonus_attack_speed": [
-        -20.0
+        -30.0
       ],
       "frost_duration": [
         3.0,
@@ -4337,10 +4342,10 @@
         80.0
       ],
       "regen": [
-        5.0,
-        10.0,
-        15.0,
-        20.0
+        3.0,
+        8.0,
+        13.0,
+        18.0
       ]
     }
   },
@@ -4386,10 +4391,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      55.0,
       50.0,
       45.0,
-      40.0
+      40.0,
+      35.0
     ],
     "AbilityDuration": [
       0.0,
@@ -5014,7 +5019,7 @@
     "Id": 5022,
     "Key": "drow_ranger_marksmanship",
     "Name": "Marksmanship",
-    "Description": "Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their armor entirely. Instantly kills creeps. This ability is disabled if there is an enemy hero within 400 range.  Upgradable by Aghanim's Scepter.",
+    "Description": "Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their armor entirely. Instantly kills creeps and deals bonus proc physical damage to heroes. This ability is disabled if there is an enemy hero within 400 range.  Upgradable by Aghanim's Scepter.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/drow_ranger_marksmanship.png",
     "HeroId": 6,
     "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -5082,6 +5087,9 @@
         20.0,
         30.0,
         40.0
+      ],
+      "bonus_damage": [
+        120.0
       ],
       "split_count_scepter": [
         2.0
@@ -5158,9 +5166,9 @@
       260.0
     ],
     "AbilityManaCost": [
-      125.0,
-      140.0,
-      155.0,
+      110.0,
+      130.0,
+      150.0,
       170.0
     ],
     "AbilityModifierSupportValue": 1.0,
@@ -5559,9 +5567,9 @@
       0.0
     ],
     "AbilityCooldown": [
-      55.0,
-      40.0,
-      25.0,
+      22.0,
+      18.0,
+      14.0,
       10.0
     ],
     "AbilityDuration": [
@@ -5577,10 +5585,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      65.0,
-      65.0,
-      65.0,
-      65.0
+      40.0,
+      50.0,
+      60.0,
+      70.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -5589,9 +5597,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "dominate_duration": [
-        50.0,
-        60.0,
-        70.0,
+        26.0,
+        44.0,
+        62.0,
         80.0
       ],
       "slow_movement_speed": [
@@ -6043,10 +6051,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      75.0,
-      95.0,
-      115.0,
-      135.0
+      50.0,
+      80.0,
+      110.0,
+      140.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -6105,9 +6113,9 @@
       0.3
     ],
     "AbilityChannelTime": [
+      3.5,
       4.0,
-      4.0,
-      4.0
+      4.5
     ],
     "AbilityCooldown": [
       200.0,
@@ -6323,7 +6331,7 @@
     "Linked": null,
     "AbilitySpecial": {
       "radius": [
-        725.0
+        775.0
       ],
       "duration": [
         6.0,
@@ -6412,15 +6420,15 @@
       ],
       "chance_pct": [
         10.0,
-        15.0,
-        20.0,
-        25.0
+        14.0,
+        18.0,
+        22.0
       ],
       "bonus_damage": [
+        25.0,
         30.0,
-        40.0,
-        50.0,
-        60.0
+        35.0,
+        40.0
       ]
     }
   },
@@ -6854,7 +6862,7 @@
     "Linked": null,
     "AbilitySpecial": {
       "max_targets": [
-        16.0
+        18.0
       ],
       "damage": [
         110.0,
@@ -6971,7 +6979,7 @@
     "Id": 5029,
     "Key": "juggernaut_healing_ward",
     "Name": "Healing Ward",
-    "Description": "Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at 420 movement speed after being summoned.  Lasts 25 seconds.",
+    "Description": "Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at 400 movement speed after being summoned.  Lasts 25 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/juggernaut_healing_ward.png",
     "HeroId": 8,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -7043,7 +7051,7 @@
         500.0
       ],
       "healing_ward_movespeed_tooltip": [
-        420.0
+        400.0
       ],
       "healing_ward_duration_tooltip": [
         25.0
@@ -7175,9 +7183,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      130.0,
-      120.0,
-      110.0
+      130.0
     ],
     "AbilityDuration": [
       0.0,
@@ -7207,8 +7213,8 @@
       ],
       "bonus_damage": [
         30.0,
-        45.0,
-        60.0
+        40.0,
+        50.0
       ],
       "duration": [
         3.0,
@@ -7421,7 +7427,7 @@
         100.0
       ],
       "cleave_damage": [
-        150.0
+        165.0
       ]
     }
   },
@@ -7820,10 +7826,10 @@
       10.0
     ],
     "AbilityDamage": [
-      9.0,
-      18.0,
-      27.0,
-      36.0
+      11.0,
+      22.0,
+      33.0,
+      44.0
     ],
     "AbilityManaCost": [
       95.0,
@@ -8133,7 +8139,7 @@
     "Id": 5136,
     "Key": "lich_frost_shield",
     "Name": "Frost Shield",
-    "Description": "Applies a magical frost shield around you, reducing damage from a limited number of attacks against you. While the shield is active, ice magic will be launched towards the nearest enemy unit every 1 seconds, doing minor damage and slowing.",
+    "Description": "Applies a magical frost shield around you, reducing damage from attacks against you. While the shield is active, ice magic will be affect nearby enemy units every 1 seconds, doing minor damage and slowing.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/lich_frost_shield.png",
     "HeroId": 31,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -8208,6 +8214,9 @@
         60.0
       ],
       "movement_slow": [
+        20.0,
+        25.0,
+        30.0,
         35.0
       ],
       "slow_duration": [
@@ -8392,8 +8401,8 @@
     "Linked": null,
     "AbilitySpecial": {
       "damage": [
-        300.0,
-        400.0,
+        250.0,
+        375.0,
         500.0
       ],
       "jumps": [
@@ -9935,7 +9944,7 @@
     "Linked": null,
     "AbilitySpecial": {
       "arrow_speed": [
-        857.0
+        950.0
       ],
       "arrow_width": [
         115.0
@@ -10211,9 +10220,9 @@
         200.0
       ],
       "charge_restore_time": [
-        14.0,
+        17.0,
+        15.0,
         13.0,
-        12.0,
         11.0
       ]
     }
@@ -10842,9 +10851,9 @@
     ],
     "AbilityDamage": [
       100.0,
-      140.0,
-      180.0,
-      220.0
+      150.0,
+      200.0,
+      250.0
     ],
     "AbilityManaCost": [
       100.0,
@@ -11038,9 +11047,9 @@
       ],
       "health_regen": [
         2.0,
-        3.0,
-        4.0,
-        5.0
+        3.5,
+        5.0,
+        6.5
       ],
       "mana_regen": [
         3.0,
@@ -11562,10 +11571,10 @@
     "Linked": null,
     "AbilitySpecial": {
       "presence_armor_reduction": [
-        -3.0,
         -4.0,
         -5.0,
-        -6.0
+        -6.0,
+        -7.0
       ],
       "presence_radius": [
         1200.0
@@ -11928,10 +11937,10 @@
     "Linked": null,
     "AbilitySpecial": {
       "bonus_movement_speed_pct_night": [
-        20.0,
-        25.0,
-        30.0,
-        35.0
+        22.0,
+        28.0,
+        34.0,
+        40.0
       ],
       "bonus_attack_speed_night": [
         30.0,
@@ -11945,7 +11954,7 @@
     "Id": 5278,
     "Key": "night_stalker_darkness",
     "Name": "Dark Ascension",
-    "Description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Nightstalker gains flight and bonus damage during this time. Has 900 unobstructed vision.  Upgradable by Aghanim's Scepter.",
+    "Description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Nightstalker gains flight and bonus damage during this time. Has unobstructed vision.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/night_stalker_darkness.png",
     "HeroId": 60,
     "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -11960,7 +11969,7 @@
     "AbilityUnitDamageType": null,
     "IsSkill": false,
     "IsUltimate": true,
-    "HasScepterUpgrade": true,
+    "HasScepterUpgrade": false,
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
@@ -11979,8 +11988,8 @@
       0.0
     ],
     "AbilityCooldown": [
-      160.0,
       140.0,
+      130.0,
       120.0
     ],
     "AbilityDuration": [
@@ -12013,9 +12022,6 @@
         50.0,
         100.0,
         150.0
-      ],
-      "vision_range": [
-        900.0
       ]
     }
   },
@@ -12103,7 +12109,7 @@
     "Id": 5264,
     "Key": "omniknight_repel",
     "Name": "Heavenly Grace",
-    "Description": "Creates a divine barrier around an ally which grants them increased Status Resistance and Health Regeneration. DISPEL TYPE: Strong Dispel",
+    "Description": "Creates a divine barrier around an ally which grants them increased Status Resistance, Strength and Health Regeneration. DISPEL TYPE: Strong Dispel",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/omniknight_repel.png",
     "HeroId": 57,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -12156,7 +12162,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      75.0
+      80.0,
+      90.0,
+      100.0,
+      110.0
     ],
     "AbilityModifierSupportValue": 3.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -12165,13 +12174,16 @@
     "Linked": null,
     "AbilitySpecial": {
       "duration": [
-        8.0
+        10.0
       ],
       "status_resistance": [
-        50.0,
-        60.0,
-        70.0,
-        80.0
+        50.0
+      ],
+      "bonus_str": [
+        7.0,
+        14.0,
+        21.0,
+        28.0
       ],
       "hp_regen": [
         8.0,
@@ -12384,10 +12396,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      14.0,
       13.0,
       12.0,
-      11.0
+      11.0,
+      10.0
     ],
     "AbilityDuration": [
       0.0,
@@ -12682,8 +12694,12 @@
       "DOTA_ABILITY_BEHAVIOR_POINT"
     ],
     "AbilityUnitTargetTeam": null,
-    "AbilityUnitTargetType": [],
-    "AbilityUnitTargetFlags": [],
+    "AbilityUnitTargetType": [
+      "DOTA_UNIT_TARGET_HERO"
+    ],
+    "AbilityUnitTargetFlags": [
+      "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+    ],
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
     "SpellDispellableType": "SPELL_DISPELLABLE_NO",
     "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
@@ -12749,8 +12765,8 @@
         0.5
       ],
       "coil_stun_duration": [
-        1.5,
-        2.25,
+        1.8,
+        2.4,
         3.0
       ],
       "coil_break_damage": [
@@ -13524,7 +13540,8 @@
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
     "AbilityBehaviors": [
       "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+      "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityUnitTargetTeam": null,
     "AbilityUnitTargetType": [],
@@ -13542,10 +13559,10 @@
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
-      0.3,
-      0.3,
-      0.3,
-      0.3
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
     "AbilityChannelTime": [
       0.0,
@@ -13756,6 +13773,9 @@
       200.0
     ],
     "AbilityManaCost": [
+      35.0,
+      40.0,
+      45.0,
       50.0
     ],
     "AbilityModifierSupportValue": 1.0,
@@ -14103,7 +14123,7 @@
     "Id": 5084,
     "Key": "razor_unstable_current",
     "Name": "Unstable Current",
-    "Description": "Increases the movement speed. Passively hits every unit in the area for some damage.",
+    "Description": "Passively increases your movement speed and occasionally hits every unit in the area for some damage.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/razor_unstable_current.png",
     "HeroId": 15,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -14688,9 +14708,9 @@
       0.0
     ],
     "AbilityDamage": [
-      85.0,
-      150.0,
-      215.0,
+      100.0,
+      160.0,
+      220.0,
       280.0
     ],
     "AbilityManaCost": [
@@ -14709,9 +14729,9 @@
         150.0
       ],
       "burrow_duration": [
-        1.9,
+        1.6,
+        1.8,
         2.0,
-        2.1,
         2.2
       ],
       "burrow_speed": [
@@ -14778,9 +14798,9 @@
     ],
     "AbilityCooldown": [
       40.0,
-      32.0,
-      24.0,
-      16.0
+      34.0,
+      28.0,
+      22.0
     ],
     "AbilityDuration": [
       20.0,
@@ -14807,9 +14827,9 @@
         0.5
       ],
       "sand_storm_radius": [
-        350.0,
-        450.0,
-        550.0,
+        425.0,
+        500.0,
+        575.0,
         650.0
       ],
       "AbilityDuration": [
@@ -14819,10 +14839,10 @@
         35.0
       ],
       "sand_storm_damage": [
-        25.0,
-        50.0,
-        75.0,
-        100.0
+        20.0,
+        40.0,
+        60.0,
+        80.0
       ],
       "fade_delay": [
         0.7
@@ -15017,8 +15037,6 @@
         10.0
       ],
       "epicenter_damage": [
-        110.0,
-        110.0,
         110.0
       ],
       "epicenter_slow": [
@@ -15894,6 +15912,9 @@
       "proc_chance": [
         40.0
       ],
+      "knockback_distance": [
+        10.0
+      ],
       "slow": [
         -100.0
       ]
@@ -16145,10 +16166,10 @@
         240.0
       ],
       "bonus_movespeed": [
-        8.0,
-        12.0,
-        16.0,
-        20.0
+        10.0,
+        14.0,
+        18.0,
+        22.0
       ],
       "dagger_path_duration": [
         12.0,
@@ -16500,13 +16521,13 @@
       ],
       "illusion_damage_outgoing": [
         -60.0,
-        -50.0,
-        -40.0
+        -40.0,
+        -20.0
       ],
       "tooltip_outgoing": [
         40.0,
-        50.0,
-        60.0
+        60.0,
+        80.0
       ],
       "illusion_damage_incoming": [
         100.0,
@@ -16598,9 +16619,9 @@
       ],
       "static_remnant_damage": [
         120.0,
-        160.0,
-        200.0,
-        240.0
+        170.0,
+        220.0,
+        270.0
       ]
     }
   },
@@ -16664,7 +16685,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      85.0
+      60.0,
+      70.0,
+      80.0,
+      90.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -16684,11 +16708,11 @@
       "electric_vortex_self_slow_duration": [
         3.0
       ],
-      "duration": [
-        1.0,
-        1.5,
-        2.0,
-        2.5
+      "duration_tooltip": [
+        1.4,
+        1.8,
+        2.2,
+        2.6
       ],
       "radius_scepter": [
         475.0
@@ -16746,10 +16770,10 @@
       0.6
     ],
     "AbilityDamage": [
-      40.0,
-      60.0,
-      80.0,
-      100.0
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
     "AbilityManaCost": [
       0.0,
@@ -16777,6 +16801,12 @@
         0.6,
         0.6,
         0.6
+      ],
+      "overload_damage": [
+        40.0,
+        60.0,
+        80.0,
+        100.0
       ]
     }
   },
@@ -16919,6 +16949,9 @@
       0.0
     ],
     "AbilityCooldown": [
+      16.0,
+      15.0,
+      14.0,
       13.0
     ],
     "AbilityDuration": [
@@ -16928,10 +16961,10 @@
       0.0
     ],
     "AbilityDamage": [
-      100.0,
-      175.0,
-      250.0,
-      325.0
+      80.0,
+      160.0,
+      240.0,
+      320.0
     ],
     "AbilityManaCost": [
       110.0,
@@ -17051,7 +17084,7 @@
     "Id": 5096,
     "Key": "sven_warcry",
     "Name": "Warcry",
-    "Description": "Sven's Warcry heartens his allied heroes for battle, increasing their movement speed and provides them with an attack damage shield. Buff ends if the shield is consumed.",
+    "Description": "Sven's Warcry heartens his allied heroes for battle, increasing their movement speed and provides them with an attack damage shield. Buff ends if the shield is consumed. Shield health grows based on Sven's strength.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/sven_warcry.png",
     "HeroId": 18,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -17120,10 +17153,16 @@
         20.0
       ],
       "hp_shield": [
+        80.0,
         110.0,
-        220.0,
-        330.0,
-        440.0
+        140.0,
+        170.0
+      ],
+      "strength_multiplier": [
+        1.0,
+        1.5,
+        2.0,
+        2.5
       ],
       "radius": [
         700.0
@@ -17479,9 +17518,9 @@
         180.0
       ],
       "damage_reduction": [
-        -45.0,
+        -30.0,
+        -40.0,
         -50.0,
-        -55.0,
         -60.0
       ],
       "reduction_duration": [
@@ -17684,8 +17723,14 @@
       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     ],
     "AbilityUnitTargetTeam": null,
-    "AbilityUnitTargetType": [],
-    "AbilityUnitTargetFlags": [],
+    "AbilityUnitTargetType": [
+      "DOTA_UNIT_TARGET_HERO"
+    ],
+    "AbilityUnitTargetFlags": [
+      "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE",
+      "|",
+      "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
+    ],
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
     "SpellDispellableType": null,
     "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
@@ -17986,9 +18031,9 @@
       0.0
     ],
     "AbilityCooldown": [
-      23.0,
-      20.0,
-      17.0,
+      26.0,
+      22.0,
+      18.0,
       14.0
     ],
     "AbilityDuration": [
@@ -18016,6 +18061,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "radius": [
+        325.0,
+        350.0,
+        375.0,
         400.0
       ],
       "tick_interval": [
@@ -18735,7 +18783,7 @@
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
     "FightRecapLevel": 2,
-    "AbilityDraftEnabled": false,
+    "AbilityDraftEnabled": true,
     "Linked": null,
     "AbilitySpecial": {
       "tooltip_range": [
@@ -19122,9 +19170,9 @@
         18.0
       ],
       "damage": [
-        30.0,
-        55.0,
-        80.0
+        40.0,
+        65.0,
+        90.0
       ],
       "cooldown_scepter": [
         140.0,
@@ -19298,13 +19346,13 @@
     "Linked": null,
     "AbilitySpecial": {
       "damage": [
-        20.0,
-        35.0,
-        50.0,
-        65.0
+        30.0,
+        45.0,
+        60.0,
+        75.0
       ],
       "radius": [
-        350.0
+        380.0
       ],
       "magic_resistance": [
         -10.0,
@@ -20527,10 +20575,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      50.0,
-      40.0,
       30.0,
-      20.0
+      26.0,
+      22.0,
+      18.0
     ],
     "AbilityDuration": [
       12.0
@@ -20860,7 +20908,7 @@
     "Id": 5112,
     "Key": "zuus_static_field",
     "Name": "Static Field",
-    "Description": "Zeus shocks all nearby enemy units whenever he casts a spell, causing damage proportional to their current health.",
+    "Description": "Zeus shocks any enemy hit by his abilities, causing damage proportional to their current health.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/zuus_static_field.png",
     "HeroId": 22,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -20879,7 +20927,7 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
-      1200
+      0
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
@@ -20924,9 +20972,6 @@
     "AbilityDraftEnabled": true,
     "Linked": null,
     "AbilitySpecial": {
-      "radius": [
-        1200.0
-      ],
       "damage_health_pct": [
         4.0,
         6.0,
@@ -21891,9 +21936,9 @@
       ],
       "duration_damage": [
         30.0,
-        45.0,
-        60.0,
-        75.0
+        50.0,
+        70.0,
+        90.0
       ],
       "movement_slow": [
         -20.0,
@@ -22049,9 +22094,9 @@
       300.0
     ],
     "AbilityManaCost": [
-      110.0,
+      80.0,
+      100.0,
       120.0,
-      130.0,
       140.0
     ],
     "AbilityModifierSupportValue": 1.0,
@@ -22181,9 +22226,9 @@
     "AbilityUnitTargetTeam": null,
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetFlags": [],
-    "SpellImmunityType": null,
+    "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
     "SpellDispellableType": "SPELL_DISPELLABLE_YES",
-    "AbilityUnitDamageType": null,
+    "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
     "IsSkill": true,
     "IsUltimate": false,
     "HasScepterUpgrade": false,
@@ -22340,7 +22385,7 @@
     "Id": 5273,
     "Key": "huskar_berserkers_blood",
     "Name": "Berserker's Blood",
-    "Description": "Huskar's injuries feed his power, giving increased attack speed and health regen resistance based on missing health. Health Regen is a percentage of your strength.",
+    "Description": "Huskar's injuries feed his power, giving increased attack speed and health regen based on missing health. Health regen is a percentage of your strength.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/huskar_berserkers_blood.png",
     "HeroId": 59,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -22405,9 +22450,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "maximum_attack_speed": [
+        160.0,
         220.0,
-        260.0,
-        300.0,
+        280.0,
         340.0
       ],
       "maximum_health_regen": [
@@ -22489,13 +22534,13 @@
     "Linked": null,
     "AbilitySpecial": {
       "health_cost_percent": [
-        0.34,
-        0.39,
+        0.32,
+        0.38,
         0.44
       ],
       "health_damage": [
-        0.34,
-        0.39,
+        0.32,
+        0.38,
         0.44
       ],
       "health_damage_scepter": [
@@ -22505,14 +22550,14 @@
         1200.0
       ],
       "tooltip_health_damage": [
-        34.0,
+        32.0,
         38.0,
-        42.0
+        44.0
       ],
       "tooltip_health_cost_percent": [
-        34.0,
+        32.0,
         38.0,
-        42.0
+        44.0
       ],
       "movespeed": [
         -40.0,
@@ -23194,10 +23239,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      40.0,
-      40.0,
-      40.0,
-      40.0
+      34.0
     ],
     "AbilityDuration": [
       0.0,
@@ -23226,6 +23268,12 @@
         50.0,
         70.0
       ],
+      "movement_speed": [
+        4.0,
+        7.0,
+        10.0,
+        13.0
+      ],
       "radius": [
         200.0,
         200.0,
@@ -23233,10 +23281,7 @@
         200.0
       ],
       "duration": [
-        18.0,
-        18.0,
-        18.0,
-        18.0
+        15.0
       ],
       "tick_interval": [
         0.5,
@@ -23683,9 +23728,9 @@
         3000.0
       ],
       "golem_dmg_tooltip": [
-        75.0,
-        125.0,
-        175.0
+        100.0,
+        150.0,
+        200.0
       ],
       "golem_armor_tooltip": [
         6.0,
@@ -23706,9 +23751,9 @@
         2250.0
       ],
       "golem_dmg_tooltip_scepter": [
-        56.0,
-        94.0,
-        131.0
+        75.0,
+        110.0,
+        150.0
       ],
       "hp_dmg_reduction_scepter": [
         25.0
@@ -24058,8 +24103,8 @@
         0.35
       ],
       "base_attack_time": [
-        1.3,
-        1.15,
+        1.2,
+        1.1,
         1.0
       ],
       "bonus_health": [
@@ -24455,9 +24500,9 @@
       ],
       "charge_restore_time": [
         60.0,
-        55.0,
-        50.0,
-        45.0
+        52.0,
+        44.0,
+        36.0
       ]
     }
   },
@@ -24547,10 +24592,10 @@
         1200.0
       ],
       "min_damage": [
-        56.0
+        59.0
       ],
       "max_damage": [
-        61.0
+        64.0
       ],
       "heal_percent": [
         25.0,
@@ -24800,10 +24845,10 @@
         10.0
       ],
       "damage_per_stack": [
-        12.0,
-        18.0,
-        24.0,
-        30.0
+        7.0,
+        14.0,
+        21.0,
+        28.0
       ]
     }
   },
@@ -24934,7 +24979,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      10.0
+      9.0
     ],
     "AbilityDuration": [
       0.0,
@@ -24984,7 +25029,7 @@
     "Id": 5286,
     "Key": "bounty_hunter_jinada",
     "Name": "Jinada",
-    "Description": "Bounty Hunter plans his next hit, dealing bonus damage and stealing some unrealiable gold.",
+    "Description": "Bounty Hunter plans his next hit, dealing bonus damage and stealing some unreliable gold.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/bounty_hunter_jinada.png",
     "HeroId": 62,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -25056,9 +25101,9 @@
       ],
       "gold_steal": [
         12.0,
-        18.0,
-        24.0,
-        30.0
+        20.0,
+        28.0,
+        36.0
       ]
     }
   },
@@ -25181,7 +25226,7 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
-      1200
+      1000
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
@@ -25221,8 +25266,8 @@
     "AbilitySpecial": {
       "target_crit_multiplier": [
         140.0,
-        160.0,
-        180.0
+        170.0,
+        200.0
       ],
       "bonus_gold_radius": [
         1200.0
@@ -25243,7 +25288,7 @@
         30.0
       ],
       "cast_range_tooltip": [
-        1200.0
+        1000.0
       ],
       "gold_steal": [
         0.3,
@@ -25472,9 +25517,9 @@
       0.0
     ],
     "AbilityCooldown": [
-      28.0,
       22.0,
-      16.0,
+      18.0,
+      14.0,
       10.0
     ],
     "AbilityDuration": [
@@ -25844,10 +25889,10 @@
         17.0
       ],
       "damage": [
+        8.0,
         16.0,
         24.0,
-        32.0,
-        40.0
+        32.0
       ],
       "duration": [
         1.2,
@@ -26203,13 +26248,13 @@
     "Linked": null,
     "AbilitySpecial": {
       "bonus_damage_per_instance": [
-        4.0,
-        8.0,
-        12.0,
-        16.0,
-        20.0,
-        24.0,
-        28.0
+        3.0,
+        7.0,
+        11.0,
+        15.0,
+        19.0,
+        23.0,
+        27.0
       ]
     }
   },
@@ -27584,7 +27629,7 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
-      640
+      650
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
@@ -27797,9 +27842,9 @@
         6.0
       ],
       "attack_rate": [
-        1.65,
-        1.5,
-        1.35
+        1.75,
+        1.6,
+        1.45
       ],
       "spawn_interval": [
         0.8
@@ -27824,9 +27869,7 @@
       "DOTA_UNIT_TARGET_HERO",
       "DOTA_UNIT_TARGET_BASIC"
     ],
-    "AbilityUnitTargetFlags": [
-      "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS"
-    ],
+    "AbilityUnitTargetFlags": [],
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
     "SpellDispellableType": "SPELL_DISPELLABLE_NO",
     "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
@@ -28065,16 +28108,16 @@
     "Linked": null,
     "AbilitySpecial": {
       "mana_steal": [
-        80.0,
-        100.0,
-        120.0,
+        65.0,
+        90.0,
+        115.0,
         140.0
       ],
       "movement_slow": [
         12.0,
-        20.0,
-        28.0,
-        36.0
+        22.0,
+        32.0,
+        42.0
       ],
       "slow_duration": [
         1.75
@@ -28149,9 +28192,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "damage_multiplier": [
+        8.0,
         9.0,
-        10.0,
-        11.0
+        10.0
       ],
       "mana_drain": [
         40.0
@@ -28332,6 +28375,9 @@
       0.0
     ],
     "AbilityManaCost": [
+      50.0,
+      70.0,
+      90.0,
       110.0
     ],
     "AbilityModifierSupportValue": 1.0,
@@ -28425,6 +28471,9 @@
       50.0
     ],
     "AbilityManaCost": [
+      35.0,
+      40.0,
+      45.0,
       50.0
     ],
     "AbilityModifierSupportValue": 0.0,
@@ -28700,10 +28749,10 @@
         46.0
       ],
       "wolf_hp": [
-        230.0,
-        260.0,
-        290.0,
-        320.0
+        300.0,
+        350.0,
+        400.0,
+        450.0
       ],
       "bash_chance": [
         15.0
@@ -28723,7 +28772,7 @@
     "Id": 5396,
     "Key": "lycan_howl",
     "Name": "Howl",
-    "Description": "Grants bonus attack speed, armor, and health regen to Lycan, all allied heroes and all units under their control.s",
+    "Description": "Grants bonus attack speed, armor, and health regen to Lycan, all allied heroes and all units under their control.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/lycan_howl.png",
     "HeroId": 77,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -28789,10 +28838,10 @@
         9.0
       ],
       "attack_speed": [
-        21.0,
-        34.0,
-        47.0,
-        60.0
+        20.0,
+        30.0,
+        40.0,
+        50.0
       ],
       "armor": [
         3.0,
@@ -28802,9 +28851,9 @@
       ],
       "hp_regen": [
         4.0,
-        6.0,
         8.0,
-        10.0
+        12.0,
+        16.0
       ]
     }
   },
@@ -29115,10 +29164,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      44.0,
+      43.0,
       36.0,
-      28.0,
-      20.0
+      29.0,
+      22.0
     ],
     "AbilityDuration": [
       0.0,
@@ -29234,6 +29283,9 @@
         1.6,
         2.0,
         2.4
+      ],
+      "only_affects_player_units": [
+        1.0
       ]
     }
   },
@@ -29585,7 +29637,7 @@
     "Id": 7310,
     "Key": "brewmaster_cinder_brew",
     "Name": "Cinder Brew",
-    "Description": "Drenches an area in alcohol, causing enemy units to have a chance to attack themselves, and combust whenever a fire based ability touches them.",
+    "Description": "Drenches an area in alcohol, causing enemy units to have a chance to attack themselves, and combust whenever spell damage over 80 is dealt. Duration is refreshed when ignited.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/brewmaster_cinder_brew.png",
     "HeroId": 78,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -29648,7 +29700,7 @@
     "Linked": null,
     "AbilitySpecial": {
       "duration": [
-        7.0
+        5.0
       ],
       "self_attack_chance": [
         20.0,
@@ -29657,10 +29709,13 @@
         35.0
       ],
       "ignite_dps": [
-        10.0,
-        25.0,
+        20.0,
+        30.0,
         40.0,
-        55.0
+        50.0
+      ],
+      "ignite_threshold": [
+        80.0
       ],
       "movement_slow": [
         25.0
@@ -29710,9 +29765,9 @@
       0.0
     ],
     "AbilityCooldown": [
-      20.0,
+      23.0,
+      21.0,
       19.0,
-      18.0,
       17.0
     ],
     "AbilityDuration": [
@@ -29749,9 +29804,9 @@
         80.0
       ],
       "crit_multiplier": [
-        200.0,
+        140.0,
+        180.0,
         220.0,
-        240.0,
         260.0
       ],
       "min_movement": [
@@ -29802,8 +29857,8 @@
     ],
     "AbilityCooldown": [
       140.0,
-      120.0,
-      100.0
+      130.0,
+      120.0
     ],
     "AbilityDuration": [
       0.0,
@@ -30352,9 +30407,9 @@
       ],
       "total_damage": [
         30.0,
-        80.0,
-        130.0,
-        180.0
+        90.0,
+        150.0,
+        210.0
       ],
       "tick_count": [
         3.0
@@ -30541,10 +30596,10 @@
         16.0
       ],
       "damage_block": [
-        20.0,
-        40.0,
-        60.0,
-        80.0
+        25.0,
+        50.0,
+        75.0,
+        100.0
       ],
       "duration": [
         15.0
@@ -30692,9 +30747,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "duration": [
-        3.0,
-        3.75,
-        4.5
+        3.25,
+        4.0,
+        4.75
       ],
       "radius": [
         800.0
@@ -30743,10 +30798,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      12.0,
       11.0,
       10.0,
-      9.0
+      9.0,
+      8.0
     ],
     "AbilityDuration": [
       0.0,
@@ -31119,9 +31174,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "multicast_2_times": [
-        0.6,
-        0.6,
-        0.6
+        0.7,
+        0.7,
+        0.7
       ],
       "multicast_3_times": [
         0.0,
@@ -31137,7 +31192,7 @@
         575.0
       ],
       "multicast_2_times_tooltip": [
-        60.0
+        70.0
       ],
       "multicast_3_times_tooltip": [
         0.0,
@@ -31333,10 +31388,10 @@
         400.0
       ],
       "movement_slow": [
-        15.0,
-        25.0,
-        35.0,
-        45.0
+        10.0,
+        20.0,
+        30.0,
+        40.0
       ],
       "attack_slow": [
         30.0,
@@ -31345,7 +31400,7 @@
         90.0
       ],
       "duration": [
-        2.0
+        3.0
       ]
     }
   },
@@ -31353,7 +31408,7 @@
     "Id": 5428,
     "Key": "chaos_knight_chaos_strike",
     "Name": "Chaos Strike",
-    "Description": "Chaos Knight's attacks deal a critical strike of varying strength, in addition to a lifesteal for 35/40/45/50% of the damage.",
+    "Description": "Chaos Knight's attacks deal a critical strike of varying strength, in addition to a lifesteal for 40/50/60/70% of the damage.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chaos_knight_chaos_strike.png",
     "HeroId": 81,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -31388,9 +31443,6 @@
       0.0
     ],
     "AbilityCooldown": [
-      7.0,
-      6.0,
-      5.0,
       4.0
     ],
     "AbilityDuration": [
@@ -31422,15 +31474,15 @@
       ],
       "crit_max": [
         160.0,
-        190.0,
-        220.0,
-        250.0
+        195.0,
+        230.0,
+        265.0
       ],
       "lifesteal": [
-        35.0,
         40.0,
-        45.0,
-        50.0
+        50.0,
+        60.0,
+        70.0
       ]
     }
   },
@@ -31596,10 +31648,7 @@
       0.0
     ],
     "AbilityManaCost": [
-      30.0,
-      25.0,
-      20.0,
-      15.0
+      30.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -31720,7 +31769,7 @@
         175.0
       ],
       "duration": [
-        2.5
+        2.0
       ],
       "tooltip_range": [
         1000.0
@@ -31736,8 +31785,7 @@
     "HeroId": 44,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
     "AbilityBehaviors": [
-      "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     ],
     "AbilityUnitTargetTeam": null,
     "AbilityUnitTargetType": [],
@@ -31755,10 +31803,7 @@
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
+      0.4
     ],
     "AbilityChannelTime": [
       0.0,
@@ -31785,7 +31830,7 @@
       0.0
     ],
     "AbilityManaCost": [
-      20.0
+      50.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -31882,8 +31927,8 @@
         15.0
       ],
       "crit_bonus": [
-        230.0,
-        340.0,
+        200.0,
+        325.0,
         450.0
       ]
     }
@@ -32316,9 +32361,9 @@
       0.0
     ],
     "AbilityCooldown": [
-      28.0,
+      34.0,
+      30.0,
       26.0,
-      24.0,
       22.0
     ],
     "AbilityDuration": [
@@ -32343,10 +32388,10 @@
     "Linked": null,
     "AbilitySpecial": {
       "lift_duration": [
-        1.1,
-        1.5,
-        1.9,
-        2.3
+        0.8,
+        1.2,
+        1.6,
+        2.0
       ],
       "stun_duration": [
         1.0,
@@ -33331,10 +33376,10 @@
         24.0
       ],
       "bonus_night_vision": [
-        250.0,
-        500.0,
-        750.0,
-        1000.0
+        200.0,
+        400.0,
+        600.0,
+        800.0
       ]
     }
   },
@@ -33545,9 +33590,9 @@
         1000.0
       ],
       "tether_heal_amp": [
+        1.05,
         1.2,
-        1.3,
-        1.4,
+        1.35,
         1.5
       ]
     }
@@ -33683,13 +33728,13 @@
     "Id": 5487,
     "Key": "wisp_overcharge",
     "Name": "Overcharge",
-    "Description": "Io gains bonus attack speed and damage reduction, at the cost of draining a percentage of its current health and mana per second.  If Io is Tethered to an ally, that unit also gains the bonuses.",
+    "Description": "Io gains bonus attack speed and damage reduction.  If Io is Tethered to an ally, that unit also gains the bonuses.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/wisp_overcharge.png",
     "HeroId": 91,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
     "AbilityBehaviors": [
       "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "DOTA_ABILITY_BEHAVIOR_TOGGLE"
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityUnitTargetTeam": null,
     "AbilityUnitTargetType": [],
@@ -33719,7 +33764,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      2.0
+      18.0
     ],
     "AbilityDuration": [
       0.0,
@@ -33734,10 +33779,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
+      40.0,
+      60.0,
+      80.0,
+      100.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -33746,28 +33791,19 @@
     "Linked": null,
     "AbilitySpecial": {
       "bonus_attack_speed": [
-        40.0,
         50.0,
-        60.0,
-        70.0
+        80.0,
+        110.0,
+        140.0
       ],
       "bonus_damage_pct": [
-        -5.0,
-        -10.0,
         -15.0,
-        -20.0
+        -20.0,
+        -25.0,
+        -30.0
       ],
-      "drain_interval": [
-        0.2,
-        0.2,
-        0.2,
-        0.2
-      ],
-      "drain_pct": [
-        0.06
-      ],
-      "drain_pct_tooltip": [
-        6.0
+      "duration": [
+        8.0
       ]
     }
   },
@@ -33780,8 +33816,7 @@
     "HeroId": 91,
     "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
     "AbilityBehaviors": [
-      "DOTA_ABILITY_BEHAVIOR_POINT",
-      "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+      "DOTA_ABILITY_BEHAVIOR_POINT"
     ],
     "AbilityUnitTargetTeam": null,
     "AbilityUnitTargetType": [],
@@ -33802,14 +33837,15 @@
       0.0
     ],
     "AbilityChannelTime": [
-      2.7,
-      2.35,
-      2.0
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
     "AbilityCooldown": [
-      130.0,
-      110.0,
-      90.0
+      90.0,
+      75.0,
+      60.0
     ],
     "AbilityDuration": [
       0.0,
@@ -33835,9 +33871,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "cast_delay": [
-        2.7,
-        2.35,
-        2.0
+        3.5,
+        3.25,
+        3.0
       ],
       "return_time": [
         12.0,
@@ -34692,7 +34728,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      110.0
+      125.0
     ],
     "AbilityDuration": [
       0.0,
@@ -34997,6 +35033,9 @@
       ],
       "attack_spill_width": [
         75.0
+      ],
+      "attack_spill_pct": [
+        100.0
       ]
     }
   },
@@ -35246,7 +35285,7 @@
     "Linked": null,
     "AbilitySpecial": {
       "illusion_duration": [
-        24.0
+        26.0
       ],
       "outgoing_damage": [
         -75.0,
@@ -35261,15 +35300,9 @@
         40.0
       ],
       "incoming_damage": [
-        375.0,
-        350.0,
-        325.0,
         300.0
       ],
       "tooltip_incoming_damage_total_pct": [
-        475.0,
-        450.0,
-        425.0,
         400.0
       ],
       "images_count": [
@@ -36170,7 +36203,7 @@
     "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
     "IsSkill": true,
     "IsUltimate": false,
-    "HasScepterUpgrade": false,
+    "HasScepterUpgrade": true,
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
@@ -36285,7 +36318,7 @@
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetFlags": [],
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
-    "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+    "SpellDispellableType": "SPELL_DISPELLABLE_YES",
     "AbilityUnitDamageType": null,
     "IsSkill": true,
     "IsUltimate": false,
@@ -36512,9 +36545,9 @@
       0.0
     ],
     "AbilityManaCost": [
-      200.0,
-      300.0,
-      400.0
+      250.0,
+      350.0,
+      450.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -36528,7 +36561,7 @@
         5.0
       ],
       "radius": [
-        650.0
+        675.0
       ],
       "hit_count": [
         4.0,
@@ -36536,7 +36569,7 @@
         6.0
       ],
       "off_duration": [
-        1.75
+        1.85
       ],
       "on_duration": [
         1.3
@@ -36546,6 +36579,11 @@
       ],
       "fixed_movement_speed": [
         25.0
+      ],
+      "bounty": [
+        100.0,
+        125.0,
+        150.0
       ]
     }
   },
@@ -36647,7 +36685,7 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
-      650
+      625
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [
@@ -37592,16 +37630,16 @@
         40.0
       ],
       "bonus_damage_pct": [
+        10.0,
         20.0,
         30.0,
-        40.0,
-        50.0
+        40.0
       ],
       "cleave_damage_pct": [
-        30.0,
-        45.0,
-        60.0,
-        75.0
+        14.0,
+        34.0,
+        54.0,
+        74.0
       ],
       "cleave_starting_width": [
         150.0
@@ -37639,7 +37677,9 @@
       "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
     ],
     "AbilityUnitTargetTeam": null,
-    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetType": [
+      "DOTA_UNIT_TARGET_HERO"
+    ],
     "AbilityUnitTargetFlags": [],
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
     "SpellDispellableType": "SPELL_DISPELLABLE_YES",
@@ -37767,7 +37807,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      120.0
+      130.0
     ],
     "AbilityDuration": [
       0.0,
@@ -38151,7 +38191,7 @@
         3.0
       ],
       "slow_duration": [
-        1.8
+        2.3
       ],
       "radius": [
         105.0
@@ -38225,10 +38265,7 @@
       0.0
     ],
     "AbilityManaCost": [
-      55.0,
-      50.0,
-      45.0,
-      40.0
+      60.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -38263,7 +38300,7 @@
     "Id": 5495,
     "Key": "slark_pounce",
     "Name": "Pounce",
-    "Description": "Slark leaps forward, grabbing the first hero he connects with.  That unit takes damage and is leashed to Slark, and can only move a limited distance away from Slark's landing position.",
+    "Description": "Slark leaps forward, grabbing the first hero he connects with.  That unit is leashed, and can only move a limited distance away from Slark's landing position.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/slark_pounce.png",
     "HeroId": 93,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -38340,20 +38377,14 @@
       "pounce_radius": [
         95.0
       ],
-      "pounce_damage": [
-        30.0,
-        60.0,
-        90.0,
-        120.0
-      ],
       "leash_duration": [
+        2.5,
         2.75,
         3.0,
-        3.25,
-        3.5
+        3.25
       ],
       "leash_radius": [
-        350.0
+        400.0
       ]
     }
   },
@@ -38508,8 +38539,8 @@
     "AbilitySpecial": {
       "duration": [
         4.0,
-        4.5,
-        5.0
+        4.25,
+        4.5
       ],
       "fade_time": [
         0.0,
@@ -38517,8 +38548,8 @@
         0.0
       ],
       "bonus_movement_speed": [
-        30.0,
-        40.0,
+        20.0,
+        35.0,
         50.0
       ],
       "bonus_regen_pct": [
@@ -38618,10 +38649,10 @@
         180.0
       ],
       "tree_damage_scale": [
-        10.0,
-        14.0,
+        12.0,
         18.0,
-        22.0
+        24.0,
+        30.0
       ],
       "whirling_tick": [
         0.3
@@ -38808,22 +38839,22 @@
     "Linked": null,
     "AbilitySpecial": {
       "bonus_armor": [
-        1.3,
-        1.4,
-        1.5,
-        1.6
+        1.0,
+        1.1,
+        1.2,
+        1.3
       ],
       "bonus_hp_regen": [
         1.0,
+        1.1,
         1.2,
-        1.4,
-        1.6
+        1.3
       ],
       "stack_limit": [
-        5.0,
-        10.0,
-        15.0,
-        20.0
+        6.0,
+        12.0,
+        18.0,
+        24.0
       ],
       "stack_duration": [
         10.0,
@@ -40277,6 +40308,9 @@
       0.0
     ],
     "AbilityCooldown": [
+      24.0,
+      21.0,
+      18.0,
       15.0
     ],
     "AbilityDuration": [
@@ -40292,9 +40326,6 @@
       0.0
     ],
     "AbilityManaCost": [
-      40.0,
-      50.0,
-      60.0,
       70.0
     ],
     "AbilityModifierSupportValue": 1.0,
@@ -40313,7 +40344,7 @@
         75.0
       ],
       "slow_duration": [
-        0.5
+        0.4
       ],
       "debuff_duration": [
         5.0
@@ -40575,6 +40606,94 @@
     "AbilitySpecial": {}
   },
   {
+	"Id": 5567,
+	"Key": "tusk_frozen_sigil",
+	"Name": "Frozen Sigil",
+	"Description": "Tusk summons a Frozen Sigil by calling upon the deepest cold of winter. The Sigil creates a snowstorm which slows all enemy units within 600 range.",
+	"Image": "https://hgv-hyperstone.azurewebsites.net/abilities/tusk_frozen_sigil.png",
+	"HeroId": 100,
+	"AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+	"AbilityBehaviors": [
+	  "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+	],
+	"AbilityUnitTargetTeam": null,
+	"AbilityUnitTargetType": [],
+	"AbilityUnitTargetFlags": [],
+	"SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+	"SpellDispellableType": null,
+	"AbilityUnitDamageType": null,
+	"IsSkill": true,
+	"IsUltimate": false,
+	"HasScepterUpgrade": false,
+	"OnCastbar": true,
+	"OnLearnbar": true,
+	"AbilityCastRange": [
+	  0
+	],
+	"AbilityCastRangeBuffer": 250,
+	"AbilityCastPoint": [
+	  0.1,
+	  0.1,
+	  0.1,
+	  0.1
+	],
+	"AbilityChannelTime": [
+	  0.0,
+	  0.0,
+	  0.0,
+	  0.0
+	],
+	"AbilityCooldown": [
+	  50.0,
+	  50.0,
+	  50.0,
+	  50.0
+	],
+	"AbilityDuration": [
+	  0.0,
+	  0.0,
+	  0.0,
+	  0.0
+	],
+	"AbilityDamage": [
+	  0.0,
+	  0.0,
+	  0.0,
+	  0.0
+	],
+	"AbilityManaCost": [
+	  75.0,
+	  75.0,
+	  75.0,
+	  75.0
+	],
+	"AbilityModifierSupportValue": 1.0,
+	"AbilityModifierSupportBonus": 0.0,
+	"FightRecapLevel": 0,
+	"AbilityDraftEnabled": true,
+	"Linked": null,
+	"AbilitySpecial": {
+	  "sigil_radius": [
+		600.0
+	  ],
+	  "sigil_duration": [
+		30.0
+	  ],
+	  "move_slow": [
+		10.0,
+		15.0,
+		20.0,
+		25.0
+	  ],
+	  "attack_slow": [
+		30.0,
+		40.0,
+		50.0,
+		60.0
+	  ]
+	}
+  },
+  {
     "Id": 5548,
     "Key": "bristleback_viscous_nasal_goo",
     "Name": "Viscous Nasal Goo",
@@ -40632,7 +40751,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      25.0
+      12.0,
+      16.0,
+      20.0,
+      24.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -41455,7 +41577,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      16.0
+      17.0
     ],
     "AbilityDuration": [
       0.0,
@@ -41509,8 +41631,8 @@
         15.0
       ],
       "damage_heroes": [
-        20.0,
-        40.0,
+        15.0,
+        30.0,
         60.0,
         80.0
       ],
@@ -41952,6 +42074,9 @@
       0.0
     ],
     "AbilityManaCost": [
+      100.0,
+      105.0,
+      110.0,
       115.0
     ],
     "AbilityModifierSupportValue": 1.0,
@@ -42055,7 +42180,7 @@
         4.0
       ],
       "curse_duration": [
-        4.0
+        4.5
       ],
       "curse_slow": [
         30.0,
@@ -42243,7 +42368,7 @@
         300.0
       ],
       "move_slow": [
-        80.0
+        60.0
       ],
       "duration": [
         1.25,
@@ -42351,6 +42476,9 @@
         0.6
       ],
       "damage": [
+        70.0,
+        80.0,
+        90.0,
         100.0
       ],
       "stun_duration": [
@@ -42613,7 +42741,7 @@
     "Id": 5612,
     "Key": "earth_spirit_magnetize",
     "Name": "Magnetize",
-    "Description": "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by silence or slows as a result of Geomagnetic Grip or Rolling Boulder, all magnetized heroes share the effects.",
+    "Description": "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by silence or slows as a result of Geomagnetic Grip or Boulder Smash, all magnetized heroes share the effects.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/earth_spirit_magnetize.png",
     "HeroId": 107,
     "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -42824,9 +42952,9 @@
       0.0
     ],
     "AbilityCooldown": [
-      30.0,
-      22.0,
+      18.0,
       14.0,
+      10.0,
       6.0
     ],
     "AbilityDuration": [
@@ -42857,10 +42985,10 @@
         550.0
       ],
       "bonus_hero_damage": [
-        35.0,
-        70.0,
-        105.0,
-        140.0
+        40.0,
+        80.0,
+        120.0,
+        160.0
       ],
       "attack_interval": [
         0.2
@@ -43813,7 +43941,8 @@
       "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
       "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
       "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
     ],
     "AbilityUnitTargetTeam": null,
     "AbilityUnitTargetType": [],
@@ -44488,7 +44617,7 @@
         80.0
       ],
       "speed_loss": [
-        25.0
+        30.0
       ],
       "metamorph_aura_tooltip": [
         1200.0
@@ -45042,9 +45171,9 @@
       0.0
     ],
     "AbilityManaCost": [
-      200.0,
-      240.0,
-      300.0
+      120.0,
+      180.0,
+      240.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -45713,10 +45842,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      75.0,
-      75.0,
-      75.0,
-      75.0
+      50.0,
+      60.0,
+      70.0,
+      80.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -45728,7 +45857,10 @@
         4.0
       ],
       "heal_additive": [
-        15.0
+        14.0,
+        18.0,
+        22.0,
+        26.0
       ],
       "heal_percentage": [
         3.0,
@@ -46083,9 +46215,9 @@
       ],
       "spark_damage": [
         100.0,
-        160.0,
-        220.0,
-        280.0
+        170.0,
+        240.0,
+        310.0
       ],
       "think_interval": [
         0.2
@@ -46169,9 +46301,9 @@
     "Linked": null,
     "AbilitySpecial": {
       "duration": [
-        14.0,
         16.0,
-        18.0
+        18.0,
+        20.0
       ],
       "bounty": [
         180.0,
@@ -46998,7 +47130,7 @@
     "Id": 5719,
     "Key": "monkey_king_mischief",
     "Name": "Mischief",
-    "Description": "Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise. Grants invulnerability for 0.3 upon transforming.",
+    "Description": "Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise. Grants invulnerability for 0.2 upon transforming.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/monkey_king_mischief.png",
     "HeroId": 114,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -47066,7 +47198,7 @@
         200.0
       ],
       "invul_duration": [
-        0.3
+        0.2
       ]
     }
   },
@@ -47084,7 +47216,9 @@
       "DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
     ],
     "AbilityUnitTargetTeam": null,
-    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetType": [
+      "DOTA_UNIT_TARGET_HERO"
+    ],
     "AbilityUnitTargetFlags": [],
     "SpellImmunityType": null,
     "SpellDispellableType": null,
@@ -47151,7 +47285,7 @@
         24.0
       ],
       "attack_speed": [
-        1.3
+        1.2
       ],
       "duration": [
         13.0
@@ -47353,9 +47487,6 @@
       0.0
     ],
     "AbilityCooldown": [
-      34.0,
-      31.0,
-      28.0,
       25.0
     ],
     "AbilityDuration": [
@@ -47371,10 +47502,10 @@
       0.0
     ],
     "AbilityManaCost": [
+      100.0,
+      120.0,
       140.0,
-      150.0,
-      160.0,
-      170.0
+      160.0
     ],
     "AbilityModifierSupportValue": 1.0,
     "AbilityModifierSupportBonus": 0.0,
@@ -48423,10 +48554,10 @@
         1000.0
       ],
       "pop_damage": [
-        120.0,
-        200.0,
-        280.0,
-        360.0
+        75.0,
+        150.0,
+        225.0,
+        300.0
       ],
       "return_projectile_speed": [
         750.0
@@ -48443,7 +48574,7 @@
     "Id": 8007,
     "Key": "grimstroke_spirit_walk",
     "Name": "Ink Swell",
-    "Description": "Grimstroke shrouds an allied unit in ink, increasing its movement speed. Enemies in range of the allied unit are damaged with inky tendrils over time. After 3 seconds it triggers, applying damage and stun in an area around the unit in proportion to how how long ink tendril was near any hero.",
+    "Description": "Grimstroke shrouds an allied unit in ink, increasing its movement speed. Enemies in range of the allied unit are damaged with inky tendrils over time. After 3 seconds it triggers, applying damage and stun in an area around the unit in proportion to how long ink tendril was near any hero.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/grimstroke_spirit_walk.png",
     "HeroId": 121,
     "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -48502,10 +48633,10 @@
       0.0
     ],
     "AbilityManaCost": [
-      90.0,
-      100.0,
-      110.0,
-      120.0
+      120.0,
+      130.0,
+      140.0,
+      150.0
     ],
     "AbilityModifierSupportValue": 0.75,
     "AbilityModifierSupportBonus": 0.0,
@@ -48523,21 +48654,24 @@
         3.0
       ],
       "movespeed_bonus_pct": [
+        12.0,
+        14.0,
+        16.0,
         18.0
       ],
       "radius": [
         400.0
       ],
       "max_damage": [
-        160.0,
-        240.0,
-        320.0,
+        100.0,
+        200.0,
+        300.0,
         400.0
       ],
       "max_stun": [
-        2.0,
-        2.6,
-        3.2,
+        1.4,
+        2.2,
+        3.0,
         3.8
       ],
       "damage_per_tick": [
@@ -48600,8 +48734,8 @@
       0.0
     ],
     "AbilityCooldown": [
-      80.0,
-      65.0,
+      100.0,
+      75.0,
       50.0
     ],
     "AbilityDuration": [
