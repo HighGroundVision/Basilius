@@ -121,7 +121,7 @@ namespace HGV.Basilius
             return this.heroes.Where(_ => _.CaptainsModeEnabled == true).ToList();
         }
 
-        private List<Ability> GetSkills()
+        public List<Ability> GetSkills()
         {
             return this.abilities;
         }
