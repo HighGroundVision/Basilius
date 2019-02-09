@@ -12,13 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Data\Abilities.json" />
     <None Remove="Data\Heroes.json" />
     <None Remove="Data\Items.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Data\Abilities.json" />
     <EmbeddedResource Include="Data\Heroes.json" />
     <EmbeddedResource Include="Data\Items.json" />
   </ItemGroup>

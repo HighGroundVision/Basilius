@@ -6,7 +6,7 @@ namespace HGV.Basilius
 {
     public class Ability
     {
-        public static int GENERIC { get { return 6251; } }
+        public static int GENERIC = 6251;
 
         public int Id { get; set; }
         public string Key { get; set; }

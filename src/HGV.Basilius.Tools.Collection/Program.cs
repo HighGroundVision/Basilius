@@ -70,11 +70,6 @@ namespace HGV.Basilius.Tools.Collection
 
             var outputHeroes = Newtonsoft.Json.JsonConvert.SerializeObject(heroes, Newtonsoft.Json.Formatting.Indented);
             System.IO.File.WriteAllText("Heroes.json", outputHeroes);
-
-            var abilities = heroes.SelectMany(_ => _.Abilities.Where(__ => __.Id != Ability.GENERIC));
-
-            var outputAbilities = Newtonsoft.Json.JsonConvert.SerializeObject(abilities, Newtonsoft.Json.Formatting.Indented);
-            System.IO.File.WriteAllText("Abilities.json", outputAbilities);
         }
 
         private static Item ExtractItem(JObject languageData, JObject itemsData, string key)
@@ -331,9 +326,9 @@ namespace HGV.Basilius.Tools.Collection
             ability.Description = (string)languageData[desc];
             
             ability.AbilityType = getValue<string>(abiltiesData, "ability_base", key, "AbilityType");
-            ability.IsSkill = !ability.AbilityType.Contains("DOTA_ABILITY_TYPE_ULTIMATE");
-            ability.IsUltimate = ability.AbilityType.Contains("DOTA_ABILITY_TYPE_ULTIMATE");
             ability.AbilityBehaviors = getList<string>(abiltiesData, "ability_base", key, "AbilityBehavior", '|');
+            ability.IsSkill = ability.AbilityBehaviors.Contains("DOTA_ABILITY_BEHAVIOR_HIDDEN") == false && ability.AbilityType.Contains("DOTA_ABILITY_TYPE_ULTIMATE") == false;
+            ability.IsUltimate = ability.AbilityBehaviors.Contains("DOTA_ABILITY_BEHAVIOR_HIDDEN") == false && ability.AbilityType.Contains("DOTA_ABILITY_TYPE_ULTIMATE") == true;
             ability.AbilityUnitTargetTeam = getValue<string>(abiltiesData, "ability_base", key, "AbilityUnitTargetTeam");
             ability.AbilityUnitTargetType = getList<string>(abiltiesData, "ability_base", key, "AbilityUnitTargetType", '|');
             ability.AbilityUnitTargetFlags = getList<string>(abiltiesData, "ability_base", key, "AbilityUnitTargetFlags");
