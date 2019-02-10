@@ -4443,6 +4443,103 @@
             3.0
           ]
         }
+      },
+      {
+        "Id": 5329,
+        "Key": "chen_test_of_faith",
+        "Name": "Test of Faith",
+        "Description": "Deals random damage to test an enemy unit's faith. Heals a random amount to allied units. Always applies the maximum effect when cast on yourself.",
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chen_test_of_faith.png",
+        "HeroId": 66,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        ],
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+        "AbilityUnitTargetType": [
+          "DOTA_UNIT_TARGET_HERO",
+          "DOTA_UNIT_TARGET_BASIC"
+        ],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": null,
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          600,
+          600,
+          600,
+          600
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "AbilityChannelTime": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AbilityCooldown": [
+          16.0
+        ],
+        "AbilityDuration": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AbilityDamage": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AbilityManaCost": [
+          60.0,
+          80.0,
+          100.0,
+          120.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 1,
+        "AbilityDraftEnabled": true,
+        "Linked": null,
+        "AbilitySpecial": {
+          "damage_min": [
+            50.0,
+            100.0,
+            150.0,
+            200.0
+          ],
+          "damage_max": [
+            100.0,
+            200.0,
+            300.0,
+            400.0
+          ],
+          "heal_min": [
+            25.0,
+            50.0,
+            75.0,
+            100.0
+          ],
+          "heal_max": [
+            50.0,
+            100.0,
+            150.0,
+            200.0
+          ]
+        }
       }
     ],
     "Talents": [
@@ -64923,6 +65020,94 @@
         "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {}
+      },
+      {
+        "Id": 5567,
+        "Key": "tusk_frozen_sigil",
+        "Name": "Frozen Sigil",
+        "Description": "Tusk summons a Frozen Sigil by calling upon the deepest cold of winter. The Sigil creates a snowstorm which slows all enemy units within 600 range.",
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/tusk_frozen_sigil.png",
+        "HeroId": 100,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": null,
+        "AbilityUnitDamageType": null,
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          0
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "AbilityChannelTime": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AbilityCooldown": [
+          50.0,
+          50.0,
+          50.0,
+          50.0
+        ],
+        "AbilityDuration": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AbilityDamage": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AbilityManaCost": [
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 0,
+        "AbilityDraftEnabled": true,
+        "Linked": null,
+        "AbilitySpecial": {
+          "sigil_radius": [
+            600.0
+          ],
+          "sigil_duration": [
+            30.0
+          ],
+          "move_slow": [
+            10.0,
+            15.0,
+            20.0,
+            25.0
+          ],
+          "attack_slow": [
+            30.0,
+            40.0,
+            50.0,
+            60.0
+          ]
+        }
       }
     ],
     "Talents": [

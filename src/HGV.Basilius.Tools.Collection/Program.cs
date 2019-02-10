@@ -239,6 +239,18 @@ namespace HGV.Basilius.Tools.Collection
                     hero.Abilities.Add(ability);
                 }
             }
+
+            foreach (var abilityKey in abilityDraftIncludes)
+            {
+                if(hero.Abilities.Any(_ => _.Key == abilityKey) == false)
+                {
+                    var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey);
+                    ability.HeroId = hero.Id;
+                    ability.AbilityDraftEnabled = true;
+                    hero.Abilities.Add(ability);
+                }
+            }
+
             for (int i = abilityTalentStart; i <= 24; i++)
             {
                 var field = string.Format("Ability{0}", i);
