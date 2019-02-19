@@ -258,6 +258,7 @@ namespace HGV.Basilius.Tools.Collection
                 if (string.IsNullOrWhiteSpace(abilityKey) == false)
                 {
                     var talent = ExtractTalent(languageAbilties, abiltiesData, abilityKey);
+                    talent.HeroId = hero.Id;
                     hero.Talents.Add(talent);
                 }
             }

@@ -645,48 +645,56 @@
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 68,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 5989,
         "Key": "special_bonus_spell_amplify_10",
+        "HeroId": 68,
         "Name": "+10% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6352,
         "Key": "special_bonus_unique_ancient_apparition_3",
+        "HeroId": 68,
         "Name": "-2.5s Ice Vortex Cooldown",
         "Description": null
       },
       {
         "Id": 6079,
         "Key": "special_bonus_hp_regen_20",
+        "HeroId": 68,
         "Name": "+20 Health Regen",
         "Description": null
       },
       {
         "Id": 6534,
         "Key": "special_bonus_unique_ancient_apparition_4",
+        "HeroId": 68,
         "Name": "+8% Ice Vortex Slow/Resistance",
         "Description": null
       },
       {
         "Id": 6291,
         "Key": "special_bonus_unique_ancient_apparition_2",
+        "HeroId": 68,
         "Name": "+80 Chilling Touch Damage",
         "Description": null
       },
       {
         "Id": 7106,
         "Key": "special_bonus_unique_ancient_apparition_6",
+        "HeroId": 68,
         "Name": "700 AoE Cold Feet",
         "Description": null
       },
       {
         "Id": 6810,
         "Key": "special_bonus_unique_ancient_apparition_5",
+        "HeroId": 68,
         "Name": "+5% Ice Blast Kill Threshold",
         "Description": null
       }
@@ -1229,48 +1237,56 @@
       {
         "Id": 6137,
         "Key": "special_bonus_strength_10",
+        "HeroId": 1,
         "Name": "+10 Strength",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 1,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 6606,
         "Key": "special_bonus_unique_antimage_3",
+        "HeroId": 1,
         "Name": "+400 Blink Cast Range",
         "Description": null
       },
       {
         "Id": 5929,
         "Key": "special_bonus_agility_15",
+        "HeroId": 1,
         "Name": "+15 Agility",
         "Description": null
       },
       {
         "Id": 6800,
         "Key": "special_bonus_unique_antimage_5",
+        "HeroId": 1,
         "Name": "Blink Uncontrollable Illusion",
         "Description": "After blinking, an uncontrollable illusion is created at Anti-Mage's original location.  Deals 25%% damage, takes 250%% damage, and lasts 10 seconds."
       },
       {
         "Id": 6012,
         "Key": "special_bonus_unique_antimage",
+        "HeroId": 1,
         "Name": "-2.5s Blink Cooldown",
         "Description": null
       },
       {
         "Id": 6607,
         "Key": "special_bonus_unique_antimage_4",
+        "HeroId": 1,
         "Name": "+25% Counterspell Magic Resistance",
         "Description": null
       },
       {
         "Id": 6353,
         "Key": "special_bonus_unique_antimage_2",
+        "HeroId": 1,
         "Name": "-50s Mana Void Cooldown",
         "Description": null
       }
@@ -1291,7 +1307,7 @@
     "AttributeStrengthGain": 1.3,
     "AttributeBaseIntelligence": 12,
     "AttributeIntelligenceGain": 1.8,
-    "AttributeBaseAgility": 22,
+    "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 3.2,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
@@ -1844,48 +1860,56 @@
       {
         "Id": 5982,
         "Key": "special_bonus_strength_8",
+        "HeroId": 2,
         "Name": "+8 Strength",
         "Description": null
       },
       {
         "Id": 6210,
         "Key": "special_bonus_attack_speed_40",
+        "HeroId": 2,
         "Name": "+40 Attack Speed",
         "Description": null
       },
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 2,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 2,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6308,
         "Key": "special_bonus_hp_regen_25",
+        "HeroId": 2,
         "Name": "+25 Health Regen",
         "Description": null
       },
       {
         "Id": 6815,
         "Key": "special_bonus_unique_axe_3",
+        "HeroId": 2,
         "Name": "Attacking Procs Counter Helix",
         "Description": "Your own attacks against enemy units also have a chance to trigger Counter Helix."
       },
       {
         "Id": 6608,
         "Key": "special_bonus_unique_axe_2",
+        "HeroId": 2,
         "Name": "+100 Berserker's Call AoE",
         "Description": null
       },
       {
         "Id": 6102,
         "Key": "special_bonus_unique_axe",
+        "HeroId": 2,
         "Name": "+120 Battle Hunger DPS",
         "Description": null
       }
@@ -2532,48 +2556,56 @@
       {
         "Id": 5970,
         "Key": "special_bonus_armor_7",
+        "HeroId": 3,
         "Name": "+7 Armor",
         "Description": null
       },
       {
         "Id": 6003,
         "Key": "special_bonus_cast_range_100",
+        "HeroId": 3,
         "Name": "+100 Cast Range",
         "Description": null
       },
       {
         "Id": 6826,
         "Key": "special_bonus_unique_bane_4",
+        "HeroId": 3,
         "Name": "Enfeeble Steals Attack Speed",
         "Description": "Bane gains attack speed equal to the attack speed stolen for the duration of Enfeeble."
       },
       {
         "Id": 6447,
         "Key": "special_bonus_exp_boost_40",
+        "HeroId": 3,
         "Name": "+40% XP Gain",
         "Description": null
       },
       {
         "Id": 6068,
         "Key": "special_bonus_unique_bane_1",
+        "HeroId": 3,
         "Name": "+100 Enfeeble Attack Speed Reduction",
         "Description": null
       },
       {
         "Id": 6306,
         "Key": "special_bonus_movement_speed_50",
+        "HeroId": 3,
         "Name": "+50 Movement Speed",
         "Description": null
       },
       {
         "Id": 6069,
         "Key": "special_bonus_unique_bane_2",
+        "HeroId": 3,
         "Name": "+250 Brain Sap Damage/Heal",
         "Description": null
       },
       {
         "Id": 6609,
         "Key": "special_bonus_unique_bane_3",
+        "HeroId": 3,
         "Name": "+7s Fiend's Grip Duration",
         "Description": null
       }
@@ -2591,11 +2623,11 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 23,
-    "AttributeStrengthGain": 2.4,
+    "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 23,
-    "AttributeIntelligenceGain": 2.8,
+    "AttributeIntelligenceGain": 2.6,
     "AttributeBaseAgility": 23,
-    "AttributeAgilityGain": 2.4,
+    "AttributeAgilityGain": 2.6,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -3199,48 +3231,56 @@
       {
         "Id": 5987,
         "Key": "special_bonus_exp_boost_25",
+        "HeroId": 38,
         "Name": "+25% XP Gain",
         "Description": null
       },
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 38,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5933,
         "Key": "special_bonus_armor_6",
+        "HeroId": 38,
         "Name": "+6 Armor",
         "Description": null
       },
       {
         "Id": 6103,
         "Key": "special_bonus_unique_beastmaster",
+        "HeroId": 38,
         "Name": "+65 Wild Axes Damage",
         "Description": null
       },
       {
         "Id": 6517,
         "Key": "special_bonus_unique_beastmaster_2",
+        "HeroId": 38,
         "Name": "+50 Boar Damage",
         "Description": null
       },
       {
         "Id": 6235,
         "Key": "special_bonus_hp_500",
+        "HeroId": 38,
         "Name": "+500 Health",
         "Description": null
       },
       {
         "Id": 6612,
         "Key": "special_bonus_unique_beastmaster_4",
+        "HeroId": 38,
         "Name": "+25 Inner Beast Attack Speed",
         "Description": null
       },
       {
         "Id": 6611,
         "Key": "special_bonus_unique_beastmaster_3",
+        "HeroId": 38,
         "Name": "-20s Hawks Cooldown",
         "Description": null
       }
@@ -3841,48 +3881,56 @@
       {
         "Id": 6016,
         "Key": "special_bonus_attack_speed_25",
+        "HeroId": 4,
         "Name": "+25 Attack Speed",
         "Description": null
       },
       {
         "Id": 5933,
         "Key": "special_bonus_armor_6",
+        "HeroId": 4,
         "Name": "+6 Armor",
         "Description": null
       },
       {
         "Id": 6311,
         "Key": "special_bonus_hp_275",
+        "HeroId": 4,
         "Name": "+275 Health",
         "Description": null
       },
       {
         "Id": 6356,
         "Key": "special_bonus_unique_bloodseeker_2",
+        "HeroId": 4,
         "Name": "+75 Blood Rite Damage",
         "Description": null
       },
       {
         "Id": 6357,
         "Key": "special_bonus_unique_bloodseeker_3",
+        "HeroId": 4,
         "Name": "+600 Rupture Cast Range",
         "Description": null
       },
       {
         "Id": 6111,
         "Key": "special_bonus_lifesteal_25",
+        "HeroId": 4,
         "Name": "25% Lifesteal",
         "Description": null
       },
       {
         "Id": 6230,
         "Key": "special_bonus_unique_bloodseeker",
+        "HeroId": 4,
         "Name": "-6s Blood Rite Cooldown",
         "Description": null
       },
       {
         "Id": 6809,
         "Key": "special_bonus_unique_bloodseeker_4",
+        "HeroId": 4,
         "Name": "+18 Max Thirst MS",
         "Description": null
       }
@@ -4546,48 +4594,56 @@
       {
         "Id": 6372,
         "Key": "special_bonus_exp_boost_35",
+        "HeroId": 66,
         "Name": "+35% XP Gain",
         "Description": null
       },
       {
         "Id": 6114,
         "Key": "special_bonus_cast_range_200",
+        "HeroId": 66,
         "Name": "+200 Cast Range",
         "Description": null
       },
       {
         "Id": 5970,
         "Key": "special_bonus_armor_7",
+        "HeroId": 66,
         "Name": "+7 Armor",
         "Description": null
       },
       {
         "Id": 6363,
         "Key": "special_bonus_unique_chen_3",
+        "HeroId": 66,
         "Name": "-7s Divine Favor Cooldown",
         "Description": null
       },
       {
         "Id": 6026,
         "Key": "special_bonus_gold_income_30",
+        "HeroId": 66,
         "Name": "+180 Gold/Min",
         "Description": null
       },
       {
         "Id": 6535,
         "Key": "special_bonus_unique_chen_4",
+        "HeroId": 66,
         "Name": "+1000 Holy Persuasion Minimum Health",
         "Description": null
       },
       {
         "Id": 6259,
         "Key": "special_bonus_unique_chen_1",
+        "HeroId": 66,
         "Name": "+5 Holy Persuasion Max Units",
         "Description": null
       },
       {
         "Id": 6260,
         "Key": "special_bonus_unique_chen_2",
+        "HeroId": 66,
         "Name": "+350 Hand of God Heal",
         "Description": null
       }
@@ -5142,7 +5198,7 @@
             300.0
           ],
           "bonus_armor": [
-            10.0
+            20.0
           ],
           "explosion_interval": [
             0.1
@@ -5180,48 +5236,56 @@
       {
         "Id": 5903,
         "Key": "special_bonus_hp_250",
+        "HeroId": 5,
         "Name": "+250 Health",
         "Description": null
       },
       {
         "Id": 6003,
         "Key": "special_bonus_cast_range_100",
+        "HeroId": 5,
         "Name": "+100 Cast Range",
         "Description": null
       },
       {
         "Id": 7042,
         "Key": "special_bonus_unique_crystal_maiden_4",
+        "HeroId": 5,
         "Name": "+14% Manacost/Manaloss Reduction Aura",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 5,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 7020,
         "Key": "special_bonus_attack_speed_250",
+        "HeroId": 5,
         "Name": "+250 Attack Speed",
         "Description": null
       },
       {
         "Id": 6520,
         "Key": "special_bonus_unique_crystal_maiden_3",
+        "HeroId": 5,
         "Name": "+60 Freezing Field Damage",
         "Description": null
       },
       {
         "Id": 6072,
         "Key": "special_bonus_unique_crystal_maiden_1",
+        "HeroId": 5,
         "Name": "+1.5s Frostbite Duration",
         "Description": null
       },
       {
         "Id": 6234,
         "Key": "special_bonus_unique_crystal_maiden_2",
+        "HeroId": 5,
         "Name": "+300 Crystal Nova Damage",
         "Description": null
       }
@@ -5817,54 +5881,62 @@
       {
         "Id": 6239,
         "Key": "special_bonus_evasion_12",
+        "HeroId": 55,
         "Name": "12% Evasion",
         "Description": null
       },
       {
         "Id": 5968,
         "Key": "special_bonus_attack_damage_90",
+        "HeroId": 55,
         "Name": "+90 Damage",
         "Description": null
       },
       {
         "Id": 6730,
         "Key": "special_bonus_hp_regen_12",
+        "HeroId": 55,
         "Name": "+12 Health Regen",
         "Description": null
       },
       {
         "Id": 6365,
         "Key": "special_bonus_unique_dark_seer_2",
+        "HeroId": 55,
         "Name": "+75 Vacuum AoE",
         "Description": null
       },
       {
         "Id": 5951,
         "Key": "special_bonus_cooldown_reduction_15",
+        "HeroId": 55,
         "Name": "15% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6624,
         "Key": "special_bonus_unique_dark_seer_3",
+        "HeroId": 55,
         "Name": "400 AoE Surge",
         "Description": null
       },
       {
         "Id": 7046,
         "Key": "special_bonus_unique_dark_seer_4",
+        "HeroId": 55,
         "Name": "Parallel Wall",
         "Description": "A second Wall of Replica is created 600 units behind the first wall.  Illusions are independent for each Wall."
       },
       {
         "Id": 6047,
         "Key": "special_bonus_unique_dark_seer",
+        "HeroId": 55,
         "Name": "+150 Ion Shell Damage",
         "Description": null
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 5.0,
+    "ArmorPhysical": 3.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 33,
@@ -5880,7 +5952,7 @@
     "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 3.1,
     "AttributeBaseAgility": 12,
-    "AttributeAgilityGain": 1.2,
+    "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -6477,48 +6549,56 @@
       {
         "Id": 5942,
         "Key": "special_bonus_attack_damage_75",
+        "HeroId": 50,
         "Name": "+75 Damage",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 50,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6197,
         "Key": "special_bonus_cast_range_125",
+        "HeroId": 50,
         "Name": "+125 Cast Range",
         "Description": null
       },
       {
         "Id": 6232,
         "Key": "special_bonus_unique_dazzle_2",
+        "HeroId": 50,
         "Name": "+20 Shadow Wave Heal / Damage",
         "Description": null
       },
       {
         "Id": 6093,
         "Key": "special_bonus_movement_speed_40",
+        "HeroId": 50,
         "Name": "+40 Movement Speed",
         "Description": null
       },
       {
         "Id": 6528,
         "Key": "special_bonus_unique_dazzle_3",
+        "HeroId": 50,
         "Name": "+45 Poison Touch DPS",
         "Description": null
       },
       {
         "Id": 6049,
         "Key": "special_bonus_unique_dazzle_1",
+        "HeroId": 50,
         "Name": "+40% Poison Touch Slow",
         "Description": null
       },
       {
         "Id": 6626,
         "Key": "special_bonus_unique_dazzle_4",
+        "HeroId": 50,
         "Name": "+0.5 Bad Juju Armor Reduction",
         "Description": null
       }
@@ -7125,48 +7205,56 @@
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 49,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 7113,
         "Key": "special_bonus_unique_dragon_knight_3",
+        "HeroId": 49,
         "Name": "-20% Breathe Fire Damage Reduction",
         "Description": null
       },
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 49,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 5993,
         "Key": "special_bonus_hp_300",
+        "HeroId": 49,
         "Name": "+300 Health",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 49,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 5984,
         "Key": "special_bonus_strength_25",
+        "HeroId": 49,
         "Name": "+25 Strength",
         "Description": null
       },
       {
         "Id": 6090,
         "Key": "special_bonus_unique_dragon_knight",
+        "HeroId": 49,
         "Name": "2x Dragon Blood HP Regen/Armor",
         "Description": null
       },
       {
         "Id": 6635,
         "Key": "special_bonus_unique_dragon_knight_2",
+        "HeroId": 49,
         "Name": "+1.75s Dragon Tail",
         "Description": null
       }
@@ -7767,48 +7855,56 @@
       {
         "Id": 6370,
         "Key": "special_bonus_unique_doom_4",
+        "HeroId": 69,
         "Name": "+20 Scorched Earth Damage",
         "Description": null
       },
       {
         "Id": 7123,
         "Key": "special_bonus_unique_doom_6",
+        "HeroId": 69,
         "Name": "+16% Scorched Earth Movement Speed",
         "Description": null
       },
       {
         "Id": 5973,
         "Key": "special_bonus_evasion_20",
+        "HeroId": 69,
         "Name": "20% Evasion",
         "Description": null
       },
       {
         "Id": 6369,
         "Key": "special_bonus_unique_doom_3",
+        "HeroId": 69,
         "Name": "+150 Devour Bonus Gold",
         "Description": null
       },
       {
         "Id": 6371,
         "Key": "special_bonus_unique_doom_5",
+        "HeroId": 69,
         "Name": "+40 Doom DPS",
         "Description": null
       },
       {
         "Id": 6314,
         "Key": "special_bonus_unique_doom_2",
+        "HeroId": 69,
         "Name": "Devour Can Target Ancients",
         "Description": null
       },
       {
         "Id": 6073,
         "Key": "special_bonus_unique_doom_1",
+        "HeroId": 69,
         "Name": "+3% Infernal Blade Damage",
         "Description": null
       },
       {
         "Id": 7201,
         "Key": "special_bonus_cleave_130",
+        "HeroId": 69,
         "Name": "+130% Cleave",
         "Description": null
       }
@@ -8369,48 +8465,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 6,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5921,
         "Key": "special_bonus_all_stats_5",
+        "HeroId": 6,
         "Name": "+5 All Stats",
         "Description": null
       },
       {
         "Id": 6029,
         "Key": "special_bonus_agility_10",
+        "HeroId": 6,
         "Name": "+10 Agility",
         "Description": null
       },
       {
         "Id": 6209,
         "Key": "special_bonus_unique_drow_ranger_2",
+        "HeroId": 6,
         "Name": "+550 Gust Distance/Knockback",
         "Description": null
       },
       {
         "Id": 5974,
         "Key": "special_bonus_evasion_25",
+        "HeroId": 6,
         "Name": "25% Evasion",
         "Description": null
       },
       {
         "Id": 6634,
         "Key": "special_bonus_unique_drow_ranger_4",
+        "HeroId": 6,
         "Name": "+3s Gust Silence Duration",
         "Description": null
       },
       {
         "Id": 6202,
         "Key": "special_bonus_unique_drow_ranger_1",
+        "HeroId": 6,
         "Name": "+25% Precision Aura Attack Speed",
         "Description": null
       },
       {
         "Id": 6804,
         "Key": "special_bonus_cooldown_reduction_50",
+        "HeroId": 6,
         "Name": "50% Cooldown Reduction",
         "Description": null
       }
@@ -8977,48 +9081,56 @@
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 7,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 6006,
         "Key": "special_bonus_mp_250",
+        "HeroId": 7,
         "Name": "+250 Mana",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 7,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 5970,
         "Key": "special_bonus_armor_7",
+        "HeroId": 7,
         "Name": "+7 Armor",
         "Description": null
       },
       {
         "Id": 6425,
         "Key": "special_bonus_unique_earthshaker_2",
+        "HeroId": 7,
         "Name": "+50 Echo Damage",
         "Description": null
       },
       {
         "Id": 6511,
         "Key": "special_bonus_unique_earthshaker_3",
+        "HeroId": 7,
         "Name": "+400 Fissure Range",
         "Description": null
       },
       {
         "Id": 6641,
         "Key": "special_bonus_magic_resistance_50",
+        "HeroId": 7,
         "Name": "+50% Magic Resistance",
         "Description": null
       },
       {
         "Id": 6035,
         "Key": "special_bonus_unique_earthshaker",
+        "HeroId": 7,
         "Name": "-2s Enchant Totem Cooldown",
         "Description": null
       }
@@ -9586,48 +9698,56 @@
       {
         "Id": 6138,
         "Key": "special_bonus_magic_resistance_15",
+        "HeroId": 58,
         "Name": "+15% Magic Resistance",
         "Description": null
       },
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 58,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5941,
         "Key": "special_bonus_attack_damage_50",
+        "HeroId": 58,
         "Name": "+50 Damage",
         "Description": null
       },
       {
         "Id": 6086,
         "Key": "special_bonus_unique_enchantress_2",
+        "HeroId": 58,
         "Name": "+8 Nature's Attendants Wisps",
         "Description": null
       },
       {
         "Id": 6379,
         "Key": "special_bonus_unique_enchantress_3",
+        "HeroId": 58,
         "Name": "+100 Untouchable Slow",
         "Description": null
       },
       {
         "Id": 6331,
         "Key": "special_bonus_unique_enchantress_1",
+        "HeroId": 58,
         "Name": "Enchant Affects Ancients",
         "Description": null
       },
       {
         "Id": 6515,
         "Key": "special_bonus_unique_enchantress_4",
+        "HeroId": 58,
         "Name": "+8% Impetus Damage",
         "Description": null
       },
       {
         "Id": 6648,
         "Key": "special_bonus_unique_enchantress_5",
+        "HeroId": 58,
         "Name": "+25 Nature's Attendants Heal",
         "Description": null
       }
@@ -10257,48 +10377,56 @@
       {
         "Id": 5919,
         "Key": "special_bonus_movement_speed_25",
+        "HeroId": 33,
         "Name": "+25 Movement Speed",
         "Description": null
       },
       {
         "Id": 6138,
         "Key": "special_bonus_magic_resistance_15",
+        "HeroId": 33,
         "Name": "+15% Magic Resistance",
         "Description": null
       },
       {
         "Id": 5951,
         "Key": "special_bonus_cooldown_reduction_15",
+        "HeroId": 33,
         "Name": "15% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 33,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 6235,
         "Key": "special_bonus_hp_500",
+        "HeroId": 33,
         "Name": "+500 Health",
         "Description": null
       },
       {
         "Id": 6649,
         "Key": "special_bonus_unique_enigma_3",
+        "HeroId": 33,
         "Name": "+70 Eidolon Damage",
         "Description": null
       },
       {
         "Id": 6510,
         "Key": "special_bonus_unique_enigma_2",
+        "HeroId": 33,
         "Name": "+5 Malefice Instance",
         "Description": null
       },
       {
         "Id": 6065,
         "Key": "special_bonus_unique_enigma",
+        "HeroId": 33,
         "Name": "+8 Demonic Conversion Eidolons",
         "Description": null
       }
@@ -10860,48 +10988,56 @@
       {
         "Id": 5938,
         "Key": "special_bonus_attack_damage_15",
+        "HeroId": 41,
         "Name": "+15 Damage",
         "Description": null
       },
       {
         "Id": 6137,
         "Key": "special_bonus_strength_10",
+        "HeroId": 41,
         "Name": "+10 Strength",
         "Description": null
       },
       {
         "Id": 6807,
         "Key": "special_bonus_unique_faceless_void_3",
+        "HeroId": 41,
         "Name": "+70 Time Lock Damage",
         "Description": null
       },
       {
         "Id": 7388,
         "Key": "special_bonus_unique_faceless_void_5",
+        "HeroId": 41,
         "Name": "-1s Time Walk",
         "Description": null
       },
       {
         "Id": 6210,
         "Key": "special_bonus_attack_speed_40",
+        "HeroId": 41,
         "Name": "+40 Attack Speed",
         "Description": null
       },
       {
         "Id": 6128,
         "Key": "special_bonus_unique_faceless_void",
+        "HeroId": 41,
         "Name": "+500 Timewalk Cast Range",
         "Description": null
       },
       {
         "Id": 7001,
         "Key": "special_bonus_unique_faceless_void_4",
+        "HeroId": 41,
         "Name": "+25% Backtrack",
         "Description": "Grants a %value%%% chance to avoid damage entirely."
       },
       {
         "Id": 6651,
         "Key": "special_bonus_unique_faceless_void_2",
+        "HeroId": 41,
         "Name": "+175 Chronosphere AoE",
         "Description": null
       }
@@ -11497,48 +11633,56 @@
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 53,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 5919,
         "Key": "special_bonus_movement_speed_25",
+        "HeroId": 53,
         "Name": "+25 Movement Speed",
         "Description": null
       },
       {
         "Id": 6004,
         "Key": "special_bonus_armor_10",
+        "HeroId": 53,
         "Name": "+10 Armor",
         "Description": null
       },
       {
         "Id": 6500,
         "Key": "special_bonus_unique_furion_2",
+        "HeroId": 53,
         "Name": "+4 Treants Summoned",
         "Description": null
       },
       {
         "Id": 6210,
         "Key": "special_bonus_attack_speed_40",
+        "HeroId": 53,
         "Name": "+40 Attack Speed",
         "Description": null
       },
       {
         "Id": 6222,
         "Key": "special_bonus_cooldown_reduction_25",
+        "HeroId": 53,
         "Name": "25% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6539,
         "Key": "special_bonus_unique_furion_3",
+        "HeroId": 53,
         "Name": "Removed Teleportation Cooldown",
         "Description": null
       },
       {
         "Id": 6084,
         "Key": "special_bonus_unique_furion",
+        "HeroId": 53,
         "Name": "2x Treant HP/Damage",
         "Description": null
       }
@@ -12076,7 +12220,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "attack_rate_multiplier": [
-            1.8
+            1.7
           ],
           "bonus_damage": [
             30.0,
@@ -12106,48 +12250,56 @@
       {
         "Id": 5921,
         "Key": "special_bonus_all_stats_5",
+        "HeroId": 8,
         "Name": "+5 All Stats",
         "Description": null
       },
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 8,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 7394,
         "Key": "special_bonus_unique_juggernaut_4",
+        "HeroId": 8,
         "Name": "+50 Blade Fury Movement Speed",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 8,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 6004,
         "Key": "special_bonus_armor_10",
+        "HeroId": 8,
         "Name": "+10 Armor",
         "Description": null
       },
       {
         "Id": 7021,
         "Key": "special_bonus_unique_juggernaut_3",
+        "HeroId": 8,
         "Name": "+100 Blade Fury DPS",
         "Description": null
       },
       {
         "Id": 6377,
         "Key": "special_bonus_hp_600",
+        "HeroId": 8,
         "Name": "+600 Health",
         "Description": null
       },
       {
         "Id": 6662,
         "Key": "special_bonus_unique_juggernaut_2",
+        "HeroId": 8,
         "Name": "+1s Omnislash Duration",
         "Description": null
       }
@@ -12838,48 +12990,56 @@
       {
         "Id": 5940,
         "Key": "special_bonus_attack_damage_40",
+        "HeroId": 23,
         "Name": "+40 Damage",
         "Description": null
       },
       {
         "Id": 5933,
         "Key": "special_bonus_armor_6",
+        "HeroId": 23,
         "Name": "+6 Armor",
         "Description": null
       },
       {
         "Id": 6730,
         "Key": "special_bonus_hp_regen_12",
+        "HeroId": 23,
         "Name": "+12 Health Regen",
         "Description": null
       },
       {
         "Id": 6385,
         "Key": "special_bonus_unique_kunkka_2",
+        "HeroId": 23,
         "Name": "+120 Torrent Damage",
         "Description": null
       },
       {
         "Id": 6089,
         "Key": "special_bonus_unique_kunkka",
+        "HeroId": 23,
         "Name": "+100 Torrent AoE",
         "Description": null
       },
       {
         "Id": 5984,
         "Key": "special_bonus_strength_25",
+        "HeroId": 23,
         "Name": "+25 Strength",
         "Description": null
       },
       {
         "Id": 6666,
         "Key": "special_bonus_unique_kunkka_3",
+        "HeroId": 23,
         "Name": "Ghostship Fleet",
         "Description": "Spawns 3 Ghostships, 2.8 seconds apart, towards the target location."
       },
       {
         "Id": 6667,
         "Key": "special_bonus_unique_kunkka_4",
+        "HeroId": 23,
         "Name": "+60% Tidebringer Cleave",
         "Description": null
       }
@@ -13464,48 +13624,56 @@
       {
         "Id": 5932,
         "Key": "special_bonus_armor_5",
+        "HeroId": 52,
         "Name": "+5 Armor",
         "Description": null
       },
       {
         "Id": 6006,
         "Key": "special_bonus_mp_250",
+        "HeroId": 52,
         "Name": "+250 Mana",
         "Description": null
       },
       {
         "Id": 6145,
         "Key": "special_bonus_strength_15",
+        "HeroId": 52,
         "Name": "+15 Strength",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 52,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 5974,
         "Key": "special_bonus_evasion_25",
+        "HeroId": 52,
         "Name": "25% Evasion",
         "Description": null
       },
       {
         "Id": 6672,
         "Key": "special_bonus_unique_leshrac_3",
+        "HeroId": 52,
         "Name": "+50 Pulse Nova Damage",
         "Description": null
       },
       {
         "Id": 6063,
         "Key": "special_bonus_unique_leshrac_1",
+        "HeroId": 52,
         "Name": "+40 Diabolic Edict Explosions",
         "Description": null
       },
       {
         "Id": 6240,
         "Key": "special_bonus_unique_leshrac_2",
+        "HeroId": 52,
         "Name": "+3s Lightning Storm Slow Duration",
         "Description": null
       }
@@ -13527,7 +13695,7 @@
     "AttributeBaseIntelligence": 22,
     "AttributeIntelligenceGain": 3.5,
     "AttributeBaseAgility": 23,
-    "AttributeAgilityGain": 1.7,
+    "AttributeAgilityGain": 2.3,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -13845,9 +14013,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            1.6,
-            1.9,
-            2.2,
+            1.3,
+            1.7,
+            2.1,
             2.5
           ],
           "destination": [
@@ -14117,48 +14285,56 @@
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 31,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 31,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 6112,
         "Key": "special_bonus_attack_damage_120",
+        "HeroId": 31,
         "Name": "+120 Damage",
         "Description": null
       },
       {
         "Id": 6387,
         "Key": "special_bonus_unique_lich_3",
+        "HeroId": 31,
         "Name": "-4s Frost Blast Cooldown",
         "Description": null
       },
       {
         "Id": 6056,
         "Key": "special_bonus_cast_range_150",
+        "HeroId": 31,
         "Name": "+150 Cast Range",
         "Description": null
       },
       {
         "Id": 7360,
         "Key": "special_bonus_unique_lich_4",
+        "HeroId": 31,
         "Name": "+2s Frost Shield Duration",
         "Description": null
       },
       {
         "Id": 6039,
         "Key": "special_bonus_unique_lich_1",
+        "HeroId": 31,
         "Name": "Frost Shield Provides +60 HP Regen",
         "Description": null
       },
       {
         "Id": 6292,
         "Key": "special_bonus_unique_lich_2",
+        "HeroId": 31,
         "Name": "Attacks Apply 50% MS and AS Slow",
         "Description": null
       }
@@ -14189,7 +14365,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 305,
+    "MovementSpeed": 295,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -14389,10 +14565,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "hp_leech_percent": [
-            1.75,
-            2.5,
-            3.25,
-            4.0
+            1.5,
+            2.25,
+            3.0,
+            3.75
           ]
         }
       },
@@ -14958,48 +15134,56 @@
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 54,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 54,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 54,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 5919,
         "Key": "special_bonus_movement_speed_25",
+        "HeroId": 54,
         "Name": "+25 Movement Speed",
         "Description": null
       },
       {
         "Id": 5973,
         "Key": "special_bonus_evasion_20",
+        "HeroId": 54,
         "Name": "20% Evasion",
         "Description": null
       },
       {
         "Id": 6676,
         "Key": "special_bonus_unique_lifestealer_2",
+        "HeroId": 54,
         "Name": "+50% Open Wounds Lifesteal",
         "Description": null
       },
       {
         "Id": 7012,
         "Key": "special_bonus_unique_lifestealer_3",
+        "HeroId": 54,
         "Name": "+1% Feast Damage/Lifesteal",
         "Description": null
       },
       {
         "Id": 6173,
         "Key": "special_bonus_unique_lifestealer",
+        "HeroId": 54,
         "Name": "+2s Rage Duration",
         "Description": null
       }
@@ -15017,7 +15201,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 25,
-    "AttributeStrengthGain": 3.6,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 15,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 18,
@@ -15568,48 +15752,56 @@
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 25,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 6197,
         "Key": "special_bonus_cast_range_125",
+        "HeroId": 25,
         "Name": "+125 Cast Range",
         "Description": null
       },
       {
         "Id": 6195,
         "Key": "special_bonus_hp_350",
+        "HeroId": 25,
         "Name": "+350 Health",
         "Description": null
       },
       {
         "Id": 6388,
         "Key": "special_bonus_unique_lina_3",
+        "HeroId": 25,
         "Name": "+140 Light Strike Array Damage",
         "Description": null
       },
       {
         "Id": 6326,
         "Key": "special_bonus_spell_amplify_12",
+        "HeroId": 25,
         "Name": "+12% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6313,
         "Key": "special_bonus_unique_lina_2",
+        "HeroId": 25,
         "Name": "+25/2% Fiery Soul Per Stack",
         "Description": null
       },
       {
         "Id": 6212,
         "Key": "special_bonus_unique_lina_1",
+        "HeroId": 25,
         "Name": "-6s Dragon Slave Cooldown",
         "Description": null
       },
       {
         "Id": 6186,
         "Key": "special_bonus_attack_range_175",
+        "HeroId": 25,
         "Name": "+175 Attack Range",
         "Description": null
       }
@@ -15628,7 +15820,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 20,
     "AttributeStrengthGain": 2.0,
-    "AttributeBaseIntelligence": 28,
+    "AttributeBaseIntelligence": 30,
     "AttributeIntelligenceGain": 3.7,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.5,
@@ -16208,48 +16400,56 @@
       {
         "Id": 6003,
         "Key": "special_bonus_cast_range_100",
+        "HeroId": 26,
         "Name": "+100 Cast Range",
         "Description": null
       },
       {
         "Id": 5968,
         "Key": "special_bonus_attack_damage_90",
+        "HeroId": 26,
         "Name": "+90 Damage",
         "Description": null
       },
       {
         "Id": 6600,
         "Key": "special_bonus_unique_lion_3",
+        "HeroId": 26,
         "Name": "+200 Finger of Death Damage",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 26,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 6235,
         "Key": "special_bonus_hp_500",
+        "HeroId": 26,
         "Name": "+500 Health",
         "Description": null
       },
       {
         "Id": 6174,
         "Key": "special_bonus_unique_lion",
+        "HeroId": 26,
         "Name": "+2 Mana Drain Multi Target",
         "Description": "Automatically targets additional enemy units with a mana pool within 400 distance around the original target."
       },
       {
         "Id": 6389,
         "Key": "special_bonus_unique_lion_2",
+        "HeroId": 26,
         "Name": "+1000 Earth Spike Range",
         "Description": null
       },
       {
         "Id": 6678,
         "Key": "special_bonus_unique_lion_4",
+        "HeroId": 26,
         "Name": "+325 AoE Hex",
         "Description": null
       }
@@ -16829,48 +17029,56 @@
       {
         "Id": 5938,
         "Key": "special_bonus_attack_damage_15",
+        "HeroId": 9,
         "Name": "+15 Damage",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 9,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6397,
         "Key": "special_bonus_unique_mirana_3",
+        "HeroId": 9,
         "Name": "-5s Sacred Arrow cooldown",
         "Description": null
       },
       {
         "Id": 6013,
         "Key": "special_bonus_unique_mirana_1",
+        "HeroId": 9,
         "Name": "+80 Leap Attack Speed",
         "Description": null
       },
       {
         "Id": 6326,
         "Key": "special_bonus_spell_amplify_12",
+        "HeroId": 9,
         "Name": "+12% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6830,
         "Key": "special_bonus_mana_break_25",
+        "HeroId": 9,
         "Name": "+25 Mana Break",
         "Description": null
       },
       {
         "Id": 6242,
         "Key": "special_bonus_unique_mirana_2",
+        "HeroId": 9,
         "Name": "+2 Multishot Sacred Arrows",
         "Description": "The extra arrows are launched in a cone shape, 30 degrees to the left and right of the original arrow, and cannot hit the same target."
       },
       {
         "Id": 6692,
         "Key": "special_bonus_unique_mirana_4",
+        "HeroId": 9,
         "Name": "-70 Moonlight Shadow Cooldown",
         "Description": null
       }
@@ -17613,48 +17821,56 @@
       {
         "Id": 6029,
         "Key": "special_bonus_agility_10",
+        "HeroId": 10,
         "Name": "+10 Agility",
         "Description": null
       },
       {
         "Id": 6062,
         "Key": "special_bonus_unique_morphling_1",
+        "HeroId": 10,
         "Name": "+350 Waveform Range",
         "Description": null
       },
       {
         "Id": 7060,
         "Key": "special_bonus_unique_morphling_8",
+        "HeroId": 10,
         "Name": "+20s Morph Duration",
         "Description": null
       },
       {
         "Id": 5907,
         "Key": "special_bonus_attack_speed_30",
+        "HeroId": 10,
         "Name": "+30 Attack Speed",
         "Description": null
       },
       {
         "Id": 6927,
         "Key": "special_bonus_unique_morphling_5",
+        "HeroId": 10,
         "Name": "Morph Targets Allies",
         "Description": null
       },
       {
         "Id": 6840,
         "Key": "special_bonus_unique_morphling_4",
+        "HeroId": 10,
         "Name": "Waveform Attacks Targets",
         "Description": "Enemies hit by Waveform are also instantly attacked by Morphling."
       },
       {
         "Id": 7052,
         "Key": "special_bonus_unique_morphling_6",
+        "HeroId": 10,
         "Name": "2 Waveform Charges",
         "Description": null
       },
       {
         "Id": 6698,
         "Key": "special_bonus_unique_morphling_3",
+        "HeroId": 10,
         "Name": "+3 Multishot Adaptive Strike",
         "Description": "Two additional enemy units within cast range are also targeted by Adaptive Strike."
       }
@@ -18233,48 +18449,56 @@
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 36,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 6137,
         "Key": "special_bonus_strength_10",
+        "HeroId": 36,
         "Name": "+10 Strength",
         "Description": null
       },
       {
         "Id": 7110,
         "Key": "special_bonus_unique_necrophos_3",
+        "HeroId": 36,
         "Name": "+30% Ghost Shroud Slow",
         "Description": null
       },
       {
         "Id": 7111,
         "Key": "special_bonus_unique_necrophos_4",
+        "HeroId": 36,
         "Name": "+40 Death Pulse Heal",
         "Description": null
       },
       {
         "Id": 6000,
         "Key": "special_bonus_magic_resistance_20",
+        "HeroId": 36,
         "Name": "+20% Magic Resistance",
         "Description": null
       },
       {
         "Id": 6444,
         "Key": "special_bonus_attack_speed_70",
+        "HeroId": 36,
         "Name": "+70 Attack Speed",
         "Description": null
       },
       {
         "Id": 6703,
         "Key": "special_bonus_unique_necrophos_2",
+        "HeroId": 36,
         "Name": "+0.8 Heartstopper Aura",
         "Description": null
       },
       {
         "Id": 6010,
         "Key": "special_bonus_unique_necrophos",
+        "HeroId": 36,
         "Name": "-2.5s Death Pulse Cooldown",
         "Description": null
       }
@@ -18895,48 +19119,56 @@
       {
         "Id": 5949,
         "Key": "special_bonus_spell_amplify_8",
+        "HeroId": 11,
         "Name": "+8% Spell Amplification",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 11,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 6875,
         "Key": "special_bonus_unique_nevermore_3",
+        "HeroId": 11,
         "Name": "Presence Aura Affects Building",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 11,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6670,
         "Key": "special_bonus_unique_nevermore_1",
+        "HeroId": 11,
         "Name": "+2 Damage Per Soul",
         "Description": null
       },
       {
         "Id": 6070,
         "Key": "special_bonus_unique_nevermore_2",
+        "HeroId": 11,
         "Name": "+150 Shadowraze Damage",
         "Description": null
       },
       {
         "Id": 6912,
         "Key": "special_bonus_unique_nevermore_5",
+        "HeroId": 11,
         "Name": "-5 Presence Aura Armor",
         "Description": null
       },
       {
         "Id": 6445,
         "Key": "special_bonus_cooldown_reduction_40",
+        "HeroId": 11,
         "Name": "40% Cooldown Reduction",
         "Description": null
       }
@@ -18953,10 +19185,10 @@
     "AttackRange": 500,
     "ProjectileSpeed": 1200,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
-    "AttributeBaseStrength": 16,
+    "AttributeBaseStrength": 17,
     "AttributeStrengthGain": 2.3,
     "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 2.0,
+    "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 3.3,
     "StatusHealth": 200,
@@ -19496,48 +19728,56 @@
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 60,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6094,
         "Key": "special_bonus_mp_200",
+        "HeroId": 60,
         "Name": "+200 Mana",
         "Description": null
       },
       {
         "Id": 6145,
         "Key": "special_bonus_strength_15",
+        "HeroId": 60,
         "Name": "+15 Strength",
         "Description": null
       },
       {
         "Id": 6289,
         "Key": "special_bonus_lifesteal_15",
+        "HeroId": 60,
         "Name": "15% Lifesteal",
         "Description": null
       },
       {
         "Id": 6093,
         "Key": "special_bonus_movement_speed_40",
+        "HeroId": 60,
         "Name": "+40 Movement Speed",
         "Description": null
       },
       {
         "Id": 5941,
         "Key": "special_bonus_attack_damage_50",
+        "HeroId": 60,
         "Name": "+50 Damage",
         "Description": null
       },
       {
         "Id": 6704,
         "Key": "special_bonus_unique_night_stalker_2",
+        "HeroId": 60,
         "Name": "+140 Hunter In The Night Attack Speed",
         "Description": null
       },
       {
         "Id": 6129,
         "Key": "special_bonus_unique_night_stalker",
+        "HeroId": 60,
         "Name": "-40s Dark Ascension Cooldown",
         "Description": null
       }
@@ -19555,7 +19795,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 23,
-    "AttributeStrengthGain": 3.6,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 13,
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 18,
@@ -19763,7 +20003,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            10.0
+            12.0
           ],
           "status_resistance": [
             50.0
@@ -20091,48 +20331,56 @@
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 57,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 7010,
         "Key": "special_bonus_unique_omniknight_4",
+        "HeroId": 57,
         "Name": "+75 Purification AoE",
         "Description": null
       },
       {
         "Id": 6372,
         "Key": "special_bonus_exp_boost_35",
+        "HeroId": 57,
         "Name": "+35% XP Gain",
         "Description": null
       },
       {
         "Id": 5968,
         "Key": "special_bonus_attack_damage_90",
+        "HeroId": 57,
         "Name": "+90 Damage",
         "Description": null
       },
       {
         "Id": 6300,
         "Key": "special_bonus_unique_omniknight_2",
+        "HeroId": 57,
         "Name": "-12% Degen Aura",
         "Description": null
       },
       {
         "Id": 6410,
         "Key": "special_bonus_mp_regen_5",
+        "HeroId": 57,
         "Name": "+5 Mana Regen",
         "Description": null
       },
       {
         "Id": 5981,
         "Key": "special_bonus_unique_omniknight_1",
+        "HeroId": 57,
         "Name": "+200 Purification Damage/Heal",
         "Description": null
       },
       {
         "Id": 6709,
         "Key": "special_bonus_unique_omniknight_3",
+        "HeroId": 57,
         "Name": "-8s Heavenly Grace Cooldown",
         "Description": null
       }
@@ -20725,48 +20973,56 @@
       {
         "Id": 5965,
         "Key": "special_bonus_intelligence_10",
+        "HeroId": 13,
         "Name": "+10 Intelligence",
         "Description": null
       },
       {
         "Id": 5932,
         "Key": "special_bonus_armor_5",
+        "HeroId": 13,
         "Name": "+5 Armor",
         "Description": null
       },
       {
         "Id": 6055,
         "Key": "special_bonus_spell_amplify_15",
+        "HeroId": 13,
         "Name": "+15% Spell Amplification",
         "Description": null
       },
       {
         "Id": 5968,
         "Key": "special_bonus_attack_damage_90",
+        "HeroId": 13,
         "Name": "+90 Damage",
         "Description": null
       },
       {
         "Id": 6402,
         "Key": "special_bonus_unique_puck_2",
+        "HeroId": 13,
         "Name": "-8s Waning Rift Cooldown",
         "Description": null
       },
       {
         "Id": 6219,
         "Key": "special_bonus_unique_puck",
+        "HeroId": 13,
         "Name": "+40% Illusory Orb Distance/Speed",
         "Description": null
       },
       {
         "Id": 6446,
         "Key": "special_bonus_gold_income_70",
+        "HeroId": 13,
         "Name": "+420 Gold/Min",
         "Description": null
       },
       {
         "Id": 6855,
         "Key": "special_bonus_unique_puck_3",
+        "HeroId": 13,
         "Name": "Dream Coil Rapid Fire",
         "Description": "Puck instantly attacks all enemies while affected by Dream Coil, every %value% seconds."
       }
@@ -21361,48 +21617,56 @@
       {
         "Id": 6317,
         "Key": "special_bonus_exp_boost_30",
+        "HeroId": 14,
         "Name": "+30% XP Gain",
         "Description": null
       },
       {
         "Id": 6245,
         "Key": "special_bonus_unique_pudge_2",
+        "HeroId": 14,
         "Name": "+35 Rot Damage",
         "Description": null
       },
       {
         "Id": 6560,
         "Key": "special_bonus_spell_lifesteal_13",
+        "HeroId": 14,
         "Name": "13% Spell Lifesteal",
         "Description": null
       },
       {
         "Id": 7142,
         "Key": "special_bonus_unique_pudge_4",
+        "HeroId": 14,
         "Name": "+12% Rot Slow",
         "Description": null
       },
       {
         "Id": 6026,
         "Key": "special_bonus_gold_income_30",
+        "HeroId": 14,
         "Name": "+180 Gold/Min",
         "Description": null
       },
       {
         "Id": 5951,
         "Key": "special_bonus_cooldown_reduction_15",
+        "HeroId": 14,
         "Name": "15% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6506,
         "Key": "special_bonus_unique_pudge_3",
+        "HeroId": 14,
         "Name": "+3s Dismember Duration",
         "Description": null
       },
       {
         "Id": 6023,
         "Key": "special_bonus_unique_pudge_1",
+        "HeroId": 14,
         "Name": "+2.0 Flesh Heap Stack Str",
         "Description": null
       }
@@ -21987,48 +22251,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 45,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 6405,
         "Key": "special_bonus_hp_225",
+        "HeroId": 45,
         "Name": "+225 Health",
         "Description": null
       },
       {
         "Id": 6448,
         "Key": "special_bonus_unique_pugna_4",
+        "HeroId": 45,
         "Name": "-1s Netherblast Cooldown",
         "Description": null
       },
       {
         "Id": 6859,
         "Key": "special_bonus_unique_pugna_6",
+        "HeroId": 45,
         "Name": "+3 Nether Ward Health",
         "Description": null
       },
       {
         "Id": 6220,
         "Key": "special_bonus_unique_pugna_1",
+        "HeroId": 45,
         "Name": "+25% Life Drain Heal",
         "Description": null
       },
       {
         "Id": 6541,
         "Key": "special_bonus_unique_pugna_5",
+        "HeroId": 45,
         "Name": "+2s Decrepify Duration",
         "Description": null
       },
       {
         "Id": 6238,
         "Key": "special_bonus_unique_pugna_2",
+        "HeroId": 45,
         "Name": "+200 Nether Blast Damage",
         "Description": null
       },
       {
         "Id": 6403,
         "Key": "special_bonus_unique_pugna_3",
+        "HeroId": 45,
         "Name": "+1.75 Netherward Damage Per Mana",
         "Description": null
       }
@@ -22631,48 +22903,56 @@
       {
         "Id": 5932,
         "Key": "special_bonus_armor_5",
+        "HeroId": 51,
         "Name": "+5 Armor",
         "Description": null
       },
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 51,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 6145,
         "Key": "special_bonus_strength_15",
+        "HeroId": 51,
         "Name": "+15 Strength",
         "Description": null
       },
       {
         "Id": 6512,
         "Key": "special_bonus_unique_clockwerk_3",
+        "HeroId": 51,
         "Name": "+30 Battery Assault Damage",
         "Description": null
       },
       {
         "Id": 7028,
         "Key": "special_bonus_unique_clockwerk_4",
+        "HeroId": 51,
         "Name": "Rocket Flare True Sight",
         "Description": null
       },
       {
         "Id": 6364,
         "Key": "special_bonus_unique_clockwerk_2",
+        "HeroId": 51,
         "Name": "+125 Rocket Flare Damage",
         "Description": null
       },
       {
         "Id": 6641,
         "Key": "special_bonus_magic_resistance_50",
+        "HeroId": 51,
         "Name": "+50% Magic Resistance",
         "Description": null
       },
       {
         "Id": 5977,
         "Key": "special_bonus_unique_clockwerk",
+        "HeroId": 51,
         "Name": "-0.3s Battery Assault Interval",
         "Description": null
       }
@@ -23293,48 +23573,56 @@
       {
         "Id": 6405,
         "Key": "special_bonus_hp_225",
+        "HeroId": 15,
         "Name": "+225 Health",
         "Description": null
       },
       {
         "Id": 5929,
         "Key": "special_bonus_agility_15",
+        "HeroId": 15,
         "Name": "+15 Agility",
         "Description": null
       },
       {
         "Id": 6028,
         "Key": "special_bonus_unique_razor",
+        "HeroId": 15,
         "Name": "+7 Static Link Damage Steal",
         "Description": null
       },
       {
         "Id": 6860,
         "Key": "special_bonus_unique_razor_3",
+        "HeroId": 15,
         "Name": "+4% Unstable Current Movement Speed",
         "Description": null
       },
       {
         "Id": 6004,
         "Key": "special_bonus_armor_10",
+        "HeroId": 15,
         "Name": "+10 Armor",
         "Description": null
       },
       {
         "Id": 6408,
         "Key": "special_bonus_unique_razor_2",
+        "HeroId": 15,
         "Name": "-0.1 Eye of the Storm Strike Interval",
         "Description": null
       },
       {
         "Id": 6037,
         "Key": "special_bonus_attack_speed_100",
+        "HeroId": 15,
         "Name": "+100 Attack Speed",
         "Description": null
       },
       {
         "Id": 6861,
         "Key": "special_bonus_unique_razor_4",
+        "HeroId": 15,
         "Name": "+200 Unstable Current Damage",
         "Description": null
       }
@@ -23903,48 +24191,56 @@
       {
         "Id": 5969,
         "Key": "special_bonus_hp_regen_6",
+        "HeroId": 32,
         "Name": "+6 Health Regen",
         "Description": null
       },
       {
         "Id": 6014,
         "Key": "special_bonus_agility_8",
+        "HeroId": 32,
         "Name": "+8 Agility",
         "Description": null
       },
       {
         "Id": 7045,
         "Key": "special_bonus_20_crit_15",
+        "HeroId": 32,
         "Name": "+20% Critical Strike (1.5x)",
         "Description": null
       },
       {
         "Id": 6193,
         "Key": "special_bonus_unique_riki_2",
+        "HeroId": 32,
         "Name": "-7s Smoke Screen Cooldown",
         "Description": null
       },
       {
         "Id": 6330,
         "Key": "special_bonus_unique_riki_1",
+        "HeroId": 32,
         "Name": "+0.30 Backstab Multiplier",
         "Description": null
       },
       {
         "Id": 6865,
         "Key": "special_bonus_unique_riki_3",
+        "HeroId": 32,
         "Name": "+700 Blink Strike Cast Range",
         "Description": null
       },
       {
         "Id": 6866,
         "Key": "special_bonus_unique_riki_4",
+        "HeroId": 32,
         "Name": "+300 Tricks of the Trade AoE",
         "Description": null
       },
       {
         "Id": 6867,
         "Key": "special_bonus_unique_riki_5",
+        "HeroId": 32,
         "Name": "Cloak and Dagger Doesn't Reveal",
         "Description": "No actions take Riki out of invisibility, only revealed by sources of True Sight."
       }
@@ -23968,7 +24264,7 @@
     "AttributeBaseAgility": 30,
     "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
-    "StatusHealthRegen": 1.5,
+    "StatusHealthRegen": 3.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -24581,48 +24877,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 16,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 16,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6409,
         "Key": "special_bonus_unique_sand_king_2",
+        "HeroId": 16,
         "Name": "+40 Sand Storm DPS",
         "Description": null
       },
       {
         "Id": 6530,
         "Key": "special_bonus_unique_sand_king_3",
+        "HeroId": 16,
         "Name": "-50 Epicenter Attack Slow",
         "Description": null
       },
       {
         "Id": 6004,
         "Key": "special_bonus_armor_10",
+        "HeroId": 16,
         "Name": "+10 Armor",
         "Description": null
       },
       {
         "Id": 6207,
         "Key": "special_bonus_unique_sand_king",
+        "HeroId": 16,
         "Name": "+4 Epicenter Pulses",
         "Description": null
       },
       {
         "Id": 6302,
         "Key": "special_bonus_hp_regen_50",
+        "HeroId": 16,
         "Name": "+50 Health Regen",
         "Description": null
       },
       {
         "Id": 6872,
         "Key": "special_bonus_unique_sand_king_4",
+        "HeroId": 16,
         "Name": "50% Sand Storm Slow and Blind",
         "Description": "Enemy units in range of Sand Storm have their movement speed slowed by %value%%% and miss %value%%% of their attacks."
       }
@@ -25206,48 +25510,56 @@
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 27,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6017,
         "Key": "special_bonus_exp_boost_20",
+        "HeroId": 27,
         "Name": "+20% XP Gain",
         "Description": null
       },
       {
         "Id": 6197,
         "Key": "special_bonus_cast_range_125",
+        "HeroId": 27,
         "Name": "+125 Cast Range",
         "Description": null
       },
       {
         "Id": 6877,
         "Key": "special_bonus_unique_shadow_shaman_5",
+        "HeroId": 27,
         "Name": "-5s Hex Cooldown",
         "Description": null
       },
       {
         "Id": 6295,
         "Key": "special_bonus_unique_shadow_shaman_2",
+        "HeroId": 27,
         "Name": "+2.5s Shackles Duration",
         "Description": null
       },
       {
         "Id": 6052,
         "Key": "special_bonus_unique_shadow_shaman_1",
+        "HeroId": 27,
         "Name": "+1 Serpent Wards Max HP",
         "Description": null
       },
       {
         "Id": 6502,
         "Key": "special_bonus_unique_shadow_shaman_3",
+        "HeroId": 27,
         "Name": "+400 Ether Shock Damage",
         "Description": null
       },
       {
         "Id": 6521,
         "Key": "special_bonus_unique_shadow_shaman_4",
+        "HeroId": 27,
         "Name": "+50 Wards Attack Damage",
         "Description": null
       }
@@ -25810,48 +26122,56 @@
       {
         "Id": 5969,
         "Key": "special_bonus_hp_regen_6",
+        "HeroId": 28,
         "Name": "+6 Health Regen",
         "Description": null
       },
       {
         "Id": 6009,
         "Key": "special_bonus_attack_damage_25",
+        "HeroId": 28,
         "Name": "+25 Damage",
         "Description": null
       },
       {
         "Id": 5993,
         "Key": "special_bonus_hp_300",
+        "HeroId": 28,
         "Name": "+300 Health",
         "Description": null
       },
       {
         "Id": 6889,
         "Key": "special_bonus_unique_slardar_2",
+        "HeroId": 28,
         "Name": "+75 Bash Damage",
         "Description": null
       },
       {
         "Id": 6121,
         "Key": "special_bonus_lifesteal_30",
+        "HeroId": 28,
         "Name": "30% Lifesteal",
         "Description": null
       },
       {
         "Id": 6888,
         "Key": "special_bonus_night_vision_1000",
+        "HeroId": 28,
         "Name": "+1000 Night Vision",
         "Description": null
       },
       {
         "Id": 6211,
         "Key": "special_bonus_unique_slardar",
+        "HeroId": 28,
         "Name": "+1.25s Slithereen Crush Stun",
         "Description": null
       },
       {
         "Id": 6890,
         "Key": "special_bonus_unique_slardar_3",
+        "HeroId": 28,
         "Name": "Corrosive Haze Undispellable",
         "Description": null
       }
@@ -26413,48 +26733,56 @@
       {
         "Id": 6222,
         "Key": "special_bonus_cooldown_reduction_25",
+        "HeroId": 35,
         "Name": "25% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 5960,
         "Key": "special_bonus_attack_damage_20",
+        "HeroId": 35,
         "Name": "+20 Damage",
         "Description": null
       },
       {
         "Id": 6210,
         "Key": "special_bonus_attack_speed_40",
+        "HeroId": 35,
         "Name": "+40 Attack Speed",
         "Description": null
       },
       {
         "Id": 7396,
         "Key": "special_bonus_unique_sniper_5",
-        "Name": "+15% Shrapnel Slow",
+        "HeroId": 35,
+        "Name": "+20% Shrapnel Slow",
         "Description": null
       },
       {
         "Id": 6896,
         "Key": "special_bonus_unique_sniper_3",
+        "HeroId": 35,
         "Name": "+35 Knockback Distance Headshot",
         "Description": null
       },
       {
         "Id": 6897,
         "Key": "special_bonus_unique_sniper_4",
+        "HeroId": 35,
         "Name": "-1.5s Assassinate Cast Time",
         "Description": null
       },
       {
         "Id": 5944,
         "Key": "special_bonus_attack_range_125",
+        "HeroId": 35,
         "Name": "+125 Attack Range",
         "Description": null
       },
       {
         "Id": 6198,
         "Key": "special_bonus_unique_sniper_2",
+        "HeroId": 35,
         "Name": "+6 Shrapnel Charges",
         "Description": null
       }
@@ -26471,7 +26799,7 @@
     "AttackRange": 550,
     "ProjectileSpeed": 3000,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
-    "AttributeBaseStrength": 17,
+    "AttributeBaseStrength": 19,
     "AttributeStrengthGain": 1.7,
     "AttributeBaseIntelligence": 15,
     "AttributeIntelligenceGain": 2.6,
@@ -27069,48 +27397,56 @@
       {
         "Id": 5969,
         "Key": "special_bonus_hp_regen_6",
+        "HeroId": 67,
         "Name": "+6 Health Regen",
         "Description": null
       },
       {
-        "Id": 5920,
-        "Key": "special_bonus_all_stats_4",
-        "Name": "+4 All Stats",
+        "Id": 5921,
+        "Key": "special_bonus_all_stats_5",
+        "HeroId": 67,
+        "Name": "+5 All Stats",
         "Description": null
       },
       {
         "Id": 6900,
         "Key": "special_bonus_unique_spectre_2",
+        "HeroId": 67,
         "Name": "+15 Desolate Damage",
         "Description": null
       },
       {
         "Id": 6148,
         "Key": "special_bonus_unique_spectre",
+        "HeroId": 67,
         "Name": "-10s Spectral Dagger Cooldown",
         "Description": null
       },
       {
         "Id": 6235,
         "Key": "special_bonus_hp_500",
+        "HeroId": 67,
         "Name": "+500 Health",
         "Description": null
       },
       {
         "Id": 6901,
         "Key": "special_bonus_unique_spectre_3",
+        "HeroId": 67,
         "Name": "+18% Spectral Dagger Slow/Bonus",
         "Description": null
       },
       {
         "Id": 6902,
         "Key": "special_bonus_unique_spectre_4",
+        "HeroId": 67,
         "Name": "+40% Haunt Illusion Damage",
         "Description": null
       },
       {
         "Id": 6903,
         "Key": "special_bonus_unique_spectre_5",
+        "HeroId": 67,
         "Name": "+6% Dispersion",
         "Description": null
       }
@@ -27127,7 +27463,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
-    "AttributeBaseStrength": 21,
+    "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 1.9,
@@ -27249,6 +27585,9 @@
           0.0
         ],
         "AbilityManaCost": [
+          70.0,
+          80.0,
+          90.0,
           100.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -27316,9 +27655,6 @@
           0.0
         ],
         "AbilityCooldown": [
-          22.0,
-          20.0,
-          18.0,
           16.0
         ],
         "AbilityDuration": [
@@ -27699,48 +28035,56 @@
       {
         "Id": 7936,
         "Key": "special_bonus_unique_storm_spirit_6",
+        "HeroId": 17,
         "Name": "+30 Overload Damage",
         "Description": null
       },
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 17,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 6916,
         "Key": "special_bonus_unique_storm_spirit_5",
+        "HeroId": 17,
         "Name": "+80 Static Remnant Damage",
         "Description": null
       },
       {
         "Id": 5976,
         "Key": "special_bonus_hp_400",
+        "HeroId": 17,
         "Name": "+400 Health",
         "Description": null
       },
       {
         "Id": 6167,
         "Key": "special_bonus_unique_storm_spirit",
+        "HeroId": 17,
         "Name": "+0.5s Electric Vortex",
         "Description": null
       },
       {
         "Id": 5907,
         "Key": "special_bonus_attack_speed_30",
+        "HeroId": 17,
         "Name": "+30 Attack Speed",
         "Description": null
       },
       {
         "Id": 6907,
         "Key": "special_bonus_unique_storm_spirit_3",
+        "HeroId": 17,
         "Name": "Overload Pierces Immunity",
         "Description": null
       },
       {
         "Id": 6908,
         "Key": "special_bonus_unique_storm_spirit_4",
+        "HeroId": 17,
         "Name": "500 Distance Auto Remnant in Ball Lightning",
         "Description": "Every 500 distance travelled in Ball Lightning creates a Static Remnant."
       }
@@ -27993,9 +28337,9 @@
             650.0
           ],
           "great_cleave_damage": [
-            45.0,
-            60.0,
-            75.0,
+            30.0,
+            50.0,
+            70.0,
             90.0
           ]
         }
@@ -28067,16 +28411,16 @@
         "Linked": null,
         "AbilitySpecial": {
           "movespeed": [
-            8.0,
-            12.0,
-            16.0,
+            5.0,
+            10.0,
+            15.0,
             20.0
           ],
           "hp_shield": [
-            80.0,
-            110.0,
-            140.0,
-            170.0
+            60.0,
+            90.0,
+            120.0,
+            150.0
           ],
           "strength_multiplier": [
             1.0,
@@ -28271,7 +28615,7 @@
           0.0
         ],
         "AbilityCooldown": [
-          80.0
+          100.0
         ],
         "AbilityDuration": [
           25.0,
@@ -28320,48 +28664,56 @@
       {
         "Id": 5982,
         "Key": "special_bonus_strength_8",
+        "HeroId": 18,
         "Name": "+8 Strength",
         "Description": null
       },
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 18,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 18,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6911,
         "Key": "special_bonus_unique_sven_3",
+        "HeroId": 18,
         "Name": "Storm Hammer Dispels Enemies",
         "Description": "Applies a basic dispel on all enemies hit."
       },
       {
         "Id": 6111,
         "Key": "special_bonus_lifesteal_25",
+        "HeroId": 18,
         "Name": "25% Lifesteal",
         "Description": null
       },
       {
         "Id": 6045,
         "Key": "special_bonus_unique_sven",
+        "HeroId": 18,
         "Name": "-6s Storm Hammer Cooldown",
         "Description": null
       },
       {
         "Id": 6910,
         "Key": "special_bonus_unique_sven_2",
+        "HeroId": 18,
         "Name": "+40 STR God's Strength",
         "Description": null
       },
       {
         "Id": 7112,
         "Key": "special_bonus_unique_sven_4",
+        "HeroId": 18,
         "Name": "+1.25s Storm Hammer Stun Duration",
         "Description": null
       }
@@ -28943,48 +29295,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 29,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 6945,
         "Key": "special_bonus_unique_tidehunter_2",
+        "HeroId": 29,
         "Name": "+100 Gush Damage",
         "Description": null
       },
       {
         "Id": 6447,
         "Key": "special_bonus_exp_boost_40",
+        "HeroId": 29,
         "Name": "+40% XP Gain",
         "Description": null
       },
       {
         "Id": 6946,
         "Key": "special_bonus_unique_tidehunter_3",
+        "HeroId": 29,
         "Name": "+25% Anchor Smash Damage Reduction",
         "Description": null
       },
       {
         "Id": 6947,
         "Key": "special_bonus_unique_tidehunter_4",
+        "HeroId": 29,
         "Name": "+30 Kraken Shell Damage Block",
         "Description": null
       },
       {
         "Id": 6151,
         "Key": "special_bonus_unique_tidehunter",
+        "HeroId": 29,
         "Name": "-5 Gush Armor",
         "Description": null
       },
       {
         "Id": 6222,
         "Key": "special_bonus_cooldown_reduction_25",
+        "HeroId": 29,
         "Name": "25% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6556,
         "Key": "special_bonus_attack_damage_250",
+        "HeroId": 29,
         "Name": "+250 Damage",
         "Description": null
       }
@@ -29586,48 +29946,56 @@
       {
         "Id": 5996,
         "Key": "special_bonus_spell_amplify_6",
+        "HeroId": 34,
         "Name": "+6% Spell Amplification",
         "Description": null
       },
       {
         "Id": 5947,
         "Key": "special_bonus_cast_range_75",
+        "HeroId": 34,
         "Name": "+75 Cast Range",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 34,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6564,
         "Key": "special_bonus_spell_lifesteal_10",
+        "HeroId": 34,
         "Name": "10% Spell Lifesteal",
         "Description": null
       },
       {
         "Id": 6004,
         "Key": "special_bonus_armor_10",
+        "HeroId": 34,
         "Name": "+10 Armor",
         "Description": null
       },
       {
         "Id": 6952,
         "Key": "special_bonus_unique_tinker_2",
+        "HeroId": 34,
         "Name": "+8 March of the Machines Damage",
         "Description": null
       },
       {
         "Id": 6152,
         "Key": "special_bonus_unique_tinker",
+        "HeroId": 34,
         "Name": "+100 Laser Damage",
         "Description": null
       },
       {
         "Id": 6953,
         "Key": "special_bonus_unique_tinker_3",
+        "HeroId": 34,
         "Name": "+0.3s Heat-Seeking Missile Ministun",
         "Description": null
       }
@@ -29978,9 +30346,9 @@
             5.0
           ],
           "bonus_damage": [
-            25.0,
+            10.0,
+            20.0,
             30.0,
-            35.0,
             40.0
           ],
           "bonus_damage_buildings": [
@@ -30327,48 +30695,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 19,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 19,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 5976,
         "Key": "special_bonus_hp_400",
+        "HeroId": 19,
         "Name": "+400 Health",
         "Description": null
       },
       {
         "Id": 6153,
         "Key": "special_bonus_unique_tiny",
+        "HeroId": 19,
         "Name": "+100 Avalanche Damage",
         "Description": null
       },
       {
         "Id": 6934,
         "Key": "special_bonus_unique_tiny_4",
+        "HeroId": 19,
         "Name": "-7s Tree Grab CD",
         "Description": null
       },
       {
         "Id": 7005,
         "Key": "special_bonus_unique_tiny_5",
+        "HeroId": 19,
         "Name": "Toss Requires No Target",
         "Description": "Toss can target the ground as well as enemy units."
       },
       {
         "Id": 6933,
         "Key": "special_bonus_unique_tiny_3",
+        "HeroId": 19,
         "Name": "-9s Avalanche Cooldown",
         "Description": null
       },
       {
         "Id": 6932,
         "Key": "special_bonus_unique_tiny_2",
+        "HeroId": 19,
         "Name": "3 Toss Charges",
         "Description": null
       }
@@ -30945,48 +31321,56 @@
       {
         "Id": 6138,
         "Key": "special_bonus_magic_resistance_15",
+        "HeroId": 20,
         "Name": "+15% Magic Resistance",
         "Description": null
       },
       {
         "Id": 6977,
         "Key": "special_bonus_unique_vengeful_spirit_4",
+        "HeroId": 20,
         "Name": "-1 Wave of Terror Armor",
         "Description": null
       },
       {
         "Id": 5929,
         "Key": "special_bonus_agility_15",
+        "HeroId": 20,
         "Name": "+15 Agility",
         "Description": null
       },
       {
         "Id": 7018,
         "Key": "special_bonus_unique_vengeful_spirit_6",
+        "HeroId": 20,
         "Name": "-6s Wave of Terror Cooldown",
         "Description": null
       },
       {
         "Id": 6978,
         "Key": "special_bonus_unique_vengeful_spirit_5",
+        "HeroId": 20,
         "Name": "-6s Magic Missile Cooldown",
         "Description": null
       },
       {
         "Id": 6237,
         "Key": "special_bonus_unique_vengeful_spirit_2",
+        "HeroId": 20,
         "Name": "+15% Vengeance Aura Damage",
         "Description": null
       },
       {
         "Id": 6310,
         "Key": "special_bonus_unique_vengeful_spirit_1",
+        "HeroId": 20,
         "Name": "+400 Magic Missile Damage",
         "Description": null
       },
       {
         "Id": 6057,
         "Key": "special_bonus_unique_vengeful_spirit_3",
+        "HeroId": 20,
         "Name": "Magic Missile Pierces Spell Immunity",
         "Description": null
       }
@@ -31604,48 +31988,56 @@
       {
         "Id": 6979,
         "Key": "special_bonus_unique_venomancer_3",
+        "HeroId": 40,
         "Name": "-8 Venomous Gale CD",
         "Description": null
       },
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 40,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 6981,
         "Key": "special_bonus_unique_venomancer_5",
+        "HeroId": 40,
         "Name": "Gale Hero Impact Summons 2 Wards",
         "Description": "The wards are based on the current level of Plague Ward and spawned within 100 range of the impacted Hero, on opposite sides."
       },
       {
         "Id": 6532,
         "Key": "special_bonus_unique_venomancer_2",
+        "HeroId": 40,
         "Name": "+8% Poison Sting Slow",
         "Description": null
       },
       {
         "Id": 6980,
         "Key": "special_bonus_unique_venomancer_4",
+        "HeroId": 40,
         "Name": "+7s Poison Nova Duration",
         "Description": null
       },
       {
         "Id": 6550,
         "Key": "special_bonus_spell_lifesteal_15",
+        "HeroId": 40,
         "Name": "15% Spell Lifesteal",
         "Description": null
       },
       {
         "Id": 6999,
         "Key": "special_bonus_unique_venomancer_6",
+        "HeroId": 40,
         "Name": "+800 Poison Nova AoE",
         "Description": null
       },
       {
         "Id": 6058,
         "Key": "special_bonus_unique_venomancer",
+        "HeroId": 40,
         "Name": "3x Plague Ward HP/Damage",
         "Description": null
       }
@@ -32251,48 +32643,56 @@
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 47,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 6565,
         "Key": "special_bonus_spell_lifesteal_8",
+        "HeroId": 47,
         "Name": "8% Spell Lifesteal",
         "Description": null
       },
       {
         "Id": 5943,
         "Key": "special_bonus_attack_range_100",
+        "HeroId": 47,
         "Name": "+100 Attack Range",
         "Description": null
       },
       {
         "Id": 6156,
         "Key": "special_bonus_unique_viper_1",
+        "HeroId": 47,
         "Name": "+6 Corrosive Skin Stats",
         "Description": null
       },
       {
         "Id": 6165,
         "Key": "special_bonus_unique_viper_2",
+        "HeroId": 47,
         "Name": "+100 Viper Strike DPS",
         "Description": null
       },
       {
         "Id": 6820,
         "Key": "special_bonus_unique_viper_4",
+        "HeroId": 47,
         "Name": "Poison Attack Affects Buildings",
         "Description": null
       },
       {
         "Id": 6819,
         "Key": "special_bonus_unique_viper_3",
+        "HeroId": 47,
         "Name": "Nethertoxin Silences",
         "Description": null
       },
       {
         "Id": 6112,
         "Key": "special_bonus_attack_damage_120",
+        "HeroId": 47,
         "Name": "+120 Damage",
         "Description": null
       }
@@ -32650,6 +33050,12 @@
           ],
           "tooltip_attack": [
             1.0
+          ],
+          "bonus_damage": [
+            10.0,
+            20.0,
+            30.0,
+            40.0
           ]
         }
       },
@@ -32879,48 +33285,56 @@
       {
         "Id": 6200,
         "Key": "special_bonus_unique_weaver_1",
+        "HeroId": 63,
         "Name": "+75 Shukuchi Damage",
         "Description": null
       },
       {
         "Id": 6372,
         "Key": "special_bonus_exp_boost_35",
+        "HeroId": 63,
         "Name": "+35% XP Gain",
         "Description": null
       },
       {
         "Id": 6987,
         "Key": "special_bonus_mana_break_20",
+        "HeroId": 63,
         "Name": "+20 Mana Break",
         "Description": null
       },
       {
         "Id": 6281,
         "Key": "special_bonus_strength_14",
+        "HeroId": 63,
         "Name": "+14 Strength",
         "Description": null
       },
       {
         "Id": 6988,
         "Key": "special_bonus_unique_weaver_3",
+        "HeroId": 63,
         "Name": "+0.5 Swarm Armor Reduction",
         "Description": null
       },
       {
         "Id": 6989,
         "Key": "special_bonus_unique_weaver_4",
+        "HeroId": 63,
         "Name": "+2 Swarm Attacks to Kill",
         "Description": null
       },
       {
         "Id": 6131,
         "Key": "special_bonus_unique_weaver_2",
+        "HeroId": 63,
         "Name": "+200 Shukuchi Movement Speed",
         "Description": null
       },
       {
         "Id": 6990,
         "Key": "special_bonus_unique_weaver_5",
+        "HeroId": 63,
         "Name": "+1 Geminate Attack",
         "Description": null
       }
@@ -33533,48 +33947,56 @@
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 21,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 6413,
         "Key": "special_bonus_unique_windranger_2",
+        "HeroId": 21,
         "Name": "+30% Windrun Slow",
         "Description": null
       },
       {
         "Id": 6562,
         "Key": "special_bonus_unique_windranger_3",
+        "HeroId": 21,
         "Name": "+125 Powershot Damage",
         "Description": null
       },
       {
         "Id": 5944,
         "Key": "special_bonus_attack_range_125",
+        "HeroId": 21,
         "Name": "+125 Attack Range",
         "Description": null
       },
       {
         "Id": 7062,
         "Key": "special_bonus_unique_windranger_6",
+        "HeroId": 21,
         "Name": "+1s Shackleshot Duration",
         "Description": null
       },
       {
         "Id": 6144,
         "Key": "special_bonus_unique_windranger",
+        "HeroId": 21,
         "Name": "Windrun Grants Invisibility",
         "Description": null
       },
       {
         "Id": 6992,
         "Key": "special_bonus_unique_windranger_4",
+        "HeroId": 21,
         "Name": "+35% Ministun Focus Fire",
         "Description": null
       },
       {
         "Id": 6561,
         "Key": "special_bonus_cooldown_reduction_30",
+        "HeroId": 21,
         "Name": "30% Cooldown Reduction",
         "Description": null
       }
@@ -34190,48 +34612,56 @@
       {
         "Id": 5942,
         "Key": "special_bonus_attack_damage_75",
+        "HeroId": 30,
         "Name": "+75 Damage",
         "Description": null
       },
       {
         "Id": 5933,
         "Key": "special_bonus_armor_6",
+        "HeroId": 30,
         "Name": "+6 Armor",
         "Description": null
       },
       {
         "Id": 6524,
         "Key": "special_bonus_unique_witch_doctor_3",
+        "HeroId": 30,
         "Name": "+2 Cask Bounces",
         "Description": null
       },
       {
         "Id": 6008,
         "Key": "special_bonus_gold_income_20",
+        "HeroId": 30,
         "Name": "+120 Gold/Min",
         "Description": null
       },
       {
         "Id": 5998,
         "Key": "special_bonus_unique_witch_doctor_1",
+        "HeroId": 30,
         "Name": "+125 Death Ward Attack Range",
         "Description": null
       },
       {
         "Id": 6995,
         "Key": "special_bonus_unique_witch_doctor_4",
+        "HeroId": 30,
         "Name": "+1 Maledict Tick",
         "Description": null
       },
       {
         "Id": 6298,
         "Key": "special_bonus_unique_witch_doctor_2",
+        "HeroId": 30,
         "Name": "+1.5% Max Health Voodoo Restoration",
         "Description": null
       },
       {
         "Id": 6996,
         "Key": "special_bonus_unique_witch_doctor_5",
+        "HeroId": 30,
         "Name": "+75 Death Ward Damage",
         "Description": null
       }
@@ -34801,48 +35231,56 @@
       {
         "Id": 5933,
         "Key": "special_bonus_armor_6",
+        "HeroId": 22,
         "Name": "+6 Armor",
         "Description": null
       },
       {
         "Id": 5987,
         "Key": "special_bonus_exp_boost_25",
+        "HeroId": 22,
         "Name": "+25% XP Gain",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 22,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6157,
         "Key": "special_bonus_unique_zeus",
+        "HeroId": 22,
         "Name": "+1.5% Static Field Damage",
         "Description": null
       },
       {
         "Id": 5951,
         "Key": "special_bonus_cooldown_reduction_15",
+        "HeroId": 22,
         "Name": "15% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6518,
         "Key": "special_bonus_unique_zeus_3",
+        "HeroId": 22,
         "Name": "+0.5s Lightning Bolt Ministun",
         "Description": null
       },
       {
         "Id": 7117,
         "Key": "special_bonus_cast_range_275",
+        "HeroId": 22,
         "Name": "+275 Cast Range",
         "Description": null
       },
       {
         "Id": 6501,
         "Key": "special_bonus_unique_zeus_2",
+        "HeroId": 22,
         "Name": "+155 Arc Lightning Damage",
         "Description": null
       }
@@ -35427,48 +35865,56 @@
       {
         "Id": 6361,
         "Key": "special_bonus_unique_broodmother_3",
+        "HeroId": 61,
         "Name": "+125 Spawn Spiderlings Damage",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 61,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 5952,
         "Key": "special_bonus_cooldown_reduction_20",
+        "HeroId": 61,
         "Name": "20% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 5929,
         "Key": "special_bonus_agility_15",
+        "HeroId": 61,
         "Name": "+15 Agility",
         "Description": null
       },
       {
         "Id": 6362,
         "Key": "special_bonus_unique_broodmother_4",
+        "HeroId": 61,
         "Name": "+30 Spiders Attack Damage",
         "Description": null
       },
       {
         "Id": 6020,
         "Key": "special_bonus_attack_speed_50",
+        "HeroId": 61,
         "Name": "+50 Attack Speed",
         "Description": null
       },
       {
         "Id": 6257,
         "Key": "special_bonus_unique_broodmother_1",
+        "HeroId": 61,
         "Name": "+60 Insatiable Hunger Damage/Lifesteal",
         "Description": null
       },
       {
         "Id": 6258,
         "Key": "special_bonus_unique_broodmother_2",
+        "HeroId": 61,
         "Name": "+450 Spiders Health",
         "Description": null
       }
@@ -36055,48 +36501,56 @@
       {
         "Id": 7107,
         "Key": "special_bonus_unique_wraith_king_7",
+        "HeroId": 42,
         "Name": "+1.5s Wraithfire Blast Slow Duration",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 42,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 6145,
         "Key": "special_bonus_strength_15",
+        "HeroId": 42,
         "Name": "+15 Strength",
         "Description": null
       },
       {
         "Id": 6822,
         "Key": "special_bonus_unique_wraith_king_6",
+        "HeroId": 42,
         "Name": "+35 Skeletons Attack Damage",
         "Description": null
       },
       {
         "Id": 6201,
         "Key": "special_bonus_unique_wraith_king_1",
+        "HeroId": 42,
         "Name": "No Reincarnation Manacost",
         "Description": null
       },
       {
         "Id": 7108,
         "Key": "special_bonus_unique_wraith_king_8",
+        "HeroId": 42,
         "Name": "2x Skeletons Spawned",
         "Description": null
       },
       {
         "Id": 6088,
         "Key": "special_bonus_unique_wraith_king_2",
+        "HeroId": 42,
         "Name": "+25% Vampiric Aura Lifesteal",
         "Description": null
       },
       {
         "Id": 6566,
         "Key": "special_bonus_unique_wraith_king_4",
+        "HeroId": 42,
         "Name": "Reincarnation Casts Wraithfire Blast",
         "Description": "All enemy units within 900 range have the current level of Wraithfire Blast cast on them when Reincarnation triggers."
       }
@@ -36670,48 +37124,56 @@
       {
         "Id": 6009,
         "Key": "special_bonus_attack_damage_25",
+        "HeroId": 39,
         "Name": "+25 Damage",
         "Description": null
       },
       {
         "Id": 6137,
         "Key": "special_bonus_strength_10",
+        "HeroId": 39,
         "Name": "+10 Strength",
         "Description": null
       },
       {
         "Id": 6190,
         "Key": "special_bonus_cooldown_reduction_12",
+        "HeroId": 39,
         "Name": "12% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6210,
         "Key": "special_bonus_attack_speed_40",
+        "HeroId": 39,
         "Name": "+40 Attack Speed",
         "Description": null
       },
       {
         "Id": 6513,
         "Key": "special_bonus_spell_lifesteal_30",
+        "HeroId": 39,
         "Name": "30% Spell Lifesteal",
         "Description": null
       },
       {
         "Id": 6407,
         "Key": "special_bonus_unique_queen_of_pain",
+        "HeroId": 39,
         "Name": "650 AoE Shadow Strike",
         "Description": null
       },
       {
         "Id": 6856,
         "Key": "special_bonus_unique_queen_of_pain_2",
+        "HeroId": 39,
         "Name": "Scream of Pain 1.5s Fear",
         "Description": "Enemies damaged by Scream of Pain are forced to run towards their fountain for 1.5 seconds."
       },
       {
         "Id": 7034,
         "Key": "special_bonus_spell_block_15",
+        "HeroId": 39,
         "Name": "15s Spell Block",
         "Description": null
       }
@@ -37298,48 +37760,56 @@
       {
         "Id": 6405,
         "Key": "special_bonus_hp_225",
+        "HeroId": 59,
         "Name": "+225 Health",
         "Description": null
       },
       {
         "Id": 5938,
         "Key": "special_bonus_attack_damage_15",
+        "HeroId": 59,
         "Name": "+15 Damage",
         "Description": null
       },
       {
         "Id": 6380,
         "Key": "special_bonus_unique_huskar_2",
+        "HeroId": 59,
         "Name": "+10 Burning Spears DPS",
         "Description": null
       },
       {
         "Id": 6078,
         "Key": "special_bonus_lifesteal_20",
+        "HeroId": 59,
         "Name": "20% Lifesteal",
         "Description": null
       },
       {
         "Id": 6080,
         "Key": "special_bonus_strength_20",
+        "HeroId": 59,
         "Name": "+20 Strength",
         "Description": null
       },
       {
         "Id": 6204,
         "Key": "special_bonus_unique_huskar",
+        "HeroId": 59,
         "Name": "+400 Life Break Cast Range",
         "Description": null
       },
       {
         "Id": 6186,
         "Key": "special_bonus_attack_range_175",
+        "HeroId": 59,
         "Name": "+175 Attack Range",
         "Description": null
       },
       {
         "Id": 7143,
         "Key": "special_bonus_unique_huskar_5",
+        "HeroId": 59,
         "Name": "Burning Spears Pure Damage",
         "Description": "Pierces Spell Immunity."
       }
@@ -37957,48 +38427,56 @@
       {
         "Id": 6051,
         "Key": "special_bonus_attack_range_300",
+        "HeroId": 64,
         "Name": "+300 Attack Range",
         "Description": null
       },
       {
         "Id": 5949,
         "Key": "special_bonus_spell_amplify_8",
+        "HeroId": 64,
         "Name": "+8% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6447,
         "Key": "special_bonus_exp_boost_40",
+        "HeroId": 64,
         "Name": "+40% XP Gain",
         "Description": null
       },
       {
         "Id": 6381,
         "Key": "special_bonus_unique_jakiro_2",
+        "HeroId": 64,
         "Name": "+40 Dual Breath Burn Damage",
         "Description": null
       },
       {
         "Id": 6661,
         "Key": "special_bonus_unique_jakiro_4",
+        "HeroId": 64,
         "Name": "-60 Liquid Fire Attack Speed",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 64,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 6538,
         "Key": "special_bonus_unique_jakiro_3",
+        "HeroId": 64,
         "Name": "Macropyre Pure and Pierces Immunity",
         "Description": null
       },
       {
         "Id": 6064,
         "Key": "special_bonus_unique_jakiro",
+        "HeroId": 64,
         "Name": "+1.25s Ice Path Duration",
         "Description": null
       }
@@ -38647,48 +39125,56 @@
       {
         "Id": 5996,
         "Key": "special_bonus_spell_amplify_6",
+        "HeroId": 65,
         "Name": "+6% Spell Amplification",
         "Description": null
       },
       {
         "Id": 5932,
         "Key": "special_bonus_armor_5",
+        "HeroId": 65,
         "Name": "+5 Armor",
         "Description": null
       },
       {
         "Id": 6610,
         "Key": "special_bonus_unique_batrider_3",
+        "HeroId": 65,
         "Name": "+2s Flamebreak Burn Duration",
         "Description": null
       },
       {
         "Id": 5993,
         "Key": "special_bonus_hp_300",
+        "HeroId": 65,
         "Name": "+300 Health",
         "Description": null
       },
       {
         "Id": 5951,
         "Key": "special_bonus_cooldown_reduction_15",
+        "HeroId": 65,
         "Name": "15% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6093,
         "Key": "special_bonus_movement_speed_40",
+        "HeroId": 65,
         "Name": "+40 Movement Speed",
         "Description": null
       },
       {
         "Id": 6087,
         "Key": "special_bonus_unique_batrider_1",
+        "HeroId": 65,
         "Name": "+8s Firefly Duration",
         "Description": null
       },
       {
         "Id": 6229,
         "Key": "special_bonus_unique_batrider_2",
+        "HeroId": 65,
         "Name": "-13s Flamebreak Cooldown",
         "Description": null
       }
@@ -38989,9 +39475,9 @@
           0.0
         ],
         "AbilityManaCost": [
-          100.0,
+          70.0,
+          90.0,
           110.0,
-          120.0,
           130.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -39281,48 +39767,56 @@
       {
         "Id": 6982,
         "Key": "special_bonus_unique_warlock_5",
+        "HeroId": 37,
         "Name": "+5% Fatal Bonds Damage",
         "Description": null
       },
       {
         "Id": 6056,
         "Key": "special_bonus_cast_range_150",
+        "HeroId": 37,
         "Name": "+150 Cast Range",
         "Description": null
       },
       {
         "Id": 7125,
         "Key": "special_bonus_exp_boost_60",
+        "HeroId": 37,
         "Name": "+60% XP Gain",
         "Description": null
       },
       {
         "Id": 6412,
         "Key": "special_bonus_unique_warlock_3",
+        "HeroId": 37,
         "Name": "-7s Shadow Word Cooldown",
         "Description": null
       },
       {
         "Id": 6505,
         "Key": "special_bonus_unique_warlock_4",
+        "HeroId": 37,
         "Name": "Summons a Golem on death",
         "Description": null
       },
       {
         "Id": 6986,
         "Key": "special_bonus_unique_warlock_6",
+        "HeroId": 37,
         "Name": "300 Shadow Word AoE",
         "Description": null
       },
       {
         "Id": 6054,
         "Key": "special_bonus_unique_warlock_2",
+        "HeroId": 37,
         "Name": "+20 Chaotic Offering Golems Armor",
         "Description": null
       },
       {
         "Id": 6053,
         "Key": "special_bonus_unique_warlock_1",
+        "HeroId": 37,
         "Name": "Magic Immunity for Chaotic Offering Golems",
         "Description": null
       }
@@ -39341,7 +39835,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 26,
     "AttributeStrengthGain": 3.0,
-    "AttributeBaseIntelligence": 22,
+    "AttributeBaseIntelligence": 25,
     "AttributeIntelligenceGain": 3.1,
     "AttributeBaseAgility": 10,
     "AttributeAgilityGain": 1.0,
@@ -40026,48 +40520,56 @@
       {
         "Id": 6016,
         "Key": "special_bonus_attack_speed_25",
+        "HeroId": 73,
         "Name": "+25 Attack Speed",
         "Description": null
       },
       {
         "Id": 6101,
         "Key": "special_bonus_unique_alchemist",
+        "HeroId": 73,
         "Name": "-7s Unstable Concoction Cooldown",
         "Description": null
       },
       {
         "Id": 5976,
         "Key": "special_bonus_hp_400",
+        "HeroId": 73,
         "Name": "+400 Health",
         "Description": null
       },
       {
         "Id": 5941,
         "Key": "special_bonus_attack_damage_50",
+        "HeroId": 73,
         "Name": "+50 Damage",
         "Description": null
       },
       {
         "Id": 7200,
         "Key": "special_bonus_cleave_40",
+        "HeroId": 73,
         "Name": "+40% Cleave",
         "Description": null
       },
       {
         "Id": 6350,
         "Key": "special_bonus_unique_alchemist_2",
+        "HeroId": 73,
         "Name": "+400 Unstable Concoction Damage",
         "Description": null
       },
       {
         "Id": 6604,
         "Key": "special_bonus_unique_alchemist_3",
+        "HeroId": 73,
         "Name": "-0.2 Chemical Rage Base Attack Time",
         "Description": null
       },
       {
         "Id": 7054,
         "Key": "special_bonus_unique_alchemist_4",
+        "HeroId": 73,
         "Name": "+30 Chemical Rage Regeneration",
         "Description": null
       }
@@ -40670,48 +41172,56 @@
       {
         "Id": 5940,
         "Key": "special_bonus_attack_damage_40",
+        "HeroId": 43,
         "Name": "+40 Damage",
         "Description": null
       },
       {
         "Id": 6138,
         "Key": "special_bonus_magic_resistance_15",
+        "HeroId": 43,
         "Name": "+15% Magic Resistance",
         "Description": null
       },
       {
         "Id": 6628,
         "Key": "special_bonus_unique_death_prophet_3",
+        "HeroId": 43,
         "Name": "+1% Max Health Spirit Siphon",
         "Description": null
       },
       {
         "Id": 6056,
         "Key": "special_bonus_cast_range_150",
+        "HeroId": 43,
         "Name": "+150 Cast Range",
         "Description": null
       },
       {
         "Id": 6235,
         "Key": "special_bonus_hp_500",
+        "HeroId": 43,
         "Name": "+500 Health",
         "Description": null
       },
       {
         "Id": 6367,
         "Key": "special_bonus_unique_death_prophet_2",
+        "HeroId": 43,
         "Name": "-3s Crypt Swarm Cooldown",
         "Description": null
       },
       {
         "Id": 6805,
         "Key": "special_bonus_unique_death_prophet_4",
+        "HeroId": 43,
         "Name": "Exorcism Grants Haste",
         "Description": "While Exorcism is active, Death Prophet moves at 550 movement speed and cannot be slowed."
       },
       {
         "Id": 6191,
         "Key": "special_bonus_unique_death_prophet",
+        "HeroId": 43,
         "Name": "+8 Exorcism Spirits",
         "Description": null
       }
@@ -40909,9 +41419,9 @@
           0.0
         ],
         "AbilityCooldown": [
-          10.0,
-          10.0,
-          10.0,
+          16.0,
+          14.0,
+          12.0,
           10.0
         ],
         "AbilityDuration": [
@@ -41264,54 +41774,62 @@
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 70,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 5982,
         "Key": "special_bonus_strength_8",
+        "HeroId": 70,
         "Name": "+8 Strength",
         "Description": null
       },
       {
         "Id": 6170,
         "Key": "special_bonus_agility_14",
+        "HeroId": 70,
         "Name": "+14 Agility",
         "Description": null
       },
       {
         "Id": 6975,
         "Key": "special_bonus_unique_ursa_4",
+        "HeroId": 70,
         "Name": "+25s Fury Swipes Reset Time",
         "Description": null
       },
       {
         "Id": 6974,
         "Key": "special_bonus_unique_ursa_3",
+        "HeroId": 70,
         "Name": "+1.5s Enrage Duration",
         "Description": null
       },
       {
         "Id": 6132,
         "Key": "special_bonus_unique_ursa",
+        "HeroId": 70,
         "Name": "+16 Fury Swipes Damage",
         "Description": null
       },
       {
         "Id": 6976,
         "Key": "special_bonus_unique_ursa_5",
+        "HeroId": 70,
         "Name": "+600 AoE Earthshock",
         "Description": null
       },
       {
         "Id": 7133,
         "Key": "special_bonus_unique_ursa_6",
+        "HeroId": 70,
         "Name": "Enrage gains 80% Status Resistance",
         "Description": null
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 5.0,
+    "ArmorPhysical": 3.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 24,
@@ -41888,48 +42406,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 62,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5987,
         "Key": "special_bonus_exp_boost_25",
+        "HeroId": 62,
         "Name": "+25% XP Gain",
         "Description": null
       },
       {
         "Id": 6020,
         "Key": "special_bonus_attack_speed_50",
+        "HeroId": 62,
         "Name": "+50 Attack Speed",
         "Description": null
       },
       {
         "Id": 6195,
         "Key": "special_bonus_hp_350",
+        "HeroId": 62,
         "Name": "+350 Health",
         "Description": null
       },
       {
         "Id": 6358,
         "Key": "special_bonus_unique_bounty_hunter_2",
+        "HeroId": 62,
         "Name": "+75 Shuriken Toss Damage",
         "Description": null
       },
       {
         "Id": 6018,
         "Key": "special_bonus_unique_bounty_hunter",
+        "HeroId": 62,
         "Name": "+90 Jinada Gold Steal",
         "Description": null
       },
       {
         "Id": 6613,
         "Key": "special_bonus_evasion_50",
+        "HeroId": 62,
         "Name": "50% Evasion",
         "Description": null
       },
       {
         "Id": 7040,
         "Key": "special_bonus_unique_bounty_hunter_3",
+        "HeroId": 62,
         "Name": "+300 Track Gold",
         "Description": null
       }
@@ -42486,48 +43012,56 @@
       {
         "Id": 5933,
         "Key": "special_bonus_armor_6",
+        "HeroId": 75,
         "Name": "+6 Armor",
         "Description": null
       },
       {
         "Id": 6016,
         "Key": "special_bonus_attack_speed_25",
+        "HeroId": 75,
         "Name": "+25 Attack Speed",
         "Description": null
       },
       {
         "Id": 6008,
         "Key": "special_bonus_gold_income_20",
+        "HeroId": 75,
         "Name": "+120 Gold/Min",
         "Description": null
       },
       {
         "Id": 6878,
         "Key": "special_bonus_unique_silencer_2",
+        "HeroId": 75,
         "Name": "+2 Intelligence Steal",
         "Description": null
       },
       {
         "Id": 5944,
         "Key": "special_bonus_attack_range_125",
+        "HeroId": 75,
         "Name": "+125 Attack Range",
         "Description": null
       },
       {
         "Id": 6184,
         "Key": "special_bonus_unique_silencer",
+        "HeroId": 75,
         "Name": "+30 Arcane Curse Damage",
         "Description": null
       },
       {
         "Id": 6879,
         "Key": "special_bonus_unique_silencer_3",
+        "HeroId": 75,
         "Name": "+20% Glaives of Wisdom Damage",
         "Description": null
       },
       {
         "Id": 6880,
         "Key": "special_bonus_unique_silencer_4",
+        "HeroId": 75,
         "Name": "+2s Global Silence",
         "Description": null
       }
@@ -43155,48 +43689,56 @@
       {
         "Id": 7019,
         "Key": "special_bonus_night_vision_600",
+        "HeroId": 71,
         "Name": "+600 Night Vision",
         "Description": null
       },
       {
         "Id": 5932,
         "Key": "special_bonus_armor_5",
+        "HeroId": 71,
         "Name": "+5 Armor",
         "Description": null
       },
       {
         "Id": 6730,
         "Key": "special_bonus_hp_regen_12",
+        "HeroId": 71,
         "Name": "+12 Health Regen",
         "Description": null
       },
       {
         "Id": 5940,
         "Key": "special_bonus_attack_damage_40",
+        "HeroId": 71,
         "Name": "+40 Damage",
         "Description": null
       },
       {
         "Id": 6543,
         "Key": "special_bonus_unique_spirit_breaker_3",
+        "HeroId": 71,
         "Name": "+15% Greater Bash Damage",
         "Description": null
       },
       {
         "Id": 6296,
         "Key": "special_bonus_unique_spirit_breaker_2",
+        "HeroId": 71,
         "Name": "-7s Bulldoze Cooldown",
         "Description": null
       },
       {
         "Id": 6149,
         "Key": "special_bonus_unique_spirit_breaker_1",
+        "HeroId": 71,
         "Name": "+25% Greater Bash Chance",
         "Description": null
       },
       {
         "Id": 6905,
         "Key": "special_bonus_hp_800",
+        "HeroId": 71,
         "Name": "+800 Health",
         "Description": null
       }
@@ -44776,48 +45318,56 @@
       {
         "Id": 7390,
         "Key": "special_bonus_unique_invoker_10",
+        "HeroId": 74,
         "Name": "-30s Ghost Walk Cooldown",
         "Description": null
       },
       {
         "Id": 6811,
         "Key": "special_bonus_unique_invoker_6",
+        "HeroId": 74,
         "Name": "+30 Chaos Meteor Contact Damage",
         "Description": null
       },
       {
         "Id": 6097,
         "Key": "special_bonus_unique_invoker_1",
+        "HeroId": 74,
         "Name": "+1 Forged Spirit Summoned",
         "Description": null
       },
       {
         "Id": 7148,
         "Key": "special_bonus_unique_invoker_9",
+        "HeroId": 74,
         "Name": "-12s Cold Snap Cooldown",
         "Description": null
       },
       {
         "Id": 6656,
         "Key": "special_bonus_unique_invoker_4",
+        "HeroId": 74,
         "Name": "Cataclysm",
         "Description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 160-200 range of each enemy hero."
       },
       {
         "Id": 6657,
         "Key": "special_bonus_unique_invoker_5",
+        "HeroId": 74,
         "Name": "+35 Alacrity Damage/Speed",
         "Description": null
       },
       {
         "Id": 6098,
         "Key": "special_bonus_unique_invoker_2",
+        "HeroId": 74,
         "Name": "Radial Deafening Blast",
         "Description": "Releases 12 Deafening Blasts around Invoker in a circular pattern.  An enemy can only be hit once per cast."
       },
       {
         "Id": 6099,
         "Key": "special_bonus_unique_invoker_3",
+        "HeroId": 74,
         "Name": "-16s Tornado Cooldown",
         "Description": null
       }
@@ -45373,48 +45923,56 @@
       {
         "Id": 6299,
         "Key": "special_bonus_magic_resistance_12",
+        "HeroId": 56,
         "Name": "+12% Magic Resistance",
         "Description": null
       },
       {
         "Id": 5932,
         "Key": "special_bonus_armor_5",
+        "HeroId": 56,
         "Name": "+5 Armor",
         "Description": null
       },
       {
         "Id": 6145,
         "Key": "special_bonus_strength_15",
+        "HeroId": 56,
         "Name": "+15 Strength",
         "Description": null
       },
       {
         "Id": 6104,
         "Key": "special_bonus_unique_clinkz_1",
+        "HeroId": 56,
         "Name": "+30 Searing Arrows Damage",
         "Description": null
       },
       {
         "Id": 5944,
         "Key": "special_bonus_attack_range_125",
+        "HeroId": 56,
         "Name": "+125 Attack Range",
         "Description": null
       },
       {
         "Id": 7188,
         "Key": "special_bonus_hp_regen_16",
+        "HeroId": 56,
         "Name": "+16 Health Regen",
         "Description": null
       },
       {
         "Id": 6231,
         "Key": "special_bonus_unique_clinkz_2",
+        "HeroId": 56,
         "Name": "+3s Strafe Duration",
         "Description": null
       },
       {
         "Id": 6620,
         "Key": "special_bonus_unique_clinkz_3",
+        "HeroId": 56,
         "Name": "Searing Arrows Multishot",
         "Description": "When using Searing Arrows, a second Searing Arrow targets a random enemy within the spell's range."
       }
@@ -45994,48 +46552,56 @@
       {
         "Id": 5903,
         "Key": "special_bonus_hp_250",
+        "HeroId": 76,
         "Name": "+250 Health",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 76,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 5919,
         "Key": "special_bonus_movement_speed_25",
+        "HeroId": 76,
         "Name": "+25 Movement Speed",
         "Description": null
       },
       {
         "Id": 5933,
         "Key": "special_bonus_armor_6",
+        "HeroId": 76,
         "Name": "+6 Armor",
         "Description": null
       },
       {
         "Id": 6080,
         "Key": "special_bonus_strength_20",
+        "HeroId": 76,
         "Name": "+20 Strength",
         "Description": null
       },
       {
         "Id": 7375,
         "Key": "special_bonus_unique_outworld_devourer_4",
+        "HeroId": 76,
         "Name": "+2 Sanity's Eclipse Multiplier",
         "Description": null
       },
       {
         "Id": 6241,
         "Key": "special_bonus_unique_outworld_devourer",
+        "HeroId": 76,
         "Name": "+60s Arcane Orb Int Steal",
         "Description": null
       },
       {
         "Id": 6550,
         "Key": "special_bonus_spell_lifesteal_15",
+        "HeroId": 76,
         "Name": "15% Spell Lifesteal",
         "Description": null
       }
@@ -46641,48 +47207,56 @@
       {
         "Id": 7061,
         "Key": "special_bonus_unique_shadow_demon_6",
+        "HeroId": 79,
         "Name": "Soul Catcher Creates Illusion On Death",
         "Description": null
       },
       {
         "Id": 6317,
         "Key": "special_bonus_exp_boost_30",
+        "HeroId": 79,
         "Name": "+30% XP Gain",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 79,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6873,
         "Key": "special_bonus_unique_shadow_demon_4",
+        "HeroId": 79,
         "Name": "+25% Shadow Poison Damage",
         "Description": null
       },
       {
         "Id": 6293,
         "Key": "special_bonus_unique_shadow_demon_2",
+        "HeroId": 79,
         "Name": "-6s Soul Catcher Cooldown",
         "Description": null
       },
       {
         "Id": 6542,
         "Key": "special_bonus_unique_shadow_demon_3",
+        "HeroId": 79,
         "Name": "-1.5s Shadow Poison Cooldown",
         "Description": null
       },
       {
         "Id": 6208,
         "Key": "special_bonus_unique_shadow_demon_1",
+        "HeroId": 79,
         "Name": "+500 Demonic Purge Damage",
         "Description": null
       },
       {
         "Id": 7118,
         "Key": "special_bonus_unique_shadow_demon_7",
+        "HeroId": 79,
         "Name": "2 Charges of Disruption",
         "Description": null
       }
@@ -47283,54 +47857,62 @@
       {
         "Id": 5932,
         "Key": "special_bonus_armor_5",
+        "HeroId": 77,
         "Name": "+5 Armor",
         "Description": null
       },
       {
         "Id": 5960,
         "Key": "special_bonus_attack_damage_20",
+        "HeroId": 77,
         "Name": "+20 Damage",
         "Description": null
       },
       {
         "Id": 6519,
         "Key": "special_bonus_unique_lycan_3",
+        "HeroId": 77,
         "Name": "+8 Feral HP Regen",
         "Description": null
       },
       {
         "Id": 6190,
         "Key": "special_bonus_cooldown_reduction_12",
+        "HeroId": 77,
         "Name": "12% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6134,
         "Key": "special_bonus_unique_lycan_1",
+        "HeroId": 77,
         "Name": "+8s Shapeshift Duration",
         "Description": null
       },
       {
         "Id": 6684,
         "Key": "special_bonus_unique_lycan_4",
+        "HeroId": 77,
         "Name": "+16% Feral Impulse Damage",
         "Description": null
       },
       {
         "Id": 6685,
         "Key": "special_bonus_unique_lycan_5",
+        "HeroId": 77,
         "Name": "+40% Chance Shapeshift Critical Strike",
         "Description": null
       },
       {
         "Id": 6140,
         "Key": "special_bonus_unique_lycan_2",
+        "HeroId": 77,
         "Name": "+3 Wolves Summoned",
         "Description": null
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -2.0,
+    "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 30,
@@ -47984,48 +48566,56 @@
       {
         "Id": 5903,
         "Key": "special_bonus_hp_250",
+        "HeroId": 80,
         "Name": "+250 Health",
         "Description": null
       },
       {
         "Id": 5944,
         "Key": "special_bonus_attack_range_125",
+        "HeroId": 80,
         "Name": "+125 Attack Range",
         "Description": null
       },
       {
         "Id": 6268,
         "Key": "special_bonus_unique_lone_druid_4",
+        "HeroId": 80,
         "Name": "-12s Savage Roar Cooldown",
         "Description": null
       },
       {
         "Id": 6262,
         "Key": "special_bonus_unique_lone_druid_2",
+        "HeroId": 80,
         "Name": "+10 Spirit Bear Armor",
         "Description": null
       },
       {
         "Id": 6806,
         "Key": "special_bonus_unique_lone_druid_8",
+        "HeroId": 80,
         "Name": "-25s Battle Cry Cooldown",
         "Description": null
       },
       {
         "Id": 7036,
         "Key": "special_bonus_unique_lone_druid_9",
+        "HeroId": 80,
         "Name": "0 Entangle Cooldown",
         "Description": null
       },
       {
         "Id": 7382,
         "Key": "special_bonus_unique_lone_druid_10",
+        "HeroId": 80,
         "Name": "-0.5 Spirit Bear Attack Time",
         "Description": null
       },
       {
         "Id": 6680,
         "Key": "special_bonus_unique_lone_druid_7",
+        "HeroId": 80,
         "Name": "Battle Cry Grants Spell Immunity",
         "Description": null
       }
@@ -48614,48 +49204,56 @@
       {
         "Id": 5938,
         "Key": "special_bonus_attack_damage_15",
+        "HeroId": 78,
         "Name": "+15 Damage",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 78,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6516,
         "Key": "special_bonus_unique_brewmaster_3",
+        "HeroId": 78,
         "Name": "+3s Thunder Clap Slow",
         "Description": null
       },
       {
         "Id": 6000,
         "Key": "special_bonus_magic_resistance_20",
+        "HeroId": 78,
         "Name": "+20% Magic Resistance",
         "Description": null
       },
       {
         "Id": 6082,
         "Key": "special_bonus_unique_brewmaster",
+        "HeroId": 78,
         "Name": "+1500 Health to Primal Split Units",
         "Description": null
       },
       {
         "Id": 6037,
         "Key": "special_bonus_attack_speed_100",
+        "HeroId": 78,
         "Name": "+100 Attack Speed",
         "Description": null
       },
       {
         "Id": 6359,
         "Key": "special_bonus_unique_brewmaster_2",
+        "HeroId": 78,
         "Name": "-65s Primal Split Cooldown",
         "Description": null
       },
       {
         "Id": 6614,
         "Key": "special_bonus_unique_brewmaster_4",
+        "HeroId": 78,
         "Name": "+175% Drunken Brawler Critical Strike Damage",
         "Description": null
       }
@@ -49045,10 +49643,10 @@
             800.0
           ],
           "bonus_agility": [
-            6.0,
-            14.0,
-            22.0,
-            30.0
+            9.0,
+            18.0,
+            27.0,
+            36.0
           ],
           "agility_duration": [
             2.0
@@ -49301,48 +49899,56 @@
       {
         "Id": 5972,
         "Key": "special_bonus_evasion_15",
+        "HeroId": 12,
         "Name": "15% Evasion",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 12,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 5903,
         "Key": "special_bonus_hp_250",
+        "HeroId": 12,
         "Name": "+250 Health",
         "Description": null
       },
       {
         "Id": 6400,
         "Key": "special_bonus_unique_phantom_lancer_2",
+        "HeroId": 12,
         "Name": "+125 Spirit Lance Damage",
         "Description": null
       },
       {
         "Id": 6146,
         "Key": "special_bonus_unique_phantom_lancer",
+        "HeroId": 12,
         "Name": "+500 Phantom Rush Range",
         "Description": null
       },
       {
         "Id": 6849,
         "Key": "special_bonus_unique_phantom_lancer_3",
+        "HeroId": 12,
         "Name": "+5 Max Juxtapose Illusions",
         "Description": null
       },
       {
         "Id": 6850,
         "Key": "special_bonus_unique_phantom_lancer_4",
+        "HeroId": 12,
         "Name": "-6s Doppelganger CD",
         "Description": null
       },
       {
         "Id": 6851,
         "Key": "special_bonus_30_crit_2",
+        "HeroId": 12,
         "Name": "+30% Critical Strike (2x)",
         "Description": null
       }
@@ -49710,9 +50316,9 @@
             16.0
           ],
           "damage_block": [
-            25.0,
-            50.0,
-            75.0,
+            40.0,
+            60.0,
+            80.0,
             100.0
           ],
           "duration": [
@@ -49948,48 +50554,56 @@
       {
         "Id": 6024,
         "Key": "special_bonus_unique_treant",
+        "HeroId": 83,
         "Name": "+2 Living Armor Block Instances",
         "Description": null
       },
       {
         "Id": 6021,
         "Key": "special_bonus_cooldown_reduction_10",
+        "HeroId": 83,
         "Name": "10% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 5968,
         "Key": "special_bonus_attack_damage_90",
+        "HeroId": 83,
         "Name": "+90 Damage",
         "Description": null
       },
       {
         "Id": 6955,
         "Key": "special_bonus_unique_treant_3",
+        "HeroId": 83,
         "Name": "2s Tree Respawn Time",
         "Description": "Any tree that is destroyed on the map will respawn 2 seconds later."
       },
       {
         "Id": 6956,
         "Key": "special_bonus_unique_treant_4",
+        "HeroId": 83,
         "Name": "+2s Nature's Guise Root",
         "Description": null
       },
       {
         "Id": 6531,
         "Key": "special_bonus_unique_treant_2",
+        "HeroId": 83,
         "Name": "+50 Leech Seed Damage/Heal",
         "Description": null
       },
       {
         "Id": 6957,
         "Key": "special_bonus_unique_treant_5",
+        "HeroId": 83,
         "Name": "+350 Eyes and Overgrowth AoE",
         "Description": null
       },
       {
         "Id": 7115,
         "Key": "special_bonus_unique_treant_7",
+        "HeroId": 83,
         "Name": "700 AoE Living Armor",
         "Description": null
       }
@@ -50596,48 +51210,56 @@
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 84,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 6003,
         "Key": "special_bonus_cast_range_100",
+        "HeroId": 84,
         "Name": "+100 Cast Range",
         "Description": null
       },
       {
         "Id": 5968,
         "Key": "special_bonus_attack_damage_90",
+        "HeroId": 84,
         "Name": "+90 Damage",
         "Description": null
       },
       {
         "Id": 5993,
         "Key": "special_bonus_hp_300",
+        "HeroId": 84,
         "Name": "+300 Health",
         "Description": null
       },
       {
         "Id": 6633,
         "Key": "special_bonus_strength_40",
+        "HeroId": 84,
         "Name": "+40 Strength",
         "Description": null
       },
       {
         "Id": 6183,
         "Key": "special_bonus_unique_ogre_magi",
+        "HeroId": 84,
         "Name": "+40 Bloodlust AS",
         "Description": null
       },
       {
         "Id": 6355,
         "Key": "special_bonus_movement_speed_75",
+        "HeroId": 84,
         "Name": "+75 Movement Speed",
         "Description": null
       },
       {
         "Id": 6707,
         "Key": "special_bonus_unique_ogre_magi_2",
+        "HeroId": 84,
         "Name": "+275 Fireblast Damage",
         "Description": null
       }
@@ -50924,7 +51546,7 @@
         "Id": 5428,
         "Key": "chaos_knight_chaos_strike",
         "Name": "Chaos Strike",
-        "Description": "Chaos Knight's attacks deal a critical strike of varying strength, in addition to a lifesteal for 40/50/60/70% of the damage.",
+        "Description": "Chaos Knight's attacks deal a critical strike of varying strength, in addition to a lifesteal for 25/40/55/70% of the damage.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chaos_knight_chaos_strike.png",
         "HeroId": 81,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -50995,9 +51617,9 @@
             265.0
           ],
           "lifesteal": [
+            25.0,
             40.0,
-            50.0,
-            60.0,
+            55.0,
             70.0
           ]
         }
@@ -51247,48 +51869,56 @@
       {
         "Id": 5921,
         "Key": "special_bonus_all_stats_5",
+        "HeroId": 81,
         "Name": "+5 All Stats",
         "Description": null
       },
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 81,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 6145,
         "Key": "special_bonus_strength_15",
+        "HeroId": 81,
         "Name": "+15 Strength",
         "Description": null
       },
       {
         "Id": 6190,
         "Key": "special_bonus_cooldown_reduction_12",
+        "HeroId": 81,
         "Name": "12% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 81,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 6133,
         "Key": "special_bonus_unique_chaos_knight",
+        "HeroId": 81,
         "Name": "Reality Rift Pierces Spell Immune",
         "Description": null
       },
       {
         "Id": 6618,
         "Key": "special_bonus_unique_chaos_knight_2",
+        "HeroId": 81,
         "Name": "-2s Chaos Strike Cooldown",
         "Description": null
       },
       {
         "Id": 6619,
         "Key": "special_bonus_unique_chaos_knight_3",
+        "HeroId": 81,
         "Name": "+2 Max Chaos Bolt Duration",
         "Description": null
       }
@@ -51853,48 +52483,56 @@
       {
         "Id": 5902,
         "Key": "special_bonus_hp_150",
+        "HeroId": 44,
         "Name": "+150 Health",
         "Description": null
       },
       {
         "Id": 5938,
         "Key": "special_bonus_attack_damage_15",
+        "HeroId": 44,
         "Name": "+15 Damage",
         "Description": null
       },
       {
         "Id": 6289,
         "Key": "special_bonus_lifesteal_15",
+        "HeroId": 44,
         "Name": "15% Lifesteal",
         "Description": null
       },
       {
         "Id": 6801,
         "Key": "special_bonus_cleave_25",
+        "HeroId": 44,
         "Name": "+25% Cleave",
         "Description": null
       },
       {
         "Id": 7011,
         "Key": "special_bonus_corruption_4",
+        "HeroId": 44,
         "Name": "-4 Armor Corruption",
         "Description": null
       },
       {
         "Id": 6848,
         "Key": "special_bonus_unique_phantom_assassin_3",
+        "HeroId": 44,
         "Name": "+20% Blur Evasion",
         "Description": null
       },
       {
         "Id": 6847,
         "Key": "special_bonus_unique_phantom_assassin_2",
+        "HeroId": 44,
         "Name": "+5% Coup de Grace",
         "Description": null
       },
       {
         "Id": 6192,
         "Key": "special_bonus_unique_phantom_assassin",
+        "HeroId": 44,
         "Name": "Triple Strike Stifling Dagger",
         "Description": "Launches a two extra Stifling Daggers towards random visible enemies within the cast range."
       }
@@ -52499,48 +53137,56 @@
       {
         "Id": 5960,
         "Key": "special_bonus_attack_damage_20",
+        "HeroId": 72,
         "Name": "+20 Damage",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 72,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 7141,
         "Key": "special_bonus_unique_gyrocopter_6",
+        "HeroId": 72,
         "Name": "+0.5s Homing Missile Stun Duration",
         "Description": null
       },
       {
         "Id": 6652,
         "Key": "special_bonus_unique_gyrocopter_3",
+        "HeroId": 72,
         "Name": "+11 Rocket Barrage Damage",
         "Description": null
       },
       {
         "Id": 6093,
         "Key": "special_bonus_movement_speed_40",
+        "HeroId": 72,
         "Name": "+40 Movement Speed",
         "Description": null
       },
       {
         "Id": 6653,
         "Key": "special_bonus_unique_gyrocopter_4",
+        "HeroId": 72,
         "Name": "-25s Call Down Cooldown",
         "Description": null
       },
       {
         "Id": 6216,
         "Key": "special_bonus_unique_gyrocopter_1",
+        "HeroId": 72,
         "Name": "3 Homing Missile Charges",
         "Description": null
       },
       {
         "Id": 6654,
         "Key": "special_bonus_unique_gyrocopter_5",
+        "HeroId": 72,
         "Name": "Global Call Down",
         "Description": null
       }
@@ -53443,48 +54089,56 @@
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 86,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6366,
         "Key": "special_bonus_attack_damage_60",
+        "HeroId": 86,
         "Name": "+60 Damage",
         "Description": null
       },
       {
         "Id": 6197,
         "Key": "special_bonus_cast_range_125",
+        "HeroId": 86,
         "Name": "+125 Cast Range",
         "Description": null
       },
       {
         "Id": 6862,
         "Key": "special_bonus_unique_rubick_2",
+        "HeroId": 86,
         "Name": "-60 Fade Bolt Hero Attack",
         "Description": null
       },
       {
         "Id": 6863,
         "Key": "special_bonus_unique_rubick_3",
+        "HeroId": 86,
         "Name": "-5s Fade Bolt Cooldown",
         "Description": null
       },
       {
         "Id": 6041,
         "Key": "special_bonus_unique_rubick",
+        "HeroId": 86,
         "Name": "+300 Telekinesis Land Distance",
         "Description": null
       },
       {
         "Id": 6864,
         "Key": "special_bonus_unique_rubick_4",
+        "HeroId": 86,
         "Name": "-15s Telekinesis Cooldown",
         "Description": null
       },
       {
         "Id": 6870,
         "Key": "special_bonus_unique_rubick_5",
+        "HeroId": 86,
         "Name": "+50% Spell Amp For Stolen Spells",
         "Description": null
       }
@@ -54064,48 +54718,56 @@
       {
         "Id": 6119,
         "Key": "special_bonus_attack_speed_15",
+        "HeroId": 48,
         "Name": "+15 Attack Speed",
         "Description": null
       },
       {
         "Id": 6213,
         "Key": "special_bonus_cast_range_300",
+        "HeroId": 48,
         "Name": "+300 Cast Range",
         "Description": null
       },
       {
         "Id": 6127,
         "Key": "special_bonus_unique_luna_2",
+        "HeroId": 48,
         "Name": "-4s Lucent Beam Cooldown",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 48,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 5923,
         "Key": "special_bonus_all_stats_8",
+        "HeroId": 48,
         "Name": "+8 All Stats",
         "Description": null
       },
       {
         "Id": 6180,
         "Key": "special_bonus_unique_luna_1",
+        "HeroId": 48,
         "Name": "+100 Lucent Beam Damage",
         "Description": null
       },
       {
         "Id": 6111,
         "Key": "special_bonus_lifesteal_25",
+        "HeroId": 48,
         "Name": "25% Lifesteal",
         "Description": null
       },
       {
         "Id": 7055,
         "Key": "special_bonus_unique_luna_5",
+        "HeroId": 48,
         "Name": "+0.25s Eclipse Lucent Ministun",
         "Description": null
       }
@@ -54207,9 +54869,6 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          1800,
-          1800,
-          1800,
           1800
         ],
         "AbilityCastRangeBuffer": 250,
@@ -54223,9 +54882,6 @@
           0.0
         ],
         "AbilityCooldown": [
-          12.0,
-          12.0,
-          12.0,
           12.0
         ],
         "AbilityDuration": [
@@ -54281,6 +54937,9 @@
             1.2,
             1.35,
             1.5
+          ],
+          "self_bonus": [
+            0.0
           ]
         }
       },
@@ -54293,7 +54952,8 @@
         "HeroId": 91,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+          "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
         ],
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
@@ -54377,10 +55037,7 @@
             5.0
           ],
           "min_range": [
-            100.0,
-            100.0,
-            100.0,
-            100.0
+            200.0
           ],
           "max_range": [
             700.0
@@ -54484,10 +55141,10 @@
             140.0
           ],
           "bonus_damage_pct": [
+            -5.0,
+            -10.0,
             -15.0,
-            -20.0,
-            -25.0,
-            -30.0
+            -20.0
           ],
           "duration": [
             8.0
@@ -54687,9 +55344,7 @@
           0.0
         ],
         "AbilityManaCost": [
-          100.0,
-          100.0,
-          100.0
+          175.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -54824,7 +55479,7 @@
           0.0
         ],
         "AbilityCooldown": [
-          1.5
+          0.0
         ],
         "AbilityDuration": [
           0.0,
@@ -54856,48 +55511,56 @@
       {
         "Id": 6017,
         "Key": "special_bonus_exp_boost_20",
+        "HeroId": 91,
         "Name": "+20% XP Gain",
         "Description": null
       },
       {
         "Id": 6253,
         "Key": "special_bonus_attack_damage_45",
+        "HeroId": 91,
         "Name": "+45 Damage",
         "Description": null
       },
       {
         "Id": 6265,
         "Key": "special_bonus_unique_wisp",
+        "HeroId": 91,
         "Name": "+75 Spirits Hero Damage",
+        "Description": null
+      },
+      {
+        "Id": 5911,
+        "Key": "special_bonus_hp_regen_8",
+        "HeroId": 91,
+        "Name": "+8 Health Regen",
+        "Description": null
+      },
+      {
+        "Id": 5957,
+        "Key": "special_bonus_gold_income_25",
+        "HeroId": 91,
+        "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 6924,
         "Key": "special_bonus_unique_wisp_5",
+        "HeroId": 91,
         "Name": "Tether Grants Scepter Bonus",
         "Description": "While tethered to a friendly Hero, that Hero gains its Aghanim's Scepter ability upgrades for the duration."
       },
       {
-        "Id": 5957,
-        "Key": "special_bonus_gold_income_25",
-        "Name": "+150 Gold/Min",
-        "Description": null
-      },
-      {
-        "Id": 7188,
-        "Key": "special_bonus_hp_regen_16",
-        "Name": "+16 Health Regen",
-        "Description": null
-      },
-      {
         "Id": 7070,
         "Key": "special_bonus_unique_wisp_6",
+        "HeroId": 91,
         "Name": "-30s Relocate Cooldown",
         "Description": null
       },
       {
         "Id": 6808,
         "Key": "special_bonus_unique_wisp_4",
+        "HeroId": 91,
         "Name": "Attack Tethered Ally's Target",
         "Description": "While tethered to a friendly Hero, each time that Hero attacks, Io will attack the same target automatically."
       }
@@ -55490,48 +56153,56 @@
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 87,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6536,
         "Key": "special_bonus_unique_disruptor_3",
+        "HeroId": 87,
         "Name": "+40 Thunder Strike Damage",
         "Description": null
       },
       {
         "Id": 6056,
         "Key": "special_bonus_cast_range_150",
+        "HeroId": 87,
         "Name": "+150 Cast Range",
         "Description": null
       },
       {
         "Id": 6368,
         "Key": "special_bonus_unique_disruptor_2",
+        "HeroId": 87,
         "Name": "-3s Kinetic Field Cooldown",
         "Description": null
       },
       {
         "Id": 6026,
         "Key": "special_bonus_gold_income_30",
+        "HeroId": 87,
         "Name": "+180 Gold/Min",
         "Description": null
       },
       {
         "Id": 6215,
         "Key": "special_bonus_unique_disruptor",
+        "HeroId": 87,
         "Name": "+4 Thunder Strike Hits",
         "Description": null
       },
       {
         "Id": 6630,
         "Key": "special_bonus_unique_disruptor_4",
+        "HeroId": 87,
         "Name": "-10s Glimpse Cooldown",
         "Description": null
       },
       {
         "Id": 6812,
         "Key": "special_bonus_unique_disruptor_5",
+        "HeroId": 87,
         "Name": "+4s Kinetic Field Duration",
         "Description": null
       }
@@ -56141,48 +56812,56 @@
       {
         "Id": 6056,
         "Key": "special_bonus_cast_range_150",
+        "HeroId": 85,
         "Name": "+150 Cast Range",
         "Description": null
       },
       {
         "Id": 5911,
         "Key": "special_bonus_hp_regen_8",
+        "HeroId": 85,
         "Name": "+8 Health Regen",
         "Description": null
       },
       {
         "Id": 6155,
         "Key": "special_bonus_unique_undying",
+        "HeroId": 85,
         "Name": "+30 Tombstone Zombie Damage",
         "Description": null
       },
       {
         "Id": 6971,
         "Key": "special_bonus_unique_undying_4",
+        "HeroId": 85,
         "Name": "+50 Decay Duration",
         "Description": null
       },
       {
         "Id": 6546,
         "Key": "special_bonus_unique_undying_3",
+        "HeroId": 85,
         "Name": "Tombstone On Death",
         "Description": null
       },
       {
         "Id": 6972,
         "Key": "special_bonus_unique_undying_5",
+        "HeroId": 85,
         "Name": "+5 Tombstone Attacks to Destroy",
         "Description": null
       },
       {
         "Id": 7385,
         "Key": "special_bonus_reincarnation_250",
+        "HeroId": 85,
         "Name": "Gains Reincarnation 250 CD",
         "Description": null
       },
       {
         "Id": 6420,
         "Key": "special_bonus_unique_undying_2",
+        "HeroId": 85,
         "Name": "-2s Decay Cooldown",
         "Description": null
       }
@@ -56774,48 +57453,56 @@
       {
         "Id": 6016,
         "Key": "special_bonus_attack_speed_25",
+        "HeroId": 46,
         "Name": "+25 Attack Speed",
         "Description": null
       },
       {
         "Id": 5972,
         "Key": "special_bonus_evasion_15",
+        "HeroId": 46,
         "Name": "15% Evasion",
         "Description": null
       },
       {
         "Id": 5919,
         "Key": "special_bonus_movement_speed_25",
+        "HeroId": 46,
         "Name": "+25 Movement Speed",
         "Description": null
       },
       {
         "Id": 6938,
         "Key": "special_bonus_unique_templar_assassin_3",
+        "HeroId": 46,
         "Name": "+200 Psionic Trap Damage",
         "Description": null
       },
       {
         "Id": 6939,
         "Key": "special_bonus_unique_templar_assassin_4",
+        "HeroId": 46,
         "Name": "Meld Dispels",
         "Description": "Applies a basic dispel to Templar Assassin."
       },
       {
         "Id": 6545,
         "Key": "special_bonus_unique_templar_assassin_2",
+        "HeroId": 46,
         "Name": "-4 Meld Armor Reduction",
         "Description": null
       },
       {
         "Id": 7371,
         "Key": "special_bonus_unique_templar_assassin_7",
+        "HeroId": 46,
         "Name": "1.5s Meld Hit Bash",
         "Description": null
       },
       {
         "Id": 6071,
         "Key": "special_bonus_unique_templar_assassin",
+        "HeroId": 46,
         "Name": "+4 Refraction Instances",
         "Description": null
       }
@@ -57484,48 +58171,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 89,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 7029,
         "Key": "special_bonus_unique_naga_siren_4",
+        "HeroId": 89,
         "Name": "+10% Mirror Image Damage",
         "Description": null
       },
       {
         "Id": 7386,
         "Key": "special_bonus_agility_12",
+        "HeroId": 89,
         "Name": "+12 Agility",
         "Description": null
       },
       {
         "Id": 6281,
         "Key": "special_bonus_strength_14",
+        "HeroId": 89,
         "Name": "+14 Strength",
         "Description": null
       },
       {
         "Id": 6398,
         "Key": "special_bonus_unique_naga_siren_2",
+        "HeroId": 89,
         "Name": "-7s Ensnare Cooldown",
         "Description": null
       },
       {
         "Id": 6205,
         "Key": "special_bonus_unique_naga_siren",
+        "HeroId": 89,
         "Name": "+1 Mirror Image Illusion",
         "Description": null
       },
       {
         "Id": 6700,
         "Key": "special_bonus_evasion_30",
+        "HeroId": 89,
         "Name": "30% Evasion",
         "Description": null
       },
       {
         "Id": 6701,
         "Key": "special_bonus_unique_naga_siren_3",
+        "HeroId": 89,
         "Name": "-6 Rip Tide Armor",
         "Description": null
       }
@@ -58210,48 +58905,56 @@
       {
         "Id": 5949,
         "Key": "special_bonus_spell_amplify_8",
+        "HeroId": 88,
         "Name": "+8% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 88,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 6423,
         "Key": "special_bonus_hp_325",
+        "HeroId": 88,
         "Name": "+325 Health",
         "Description": null
       },
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 88,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6130,
         "Key": "special_bonus_unique_nyx",
+        "HeroId": 88,
         "Name": "+75% Spiked Carapace Damage",
         "Description": null
       },
       {
         "Id": 6399,
         "Key": "special_bonus_unique_nyx_2",
+        "HeroId": 88,
         "Name": "+175 Impale Damage",
         "Description": null
       },
       {
         "Id": 6705,
         "Key": "special_bonus_agility_100",
+        "HeroId": 88,
         "Name": "+100 Agility",
         "Description": null
       },
       {
         "Id": 6814,
         "Key": "special_bonus_unique_nyx_3",
+        "HeroId": 88,
         "Name": "Vendetta Unobstructed Pathing",
         "Description": null
       }
@@ -58953,48 +59656,56 @@
       {
         "Id": 6317,
         "Key": "special_bonus_exp_boost_30",
+        "HeroId": 90,
         "Name": "+30% XP Gain",
         "Description": null
       },
       {
         "Id": 5919,
         "Key": "special_bonus_movement_speed_25",
+        "HeroId": 90,
         "Name": "+25 Movement Speed",
         "Description": null
       },
       {
         "Id": 7398,
         "Key": "special_bonus_unique_keeper_of_the_light_4",
+        "HeroId": 90,
         "Name": "+1 Will-O-Wisp Health Count",
         "Description": null
       },
       {
         "Id": 6930,
         "Key": "special_bonus_cast_range_350",
+        "HeroId": 90,
         "Name": "+350 Cast Range",
         "Description": null
       },
       {
         "Id": 6663,
         "Key": "special_bonus_magic_resistance_40",
+        "HeroId": 90,
         "Name": "+40% Magic Resistance",
         "Description": null
       },
       {
         "Id": 6527,
         "Key": "special_bonus_unique_keeper_of_the_light_2",
+        "HeroId": 90,
         "Name": "+300 Chakra Magic Mana",
         "Description": null
       },
       {
         "Id": 6665,
         "Key": "special_bonus_unique_keeper_of_the_light_3",
+        "HeroId": 90,
         "Name": "+2 Will-O-Wisp Flicker",
         "Description": null
       },
       {
         "Id": 6217,
         "Key": "special_bonus_unique_keeper_of_the_light",
+        "HeroId": 90,
         "Name": "+200 Illuminate Damage/Heal",
         "Description": null
       }
@@ -59601,8 +60312,8 @@
             430.0
           ],
           "familiar_attack_damage": [
-            30.0,
-            45.0,
+            20.0,
+            40.0,
             60.0
           ]
         }
@@ -59612,48 +60323,56 @@
       {
         "Id": 6003,
         "Key": "special_bonus_cast_range_100",
+        "HeroId": 92,
         "Name": "+100 Cast Range",
         "Description": null
       },
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 92,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 6447,
         "Key": "special_bonus_exp_boost_40",
+        "HeroId": 92,
         "Name": "+40% XP Gain",
         "Description": null
       },
       {
         "Id": 6522,
         "Key": "special_bonus_unique_visage_3",
+        "HeroId": 92,
         "Name": "Soul Assumption Hits 2 Targets",
         "Description": "A second Soul Assumption is launched towards a random enemy unit within the cast range, prioritizing Heroes."
       },
       {
         "Id": 6983,
         "Key": "special_bonus_unique_visage_4",
+        "HeroId": 92,
         "Name": "+20 Soul Assumption Damage Per Charge",
         "Description": null
       },
       {
         "Id": 6320,
         "Key": "special_bonus_unique_visage_2",
+        "HeroId": 92,
         "Name": "+50 Familiars Movement Speed",
         "Description": null
       },
       {
         "Id": 6984,
         "Key": "special_bonus_unique_visage_5",
+        "HeroId": 92,
         "Name": "-2s Gravekeeper's Cloak",
         "Description": null
       },
       {
         "Id": 6985,
         "Key": "special_bonus_unique_visage_6",
+        "HeroId": 92,
         "Name": "+1 Familiar",
         "Description": null
       }
@@ -59670,8 +60389,8 @@
     "AttackRange": 600,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
-    "AttributeBaseStrength": 24,
-    "AttributeStrengthGain": 3.0,
+    "AttributeBaseStrength": 22,
+    "AttributeStrengthGain": 2.8,
     "AttributeBaseIntelligence": 22,
     "AttributeIntelligenceGain": 2.9,
     "AttributeBaseAgility": 11,
@@ -60217,48 +60936,56 @@
       {
         "Id": 6115,
         "Key": "special_bonus_strength_7",
+        "HeroId": 82,
         "Name": "+7 Strength",
         "Description": null
       },
       {
         "Id": 6095,
         "Key": "special_bonus_attack_damage_10",
+        "HeroId": 82,
         "Name": "+10 Damage",
         "Description": null
       },
       {
         "Id": 5972,
         "Key": "special_bonus_evasion_15",
+        "HeroId": 82,
         "Name": "15% Evasion",
         "Description": null
       },
       {
         "Id": 6689,
         "Key": "special_bonus_unique_meepo_2",
+        "HeroId": 82,
         "Name": "+30 Poof Damage",
         "Description": null
       },
       {
         "Id": 7027,
         "Key": "special_bonus_unique_meepo_3",
+        "HeroId": 82,
         "Name": "-4s Earthbind Cooldown",
         "Description": null
       },
       {
         "Id": 6158,
         "Key": "special_bonus_lifesteal_10",
+        "HeroId": 82,
         "Name": "10% Lifesteal",
         "Description": null
       },
       {
         "Id": 5976,
         "Key": "special_bonus_hp_400",
+        "HeroId": 82,
         "Name": "+400 Health",
         "Description": null
       },
       {
         "Id": 6288,
         "Key": "special_bonus_unique_meepo",
+        "HeroId": 82,
         "Name": "-5s Poof Cooldown",
         "Description": null
       }
@@ -60504,9 +61231,9 @@
           0.0
         ],
         "AbilityManaCost": [
-          30.0,
-          50.0,
-          70.0,
+          45.0,
+          60.0,
+          75.0,
           90.0
         ],
         "AbilityModifierSupportValue": 0.3,
@@ -60637,9 +61364,9 @@
             1200.0
           ],
           "slow_pct": [
-            25.0,
+            10.0,
+            20.0,
             30.0,
-            35.0,
             40.0
           ],
           "skewer_radius": [
@@ -60889,48 +61616,56 @@
       {
         "Id": 6016,
         "Key": "special_bonus_attack_speed_25",
+        "HeroId": 97,
         "Name": "+25 Attack Speed",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 97,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 5928,
         "Key": "special_bonus_strength_12",
+        "HeroId": 97,
         "Name": "+12 Strength",
         "Description": null
       },
       {
         "Id": 6690,
         "Key": "special_bonus_unique_magnus_4",
+        "HeroId": 97,
         "Name": "+75 Shockwave Damage",
         "Description": null
       },
       {
         "Id": 6004,
         "Key": "special_bonus_armor_10",
+        "HeroId": 97,
         "Name": "+10 Armor",
         "Description": null
       },
       {
         "Id": 6507,
         "Key": "special_bonus_unique_magnus_3",
+        "HeroId": 97,
         "Name": "+500 Skewer Range",
         "Description": null
       },
       {
         "Id": 6390,
         "Key": "special_bonus_unique_magnus_2",
+        "HeroId": 97,
         "Name": "+20% Empower Damage/Cleave",
         "Description": null
       },
       {
         "Id": 6691,
         "Key": "special_bonus_unique_magnus_5",
+        "HeroId": 97,
         "Name": "+1s Reverse Polarity Stun Duration",
         "Description": null
       }
@@ -60948,7 +61683,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 23,
-    "AttributeStrengthGain": 3.7,
+    "AttributeStrengthGain": 3.5,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 15,
@@ -61515,48 +62250,56 @@
       {
         "Id": 5971,
         "Key": "special_bonus_evasion_10",
+        "HeroId": 96,
         "Name": "10% Evasion",
         "Description": null
       },
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 96,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 7372,
         "Key": "special_bonus_attack_base_damage_30",
+        "HeroId": 96,
         "Name": "+30 Base Damage",
         "Description": null
       },
       {
         "Id": 6617,
         "Key": "special_bonus_unique_centaur_4",
+        "HeroId": 96,
         "Name": "+50% Double Edge Strength Damage",
         "Description": null
       },
       {
         "Id": 6616,
         "Key": "special_bonus_unique_centaur_3",
+        "HeroId": 96,
         "Name": "+50 Retaliate Damage",
         "Description": null
       },
       {
         "Id": 6080,
         "Key": "special_bonus_strength_20",
+        "HeroId": 96,
         "Name": "+20 Strength",
         "Description": null
       },
       {
         "Id": 6322,
         "Key": "special_bonus_unique_centaur_1",
+        "HeroId": 96,
         "Name": "Gains Retaliate Aura",
         "Description": null
       },
       {
         "Id": 5988,
         "Key": "special_bonus_unique_centaur_2",
+        "HeroId": 96,
         "Name": "+1.5s Hoof Stomp Duration",
         "Description": null
       }
@@ -62150,54 +62893,62 @@
       {
         "Id": 6137,
         "Key": "special_bonus_strength_10",
+        "HeroId": 93,
         "Name": "+10 Strength",
         "Description": null
       },
       {
         "Id": 7384,
         "Key": "special_bonus_agility_6",
+        "HeroId": 93,
         "Name": "+6 Agility",
         "Description": null
       },
       {
         "Id": 5907,
         "Key": "special_bonus_attack_speed_30",
+        "HeroId": 93,
         "Name": "+30 Attack Speed",
         "Description": null
       },
       {
         "Id": 6078,
         "Key": "special_bonus_lifesteal_20",
+        "HeroId": 93,
         "Name": "20% Lifesteal",
         "Description": null
       },
       {
         "Id": 6892,
         "Key": "special_bonus_unique_slark_2",
+        "HeroId": 93,
         "Name": "+150 Dark Pact Damage",
         "Description": null
       },
       {
         "Id": 6147,
         "Key": "special_bonus_unique_slark",
+        "HeroId": 93,
         "Name": "+1.25s Pounce Leash",
         "Description": null
       },
       {
         "Id": 6893,
         "Key": "special_bonus_unique_slark_3",
+        "HeroId": 93,
         "Name": "+1s Shadow Dance Duration",
         "Description": null
       },
       {
         "Id": 6894,
         "Key": "special_bonus_unique_slark_4",
+        "HeroId": 93,
         "Name": "+80s Essence Shift Duration",
         "Description": null
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 33,
@@ -62351,10 +63102,10 @@
             0.3
           ],
           "stat_loss_pct": [
-            12.0,
             13.0,
             14.0,
-            15.0
+            15.0,
+            16.0
           ],
           "duration": [
             14.0
@@ -62991,48 +63742,56 @@
       {
         "Id": 5996,
         "Key": "special_bonus_spell_amplify_6",
+        "HeroId": 98,
         "Name": "+6% Spell Amplification",
         "Description": null
       },
       {
         "Id": 5987,
         "Key": "special_bonus_exp_boost_25",
+        "HeroId": 98,
         "Name": "+25% XP Gain",
         "Description": null
       },
       {
         "Id": 5979,
         "Key": "special_bonus_attack_damage_100",
+        "HeroId": 98,
         "Name": "+100 Damage",
         "Description": null
       },
       {
         "Id": 6948,
         "Key": "special_bonus_unique_timbersaw_2",
+        "HeroId": 98,
         "Name": "+5 Reactive Armor Stacks",
         "Description": null
       },
       {
         "Id": 6145,
         "Key": "special_bonus_strength_15",
+        "HeroId": 98,
         "Name": "+15 Strength",
         "Description": null
       },
       {
         "Id": 5951,
         "Key": "special_bonus_cooldown_reduction_15",
+        "HeroId": 98,
         "Name": "15% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 6223,
         "Key": "special_bonus_unique_timbersaw",
+        "HeroId": 98,
         "Name": "+12% Whirling Death Attribute Reduction",
         "Description": null
       },
       {
         "Id": 6949,
         "Key": "special_bonus_unique_timbersaw_3",
+        "HeroId": 98,
         "Name": "+1400 Timber Chain Range",
         "Description": null
       }
@@ -63051,7 +63810,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 21,
     "AttributeStrengthGain": 2.8,
-    "AttributeBaseIntelligence": 21,
+    "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 2.4,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.3,
@@ -63630,48 +64389,56 @@
       {
         "Id": 5938,
         "Key": "special_bonus_attack_damage_15",
+        "HeroId": 94,
         "Name": "+15 Damage",
         "Description": null
       },
       {
         "Id": 5972,
         "Key": "special_bonus_evasion_15",
+        "HeroId": 94,
         "Name": "15% Evasion",
         "Description": null
       },
       {
         "Id": 5907,
         "Key": "special_bonus_attack_speed_30",
+        "HeroId": 94,
         "Name": "+30 Attack Speed",
         "Description": null
       },
       {
         "Id": 6687,
         "Key": "special_bonus_unique_medusa_3",
+        "HeroId": 94,
         "Name": "+30% Mystic Snake Mana Steal",
         "Description": null
       },
       {
         "Id": 7389,
         "Key": "special_bonus_unique_medusa_5",
+        "HeroId": 94,
         "Name": "-4s Mystic Snake Cooldown",
         "Description": null
       },
       {
         "Id": 6182,
         "Key": "special_bonus_unique_medusa",
+        "HeroId": 94,
         "Name": "+2.5s Stone Gaze Duration",
         "Description": "The duration of the stun is not affected."
       },
       {
         "Id": 6686,
         "Key": "special_bonus_mp_1000",
+        "HeroId": 94,
         "Name": "+1000 Mana",
         "Description": null
       },
       {
         "Id": 6803,
         "Key": "special_bonus_unique_medusa_4",
+        "HeroId": 94,
         "Name": "Split Shot Uses Modifiers",
         "Description": "Allows on-hit effects to apply to the secondary attacks from Split Shot."
       }
@@ -64275,48 +65042,56 @@
       {
         "Id": 6029,
         "Key": "special_bonus_agility_10",
+        "HeroId": 95,
         "Name": "+10 Agility",
         "Description": null
       },
       {
         "Id": 5903,
         "Key": "special_bonus_hp_250",
+        "HeroId": 95,
         "Name": "+250 Health",
         "Description": null
       },
       {
         "Id": 6958,
         "Key": "special_bonus_unique_troll_warlord_2",
+        "HeroId": 95,
         "Name": "+3 Max Fervor Stacks",
         "Description": null
       },
       {
         "Id": 6959,
         "Key": "special_bonus_unique_troll_warlord_3",
+        "HeroId": 95,
         "Name": "+90 Whirling Axes Damage",
         "Description": null
       },
       {
         "Id": 5974,
         "Key": "special_bonus_evasion_25",
+        "HeroId": 95,
         "Name": "25% Evasion",
         "Description": null
       },
       {
         "Id": 5941,
         "Key": "special_bonus_attack_damage_50",
+        "HeroId": 95,
         "Name": "+50 Damage",
         "Description": null
       },
       {
         "Id": 6154,
         "Key": "special_bonus_unique_troll_warlord",
+        "HeroId": 95,
         "Name": "-6s Whirling Axes Cooldown",
         "Description": null
       },
       {
         "Id": 6960,
         "Key": "special_bonus_unique_troll_warlord_4",
+        "HeroId": 95,
         "Name": "Battle Trance Strong Dispels",
         "Description": "Can be cast while stunned and applies a strong dispel to Troll Warlord."
       }
@@ -65114,48 +65889,56 @@
       {
         "Id": 6447,
         "Key": "special_bonus_exp_boost_40",
+        "HeroId": 100,
         "Name": "+40% XP Gain",
         "Description": null
       },
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 100,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 6195,
         "Key": "special_bonus_hp_350",
+        "HeroId": 100,
         "Name": "+350 Health",
         "Description": null
       },
       {
         "Id": 6411,
         "Key": "special_bonus_unique_tusk_2",
+        "HeroId": 100,
         "Name": "+150 Snowball Damage",
         "Description": null
       },
       {
         "Id": 6961,
         "Key": "special_bonus_unique_tusk_3",
+        "HeroId": 100,
         "Name": "+300 Snowball Speed",
         "Description": null
       },
       {
         "Id": 6194,
         "Key": "special_bonus_unique_tusk",
+        "HeroId": 100,
         "Name": "+100% Walrus Punch Crit",
         "Description": null
       },
       {
         "Id": 6962,
         "Key": "special_bonus_unique_tusk_4",
+        "HeroId": 100,
         "Name": "12% Chance Walrus Punch",
         "Description": "Walrus Punch gains a chance to be triggered on normal attacks, independent of mana cost or cooldown."
       },
       {
         "Id": 6963,
         "Key": "special_bonus_unique_tusk_5",
+        "HeroId": 100,
         "Name": "-6s Ice Shards Cooldown",
         "Description": null
       }
@@ -65758,48 +66541,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 99,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 99,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 5903,
         "Key": "special_bonus_hp_250",
+        "HeroId": 99,
         "Name": "+250 Health",
         "Description": null
       },
       {
         "Id": 6083,
         "Key": "special_bonus_unique_bristleback",
+        "HeroId": 99,
         "Name": "+6 Max Goo Stacks",
         "Description": null
       },
       {
         "Id": 6308,
         "Key": "special_bonus_hp_regen_25",
+        "HeroId": 99,
         "Name": "+25 Health Regen",
         "Description": null
       },
       {
         "Id": 6360,
         "Key": "special_bonus_unique_bristleback_2",
+        "HeroId": 99,
         "Name": "+25 Quill Stack Damage",
         "Description": null
       },
       {
         "Id": 6550,
         "Key": "special_bonus_spell_lifesteal_15",
+        "HeroId": 99,
         "Name": "15% Spell Lifesteal",
         "Description": null
       },
       {
         "Id": 6615,
         "Key": "special_bonus_unique_bristleback_3",
+        "HeroId": 99,
         "Name": "+30 Warpath Damage Per Stack",
         "Description": null
       }
@@ -66392,48 +67183,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 101,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5925,
         "Key": "special_bonus_intelligence_8",
+        "HeroId": 101,
         "Name": "+8 Intelligence",
         "Description": null
       },
       {
         "Id": 6181,
         "Key": "special_bonus_unique_skywrath",
+        "HeroId": 101,
         "Name": "-8s Ancient Seal Cooldown",
         "Description": null
       },
       {
         "Id": 6884,
         "Key": "special_bonus_unique_skywrath_2",
+        "HeroId": 101,
         "Name": "+1 Arcane Bolt Per Cast",
         "Description": null
       },
       {
         "Id": 6886,
         "Key": "special_bonus_unique_skywrath_4",
+        "HeroId": 101,
         "Name": "Global Concussive Shot",
         "Description": null
       },
       {
         "Id": 6885,
         "Key": "special_bonus_unique_skywrath_3",
+        "HeroId": 101,
         "Name": "+15% Ancient Seal Magic Resistance Reduction",
         "Description": null
       },
       {
         "Id": 6318,
         "Key": "special_bonus_gold_income_50",
+        "HeroId": 101,
         "Name": "+300 Gold/Min",
         "Description": null
       },
       {
         "Id": 6921,
         "Key": "special_bonus_unique_skywrath_5",
+        "HeroId": 101,
         "Name": "+600 Mystic Flare Damage",
         "Description": null
       }
@@ -67148,48 +67947,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 103,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5959,
         "Key": "special_bonus_hp_200",
+        "HeroId": 103,
         "Name": "+200 Health",
         "Description": null
       },
       {
         "Id": 6138,
         "Key": "special_bonus_magic_resistance_15",
+        "HeroId": 103,
         "Name": "+15% Magic Resistance",
         "Description": null
       },
       {
         "Id": 6171,
         "Key": "special_bonus_unique_elder_titan",
+        "HeroId": 103,
         "Name": "+30 Astral Spirit Hero Attack",
         "Description": null
       },
       {
         "Id": 6444,
         "Key": "special_bonus_attack_speed_70",
+        "HeroId": 103,
         "Name": "+70 Attack Speed",
         "Description": null
       },
       {
         "Id": 6378,
         "Key": "special_bonus_unique_elder_titan_2",
+        "HeroId": 103,
         "Name": "+100 Echo Stomp Damage",
         "Description": null
       },
       {
         "Id": 6720,
         "Key": "special_bonus_unique_elder_titan_3",
+        "HeroId": 103,
         "Name": "-75 Earth Splitter Cooldown",
         "Description": null
       },
       {
         "Id": 7350,
         "Key": "special_bonus_unique_elder_titan_4",
+        "HeroId": 103,
         "Name": "+600 Echo Stomp Wake Damage",
         "Description": null
       }
@@ -67769,48 +68576,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 102,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5987,
         "Key": "special_bonus_exp_boost_25",
+        "HeroId": 102,
         "Name": "+25% XP Gain",
         "Description": null
       },
       {
         "Id": 5934,
         "Key": "special_bonus_armor_8",
+        "HeroId": 102,
         "Name": "+8 Armor",
         "Description": null
       },
       {
         "Id": 6601,
         "Key": "special_bonus_unique_abaddon_2",
+        "HeroId": 102,
         "Name": "+75 Mist Coil Heal/Damage",
         "Description": null
       },
       {
         "Id": 5952,
         "Key": "special_bonus_cooldown_reduction_20",
+        "HeroId": 102,
         "Name": "20% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 5968,
         "Key": "special_bonus_attack_damage_90",
+        "HeroId": 102,
         "Name": "+90 Damage",
         "Description": null
       },
       {
         "Id": 6100,
         "Key": "special_bonus_unique_abaddon",
+        "HeroId": 102,
         "Name": "+225 Aphotic Shield Health",
         "Description": null
       },
       {
         "Id": 7335,
         "Key": "special_bonus_unique_abaddon_4",
+        "HeroId": 102,
         "Name": "375 AoE Mist Coil",
         "Description": null
       }
@@ -68442,48 +69257,56 @@
       {
         "Id": 5965,
         "Key": "special_bonus_intelligence_10",
+        "HeroId": 107,
         "Name": "+10 Intelligence",
         "Description": null
       },
       {
         "Id": 5940,
         "Key": "special_bonus_attack_damage_40",
+        "HeroId": 107,
         "Name": "+40 Damage",
         "Description": null
       },
       {
         "Id": 5970,
         "Key": "special_bonus_armor_7",
+        "HeroId": 107,
         "Name": "+7 Armor",
         "Description": null
       },
       {
         "Id": 6203,
         "Key": "special_bonus_unique_earth_spirit",
+        "HeroId": 107,
         "Name": "+150 Rolling Boulder Damage",
         "Description": null
       },
       {
         "Id": 6055,
         "Key": "special_bonus_spell_amplify_15",
+        "HeroId": 107,
         "Name": "+15% Spell Amplification",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 107,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 6514,
         "Key": "special_bonus_unique_earth_spirit_2",
+        "HeroId": 107,
         "Name": "Geomagnetic Grip Targets Allies",
         "Description": null
       },
       {
         "Id": 6640,
         "Key": "special_bonus_unique_earth_spirit_3",
+        "HeroId": 107,
         "Name": "+0.75s Rolling Boulder Stun Duration",
         "Description": null
       }
@@ -69070,48 +69893,56 @@
       {
         "Id": 6009,
         "Key": "special_bonus_attack_damage_25",
+        "HeroId": 106,
         "Name": "+25 Damage",
         "Description": null
       },
       {
         "Id": 6172,
         "Key": "special_bonus_unique_ember_spirit_1",
+        "HeroId": 106,
         "Name": "+250 Flame Guard Absorption",
         "Description": null
       },
       {
         "Id": 6647,
         "Key": "special_bonus_unique_ember_spirit_3",
+        "HeroId": 106,
         "Name": "+60 Flame Guard DPS",
         "Description": null
       },
       {
         "Id": 6176,
         "Key": "special_bonus_unique_ember_spirit_2",
+        "HeroId": 106,
         "Name": "+1s Searing Chains",
         "Description": null
       },
       {
         "Id": 5989,
         "Key": "special_bonus_spell_amplify_10",
+        "HeroId": 106,
         "Name": "+10% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6922,
         "Key": "special_bonus_truestrike",
+        "HeroId": 106,
         "Name": "True Strike",
         "Description": null
       },
       {
         "Id": 7050,
         "Key": "special_bonus_unique_ember_spirit_4",
+        "HeroId": 106,
         "Name": "2 Sleight of Fist Charges",
         "Description": null
       },
       {
         "Id": 7051,
         "Key": "special_bonus_unique_ember_spirit_5",
+        "HeroId": 106,
         "Name": "-25 Remnant Charge Restore Time",
         "Description": null
       }
@@ -69701,48 +70532,56 @@
       {
         "Id": 5982,
         "Key": "special_bonus_strength_8",
+        "HeroId": 104,
         "Name": "+8 Strength",
         "Description": null
       },
       {
         "Id": 5987,
         "Key": "special_bonus_exp_boost_25",
+        "HeroId": 104,
         "Name": "+25% XP Gain",
         "Description": null
       },
       {
         "Id": 5907,
         "Key": "special_bonus_attack_speed_30",
+        "HeroId": 104,
         "Name": "+30 Attack Speed",
         "Description": null
       },
       {
         "Id": 6671,
         "Key": "special_bonus_unique_legion_commander_4",
+        "HeroId": 104,
         "Name": "+50 Overwhelming Odds Hero Damage",
         "Description": null
       },
       {
         "Id": 6077,
         "Key": "special_bonus_movement_speed_35",
+        "HeroId": 104,
         "Name": "+35 Movement Speed",
         "Description": null
       },
       {
         "Id": 6526,
         "Key": "special_bonus_unique_legion_commander_3",
+        "HeroId": 104,
         "Name": "+10% Moment Proc Chance",
         "Description": null
       },
       {
         "Id": 6218,
         "Key": "special_bonus_unique_legion_commander",
+        "HeroId": 104,
         "Name": "+40 Duel Damage Bonus",
         "Description": null
       },
       {
         "Id": 7395,
         "Key": "special_bonus_unique_legion_commander_5",
+        "HeroId": 104,
         "Name": "350 AoE Press The Attack",
         "Description": null
       }
@@ -70644,48 +71483,56 @@
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 110,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 5949,
         "Key": "special_bonus_spell_amplify_8",
+        "HeroId": 110,
         "Name": "+8% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6401,
         "Key": "special_bonus_unique_phoenix_3",
+        "HeroId": 110,
         "Name": "+40 Fire Spirits DPS",
         "Description": null
       },
       {
         "Id": 6235,
         "Key": "special_bonus_hp_500",
+        "HeroId": 110,
         "Name": "+500 Health",
         "Description": null
       },
       {
         "Id": 6852,
         "Key": "special_bonus_unique_phoenix_4",
+        "HeroId": 110,
         "Name": "+1400 Icarus Dive Cast Range",
         "Description": null
       },
       {
         "Id": 6085,
         "Key": "special_bonus_unique_phoenix_2",
+        "HeroId": 110,
         "Name": "+1.25s Supernova Stun Duration",
         "Description": null
       },
       {
         "Id": 6227,
         "Key": "special_bonus_unique_phoenix_1",
+        "HeroId": 110,
         "Name": "+3 Supernova Hit Count",
         "Description": null
       },
       {
         "Id": 6915,
         "Key": "special_bonus_unique_phoenix_5",
+        "HeroId": 110,
         "Name": "+2% Max Health Sun Ray Damage",
         "Description": null
       }
@@ -71247,48 +72094,56 @@
       {
         "Id": 5918,
         "Key": "special_bonus_movement_speed_20",
+        "HeroId": 109,
         "Name": "+20 Movement Speed",
         "Description": null
       },
       {
         "Id": 5971,
         "Key": "special_bonus_evasion_10",
+        "HeroId": 109,
         "Name": "10% Evasion",
         "Description": null
       },
       {
         "Id": 5903,
         "Key": "special_bonus_hp_250",
+        "HeroId": 109,
         "Name": "+250 Health",
         "Description": null
       },
       {
         "Id": 6016,
         "Key": "special_bonus_attack_speed_25",
+        "HeroId": 109,
         "Name": "+25 Attack Speed",
         "Description": null
       },
       {
         "Id": 6168,
         "Key": "special_bonus_all_stats_10",
+        "HeroId": 109,
         "Name": "+10 All Stats",
         "Description": null
       },
       {
         "Id": 6942,
         "Key": "special_bonus_unique_terrorblade_2",
+        "HeroId": 109,
         "Name": "-8s Reflection Cooldown",
         "Description": null
       },
       {
         "Id": 6107,
         "Key": "special_bonus_unique_terrorblade",
+        "HeroId": 109,
         "Name": "-35s Sunder Cooldown",
         "Description": null
       },
       {
         "Id": 6943,
         "Key": "special_bonus_unique_terrorblade_3",
+        "HeroId": 109,
         "Name": "+300 Metamorphosis Attack Range",
         "Description": null
       }
@@ -71895,48 +72750,56 @@
       {
         "Id": 6317,
         "Key": "special_bonus_exp_boost_30",
+        "HeroId": 105,
         "Name": "+30% XP Gain",
         "Description": null
       },
       {
         "Id": 6997,
         "Key": "special_bonus_unique_techies_3",
+        "HeroId": 105,
         "Name": "-4s Proximity Mines Cooldown",
         "Description": null
       },
       {
         "Id": 6282,
         "Key": "special_bonus_unique_techies",
+        "HeroId": 105,
         "Name": "+300 Blast Off Damage",
         "Description": null
       },
       {
         "Id": 5980,
         "Key": "special_bonus_mp_regen_6",
+        "HeroId": 105,
         "Name": "+6 Mana Regen",
         "Description": null
       },
       {
         "Id": 6306,
         "Key": "special_bonus_movement_speed_50",
+        "HeroId": 105,
         "Name": "+50 Movement Speed",
         "Description": null
       },
       {
         "Id": 5957,
         "Key": "special_bonus_gold_income_25",
+        "HeroId": 105,
         "Name": "+150 Gold/Min",
         "Description": null
       },
       {
         "Id": 7039,
         "Key": "special_bonus_attack_damage_251",
+        "HeroId": 105,
         "Name": "+251 Damage",
         "Description": null
       },
       {
         "Id": 6998,
         "Key": "special_bonus_unique_techies_4",
+        "HeroId": 105,
         "Name": "+25 Mines Movement Speed",
         "Description": null
       }
@@ -72511,48 +73374,56 @@
       {
         "Id": 6540,
         "Key": "special_bonus_unique_oracle_2",
+        "HeroId": 111,
         "Name": "+1s Fortune's End Max Duration",
         "Description": null
       },
       {
         "Id": 5987,
         "Key": "special_bonus_exp_boost_25",
+        "HeroId": 111,
         "Name": "+25% XP Gain",
         "Description": null
       },
       {
         "Id": 6056,
         "Key": "special_bonus_cast_range_150",
+        "HeroId": 111,
         "Name": "+150 Cast Range",
         "Description": null
       },
       {
         "Id": 6008,
         "Key": "special_bonus_gold_income_20",
+        "HeroId": 111,
         "Name": "+120 Gold/Min",
         "Description": null
       },
       {
         "Id": 6306,
         "Key": "special_bonus_movement_speed_50",
+        "HeroId": 111,
         "Name": "+50 Movement Speed",
         "Description": null
       },
       {
         "Id": 6970,
         "Key": "special_bonus_unique_oracle_4",
+        "HeroId": 111,
         "Name": "False Promise Invisibility",
         "Description": "The target of False Promise also becomes invisible for the duration (with a 0.6 second fade time)."
       },
       {
         "Id": 6710,
         "Key": "special_bonus_unique_oracle_3",
+        "HeroId": 111,
         "Name": "-5s Fate's Edict Cooldown",
         "Description": null
       },
       {
         "Id": 6206,
         "Key": "special_bonus_unique_oracle",
+        "HeroId": 111,
         "Name": "+2 False Promise Duration",
         "Description": null
       }
@@ -73154,48 +74025,56 @@
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 112,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 6366,
         "Key": "special_bonus_attack_damage_60",
+        "HeroId": 112,
         "Name": "+60 Damage",
         "Description": null
       },
       {
         "Id": 6195,
         "Key": "special_bonus_hp_350",
+        "HeroId": 112,
         "Name": "+350 Health",
         "Description": null
       },
       {
         "Id": 7022,
         "Key": "special_bonus_night_vision_500",
+        "HeroId": 112,
         "Name": "+500 Night Vision",
         "Description": null
       },
       {
         "Id": 6106,
         "Key": "special_bonus_unique_winter_wyvern_1",
+        "HeroId": 112,
         "Name": "+15% Arctic Burn Slow",
         "Description": null
       },
       {
         "Id": 6297,
         "Key": "special_bonus_unique_winter_wyvern_2",
+        "HeroId": 112,
         "Name": "-5s Cold Embrace Cooldown",
         "Description": null
       },
       {
         "Id": 6523,
         "Key": "special_bonus_unique_winter_wyvern_3",
+        "HeroId": 112,
         "Name": "+1.5s Winter's Curse Duration",
         "Description": null
       },
       {
         "Id": 6994,
         "Key": "special_bonus_unique_winter_wyvern_4",
+        "HeroId": 112,
         "Name": "Splinter Blast 2s Stun",
         "Description": "The slow is still applied for the same duration."
       }
@@ -73772,48 +74651,56 @@
       {
         "Id": 5950,
         "Key": "special_bonus_cooldown_reduction_8",
+        "HeroId": 113,
         "Name": "8% Cooldown Reduction",
         "Description": null
       },
       {
         "Id": 5907,
         "Key": "special_bonus_attack_speed_30",
+        "HeroId": 113,
         "Name": "+30 Attack Speed",
         "Description": null
       },
       {
         "Id": 5993,
         "Key": "special_bonus_hp_300",
+        "HeroId": 113,
         "Name": "+300 Health",
         "Description": null
       },
       {
         "Id": 7120,
         "Key": "special_bonus_unique_arc_warden_5",
+        "HeroId": 113,
         "Name": "+400 Flux Cast Range",
         "Description": null
       },
       {
         "Id": 7104,
         "Key": "special_bonus_unique_arc_warden_3",
+        "HeroId": 113,
         "Name": "-1.5s Spark Wraith Cooldown",
         "Description": null
       },
       {
         "Id": 5944,
         "Key": "special_bonus_attack_range_125",
+        "HeroId": 113,
         "Name": "+125 Attack Range",
         "Description": null
       },
       {
         "Id": 6121,
         "Key": "special_bonus_lifesteal_30",
+        "HeroId": 113,
         "Name": "30% Lifesteal",
         "Description": null
       },
       {
         "Id": 6287,
         "Key": "special_bonus_unique_arc_warden",
+        "HeroId": 113,
         "Name": "+350 Spark Wraith Damage",
         "Description": null
       }
@@ -74488,48 +75375,56 @@
       {
         "Id": 6967,
         "Key": "special_bonus_unique_underlord_2",
+        "HeroId": 108,
         "Name": "+18 Firestorm Wave Damage",
         "Description": null
       },
       {
         "Id": 5919,
         "Key": "special_bonus_movement_speed_25",
+        "HeroId": 108,
         "Name": "+25 Movement Speed",
         "Description": null
       },
       {
         "Id": 6003,
         "Key": "special_bonus_cast_range_100",
+        "HeroId": 108,
         "Name": "+100 Cast Range",
         "Description": null
       },
       {
         "Id": 6968,
         "Key": "special_bonus_unique_underlord_3",
+        "HeroId": 108,
         "Name": "+15 Atrophy Attack Bonus Damage From Heroes",
         "Description": null
       },
       {
         "Id": 6444,
         "Key": "special_bonus_attack_speed_70",
+        "HeroId": 108,
         "Name": "+70 Attack Speed",
         "Description": null
       },
       {
         "Id": 6308,
         "Key": "special_bonus_hp_regen_25",
+        "HeroId": 108,
         "Name": "+25 Health Regen",
         "Description": null
       },
       {
         "Id": 6019,
         "Key": "special_bonus_unique_underlord",
+        "HeroId": 108,
         "Name": "+0.8s Pit of Malice Root",
         "Description": null
       },
       {
         "Id": 6969,
         "Key": "special_bonus_unique_underlord_4",
+        "HeroId": 108,
         "Name": "25% Firestorm Building Damage",
         "Description": null
       }
@@ -75302,48 +76197,56 @@
       {
         "Id": 7024,
         "Key": "special_bonus_unique_monkey_king_5",
+        "HeroId": 114,
         "Name": "+300 Tree Dance Vision AoE",
         "Description": null
       },
       {
         "Id": 5906,
         "Key": "special_bonus_attack_speed_20",
+        "HeroId": 114,
         "Name": "+20 Attack Speed",
         "Description": null
       },
       {
         "Id": 7038,
         "Key": "special_bonus_unique_monkey_king_7",
+        "HeroId": 114,
         "Name": "+600 Tree Dance Cast Range",
         "Description": null
       },
       {
         "Id": 6421,
         "Key": "special_bonus_unique_monkey_king_2",
+        "HeroId": 114,
         "Name": "+75 Jingu Mastery Damage",
         "Description": null
       },
       {
         "Id": 6303,
         "Key": "special_bonus_unique_monkey_king",
+        "HeroId": 114,
         "Name": "+50% Boundless Strike Crit",
         "Description": null
       },
       {
         "Id": 6696,
         "Key": "special_bonus_unique_monkey_king_3",
+        "HeroId": 114,
         "Name": "+400 Primal Spring Damage",
         "Description": null
       },
       {
         "Id": 6697,
         "Key": "special_bonus_unique_monkey_king_4",
+        "HeroId": 114,
         "Name": "+100 Armor Wukong's Command",
         "Description": null
       },
       {
         "Id": 7025,
         "Key": "special_bonus_unique_monkey_king_6",
+        "HeroId": 114,
         "Name": "+1 Wukong's Command Ring",
         "Description": "Creates an additional ring of 7 soldiers at 1100 range from the center."
       }
@@ -75939,48 +76842,56 @@
       {
         "Id": 5939,
         "Key": "special_bonus_attack_damage_30",
+        "HeroId": 119,
         "Name": "+30 Damage",
         "Description": null
       },
       {
         "Id": 6197,
         "Key": "special_bonus_cast_range_125",
+        "HeroId": 119,
         "Name": "+125 Cast Range",
         "Description": null
       },
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 119,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 6077,
         "Key": "special_bonus_movement_speed_35",
+        "HeroId": 119,
         "Name": "+35 Movement Speed",
         "Description": null
       },
       {
         "Id": 6564,
         "Key": "special_bonus_spell_lifesteal_10",
+        "HeroId": 119,
         "Name": "10% Spell Lifesteal",
         "Description": null
       },
       {
         "Id": 6464,
         "Key": "special_bonus_unique_dark_willow_1",
+        "HeroId": 119,
         "Name": "+300 Shadow Realm Max Damage",
         "Description": null
       },
       {
         "Id": 6622,
         "Key": "special_bonus_attack_speed_200",
+        "HeroId": 119,
         "Name": "+200 Attack Speed",
         "Description": null
       },
       {
         "Id": 6465,
         "Key": "special_bonus_unique_dark_willow_2",
+        "HeroId": 119,
         "Name": "+1.5 Terrorize Duration",
         "Description": null
       }
@@ -76672,48 +77583,56 @@
       {
         "Id": 6160,
         "Key": "special_bonus_mp_regen_3",
+        "HeroId": 120,
         "Name": "+3 Mana Regen",
         "Description": null
       },
       {
         "Id": 9391,
         "Key": "special_bonus_unique_pangolier_7",
+        "HeroId": 120,
         "Name": "+300 Swashbuckle Slash Range",
         "Description": null
       },
       {
         "Id": 6463,
         "Key": "special_bonus_unique_pangolier_2",
+        "HeroId": 120,
         "Name": "2s Shield Crash CD in Ball",
         "Description": null
       },
       {
         "Id": 9135,
         "Key": "special_bonus_unique_pangolier_6",
+        "HeroId": 120,
         "Name": "+2s Rolling Thunder Duration",
         "Description": null
       },
       {
         "Id": 9060,
         "Key": "special_bonus_unique_pangolier_3",
+        "HeroId": 120,
         "Name": "+40 Swashbuckle Damage",
         "Description": null
       },
       {
         "Id": 6080,
         "Key": "special_bonus_strength_20",
+        "HeroId": 120,
         "Name": "+20 Strength",
         "Description": null
       },
       {
         "Id": 9061,
         "Key": "special_bonus_unique_pangolier_4",
+        "HeroId": 120,
         "Name": "-3s Swashbuckle Cooldown",
         "Description": null
       },
       {
         "Id": 9062,
         "Key": "special_bonus_unique_pangolier_5",
+        "HeroId": 120,
         "Name": "-35s Rolling Thunder Cooldown",
         "Description": null
       }
@@ -77121,10 +78040,10 @@
             400.0
           ],
           "max_stun": [
-            1.4,
-            2.2,
-            3.0,
-            3.8
+            1.0,
+            1.9,
+            2.8,
+            3.7
           ],
           "damage_per_tick": [
             5.0,
@@ -77374,9 +78293,9 @@
             50.0
           ],
           "movement_slow": [
-            15.0,
-            30.0,
-            45.0
+            10.0,
+            20.0,
+            30.0
           ],
           "cast_range_tooltip": [
             700.0,
@@ -77390,48 +78309,56 @@
       {
         "Id": 6141,
         "Key": "special_bonus_movement_speed_30",
+        "HeroId": 121,
         "Name": "+30 Movement Speed",
         "Description": null
       },
       {
         "Id": 6007,
         "Key": "special_bonus_gold_income_15",
+        "HeroId": 121,
         "Name": "+90 Gold/Min",
         "Description": null
       },
       {
         "Id": 6326,
         "Key": "special_bonus_spell_amplify_12",
+        "HeroId": 121,
         "Name": "+12% Spell Amplification",
         "Description": null
       },
       {
         "Id": 6197,
         "Key": "special_bonus_cast_range_125",
+        "HeroId": 121,
         "Name": "+125 Cast Range",
         "Description": null
       },
       {
         "Id": 8003,
         "Key": "special_bonus_unique_grimstroke_3",
+        "HeroId": 121,
         "Name": "+600 Stroke of Fate Cast Range",
         "Description": null
       },
       {
         "Id": 8004,
         "Key": "special_bonus_unique_grimstroke_4",
+        "HeroId": 121,
         "Name": "+1 Hits to Kill Phantom",
         "Description": null
       },
       {
         "Id": 8001,
         "Key": "special_bonus_unique_grimstroke_1",
+        "HeroId": 121,
         "Name": "+200 Ink Swell Radius",
         "Description": null
       },
       {
         "Id": 8002,
         "Key": "special_bonus_unique_grimstroke_2",
+        "HeroId": 121,
         "Name": "+50% Stroke of Fate Damage",
         "Description": null
       }

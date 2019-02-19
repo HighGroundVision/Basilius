@@ -4065,7 +4065,7 @@
     "Id": 65,
     "Key": "item_hand_of_midas",
     "Name": null,
-    "Description": "<h1>Active: Transmute</h1> Kills a non-hero target for 200 gold and 1.85x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: 600",
+    "Description": "<h1>Active: Transmute</h1> Kills a non-hero target for 180 gold and 1.85x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: 600",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_hand_of_midas.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4082,7 +4082,7 @@
         1.85
       ],
       "bonus_gold": [
-        200.0
+        180.0
       ],
       "transmute_cast_range_tooltip": [
         600.0
