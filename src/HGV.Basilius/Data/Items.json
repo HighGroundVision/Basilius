@@ -2293,7 +2293,7 @@
     "Id": 38,
     "Key": "item_clarity",
     "Name": null,
-    "Description": "<h1>Use: Replenish</h1> Grants 4.5 mana regeneration to the target for 50 seconds.<br><br>If the unit is attacked by an enemy hero, tower, or Roshan, the effect is lost.<br><br>Range: 250",
+    "Description": "<h1>Use: Replenish</h1> Grants 4.5 mana regeneration to the target for 50 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: 250",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_clarity.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2403,7 +2403,7 @@
     "Id": 39,
     "Key": "item_flask",
     "Name": null,
-    "Description": "<h1>Use: Salve</h1> Grants 50 health regeneration to the target for 8 seconds.<br><br>If the unit is attacked by an enemy hero, tower, or Roshan, the effect is lost.<br><br>Range: 250",
+    "Description": "<h1>Use: Salve</h1> Grants 50 health regeneration to the target for 8 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: 250",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_flask.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2513,7 +2513,7 @@
     "Id": 41,
     "Key": "item_bottle",
     "Name": null,
-    "Description": "<h1>Active: Regenerate</h1>Consumes a charge to restore 125 health and 75 mana over 2.5 seconds. If the hero is attacked by an enemy hero, tower, or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.<br><br>Range: 350\\n<h1>Passive:  Store Rune</h1>Runes can be stored in the bottle for later use by right-clicking them. Unused runes will automatically activate after 2 minutes.<br><br>Using a stored rune fully refills the Bottle.",
+    "Description": "<h1>Active: Regenerate</h1>Consumes a charge to restore 125 health and 75 mana over 2.5 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.<br><br>Range: 350\\n<h1>Passive:  Store Rune</h1>Runes can be stored in the bottle for later use by right-clicking them. Unused runes will automatically activate after 2 minutes.<br><br>Using a stored rune fully refills the Bottle.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_bottle.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4065,7 +4065,7 @@
     "Id": 65,
     "Key": "item_hand_of_midas",
     "Name": null,
-    "Description": "<h1>Active: Transmute</h1> Kills a non-hero target for 180 gold and 1.85x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: 600",
+    "Description": "<h1>Active: Transmute</h1> Kills a non-hero target for 160 gold and 1.85x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: 600",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_hand_of_midas.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4082,7 +4082,7 @@
         1.85
       ],
       "bonus_gold": [
-        180.0
+        160.0
       ],
       "transmute_cast_range_tooltip": [
         600.0
