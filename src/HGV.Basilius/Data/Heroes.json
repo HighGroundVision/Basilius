@@ -4166,7 +4166,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "heal_amp": [
@@ -4489,103 +4489,6 @@
             1.0,
             2.0,
             3.0
-          ]
-        }
-      },
-      {
-        "Id": 5329,
-        "Key": "chen_test_of_faith",
-        "Name": "Test of Faith",
-        "Description": "Deals random damage to test an enemy unit's faith. Heals a random amount to allied units. Always applies the maximum effect when cast on yourself.",
-        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chen_test_of_faith.png",
-        "HeroId": 66,
-        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
-        "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-        ],
-        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
-        "AbilityUnitTargetType": [
-          "DOTA_UNIT_TARGET_HERO",
-          "DOTA_UNIT_TARGET_BASIC"
-        ],
-        "AbilityUnitTargetFlags": [],
-        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
-        "SpellDispellableType": null,
-        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
-        "IsSkill": true,
-        "IsUltimate": false,
-        "HasScepterUpgrade": false,
-        "OnCastbar": true,
-        "OnLearnbar": true,
-        "AbilityCastRange": [
-          600,
-          600,
-          600,
-          600
-        ],
-        "AbilityCastRangeBuffer": 250,
-        "AbilityCastPoint": [
-          0.3,
-          0.3,
-          0.3,
-          0.3
-        ],
-        "AbilityChannelTime": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "AbilityCooldown": [
-          16.0
-        ],
-        "AbilityDuration": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "AbilityDamage": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "AbilityManaCost": [
-          60.0,
-          80.0,
-          100.0,
-          120.0
-        ],
-        "AbilityModifierSupportValue": 1.0,
-        "AbilityModifierSupportBonus": 0.0,
-        "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
-        "Linked": null,
-        "AbilitySpecial": {
-          "damage_min": [
-            50.0,
-            100.0,
-            150.0,
-            200.0
-          ],
-          "damage_max": [
-            100.0,
-            200.0,
-            300.0,
-            400.0
-          ],
-          "heal_min": [
-            25.0,
-            50.0,
-            75.0,
-            100.0
-          ],
-          "heal_max": [
-            50.0,
-            100.0,
-            150.0,
-            200.0
           ]
         }
       }
@@ -47986,7 +47889,7 @@
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
-    "AbilityDraftEnabled": true,
+    "AbilityDraftEnabled": false,
     "Complexity": 3,
     "Roles": [
       {
@@ -48070,7 +47973,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "bear_hp": [
@@ -48168,7 +48071,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "bonus_attack_speed": [
@@ -48247,7 +48150,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -48331,7 +48234,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "bonus_damage": [
@@ -48484,7 +48387,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "base_attack_time": [
@@ -78403,10 +78306,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          900,
-          1000,
-          1100,
-          1200
+          0
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -78941,7 +78841,7 @@
         "Id": 6759,
         "Key": "special_bonus_unique_mars_spear_bonus_damage",
         "HeroId": 129,
-        "Name": "Spear Of Mars +150 Damage",
+        "Name": "Spear Of Mars +200 Damage",
         "Description": null
       },
       {
