@@ -335,9 +335,12 @@ namespace HGV.Basilius.Tools.Collection
 
             var name = "DOTA_Tooltip_ability_" + key;
             var desc = "DOTA_Tooltip_ability_" + key + "_Description";
+            var desc_ags = "DOTA_Tooltip_ability_" + key + "_aghanim_description";
+
             ability.Name = (string)languageData[name];
             ability.Description = (string)languageData[desc];
-            
+            ability.UpgradeDescription = (string)languageData[desc_ags];
+
             ability.AbilityType = getValue<string>(abiltiesData, "ability_base", key, "AbilityType");
             ability.AbilityBehaviors = getList<string>(abiltiesData, "ability_base", key, "AbilityBehavior", '|');
             ability.IsSkill = ability.AbilityBehaviors.Contains("DOTA_ABILITY_BEHAVIOR_HIDDEN") == false && ability.AbilityType.Contains("DOTA_ABILITY_TYPE_ULTIMATE") == false;

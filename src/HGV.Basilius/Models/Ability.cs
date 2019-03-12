@@ -13,6 +13,7 @@ namespace HGV.Basilius
 
         public string Name { get; set; }
         public string Description { get; set; }
+        public string UpgradeDescription { get; set; }
 
         public string Image { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/abilities/{0}.png", this.Key); } }
 
