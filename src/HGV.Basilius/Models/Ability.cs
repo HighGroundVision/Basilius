@@ -57,6 +57,7 @@ namespace HGV.Basilius
         public string Linked { get; set; }
 
         public Dictionary<string, List<double>> AbilitySpecial { get; set; }
+        public List<string> Keywords { get; set; }
 
         public Ability()
         {
@@ -71,6 +72,7 @@ namespace HGV.Basilius
             this.AbilityDamage = new List<double>();
             this.AbilityManaCost = new List<double>();
             this.AbilitySpecial = new Dictionary<string, List<double>>();
+            this.Keywords = new List<string>();
         }
     }
 }

@@ -13,4 +13,10 @@
     <ProjectReference Include="..\HGV.Basilius\HGV.Basilius.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ability-keywords.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

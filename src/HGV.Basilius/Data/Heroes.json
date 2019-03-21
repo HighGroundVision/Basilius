@@ -130,7 +130,11 @@
             8.0,
             7.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5346,
@@ -227,7 +231,12 @@
           "vortex_duration": [
             16.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5347,
@@ -321,7 +330,12 @@
             180.0,
             240.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Reduction",
+          "Autocast"
+        ]
       },
       {
         "Id": 6251,
@@ -392,7 +406,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -463,7 +478,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5348,
@@ -576,7 +592,13 @@
           "frostbite_duration_scepter": [
             17.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Vision",
+          "AoE"
+        ]
       },
       {
         "Id": 5349,
@@ -645,7 +667,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -856,7 +879,11 @@
             52.0,
             64.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5004,
@@ -934,7 +961,10 @@
           "min_blink_range": [
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Escape"
+        ]
       },
       {
         "Id": 7314,
@@ -1015,7 +1045,10 @@
           "duration": [
             1.2
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       },
       {
         "Id": 6251,
@@ -1086,7 +1119,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -1157,7 +1191,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5006,
@@ -1243,7 +1278,13 @@
           "mana_void_aoe_radius": [
             500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Disable",
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -1459,7 +1500,11 @@
             2.8,
             3.2
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "AoE"
+        ]
       },
       {
         "Id": 5008,
@@ -1551,7 +1596,12 @@
           "damage_reduction_scepter": [
             30.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Increase",
+          "DPS"
+        ]
       },
       {
         "Id": 5009,
@@ -1634,7 +1684,11 @@
             0.35,
             0.3
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank"
+        ]
       },
       {
         "Id": 6251,
@@ -1705,7 +1759,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -1776,7 +1831,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5010,
@@ -1872,7 +1928,11 @@
           "scepter_aoe": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -2093,7 +2153,10 @@
           "duration": [
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Reduction"
+        ]
       },
       {
         "Id": 5011,
@@ -2179,7 +2242,12 @@
           "cooldown_scepter": [
             1.5
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Heal"
+        ]
       },
       {
         "Id": 5014,
@@ -2277,7 +2345,10 @@
             575.0,
             650.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 6251,
@@ -2348,7 +2419,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -2419,7 +2491,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5013,
@@ -2502,7 +2575,13 @@
             155.0,
             215.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "DPS",
+          "Disable",
+          "Channeled"
+        ]
       },
       {
         "Id": 5523,
@@ -2575,7 +2654,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -2802,7 +2882,11 @@
             10.0,
             12.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 7230,
@@ -2894,7 +2978,10 @@
           "boar_poison_duration_tooltip": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 7231,
@@ -2981,7 +3068,10 @@
             800.0,
             900.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 5172,
@@ -3061,7 +3151,11 @@
             30.0,
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -3132,7 +3226,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5177,
@@ -3256,7 +3351,14 @@
           "movement_speed_duration": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Knockback",
+          "Nuke",
+          "Stun",
+          "Disable",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -3493,7 +3595,11 @@
           "health_bonus_share_percent": [
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase",
+          "Heal"
+        ]
       },
       {
         "Id": 5016,
@@ -3580,7 +3686,12 @@
           "delay_plus_castpoint_tooltip": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Silence",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5017,
@@ -3675,7 +3786,12 @@
           "invis_threshold_pct": [
             25.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Speed Increase",
+          "Movement Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -3746,7 +3862,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -3817,7 +3934,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5018,
@@ -3912,7 +4030,10 @@
           "charge_restore_time_scepter": [
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade"
+        ]
       }
     ],
     "Talents": [
@@ -4135,7 +4256,11 @@
             90.0,
             120.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 7306,
@@ -4227,7 +4352,11 @@
           "duration": [
             14.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase",
+          "Heal"
+        ]
       },
       {
         "Id": 5330,
@@ -4314,7 +4443,10 @@
           "teleport_delay": [
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 6251,
@@ -4385,7 +4517,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -4456,7 +4589,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5331,
@@ -4534,7 +4668,10 @@
             2.0,
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal"
+        ]
       }
     ],
     "Talents": [
@@ -4768,7 +4905,14 @@
             210.0,
             260.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Nuke",
+          "Vision",
+          "AoE"
+        ]
       },
       {
         "Id": 5127,
@@ -4860,7 +5004,12 @@
           "creep_duration": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Disable",
+          "DPS"
+        ]
       },
       {
         "Id": 5128,
@@ -4940,7 +5089,11 @@
             6.5,
             8.5
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -5011,7 +5164,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -5082,7 +5236,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5129,
@@ -5182,7 +5337,16 @@
           "scepter_delay": [
             2.5
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Armor Increase",
+          "Channeled",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -5416,7 +5580,12 @@
             550.0,
             600.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Disable",
+          "AoE"
+        ]
       },
       {
         "Id": 5256,
@@ -5502,7 +5671,10 @@
           "duration": [
             25.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS"
+        ]
       },
       {
         "Id": 5257,
@@ -5579,7 +5751,10 @@
             60.0,
             75.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -5650,7 +5825,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -5721,7 +5897,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5258,
@@ -5833,7 +6010,12 @@
           "slow_duration": [
             0.75
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Reduction",
+          "Summons"
+        ]
       }
     ],
     "Talents": [
@@ -6092,7 +6274,11 @@
             700.0,
             800.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "DPS"
+        ]
       },
       {
         "Id": 5234,
@@ -6179,7 +6365,11 @@
           "scepter_radius": [
             450.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Tank"
+        ]
       },
       {
         "Id": 5235,
@@ -6278,7 +6468,12 @@
             120.0,
             140.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -6349,7 +6544,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -6420,7 +6616,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 7304,
@@ -6507,7 +6704,10 @@
           "radius": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Armor Reduction"
+        ]
       }
     ],
     "Talents": [
@@ -6749,7 +6949,11 @@
           "duration": [
             11.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5227,
@@ -6835,7 +7039,11 @@
           "projectile_speed": [
             1600.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5228,
@@ -6918,7 +7126,13 @@
             9.0,
             12.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Heal",
+          "Armor Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -6989,7 +7203,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -7060,7 +7275,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5229,
@@ -7169,7 +7385,11 @@
           "frost_aoe": [
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Attack Range Increase"
+        ]
       }
     ],
     "Talents": [
@@ -7403,7 +7623,10 @@
             13.0,
             18.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal"
+        ]
       },
       {
         "Id": 5340,
@@ -7501,7 +7724,12 @@
             14.0,
             16.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Movement Increase",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 5341,
@@ -7589,7 +7817,12 @@
           "ministun_duration": [
             0.6
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Bash",
+          "Autocast"
+        ]
       },
       {
         "Id": 5343,
@@ -7660,7 +7893,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5344,
@@ -7731,7 +7965,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5342,
@@ -7825,7 +8060,11 @@
             25.0,
             25.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "DPS"
+        ]
       }
     ],
     "Talents": [
@@ -8044,7 +8283,11 @@
           "frost_arrows_creep_duration": [
             7.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Autocast"
+        ]
       },
       {
         "Id": 5632,
@@ -8136,7 +8379,13 @@
           "knockback_height": [
             0.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Knockback",
+          "Silence",
+          "AoE"
+        ]
       },
       {
         "Id": 5021,
@@ -8208,7 +8457,12 @@
             60.0,
             80.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Speed Increase",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -8279,7 +8533,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -8350,7 +8605,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5022,
@@ -8441,7 +8697,12 @@
           "disable_range": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Passive",
+          "Attack Damage Increase"
+        ]
       }
     ],
     "Talents": [
@@ -8666,7 +8927,13 @@
             1.5,
             1.75
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "Disable",
+          "AoE"
+        ]
       },
       {
         "Id": 5024,
@@ -8767,7 +9034,11 @@
           "scepter_acceleration_horizontal": [
             3000.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5025,
@@ -8847,7 +9118,12 @@
             1.2,
             1.5
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Stun",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -8918,7 +9194,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -8989,7 +9266,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5026,
@@ -9075,7 +9353,11 @@
           "echo_slam_initial_damage": [
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -9294,7 +9576,12 @@
           "slow_duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Attack Speed Reduction"
+        ]
       },
       {
         "Id": 5268,
@@ -9383,7 +9670,11 @@
             5.25,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Summons"
+        ]
       },
       {
         "Id": 5269,
@@ -9469,7 +9760,10 @@
             8.0,
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal"
+        ]
       },
       {
         "Id": 6251,
@@ -9540,7 +9834,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -9611,7 +9906,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5270,
@@ -9698,7 +9994,12 @@
             190.0,
             190.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Attack Damage Increase",
+          "Autocast"
+        ]
       }
     ],
     "Talents": [
@@ -9937,7 +10238,11 @@
             3.0,
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5147,
@@ -10046,7 +10351,10 @@
           "duration_tooltip": [
             35.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 5148,
@@ -10131,7 +10439,11 @@
             11.0,
             12.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -10202,7 +10514,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -10273,7 +10586,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5149,
@@ -10383,7 +10697,16 @@
           "animation_rate": [
             0.2
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "DPS",
+          "Disable",
+          "Silence",
+          "Channeled",
+          "AoE",
+          "Negative Aura"
+        ]
       }
     ],
     "Talents": [
@@ -10601,7 +10924,10 @@
           "radius": [
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       },
       {
         "Id": 5691,
@@ -10678,7 +11004,10 @@
           "slow": [
             14.0
           ]
-        }
+        },
+        "Keywords": [
+          "AoE"
+        ]
       },
       {
         "Id": 5184,
@@ -10767,7 +11096,12 @@
             35.0,
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "Bash"
+        ]
       },
       {
         "Id": 6251,
@@ -10838,7 +11172,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -10909,7 +11244,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5185,
@@ -11000,7 +11336,13 @@
           "bonus_attack_speed": [
             0.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Disable",
+          "Stun",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -11231,7 +11573,10 @@
             775.0,
             850.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5246,
@@ -11303,7 +11648,10 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": true,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": [
+          "Escape"
+        ]
       },
       {
         "Id": 5247,
@@ -11420,7 +11768,10 @@
             99.0,
             108.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 6251,
@@ -11491,7 +11842,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -11562,7 +11914,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5248,
@@ -11657,7 +12010,11 @@
           "buffer_tooltip_scepter": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -11876,7 +12233,10 @@
           "duration": [
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS"
+        ]
       },
       {
         "Id": 5029,
@@ -11960,7 +12320,12 @@
           "healing_ward_duration_tooltip": [
             25.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "AoE",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 5027,
@@ -12040,7 +12405,11 @@
           "blade_dance_crit_mult": [
             180.0
           ]
-        }
+        },
+        "Keywords": [
+          "Crit",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -12111,7 +12480,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -12182,7 +12552,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5030,
@@ -12280,7 +12651,11 @@
           "cooldown_scepter": [
             70.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Attack Damage Increase"
+        ]
       }
     ],
     "Talents": [
@@ -12520,7 +12895,13 @@
             225.0,
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Movement Reduction",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5032,
@@ -12622,7 +13003,11 @@
           "cleave_damage": [
             165.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase",
+          "Autocast"
+        ]
       },
       {
         "Id": 5033,
@@ -12714,7 +13099,10 @@
           "fow_duration": [
             5.94
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 6251,
@@ -12785,7 +13173,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -12856,7 +13245,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5035,
@@ -12961,7 +13351,13 @@
             45.0,
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5034,
@@ -13027,7 +13423,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -13253,7 +13650,12 @@
           "duration": [
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5242,
@@ -13334,7 +13736,11 @@
           "duration_tooltip": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 5243,
@@ -13432,7 +13838,11 @@
           "radius_scepter": [
             750.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke"
+        ]
       },
       {
         "Id": 6251,
@@ -13503,7 +13913,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -13574,7 +13985,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5244,
@@ -13667,7 +14079,12 @@
             190.0,
             220.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "DPS",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -13884,7 +14301,13 @@
             125.0,
             150.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5136,
@@ -13989,7 +14412,12 @@
           "duration": [
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 7325,
@@ -14083,7 +14511,10 @@
             550.0,
             575.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 6251,
@@ -14154,7 +14585,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -14225,7 +14657,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5137,
@@ -14334,7 +14767,13 @@
             850.0,
             850.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -14551,7 +14990,11 @@
             5.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase",
+          "Tank"
+        ]
       },
       {
         "Id": 5250,
@@ -14628,7 +15071,12 @@
             3.0,
             3.75
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Heal",
+          "Tank"
+        ]
       },
       {
         "Id": 5251,
@@ -14724,7 +15172,10 @@
             400.0,
             500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 5671,
@@ -14802,7 +15253,8 @@
           "order_lock_duration": [
             2.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -14873,7 +15325,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5252,
@@ -14966,7 +15419,8 @@
           "cooldown_scepter": [
             25.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5655,
@@ -15040,7 +15494,8 @@
         "FightRecapLevel": 1,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5253,
@@ -15110,7 +15565,8 @@
         "FightRecapLevel": 1,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5675,
@@ -15192,7 +15648,8 @@
             700.0,
             700.0
           ]
-        }
+        },
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -15411,7 +15868,11 @@
           "dragon_slave_distance": [
             1075.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5041,
@@ -15501,7 +15962,13 @@
             160.0,
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5042,
@@ -15590,7 +16057,12 @@
           "fiery_soul_stack_duration": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -15661,7 +16133,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -15732,7 +16205,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5043,
@@ -15816,7 +16290,11 @@
           "damage_delay": [
             0.25
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -16048,7 +16526,11 @@
             1600.0,
             1600.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5045,
@@ -16131,7 +16613,10 @@
           "movespeed": [
             140.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5046,
@@ -16227,7 +16712,11 @@
             28.0,
             32.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Channeled"
+        ]
       },
       {
         "Id": 6251,
@@ -16298,7 +16787,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -16369,7 +16859,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5047,
@@ -16470,7 +16961,11 @@
           "splash_radius_scepter": [
             325.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -16690,7 +17185,12 @@
           "interval_scepter": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5048,
@@ -16784,7 +17284,12 @@
           "arrow_vision": [
             500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5050,
@@ -16884,7 +17389,11 @@
             40.0,
             30.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase",
+          "Movement Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -16955,7 +17464,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -17026,7 +17536,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5049,
@@ -17105,7 +17616,10 @@
           "bonus_movement_speed": [
             15.0
           ]
-        }
+        },
+        "Keywords": [
+          "Vision"
+        ]
       }
     ],
     "Talents": [
@@ -17326,7 +17840,8 @@
             13.0,
             11.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5053,
@@ -17418,7 +17933,8 @@
           "shared_cooldown": [
             3.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 7000,
@@ -17513,7 +18029,8 @@
           "shared_cooldown": [
             3.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5055,
@@ -17603,7 +18120,8 @@
             10.0,
             25.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5056,
@@ -17693,7 +18211,8 @@
             10.0,
             25.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5057,
@@ -17762,7 +18281,8 @@
           "duration": [
             20.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5058,
@@ -17828,7 +18348,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5054,
@@ -17905,7 +18426,8 @@
             6.0,
             7.0
           ]
-        }
+        },
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -18123,7 +18645,12 @@
           "projectile_speed": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5160,
@@ -18210,7 +18737,12 @@
           "bonus_damage": [
             -40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5159,
@@ -18309,7 +18841,12 @@
           "hero_multiplier": [
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "DPS",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -18380,7 +18917,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -18451,7 +18989,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5161,
@@ -18539,7 +19078,13 @@
             30.0,
             45.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Disable",
+          "Stun",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -18753,7 +19298,10 @@
           "duration": [
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5060,
@@ -18840,7 +19388,10 @@
           "duration": [
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5061,
@@ -18927,7 +19478,10 @@
           "duration": [
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5062,
@@ -19019,7 +19573,10 @@
             38.0,
             46.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5063,
@@ -19100,7 +19657,11 @@
           "presence_radius": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Armor Reduction",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5064,
@@ -19215,7 +19776,12 @@
           "requiem_damage_pct_scepter": [
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Reduction",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -19449,7 +20015,13 @@
             -50.0,
             -50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5276,
@@ -19529,7 +20101,11 @@
           "radius": [
             375.0
           ]
-        }
+        },
+        "Keywords": [
+          "Silence",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5277,
@@ -19612,7 +20188,12 @@
             70.0,
             90.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -19683,7 +20264,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -19754,7 +20336,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5278,
@@ -19830,7 +20413,10 @@
             100.0,
             150.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase"
+        ]
       }
     ],
     "Talents": [
@@ -20042,7 +20628,12 @@
           "radius": [
             260.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Heal",
+          "AoE"
+        ]
       },
       {
         "Id": 5264,
@@ -20131,7 +20722,10 @@
             16.0,
             20.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       },
       {
         "Id": 5265,
@@ -20218,7 +20812,14 @@
           "radius": [
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -20289,7 +20890,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -20360,7 +20962,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5266,
@@ -20439,7 +21042,11 @@
             9.0,
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Tank"
+        ]
       }
     ],
     "Talents": [
@@ -20663,7 +21270,10 @@
             3.34,
             3.34
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5071,
@@ -20752,7 +21362,12 @@
             220.0,
             280.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Silence",
+          "AoE"
+        ]
       },
       {
         "Id": 5072,
@@ -20830,7 +21445,11 @@
             2.25,
             3.25
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Channeled"
+        ]
       },
       {
         "Id": 5070,
@@ -20902,7 +21521,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -20973,7 +21593,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5073,
@@ -21087,7 +21708,11 @@
             3.0,
             4.5
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -21321,7 +21946,11 @@
             360.0,
             450.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       },
       {
         "Id": 5076,
@@ -21413,7 +22042,12 @@
             90.0,
             120.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "DPS",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5074,
@@ -21499,7 +22133,11 @@
           "flesh_heap_range": [
             450.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Passive"
+        ]
       },
       {
         "Id": 6251,
@@ -21570,7 +22208,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -21641,7 +22280,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5077,
@@ -21737,7 +22377,12 @@
           "animation_rate": [
             1.5
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "DPS",
+          "Channeled"
+        ]
       }
     ],
     "Talents": [
@@ -21955,7 +22600,11 @@
             250.0,
             325.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5187,
@@ -22047,7 +22696,11 @@
           "tooltip_duration": [
             3.5
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Disable"
+        ]
       },
       {
         "Id": 5188,
@@ -22139,7 +22792,11 @@
           "ward_duration_tooltip": [
             30.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -22210,7 +22867,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -22281,7 +22939,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5189,
@@ -22377,7 +23036,13 @@
           "drain_buffer": [
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Heal",
+          "Channeled"
+        ]
       }
     ],
     "Talents": [
@@ -22600,7 +23265,11 @@
             0.7,
             0.7
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "DPS"
+        ]
       },
       {
         "Id": 5238,
@@ -22698,7 +23367,11 @@
           "extra_pull_buffer": [
             -10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Knockback"
+        ]
       },
       {
         "Id": 5239,
@@ -22786,7 +23459,12 @@
           "vision_radius": [
             600.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Vision",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -22857,7 +23535,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -22928,7 +23607,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5240,
@@ -23035,7 +23715,12 @@
             12.0,
             12.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Stun",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -23269,7 +23954,12 @@
           "slow_duration": [
             1.5
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5083,
@@ -23384,7 +24074,10 @@
             3.34,
             3.34
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5084,
@@ -23476,7 +24169,12 @@
           "radius": [
             500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Increase",
+          "Nuke"
+        ]
       },
       {
         "Id": 6251,
@@ -23547,7 +24245,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -23618,7 +24317,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5085,
@@ -23711,7 +24411,12 @@
             0.5,
             0.4
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Armor Reduction"
+        ]
       }
     ],
     "Talents": [
@@ -23927,7 +24632,13 @@
           "duration": [
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Silence",
+          "Movement Reduction",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5143,
@@ -24011,7 +24722,10 @@
             105.0,
             120.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5144,
@@ -24106,7 +24820,13 @@
             4.5,
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "Vision",
+          "Escape"
+        ]
       },
       {
         "Id": 6251,
@@ -24177,7 +24897,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -24248,7 +24969,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5145,
@@ -24335,7 +25057,11 @@
           "scepter_bonus": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Channeled",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -24587,7 +25313,12 @@
           "burrow_speed_scepter": [
             3000.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5103,
@@ -24680,7 +25411,15 @@
           "fade_delay": [
             0.7
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Vision",
+          "Channeled",
+          "Tank",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5104,
@@ -24781,7 +25520,12 @@
           "caustic_finale_expire_dmg_pct_tooltip": [
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Reduction",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -24852,7 +25596,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -24923,7 +25668,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5105,
@@ -25027,7 +25773,14 @@
           "epicenter_slow_duration_tooltip": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "DPS",
+          "Channeled",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -25270,7 +26023,10 @@
             260.0,
             320.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5079,
@@ -25350,7 +26106,10 @@
             2.75,
             3.5
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5080,
@@ -25443,7 +26202,11 @@
             4.25,
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Stun"
+        ]
       },
       {
         "Id": 6251,
@@ -25514,7 +26277,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -25585,7 +26349,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5081,
@@ -25669,7 +26434,11 @@
           "spawn_radius": [
             150.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -25890,7 +26659,10 @@
           "river_speed": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase"
+        ]
       },
       {
         "Id": 5115,
@@ -25982,7 +26754,13 @@
           "stun_duration": [
             1.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5116,
@@ -26068,7 +26846,11 @@
           "attack_count": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Bash"
+        ]
       },
       {
         "Id": 6251,
@@ -26139,7 +26921,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -26210,7 +26993,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5117,
@@ -26287,7 +27071,10 @@
           "duration": [
             18.0
           ]
-        }
+        },
+        "Keywords": [
+          "Armor Reduction"
+        ]
       }
     ],
     "Talents": [
@@ -26514,7 +27301,14 @@
           "charge_restore_time": [
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke",
+          "Vision",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5155,
@@ -26597,7 +27391,12 @@
           "slow": [
             -100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Knockback",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5156,
@@ -26672,7 +27471,10 @@
             300.0,
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive"
+        ]
       },
       {
         "Id": 6251,
@@ -26743,7 +27545,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -26814,7 +27617,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5157,
@@ -26904,7 +27708,12 @@
           "scepter_crit_bonus": [
             280.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Stun"
+        ]
       }
     ],
     "Talents": [
@@ -27165,7 +27974,11 @@
           "dagger_grace_period": [
             1.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 5335,
@@ -27254,7 +28067,11 @@
           "blind_duration": [
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase",
+          "Vision"
+        ]
       },
       {
         "Id": 5336,
@@ -27340,7 +28157,10 @@
           "max_radius": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       },
       {
         "Id": 5338,
@@ -27405,7 +28225,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": true,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -27476,7 +28297,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5337,
@@ -27574,7 +28396,10 @@
             1.0,
             1.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       }
     ],
     "Talents": [
@@ -27796,7 +28621,10 @@
             220.0,
             270.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5099,
@@ -27888,7 +28716,11 @@
           "radius_scepter": [
             475.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Disable"
+        ]
       },
       {
         "Id": 5100,
@@ -27980,7 +28812,13 @@
             80.0,
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -28051,7 +28889,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -28122,7 +28961,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5101,
@@ -28218,7 +29058,10 @@
           "scepter_remnant_interval": [
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -28448,7 +29291,12 @@
           "vision_radius": [
             225.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5095,
@@ -28534,7 +29382,12 @@
             70.0,
             90.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "AoE"
+        ]
       },
       {
         "Id": 5096,
@@ -28627,7 +29480,11 @@
           "duration": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Movement Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -28698,7 +29555,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -28769,7 +29627,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5097,
@@ -28853,7 +29712,12 @@
             100.0,
             125.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Attack Damage Increase",
+          "Positive Aura"
+        ]
       }
     ],
     "Talents": [
@@ -29092,7 +29956,14 @@
           "cast_range_scepter": [
             1800.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Reduction",
+          "Armor Reduction",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5119,
@@ -29181,7 +30052,11 @@
             6.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Passive"
+        ]
       },
       {
         "Id": 5120,
@@ -29270,7 +30145,10 @@
           "radius": [
             375.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 6251,
@@ -29341,7 +30219,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -29412,7 +30291,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5121,
@@ -29490,7 +30370,12 @@
             2.6,
             2.8
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -29722,7 +30607,11 @@
           "scepter_bounce_range": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       },
       {
         "Id": 5151,
@@ -29826,7 +30715,11 @@
             4.0,
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       },
       {
         "Id": 5152,
@@ -29931,7 +30824,11 @@
           "distance_scepter": [
             1800.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -30002,7 +30899,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -30073,7 +30971,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5153,
@@ -30147,7 +31046,8 @@
             1.5,
             0.75
           ]
-        }
+        },
+        "Keywords": []
       }
     ],
     "Talents": [
@@ -30389,7 +31289,12 @@
             230.0,
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5107,
@@ -30485,7 +31390,11 @@
           "charge_restore_time": [
             11.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Disable"
+        ]
       },
       {
         "Id": 5108,
@@ -30583,7 +31492,8 @@
             50.0,
             60.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -30654,7 +31564,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -30725,7 +31636,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5109,
@@ -30811,7 +31723,13 @@
             35.0,
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "Attack Speed Reduction",
+          "Armor Increase"
+        ]
       },
       {
         "Id": 6937,
@@ -30903,7 +31821,8 @@
           "splash_pct": [
             150.0
           ]
-        }
+        },
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -31128,7 +32047,11 @@
             250.0,
             325.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5124,
@@ -31220,7 +32143,12 @@
             3.0,
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Armor Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5123,
@@ -31307,7 +32235,12 @@
           "illusion_damage_in_pct": [
             150.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -31378,7 +32311,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -31449,7 +32383,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5125,
@@ -31516,7 +32451,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 2,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "tooltip_range": [
@@ -31535,7 +32470,10 @@
           "charge_restore_time_scepter": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       }
     ],
     "Talents": [
@@ -31782,7 +32720,13 @@
             1200.0,
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke",
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 5179,
@@ -31871,7 +32815,12 @@
             -15.0,
             -17.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "DPS",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 5180,
@@ -31966,7 +32915,10 @@
             62.0,
             80.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 6251,
@@ -32037,7 +32989,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -32108,7 +33061,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5181,
@@ -32208,7 +33162,12 @@
           "speed": [
             500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "DPS",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -32437,7 +33396,13 @@
             -30.0,
             -40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Attack Damage Increase",
+          "Autocast"
+        ]
       },
       {
         "Id": 5219,
@@ -32524,7 +33489,11 @@
           "projectile_speed": [
             2000.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 5220,
@@ -32619,7 +33588,12 @@
           "max_range_tooltip": [
             1400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Attack Speed Reduction"
+        ]
       },
       {
         "Id": 6251,
@@ -32690,7 +33664,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -32761,7 +33736,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5221,
@@ -32872,7 +33848,12 @@
           "charge_restore_time": [
             30.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "DPS"
+        ]
       }
     ],
     "Talents": [
@@ -33119,7 +34100,12 @@
             300.0,
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons",
+          "Armor Reduction",
+          "DPS"
+        ]
       },
       {
         "Id": 5290,
@@ -33213,7 +34199,12 @@
             4.0,
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Increase",
+          "Vision"
+        ]
       },
       {
         "Id": 5291,
@@ -33296,7 +34287,11 @@
             30.0,
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -33367,7 +34362,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -33438,7 +34434,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5292,
@@ -33520,7 +34517,11 @@
           "cast_range_tooltip_scepter": [
             1000.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Tank"
+        ]
       }
     ],
     "Talents": [
@@ -33754,7 +34755,11 @@
           "shackle_angle": [
             23.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Channeled"
+        ]
       },
       {
         "Id": 5131,
@@ -33862,7 +34867,11 @@
             3.34,
             3.34
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Channeled"
+        ]
       },
       {
         "Id": 5132,
@@ -33952,7 +34961,13 @@
             5.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Movement Increase",
+          "Escape",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -34023,7 +35038,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -34094,7 +35110,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5133,
@@ -34188,7 +35205,11 @@
           "focusfire_fire_on_the_move": [
             1.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Attack Speed Increase"
+        ]
       }
     ],
     "Talents": [
@@ -34435,7 +35456,12 @@
             6.0,
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 5139,
@@ -34529,7 +35555,10 @@
             0.33,
             0.33
           ]
-        }
+        },
+        "Keywords": [
+          "Heal"
+        ]
       },
       {
         "Id": 5140,
@@ -34619,7 +35648,10 @@
           "ticks": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS"
+        ]
       },
       {
         "Id": 6251,
@@ -34690,7 +35722,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -34761,7 +35794,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5141,
@@ -34859,7 +35893,12 @@
             650.0,
             650.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Channeled"
+        ]
       }
     ],
     "Talents": [
@@ -35071,7 +36110,10 @@
             0.25,
             0.25
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5111,
@@ -35170,7 +36212,13 @@
           "spread_aoe": [
             325.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Stun",
+          "Vision",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5112,
@@ -35247,7 +36295,11 @@
             8.0,
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Nuke"
+        ]
       },
       {
         "Id": 6325,
@@ -35321,7 +36373,8 @@
           "cloud_radius": [
             450.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -35392,7 +36445,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5113,
@@ -35484,7 +36538,12 @@
             325.0,
             425.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Vision",
+          "Negative Aura"
+        ]
       }
     ],
     "Talents": [
@@ -35717,7 +36776,11 @@
           "projectile_speed": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Summons"
+        ]
       },
       {
         "Id": 5280,
@@ -35810,7 +36873,13 @@
           "charge_restore_time": [
             45.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Movement Increase",
+          "AoE",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 5281,
@@ -35899,7 +36968,11 @@
             2.0,
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 6251,
@@ -35970,7 +37043,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -36041,7 +37115,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5282,
@@ -36124,7 +37199,11 @@
             14.0,
             14.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "Attack Damage Increase"
+        ]
       }
     ],
     "Talents": [
@@ -36355,7 +37434,13 @@
             50.0,
             70.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Stun",
+          "Nuke",
+          "DPS"
+        ]
       },
       {
         "Id": 5087,
@@ -36438,7 +37523,11 @@
             26.0,
             30.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 5088,
@@ -36529,7 +37618,12 @@
           "reincarnate_time": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Summons",
+          "Crit"
+        ]
       },
       {
         "Id": 6251,
@@ -36600,7 +37694,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -36671,7 +37766,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5089,
@@ -36766,7 +37862,15 @@
           "aura_radius_tooltip_scepter": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Passive",
+          "Attack Speed Reduction",
+          "Movement Reduction",
+          "Tank",
+          "Positive Aura"
+        ]
       }
     ],
     "Talents": [
@@ -36998,7 +38102,12 @@
           "duration_tooltip": [
             15.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke",
+          "DPS"
+        ]
       },
       {
         "Id": 5174,
@@ -37076,7 +38185,10 @@
           "min_blink_range": [
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Escape"
+        ]
       },
       {
         "Id": 5175,
@@ -37153,7 +38265,11 @@
           "projectile_speed": [
             900.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -37224,7 +38340,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -37295,7 +38412,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5176,
@@ -37395,7 +38513,13 @@
           "knockback_duration": [
             1.4
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Knockback",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -37615,7 +38739,12 @@
           "knockback_duration": [
             0.6
           ]
-        }
+        },
+        "Keywords": [
+          "Knockback",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5272,
@@ -37697,7 +38826,11 @@
             15.0,
             20.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Autocast"
+        ]
       },
       {
         "Id": 5273,
@@ -37783,7 +38916,10 @@
           "hp_threshold_max": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -37854,7 +38990,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -37925,7 +39062,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5274,
@@ -38037,7 +39175,12 @@
           "cooldown_scepter": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Reduction",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -38283,7 +39426,13 @@
           "speed_fire": [
             1050.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 5298,
@@ -38363,7 +39512,12 @@
           "damage": [
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5299,
@@ -38463,7 +39617,12 @@
             5.0,
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Reduction",
+          "DPS",
+          "Autocast"
+        ]
       },
       {
         "Id": 6251,
@@ -38534,7 +39693,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -38605,7 +39765,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5300,
@@ -38710,7 +39871,12 @@
           "linger_duration": [
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "DPS",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -38954,7 +40120,11 @@
             10.0,
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5321,
@@ -39077,7 +40247,12 @@
             0.25,
             0.25
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Knockback",
+          "AoE"
+        ]
       },
       {
         "Id": 5322,
@@ -39176,7 +40351,11 @@
             100.0,
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "DPS"
+        ]
       },
       {
         "Id": 6251,
@@ -39247,7 +40426,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -39318,7 +40498,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5323,
@@ -39414,7 +40595,12 @@
             40.0,
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Disable",
+          "DPS"
+        ]
       }
     ],
     "Talents": [
@@ -39629,7 +40815,11 @@
           "search_aoe": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5163,
@@ -39715,7 +40905,11 @@
             650.0,
             750.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Heal"
+        ]
       },
       {
         "Id": 5164,
@@ -39803,7 +40997,12 @@
           "max_slow": [
             84.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Channeled",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -39874,7 +41073,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -39945,7 +41145,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5165,
@@ -40062,7 +41263,14 @@
           "bounty_reduction_scepter": [
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Stun",
+          "Summons",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -40295,7 +41503,13 @@
           "tick_rate": [
             1.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Armor Reduction",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5366,
@@ -40388,7 +41602,11 @@
           "radius": [
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5368,
@@ -40480,7 +41698,10 @@
             3.0,
             3.5
           ]
-        }
+        },
+        "Keywords": [
+          "Passive"
+        ]
       },
       {
         "Id": 6251,
@@ -40551,7 +41772,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -40622,7 +41844,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5369,
@@ -40715,7 +41938,12 @@
             50.0,
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Movement Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 5367,
@@ -40822,7 +42050,8 @@
           "brew_explosion": [
             7.0
           ]
-        }
+        },
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -41053,7 +42282,11 @@
             1100.0,
             1100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5091,
@@ -41131,7 +42364,11 @@
             5.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Silence",
+          "AoE"
+        ]
       },
       {
         "Id": 5685,
@@ -41230,7 +42467,11 @@
             44.0,
             36.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "DPS"
+        ]
       },
       {
         "Id": 6251,
@@ -41301,7 +42542,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -41372,7 +42614,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5093,
@@ -41477,7 +42720,11 @@
           "ghost_spawn_rate": [
             0.35
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "DPS"
+        ]
       }
     ],
     "Talents": [
@@ -41690,7 +42937,12 @@
             -45.0,
             -55.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5358,
@@ -41771,7 +43023,10 @@
           "duration_tooltip": [
             20.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 5359,
@@ -41857,7 +43112,11 @@
             21.0,
             28.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -41928,7 +43187,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -41999,7 +43259,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5360,
@@ -42085,7 +43346,11 @@
             24.0,
             18.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Tank"
+        ]
       }
     ],
     "Talents": [
@@ -42301,7 +43566,12 @@
           "scepter_ministun": [
             0.75
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Stun"
+        ]
       },
       {
         "Id": 5286,
@@ -42384,7 +43654,10 @@
             28.0,
             36.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive"
+        ]
       },
       {
         "Id": 5287,
@@ -42475,7 +43748,12 @@
           "slow_duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Vision",
+          "Escape"
+        ]
       },
       {
         "Id": 6251,
@@ -42546,7 +43824,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -42617,7 +43896,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5288,
@@ -42723,7 +44003,11 @@
             18.0,
             20.0
           ]
-        }
+        },
+        "Keywords": [
+          "Vision",
+          "Positive Aura"
+        ]
       }
     ],
     "Talents": [
@@ -42955,7 +44239,12 @@
             -15.0,
             -18.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Movement Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5378,
@@ -43040,7 +44329,12 @@
           "steal_range": [
             925.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Attack Damage Increase",
+          "Autocast"
+        ]
       },
       {
         "Id": 5379,
@@ -43123,7 +44417,11 @@
             5.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Silence",
+          "Nuke"
+        ]
       },
       {
         "Id": 6251,
@@ -43194,7 +44492,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -43265,7 +44564,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5380,
@@ -43335,7 +44635,10 @@
             5.25,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Silence"
+        ]
       }
     ],
     "Talents": [
@@ -43577,7 +44880,10 @@
             0.94,
             0.94
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase"
+        ]
       },
       {
         "Id": 7301,
@@ -43661,7 +44967,11 @@
           "duration": [
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Tank"
+        ]
       },
       {
         "Id": 5355,
@@ -43777,7 +45087,12 @@
             3.0,
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Bash",
+          "Knockback"
+        ]
       },
       {
         "Id": 6251,
@@ -43848,7 +45163,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -43919,7 +45235,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5356,
@@ -44018,7 +45335,11 @@
             20.0,
             20.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       }
     ],
     "Talents": [
@@ -44232,7 +45553,8 @@
             11.0,
             13.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5371,
@@ -44316,7 +45638,8 @@
             6.0,
             7.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5372,
@@ -44391,7 +45714,8 @@
             23.0,
             27.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5373,
@@ -44462,7 +45786,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": []
       },
       {
         "Id": 5374,
@@ -44533,7 +45858,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": []
       },
       {
         "Id": 5375,
@@ -44609,7 +45935,8 @@
           "mana_cost_scepter": [
             0.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5376,
@@ -44714,7 +46041,8 @@
           "damage_trigger": [
             10.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5381,
@@ -44810,7 +46138,8 @@
           "aura_fade_time": [
             2.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5382,
@@ -44930,7 +46259,8 @@
             315.0,
             360.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5383,
@@ -45016,7 +46346,8 @@
           "damage_per_mana_pct": [
             60.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5384,
@@ -45109,7 +46440,8 @@
           "duration": [
             9.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5385,
@@ -45226,7 +46558,8 @@
             32.5,
             36.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5386,
@@ -45315,7 +46648,8 @@
           "vision_duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5387,
@@ -45441,7 +46775,8 @@
             80.0,
             90.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5389,
@@ -45552,7 +46887,8 @@
           "wall_element_radius": [
             105.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5390,
@@ -45663,7 +46999,8 @@
             5.75,
             6.5
           ]
-        }
+        },
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -45876,7 +47213,10 @@
             210.0,
             260.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 5260,
@@ -45958,7 +47298,10 @@
             50.0,
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5261,
@@ -46049,7 +47392,12 @@
             35.0,
             45.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Vision",
+          "Escape"
+        ]
       },
       {
         "Id": 6251,
@@ -46120,7 +47468,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -46191,7 +47540,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 7319,
@@ -46274,7 +47624,10 @@
           "spawn_interval": [
             0.8
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       }
     ],
     "Talents": [
@@ -46496,7 +47849,11 @@
           "radius": [
             175.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase",
+          "Autocast"
+        ]
       },
       {
         "Id": 5392,
@@ -46600,7 +47957,12 @@
           "scepter_range_bonus": [
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Disable"
+        ]
       },
       {
         "Id": 5684,
@@ -46684,7 +48046,10 @@
           "duration": [
             7.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 6251,
@@ -46755,7 +48120,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -46826,7 +48192,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5394,
@@ -46909,7 +48276,11 @@
           "cast_range": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -47152,7 +48523,11 @@
             21.0,
             18.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Summons"
+        ]
       },
       {
         "Id": 5422,
@@ -47258,7 +48633,10 @@
           "illusion_incoming_damage_tooltip": [
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5423,
@@ -47346,7 +48724,10 @@
           "tooltip_duration": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5424,
@@ -47412,7 +48793,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -47483,7 +48865,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5425,
@@ -47570,7 +48953,10 @@
           "charge_restore_time_tooltip_scepter": [
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction"
+        ]
       }
     ],
     "Talents": [
@@ -47819,7 +49205,10 @@
             2.0,
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 5396,
@@ -47909,7 +49298,11 @@
             12.0,
             16.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Armor Increase"
+        ]
       },
       {
         "Id": 5397,
@@ -47995,7 +49388,13 @@
             5.0,
             7.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Attack Damage Increase",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -48066,7 +49465,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -48137,7 +49537,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5398,
@@ -48226,7 +49627,13 @@
             175.0,
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Crit",
+          "Vision",
+          "Positive Aura"
+        ]
       }
     ],
     "Talents": [
@@ -48459,7 +49866,8 @@
           "cooldown_scepter": [
             120.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 7309,
@@ -48543,7 +49951,8 @@
           "duration": [
             10.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5414,
@@ -48623,7 +50032,8 @@
           "only_affects_player_units": [
             1.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5417,
@@ -48709,7 +50119,8 @@
           "range": [
             1000.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -48780,7 +50191,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5415,
@@ -48869,7 +50281,8 @@
           "transformation_time": [
             1.933
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5416,
@@ -48942,7 +50355,8 @@
           "transformation_time": [
             1.933
           ]
-        }
+        },
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -49181,7 +50595,13 @@
             8.0,
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 7310,
@@ -49274,7 +50694,11 @@
           "radius": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "DPS"
+        ]
       },
       {
         "Id": 5402,
@@ -49370,7 +50794,12 @@
           "duration": [
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Crit"
+        ]
       },
       {
         "Id": 6251,
@@ -49441,7 +50870,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -49512,7 +50942,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5403,
@@ -49586,7 +51017,15 @@
           "split_duration": [
             0.6
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Stun",
+          "Disable",
+          "Movement Reduction",
+          "DPS",
+          "Tank"
+        ]
       }
     ],
     "Talents": [
@@ -49855,7 +51294,12 @@
           "lance_speed_bounces": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons",
+          "Movement Reduction",
+          "Nuke"
+        ]
       },
       {
         "Id": 5066,
@@ -49949,7 +51393,11 @@
           "illusion_extended_duration": [
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons",
+          "Escape"
+        ]
       },
       {
         "Id": 5068,
@@ -50043,7 +51491,11 @@
           "agility_duration": [
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -50114,7 +51566,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -50185,7 +51638,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5067,
@@ -50287,7 +51741,11 @@
           "illusion_from_illusion_duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Summons"
+        ]
       }
     ],
     "Talents": [
@@ -50530,7 +51988,12 @@
           "tick_count": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Increase",
+          "Disable"
+        ]
       },
       {
         "Id": 5435,
@@ -50628,7 +52091,13 @@
           "projectile_speed": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke",
+          "Heal",
+          "AoE"
+        ]
       },
       {
         "Id": 5436,
@@ -50722,7 +52191,11 @@
           "duration": [
             15.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Heal"
+        ]
       },
       {
         "Id": 5649,
@@ -50797,7 +52270,8 @@
           "damage": [
             175.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -50868,7 +52342,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5437,
@@ -50948,7 +52423,12 @@
           "eyes_radius": [
             800.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Disable",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -51170,7 +52650,10 @@
             180.0,
             240.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5439,
@@ -51263,7 +52746,11 @@
           "multicast_delay": [
             0.5
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "DPS"
+        ]
       },
       {
         "Id": 5440,
@@ -51360,7 +52847,11 @@
           "duration": [
             30.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 5466,
@@ -51437,7 +52928,8 @@
           "fireblast_damage": [
             275.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -51508,7 +53000,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5441,
@@ -51610,7 +53103,8 @@
             0.0,
             15.0
           ]
-        }
+        },
+        "Keywords": []
       }
     ],
     "Talents": [
@@ -51850,7 +53344,11 @@
             240.0,
             270.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5427,
@@ -51949,7 +53447,12 @@
           "duration": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Movement Reduction",
+          "Attack Speed Reduction"
+        ]
       },
       {
         "Id": 5428,
@@ -52032,7 +53535,12 @@
             55.0,
             70.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Heal",
+          "Crit"
+        ]
       },
       {
         "Id": 6251,
@@ -52103,7 +53611,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -52174,7 +53683,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5429,
@@ -52275,7 +53785,11 @@
           "cooldown_scepter": [
             110.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Summons"
+        ]
       }
     ],
     "Talents": [
@@ -52508,7 +54022,11 @@
             975.0,
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke"
+        ]
       },
       {
         "Id": 5191,
@@ -52594,7 +54112,10 @@
           "tooltip_range": [
             1000.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 5192,
@@ -52674,7 +54195,12 @@
           "fade_duration": [
             0.75
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Escape"
+        ]
       },
       {
         "Id": 6251,
@@ -52745,7 +54271,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -52816,7 +54343,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5193,
@@ -52895,7 +54423,11 @@
             325.0,
             450.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Crit"
+        ]
       }
     ],
     "Talents": [
@@ -53107,7 +54639,10 @@
             17.0,
             22.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS"
+        ]
       },
       {
         "Id": 5362,
@@ -53224,7 +54759,11 @@
             16.0,
             11.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5363,
@@ -53311,7 +54850,8 @@
           "scepter_radius": [
             600.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -53382,7 +54922,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -53453,7 +54994,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5364,
@@ -53555,7 +55097,13 @@
             225.0,
             275.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Reduction",
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -53796,7 +55344,11 @@
             600.0,
             625.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Stun"
+        ]
       },
       {
         "Id": 5450,
@@ -53909,7 +55461,10 @@
             0.25,
             0.25
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 7320,
@@ -53992,7 +55547,10 @@
             36.0,
             44.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       },
       {
         "Id": 5453,
@@ -54063,7 +55621,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5454,
@@ -54134,7 +55693,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5452,
@@ -54225,7 +55785,8 @@
           "cooldown_scepter": [
             2.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5449,
@@ -54304,7 +55865,8 @@
             325.0,
             325.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5455,
@@ -54375,7 +55937,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5456,
@@ -54446,7 +56009,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5457,
@@ -54517,7 +56081,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -54728,7 +56293,11 @@
             225.0,
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5223,
@@ -54811,7 +56380,12 @@
           "damage_reduction_percent": [
             35.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "AoE"
+        ]
       },
       {
         "Id": 5224,
@@ -54897,7 +56471,12 @@
             600.0,
             800.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -54968,7 +56547,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -55039,7 +56619,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5225,
@@ -55152,7 +56733,13 @@
           "cast_range_tooltip_scepter": [
             2500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Stun",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -55383,7 +56970,10 @@
           "self_bonus": [
             0.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal"
+        ]
       },
       {
         "Id": 5486,
@@ -55509,7 +57099,12 @@
             19.0,
             19.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5487,
@@ -55593,7 +57188,11 @@
           "duration": [
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -55664,7 +57263,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -55735,7 +57335,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5488,
@@ -55809,7 +57410,10 @@
             12.0,
             12.0
           ]
-        }
+        },
+        "Keywords": [
+          "Escape"
+        ]
       },
       {
         "Id": 5489,
@@ -55880,7 +57484,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": true,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5490,
@@ -55953,7 +57558,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -56187,7 +57793,10 @@
             95.0,
             120.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5459,
@@ -56274,7 +57883,10 @@
             1400.0,
             1800.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5460,
@@ -56365,7 +57977,12 @@
             3.8,
             4.4
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -56436,7 +58053,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -56507,7 +58125,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5461,
@@ -56601,7 +58220,13 @@
           "pulses_scepter": [
             28.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "DPS",
+          "AoE",
+          "Negative Aura"
+        ]
       }
     ],
     "Talents": [
@@ -56833,7 +58458,13 @@
           "str_steal_scepter": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Upgrade",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5443,
@@ -56928,7 +58559,11 @@
             6.0,
             8.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "Nuke"
+        ]
       },
       {
         "Id": 5444,
@@ -57036,7 +58671,10 @@
             3.0,
             2.5
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 6251,
@@ -57107,7 +58745,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -57178,7 +58817,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5447,
@@ -57266,7 +58906,13 @@
           "tick_rate": [
             0.5
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Movement Increase",
+          "DPS",
+          "Negative Aura"
+        ]
       }
     ],
     "Talents": [
@@ -57486,7 +59132,11 @@
             17.0,
             17.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5195,
@@ -57571,7 +59221,12 @@
           "armor_reduction_duration_tooltip": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Vision",
+          "Armor Reduction",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5196,
@@ -57660,7 +59315,10 @@
           "attack_spill_pct": [
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive"
+        ]
       },
       {
         "Id": 5198,
@@ -57745,7 +59403,12 @@
           "trap_max_charge_duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Vision",
+          "Nuke",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 6251,
@@ -57816,7 +59479,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5197,
@@ -57913,7 +59577,8 @@
           "trap_max_charge_duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": []
       }
     ],
     "Talents": [
@@ -58154,7 +59819,10 @@
           "invuln_duration": [
             0.3
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 5468,
@@ -58243,7 +59911,10 @@
             900.0,
             900.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5469,
@@ -58335,7 +60006,12 @@
           "duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Nuke",
+          "Armor Reduction"
+        ]
       },
       {
         "Id": 6251,
@@ -58406,7 +60082,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -58477,7 +60154,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5470,
@@ -58569,7 +60247,14 @@
           "regen_rate_tooltip_scepter": [
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Disable",
+          "AoE",
+          "Positive Aura",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5478,
@@ -58638,7 +60323,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -58872,7 +60558,11 @@
             200.0,
             260.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke"
+        ]
       },
       {
         "Id": 5463,
@@ -58952,7 +60642,10 @@
             4.5,
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5464,
@@ -59048,7 +60741,11 @@
           "damage_reflect_pct": [
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Stun"
+        ]
       },
       {
         "Id": 5666,
@@ -59142,7 +60839,8 @@
           "carapace_burrow_range_tooltip": [
             300.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -59213,7 +60911,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5465,
@@ -59316,7 +61015,12 @@
           "break_duration": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Attack Damage Increase",
+          "Vision"
+        ]
       },
       {
         "Id": 5673,
@@ -59379,7 +61083,8 @@
         "FightRecapLevel": 1,
         "AbilityDraftEnabled": true,
         "Linked": "nyx_assassin_burrow",
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -59634,7 +61339,13 @@
             400.0,
             500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Channeled",
+          "Nuke",
+          "Heal",
+          "AoE"
+        ]
       },
       {
         "Id": 5476,
@@ -59739,7 +61450,13 @@
             650.0,
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Nuke",
+          "Knockback",
+          "AoE"
+        ]
       },
       {
         "Id": 5473,
@@ -59825,7 +61542,8 @@
             5.0,
             6.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -59896,7 +61614,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -59967,7 +61686,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 7316,
@@ -60064,7 +61784,11 @@
             125.0,
             150.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "AoE"
+        ]
       },
       {
         "Id": 5477,
@@ -60137,7 +61861,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -60365,7 +62090,11 @@
             64.0,
             64.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 5481,
@@ -60472,7 +62201,10 @@
           "damage_max": [
             3000.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5482,
@@ -60564,7 +62296,11 @@
           "radius": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Passive"
+        ]
       },
       {
         "Id": 7116,
@@ -60654,7 +62390,8 @@
             175.0,
             200.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -60725,7 +62462,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5483,
@@ -60810,7 +62548,11 @@
             40.0,
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Summons"
+        ]
       }
     ],
     "Talents": [
@@ -61038,7 +62780,10 @@
             1000.0,
             1250.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5431,
@@ -61116,7 +62861,10 @@
             110.0,
             130.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 7318,
@@ -61199,7 +62947,11 @@
             8.0,
             10.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Heal"
+        ]
       },
       {
         "Id": 6251,
@@ -61270,7 +63022,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -61341,7 +63094,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5433,
@@ -61429,7 +63183,8 @@
           "tooltip_respawn": [
             20.0
           ]
-        }
+        },
+        "Keywords": []
       }
     ],
     "Talents": [
@@ -61672,7 +63427,13 @@
           "basic_slow_duration": [
             0.75
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "Movement Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5519,
@@ -61783,7 +63544,10 @@
           "aura_radius": [
             900.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5520,
@@ -61893,7 +63657,13 @@
             30.0,
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Nuke",
+          "Disable"
+        ]
       },
       {
         "Id": 6251,
@@ -61964,7 +63734,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -62035,7 +63806,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5521,
@@ -62121,7 +63893,12 @@
             0.0,
             0.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -62346,7 +64123,12 @@
             140.0,
             170.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5515,
@@ -62432,7 +64214,10 @@
           "radius": [
             190.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5516,
@@ -62525,7 +64310,12 @@
           "aura_radius": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Passive",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -62596,7 +64386,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -62667,7 +64458,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5517,
@@ -62761,7 +64553,11 @@
           "damage_reduction_tooltip_scepter": [
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Increase"
+        ]
       }
     ],
     "Talents": [
@@ -62986,7 +64782,11 @@
           "pulse_interval": [
             0.1
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Tank"
+        ]
       },
       {
         "Id": 5495,
@@ -63079,7 +64879,10 @@
           "leash_radius": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5496,
@@ -63162,7 +64965,11 @@
             60.0,
             120.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -63233,7 +65040,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -63304,7 +65112,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5497,
@@ -63410,7 +65219,15 @@
           "cooldown_scepter": [
             30.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Upgrade",
+          "Tank",
+          "Movement Increase",
+          "Escape",
+          "Positive Aura"
+        ]
       }
     ],
     "Talents": [
@@ -63635,7 +65452,11 @@
           "duration": [
             14.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5525,
@@ -63738,7 +65559,11 @@
             180.0,
             220.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Escape"
+        ]
       },
       {
         "Id": 5526,
@@ -63833,7 +65658,12 @@
             16.0,
             19.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Armor Increase",
+          "Tank"
+        ]
       },
       {
         "Id": 5645,
@@ -63941,7 +65771,8 @@
           "pass_slow_duration": [
             0.5
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -64012,7 +65843,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5527,
@@ -64117,7 +65949,13 @@
           "pass_slow_duration": [
             0.5
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Movement Reduction",
+          "AoE",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5528,
@@ -64192,7 +66030,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5646,
@@ -64267,7 +66106,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -64487,7 +66327,8 @@
           "split_shot_bonus_range": [
             100.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5505,
@@ -64603,7 +66444,11 @@
           "stone_form_scepter_increment": [
             0.3
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke"
+        ]
       },
       {
         "Id": 5506,
@@ -64685,7 +66530,10 @@
           "absorption_tooltip": [
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       },
       {
         "Id": 6251,
@@ -64756,7 +66604,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -64827,7 +66676,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5507,
@@ -64920,7 +66770,14 @@
           "bonus_physical_damage": [
             50.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Reduction",
+          "Attack Speed Reduction",
+          "Stun",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -65158,7 +67015,12 @@
             1.6,
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Armor Increase",
+          "Movement Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 5509,
@@ -65255,7 +67117,8 @@
           "axe_count": [
             5.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5510,
@@ -65342,7 +67205,8 @@
           "whirl_duration": [
             3.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5511,
@@ -65422,7 +67286,10 @@
           "max_stacks": [
             12.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -65493,7 +67360,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5512,
@@ -65579,7 +67447,12 @@
           "range": [
             900.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase",
+          "Movement Increase",
+          "Heal"
+        ]
       }
     ],
     "Talents": [
@@ -65816,7 +67689,11 @@
           "cast_range_tooltip": [
             1800.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5566,
@@ -65933,7 +67810,11 @@
           "snowball_grab_radius": [
             350.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Stun"
+        ]
       },
       {
         "Id": 7322,
@@ -66020,7 +67901,12 @@
           "radius": [
             350.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Attack Damage Increase",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5672,
@@ -66110,7 +67996,8 @@
           "damage": [
             350.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -66181,7 +68068,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5568,
@@ -66271,7 +68159,12 @@
           "push_length": [
             1000.0
           ]
-        }
+        },
+        "Keywords": [
+          "Crit",
+          "Movement Reduction",
+          "Autocast"
+        ]
       },
       {
         "Id": 5641,
@@ -66345,7 +68238,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -66585,7 +68479,12 @@
           "radius_scepter": [
             750.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Armor Reduction",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 5549,
@@ -66681,7 +68580,10 @@
           "projectile_speed": [
             2400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5550,
@@ -66773,7 +68675,11 @@
           "quill_release_threshold": [
             210.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank"
+        ]
       },
       {
         "Id": 6251,
@@ -66844,7 +68750,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -66915,7 +68822,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5551,
@@ -67003,7 +68911,12 @@
             7.0,
             9.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Attack Damage Increase",
+          "Attack Speed Increase"
+        ]
       }
     ],
     "Talents": [
@@ -67226,7 +69139,10 @@
           "scepter_radius": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 5582,
@@ -67333,7 +69249,11 @@
           "creep_damage_pct": [
             75.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 5583,
@@ -67419,7 +69339,11 @@
           "scepter_radius": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Silence"
+        ]
       },
       {
         "Id": 6251,
@@ -67490,7 +69414,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -67561,7 +69486,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5584,
@@ -67651,7 +69577,12 @@
           "scepter_radius": [
             700.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -67882,7 +69813,12 @@
             150.0,
             200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Channeled",
+          "AoE"
+        ]
       },
       {
         "Id": 5591,
@@ -67997,7 +69933,8 @@
           "move_pct_cap": [
             40.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5593,
@@ -68087,7 +70024,13 @@
             80.0,
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Armor Reduction",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -68158,7 +70101,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -68229,7 +70173,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5594,
@@ -68347,7 +70292,14 @@
             5.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Movement Reduction",
+          "Nuke",
+          "Disable",
+          "AoE"
+        ]
       },
       {
         "Id": 5592,
@@ -68422,7 +70374,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -68639,7 +70592,11 @@
           "missile_speed": [
             1300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "Nuke"
+        ]
       },
       {
         "Id": 5586,
@@ -68724,7 +70681,11 @@
           "radius": [
             675.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Nuke"
+        ]
       },
       {
         "Id": 5587,
@@ -68822,7 +70783,12 @@
             80.0,
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Movement Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -68893,7 +70859,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -68964,7 +70931,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5588,
@@ -69057,7 +71025,13 @@
           "redirect_range_tooltip_scepter": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Heal",
+          "Upgrade",
+          "Positive Aura"
+        ]
       }
     ],
     "Talents": [
@@ -69302,7 +71276,8 @@
           "remnant_smash_radius_tooltip": [
             200.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5609,
@@ -69405,7 +71380,8 @@
             0.8,
             1.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5610,
@@ -69501,7 +71477,8 @@
           "total_pull_distance": [
             1400.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5611,
@@ -69575,7 +71552,8 @@
           "duration": [
             120.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5648,
@@ -69650,7 +71628,8 @@
           "aoe": [
             300.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5612,
@@ -69744,7 +71723,8 @@
           "slow_duration": [
             2.0
           ]
-        }
+        },
+        "Keywords": []
       }
     ],
     "Talents": [
@@ -69969,7 +71949,11 @@
           "unit_count": [
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "DPS"
+        ]
       },
       {
         "Id": 5604,
@@ -70059,7 +72043,10 @@
             14.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5605,
@@ -70148,7 +72135,12 @@
             50.0,
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 5607,
@@ -70233,7 +72225,11 @@
           "speed": [
             1300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Escape",
+          "Movement Increase"
+        ]
       },
       {
         "Id": 6251,
@@ -70304,7 +72300,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5606,
@@ -70386,7 +72383,8 @@
           "duration": [
             45.0
           ]
-        }
+        },
+        "Keywords": []
       }
     ],
     "Talents": [
@@ -70628,7 +72626,12 @@
           "radius": [
             330.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Increase",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5596,
@@ -70713,7 +72716,11 @@
             50.0,
             60.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Speed Increase",
+          "Heal"
+        ]
       },
       {
         "Id": 5597,
@@ -70796,7 +72803,12 @@
             75.0,
             85.0
           ]
-        }
+        },
+        "Keywords": [
+          "Passive",
+          "Tank",
+          "Heal"
+        ]
       },
       {
         "Id": 6251,
@@ -70867,7 +72879,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -70938,7 +72951,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5598,
@@ -71031,7 +73045,12 @@
           "victory_range": [
             600.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Attack Damage Increase",
+          "Upgrade"
+        ]
       }
     ],
     "Talents": [
@@ -71267,7 +73286,12 @@
           "dive_duration": [
             2.0
           ]
-        }
+        },
+        "Keywords": [
+          "Escape",
+          "Movement Reduction",
+          "DPS"
+        ]
       },
       {
         "Id": 5625,
@@ -71378,7 +73402,11 @@
           "tick_interval": [
             1.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Attack Speed Reduction"
+        ]
       },
       {
         "Id": 5626,
@@ -71485,7 +73513,8 @@
           "tooltip_duration": [
             6.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5628,
@@ -71559,7 +73588,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -71630,7 +73660,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5630,
@@ -71727,7 +73758,12 @@
           "cast_range_tooltip_scepter": [
             500.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "DPS",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 5631,
@@ -71843,7 +73879,8 @@
           "tick_interval": [
             1.0
           ]
-        }
+        },
+        "Keywords": null
       },
       {
         "Id": 5624,
@@ -71917,7 +73954,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5627,
@@ -71991,7 +74029,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -72211,7 +74250,12 @@
           "range": [
             900.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Summons",
+          "AoE"
+        ]
       },
       {
         "Id": 5620,
@@ -72297,7 +74341,10 @@
           "illusion_incoming_damage_total_tooltip": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       },
       {
         "Id": 5621,
@@ -72390,7 +74437,8 @@
           "metamorph_aura_tooltip": [
             1200.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 6251,
@@ -72461,7 +74509,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -72532,7 +74581,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5622,
@@ -72608,7 +74658,11 @@
             30.0,
             25.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Heal"
+        ]
       }
     ],
     "Talents": [
@@ -72825,7 +74879,11 @@
           "activation_delay": [
             1.75
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 5600,
@@ -72919,7 +74977,10 @@
           "duration": [
             600.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5601,
@@ -73007,7 +75068,11 @@
           "duration": [
             0.75
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Silence"
+        ]
       },
       {
         "Id": 5635,
@@ -73085,7 +75150,8 @@
           "radius": [
             700.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5644,
@@ -73158,7 +75224,8 @@
           "lifetime": [
             180.0
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5602,
@@ -73268,7 +75335,11 @@
           "detonate_delay": [
             0.25
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -73494,7 +75565,13 @@
           "max_channel_time_tooltip": [
             2.5
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Disable",
+          "Channeled",
+          "AoE"
+        ]
       },
       {
         "Id": 5638,
@@ -73582,7 +75659,10 @@
             700.0,
             800.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable"
+        ]
       },
       {
         "Id": 5639,
@@ -73682,7 +75762,12 @@
           "castpoint_scepter": [
             0.1
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Heal",
+          "Nuke"
+        ]
       },
       {
         "Id": 6251,
@@ -73753,7 +75838,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -73824,7 +75910,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5640,
@@ -73898,7 +75985,10 @@
           "radius": [
             400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       }
     ],
     "Talents": [
@@ -74143,7 +76233,13 @@
           "mana_cost_scepter": [
             40.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Vision",
+          "Movement Reduction",
+          "DPS"
+        ]
       },
       {
         "Id": 5652,
@@ -74236,7 +76332,11 @@
           "secondary_projectile_speed": [
             650.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke"
+        ]
       },
       {
         "Id": 5653,
@@ -74325,7 +76425,11 @@
             5.0,
             6.0
           ]
-        }
+        },
+        "Keywords": [
+          "Heal",
+          "Tank"
+        ]
       },
       {
         "Id": 6251,
@@ -74396,7 +76500,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -74467,7 +76572,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5654,
@@ -74555,7 +76661,11 @@
             4.75,
             5.5
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Negative Aura"
+        ]
       }
     ],
     "Talents": [
@@ -74784,7 +76894,11 @@
             700.0,
             800.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 5678,
@@ -74869,7 +76983,13 @@
           "evasion_chance": [
             100.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Attack Speed Increase",
+          "AoE",
+          "Positive Aura"
+        ]
       },
       {
         "Id": 5679,
@@ -74968,7 +77088,11 @@
             0.6,
             0.7
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke"
+        ]
       },
       {
         "Id": 6251,
@@ -75039,7 +77163,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -75110,7 +77235,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5683,
@@ -75187,7 +77313,10 @@
             240.0,
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons"
+        ]
       }
     ],
     "Talents": [
@@ -75428,7 +77557,11 @@
           "building_damage": [
             33.0
           ]
-        }
+        },
+        "Keywords": [
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 5614,
@@ -75515,7 +77648,11 @@
             1.5,
             1.8
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "AoE"
+        ]
       },
       {
         "Id": 5615,
@@ -75623,7 +77760,14 @@
             4.0,
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "Upgrade",
+          "Passive",
+          "Attack Damage Increase",
+          "Positive Aura",
+          "Negative Aura"
+        ]
       },
       {
         "Id": 6251,
@@ -75694,7 +77838,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -75765,7 +77910,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5616,
@@ -75845,7 +77991,10 @@
             5.0,
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Escape"
+        ]
       },
       {
         "Id": 5617,
@@ -75918,7 +78067,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -76137,7 +78287,11 @@
           "strike_cast_range": [
             1200.0
           ]
-        }
+        },
+        "Keywords": [
+          "Crit",
+          "Stun"
+        ]
       },
       {
         "Id": 5721,
@@ -76247,7 +78401,11 @@
             60.0,
             80.0
           ]
-        }
+        },
+        "Keywords": [
+          "Vision",
+          "Escape"
+        ]
       },
       {
         "Id": 5724,
@@ -76334,7 +78492,13 @@
           "impact_radius": [
             375.0
           ]
-        }
+        },
+        "Keywords": [
+          "Channeled",
+          "Nuke",
+          "Movement Reduction",
+          "AoE"
+        ]
       },
       {
         "Id": 5723,
@@ -76426,7 +78590,12 @@
           "max_duration": [
             35.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Heal",
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 5719,
@@ -76503,7 +78672,8 @@
           "invul_duration": [
             0.2
           ]
-        }
+        },
+        "Keywords": []
       },
       {
         "Id": 5725,
@@ -76603,7 +78773,12 @@
           "outer_attack_buffer": [
             0.0
           ]
-        }
+        },
+        "Keywords": [
+          "Summons",
+          "Armor Increase",
+          "AoE"
+        ]
       },
       {
         "Id": 5726,
@@ -76677,7 +78852,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 5722,
@@ -76748,7 +78924,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -76988,7 +79165,12 @@
           "initial_creation_delay": [
             0.5
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "DPS",
+          "AoE"
+        ]
       },
       {
         "Id": 6341,
@@ -77073,7 +79255,10 @@
           "max_damage_duration": [
             3.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase"
+        ]
       },
       {
         "Id": 6342,
@@ -77156,7 +79341,10 @@
           "stun_radius": [
             325.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun"
+        ]
       },
       {
         "Id": 6340,
@@ -77247,7 +79435,10 @@
           "roaming_duration": [
             5.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke"
+        ]
       },
       {
         "Id": 6251,
@@ -77318,7 +79509,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 8340,
@@ -77399,7 +79591,11 @@
           "starting_height": [
             300.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
@@ -77642,7 +79838,11 @@
           "strikes": [
             4.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase",
+          "Attack Speed Increase"
+        ]
       },
       {
         "Id": 6461,
@@ -77747,7 +79947,11 @@
           "jump_horizontal_distance": [
             225.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank",
+          "Nuke"
+        ]
       },
       {
         "Id": 7307,
@@ -77830,7 +80034,11 @@
           "slow": [
             35.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "Movement Reduction"
+        ]
       },
       {
         "Id": 6251,
@@ -77901,7 +80109,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -77972,7 +80181,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6343,
@@ -78073,7 +80283,12 @@
           "jump_recover_time": [
             0.25
           ]
-        }
+        },
+        "Keywords": [
+          "Escape",
+          "Nuke",
+          "Stun"
+        ]
       },
       {
         "Id": 6459,
@@ -78147,7 +80362,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       }
     ],
     "Talents": [
@@ -78386,7 +80602,12 @@
           "range_tooltip": [
             1400.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 8006,
@@ -78512,7 +80733,11 @@
           "latched_unit_offset_short": [
             95.0
           ]
-        }
+        },
+        "Keywords": [
+          "Silence",
+          "DPS"
+        ]
       },
       {
         "Id": 8007,
@@ -78634,7 +80859,12 @@
             45.0,
             55.0
           ]
-        }
+        },
+        "Keywords": [
+          "Stun",
+          "Nuke",
+          "AoE"
+        ]
       },
       {
         "Id": 6251,
@@ -78705,7 +80935,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -78776,7 +81007,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6491,
@@ -78879,7 +81111,10 @@
             800.0,
             900.0
           ]
-        }
+        },
+        "Keywords": [
+          "Movement Reduction"
+        ]
       }
     ],
     "Talents": [
@@ -79116,7 +81351,12 @@
           "knockback_distance": [
             75.0
           ]
-        }
+        },
+        "Keywords": [
+          "Nuke",
+          "Stun",
+          "Knockback"
+        ]
       },
       {
         "Id": 6495,
@@ -79212,7 +81452,13 @@
           "bonus_damage_vs_heroes": [
             25.0
           ]
-        }
+        },
+        "Keywords": [
+          "Attack Damage Increase",
+          "Crit",
+          "Knockback",
+          "AoE"
+        ]
       },
       {
         "Id": 6582,
@@ -79301,7 +81547,10 @@
           "side_angle": [
             240.0
           ]
-        }
+        },
+        "Keywords": [
+          "Tank"
+        ]
       },
       {
         "Id": 6251,
@@ -79372,7 +81621,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6251,
@@ -79443,7 +81693,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": false,
         "Linked": null,
-        "AbilitySpecial": {}
+        "AbilitySpecial": {},
+        "Keywords": null
       },
       {
         "Id": 6598,
@@ -79548,7 +81799,11 @@
           "warrior_fade_max_dist": [
             450.0
           ]
-        }
+        },
+        "Keywords": [
+          "Disable",
+          "AoE"
+        ]
       }
     ],
     "Talents": [
