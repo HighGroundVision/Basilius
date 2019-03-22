@@ -457,7 +457,16 @@ namespace HGV.Basilius.Tools.Collection
                 var value = (string)baseData[field];
                 var items = value.Split(delimator, StringSplitOptions.RemoveEmptyEntries).Select(_ => _.Trim()).ToList();
                 var list = items.Select(_ => (T)Convert.ChangeType(_, typeof(T))).ToList();
-                return list;
+
+                var defaultValue = default(T);
+                if (list.All(_ => EqualityComparer<T>.Default.Equals(_, defaultValue)) == true)
+                {
+                    return new List<T>();
+                }
+                else
+                {
+                    return list;
+                }                
             }
             else
             {
