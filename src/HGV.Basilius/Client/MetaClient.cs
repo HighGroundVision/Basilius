@@ -14,12 +14,17 @@ namespace HGV.Basilius
         List<Ability> abilities { get; set; }
         List<Talent> talents { get; set; }
 
+        Dictionary<int, int> clusters { get; set; }
+        Dictionary<int, string> regions { get; set; }
+
         public MetaClient()
         {
             this.heroes = new List<Hero>();
             this.items = new List<Item>();
             this.abilities = new List<Ability>();
             this.talents = new List<Talent>();
+            this.clusters = new Dictionary<int, int>();
+            this.regions = new Dictionary<int, string>();
 
             this.Load();
 
@@ -41,6 +46,22 @@ namespace HGV.Basilius
                 string json = reader.ReadToEnd();
                 this.items = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Item>>(json);
             }
+
+
+            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Cluster.json"))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                string json = reader.ReadToEnd();
+                this.clusters = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, int>>(json);
+            }
+
+            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Region.json"))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                string json = reader.ReadToEnd();
+                this.regions = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, string>>(json);
+            }
+
 
             this.abilities = this.heroes.SelectMany(_ => _.Abilities).ToList();
             this.talents = this.heroes.SelectMany(_ => _.Talents).ToList();
@@ -103,6 +124,20 @@ namespace HGV.Basilius
                 default:
                     return "Unknown";
             }
+        }
+
+        public string GetRegionName(int region)
+        {
+            string name = "Unknown";
+            this.regions.TryGetValue(region, out name);
+            return name;
+        }
+
+        public int ConvertclusterToRegion(int cluster)
+        {
+            int region = 0;
+            this.clusters.TryGetValue(cluster, out region);
+            return region;
         }
 
 
