@@ -133,7 +133,7 @@ namespace HGV.Basilius
             return name;
         }
 
-        public int ConvertclusterToRegion(int cluster)
+        public int ConvertClusterToRegion(int cluster)
         {
             int region = 0;
             this.clusters.TryGetValue(cluster, out region);
