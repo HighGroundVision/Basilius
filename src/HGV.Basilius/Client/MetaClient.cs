@@ -128,13 +128,19 @@ namespace HGV.Basilius
 
         public string GetRegionName(int region)
         {
-            string name = "Unknown";
+            string name = "UNKNOWN";
             this.regions.TryGetValue(region, out name);
             return name;
         }
 
+        public Dictionary<int, string> GetRegions()
+        {
+            return this.regions;
+        }
+
         public int ConvertClusterToRegion(int cluster)
         {
+            // TODO: find out missing clusters [236]
             int region = 0;
             this.clusters.TryGetValue(cluster, out region);
             return region;
