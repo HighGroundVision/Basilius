@@ -4603,7 +4603,7 @@
         3.0
       ],
       "bonus_attack_speed": [
-        6.0
+        5.0
       ]
     },
     "ItemDeclarations": [],
@@ -4789,7 +4789,7 @@
     "Id": 79,
     "Key": "item_mekansm",
     "Name": null,
-    "Description": "<h1>Active: Restore</h1>Heals 275 health and gives +2 armor to allied units in a 1200 radius.\\n<h1>Passive: Mekansm Aura</h1>Grants 4.5 health regeneration to allied units in a 1200 radius.",
+    "Description": "<h1>Active: Restore</h1>Heals 275 health and gives +2 armor to allied units in a 1200 radius.\\n<h1>Passive: Mekansm Aura</h1>Grants 3.5 health regeneration to allied units in a 1200 radius.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mekansm.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4809,7 +4809,7 @@
         1200.0
       ],
       "aura_health_regen": [
-        4.5
+        3.5
       ],
       "heal_amount": [
         275.0
@@ -4904,7 +4904,7 @@
     "Id": 81,
     "Key": "item_vladmir",
     "Name": null,
-    "Description": "<h1>Passive: Vladmir's Aura</h1>Grants lifesteal (15% for melee heroes, 10% for ranged), 1.75 mana regeneration, 15% bonus attack damage, and 4 armor to nearby allies. <br><br>Radius: 1200",
+    "Description": "<h1>Passive: Vladmir's Aura</h1>Grants lifesteal (15% for melee heroes, 10% for ranged), 1.5 mana regeneration, 15% bonus attack damage, and 4 armor to nearby allies. <br><br>Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_vladmir.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4915,7 +4915,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "mana_regen_aura": [
-        1.75
+        1.5
       ],
       "armor_aura": [
         4.0
@@ -5334,7 +5334,7 @@
     "Id": 90,
     "Key": "item_pipe",
     "Name": null,
-    "Description": "<h1>Active: Barrier</h1>Gives a shield that blocks 400 magic damage to all nearby allies. Lasts 12 seconds.<br><br>Radius: 1200\\n<h1>Passive: Insight Aura</h1> Gives allied units 3 health regeneration and 10% magic resistance.<br><br>Radius: 1200",
+    "Description": "<h1>Active: Barrier</h1>Gives a shield that blocks 400 magic damage to all nearby allies. Lasts 12 seconds.<br><br>Radius: 1200\\n<h1>Passive: Insight Aura</h1> Gives allied units 2 health regeneration and 10% magic resistance.<br><br>Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_pipe.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -5357,7 +5357,7 @@
         30.0
       ],
       "aura_health_regen": [
-        3.0
+        2.0
       ],
       "magic_resistance_aura": [
         10.0
@@ -7724,6 +7724,96 @@
     "ItemQuality": null
   },
   {
+    "Id": 270,
+    "Key": "item_recipe_ultimate_scepter_2",
+    "Name": null,
+    "Description": null,
+    "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_recipe_ultimate_scepter_2.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [],
+    "AbilityCastRange": 0.0,
+    "AbilityCastPoint": 0.0,
+    "AbilityCooldown": 0.0,
+    "AbilityManaCost": 0.0,
+    "AbilitySpecial": {},
+    "ItemDeclarations": [],
+    "ItemCost": 0,
+    "ItemCombinable": false,
+    "ItemPermanent": false,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": false,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": false,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "SideShop": false,
+    "ShouldBeSuggested": false,
+    "ShouldBeInitiallySuggested": false,
+    "IsTempestDoubleClonable": false,
+    "AllowedInBackpack": false,
+    "PlayerSpecificCooldown": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemHideCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemShareability": null,
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 271,
+    "Key": "item_ultimate_scepter_2",
+    "Name": null,
+    "Description": "<h1>Passive: Ultimate Upgrade</h1>Upgrades the ultimate, and some abilities, of certain heroes.",
+    "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_ultimate_scepter_2.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [],
+    "AbilityCastRange": 0.0,
+    "AbilityCastPoint": 0.0,
+    "AbilityCooldown": 0.0,
+    "AbilityManaCost": 0.0,
+    "AbilitySpecial": {},
+    "ItemDeclarations": [],
+    "ItemCost": 0,
+    "ItemCombinable": false,
+    "ItemPermanent": false,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": false,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": false,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "SideShop": false,
+    "ShouldBeSuggested": false,
+    "ShouldBeInitiallySuggested": false,
+    "IsTempestDoubleClonable": false,
+    "AllowedInBackpack": false,
+    "PlayerSpecificCooldown": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemHideCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemShareability": null,
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
     "Id": 109,
     "Key": "item_recipe_refresher",
     "Name": null,
@@ -9299,7 +9389,7 @@
     "Id": 267,
     "Key": "item_spirit_vessel",
     "Name": null,
-    "Description": "<h1>Active: Soul Release</h1> When used against enemies, it reduces health by 5% of current health per second, and reduces HP regeneration and healing by 70%. Deals 25 damage per second. <br><br>When used on allies, it provides 30 health regeneration per second. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.<br><br>Cast Range: 950 ",
+    "Description": "<h1>Active: Soul Release</h1> When used against enemies, it reduces health by 4% of current health per second, and reduces HP regeneration and healing by 60%. Deals 25 damage per second. <br><br>When used on allies, it provides 30 health regeneration per second. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.<br><br>Cast Range: 950 ",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_spirit_vessel.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -9346,10 +9436,10 @@
         950.0
       ],
       "hp_regen_reduction_enemy": [
-        70.0
+        60.0
       ],
       "enemy_hp_drain": [
-        5.0
+        4.0
       ]
     },
     "ItemDeclarations": [],
@@ -12008,7 +12098,7 @@
     "Id": 160,
     "Key": "item_skadi",
     "Name": null,
-    "Description": "<h1>Passive: Cold Attack</h1> Attacks lower enemy attack speed by -45 and movement speed by -35%. <br><br>Lasts 5 seconds when used by melee heroes, and 2.5 seconds when used by ranged.",
+    "Description": "<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed for 3 seconds. Slows enemy ranged units by -45% movement speed and by -45 attack speed. Slows enemy melee units by -20% movement speed and by -20 attack speed. ",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_skadi.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12027,17 +12117,14 @@
       "bonus_mana": [
         250.0
       ],
-      "cold_movement_speed": [
-        -35.0
+      "cold_slow_melee": [
+        -20.0
       ],
-      "cold_attack_speed": [
+      "cold_slow_ranged": [
         -45.0
       ],
-      "cold_duration_melee": [
-        5.0
-      ],
-      "cold_duration_ranged": [
-        2.5
+      "cold_duration": [
+        3.0
       ]
     },
     "ItemDeclarations": [],
@@ -12647,7 +12734,7 @@
     "Id": 172,
     "Key": "item_mask_of_madness",
     "Name": null,
-    "Description": "<h1>Active: Berserk</h1>Gives 110 attack speed and 25 movement speed, but reduces your armor by 8 and silences you.  Lasts 8 seconds.\\n<h1>Passive: Lifesteal</h1>Heals the attacker for 20% of attack damage dealt.",
+    "Description": "<h1>Active: Berserk</h1>Gives 110 attack speed and 30 movement speed, but reduces your armor by 8 and silences you.  Lasts 8 seconds.\\n<h1>Passive: Lifesteal</h1>Heals the attacker for 20% of attack damage dealt.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mask_of_madness.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12670,7 +12757,7 @@
         110.0
       ],
       "berserk_bonus_movement_speed": [
-        25.0
+        30.0
       ],
       "berserk_armor_reduction": [
         8.0
@@ -13458,7 +13545,7 @@
         6.0
       ],
       "bonus_mana_regen": [
-        1.5
+        1.25
       ],
       "bonus_movement_speed": [
         20.0
@@ -13662,7 +13749,7 @@
     "Id": 229,
     "Key": "item_solar_crest",
     "Name": null,
-    "Description": "<h1>Active: Shine</h1>When cast on an ally, grants them 12 armor, 70 attack speed, and 10% movement speed. When cast on an enemy, removes 12 armor, 70 attack speed, and 10% movement speed.<br><br>Removes the armor from the caster when used. <br><br> Cannot target magic immune enemies.<br><br>Range: 1000",
+    "Description": "<h1>Active: Shine</h1>When cast on an ally, grants them 12 armor, 80 attack speed, and 10% movement speed. When cast on an enemy, removes 12 armor, 80 attack speed, and 10% movement speed.<br><br>Removes the armor from the caster when used. <br><br> Cannot target magic immune enemies.<br><br>Range: 1000",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_solar_crest.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13688,7 +13775,7 @@
         10.0
       ],
       "target_attack_speed": [
-        70.0
+        80.0
       ],
       "duration": [
         7.0
@@ -14005,7 +14092,7 @@
     "Id": 231,
     "Key": "item_guardian_greaves",
     "Name": null,
-    "Description": "<h1>Active: Mend</h1>Restores 300 health and 200 mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: 1200<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n<h1>Passive: Guardian Aura</h1> Provides nearby allies with 4.5 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 16 health regeneration and 15 armor.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Mend</h1>Restores 300 health and 200 mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: 1200<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n<h1>Passive: Guardian Aura</h1> Provides nearby allies with 3.5 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 16 health regeneration and 10 armor.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_guardian_greaves.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14028,7 +14115,7 @@
         5.0
       ],
       "aura_health_regen": [
-        4.5
+        3.5
       ],
       "aura_armor": [
         2.0
@@ -14037,7 +14124,7 @@
         16.0
       ],
       "aura_armor_bonus": [
-        15.0
+        10.0
       ],
       "aura_bonus_threshold": [
         20.0
@@ -14149,10 +14236,10 @@
         20.0
       ],
       "bonus_strength": [
-        12.0
+        10.0
       ],
       "bonus_agility": [
-        12.0
+        10.0
       ],
       "duration": [
         2.0
