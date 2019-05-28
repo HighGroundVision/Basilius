@@ -2271,7 +2271,7 @@
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "IsSkill": true,
         "IsUltimate": false,
-        "HasScepterUpgrade": false,
+        "HasScepterUpgrade": true,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -2617,7 +2617,7 @@
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "IsSkill": false,
         "IsUltimate": true,
-        "HasScepterUpgrade": true,
+        "HasScepterUpgrade": false,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -5842,8 +5842,8 @@
         "Id": 5229,
         "Key": "dragon_knight_elder_dragon_form",
         "Name": "Elder Dragon Form",
-        "Description": "Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.\\n<font color=\\\"#9acd32\\\">LEVEL 1 Green Dragon</font> - Corrosive Breath: attacks deal 20 poison damage per second for 5 seconds. Works on structures.\\n<font color=\\\"#ff0000\\\">LEVEL 2 Red Dragon</font> - Splash Attack: attacks damage all enemy units in a 300 radius for 75/75/75/115% damage, with Corrosive Breath added to the targets.\\n<font color=\\\"#87ceeb\\\">LEVEL 3 Blue Dragon</font> - Frost Breath: slows movement speed by 30% and attack speed by 30 of enemy units in Splash Attack range for 3 seconds, with Corrosive Breath added to the targets.",
-        "UpgradeDescription": null,
+        "Description": "Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.\\n<font color=\\\"#9acd32\\\">LEVEL 1 Green Dragon</font> - Corrosive Breath: attacks deal 20 poison damage per second for 5 seconds. Works on structures.\\n<font color=\\\"#ff0000\\\">LEVEL 2 Red Dragon</font> - Splash Attack: attacks damage all enemy units in a 300 radius for 75/75/75/115% damage, with Corrosive Breath added to the targets.\\n<font color=\\\"#87ceeb\\\">LEVEL 3 Blue Dragon</font> - Frost Breath: slows movement speed by 30% and attack speed by 30 of enemy units in Splash Attack range for 3 seconds, with Corrosive Breath added to the targets. Upgradable by Aghanim's Scepter.",
+        "UpgradeDescription": "Increases the level of your ultimate. Adds a 4th level, Black Dragon. Black Dragon has 50% more Corrosive Damage, Splash Damage and Slow amount. Increases attack range to 600 and grants 30% Magic resistance.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/dragon_knight_elder_dragon_form.png",
         "HeroId": 49,
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -7251,7 +7251,7 @@
         "Key": "earthshaker_enchant_totem",
         "Name": "Enchant Totem",
         "Description": "Empowers Earthshaker's totem, causing it to deal extra damage on the next attack. Upgradable by Aghanim's Scepter.",
-        "UpgradeDescription": "Enchant Totem becomes a 900 range ground target ability, causing Earthshaker to jump in the air and land at the target spot, casting Enchant Totem there.  Self-casting the ability will behave in the original form, without jumping.",
+        "UpgradeDescription": "Enchant Totem becomes a 1100 range ground target ability, causing Earthshaker to jump in the air and land at the target spot, casting Enchant Totem there.  Self-casting the ability will behave in the original form, without jumping.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/earthshaker_enchant_totem.png",
         "HeroId": 7,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -21644,7 +21644,7 @@
         "Key": "slardar_slithereen_crush",
         "Name": "Slithereen Crush",
         "Description": "Slams the ground, stunning and damaging nearby enemy land units.  After the stun, the affected units are slowed. Upgradable by Aghanim's Scepter.",
-        "UpgradeDescription": null,
+        "UpgradeDescription": "Creates a puddle of water that is considered a river for bonuses. Provides 25 HP regen, 12 armor and 40% status resistance while in a puddle or in the river.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/slardar_slithereen_crush.png",
         "HeroId": 28,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -25609,7 +25609,7 @@
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
         "AbilityDraftEnabled": true,
-        "Linked": "tiny_craggy_exterior",
+        "Linked": null,
         "AbilitySpecial": {
           "speed": [
             1000.0
@@ -28296,7 +28296,7 @@
         "Id": 5132,
         "Key": "windrunner_windrun",
         "Name": "Windrun",
-        "Description": "Increases movement speed and adds evasion from all physical attacks, while slowing movement of nearby enemies. Upgradable by Aghanim's Scepter.",
+        "Description": "Increases movement speed and adds evasion from all physical attacks, while slowing movement of nearby enemies.  Upgradable by Aghanim's Scepter.",
         "UpgradeDescription": "Grants 2 charges to Windrun, increases movement speed, and removes movement speed limit.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/windrunner_windrun.png",
         "HeroId": 21,
@@ -28313,7 +28313,7 @@
         "AbilityUnitDamageType": null,
         "IsSkill": true,
         "IsUltimate": false,
-        "HasScepterUpgrade": false,
+        "HasScepterUpgrade": true,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [],
@@ -28379,9 +28379,6 @@
           ],
           "scepter_bonus_movement": [
             45.0
-          ],
-          "scepter_movespeed_bonus_pct_tooltip": [
-            105.0
           ]
         },
         "Keywords": [
@@ -28498,7 +28495,7 @@
         "AbilityUnitDamageType": null,
         "IsSkill": false,
         "IsUltimate": true,
-        "HasScepterUpgrade": true,
+        "HasScepterUpgrade": false,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -33518,9 +33515,6 @@
           ],
           "bounty_reduction_scepter": [
             50.0
-          ],
-          "delay_scepter": [
-            0.5
           ]
         },
         "Keywords": [
@@ -34623,7 +34617,7 @@
         "Key": "death_prophet_exorcism",
         "Name": "Exorcism",
         "Description": "Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt. Lasts 35 seconds. Upgradable by Aghanim's Scepter.",
-        "UpgradeDescription": null,
+        "UpgradeDescription": "Whenever an enemy is affected by your spells or when you attack an enemy, a ghost will fly out and hit the enemy for double the usual damage then return to you with life. The ghosts apply a slow for 0.3 seconds.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/death_prophet_exorcism.png",
         "HeroId": 43,
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -38396,6 +38390,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
+          6.0,
+          8.0,
+          10.0,
           12.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -38405,10 +38402,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_bonus": [
+            20.0,
             30.0,
             40.0,
-            50.0,
-            60.0
+            50.0
           ]
         },
         "Keywords": [
@@ -38420,7 +38417,7 @@
         "Key": "clinkz_wind_walk",
         "Name": "Skeleton Walk",
         "Description": "Clinkz moves invisibly through units until the moment he attacks or uses an ability. Upgradable by Aghanim's Scepter.",
-        "UpgradeDescription": "Creates two skeletons near Clinkz when exiting Wind Walk. Increases Wind Walk movement speed by %scepter_bonus%%% and unlocks max movement speed.",
+        "UpgradeDescription": "Creates two skeletons near Clinkz when exiting Skeleton Walk. Increases Skeleton Walk movement speed by %scepter_bonus%%% and unlocks max movement speed.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_wind_walk.png",
         "HeroId": 56,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -38687,7 +38684,7 @@
         "Id": 6104,
         "Key": "special_bonus_unique_clinkz_1",
         "HeroId": 56,
-        "Name": "+20 Searing Arrows Damage",
+        "Name": "+15 Searing Arrows Damage",
         "Description": null
       },
       {
@@ -38731,7 +38728,7 @@
     "AttackRange": 650,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
-    "AttributeBaseStrength": 12,
+    "AttributeBaseStrength": 14,
     "AttributeStrengthGain": 1.9,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.7,
@@ -39929,7 +39926,7 @@
         "AbilityUnitDamageType": null,
         "IsSkill": true,
         "IsUltimate": false,
-        "HasScepterUpgrade": false,
+        "HasScepterUpgrade": true,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [],
@@ -43093,7 +43090,7 @@
             575.0
           ],
           "multicast_2_times_tooltip": [
-            70.0
+            75.0
           ],
           "multicast_3_times_tooltip": [
             0.0,
@@ -43305,15 +43302,15 @@
             700.0
           ],
           "stun_min": [
-            1.0,
-            1.0,
-            1.0,
+            1.25,
+            1.5,
+            1.75,
             2.0
           ],
           "stun_max": [
-            2.0,
-            2.0,
-            3.0,
+            2.2,
+            2.8,
+            3.4,
             4.0
           ],
           "damage_min": [
@@ -45514,8 +45511,8 @@
     "AttributeStrengthGain": 2.0,
     "AttributeBaseIntelligence": 25,
     "AttributeIntelligenceGain": 3.1,
-    "AttributeBaseAgility": 19,
-    "AttributeAgilityGain": 2.1,
+    "AttributeBaseAgility": 23,
+    "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -50104,7 +50101,7 @@
         "Key": "keeper_of_the_light_spirit_form_illuminate",
         "Name": "Illuminate",
         "Description": "Channels light energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals damage and gives vision in its path.  The longer it is channeled, the more damage is dealt. Upgradable by Aghanim's Scepter.",
-        "UpgradeDescription": "Allows Illuminate to heal allies for 100%% of its damage values during daytime, and causes Illuminate to not require channeling.",
+        "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/keeper_of_the_light_spirit_form_illuminate.png",
         "HeroId": 90,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
@@ -50121,7 +50118,7 @@
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "IsSkill": false,
         "IsUltimate": false,
-        "HasScepterUpgrade": true,
+        "HasScepterUpgrade": false,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -52737,7 +52734,7 @@
             15.0,
             30.0,
             60.0,
-            120.0
+            100.0
           ]
         },
         "Keywords": [
@@ -54617,7 +54614,7 @@
         "Key": "troll_warlord_battle_trance",
         "Name": "Battle Trance",
         "Description": "Troll unleashes a powerful battle trance, that forces you to continuously attack the closest enemy unit within 900 range, prioritizing heroes. Damage does not kill you during this mode. Grants you bonus lifesteal, attack speed and movement speed. Applies a Basic Dispel. Upgradable by Aghanim's Scepter.",
-        "UpgradeDescription": null,
+        "UpgradeDescription": "Reduces Battle Trance cooldown and allows it to be cast on allied or enemy heroes. Lasts half duration on enemies.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/troll_warlord_battle_trance.png",
         "HeroId": 95,
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -56573,7 +56570,7 @@
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "IsSkill": true,
         "IsUltimate": false,
-        "HasScepterUpgrade": false,
+        "HasScepterUpgrade": true,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -56911,7 +56908,7 @@
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "IsSkill": false,
         "IsUltimate": true,
-        "HasScepterUpgrade": true,
+        "HasScepterUpgrade": false,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -63586,7 +63583,7 @@
         "AbilityUnitDamageType": null,
         "IsSkill": true,
         "IsUltimate": false,
-        "HasScepterUpgrade": true,
+        "HasScepterUpgrade": false,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -63900,7 +63897,7 @@
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "IsSkill": false,
         "IsUltimate": true,
-        "HasScepterUpgrade": false,
+        "HasScepterUpgrade": true,
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
@@ -64321,7 +64318,7 @@
         "Id": 6341,
         "Key": "dark_willow_shadow_realm",
         "Name": "Shadow Realm",
-        "Description": "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 3 seconds. Upgradeable by Aghanim's Scepter.",
+        "Description": "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 4 seconds. Upgradeable by Aghanim's Scepter.",
         "UpgradeDescription": "Attacking no longer takes you out of Shadow Realm. Each attack still has bonus damage based on the duration of the buff.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/dark_willow_shadow_realm.png",
         "HeroId": 119,
@@ -64381,7 +64378,7 @@
             600.0
           ],
           "max_damage_duration": [
-            3.0
+            4.0
           ],
           "scepter_radius": [
             900.0
@@ -64689,10 +64686,10 @@
         "Description": null
       },
       {
-        "Id": 6622,
-        "Key": "special_bonus_attack_speed_200",
+        "Id": 7893,
+        "Key": "special_bonus_attack_speed_175",
         "HeroId": 119,
-        "Name": "+200 Attack Speed",
+        "Name": "+175 Attack Speed",
         "Description": null
       },
       {
@@ -64709,7 +64706,7 @@
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 27,
     "AttackDamageMax": 35,
-    "AttackRate": 1.3,
+    "AttackRate": 1.5,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 475,
@@ -65723,7 +65720,7 @@
       {
         "Id": 7852,
         "Key": "grimstroke_scepter",
-        "Name": "Dark Artistry",
+        "Name": "Dark Portrait",
         "Description": null,
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/grimstroke_scepter.png",
@@ -65770,7 +65767,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "illusion_duration": [
-            20.0
+            15.0
           ],
           "images_do_damage_percent": [
             50.0
@@ -65779,10 +65776,10 @@
             150.0
           ],
           "images_take_damage_percent": [
-            100.0
+            250.0
           ],
           "images_take_damage_percent_tooltip": [
-            200.0
+            350.0
           ]
         },
         "Keywords": null
