@@ -9527,18 +9527,18 @@
             550.0
           ],
           "treant_damage_bonus": [
-            27.0,
-            30.0,
-            33.0,
+            24.0,
+            28.0,
+            32.0,
             36.0
           ],
           "treant_large_hp_bonus": [
             1650.0
           ],
           "treant_large_damage_bonus": [
-            81.0,
-            90.0,
-            99.0,
+            72.0,
+            84.0,
+            96.0,
             108.0
           ]
         },
@@ -25564,7 +25564,7 @@
         "Id": 7850,
         "Key": "tiny_tree_channel",
         "Name": "Tree Volley",
-        "Description": "Every 0.4 seconds a random tree within 525 range of your hero will be thrown towards the targeted aoe. Deals 125% of your damage to enemies in that area.",
+        "Description": "Every 0.4 seconds a random tree within 525 range of your hero will be thrown towards the targeted aoe. Deals 120% of your damage to enemies in that area.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/tiny_tree_channel.png",
         "HeroId": 19,
@@ -25620,9 +25620,6 @@
           "splash_radius": [
             400.0
           ],
-          "splash_pct": [
-            120.0
-          ],
           "tree_grab_radius": [
             525.0
           ],
@@ -25630,10 +25627,7 @@
             0.4
           ],
           "bonus_damage": [
-            10.0,
-            20.0,
-            30.0,
-            40.0
+            20.0
           ],
           "max_channel_time_tooltip": [
             2.4
@@ -52899,7 +52893,7 @@
             2.0
           ],
           "scepter_aoe": [
-            400.0
+            425.0
           ],
           "cooldown_scepter": [
             30.0

@@ -1085,7 +1085,7 @@
     "Id": 16,
     "Key": "item_branches",
     "Name": null,
-    "Description": "<h1>Use: Plant Tree</h1> Targets the ground to plant a happy little tree that lasts for 20 seconds.<br><br>Range: 200",
+    "Description": "<h1>Use: Plant Tree</h1> Targets the ground to plant a happy little tree that lasts for 20 seconds.<br><br>Range: 400",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_branches.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -1102,7 +1102,7 @@
         20.0
       ],
       "range_tooltip": [
-        200.0
+        400.0
       ]
     },
     "ItemDeclarations": [],
@@ -14222,7 +14222,7 @@
     "Id": 206,
     "Key": "item_rod_of_atos",
     "Name": null,
-    "Description": "<h1>Active: Cripple</h1>Roots the target for 2 seconds.<br><br>Range: 1150",
+    "Description": "<h1>Active: Cripple</h1>Roots the target for 2 seconds.<br><br>Range: 1100",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_rod_of_atos.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14245,7 +14245,7 @@
         2.0
       ],
       "tooltip_range": [
-        1150.0
+        1100.0
       ]
     },
     "ItemDeclarations": [],
