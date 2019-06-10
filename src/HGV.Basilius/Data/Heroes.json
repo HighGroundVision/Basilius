@@ -1340,12 +1340,7 @@
           0.3
         ],
         "AbilityDuration": [],
-        "AbilityDamage": [
-          60.0,
-          100.0,
-          140.0,
-          180.0
-        ],
+        "AbilityDamage": [],
         "AbilityManaCost": [],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -1353,6 +1348,12 @@
         "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
+          "damage": [
+            60.0,
+            100.0,
+            140.0,
+            180.0
+          ],
           "radius": [
             275.0
           ],
@@ -1618,7 +1619,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 295,
+    "MovementSpeed": 305,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -3289,7 +3290,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 0.0,
+    "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 33,
@@ -3406,7 +3407,10 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          70.0
+          70.0,
+          80.0,
+          90.0,
+          100.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -3445,7 +3449,7 @@
         "Id": 5330,
         "Key": "chen_holy_persuasion",
         "Name": "Holy Persuasion",
-        "Description": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum. Converted creeps will have increased movement speed. Can be cast on allies to teleport them to Chen. If cast on Chen, all units controlled by Chen will be teleported to him. Taking damage will dispel the buff.   Upgradable by Aghanim's Scepter.",
+        "Description": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum. Converted creeps will have increased movement speed and bonus damage.  Upgradable by Aghanim's Scepter.",
         "UpgradeDescription": "Allows Holy Persuasion to target Ancient Creeps, maximum one per level of Hand of God.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chen_holy_persuasion.png",
         "HeroId": 66,
@@ -3514,8 +3518,11 @@
             20.0,
             25.0
           ],
-          "teleport_delay": [
-            6.0
+          "damage_bonus": [
+            8.0,
+            16.0,
+            24.0,
+            32.0
           ]
         },
         "Keywords": [
@@ -3526,16 +3533,19 @@
         "Id": 7306,
         "Key": "chen_divine_favor",
         "Name": "Divine Favor",
-        "Description": "Aura provides increased health regeneration, amplifies all health restore by a percentage, and boosts damage for heroes. Provides double bonus damage for your own non-hero units.",
+        "Description": "Passively provides an aura that grants increased health regeneration and amplifies all health restore by a percentage. Can be cast on allies to teleport them to Chen. If cast on Chen, all units controlled by Chen will be teleported to him. Taking damage will dispel the buff.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chen_divine_favor.png",
         "HeroId": 66,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
         ],
-        "AbilityUnitTargetTeam": null,
-        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": [
+          "DOTA_UNIT_TARGET_HERO",
+          "DOTA_UNIT_TARGET_CREEP"
+        ],
         "AbilityUnitTargetFlags": [],
         "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES",
         "SpellDispellableType": null,
@@ -3549,12 +3559,21 @@
           1200
         ],
         "AbilityCastRangeBuffer": 250,
-        "AbilityCastPoint": [],
+        "AbilityCastPoint": [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
         "AbilityChannelTime": [],
-        "AbilityCooldown": [],
+        "AbilityCooldown": [
+          60.0
+        ],
         "AbilityDuration": [],
         "AbilityDamage": [],
-        "AbilityManaCost": [],
+        "AbilityManaCost": [
+          130.0
+        ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
@@ -3568,22 +3587,16 @@
             20.0
           ],
           "heal_rate": [
-            1.0,
             2.0,
             3.0,
-            4.0
-          ],
-          "damage_bonus": [
             4.0,
-            8.0,
-            12.0,
-            16.0
-          ],
-          "army_damage_multiplier": [
-            2.0
+            5.0
           ],
           "aura_radius": [
             1200.0
+          ],
+          "teleport_delay": [
+            6.0
           ]
         },
         "Keywords": [
@@ -3738,10 +3751,10 @@
     ],
     "Talents": [
       {
-        "Id": 6372,
-        "Key": "special_bonus_exp_boost_35",
+        "Id": 6317,
+        "Key": "special_bonus_exp_boost_30",
         "HeroId": 66,
-        "Name": "+35% XP Gain",
+        "Name": "+30% XP Gain",
         "Description": null
       },
       {
@@ -3752,17 +3765,17 @@
         "Description": null
       },
       {
-        "Id": 5970,
-        "Key": "special_bonus_armor_7",
+        "Id": 7894,
+        "Key": "special_bonus_unique_chen_6",
         "HeroId": 66,
-        "Name": "+7 Armor",
+        "Name": "-30s Divine Favor Cooldown",
         "Description": null
       },
       {
         "Id": 7869,
         "Key": "special_bonus_unique_chen_5",
         "HeroId": 66,
-        "Name": "+10 Divine Favor Damage",
+        "Name": "+20 Holy Persuasion Damage",
         "Description": null
       },
       {
@@ -4635,10 +4648,10 @@
             6.0
           ],
           "speed_boost": [
-            30.0,
-            45.0,
-            60.0,
-            75.0
+            25.0,
+            40.0,
+            55.0,
+            70.0
           ]
         },
         "Keywords": [
@@ -4868,7 +4881,7 @@
         "Id": 6047,
         "Key": "special_bonus_unique_dark_seer",
         "HeroId": 55,
-        "Name": "+100 Ion Shell Damage",
+        "Name": "+80 Ion Shell Damage",
         "Description": null
       },
       {
@@ -5365,8 +5378,8 @@
         "Linked": null,
         "AbilitySpecial": {
           "cooldown_reduction": [
-            20.0,
-            35.0,
+            26.0,
+            38.0,
             50.0
           ],
           "armor_reduction": [
@@ -5395,10 +5408,10 @@
         "Description": null
       },
       {
-        "Id": 5959,
-        "Key": "special_bonus_hp_200",
+        "Id": 6317,
+        "Key": "special_bonus_exp_boost_30",
         "HeroId": 50,
-        "Name": "+200 Health",
+        "Name": "+30% XP Gain",
         "Description": null
       },
       {
@@ -5967,7 +5980,7 @@
         "Id": 7113,
         "Key": "special_bonus_unique_dragon_knight_3",
         "HeroId": 49,
-        "Name": "-25% Breathe Fire Damage Reduction",
+        "Name": "-30% Breathe Fire Damage Reduction",
         "Description": null
       },
       {
@@ -5978,10 +5991,10 @@
         "Description": null
       },
       {
-        "Id": 6195,
-        "Key": "special_bonus_hp_350",
+        "Id": 5976,
+        "Key": "special_bonus_hp_400",
         "HeroId": 49,
-        "Name": "+350 Health",
+        "Name": "+400 Health",
         "Description": null
       },
       {
@@ -6027,7 +6040,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 19,
     "AttributeStrengthGain": 3.6,
-    "AttributeBaseIntelligence": 15,
+    "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 2.0,
@@ -7792,10 +7805,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          22.0,
-          18.0,
-          14.0,
-          10.0
+          20.0,
+          16.0,
+          12.0,
+          8.0
         ],
         "AbilityDuration": [
           3.75,
@@ -8025,7 +8038,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          550
+          575
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -8743,7 +8756,7 @@
     "AttributeBaseStrength": 21,
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 3.9,
+    "AttributeIntelligenceGain": 3.6,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.0,
     "StatusHealth": 200,
@@ -8982,10 +8995,10 @@
             2.0
           ],
           "chance_pct": [
-            10.0,
-            14.0,
-            18.0,
-            22.0
+            12.0,
+            16.0,
+            20.0,
+            24.0
           ],
           "bonus_damage": [
             25.0,
@@ -9133,7 +9146,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
-            425.0
+            450.0
           ],
           "duration": [
             4.0,
@@ -11756,7 +11769,10 @@
           2.5
         ],
         "AbilityCooldown": [
-          30.0
+          30.0,
+          28.0,
+          26.0,
+          24.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -11773,9 +11789,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            1.3,
-            1.7,
-            2.1,
+            1.6,
+            1.9,
+            2.2,
             2.5
           ],
           "destination": [
@@ -11931,8 +11947,8 @@
         "AbilitySpecial": {
           "damage": [
             250.0,
-            375.0,
-            500.0
+            400.0,
+            550.0
           ],
           "jumps": [
             10.0,
@@ -12030,7 +12046,7 @@
         "Id": 6292,
         "Key": "special_bonus_unique_lich_2",
         "HeroId": 31,
-        "Name": "Attacks Apply 50% MS and AS Slow",
+        "Name": "Attacks Apply 60% MS and AS Slow",
         "Description": null
       }
     ],
@@ -12048,7 +12064,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 20,
     "AttributeStrengthGain": 2.1,
-    "AttributeBaseIntelligence": 20,
+    "AttributeBaseIntelligence": 22,
     "AttributeIntelligenceGain": 4.1,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 2.0,
@@ -13898,10 +13914,7 @@
         "AbilityCastRange": [],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.5,
-          0.5,
-          0.5,
-          0.5
+          0.4
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
@@ -14353,7 +14366,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.25,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -14446,9 +14459,9 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          20.0,
           17.0,
-          15.0,
-          13.0,
+          14.0,
           11.0
         ],
         "AbilityDuration": [],
@@ -14459,7 +14472,7 @@
           300.0
         ],
         "AbilityManaCost": [
-          140.0,
+          150.0,
           155.0,
           160.0,
           165.0
@@ -15273,16 +15286,16 @@
             2.3
           ],
           "health_regen": [
-            2.0,
             3.5,
-            5.0,
+            4.5,
+            5.5,
             6.5
           ],
           "mana_regen": [
-            3.0,
-            4.0,
-            5.0,
-            6.0
+            3.5,
+            4.5,
+            5.5,
+            6.5
           ],
           "regen_duration": [
             7.0
@@ -17585,17 +17598,17 @@
     ],
     "Talents": [
       {
-        "Id": 5921,
-        "Key": "special_bonus_all_stats_5",
+        "Id": 5922,
+        "Key": "special_bonus_all_stats_6",
         "HeroId": 13,
-        "Name": "+5 All Stats",
+        "Name": "+6 All Stats",
         "Description": null
       },
       {
-        "Id": 6197,
-        "Key": "special_bonus_cast_range_125",
+        "Id": 6056,
+        "Key": "special_bonus_cast_range_150",
         "HeroId": 13,
-        "Name": "+125 Cast Range",
+        "Name": "+150 Cast Range",
         "Description": null
       },
       {
@@ -17660,7 +17673,7 @@
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 1.7,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.0,
+    "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -18825,10 +18838,10 @@
         "AbilityCastPoint": [],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          32.0,
-          28.0,
           24.0,
-          20.0
+          22.0,
+          20.0,
+          18.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [
@@ -20578,7 +20591,7 @@
         ],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          60.0
+          75.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -20950,7 +20963,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 22,
-    "AttributeStrengthGain": 3.2,
+    "AttributeStrengthGain": 3.0,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 19,
@@ -22014,7 +22027,7 @@
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 2.4,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.0,
+    "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -23767,9 +23780,9 @@
             1000.0
           ],
           "bolt_stun_duration": [
-            1.7,
+            1.4,
+            1.6,
             1.8,
-            1.9,
             2.0
           ],
           "bolt_aoe": [
@@ -23886,7 +23899,7 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          40.0
+          60.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -24966,9 +24979,9 @@
           40.0
         ],
         "AbilityManaCost": [
-          145.0,
+          130.0,
           150.0,
-          165.0,
+          170.0,
           190.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -25176,17 +25189,17 @@
         "Description": null
       },
       {
-        "Id": 6141,
-        "Key": "special_bonus_movement_speed_30",
+        "Id": 5957,
+        "Key": "special_bonus_gold_income_25",
         "HeroId": 34,
-        "Name": "+30 Movement Speed",
+        "Name": "+150 Gold/Min",
         "Description": null
       },
       {
-        "Id": 6564,
-        "Key": "special_bonus_spell_lifesteal_10",
+        "Id": 6550,
+        "Key": "special_bonus_spell_lifesteal_15",
         "HeroId": 34,
-        "Name": "10% Spell Lifesteal",
+        "Name": "15% Spell Lifesteal",
         "Description": null
       },
       {
@@ -25200,7 +25213,7 @@
         "Id": 6952,
         "Key": "special_bonus_unique_tinker_2",
         "HeroId": 34,
-        "Name": "+8 March of the Machines Damage",
+        "Name": "+10 March of the Machines Damage",
         "Description": null
       },
       {
@@ -25980,7 +25993,7 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          10.0
+          9.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -27795,9 +27808,9 @@
           ],
           "bonus_damage": [
             10.0,
-            20.0,
-            30.0,
-            40.0
+            25.0,
+            40.0,
+            55.0
           ]
         },
         "Keywords": [
@@ -31741,8 +31754,6 @@
             44.0
           ],
           "movespeed": [
-            -40.0,
-            -50.0,
             -60.0
           ],
           "slow_durtion_tooltip": [
@@ -32908,8 +32919,8 @@
         "AbilityChannelTime": [],
         "AbilityCooldown": [
           100.0,
-          80.0,
-          60.0
+          90.0,
+          80.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -33145,10 +33156,10 @@
             6.0
           ],
           "damage_share_percentage": [
-            13.0,
-            17.0,
-            21.0,
-            25.0
+            12.0,
+            16.0,
+            20.0,
+            24.0
           ],
           "duration": [
             25.0
@@ -33525,7 +33536,7 @@
         "Id": 6982,
         "Key": "special_bonus_unique_warlock_5",
         "HeroId": 37,
-        "Name": "+5% Fatal Bonds Damage",
+        "Name": "+4% Fatal Bonds Damage",
         "Description": null
       },
       {
@@ -38194,7 +38205,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 27,
@@ -38654,24 +38665,24 @@
     ],
     "Talents": [
       {
-        "Id": 6299,
-        "Key": "special_bonus_magic_resistance_12",
+        "Id": 6014,
+        "Key": "special_bonus_agility_8",
         "HeroId": 56,
-        "Name": "+12% Magic Resistance",
+        "Name": "+8 Agility",
         "Description": null
       },
       {
-        "Id": 5932,
-        "Key": "special_bonus_armor_5",
+        "Id": 6137,
+        "Key": "special_bonus_strength_10",
         "HeroId": 56,
-        "Name": "+5 Armor",
+        "Name": "+10 Strength",
         "Description": null
       },
       {
-        "Id": 6145,
-        "Key": "special_bonus_strength_15",
+        "Id": 7895,
+        "Key": "special_bonus_unique_clinkz_5",
         "HeroId": 56,
-        "Name": "+15 Strength",
+        "Name": "-30s Burning Army Cooldown",
         "Description": null
       },
       {
@@ -38699,7 +38710,7 @@
         "Id": 6231,
         "Key": "special_bonus_unique_clinkz_2",
         "HeroId": 56,
-        "Name": "+3s Strafe Duration",
+        "Name": "+4s Strafe Duration",
         "Description": null
       },
       {
@@ -41964,10 +41975,10 @@
             8.0
           ],
           "illusion_damage_out_pct": [
-            -84.0
+            -82.0
           ],
           "tooltip_illusion_damage": [
-            16.0
+            18.0
           ],
           "illusion_damage_in_pct": [
             550.0
@@ -41987,10 +41998,10 @@
     ],
     "Talents": [
       {
-        "Id": 5972,
-        "Key": "special_bonus_evasion_15",
+        "Id": 5973,
+        "Key": "special_bonus_evasion_20",
         "HeroId": 12,
-        "Name": "15% Evasion",
+        "Name": "20% Evasion",
         "Description": null
       },
       {
@@ -42530,9 +42541,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            3.25,
-            4.0,
-            4.75
+            3.5,
+            4.25,
+            5.0
           ],
           "radius": [
             800.0
@@ -42607,7 +42618,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -2.0,
+    "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 62,
@@ -43284,6 +43295,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
+          110.0,
+          120.0,
+          130.0,
           140.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -46007,7 +46021,7 @@
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 3.6,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.0,
+    "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -46135,9 +46149,9 @@
             1000.0
           ],
           "tether_heal_amp": [
-            1.05,
-            1.2,
-            1.35,
+            0.9,
+            1.1,
+            1.3,
             1.5
           ],
           "self_bonus": [
@@ -46152,7 +46166,7 @@
         "Id": 5486,
         "Key": "wisp_spirits",
         "Name": "Spirits",
-        "Description": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging and slowing all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode. Upgradable by Aghanim's Scepter.",
+        "Description": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode. Upgradable by Aghanim's Scepter.",
         "UpgradeDescription": "Spirits now passively spawn around you constantly every second. Max of 5.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/wisp_spirits.png",
         "HeroId": 91,
@@ -46214,15 +46228,6 @@
             40.0,
             60.0,
             80.0
-          ],
-          "slow": [
-            20.0,
-            40.0,
-            60.0,
-            80.0
-          ],
-          "slow_duration": [
-            0.3
           ],
           "revolution_time": [
             5.0,
@@ -46582,10 +46587,10 @@
     ],
     "Talents": [
       {
-        "Id": 6017,
-        "Key": "special_bonus_exp_boost_20",
+        "Id": 7897,
+        "Key": "special_bonus_unique_wisp_7",
         "HeroId": 91,
-        "Name": "+20% XP Gain",
+        "Name": "Spirits Apply Slow",
         "Description": null
       },
       {
@@ -46639,7 +46644,7 @@
       }
     ],
     "Legs": 0,
-    "ArmorPhysical": -2.0,
+    "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 22,
@@ -46647,11 +46652,11 @@
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.15,
     "AttackAcquisitionRange": 800,
-    "AttackRange": 575,
+    "AttackRange": 500,
     "ProjectileSpeed": 1200,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 17,
-    "AttributeStrengthGain": 2.5,
+    "AttributeStrengthGain": 3.0,
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 14,
@@ -47405,25 +47410,25 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_per_unit": [
-            18.0,
             22.0,
             26.0,
-            30.0
+            30.0,
+            34.0
           ],
           "max_units": [
+            8.0,
             10.0,
             12.0,
-            14.0,
-            16.0
+            14.0
           ],
           "radius": [
             1300.0
           ],
           "tombstone_heal": [
-            2.0,
             4.0,
-            6.0,
-            8.0
+            8.0,
+            12.0,
+            16.0
           ]
         },
         "Keywords": [
@@ -49179,7 +49184,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "reflect_duration": [
-            2.25
+            2.0
           ],
           "stun_duration": [
             0.6,
@@ -49527,7 +49532,7 @@
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
-    "StatusHealthRegen": 3.25,
+    "StatusHealthRegen": 2.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -50013,7 +50018,7 @@
             5.0
           ],
           "radius": [
-            675.0
+            700.0
           ],
           "hit_count": [
             4.0,
@@ -53691,7 +53696,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-    "AttributeBaseStrength": 21,
+    "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 2.7,
@@ -53700,7 +53705,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.25,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -54214,7 +54219,7 @@
     "ProjectileSpeed": 1200,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 15,
-    "AttributeStrengthGain": 1.3,
+    "AttributeStrengthGain": 1.5,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 2.6,
     "AttributeBaseAgility": 22,
@@ -54486,10 +54491,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage": [
-            75.0,
-            125.0,
-            175.0,
-            225.0
+            50.0,
+            100.0,
+            150.0,
+            200.0
           ],
           "hit_radius": [
             100.0
@@ -55424,7 +55429,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 300,
+    "MovementSpeed": 305,
     "MovementTurnRate": 0.7,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -55926,8 +55931,8 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 22,
-    "AttackDamageMax": 32,
+    "AttackDamageMin": 25,
+    "AttackDamageMax": 35,
     "AttackRate": 1.8,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 600,
@@ -56141,9 +56146,9 @@
             800.0
           ],
           "damage": [
-            70.0,
-            140.0,
-            210.0,
+            100.0,
+            160.0,
+            220.0,
             280.0
           ],
           "slow_duration": [
@@ -56418,10 +56423,10 @@
         "Description": null
       },
       {
-        "Id": 5925,
-        "Key": "special_bonus_intelligence_8",
+        "Id": 6317,
+        "Key": "special_bonus_exp_boost_30",
         "HeroId": 101,
-        "Name": "+8 Intelligence",
+        "Name": "+30% XP Gain",
         "Description": null
       },
       {
@@ -56715,8 +56720,8 @@
             15.0
           ],
           "damage_heroes": [
-            15.0,
-            30.0,
+            20.0,
+            40.0,
             60.0,
             80.0
           ],
@@ -59420,7 +59425,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          36.0
+          36.0,
+          34.0,
+          32.0,
+          30.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -59501,12 +59509,7 @@
           1400
         ],
         "AbilityCastRangeBuffer": 250,
-        "AbilityCastPoint": [
-          0.01,
-          0.01,
-          0.01,
-          0.01
-        ],
+        "AbilityCastPoint": [],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
           45.0,
@@ -59881,12 +59884,7 @@
           1400
         ],
         "AbilityCastRangeBuffer": 250,
-        "AbilityCastPoint": [
-          0.01,
-          0.01,
-          0.01,
-          0.01
-        ],
+        "AbilityCastPoint": [],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
           0.0,
@@ -60638,7 +60636,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 15,
-    "AttributeStrengthGain": 1.5,
+    "AttributeStrengthGain": 1.7,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 22,
@@ -63406,7 +63404,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 1.0,
+    "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 37,
@@ -64312,7 +64310,7 @@
         "Id": 6341,
         "Key": "dark_willow_shadow_realm",
         "Name": "Shadow Realm",
-        "Description": "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 4 seconds. Upgradeable by Aghanim's Scepter.",
+        "Description": "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 3.5 seconds. Upgradeable by Aghanim's Scepter.",
         "UpgradeDescription": "Attacking no longer takes you out of Shadow Realm. Each attack still has bonus damage based on the duration of the buff.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/dark_willow_shadow_realm.png",
         "HeroId": 119,
@@ -64372,7 +64370,7 @@
             600.0
           ],
           "max_damage_duration": [
-            4.0
+            3.5
           ],
           "scepter_radius": [
             900.0
