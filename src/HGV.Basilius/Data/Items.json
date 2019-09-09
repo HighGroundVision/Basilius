@@ -167,7 +167,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_armor": [
-        5.0
+        4.0
       ]
     },
     "ItemDeclarations": [],
@@ -3337,7 +3337,7 @@
         0.0
       ],
       "bonus_armor": [
-        6.0
+        5.0
       ]
     },
     "ItemDeclarations": [],
@@ -4500,7 +4500,7 @@
         3.0
       ],
       "bonus_magic_resistance": [
-        6.0
+        5.0
       ]
     },
     "ItemDeclarations": [],
@@ -8461,7 +8461,7 @@
     "Id": 121,
     "Key": "item_bloodstone",
     "Name": null,
-    "Description": "<h1>Active: Bloodpact</h1> Converts 30% of your max mana to health regeneration over 2 seconds.\\n <h1>Passive: Mana Battery</h1>Each charge provides 0.3 HP and MP regen. Nearby kills provide 1 charges. Dying causes you to lose 3 charges. Starts with 14 charges.",
+    "Description": "<h1>Active: Bloodpact</h1> Converts 30% of your max mana to health regeneration over 2 seconds.\\n <h1>Passive: Mana Battery</h1>Each charge provides 0.3 HP and MP regen. Nearby kills provide 1 charges. Dying causes you to lose 3 charges. Starts with 14 charges. Provides 200% Mana Regeneration.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_bloodstone.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12338,7 +12338,7 @@
       "tooltip_range": [
         700.0
       ],
-      "tooltip_bounty": [
+      "bounty_gold": [
         200.0
       ]
     },
@@ -12422,7 +12422,7 @@
     "Id": 166,
     "Key": "item_maelstrom",
     "Name": null,
-    "Description": "<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 160 magical damage to each. Lightning proc pierces evasion.",
+    "Description": "<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 150 magical damage to each. Lightning proc pierces evasion.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_maelstrom.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12439,7 +12439,7 @@
         25.0
       ],
       "chain_damage": [
-        160.0
+        150.0
       ],
       "chain_strikes": [
         4.0
@@ -13643,7 +13643,7 @@
     "Id": 187,
     "Key": "item_medallion_of_courage",
     "Name": null,
-    "Description": "<h1>Active: Valor</h1> If cast on an ally, grants them the 7 armor, and removing it from the caster. <br><br>If cast on an enemy, reduces 7 armor on both the enemy and the caster. <br><br>Cannot target magic immune enemies.<br><br>Range: 1000",
+    "Description": "<h1>Active: Valor</h1> If cast on an ally, grants them the 6 armor, and removing it from the caster. <br><br>If cast on an enemy, reduces 6 armor on both the enemy and the caster. <br><br>Cannot target spell immune enemies.<br><br>Range: 1000",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_medallion_of_courage.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13654,13 +13654,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_armor": [
-        7.0
+        6.0
       ],
       "bonus_mana_regen_pct": [
         0.75
       ],
       "armor_reduction": [
-        -7.0
+        -6.0
       ],
       "duration": [
         7.0
@@ -13749,7 +13749,7 @@
     "Id": 229,
     "Key": "item_solar_crest",
     "Name": null,
-    "Description": "<h1>Active: Shine</h1>When cast on an ally, grants them 12 armor, 80 attack speed, and 10% movement speed. When cast on an enemy, removes 12 armor, 80 attack speed, and 10% movement speed.<br><br>Removes the armor from the caster when used. <br><br> Cannot target magic immune enemies.<br><br>Range: 1000",
+    "Description": "<h1>Active: Shine</h1>When cast on an ally, grants them 10 armor, 80 attack speed, and 10% movement speed. When cast on an enemy, removes 10 armor, 80 attack speed, and 10% movement speed.<br><br>Removes the armor from the caster when used. <br><br> Cannot target spell immune enemies.<br><br>Range: 1000",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_solar_crest.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13760,7 +13760,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_armor": [
-        12.0
+        10.0
       ],
       "bonus_all_stats": [
         10.0
