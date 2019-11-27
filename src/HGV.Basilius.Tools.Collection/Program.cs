@@ -83,7 +83,7 @@ namespace HGV.Basilius.Tools.Collection
             var itemData = itemsData[key];
 
             var item = new Item();
-            item.Id = (int)itemData["ID"];
+            item.Id = (string)itemData["ID"];
             item.Key = key;
 
             var name = "DOTA_Tooltip_ability_" + key;
@@ -274,7 +274,7 @@ namespace HGV.Basilius.Tools.Collection
                 if (ability.Linked != null)
                 {
                     var link = hero.Abilities.Where(_ => _.Key == ability.Linked).FirstOrDefault();
-                    if(link.AbilityDraftEnabled == false)
+                    if(link != null && link.AbilityDraftEnabled == false)
                     {
                         link.AbilityDraftEnabled = ability.AbilityDraftEnabled;
                     }
@@ -321,7 +321,7 @@ namespace HGV.Basilius.Tools.Collection
         private static Talent ExtractTalent(JObject languageAbilties, JObject abiltiesData, string abilityKey)
         {
             var talent = new Talent();
-            talent.Id = getValue<int>(abiltiesData, "ability_base", abilityKey, "ID");
+            talent.Id = getValue<string>(abiltiesData, "ability_base", abilityKey, "ID");
             talent.Key = abilityKey;
 
             var name = "DOTA_Tooltip_ability_" + abilityKey;
@@ -336,9 +336,9 @@ namespace HGV.Basilius.Tools.Collection
             var abilityData = abiltiesData[key];
 
             var ability = new Ability();
-            ability.Id = getValue<int>(abiltiesData, "ability_base", key, "ID");
+            ability.Id = getValue<string>(abiltiesData, "ability_base", key, "ID");
             ability.Key = key;
-            ability.Keywords = keywords.Where(_ => _.id == ability.Id).Select(_ => _.keywords).FirstOrDefault();
+            ability.Keywords = keywords.Where(_ => _.id.ToString() == ability.Id).Select(_ => _.keywords).FirstOrDefault();
 
             var name = "DOTA_Tooltip_ability_" + key;
             var desc = "DOTA_Tooltip_ability_" + key + "_Description";

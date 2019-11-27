@@ -8,7 +8,7 @@ namespace HGV.Basilius
     {
         public static int GENERIC = 6251;
 
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Key { get; set; }
 
         public string Name { get; set; }
