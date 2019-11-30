@@ -44,10 +44,6 @@ namespace HGV.Basilius.Tools.Collection
             JObject rootItems = JObject.Parse(jsonItems);
             JObject itemsData = (JObject)rootItems["DOTAAbilities"];
 
-            var jsonKeywords = File.ReadAllText("ability-keywords.json");
-            var keywords = JsonConvert.DeserializeObject<List<AbilityKeywords>>(jsonKeywords);
-
-
             var activeItems = new List<string>();
             foreach (JProperty property in itemsData.Properties())
             {
@@ -70,7 +66,7 @@ namespace HGV.Basilius.Tools.Collection
             var heroes = new List<Hero>();
             foreach (JProperty property in activeHeroes.Properties())
             {
-                var hero = ExtractHeroData(dataLangDota, dataLangAbilties, abiltiesData, heroesData, property.Name, keywords);
+                var hero = ExtractHeroData(dataLangDota, dataLangAbilties, abiltiesData, heroesData, property.Name);
                 heroes.Add(hero);
             }
 
@@ -135,7 +131,7 @@ namespace HGV.Basilius.Tools.Collection
             return item;
         }
 
-        private static Hero ExtractHeroData(JObject languageDota, JObject languageAbilties, JObject abiltiesData, JObject heroesData, string key, List<AbilityKeywords> keywords)
+        private static Hero ExtractHeroData(JObject languageDota, JObject languageAbilties, JObject abiltiesData, JObject heroesData, string key)
         {
             var heroData = heroesData[key];
 
@@ -237,7 +233,7 @@ namespace HGV.Basilius.Tools.Collection
 
                 if(string.IsNullOrWhiteSpace(abilityKey) == false)
                 {
-                    var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey, keywords);
+                    var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey);
                     ability.HeroId = hero.Id;
 
                     IsAbilityDrafEnabled(hero, abilityDraftIgnoreCount, abilityDraftIncludes, i, abilityKey, ability);
@@ -250,7 +246,7 @@ namespace HGV.Basilius.Tools.Collection
             {
                 if(hero.Abilities.Any(_ => _.Key == abilityKey) == false)
                 {
-                    var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey, keywords);
+                    var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey);
                     ability.HeroId = hero.Id;
                     ability.AbilityDraftEnabled = true;
                     hero.Abilities.Add(ability);
@@ -331,14 +327,13 @@ namespace HGV.Basilius.Tools.Collection
             return talent;
         }
 
-        private static Ability ExtractAbilityData(JObject languageData, JObject abiltiesData, string key, List<AbilityKeywords> keywords)
+        private static Ability ExtractAbilityData(JObject languageData, JObject abiltiesData, string key)
         {
             var abilityData = abiltiesData[key];
 
             var ability = new Ability();
             ability.Id = getValue<string>(abiltiesData, "ability_base", key, "ID");
             ability.Key = key;
-            ability.Keywords = keywords.Where(_ => _.id.ToString() == ability.Id).Select(_ => _.keywords).FirstOrDefault();
 
             var name = "DOTA_Tooltip_ability_" + key;
             var desc = "DOTA_Tooltip_ability_" + key + "_Description";
