@@ -260,18 +260,6 @@ namespace HGV.Basilius.Tools.Collection
                 }
             }
 
-            if (heroData["AbilityDraftAbilities"] != null)
-            {
-                foreach (var item in heroData["AbilityDraftAbilities"])
-                {
-                    if ((string)item == ability.Key)
-                    {
-                        ability.AbilityDraftEnabled = true;
-                        return;
-                    }
-                }
-            }
-
             var uniqueAbilities = new List<string>();
             if (heroData["AbilityDraftUniqueAbilities"] != null)
             {
@@ -281,9 +269,22 @@ namespace HGV.Basilius.Tools.Collection
                 }
             }
 
-            if(ability.IsGrantedByScepter == true && uniqueAbilities.Contains(ability.Key) == false)
+            if (ability.IsGrantedByScepter == true && uniqueAbilities.Contains(ability.Key) == false)
             {
                 ability.AbilityDraftEnabled = false;
+                return;
+            }
+
+            if (heroData["AbilityDraftAbilities"] != null)
+            {
+                foreach (var item in heroData["AbilityDraftAbilities"])
+                {
+                    if ((string)item == ability.Key)
+                    {
+                        ability.AbilityDraftEnabled = true;
+                    }
+                }
+
                 return;
             }
 

@@ -2397,7 +2397,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -5771,7 +5771,7 @@
         "AbilityModifierSupportValue": 0.35,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 2,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -6041,7 +6041,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "bonus_gold": [
@@ -6267,7 +6267,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -6308,7 +6308,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -12259,7 +12259,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -12339,7 +12339,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -15355,7 +15355,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": "nevermore_shadowraze3",
         "AbilitySpecial": {
           "shadowraze_damage": [
@@ -15557,7 +15557,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "presence_armor_reduction": [
@@ -16842,7 +16842,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -17053,7 +17053,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -22391,7 +22391,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -38927,7 +38927,7 @@
         "AbilityModifierSupportValue": 0.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "stack_damage": [
@@ -39001,7 +39001,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -41421,7 +41421,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "damage_per_second": [
@@ -41656,7 +41656,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "vision_aoe": [
@@ -42293,7 +42293,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "multicast_2_times": [
@@ -44305,7 +44305,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -44346,7 +44346,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -44409,7 +44409,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -44514,7 +44514,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -44555,7 +44555,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -44596,7 +44596,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -45050,7 +45050,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 2,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "beams": [
@@ -47221,7 +47221,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 100.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "trap_radius": [
@@ -48394,7 +48394,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": "nyx_assassin_unburrow",
         "AbilitySpecial": {
           "health_regen_rate": [
@@ -49217,7 +49217,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -49273,7 +49273,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "damage_per_second": [
@@ -50388,7 +50388,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "tooltip_clones": [
@@ -52675,7 +52675,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -53437,7 +53437,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "bonus_hp": [
@@ -53524,7 +53524,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "axe_width": [
@@ -53599,7 +53599,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "damage": [
@@ -55785,7 +55785,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -57664,7 +57664,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "speed_multiplier": [
@@ -58698,7 +58698,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "hp_cost_perc_per_second": [
@@ -58790,7 +58790,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -58972,7 +58972,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "hp_cost_perc": [
@@ -59064,7 +59064,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -59439,7 +59439,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -60053,7 +60053,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -60110,7 +60110,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": "techies_focused_detonate",
         "AbilitySpecial": {
           "aura_radius": [
@@ -61796,7 +61796,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 2,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -62746,7 +62746,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "impact_damage": [
@@ -62887,7 +62887,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 2,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {
           "movespeed": [
@@ -63052,7 +63052,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
@@ -63530,7 +63530,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": "dark_willow_terrorize",
         "AbilitySpecial": {
           "attack_damage": [
