@@ -142,7 +142,7 @@ namespace HGV.Basilius.Tools.Collection
             var hero = new Hero();
             hero.Id = getValue<int>(heroesData, "npc_dota_hero_base", key, "HeroID");
             hero.Key = key;
-            hero.Name = (string)languageDota[key];
+            hero.Name = (string)languageDota[key] ?? (string)languageAbilties[key] ?? "Unknown";
 
             hero.Enabled = isTrue(heroesData, "npc_dota_hero_base", key, "Enabled");
             hero.NewPlayerEnable = isTrue(heroesData, "npc_dota_hero_base", key, "new_player_enable");

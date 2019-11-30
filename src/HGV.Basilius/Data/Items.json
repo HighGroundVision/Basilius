@@ -14632,7 +14632,7 @@
     "Id": "212",
     "Key": "item_ring_of_aquila",
     "Name": null,
-    "Description": "<h1>Passive: Aquila Aura</h1>Grants 0.5 mana regeneration and 2 armor to nearby allies.<br><br>Radius: 1200\\n<h1>Toggle: Aura</h1> Deactivate to stop affecting non-hero units.",
+    "Description": "<h1>Passive: Aquila Aura</h1>Grants 1.25 mana regeneration and 2 armor to nearby allies.<br><br>Radius: 1200\\n<h1>Toggle: Aura</h1> Deactivate to stop affecting non-hero units.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_ring_of_aquila.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14661,7 +14661,7 @@
         1200.0
       ],
       "aura_mana_regen": [
-        0.5
+        1.25
       ],
       "aura_bonus_armor": [
         2.0
@@ -15532,7 +15532,7 @@
         75.0
       ],
       "bonus_mana_regen": [
-        1.5
+        1.0
       ]
     },
     "ItemDeclarations": [],
@@ -15688,7 +15688,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_gpm": [
-        75.0
+        60.0
       ],
       "bonus_mana": [
         200.0
@@ -15842,7 +15842,7 @@
     "Id": "293",
     "Key": "item_phoenix_ash",
     "Name": null,
-    "Description": "<h1>Passive: Rebirth</h1>Lethal damage is prevented and instead the wearer is healed to full. Consumes a charge when triggered.",
+    "Description": "<h1>Passive: Rebirth</h1>Lethal damage is prevented and instead the wearer is healed to half health and non-ultimate ability cooldowns reset. Gets consumed on trigger.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_phoenix_ash.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15852,8 +15852,8 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "bonus_all_stats": [
-        30.0
+      "health_pct": [
+        50.0
       ]
     },
     "ItemDeclarations": [],
@@ -15902,10 +15902,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "cast_range_bonus": [
-        500.0
+        450.0
       ],
       "vision_bonus": [
-        800.0
+        450.0
       ]
     },
     "ItemDeclarations": [],
@@ -16054,13 +16054,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "attack_lifesteal": [
-        10.0
+        14.0
       ],
       "spell_lifesteal": [
-        10.0
+        8.0
       ],
       "night_vision": [
-        450.0
+        250.0
       ]
     },
     "ItemDeclarations": [],
@@ -16213,10 +16213,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "debuff_amp": [
-        35.0
+        25.0
       ],
       "spell_amp": [
-        10.0
+        15.0
       ]
     },
     "ItemDeclarations": [],
@@ -16254,7 +16254,7 @@
     "Id": "301",
     "Key": "item_mirror_shield",
     "Name": null,
-    "Description": "<h1>Passive: Echo Shield</h1> 75% chance to block and reflect most targeted spells back to their caster.<br><br>The wearer will still take damage from the spell.",
+    "Description": "<h1>Passive: Echo Shield</h1> Block and reflect most targeted spells back to their caster every once every 4 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mirror_shield.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16269,6 +16269,9 @@
       ],
       "all_stats": [
         20.0
+      ],
+      "block_cooldown": [
+        4.0
       ]
     },
     "ItemDeclarations": [],
@@ -16515,7 +16518,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "secondary_stats": [
-        14.0
+        13.0
       ]
     },
     "ItemDeclarations": [],
@@ -16660,7 +16663,7 @@
     "Id": "309",
     "Key": "item_mind_breaker",
     "Name": null,
-    "Description": "<h1>Passive: Mana Steal</h1> Grants +30 Manabreak on attack, and grants you the stolen mana. Illusions deal +6 Manabreak.",
+    "Description": "<h1>Passive: Silence Strike</h1> The next attack silences the hit enemy for 4 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mind_breaker.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16670,17 +16673,14 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "mana_break": [
-        30.0
+      "magic_damage": [
+        25.0
       ],
-      "mana_break_illusion": [
-        6.0
+      "attack_speed": [
+        25.0
       ],
-      "magic_resist": [
-        15.0
-      ],
-      "damage_per_burn": [
-        0.5
+      "duration": [
+        4.0
       ]
     },
     "ItemDeclarations": [],
@@ -16733,6 +16733,9 @@
       ],
       "bonus_vision": [
         300.0
+      ],
+      "bonus_all_stats": [
+        7.0
       ]
     },
     "ItemDeclarations": [],
@@ -16770,7 +16773,7 @@
     "Id": "311",
     "Key": "item_spell_prism",
     "Name": null,
-    "Description": "<h1>Active: Duplicate</h1> Causes the next single targeted non-ultimate spell or item to be also cast onto a different nearby enemy. Prioritizes heroes.",
+    "Description": "<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items by 20%.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_spell_prism.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16780,11 +16783,14 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "duration": [
+      "bonus_cooldown": [
         20.0
       ],
       "bonus_all_stats": [
-        8.0
+        12.0
+      ],
+      "mana_regen": [
+        4.0
       ]
     },
     "ItemDeclarations": [],
@@ -16888,10 +16894,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "max_health": [
-        28.0
+        1000.0
       ],
       "max_mana": [
-        40.0
+        400.0
       ]
     },
     "ItemDeclarations": [],
@@ -16929,7 +16935,7 @@
     "Id": "334",
     "Key": "item_imp_claw",
     "Name": null,
-    "Description": "<h1>Passive: Critical Strike</h1> Empowers your next attack, causing it to be a critical strike dealing 160% damage.",
+    "Description": "<h1>Passive: Critical Strike</h1> Empowers your next attack, causing it to be a critical strike dealing 130% damage.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_imp_claw.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16940,10 +16946,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "crit_multiplier": [
-        160.0
+        130.0
       ],
       "bonus_damage": [
-        18.0
+        24.0
       ]
     },
     "ItemDeclarations": [],
@@ -17246,7 +17252,7 @@
     "Id": "331",
     "Key": "item_vambrace",
     "Name": null,
-    "Description": "Also provides one of the following, based on the Vambrace's main attribute:\\n <font color='#ec3d06'>Strength:</font> +12% Magic Resistance \\n <font color='#3ed038'>Agility:</font> +12 Attack Speed \\n <font color='#00d9ec'>Intelligence:</font> +8% Spell Amp",
+    "Description": "Also provides one of the following, based on the Vambrace's main attribute:\\n <font color='#ec3d06'>Strength:</font> +10% Magic Resistance \\n <font color='#3ed038'>Agility:</font> +10 Attack Speed \\n <font color='#00d9ec'>Intelligence:</font> +6% Spell Amp",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_vambrace.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -17257,19 +17263,19 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_primary_stat": [
-        14.0
+        12.0
       ],
       "bonus_secondary_stat": [
-        8.0
+        6.0
       ],
       "bonus_spell_amp": [
-        8.0
+        6.0
       ],
       "bonus_magic_resistance": [
-        12.0
+        10.0
       ],
       "bonus_attack_speed": [
-        12.0
+        10.0
       ]
     },
     "ItemDeclarations": [],
@@ -17419,13 +17425,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "all_stats": [
-        4.0
+        5.0
       ],
       "water_hp_regen": [
-        10.0
+        6.0
       ],
       "water_mp_regen": [
-        5.0
+        3.0
       ]
     },
     "ItemDeclarations": [],
@@ -17755,7 +17761,7 @@
         5.0
       ],
       "mana_regen": [
-        3.0
+        2.0
       ]
     },
     "ItemDeclarations": [],
@@ -17859,7 +17865,7 @@
         20.0
       ],
       "passive_movement_bonus": [
-        25.0
+        30.0
       ],
       "visibility_radius": [
         1025.0
@@ -17916,7 +17922,7 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "illusions_bonus_damage": [
+      "attack_damage_aura": [
         10.0
       ],
       "illusion_duration": [
@@ -18216,7 +18222,7 @@
         50.0
       ],
       "bonus_hp_regen": [
-        50.0
+        70.0
       ],
       "active_duration": [
         3.0
@@ -18322,7 +18328,7 @@
         35.0
       ],
       "summon_duration": [
-        90.0
+        75.0
       ]
     },
     "ItemDeclarations": [],
@@ -18650,7 +18656,7 @@
         225.0
       ],
       "bonus_movement_speed": [
-        20.0
+        25.0
       ]
     },
     "ItemDeclarations": [],
@@ -18866,20 +18872,8 @@
       "bonus_attack_speed": [
         50.0
       ],
-      "cleave": [
-        50.0
-      ],
-      "cleave_starting_width": [
-        150.0
-      ],
-      "cleave_ending_width": [
-        400.0
-      ],
-      "cleave_distance": [
-        650.0
-      ],
-      "splash_radius": [
-        250.0
+      "demolish": [
+        25.0
       ]
     },
     "ItemDeclarations": [],
@@ -18986,13 +18980,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "base_attack_damage": [
-        22.0
+        16.0
       ],
       "magic_resistance": [
-        22.0
+        16.0
       ],
       "status_resistance": [
-        22.0
+        16.0
       ]
     },
     "ItemDeclarations": [],

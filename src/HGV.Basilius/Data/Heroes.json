@@ -696,10 +696,10 @@
             64.0
           ],
           "mana_per_hit_pct": [
+            1.0,
             2.0,
             3.0,
-            4.0,
-            5.0
+            4.0
           ],
           "silence_chance": [
             15.0
@@ -1086,7 +1086,7 @@
     "AttributeBaseIntelligence": 12,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 24,
-    "AttributeAgilityGain": 3.2,
+    "AttributeAgilityGain": 3.0,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -3901,9 +3901,9 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          11.0,
+          14.0,
+          12.0,
           10.0,
-          9.0,
           8.0
         ],
         "AbilityDuration": [],
@@ -4081,16 +4081,16 @@
         "Linked": null,
         "AbilitySpecial": {
           "mana_regen": [
+            0.5,
             1.0,
             1.5,
-            2.0,
-            2.5
+            2.0
           ],
           "magic_resistance": [
-            4.0,
+            5.0,
             6.0,
-            8.0,
-            10.0
+            7.0,
+            8.0
           ],
           "self_factor": [
             2.0
@@ -4360,7 +4360,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
-    "StatusManaRegen": 1.0,
+    "StatusManaRegen": 1.5,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -6773,7 +6773,7 @@
         ]
       },
       {
-        "Id": "343E",
+        "Id": "343",
         "Key": "drow_ranger_multishot",
         "Name": "Multishot",
         "Description": "Channeling. Drow releases a flurry of arrows in continuous salvos, hitting enemies for extra damage and applying longer duration Frost Arrows. Lasts up to %abilitychanneltime% seconds.",
@@ -6808,9 +6808,9 @@
           1.75
         ],
         "AbilityCooldown": [
-          32.0,
-          28.0,
+          26.0,
           24.0,
+          22.0,
           20.0
         ],
         "AbilityDuration": [],
@@ -6982,14 +6982,14 @@
             40.0
           ],
           "bonus_damage": [
-            40.0,
-            50.0,
-            60.0
+            70.0,
+            80.0,
+            90.0
           ],
           "agility_multiplier": [
-            25.0,
-            30.0,
-            35.0
+            35.0,
+            40.0,
+            45.0
           ],
           "agility_range": [
             1200.0
@@ -7089,7 +7089,7 @@
     "AttributeBaseIntelligence": 15,
     "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 20,
-    "AttributeAgilityGain": 2.6,
+    "AttributeAgilityGain": 2.9,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -10193,15 +10193,15 @@
     ],
     "Talents": [
       {
-        "Id": "5921",
-        "Key": "special_bonus_all_stats_5",
+        "Id": "5922",
+        "Key": "special_bonus_all_stats_6",
         "HeroId": 8,
         "Name": "+{s:value} All Stats",
         "Description": null
       },
       {
-        "Id": "5918",
-        "Key": "special_bonus_movement_speed_20",
+        "Id": "5919",
+        "Key": "special_bonus_movement_speed_25",
         "HeroId": 8,
         "Name": "+{s:value} Movement Speed",
         "Description": null
@@ -12443,23 +12443,18 @@
           "damage_increase_pct": [
             50.0
           ],
-          "bonus_movement_speed_hero": [
-            30.0,
-            40.0,
-            50.0
-          ],
-          "bonus_movement_speed_creep": [
+          "bonus_movement_speed": [
             15.0,
             20.0,
             25.0
           ],
           "bonus_health": [
-            750.0,
-            1000.0,
-            1250.0
+            400.0,
+            800.0,
+            1200.0
           ],
           "cooldown_scepter": [
-            20.0
+            25.0
           ],
           "cast_range_scepter": [
             600.0
@@ -14555,10 +14550,10 @@
             0.04
           ],
           "bonus_attributes": [
-            1.0,
             3.0,
             5.0,
-            7.0
+            7.0,
+            9.0
           ],
           "morph_rate_tooltip": [
             1.0,
@@ -14619,10 +14614,10 @@
             0.04
           ],
           "bonus_attributes": [
-            1.0,
             3.0,
             5.0,
-            7.0
+            7.0,
+            9.0
           ],
           "morph_rate_tooltip": [
             1.0,
@@ -14784,10 +14779,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "bonus_attributes": [
-            1.0,
             3.0,
             5.0,
-            7.0
+            7.0,
+            9.0
           ]
         },
         "Keywords": null
@@ -14795,8 +14790,8 @@
     ],
     "Talents": [
       {
-        "Id": "6029",
-        "Key": "special_bonus_agility_10",
+        "Id": "7386",
+        "Key": "special_bonus_agility_12",
         "HeroId": 10,
         "Name": "+{s:value} Agility",
         "Description": null
@@ -14852,7 +14847,7 @@
       }
     ],
     "Legs": 0,
-    "ArmorPhysical": -3.0,
+    "ArmorPhysical": -2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 9,
@@ -14863,10 +14858,10 @@
     "AttackRange": 350,
     "ProjectileSpeed": 1300,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
-    "AttributeBaseStrength": 20,
+    "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 3.0,
-    "AttributeBaseIntelligence": 13,
-    "AttributeIntelligenceGain": 1.1,
+    "AttributeBaseIntelligence": 15,
+    "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 4.3,
     "StatusHealth": 200,
@@ -17867,7 +17862,7 @@
         "Key": "pudge_dismember",
         "Name": "Dismember",
         "Description": "CHANNELED - Pudge chows down on an enemy unit, disabling it and dealing damage over time. Pudge gets healed for the same amount he damages. Lasts longer on creeps.",
-        "UpgradeDescription": "Reduces cooldown and allows targeting an ally to swallow them and heal them for %scepter_regen_pct%% of their max health per second. The ally can exit whenever they want by issuing a command.",
+        "UpgradeDescription": "Reduces cooldown and allows targeting an ally to swallow them and heal them for %scepter_regen_pct%%% of their max health per second. The ally can exit whenever they want by issuing a command.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/pudge_dismember.png",
         "HeroId": 14,
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
@@ -18490,9 +18485,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "health_drain": [
-            150.0,
-            250.0,
-            350.0
+            175.0,
+            275.0,
+            375.0
           ],
           "scepter_cooldown": [
             0.0,
@@ -19453,16 +19448,16 @@
         "Linked": null,
         "AbilitySpecial": {
           "movement_speed_pct": [
-            4.0,
-            6.0,
-            8.0,
-            10.0
+            3.0,
+            5.0,
+            7.0,
+            9.0
           ],
           "self_movement_speed_pct": [
-            8.0,
-            12.0,
-            16.0,
-            20.0
+            6.0,
+            10.0,
+            14.0,
+            18.0
           ],
           "radius": [
             1200.0
@@ -19606,8 +19601,8 @@
             500.0
           ],
           "passive_area_damage": [
-            80.0,
-            110.0,
+            60.0,
+            100.0,
             140.0
           ],
           "passive_area_interval": [
@@ -19648,8 +19643,8 @@
         "Description": null
       },
       {
-        "Id": "5929",
-        "Key": "special_bonus_agility_15",
+        "Id": "6029",
+        "Key": "special_bonus_agility_10",
         "HeroId": 15,
         "Name": "+{s:value} Agility",
         "Description": null
@@ -20121,9 +20116,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_multiplier": [
-            1.0,
-            1.5,
-            2.0
+            1.4,
+            1.8,
+            2.2
           ],
           "backstab_angle": [
             105.0,
@@ -25974,15 +25969,15 @@
         "AbilitySpecial": {
           "bonus_attributes": [
             4.0,
-            8.0,
-            12.0,
-            16.0
+            7.0,
+            10.0,
+            13.0
           ],
           "bonus_attack_range": [
             60.0,
-            100.0,
-            140.0,
-            180.0
+            90.0,
+            120.0,
+            150.0
           ],
           "aura_radius": [
             1200.0
@@ -26185,10 +26180,10 @@
         "Description": null
       },
       {
-        "Id": "323",
-        "Key": "special_bonus_unique_vengeful_spirit_7",
+        "Id": "6310",
+        "Key": "special_bonus_unique_vengeful_spirit_1",
         "HeroId": 20,
-        "Name": "Vengeance Aura Illusion Casts Spells",
+        "Name": "+{s:value} Magic Missile Damage",
         "Description": null
       },
       {
@@ -26199,10 +26194,10 @@
         "Description": null
       },
       {
-        "Id": "6310",
-        "Key": "special_bonus_unique_vengeful_spirit_1",
+        "Id": "323",
+        "Key": "special_bonus_unique_vengeful_spirit_7",
         "HeroId": 20,
-        "Name": "+{s:value} Magic Missile Damage",
+        "Name": "Vengeance Aura Illusion Casts Spells",
         "Description": null
       },
       {
@@ -26217,8 +26212,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 14,
-    "AttackDamageMax": 22,
+    "AttackDamageMin": 21,
+    "AttackDamageMax": 31,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 800,
@@ -26226,10 +26221,10 @@
     "ProjectileSpeed": 1500,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 19,
-    "AttributeStrengthGain": 2.9,
+    "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 17,
     "AttributeIntelligenceGain": 1.5,
-    "AttributeBaseAgility": 27,
+    "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 3.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
@@ -31657,7 +31652,7 @@
     "ProjectileSpeed": 1400,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 21,
-    "AttributeStrengthGain": 3.1,
+    "AttributeStrengthGain": 3.4,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 15,
@@ -34722,9 +34717,9 @@
             385.0
           ],
           "movement_slow": [
+            -10.0,
             -25.0,
-            -35.0,
-            -45.0,
+            -40.0,
             -55.0
           ],
           "hop_distance": [
@@ -34983,8 +34978,8 @@
         "AbilityCastPoint": [],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          70.0,
           50.0,
-          40.0,
           30.0
         ],
         "AbilityDuration": [],
@@ -35082,7 +35077,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 2.0,
+    "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 24,
@@ -39023,14 +39018,14 @@
             700.0
           ],
           "damage_multiplier": [
-            0.4,
             0.5,
-            0.6
+            0.6,
+            0.7
           ],
           "stack_mana": [
-            30.0,
             40.0,
-            50.0
+            50.0,
+            60.0
           ],
           "counter_duration": [
             35.0
@@ -39112,10 +39107,10 @@
     "AttackRange": 450,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
-    "AttributeBaseStrength": 19,
-    "AttributeStrengthGain": 2.6,
-    "AttributeBaseIntelligence": 28,
-    "AttributeIntelligenceGain": 3.5,
+    "AttributeBaseStrength": 21,
+    "AttributeStrengthGain": 2.9,
+    "AttributeBaseIntelligence": 30,
+    "AttributeIntelligenceGain": 4.2,
     "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 2.0,
     "StatusHealth": 200,
@@ -40000,7 +39995,7 @@
         "Id": "333",
         "Key": "lycan_wolf_bite",
         "Name": "Wolf Bite",
-        "Description": "Lycan bites an ally, granting them Shapeshift properties. Lycan and the bitten target gain 30% Lifesteal and share %lifesteal% Lifesteal with each other as long as they are within 1200 range of each other.",
+        "Description": "Lycan bites an ally, granting them Shapeshift properties. Lycan and the bitten target gain 30% Lifesteal and share %lifesteal%% Lifesteal with each other as long as they are within 1200 range of each other.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/lycan_wolf_bite.png",
         "HeroId": 77,
@@ -41898,7 +41893,6 @@
         "HeroId": 83,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
           "DOTA_ABILITY_BEHAVIOR_POINT"
         ],
         "AbilityUnitTargetTeam": null,
@@ -41923,7 +41917,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          20.0
+          20.0,
+          19.0,
+          18.0,
+          17.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -42005,7 +42002,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          16.0
+          16.0,
+          15.0,
+          14.0,
+          13.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -42287,8 +42287,6 @@
             800.0
           ],
           "damage": [
-            50.0,
-            75.0,
             100.0
           ]
         },
@@ -43279,9 +43277,9 @@
           ],
           "crit_max": [
             140.0,
-            165.0,
-            190.0,
-            215.0
+            170.0,
+            200.0,
+            230.0
           ],
           "lifesteal": [
             25.0,
@@ -47458,9 +47456,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "slow": [
-            30.0,
-            35.0,
-            40.0
+            40.0,
+            45.0,
+            50.0
           ],
           "damage": [
             15.0,
@@ -47471,9 +47469,9 @@
             5.0
           ],
           "str_percentage": [
-            30.0,
             40.0,
-            50.0
+            50.0,
+            60.0
           ],
           "duration": [
             30.0
@@ -57934,7 +57932,7 @@
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
         "AbilityUnitTargetFlags": [],
-        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
         "SpellDispellableType": "SPELL_DISPELLABLE_YES",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "IsSkill": false,
@@ -58649,7 +58647,7 @@
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 2.1,
+    "AttributeAgilityGain": 2.6,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
@@ -60611,10 +60609,10 @@
             3.0
           ],
           "charge_restore_time": [
-            15.0
+            23.0
           ],
           "cast_range_scepter_bonus": [
-            400.0
+            300.0
           ]
         },
         "Keywords": [
@@ -60700,7 +60698,7 @@
             600.0
           ],
           "cast_range_scepter_bonus": [
-            400.0
+            300.0
           ]
         },
         "Keywords": [
@@ -60971,7 +60969,7 @@
             425.0
           ],
           "cast_range_scepter_bonus": [
-            400.0
+            300.0
           ],
           "vision_radius": [
             500.0
@@ -66430,7 +66428,7 @@
   },
   {
     "Id": 128,
-    "Name": null,
+    "Name": "Snapfire",
     "Key": "npc_dota_hero_snapfire",
     "ImageProfile": "https://hgv-hyperstone.azurewebsites.net/heroes/profile/npc_dota_hero_snapfire.png",
     "ImageIcon": "https://hgv-hyperstone.azurewebsites.net/heroes/icons/npc_dota_hero_snapfire.png",
@@ -66556,7 +66554,7 @@
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
         "AbilityUnitTargetType": [
           "DOTA_UNIT_TARGET_HERO",
-          "DOTA_UNIT_TARGET_BASIC"
+          "DOTA_UNIT_TARGET_CREEP"
         ],
         "AbilityUnitTargetFlags": [],
         "SpellImmunityType": null,
@@ -66568,7 +66566,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          500
+          700
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -66623,10 +66621,10 @@
             300.0
           ],
           "impact_stun_duration": [
-            1.4,
             1.6,
-            1.8,
-            2.0
+            1.9,
+            2.2,
+            2.5
           ],
           "self_cast_delay": [
             0.4
@@ -66686,10 +66684,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage": [
-            30.0,
             45.0,
             60.0,
-            75.0
+            75.0,
+            90.0
           ],
           "buffed_attacks": [
             6.0
@@ -66869,9 +66867,9 @@
             275.0
           ],
           "damage_per_impact": [
-            175.0,
-            250.0,
-            325.0
+            200.0,
+            300.0,
+            400.0
           ],
           "duration_tooltip": [
             6.0
@@ -66891,7 +66889,7 @@
             100.0
           ],
           "move_slow_pct": [
-            15.0
+            25.0
           ],
           "burn_ground_duration": [
             3.0
@@ -66903,10 +66901,10 @@
             600.0
           ],
           "min_lob_travel_time": [
-            1.0
+            0.8
           ],
           "max_lob_travel_time": [
-            2.5
+            2.0
           ],
           "delay_after_last_projectile": [
             0.5
@@ -66977,7 +66975,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 30,
@@ -66989,7 +66987,7 @@
     "ProjectileSpeed": 1800,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 20,
-    "AttributeStrengthGain": 2.3,
+    "AttributeStrengthGain": 3.3,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 16,
@@ -67022,7 +67020,7 @@
   },
   {
     "Id": 126,
-    "Name": null,
+    "Name": "Void Spirit",
     "Key": "npc_dota_hero_void_spirit",
     "ImageProfile": "https://hgv-hyperstone.azurewebsites.net/heroes/profile/npc_dota_hero_void_spirit.png",
     "ImageIcon": "https://hgv-hyperstone.azurewebsites.net/heroes/icons/npc_dota_hero_void_spirit.png",
@@ -67427,7 +67425,7 @@
         "AbilityCastRange": [],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.4
+          0.2
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
@@ -67461,9 +67459,9 @@
             200.0
           ],
           "max_travel_distance": [
-            600.0,
-            800.0,
-            1000.0
+            700.0,
+            900.0,
+            1100.0
           ],
           "pop_damage_delay": [
             1.25
@@ -67553,7 +67551,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 22,
-    "AttributeStrengthGain": 2.5,
+    "AttributeStrengthGain": 2.8,
     "AttributeBaseIntelligence": 24,
     "AttributeIntelligenceGain": 3.1,
     "AttributeBaseAgility": 19,
