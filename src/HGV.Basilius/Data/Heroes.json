@@ -41656,7 +41656,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "vision_aoe": [
@@ -48394,7 +48394,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": "nyx_assassin_unburrow",
         "AbilitySpecial": {
           "health_regen_rate": [

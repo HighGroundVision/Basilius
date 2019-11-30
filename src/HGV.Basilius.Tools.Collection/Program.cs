@@ -237,12 +237,14 @@ namespace HGV.Basilius.Tools.Collection
 
         private static void IsAbilityDrafEnabled(int abilityIndex, Ability ability, Hero hero, JObject heroesData)
         {
+            // Gruads
             if (hero.AbilityDraftEnabled == false)
             {
                 ability.AbilityDraftEnabled = false;
                 return;
             }
 
+            // Gruads
             if (ability.Key == "generic_hidden")
             {
                 ability.AbilityDraftEnabled = false;
@@ -251,6 +253,7 @@ namespace HGV.Basilius.Tools.Collection
 
             var heroData = heroesData[hero.Key];
 
+            // Gruads
             if (heroData["AbilityDraftIgnoreCount"] != null)
             {
                 if ((int)heroData["AbilityDraftIgnoreCount"] == abilityIndex)
@@ -260,21 +263,27 @@ namespace HGV.Basilius.Tools.Collection
                 }
             }
 
-            var uniqueAbilities = new List<string>();
-            if (heroData["AbilityDraftUniqueAbilities"] != null)
+            // Checks
+            if (ability.IsGrantedByScepter == true)
             {
-                foreach (var item in heroData["AbilityDraftUniqueAbilities"])
+                var uniqueAbilities = new List<string>();
+                if (heroData["AbilityDraftUniqueAbilities"] != null)
                 {
-                    uniqueAbilities.Add((string)item);
+                    foreach (var item in heroData["AbilityDraftUniqueAbilities"])
+                    {
+                        uniqueAbilities.Add((string)item);
+                    }
                 }
-            }
 
-            if (ability.IsGrantedByScepter == true && uniqueAbilities.Contains(ability.Key) == false)
-            {
-                ability.AbilityDraftEnabled = false;
+                if (uniqueAbilities.Contains(ability.Key))
+                {
+                    ability.AbilityDraftEnabled = true;
+                }
+
                 return;
             }
 
+            // Checks
             if (heroData["AbilityDraftAbilities"] != null)
             {
                 foreach (var item in heroData["AbilityDraftAbilities"])
@@ -284,11 +293,11 @@ namespace HGV.Basilius.Tools.Collection
                         ability.AbilityDraftEnabled = true;
                     }
                 }
-
-                return;
             }
-
-            ability.AbilityDraftEnabled = true;
+            else
+            {
+                ability.AbilityDraftEnabled = true;
+            }
         }
 
         private static Talent ExtractTalent(JObject languageAbilties, JObject abiltiesData, string abilityKey)
