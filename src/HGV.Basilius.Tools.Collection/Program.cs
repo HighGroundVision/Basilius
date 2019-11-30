@@ -133,8 +133,6 @@ namespace HGV.Basilius.Tools.Collection
 
         private static Hero ExtractHeroData(JObject languageDota, JObject languageAbilties, JObject abiltiesData, JObject heroesData, string key)
         {
-            var heroData = heroesData[key];
-
             var hero = new Hero();
             hero.Id = getValue<int>(heroesData, "npc_dota_hero_base", key, "HeroID");
             hero.Key = key;
@@ -203,56 +201,25 @@ namespace HGV.Basilius.Tools.Collection
             hero.VisionDaytimeRange = getValue<int>(heroesData, "npc_dota_hero_base", key, "VisionDaytimeRange");
             hero.VisionNighttimeRange = getValue<int>(heroesData, "npc_dota_hero_base", key, "VisionNighttimeRange");
 
-            var abilityDraftIgnoreCount = getValue<int>(heroesData, "npc_dota_hero_base", key, "AbilityDraftIgnoreCount");
-            var abilityDraftIncludes = new List<string>();
-            if (hero.AbilityDraftEnabled == true)
-            {
-                if(heroData["AbilityDraftAbilities"] != null)
-                {
-                    foreach (var item in heroData["AbilityDraftAbilities"])
-                    {
-                        abilityDraftIncludes.Add((string)item);
-                    }
-                }
-
-                if(heroData["AbilityDraftUniqueAbilities"] != null)
-                {
-                    foreach (var item in heroData["AbilityDraftUniqueAbilities"])
-                    {
-                        abilityDraftIncludes.Add((string)item);
-                    }
-                }
-            }
-
-            // Get Abilties and Talents
+            // Get Abilties
             var abilityTalentStart = getValue<int>(heroesData, "npc_dota_hero_base", key, "AbilityTalentStart");
             for (int i = 1; i < abilityTalentStart; i++)
             {
                 var field = string.Format("Ability{0}", i);
                 var abilityKey = getValue<string>(heroesData, "npc_dota_hero_base", key, field);
 
-                if(string.IsNullOrWhiteSpace(abilityKey) == false)
+                if (string.IsNullOrWhiteSpace(abilityKey) == false)
                 {
                     var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey);
                     ability.HeroId = hero.Id;
 
-                    IsAbilityDrafEnabled(hero, abilityDraftIgnoreCount, abilityDraftIncludes, i, abilityKey, ability);
+                    IsAbilityDrafEnabled(i, ability, hero, heroesData);
 
                     hero.Abilities.Add(ability);
                 }
             }
 
-            foreach (var abilityKey in abilityDraftIncludes)
-            {
-                if(hero.Abilities.Any(_ => _.Key == abilityKey) == false)
-                {
-                    var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey);
-                    ability.HeroId = hero.Id;
-                    ability.AbilityDraftEnabled = true;
-                    hero.Abilities.Add(ability);
-                }
-            }
-
+            // Get Talents
             for (int i = abilityTalentStart; i <= 24; i++)
             {
                 var field = string.Format("Ability{0}", i);
@@ -265,53 +232,62 @@ namespace HGV.Basilius.Tools.Collection
                 }
             }
 
-            foreach (var ability in hero.Abilities)
-            {
-                if (ability.Linked != null)
-                {
-                    var link = hero.Abilities.Where(_ => _.Key == ability.Linked).FirstOrDefault();
-                    if(link != null && link.AbilityDraftEnabled == false)
-                    {
-                        link.AbilityDraftEnabled = ability.AbilityDraftEnabled;
-                    }
-                }
-            }
-
             return hero;
         }
 
-        private static void IsAbilityDrafEnabled(Hero hero, int abilityDraftIgnoreCount, List<string> abilityDraftIncludes, int i, string abilityKey, Ability ability)
+        private static void IsAbilityDrafEnabled(int abilityIndex, Ability ability, Hero hero, JObject heroesData)
         {
-            if (hero.AbilityDraftEnabled == true)
-            {
-                if (abilityKey == "generic_hidden")
-                {
-                    ability.AbilityDraftEnabled = false;
-                }
-                else if (abilityDraftIgnoreCount == i)
-                {
-                    ability.AbilityDraftEnabled = false;
-                }
-                else if (abilityDraftIncludes.Count > 0)
-                {
-                    if (abilityDraftIncludes.Any(_ => _ == abilityKey))
-                    {
-                        ability.AbilityDraftEnabled = true;
-                    }
-                    else
-                    {
-                        ability.AbilityDraftEnabled = false;
-                    }
-                }
-                else
-                {
-                    ability.AbilityDraftEnabled = true;
-                }
-            }
-            else
+            if (hero.AbilityDraftEnabled == false)
             {
                 ability.AbilityDraftEnabled = false;
+                return;
             }
+
+            if (ability.Key == "generic_hidden")
+            {
+                ability.AbilityDraftEnabled = false;
+                return;
+            }
+
+            var heroData = heroesData[hero.Key];
+
+            if (heroData["AbilityDraftIgnoreCount"] != null)
+            {
+                if ((int)heroData["AbilityDraftIgnoreCount"] == abilityIndex)
+                {
+                    ability.AbilityDraftEnabled = false;
+                    return;
+                }
+            }
+
+            if (heroData["AbilityDraftAbilities"] != null)
+            {
+                foreach (var item in heroData["AbilityDraftAbilities"])
+                {
+                    if ((string)item == ability.Key)
+                    {
+                        ability.AbilityDraftEnabled = true;
+                        return;
+                    }
+                }
+            }
+
+            var uniqueAbilities = new List<string>();
+            if (heroData["AbilityDraftUniqueAbilities"] != null)
+            {
+                foreach (var item in heroData["AbilityDraftUniqueAbilities"])
+                {
+                    uniqueAbilities.Add((string)item);
+                }
+            }
+
+            if(ability.IsGrantedByScepter == true && uniqueAbilities.Contains(ability.Key) == false)
+            {
+                ability.AbilityDraftEnabled = false;
+                return;
+            }
+
+            ability.AbilityDraftEnabled = true;
         }
 
         private static Talent ExtractTalent(JObject languageAbilties, JObject abiltiesData, string abilityKey)
@@ -355,6 +331,7 @@ namespace HGV.Basilius.Tools.Collection
             ability.AbilityUnitDamageType = getValue<string>(abiltiesData, "ability_base", key, "AbilityUnitDamageType");
 
             ability.HasScepterUpgrade = isTrue(abiltiesData, "ability_base", key, "HasScepterUpgrade");
+            ability.IsGrantedByScepter = isTrue(abiltiesData, "ability_base", key, "IsGrantedByScepter");
 
             ability.OnCastbar = isTrue(abiltiesData, "ability_base", key, "OnCastbar");
             ability.OnLearnbar = isTrue(abiltiesData, "ability_base", key, "OnLearnbar");
