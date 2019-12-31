@@ -9,6 +9,8 @@ namespace HGV.Basilius
 {
     public class MetaClient
     {
+        public static Lazy<MetaClient> Instance = new Lazy<MetaClient>(() => new MetaClient());
+
         List<Hero> heroes { get; set; }
         List<Item> items { get; set; }
         List<Ability> abilities { get; set; }
@@ -18,7 +20,7 @@ namespace HGV.Basilius
         Dictionary<int, string> regions { get; set; }
         Dictionary<int, string> modes { get; set; }
 
-        public MetaClient()
+        private MetaClient()
         {
             this.heroes = new List<Hero>();
             this.items = new List<Item>();

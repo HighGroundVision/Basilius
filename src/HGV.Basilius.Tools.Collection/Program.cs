@@ -11,12 +11,7 @@ namespace HGV.Basilius.Tools.Collection
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Task.Run(Worker).Wait();
-        }
-
-        static async Task Worker()
+        static async Task Main(string[] args)
         {
             HttpClient client = new HttpClient();
 
@@ -56,7 +51,7 @@ namespace HGV.Basilius.Tools.Collection
             var activeItems = new List<string>();
             foreach (JProperty property in itemsData.Properties())
             {
-                if(property.Name == "Version")
+                if (property.Name == "Version")
                     continue;
 
                 activeItems.Add(property.Name);
