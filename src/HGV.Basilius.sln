@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HGV.Basilius", "HGV.Basilius\HGV.Basilius.csproj", "{35C49C19-760B-4081-AA48-88D91B2AD6FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGV.Basilius.Tools.Collection", "HGV.Basilius.Tools.Collection\HGV.Basilius.Tools.Collection.csproj", "{7F7BE0F7-F359-4B97-82EB-C6A827E73A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HGV.Basilius.Tools.Collection", "HGV.Basilius.Tools.Collection\HGV.Basilius.Tools.Collection.csproj", "{7F7BE0F7-F359-4B97-82EB-C6A827E73A1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

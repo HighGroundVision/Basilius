@@ -12,17 +12,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Data\Cluster.json" />
+    <None Remove="Data\Clusters.json" />
     <None Remove="Data\Heroes.json" />
     <None Remove="Data\Items.json" />
-    <None Remove="Data\Region.json" />
+    <None Remove="Data\Modes.json" />
+    <None Remove="Data\Regions.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Data\Cluster.json" />
+    <EmbeddedResource Include="Data\Clusters.json" />
     <EmbeddedResource Include="Data\Heroes.json" />
     <EmbeddedResource Include="Data\Items.json" />
-    <EmbeddedResource Include="Data\Region.json" />
+    <EmbeddedResource Include="Data\Modes.json" />
+    <EmbeddedResource Include="Data\Regions.json" />
   </ItemGroup>
 
   <ItemGroup>

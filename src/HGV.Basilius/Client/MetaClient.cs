@@ -16,6 +16,7 @@ namespace HGV.Basilius
 
         Dictionary<int, int> clusters { get; set; }
         Dictionary<int, string> regions { get; set; }
+        Dictionary<int, string> modes { get; set; }
 
         public MetaClient()
         {
@@ -25,6 +26,7 @@ namespace HGV.Basilius
             this.talents = new List<Talent>();
             this.clusters = new Dictionary<int, int>();
             this.regions = new Dictionary<int, string>();
+            this.modes = new Dictionary<int, string>();
 
             this.Load();
 
@@ -48,20 +50,33 @@ namespace HGV.Basilius
             }
 
 
-            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Cluster.json"))
+            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Clusters.json"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 string json = reader.ReadToEnd();
                 this.clusters = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, int>>(json);
             }
 
-            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Region.json"))
+            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Regions.json"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 string json = reader.ReadToEnd();
                 this.regions = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, string>>(json);
             }
 
+            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Regions.json"))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                string json = reader.ReadToEnd();
+                this.regions = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, string>>(json);
+            }
+
+            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Modes.json"))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                string json = reader.ReadToEnd();
+                this.modes = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, string>>(json);
+            }
 
             this.abilities = this.heroes.SelectMany(_ => _.Abilities).ToList();
             this.talents = this.heroes.SelectMany(_ => _.Talents).ToList();
@@ -69,83 +84,23 @@ namespace HGV.Basilius
 
         public string GetModeName(int mode)
         {
-            switch (mode)
-            {
-                case 0:
-                    return "All Pick";
-                case 1:
-                    return "All Pick";
-                case 2:
-                    return "Captains Mode";
-                case 3:
-                    return "Random Draft";
-                case 4:
-                    return "Single Draft";
-                case 5:
-                    return "All Random";
-                case 6:
-                    return "Unknown";
-                case 7:
-                    return "Unknown";
-                case 8:
-                    return "Reverse Captains Mode";
-                case 9:
-                    return "Unknown";
-                case 10:
-                    return "Tutorial";
-                case 11:
-                    return "Mid Only";
-                case 12:
-                    return "Least Played";
-                case 13:
-                    return "Limited Heroes";
-                case 14:
-                    return "Unknown";
-                case 15:
-                    return "Custom Game Mode";
-                case 16:
-                    return "Captains Draft";
-                case 17:
-                    return "Unknown";
-                case 18:
-                    return "Ability Draft";
-                case 19:
-                    return "Event Game";
-                case 20:
-                    return "All Random Death Match";
-                case 21:
-                    return "Mid 1v1";
-                case 22:
-                    return "All Pick";
-                case 23:
-                    return "Turbo";
-                case 24:
-                    return "Mutation";
-                default:
-                    return "Unknown";
-            }
+            string name = string.Empty;
+            this.modes.TryGetValue(mode, out name);
+            return name;
         }
 
         public string GetRegionName(int region)
         {
-            string name = "UNKNOWN";
+            string name = string.Empty;
             this.regions.TryGetValue(region, out name);
             return name;
         }
-
-        public Dictionary<int, string> GetRegions()
+        public int GetRegionId(int cluster)
         {
-            return this.regions;
-        }
-
-        public int ConvertClusterToRegion(int cluster)
-        {
-            // TODO: find out missing clusters [236]
-            int region = 0;
+            var region = 0;
             this.clusters.TryGetValue(cluster, out region);
             return region;
         }
-
 
         public List<Hero> GetHeroes()
         {
