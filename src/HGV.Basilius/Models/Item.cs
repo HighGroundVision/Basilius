@@ -6,7 +6,7 @@ namespace HGV.Basilius
 {
     public class Item
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Key { get; set; }
 
         public string Name { get; set; }
