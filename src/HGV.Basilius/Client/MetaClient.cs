@@ -91,6 +91,11 @@ namespace HGV.Basilius
             return name;
         }
 
+        public Dictionary<int, string> GetModes()
+        {
+            return this.modes;
+        }
+
         public string GetRegionName(int region)
         {
             string name = string.Empty;
@@ -102,6 +107,11 @@ namespace HGV.Basilius
             var region = 0;
             this.clusters.TryGetValue(cluster, out region);
             return region;
+        }
+
+        public Dictionary<int, string> GetRegions()
+        {
+            return this.regions;
         }
 
         public List<Hero> GetHeroes()
