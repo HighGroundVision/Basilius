@@ -508,7 +508,7 @@
     "Id": 11,
     "Key": "item_quelling_blade",
     "Name": null,
-    "Description": "<h1>Active: Chop Tree/Ward</h1> Destroy a target tree or ward. Chop cast range is increased when targeting wards.<br><br>Tree Range: %abilitycastrange%<BR>Ward Range: 450\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 18 for melee heroes, and 5 for ranged.",
+    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree. <br><br>Cast Range: %abilitycastrange%\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 18 for melee heroes, and 5 for ranged.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_quelling_blade.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -526,9 +526,6 @@
       ],
       "quelling_range_tooltip": [
         350.0
-      ],
-      "cast_range_ward": [
-        450.0
       ]
     },
     "ItemDeclarations": [],
@@ -2342,7 +2339,7 @@
     "Id": 216,
     "Key": "item_enchanted_mango",
     "Name": null,
-    "Description": "<h1>Use: Eat Mango</h1> Instantly restores 125 mana.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Eat Mango</h1> Instantly restores 110 mana.<br><br>Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_enchanted_mango.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2356,7 +2353,7 @@
         0.6
       ],
       "replenish_amount": [
-        125.0
+        110.0
       ]
     },
     "ItemDeclarations": [],
@@ -2799,7 +2796,7 @@
     "Id": 44,
     "Key": "item_tango",
     "Name": null,
-    "Description": "<h1>Use: Devour</h1> Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming a ward or Ironwood Tree doubles the heal amount.<br><br>Comes with 3 charges.  Can be used on an allied hero to give them one Tango.<br><br>Tree Range: %abilitycastrange%<br>Ward Range: 450",
+    "Description": "<h1>Use: Devour</h1> Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming an Ironwood Tree doubles the heal amount.<br><br>Comes with 3 charges.  Can be used on an allied hero to give them one Tango.<br><br>Tree Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_tango.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2811,9 +2808,6 @@
     "AbilitySpecial": {
       "health_regen": [
         7.0
-      ],
-      "cast_range_ward": [
-        450.0
       ],
       "buff_duration": [
         16.0
@@ -2857,7 +2851,7 @@
     "Id": 241,
     "Key": "item_tango_single",
     "Name": null,
-    "Description": "<h1>Use: Devour</h1> Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming a ward or Ironwood Tree doubles the heal amount.<br><br>Tree Range: %abilitycastrange%<br>Ward Range: 450",
+    "Description": "<h1>Use: Devour</h1> Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming an Ironwood Tree doubles the heal amount.<br><br>Tree Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_tango_single.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2869,9 +2863,6 @@
     "AbilitySpecial": {
       "health_regen": [
         7.0
-      ],
-      "cast_range_ward": [
-        450.0
       ],
       "buff_duration": [
         16.0
@@ -3695,7 +3686,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_mana_regen": [
-        1.75
+        2.25
       ]
     },
     "ItemDeclarations": [],
@@ -4297,7 +4288,7 @@
         6.0
       ],
       "bonus_mana_regen": [
-        2.0
+        2.25
       ]
     },
     "ItemDeclarations": [],
@@ -4380,7 +4371,7 @@
     "Id": 71,
     "Key": "item_poor_mans_shield",
     "Name": null,
-    "Description": "<h1>Passive: Damage Block</h1>Gives a 100% chance to block 20 damage from incoming attacks on melee heroes, and 10 damage on ranged.<br><br>Has a 50% chance to block damage from creeps.",
+    "Description": "<h1>Passive: Damage Block</h1>Gives a 100% chance to block 30 damage from incoming attacks on melee heroes, and 20 damage on ranged.<br><br>Has a 50% chance to block damage from creeps.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_poor_mans_shield.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4394,10 +4385,10 @@
         7.0
       ],
       "damage_block_melee": [
-        20.0
+        30.0
       ],
       "damage_block_ranged": [
-        10.0
+        20.0
       ],
       "block_chance": [
         50.0
@@ -4904,7 +4895,7 @@
     "Id": 81,
     "Key": "item_vladmir",
     "Name": null,
-    "Description": "<h1>Passive: Vladmir's Aura</h1>Grants 25% lifesteal, 1.5 mana regeneration, and 3 armor to nearby allies. <br><br>Radius: 1200",
+    "Description": "<h1>Passive: Vladmir's Aura</h1>Grants 25% lifesteal, 1.25 mana regeneration, and 3 armor to nearby allies. <br><br>Radius: 1200",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_vladmir.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4915,7 +4906,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "mana_regen_aura": [
-        1.5
+        1.25
       ],
       "armor_aura": [
         3.0
@@ -5888,7 +5879,7 @@
     "Id": 250,
     "Key": "item_bloodthorn",
     "Name": null,
-    "Description": "<h1>Active: Soul Rend</h1> Silences a target for 5 seconds. At the end of the silence, an additional 30% of all damage taken during the silence will be dealt to the target as magical damage.<br><br>All attacks on the silenced target will have True Strike and 100% chance to crit for 140% damage.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Critical Strike</h1> Grants a 20% chance for attacks to inflict 175% damage.",
+    "Description": "<h1>Active: Soul Rend</h1> Silences a target for 5 seconds. At the end of the silence, an additional 30% of all damage taken during the silence will be dealt to the target as magical damage.<br><br>All attacks on the silenced target will have True Strike and 100% chance to crit for 130% damage.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Critical Strike</h1> Grants a 20% chance for attacks to inflict 160% damage.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_bloodthorn.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -5905,7 +5896,7 @@
         30.0
       ],
       "bonus_damage": [
-        68.0
+        75.0
       ],
       "bonus_mana_regen": [
         5.5
@@ -5914,7 +5905,7 @@
         20.0
       ],
       "crit_multiplier": [
-        175.0
+        160.0
       ],
       "silence_damage_percent": [
         30.0
@@ -5923,7 +5914,7 @@
         5.0
       ],
       "target_crit_multiplier": [
-        140.0
+        130.0
       ],
       "tooltip_crit_chance": [
         100.0
@@ -7253,9 +7244,9 @@
         20.0
       ],
       "bonus_mana_regen": [
-        2.0,
-        2.5,
-        3.0
+        3.0,
+        3.5,
+        4.0
       ],
       "summon_duration": [
         60.0
@@ -7368,9 +7359,9 @@
         20.0
       ],
       "bonus_mana_regen": [
-        2.0,
-        2.5,
-        3.0
+        3.0,
+        3.5,
+        4.0
       ],
       "summon_duration": [
         60.0
@@ -7483,9 +7474,9 @@
         20.0
       ],
       "bonus_mana_regen": [
-        2.0,
-        2.5,
-        3.0
+        3.0,
+        3.5,
+        4.0
       ],
       "summon_duration": [
         60.0
@@ -9181,31 +9172,31 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_strength": [
-        33.0
+        30.0
       ],
       "bonus_agility": [
-        33.0
+        30.0
       ],
       "bonus_intellect": [
-        33.0
+        30.0
       ],
       "status_resistance": [
-        33.0
+        30.0
       ],
       "bonus_attack_speed": [
-        33.0
+        30.0
       ],
       "movement_speed_percent_bonus": [
-        33.0
+        30.0
       ],
       "hp_regen_amp": [
-        33.0
+        30.0
       ],
       "manacost_reduction": [
-        33.0
+        30.0
       ],
       "spell_amp": [
-        33.0
+        30.0
       ]
     },
     "ItemDeclarations": [],
@@ -9755,7 +9746,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        22.0
+        28.0
       ],
       "bonus_armor": [
         6.0
@@ -10258,7 +10249,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        65.0
+        60.0
       ],
       "aura_damage": [
         60.0
@@ -10456,7 +10447,7 @@
     "Id": 141,
     "Key": "item_greater_crit",
     "Name": null,
-    "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a 30% chance to deal 235% damage.",
+    "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a 30% chance to deal 225% damage.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_greater_crit.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10467,13 +10458,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        80.0
+        88.0
       ],
       "crit_chance": [
         30.0
       ],
       "crit_multiplier": [
-        235.0
+        225.0
       ],
       "tooltip_crit_damage": [
         135.0
@@ -10671,7 +10662,7 @@
     "Id": 145,
     "Key": "item_bfury",
     "Name": null,
-    "Description": "<h1>Active: Chop Tree/Ward</h1> Destroy a target tree or ward.<br><br>Tree Cast Range: %abilitycastrange%<br>Ward Cast Range: 450 \\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 18 for melee heroes, and 5 for ranged. \\n<h1>Passive: Cleave</h1> Deals 60% of attack damage as physical damage in a cone up to 650 around the target. (Melee Only)",
+    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree.<br><br>Cast Range: %abilitycastrange%\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 18 for melee heroes, and 5 for ranged. \\n<h1>Passive: Cleave</h1> Deals 70% of attack damage as physical damage in a cone up to 650 around the target. Deals 50% against creeps. (Melee Only)",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_bfury.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10682,7 +10673,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        54.0
+        60.0
       ],
       "bonus_health_regen": [
         7.5
@@ -10691,7 +10682,10 @@
         3.75
       ],
       "cleave_damage_percent": [
-        60.0
+        70.0
+      ],
+      "cleave_damage_percent_creep": [
+        50.0
       ],
       "quelling_bonus": [
         18.0
@@ -10707,9 +10701,6 @@
       ],
       "cleave_distance": [
         650.0
-      ],
-      "cast_range_ward": [
-        450.0
       ]
     },
     "ItemDeclarations": [],
@@ -10943,7 +10934,7 @@
     "Id": 149,
     "Key": "item_lesser_crit",
     "Name": null,
-    "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a 20% chance to deal 175% damage.",
+    "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a 20% chance to deal 160% damage.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_lesser_crit.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10954,13 +10945,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        38.0
+        45.0
       ],
       "crit_chance": [
         20.0
       ],
       "crit_multiplier": [
-        175.0
+        160.0
       ],
       "tooltip_crit_damage": [
         75.0
@@ -11157,7 +11148,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        9.0
+        15.0
       ],
       "bonus_attack_speed": [
         25.0
@@ -11390,7 +11381,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        40.0
+        45.0
       ],
       "bonus_attack_speed": [
         30.0
@@ -12399,7 +12390,7 @@
     "Id": 166,
     "Key": "item_maelstrom",
     "Name": null,
-    "Description": "<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 150 magical damage to each. Lightning proc pierces evasion.",
+    "Description": "<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 140 magical damage to each. Lightning proc pierces evasion.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_maelstrom.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12416,7 +12407,7 @@
         25.0
       ],
       "chain_damage": [
-        150.0
+        140.0
       ],
       "chain_strikes": [
         4.0
@@ -12511,7 +12502,7 @@
     "Id": 168,
     "Key": "item_desolator",
     "Name": null,
-    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by -7 for 15 seconds.",
+    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by -7 for 7 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_desolator.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12528,7 +12519,7 @@
         -7.0
       ],
       "corruption_duration": [
-        15.0
+        7.0
       ]
     },
     "ItemDeclarations": [],
@@ -12722,7 +12713,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        10.0
+        15.0
       ],
       "bonus_attack_speed": [
         10.0
@@ -14281,7 +14272,7 @@
     "Id": 239,
     "Key": "item_iron_talon",
     "Name": null,
-    "Description": "<h1>Active: Chop</h1>Targets a non-player enemy unit to remove 50% of its current HP.<br><br>If cast on a tree or ward, instantly destroys it.<br><br>Unit Range: %abilitycastrange%<br>Tree Range: %abilitycastrange%<BR>Ward Range: 450\\n<h1>Passive: Quell</h1>Increases attack damage against non-hero units by 18 for melee heroes, and 5 for ranged.",
+    "Description": "<h1>Active: Chop</h1>Targets a non-player enemy unit to remove 50% of its current HP.<br><br>If cast on a tree, instantly destroys it.<br><br>Unit Range: %abilitycastrange%<br>Tree Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_iron_talon.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14291,11 +14282,8 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "damage_bonus": [
-        18.0
-      ],
-      "damage_bonus_ranged": [
-        5.0
+      "bonus_attack_speed": [
+        15.0
       ],
       "quelling_range_tooltip": [
         350.0
@@ -15532,7 +15520,7 @@
         75.0
       ],
       "bonus_mana_regen": [
-        1.0
+        1.25
       ]
     },
     "ItemDeclarations": [],
@@ -15735,7 +15723,7 @@
     "Id": 291,
     "Key": "item_force_boots",
     "Name": null,
-    "Description": "<h1>Active: Force</h1>Dispels the user and pushes them 800 units in the direction they are facing.\\n <h1>Passive: Speed Unlock</h1> Completely removes the speed limit for the wearer \\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Force</h1>Dispels the user and pushes them 600 units in the direction they are facing.\\n <h1>Passive: Speed Unlock</h1> Completely removes the speed limit for the wearer \\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_force_boots.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15746,13 +15734,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_movement_speed": [
-        50.0
+        40.0
       ],
       "push_length": [
-        800.0
+        600.0
       ],
       "push_duration": [
-        0.65
+        0.5
       ]
     },
     "ItemDeclarations": [],
@@ -15790,7 +15778,7 @@
     "Id": 292,
     "Key": "item_desolator_2",
     "Name": null,
-    "Description": "<h1>Passive: Greater Corruption</h1> Your attacks reduce the target's armor by -12 for 15 seconds.",
+    "Description": "<h1>Passive: Greater Corruption</h1> Your attacks reduce the target's armor by -10 for 7 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_desolator_2.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15801,13 +15789,13 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        100.0
+        75.0
       ],
       "corruption_armor": [
-        -12.0
+        -10.0
       ],
       "corruption_duration": [
-        15.0
+        7.0
       ]
     },
     "ItemDeclarations": [],
@@ -15905,10 +15893,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "cast_range_bonus": [
-        450.0
+        350.0
       ],
       "vision_bonus": [
-        450.0
+        350.0
       ]
     },
     "ItemDeclarations": [],
@@ -16060,7 +16048,7 @@
         15.0
       ],
       "spell_lifesteal": [
-        8.0
+        6.0
       ],
       "night_vision": [
         250.0
@@ -16112,7 +16100,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "armor_bonus": [
-        13.0
+        12.0
       ],
       "attack_speed": [
         -35.0
@@ -16257,7 +16245,7 @@
     "Id": 301,
     "Key": "item_mirror_shield",
     "Name": null,
-    "Description": "<h1>Passive: Echo Shield</h1> Block and reflect most targeted spells back to their caster every once every 4 seconds.",
+    "Description": "<h1>Passive: Echo Shield</h1> Block and reflect most targeted spells back to their caster once every 8 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mirror_shield.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16274,7 +16262,7 @@
         20.0
       ],
       "block_cooldown": [
-        4.0
+        8.0
       ]
     },
     "ItemDeclarations": [],
@@ -16368,7 +16356,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_all_stats": [
-        7.0
+        6.0
       ],
       "tree_duration": [
         20.0
@@ -16608,7 +16596,7 @@
     "Id": 308,
     "Key": "item_repair_kit",
     "Name": null,
-    "Description": "<h1>Use: Building Repair</h1> Targets a building, restoring 40% of it's health over 30 seconds. Also grants +10 armor and +4 Multishot attack during this period.<br><br> Range: %abilitycastrange%",
+    "Description": "<h1>Use: Building Repair</h1> Targets a building, restoring 40% of it's health over 30 seconds. Also grants +10 armor during this period.<br><br> Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_repair_kit.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16627,11 +16615,8 @@
       "armor_bonus": [
         10.0
       ],
-      "multishot_count": [
-        4.0
-      ],
       "hp_regen": [
-        13.0
+        17.0
       ]
     },
     "ItemDeclarations": [],
@@ -16669,7 +16654,7 @@
     "Id": 309,
     "Key": "item_mind_breaker",
     "Name": null,
-    "Description": "<h1>Passive: Silence Strike</h1> The next attack silences the hit enemy for 2 seconds.",
+    "Description": "<h1>Passive: Silence Strike</h1> The next attack silences the hit enemy for 1.5 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mind_breaker.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16686,7 +16671,7 @@
         25.0
       ],
       "duration": [
-        2.0
+        1.5
       ]
     },
     "ItemDeclarations": [],
@@ -17010,7 +16995,7 @@
         600.0
       ],
       "bonus_movement_speed": [
-        30.0
+        40.0
       ]
     },
     "ItemDeclarations": [],
@@ -17062,7 +17047,7 @@
         50.0
       ],
       "attack_range": [
-        150.0
+        125.0
       ],
       "cast_range": [
         125.0
@@ -17272,10 +17257,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_primary_stat": [
-        12.0
+        10.0
       ],
       "bonus_secondary_stat": [
-        6.0
+        5.0
       ],
       "bonus_spell_amp": [
         6.0
@@ -17437,10 +17422,10 @@
         5.0
       ],
       "water_hp_regen": [
-        6.0
+        8.0
       ],
       "water_mp_regen": [
-        3.0
+        4.0
       ]
     },
     "ItemDeclarations": [],
@@ -17544,7 +17529,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_health": [
-        150.0
+        100.0
       ]
     },
     "ItemDeclarations": [],
@@ -17654,7 +17639,7 @@
         5.0
       ],
       "damage_per_sec": [
-        12.0
+        18.0
       ],
       "duration": [
         3.0
@@ -17822,7 +17807,7 @@
         400.0
       ],
       "bonus_damage": [
-        270.0
+        300.0
       ]
     },
     "ItemDeclarations": [],
@@ -18026,7 +18011,7 @@
         250.0
       ],
       "nuke_base_dmg": [
-        175.0
+        225.0
       ],
       "nuke_str_dmg": [
         1.0
@@ -18084,7 +18069,7 @@
         300.0
       ],
       "health_threshold": [
-        15.0
+        20.0
       ]
     },
     "ItemDeclarations": [],
@@ -18132,8 +18117,8 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "primary_stat_percent": [
-        80.0
+      "primary_stat": [
+        75.0
       ]
     },
     "ItemDeclarations": [],
@@ -18182,13 +18167,16 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "attack_range_bonus": [
-        400.0
+        250.0
       ],
       "knockback_distance": [
         50.0
       ],
       "knockback_duration": [
         0.2
+      ],
+      "bonus_damage": [
+        30.0
       ]
     },
     "ItemDeclarations": [],
@@ -18240,13 +18228,13 @@
         50.0
       ],
       "bonus_hp_regen": [
-        70.0
+        50.0
       ],
       "active_duration": [
         3.0
       ],
       "tree_duration": [
-        60.0
+        15.0
       ]
     },
     "ItemDeclarations": [],
@@ -18340,10 +18328,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_strength": [
-        35.0
+        30.0
       ],
       "bonus_intellect": [
-        35.0
+        30.0
       ],
       "summon_duration": [
         75.0
@@ -18480,6 +18468,9 @@
       ],
       "impact_damage_units": [
         150.0
+      ],
+      "blink_damage_cooldown": [
+        3.0
       ]
     },
     "ItemDeclarations": [],
@@ -18528,7 +18519,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_attack_speed": [
-        250.0
+        150.0
+      ],
+      "gold_steal": [
+        300.0
       ]
     },
     "ItemDeclarations": [],
@@ -18622,7 +18616,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_armor": [
-        25.0
+        20.0
       ]
     },
     "ItemDeclarations": [],
@@ -18833,10 +18827,10 @@
         5.0
       ],
       "slow_melee": [
-        30.0
+        20.0
       ],
       "slow_range": [
-        15.0
+        10.0
       ],
       "duration": [
         4.0
@@ -18940,7 +18934,7 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_intelligence": [
-        8.0
+        10.0
       ],
       "bonus_armor": [
         3.0
