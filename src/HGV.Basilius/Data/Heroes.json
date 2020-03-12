@@ -39717,7 +39717,7 @@
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
-    "AbilityDraftEnabled": false,
+    "AbilityDraftEnabled": true,
     "Complexity": 3,
     "Roles": [
       {
@@ -39786,7 +39786,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "bear_hp": [
@@ -39863,7 +39863,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "bonus_attack_speed": [
@@ -39925,7 +39925,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -40071,7 +40071,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "bonus_armor": [
