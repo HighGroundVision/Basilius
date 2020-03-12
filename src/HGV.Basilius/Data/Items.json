@@ -4497,7 +4497,7 @@
         3.0
       ],
       "bonus_magic_resistance": [
-        5.0
+        4.0
       ]
     },
     "ItemDeclarations": [],
@@ -11927,7 +11927,7 @@
     "Id": 158,
     "Key": "item_mjollnir",
     "Name": null,
-    "Description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for 15 seconds which has a 20% chance to release a 200 magical damage shocking bolt at a nearby attacker and 4 additional enemies.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 12 targets within a 900 radius, dealing 170 magical damage to each. Lightning proc pierces evasion.",
+    "Description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for 15 seconds which has a 20% chance to release a 200 magical damage shocking bolt at a nearby attacker and 4 additional enemies.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 12 targets within a 650 radius, dealing 170 magical damage to each. Lightning proc pierces evasion.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_mjollnir.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -11977,7 +11977,7 @@
         12.0
       ],
       "chain_radius": [
-        900.0
+        650.0
       ],
       "chain_delay": [
         0.25
@@ -12390,7 +12390,7 @@
     "Id": 166,
     "Key": "item_maelstrom",
     "Name": null,
-    "Description": "<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 140 magical damage to each. Lightning proc pierces evasion.",
+    "Description": "<h1>Passive: Chain Lightning</h1>Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 650 radius, dealing 140 magical damage to each. Lightning proc pierces evasion.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_maelstrom.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12413,7 +12413,7 @@
         4.0
       ],
       "chain_radius": [
-        900.0
+        650.0
       ],
       "chain_delay": [
         0.25
@@ -12502,7 +12502,7 @@
     "Id": 168,
     "Key": "item_desolator",
     "Name": null,
-    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by -7 for 7 seconds.",
+    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by -6 for 7 seconds.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_desolator.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12513,10 +12513,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "bonus_damage": [
-        50.0
+        60.0
       ],
       "corruption_armor": [
-        -7.0
+        -6.0
       ],
       "corruption_duration": [
         7.0
@@ -12814,7 +12814,7 @@
     "Id": 174,
     "Key": "item_diffusal_blade",
     "Name": null,
-    "Description": "<h1>Active: Inhibit</h1> Targets an enemy, slowing it for 4 seconds.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Manabreak</h1>Each attack burns 50 mana from the target, and deals 0.8 physical damage per burned mana. <br><br>Burns 16 mana per attack from melee illusions and 8 mana per attack from ranged illusions.",
+    "Description": "<h1>Active: Inhibit</h1> Targets an enemy, slowing it for 4 seconds.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Manabreak</h1>Each attack burns 40 mana from the target, and deals 0.8 physical damage per burned mana. <br><br>Burns 16 mana per attack from melee illusions and 8 mana per attack from ranged illusions.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_diffusal_blade.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12831,7 +12831,7 @@
         10.0
       ],
       "feedback_mana_burn": [
-        50.0
+        40.0
       ],
       "feedback_mana_burn_illusion_melee": [
         16.0

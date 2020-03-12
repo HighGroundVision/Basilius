@@ -7620,10 +7620,7 @@
         ],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          40.0,
-          45.0,
-          50.0,
-          55.0
+          65.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -12399,8 +12396,8 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 20,
-    "AttackDamageMax": 30,
+    "AttackDamageMin": 17,
+    "AttackDamageMax": 27,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.39,
     "AttackAcquisitionRange": 600,
@@ -14040,7 +14037,7 @@
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
-    "AbilityDraftEnabled": false,
+    "AbilityDraftEnabled": true,
     "Complexity": 3,
     "Roles": [
       {
@@ -14125,7 +14122,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "speed": [
@@ -14192,7 +14189,7 @@
         "AbilityModifierSupportValue": 0.3,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": "morphling_adaptive_strike_str",
         "AbilitySpecial": {
           "damage_base": [
@@ -14268,7 +14265,7 @@
         "AbilityModifierSupportValue": 0.3,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": "morphling_adaptive_strike_agi",
         "AbilitySpecial": {
           "stun_min": [
@@ -15407,7 +15404,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": true,
+        "AbilityDraftEnabled": false,
         "Linked": "nevermore_shadowraze1",
         "AbilitySpecial": {
           "shadowraze_damage": [
@@ -15537,7 +15534,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "presence_armor_reduction": [
@@ -16916,7 +16913,7 @@
             280.0
           ],
           "max_distance": [
-            350.0
+            275.0
           ]
         },
         "Keywords": []
@@ -19626,7 +19623,7 @@
         "Id": 5145,
         "Key": "riki_tricks_of_the_trade",
         "Name": "Tricks of the Trade",
-        "Description": "Riki phases out of the world while striking randomy enemy units from behind in an area around him.",
+        "Description": "Riki phases out of the world while striking random enemy units from behind in an area around him.",
         "UpgradeDescription": "Increases duration, attacks, cast range and allows you to target an allied hero, hiding inside them for the duration.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/riki_tricks_of_the_trade.png",
         "HeroId": 32,
@@ -21126,7 +21123,9 @@
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
-        "AbilityManaCost": [],
+        "AbilityManaCost": [
+          25.0
+        ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
@@ -21295,10 +21294,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "bonus_damage": [
-            60.0,
-            115.0,
-            170.0,
-            225.0
+            50.0,
+            100.0,
+            150.0,
+            200.0
           ],
           "duration": [
             1.0,
@@ -21448,9 +21447,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "armor_reduction": [
-            -10.0,
-            -15.0,
-            -20.0
+            -8.0,
+            -13.0,
+            -18.0
           ],
           "duration": [
             18.0
@@ -24870,9 +24869,9 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
+          850,
           1000,
-          1100,
-          1200,
+          1150,
           1300
         ],
         "AbilityCastRangeBuffer": 250,
@@ -25175,8 +25174,8 @@
         "AbilitySpecial": {
           "bonus_armor": [
             10.0,
-            18.0,
-            26.0
+            16.0,
+            22.0
           ],
           "bonus_damage": [
             30.0,
@@ -31183,7 +31182,7 @@
     "ProjectileSpeed": 1400,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 21,
-    "AttributeStrengthGain": 3.4,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 15,
@@ -31715,7 +31714,7 @@
         "Id": 7660,
         "Key": "special_bonus_unique_jakiro_5",
         "HeroId": 64,
-        "Name": "+{s:value} Dual Breathe Range",
+        "Name": "+{s:value} Dual Breath Range",
         "Description": null
       },
       {
@@ -31971,16 +31970,16 @@
             20.0
           ],
           "damage_duration": [
+            2.0,
             4.0,
-            5.0,
             6.0,
-            7.0
+            8.0
           ],
           "damage_total_tooltip": [
-            100.0,
-            150.0,
-            210.0,
-            280.0
+            90.0,
+            155.0,
+            220.0,
+            285.0
           ],
           "explosion_radius": [
             500.0
@@ -37901,7 +37900,7 @@
         "Id": 7319,
         "Key": "clinkz_burning_army",
         "Name": "Burning Army",
-        "Description": "Clinkz summons an army of fiery ranged skeleton archers. Archers are immobile and die with 2 attacks from a hero. Skeletons deal a percentage of Clinkz' damage, use his current Searing Arrows ability and attack only heroes. Attack range is equal to your Clinkz's attack range.",
+        "Description": "Clinkz summons an army of fiery ranged skeleton archers. Archers are immobile and die with 2 attacks from a hero. Skeletons deal a percentage of Clinkz' damage, use his current Searing Arrows ability and attack only heroes. Attack range is equal to Clinkz's attack range.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_burning_army.png",
         "HeroId": 56,
@@ -45446,10 +45445,10 @@
             140.0
           ],
           "hp_regen": [
-            0.55,
+            0.5,
+            0.6,
             0.7,
-            0.85,
-            1.0
+            0.8
           ],
           "duration": [
             8.0
@@ -48128,10 +48127,10 @@
             125.0
           ],
           "duration": [
-            1.6,
-            2.0,
-            2.4,
-            2.8
+            1.4,
+            1.8,
+            2.2,
+            2.6
           ],
           "length": [
             700.0
@@ -49038,7 +49037,7 @@
         "Id": 7316,
         "Key": "keeper_of_the_light_will_o_wisp",
         "Name": "Will-O-Wisp",
-        "Description": "Summons Ignis Fatuus at the targeted area. Alternates on and off every second. When active, it causes all enemies near it to stare hypnotized at it. Can be attacked by units in or outside of the radius, dies after a certain number of attacks.",
+        "Description": "Summons Ignis Fatuus at the targeted area. Alternates on and off every second. When actived, it causes all enemies near it to stare hypnotized at it. Can be attacked by units in or outside of the radius, dies after a certain number of attacks.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/keeper_of_the_light_will_o_wisp.png",
         "HeroId": 90,
@@ -52306,10 +52305,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "bonus_armor": [
+            0.9,
             1.0,
             1.1,
-            1.2,
-            1.3
+            1.2
           ],
           "bonus_hp_regen": [
             1.0,
@@ -53465,7 +53464,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "axe_width": [
@@ -53540,7 +53539,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "Linked": null,
         "AbilitySpecial": {
           "damage": [
@@ -60162,7 +60161,7 @@
         "Id": 6282,
         "Key": "special_bonus_unique_techies",
         "HeroId": 105,
-        "Name": "+{s:value} Blast Off Damage",
+        "Name": "+{s:value} Blast Off! Damage",
         "Description": null
       },
       {
@@ -65699,9 +65698,9 @@
           ],
           "impact_stun_duration": [
             1.6,
-            1.9,
-            2.2,
-            2.5
+            1.8,
+            2.0,
+            2.2
           ],
           "self_cast_delay": [
             0.3
@@ -65948,9 +65947,9 @@
             275.0
           ],
           "damage_per_impact": [
-            200.0,
-            300.0,
-            400.0
+            160.0,
+            240.0,
+            320.0
           ],
           "duration_tooltip": [
             6.0
@@ -66653,7 +66652,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 305,
+    "MovementSpeed": 300,
     "MovementTurnRate": 0.7,
     "HasAggressiveStance": true,
     "Team": 1,
