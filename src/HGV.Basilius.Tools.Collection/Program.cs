@@ -240,6 +240,8 @@ namespace HGV.Basilius.Tools.Collection
             }
 
             // Get Talents
+            var x = 0;
+            var talentsLevels = new List<int>() { 10, 10, 15, 15, 20, 20, 25, 25 };
             for (int i = abilityTalentStart; i <= 24; i++)
             {
                 var field = string.Format("Ability{0}", i);
@@ -248,6 +250,7 @@ namespace HGV.Basilius.Tools.Collection
                 {
                     var talent = ExtractTalent(languageAbilties, abiltiesData, abilityKey);
                     talent.HeroId = hero.Id;
+                    talent.Level = talentsLevels[x++];
                     hero.Talents.Add(talent);
                 }
             }
@@ -327,9 +330,14 @@ namespace HGV.Basilius.Tools.Collection
             talent.Key = abilityKey;
 
             var name = "DOTA_Tooltip_ability_" + abilityKey;
-            var desc = "DOTA_Tooltip_ability_" + abilityKey + "_Description";
-            talent.Name = (string)languageAbilties[name];
-            talent.Description = (string)languageAbilties[desc];
+            talent.Description = (string)languageAbilties[name];
+
+            if(talent.Description.Contains("{s:value}"))
+            {
+                var value = getSpecialValue(abiltiesData, abilityKey);
+                talent.Description = talent.Description.Replace("{s:value}", value);
+            }
+            
             return talent;
         }
 
@@ -439,6 +447,20 @@ namespace HGV.Basilius.Tools.Collection
             else
             {
                 return default(T);
+            }
+        }
+
+        static string getSpecialValue(JObject data, string key)
+        {
+            var itemData = data[key];
+
+            if (itemData["AbilitySpecial"] != null)
+            {
+                return itemData["AbilitySpecial"].ToArray().FirstOrDefault()["value"].Value<string>();
+            }
+            else
+            {
+                return string.Empty;
             }
         }
 
