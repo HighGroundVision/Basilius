@@ -2,126 +2,147 @@
   {
     "id": 1,
     "name": "US West",
+    "group": "globe-americas",
     "latitude": 47.6052,
     "longitude": -122.16999816894531
   },
   {
     "id": 2,
     "name": "US East",
+    "group": "globe-americas",
     "latitude": 39.00622,
     "longitude": -77.42859649658203
   },
   {
     "id": 3,
     "name": "Luxembourg",
+    "group": "globe-europe",
     "latitude": 52.5234032,
     "longitude": 13.411399841308594
   },
   {
     "id": 5,
     "name": "Singapore",
+    "group": "globe-asia",
     "latitude": 1.283333,
     "longitude": 103.83333587646484
   },
   {
     "id": 6,
     "name": "Dubai",
+    "group": "globe-africa",
     "latitude": 25.25,
     "longitude": 55.29999923706055
   },
   {
     "id": 7,
     "name": "Australia",
+    "group": "globe-asia",
     "latitude": -33.85997,
     "longitude": 151.2111053466797
   },
   {
     "id": 8,
     "name": "Stockholm",
+    "group": "globe-europe",
     "latitude": 55.75,
     "longitude": 37.616668701171875
   },
   {
     "id": 9,
     "name": "Austria",
+    "group": "globe-europe",
     "latitude": 48.12,
     "longitude": 16.219999313354492
   },
   {
     "id": 10,
     "name": "Brazil",
+    "group": "globe-americas",
     "latitude": -23.53289,
     "longitude": -46.642250061035156
   },
   {
     "id": 11,
     "name": "South Africa",
+    "group": "globe-africa",
     "latitude": -33.9252777,
     "longitude": 18.42388916015625
   },
   {
     "id": 12,
     "name": "China TC Shanghai",
+    "group": "globe-asia",
     "latitude": 31.2,
     "longitude": 121.5
   },
   {
     "id": 13,
     "name": "China UC",
+    "group": "globe-asia",
     "latitude": 39.91389,
     "longitude": 116.39167022705078
   },
   {
     "id": 14,
     "name": "Chile",
+    "group": "globe-americas",
     "latitude": -33.6682968,
     "longitude": -70.36337280273438
   },
   {
     "id": 15,
     "name": "Peru",
+    "group": "globe-americas",
     "latitude": -12.0553446,
     "longitude": -77.0451889038086
   },
   {
     "id": 16,
     "name": "India",
+    "group": "globe-asia",
     "latitude": 18.58,
     "longitude": 72.48999786376953
   },
   {
     "id": 17,
     "name": "China TC Guangdong",
+    "group": "globe-asia",
     "latitude": 23.1,
     "longitude": 113.30000305175781
   },
   {
     "id": 18,
     "name": "China TC Zhejiang",
+    "group": "globe-asia",
     "latitude": 29.2,
     "longitude": 120.5
   },
   {
     "id": 19,
     "name": "Japan",
+    "group": "globe-asia",
     "latitude": 35.7,
     "longitude": 139.6999969482422
   },
   {
     "id": 20,
     "name": "China TC Wuhan",
+    "group": "globe-asia",
     "latitude": 30.4,
     "longitude": 114.19999694824219
   },
   {
     "id": 25,
     "name": "China UC 2",
+    "group": "globe-asia",
     "latitude": 38.34,
     "longitude": 116.43000030517578
   },
   {
     "id": 37,
     "name": "Taiwan",
+    "group": "globe-asia",
     "latitude": 25.4,
     "longitude": 121.30999755859375
   }
