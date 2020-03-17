@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "name": "USWest",
+    "name": "US West",
     "latitude": 47.6052,
     "longitude": -122.16999816894531
   },
   {
     "id": 2,
-    "name": "USEast",
+    "name": "US East",
     "latitude": 39.00622,
     "longitude": -77.42859649658203
   },
   {
     "id": 3,
-    "name": "Europe",
+    "name": "Luxembourg",
     "latitude": 52.5234032,
     "longitude": 13.411399841308594
   },
@@ -55,19 +55,19 @@
   },
   {
     "id": 11,
-    "name": "SouthAfrica",
+    "name": "South Africa",
     "latitude": -33.9252777,
     "longitude": 18.42388916015625
   },
   {
     "id": 12,
-    "name": "PerfectWorldTelecom",
+    "name": "China TC Shanghai",
     "latitude": 31.2,
     "longitude": 121.5
   },
   {
     "id": 13,
-    "name": "PerfectWorldUnicom",
+    "name": "China UC",
     "latitude": 39.91389,
     "longitude": 116.39167022705078
   },
@@ -91,13 +91,13 @@
   },
   {
     "id": 17,
-    "name": "PerfectWorldTelecomGuangdong",
+    "name": "China TC Guangdong",
     "latitude": 23.1,
     "longitude": 113.30000305175781
   },
   {
     "id": 18,
-    "name": "PerfectWorldTelecomZhejiang",
+    "name": "China TC Zhejiang",
     "latitude": 29.2,
     "longitude": 120.5
   },
@@ -109,13 +109,13 @@
   },
   {
     "id": 20,
-    "name": "PerfectWorldTelecomWuhan",
+    "name": "China TC Wuhan",
     "latitude": 30.4,
     "longitude": 114.19999694824219
   },
   {
     "id": 25,
-    "name": "PerfectWorldUnicomTianjin",
+    "name": "China UC 2",
     "latitude": 38.34,
     "longitude": 116.43000030517578
   },

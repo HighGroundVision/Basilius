@@ -71,7 +71,7 @@ namespace HGV.Basilius.Tools.Collection
             System.IO.File.WriteAllText("Modes.json", outputModes);
 
             var regions = rootRegions
-                .Select(_ => new { id = (int)_["id"], name = (string)_["name"], latitude = (double)_["latitude"], longitude = (double)_["longitude"] })
+                .Select(_ => new { id = (int)_["id"], name = (string)dataLangDota[((string)_["displayName"]).Replace("#", "")], latitude = (double)_["latitude"], longitude = (double)_["longitude"] })
                 .ToList();
 
             regions.RemoveAll(_ => _.id == 0);
