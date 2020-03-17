@@ -70,12 +70,11 @@ namespace HGV.Basilius.Tools.Collection
             var outputModes = Newtonsoft.Json.JsonConvert.SerializeObject(modes, Newtonsoft.Json.Formatting.Indented);
             System.IO.File.WriteAllText("Modes.json", outputModes);
 
-            var regions = rootRegions.ToDictionary(_ => (int)_["id"], _ => {
-                var displayKey = (string)_["displayName"];
-                displayKey = displayKey.Replace("#", "");
-                return (string)dataLangDota[displayKey];
-            });
-            regions.Remove(0);
+            var regions = rootRegions
+                .Select(_ => new { id = (int)_["id"], name = (string)_["name"], latitude = (double)_["latitude"], longitude = (double)_["longitude"] })
+                .ToList();
+
+            regions.RemoveAll(_ => _.id == 0);
             var outputRegions = Newtonsoft.Json.JsonConvert.SerializeObject(regions, Newtonsoft.Json.Formatting.Indented);
             System.IO.File.WriteAllText("Regions.json", outputRegions);
 

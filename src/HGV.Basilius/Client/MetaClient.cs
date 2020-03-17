@@ -17,7 +17,7 @@ namespace HGV.Basilius
         List<Talent> talents { get; set; }
 
         Dictionary<int, int> clusters { get; set; }
-        Dictionary<int, string> regions { get; set; }
+        List<Region> regions { get; set; }
         Dictionary<int, string> modes { get; set; }
 
         private MetaClient()
@@ -27,7 +27,7 @@ namespace HGV.Basilius
             this.abilities = new List<Ability>();
             this.talents = new List<Talent>();
             this.clusters = new Dictionary<int, int>();
-            this.regions = new Dictionary<int, string>();
+            this.regions = new List<Region>();
             this.modes = new Dictionary<int, string>();
 
             this.Load();
@@ -63,14 +63,7 @@ namespace HGV.Basilius
             using (StreamReader reader = new StreamReader(stream))
             {
                 string json = reader.ReadToEnd();
-                this.regions = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, string>>(json);
-            }
-
-            using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Regions.json"))
-            using (StreamReader reader = new StreamReader(stream))
-            {
-                string json = reader.ReadToEnd();
-                this.regions = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<int, string>>(json);
+                this.regions = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Region>>(json);
             }
 
             using (Stream stream = assembly.GetManifestResourceStream("HGV.Basilius.Data.Modes.json"))
@@ -98,20 +91,22 @@ namespace HGV.Basilius
 
         public string GetRegionName(int region)
         {
-            string name = string.Empty;
-            this.regions.TryGetValue(region, out name);
-            return name;
+            return this.regions.Where(_ => _.id == region).Select(_ => _.name).FirstOrDefault() ?? string.Empty;
         }
         public int GetRegionId(int cluster)
         {
-            var region = 0;
-            this.clusters.TryGetValue(cluster, out region);
+            this.clusters.TryGetValue(cluster, out int region);
             return region;
         }
 
         public Dictionary<int, string> GetRegions()
         {
-            return this.regions;
+            return this.regions.ToDictionary(_ => _.id, _ => _.name);
+        }
+
+        public List<Region> GetRegionsMeta()
+        {
+            return this.regions.ToList();
         }
 
         public List<Hero> GetHeroes()
