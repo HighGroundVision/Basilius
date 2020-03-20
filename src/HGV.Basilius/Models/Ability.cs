@@ -18,6 +18,7 @@ namespace HGV.Basilius
         public string Image { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/abilities/{0}.png", this.Key); } }
 
         public int HeroId { get; set; }
+        public int Index { get; set; }
 
         public string AbilityType { get; set; } // DOTA_ABILITY_TYPE_BASIC | DOTA_ABILITY_TYPE_ATTRIBUTES | DOTA_ABILITY_TYPE_ULTIMATE
         public List<string> AbilityBehaviors { get; set; } // DOTA_ABILITY_BEHAVIOR_NONE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL
@@ -54,11 +55,14 @@ namespace HGV.Basilius
         public int FightRecapLevel { get; set; }
 
         public bool AbilityDraftEnabled { get; set; }
+        public string AbilityDraftPreAbility { get; set; }
+        public string AbilityDraftUltScepterAbility { get; set; }
 
         public string Linked { get; set; }
 
         public Dictionary<string, List<double>> AbilitySpecial { get; set; }
         public List<string> Keywords { get; set; }
+       
 
         public Ability()
         {

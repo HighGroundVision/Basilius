@@ -236,11 +236,14 @@ namespace HGV.Basilius.Tools.Collection
                 {
                     var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey);
                     ability.HeroId = hero.Id;
-
-                    IsAbilityDrafEnabled(i, ability, hero, heroesData);
-
+                    ability.Index = i;
                     hero.Abilities.Add(ability);
                 }
+            }
+
+            foreach (var ability in hero.Abilities)
+            {
+                IsAbilityDrafEnabled(ability, hero, heroesData);
             }
 
             // Get Talents
@@ -262,7 +265,7 @@ namespace HGV.Basilius.Tools.Collection
             return hero;
         }
 
-        private static void IsAbilityDrafEnabled(int abilityIndex, Ability ability, Hero hero, JObject heroesData)
+        private static void IsAbilityDrafEnabled(Ability ability, Hero hero, JObject heroesData)
         {
             // Gruads
             if (hero.AbilityDraftEnabled == false)
@@ -282,7 +285,7 @@ namespace HGV.Basilius.Tools.Collection
 
             if (heroData["AbilityDraftIgnoreCount"] != null)
             {
-                if ((int)heroData["AbilityDraftIgnoreCount"] == abilityIndex)
+                if ((int)heroData["AbilityDraftIgnoreCount"] == ability.Index)
                 {
                     ability.AbilityDraftEnabled = false;
                     return;
@@ -291,8 +294,11 @@ namespace HGV.Basilius.Tools.Collection
 
             if (ability.IsGrantedByScepter == true)
             {
-                ability.AbilityDraftEnabled = true;
-                return;
+                if(hero.Abilities.Any(_ => _.AbilityDraftUltScepterAbility == ability.Key))
+                {
+                    ability.AbilityDraftEnabled = true;
+                    return;
+                }
             }
 
             // Checks
@@ -359,6 +365,8 @@ namespace HGV.Basilius.Tools.Collection
 
             ability.HasScepterUpgrade = isTrue(abiltiesData, "ability_base", key, "HasScepterUpgrade");
             ability.IsGrantedByScepter = isTrue(abiltiesData, "ability_base", key, "IsGrantedByScepter");
+            ability.AbilityDraftPreAbility = getValue<string>(abiltiesData, "ability_base", key, "AbilityDraftPreAbility");
+            ability.AbilityDraftUltScepterAbility = getValue<string>(abiltiesData, "ability_base", key, "AbilityDraftUltScepterAbility");
 
             ability.OnCastbar = isTrue(abiltiesData, "ability_base", key, "OnCastbar");
             ability.OnLearnbar = isTrue(abiltiesData, "ability_base", key, "OnLearnbar");
