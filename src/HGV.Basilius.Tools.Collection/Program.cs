@@ -280,7 +280,6 @@ namespace HGV.Basilius.Tools.Collection
 
             var heroData = heroesData[hero.Key];
 
-            // Gruads
             if (heroData["AbilityDraftIgnoreCount"] != null)
             {
                 if ((int)heroData["AbilityDraftIgnoreCount"] == abilityIndex)
@@ -290,23 +289,9 @@ namespace HGV.Basilius.Tools.Collection
                 }
             }
 
-            // Checks
             if (ability.IsGrantedByScepter == true)
             {
-                var uniqueAbilities = new List<string>();
-                if (heroData["AbilityDraftUniqueAbilities"] != null)
-                {
-                    foreach (var item in heroData["AbilityDraftUniqueAbilities"])
-                    {
-                        uniqueAbilities.Add((string)item);
-                    }
-                }
-
-                if (uniqueAbilities.Contains(ability.Key))
-                {
-                    ability.AbilityDraftEnabled = true;
-                }
-
+                ability.AbilityDraftEnabled = true;
                 return;
             }
 
