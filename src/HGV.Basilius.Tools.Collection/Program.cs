@@ -300,21 +300,22 @@ namespace HGV.Basilius.Tools.Collection
                     return;
                 }
             }
-
-            // Checks
-            if (heroData["AbilityDraftAbilities"] != null)
+            else 
             {
-                foreach (var item in heroData["AbilityDraftAbilities"])
+                if (heroData["AbilityDraftAbilities"] != null)
                 {
-                    if ((string)item == ability.Key)
+                    foreach (var item in heroData["AbilityDraftAbilities"])
                     {
-                        ability.AbilityDraftEnabled = true;
+                        if ((string)item == ability.Key)
+                        {
+                            ability.AbilityDraftEnabled = true;
+                        }
                     }
                 }
-            }
-            else
-            {
-                ability.AbilityDraftEnabled = true;
+                else
+                {
+                    ability.AbilityDraftEnabled = true;
+                }
             }
         }
 
