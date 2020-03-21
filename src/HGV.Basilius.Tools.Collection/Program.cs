@@ -267,6 +267,19 @@ namespace HGV.Basilius.Tools.Collection
 
         private static void IsAbilityDrafEnabled(Ability ability, Hero hero, JObject heroesData)
         {
+            // Short Curit
+            if (ability.Key == "vengefulspirit_nether_swap")
+            {
+                ability.AbilityDraftEnabled = true;
+                return;
+            }
+
+            if (ability.Key == "dark_willow_bedlam")
+            {
+                ability.AbilityDraftEnabled = true;
+                return;
+            }
+
             // Gruads
             if (hero.AbilityDraftEnabled == false)
             {
@@ -274,7 +287,6 @@ namespace HGV.Basilius.Tools.Collection
                 return;
             }
 
-            // Gruads
             if (ability.Key == "generic_hidden")
             {
                 ability.AbilityDraftEnabled = false;
@@ -292,6 +304,7 @@ namespace HGV.Basilius.Tools.Collection
                 }
             }
 
+            // Test
             if (ability.IsGrantedByScepter == true)
             {
                 if(hero.Abilities.Any(_ => _.AbilityDraftUltScepterAbility == ability.Key))
