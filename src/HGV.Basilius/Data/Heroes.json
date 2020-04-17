@@ -2752,7 +2752,7 @@
         "Key": "special_bonus_unique_beastmaster_2",
         "Level": 15,
         "HeroId": 38,
-        "Description": "+35 Boar Damage"
+        "Description": "+30 Boar Damage"
       },
       {
         "Id": 6103,
@@ -5962,7 +5962,7 @@
         "AbilityModifierSupportValue": 0.35,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 2,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
         "Linked": null,
@@ -12104,7 +12104,7 @@
         "Id": 5137,
         "Key": "lich_chain_frost",
         "Name": "Chain Frost",
-        "Description": "Releases an orb of frost that bounces between nearby enemy units up to 10/10/10 times, slowing and damaging each time it hits. Each bounce increases the damage for the subsequent bounces.  Upgradable by Aghanim's Scepter.",
+        "Description": "Releases an orb of frost that bounces between nearby enemy units up to 10/10/10 times, slowing and damaging each time it hits. Each bounce increases the damage for the subsequent bounces.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/lich_chain_frost.png",
         "HeroId": 31,
@@ -19538,7 +19538,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 26,
-    "AttributeStrengthGain": 3.7,
+    "AttributeStrengthGain": 3.5,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 13,
@@ -28109,10 +28109,10 @@
             175.0
           ],
           "speed": [
+            200.0,
             220.0,
             240.0,
-            260.0,
-            280.0
+            260.0
           ],
           "radius": [
             175.0,
@@ -28432,7 +28432,7 @@
     "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 14,
-    "AttributeAgilityGain": 3.6,
+    "AttributeAgilityGain": 3.1,
     "StatusHealth": 200,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
@@ -30941,7 +30941,7 @@
             15.0
           ],
           "skeleton_duration": [
-            90.0
+            60.0
           ],
           "max_skeleton_charges": [
             2.0,
@@ -31187,8 +31187,8 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 39,
-    "AttackDamageMax": 41,
+    "AttackDamageMin": 37,
+    "AttackDamageMax": 39,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.56,
     "AttackAcquisitionRange": 600,
@@ -31987,10 +31987,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "maximum_attack_speed": [
-            140.0,
-            200.0,
-            260.0,
-            320.0
+            130.0,
+            190.0,
+            250.0,
+            310.0
           ],
           "maximum_health_regen": [
             25.0,
@@ -32212,7 +32212,7 @@
         "Key": "special_bonus_unique_huskar_2",
         "Level": 15,
         "HeroId": 59,
-        "Description": "+10 Burning Spears DPS"
+        "Description": "+8 Burning Spears DPS"
       },
       {
         "Id": 6078,
@@ -34930,7 +34930,7 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          70.0
+          80.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -35157,7 +35157,7 @@
             20.0
           ],
           "scepter_spirit_bonus_damage": [
-            75.0
+            50.0
           ],
           "movement_bonus": [
             20.0
@@ -35228,8 +35228,8 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 29,
-    "AttackDamageMax": 41,
+    "AttackDamageMin": 27,
+    "AttackDamageMax": 39,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.56,
     "AttackAcquisitionRange": 800,
@@ -40662,7 +40662,7 @@
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
         "AbilityUnitTargetFlags": [],
-        "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES",
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
         "SpellDispellableType": "SPELL_DISPELLABLE_YES",
         "AbilityUnitDamageType": null,
         "IsSkill": true,
@@ -40923,9 +40923,9 @@
         "AbilityCastPoint": [],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          125.0,
           110.0,
-          95.0,
-          80.0
+          95.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -40998,7 +40998,7 @@
         "Key": "special_bonus_unique_lycan_1",
         "Level": 20,
         "HeroId": 77,
-        "Description": "+8s Shapeshift Duration"
+        "Description": "+6s Shapeshift Duration"
       },
       {
         "Id": 6684,
@@ -41019,15 +41019,15 @@
         "Key": "special_bonus_unique_lycan_2",
         "Level": 25,
         "HeroId": 77,
-        "Description": "+3 Wolves Summoned"
+        "Description": "+2 Wolves Summoned"
       }
     ],
     "Legs": 2,
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 30,
-    "AttackDamageMax": 35,
+    "AttackDamageMin": 24,
+    "AttackDamageMax": 29,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.55,
     "AttackAcquisitionRange": 600,
@@ -42190,9 +42190,6 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          7.0,
-          7.0,
-          7.0,
           7.0
         ],
         "AbilityDuration": [],
@@ -42656,7 +42653,7 @@
     "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 2.0,
-    "AttributeBaseAgility": 29,
+    "AttributeBaseAgility": 26,
     "AttributeAgilityGain": 3.2,
     "StatusHealth": 200,
     "StatusHealthRegen": 1.5,
@@ -50614,10 +50611,10 @@
             320.0
           ],
           "cooldown_reduction": [
+            3.0,
             4.0,
             5.0,
-            6.0,
-            7.0
+            6.0
           ],
           "mana_leak_pct": [
             4.5,
@@ -51054,7 +51051,7 @@
         "Key": "special_bonus_unique_keeper_of_the_light_6",
         "Level": 20,
         "HeroId": 90,
-        "Description": "+250 Will-O-Wisp AOE"
+        "Description": "+200 Will-O-Wisp AOE"
       },
       {
         "Id": 6527,
@@ -52148,11 +52145,11 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 3.0,
+    "ArmorPhysical": 4.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 22,
-    "AttackDamageMax": 28,
+    "AttackDamageMin": 29,
+    "AttackDamageMax": 35,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.38,
     "AttackAcquisitionRange": 600,
@@ -52163,7 +52160,7 @@
     "AttributeStrengthGain": 1.8,
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 1.6,
-    "AttributeBaseAgility": 24,
+    "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
@@ -53041,10 +53038,10 @@
             76.0
           ],
           "damage_gain_pct": [
+            4.0,
             6.0,
             8.0,
-            10.0,
-            12.0
+            10.0
           ],
           "damage_gain_duration": [
             20.0
@@ -57634,7 +57631,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
         "Linked": null,
@@ -60574,10 +60571,10 @@
             -140.0
           ],
           "damage_per_second": [
-            20.0,
-            40.0,
-            60.0,
-            80.0
+            15.0,
+            35.0,
+            55.0,
+            75.0
           ],
           "spirit_count": [
             4.0
@@ -60956,10 +60953,10 @@
             -140.0
           ],
           "damage_per_second": [
-            20.0,
-            40.0,
-            60.0,
-            80.0
+            15.0,
+            35.0,
+            55.0,
+            75.0
           ],
           "spirit_count": [
             4.0
@@ -61095,7 +61092,7 @@
         "Key": "special_bonus_unique_phoenix_3",
         "Level": 15,
         "HeroId": 110,
-        "Description": "+40 Fire Spirits DPS"
+        "Description": "+35 Fire Spirits DPS"
       },
       {
         "Id": 6235,
@@ -61402,7 +61399,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
         "Linked": null,
@@ -67942,10 +67939,10 @@
             300.0
           ],
           "impact_damage": [
-            90.0,
-            160.0,
-            230.0,
-            300.0
+            70.0,
+            140.0,
+            210.0,
+            280.0
           ],
           "impact_stun_duration": [
             1.6,
