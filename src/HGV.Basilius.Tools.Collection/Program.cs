@@ -280,6 +280,12 @@ namespace HGV.Basilius.Tools.Collection
                 return;
             }
 
+            if(ability.Key == "snapfire_spit_creep")
+            {
+                ability.AbilityDraftEnabled = true;
+                return;
+            }
+
             // Gruads
             if (hero.AbilityDraftEnabled == false)
             {
