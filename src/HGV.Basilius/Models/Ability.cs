@@ -57,12 +57,12 @@ namespace HGV.Basilius
         public bool AbilityDraftEnabled { get; set; }
         public string AbilityDraftPreAbility { get; set; }
         public string AbilityDraftUltScepterAbility { get; set; }
+        public string AbilityDraftNote { get; set; }
 
         public string Linked { get; set; }
 
         public Dictionary<string, List<double>> AbilitySpecial { get; set; }
         public List<string> Keywords { get; set; }
-       
 
         public Ability()
         {

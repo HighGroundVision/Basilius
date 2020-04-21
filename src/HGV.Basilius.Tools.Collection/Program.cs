@@ -367,10 +367,12 @@ namespace HGV.Basilius.Tools.Collection
             var name = "DOTA_Tooltip_ability_" + key;
             var desc = "DOTA_Tooltip_ability_" + key + "_Description";
             var desc_ags = "DOTA_Tooltip_ability_" + key + "_aghanim_description";
+            var ad_note = "DOTA_Tooltip_ability_" + key + "_abilitydraft_note";
 
             ability.Name = (string)languageData[name];
             ability.Description = (string)languageData[desc];
             ability.UpgradeDescription = (string)languageData[desc_ags];
+            ability.AbilityDraftNote = (string)languageData[ad_note];
 
             ability.AbilityType = getValue<string>(abiltiesData, "ability_base", key, "AbilityType");
             ability.AbilityBehaviors = getList<string>(abiltiesData, "ability_base", key, "AbilityBehavior", '|');
