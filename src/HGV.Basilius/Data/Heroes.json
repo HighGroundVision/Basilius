@@ -1781,7 +1781,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Hero that drafts Nightmare can continue to attack nightmared units. Bane can also attack even if he didn't draft this ability.",
         "Linked": null,
         "AbilitySpecial": {
           "nightmare_invuln_time": [
@@ -3112,10 +3112,10 @@
             75.0
           ],
           "bonus_movement_speed": [
-            12.0,
+            14.0,
             24.0,
-            36.0,
-            48.0
+            34.0,
+            44.0
           ],
           "bonus_attack_speed": [
             30.0,
@@ -3683,9 +3683,9 @@
             18.0
           ],
           "heal_rate": [
-            2.0,
-            3.0,
-            4.0,
+            1.25,
+            2.5,
+            3.75,
             5.0
           ],
           "aura_radius": [
@@ -5992,7 +5992,7 @@
         "Key": "dragon_knight_elder_dragon_form",
         "Name": "Elder Dragon Form",
         "Description": "Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.\\n<font color=\\\"#9acd32\\\">LEVEL 1 Green Dragon</font> - Corrosive Breath: attacks deal 20/20/20/30 poison damage per second for 5/5/5 seconds. Works on structures.\\n<font color=\\\"#ff0000\\\">LEVEL 2 Red Dragon</font> - Splash Attack: attacks damage all enemy units in a 300 radius for 75/75/75/115% damage, with Corrosive Breath added to the targets.\\n<font color=\\\"#87ceeb\\\">LEVEL 3 Blue Dragon</font> - Frost Breath: slows movement speed by -40/-40/-40/-60% and attack speed by -40/-40/-40/-60 of enemy units in Splash Attack range for 3/3/3 seconds, with Corrosive Breath added to the targets.",
-        "UpgradeDescription": "Increases the level of your ultimate. Adds a 4th level, Black Dragon. Black Dragon has bonus Corrosive Damage, Splash Damage and Slow amount, increased attack range, free pathing and grants additional Magic resistance.",
+        "UpgradeDescription": "Increases the level of your ultimate. Adds a 4th level, Black Dragon. Black Dragon has bonus Corrosive Damage, Splash Damage and Slow amount, increased Magic Resistance and free pathing.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/dragon_knight_elder_dragon_form.png",
         "HeroId": 49,
         "Index": 6,
@@ -6045,7 +6045,7 @@
             350.0,
             350.0,
             350.0,
-            450.0
+            350.0
           ],
           "bonus_attack_damage": [
             0.0
@@ -6177,7 +6177,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 19,
-    "AttributeStrengthGain": 3.6,
+    "AttributeStrengthGain": 3.4,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 19,
@@ -7285,7 +7285,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -3.0,
+    "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 29,
@@ -8863,7 +8863,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Must draft Midnight Pulse for Scepter upgrade to work.",
         "Linked": null,
         "AbilitySpecial": {
           "far_damage": [
@@ -9395,7 +9395,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": "Faceless Void can move freely within the Chronosphere, regardless of team.",
+        "AbilityDraftNote": "Faceless Void can move freely within the Chronosphere without drafting Chronosphere and regardless of team.",
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -11733,8 +11733,8 @@
           ],
           "damage": [
             100.0,
-            140.0,
-            180.0
+            150.0,
+            200.0
           ],
           "damage_scepter": [
             160.0,
@@ -12825,10 +12825,10 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Rage buff for Aghanim's Scepter upgrade requires drafting Rage.",
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -16983,7 +16983,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 300,
+    "MovementSpeed": 295,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -18774,9 +18774,9 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          700,
-          700,
-          700,
+          400,
+          500,
+          600,
           700
         ],
         "AbilityCastRangeBuffer": 250,
@@ -18876,6 +18876,9 @@
           35.0
         ],
         "AbilityDuration": [
+          18.0,
+          22.0,
+          26.0,
           30.0
         ],
         "AbilityDamage": [],
@@ -20020,7 +20023,7 @@
         "Id": 5084,
         "Key": "razor_unstable_current",
         "Name": "Storm Surge",
-        "Description": "Passively increases the movement speed for you and your allied heroes. Has double the effect on your hero.",
+        "Description": "Passively increases the movement speed for you and your allied heroes. Has stronger effect on your hero.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/razor_unstable_current.png",
         "HeroId": 15,
@@ -20059,10 +20062,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "movement_speed_pct": [
-            3.0,
-            5.0,
-            7.0,
-            9.0
+            2.0,
+            4.0,
+            6.0,
+            8.0
           ],
           "self_movement_speed_pct": [
             6.0,
@@ -20336,7 +20339,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 285,
+    "MovementSpeed": 280,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -22119,19 +22122,19 @@
         "Linked": null,
         "AbilitySpecial": {
           "bonus_speed": [
-            20.0,
-            28.0,
-            36.0,
-            44.0
+            18.0,
+            26.0,
+            34.0,
+            42.0
           ],
           "duration": [
             10.0
           ],
           "river_speed": [
-            5.0,
-            20.0,
-            35.0,
-            50.0
+            7.0,
+            19.0,
+            31.0,
+            43.0
           ],
           "puddle_regen": [
             35.0
@@ -22144,9 +22147,9 @@
           ],
           "river_speed_tooltip": [
             25.0,
-            48.0,
-            66.0,
-            94.0
+            45.0,
+            65.0,
+            85.0
           ]
         },
         "Keywords": []
@@ -30673,10 +30676,10 @@
             9.0
           ],
           "bonus_movespeed": [
-            25.0,
-            40.0,
-            55.0,
-            70.0
+            20.0,
+            35.0,
+            50.0,
+            65.0
           ],
           "max_charges_scepter": [
             6.0,
@@ -31207,10 +31210,10 @@
             20.0
           ],
           "damage": [
-            6.0,
-            12.0,
-            18.0,
-            24.0
+            4.0,
+            10.0,
+            16.0,
+            22.0
           ],
           "self_bonus": [
             1.5
@@ -33545,9 +33548,9 @@
           ],
           "movement_speed": [
             4.0,
-            8.0,
-            12.0,
-            16.0
+            7.0,
+            10.0,
+            13.0
           ],
           "radius": [
             200.0,
@@ -34674,29 +34677,29 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Chemical Rage Aghanim's Scepter has been moved to Greevil's Greed for Ability Draft. Use Aghanim's Scepter on an allied hero to grant them all Aghanim's Scepter upgrades. When you have a Scepter of your own, you will gain bonus damage and spell amplification for each gifted Scepter.",
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
             40.0
           ],
           "bonus_gold": [
-            4.0
+            3.0
           ],
           "bonus_bonus_gold": [
             3.0
           ],
           "bonus_gold_cap": [
-            20.0,
-            24.0,
-            28.0,
-            32.0
+            18.0,
+            22.0,
+            26.0,
+            30.0
           ],
           "bounty_multiplier": [
+            1.5,
             2.0,
             2.5,
-            3.0,
-            3.5
+            3.0
           ]
         },
         "Keywords": []
@@ -34838,7 +34841,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Chemical Rage Aghanim's Scepter has been moved to Greevil's Greed for Ability Draft. Getting Aghanim's Scepter for Chemical Rage <b>does not</b> grant any bonuses.",
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -35478,9 +35481,9 @@
         ],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          200.0,
-          300.0,
-          400.0
+          250.0,
+          350.0,
+          450.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -35546,6 +35549,8 @@
             50.0
           ],
           "movement_bonus": [
+            16.0,
+            18.0,
             20.0
           ]
         },
@@ -35636,7 +35641,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 315,
+    "MovementSpeed": 310,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -36580,9 +36585,9 @@
             1200.0
           ],
           "bonus_gold_self": [
-            150.0,
-            250.0,
-            350.0
+            130.0,
+            225.0,
+            320.0
           ],
           "bonus_gold": [
             40.0,
@@ -37440,10 +37445,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "movement_speed": [
-            14.0,
-            20.0,
-            26.0,
-            32.0
+            12.0,
+            18.0,
+            24.0,
+            30.0
           ],
           "status_resistance": [
             34.0,
@@ -39417,9 +39422,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          6.0,
-          8.0,
+          9.0,
           10.0,
+          11.0,
           12.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -39432,10 +39437,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_bonus": [
-            20.0,
             30.0,
             40.0,
-            50.0
+            50.0,
+            60.0
           ]
         },
         "Keywords": []
@@ -39895,10 +39900,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "mana_pool_damage_pct": [
-            5.0,
-            7.0,
-            9.0,
-            11.0
+            6.0,
+            8.0,
+            10.0,
+            12.0
           ],
           "counter_duration": [
             35.0
@@ -41387,7 +41392,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": "lycan_wolf_bite",
-        "AbilityDraftNote": "Wolf Bite available in Ability Draft.",
+        "AbilityDraftNote": "Wolf Bite available in Ability Draft.<br><br>Ranged heroes will lose attack range during Shapeshift, though bonus range abilities can modify that (i.e. Arctic Burn)",
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -41978,7 +41983,7 @@
         "Key": "special_bonus_unique_lone_druid_10",
         "Level": 25,
         "HeroId": 80,
-        "Description": "0.25 Spirit Bear Attack Time"
+        "Description": "0.2 Spirit Bear Attack Time"
       },
       {
         "Id": 6680,
@@ -43994,10 +43999,10 @@
             25.0
           ],
           "bonus_movement_speed": [
-            8.0,
-            10.0,
-            12.0,
-            14.0
+            7.0,
+            9.0,
+            11.0,
+            13.0
           ],
           "bonus_attack_speed": [
             30.0,
@@ -44705,8 +44710,6 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          145.0,
-          135.0,
           125.0
         ],
         "AbilityDuration": [],
@@ -45636,7 +45639,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": "Side Gunner not available in Ability Draft. (Non-ultimate Scepter abilities disabled)",
+        "AbilityDraftNote": "Side Gunner available in Ability Draft.",
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -47178,7 +47181,7 @@
     "AttackDamageMin": 29,
     "AttackDamageMax": 35,
     "AttackRate": 1.7,
-    "AttackAnimationPoint": 0.46,
+    "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 800,
     "AttackRange": 330,
     "ProjectileSpeed": 900,
@@ -51053,6 +51056,9 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          20.0,
+          18.0,
+          16.0,
           14.0
         ],
         "AbilityDuration": [],
@@ -51312,7 +51318,7 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          120.0
+          130.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -59963,10 +59969,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          13.0,
+          12.0,
           11.0,
-          10.0,
-          9.0,
-          8.0
+          10.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -61186,9 +61192,9 @@
         "AbilityCastPoint": [],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          45.0,
-          40.0,
-          35.0,
+          51.0,
+          44.0,
+          37.0,
           30.0
         ],
         "AbilityDuration": [],
@@ -61450,7 +61456,7 @@
         "Key": "phoenix_supernova",
         "Name": "Supernova",
         "Description": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After %abilityduration% seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities. DISPEL TYPE: Strong Dispel",
-        "UpgradeDescription": "Increases number of attacks to destroy Supernova and allows Phoenix to cast Supernova on an allied hero, bringing both into the sun to be reborn together. Allows Phoenix to cast Sun Ray and turn its direction. Does not refresh ultimate abilities.",
+        "UpgradeDescription": "Increases number of attacks to destroy Supernova and allows Phoenix to cast Supernova on an allied hero, bringing both into the sun to be reborn together.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/phoenix_supernova.png",
         "HeroId": 110,
         "Index": 6,
@@ -61617,9 +61623,9 @@
             4.0
           ],
           "attackspeed_slow": [
+            -50.0,
             -80.0,
-            -100.0,
-            -120.0,
+            -110.0,
             -140.0
           ],
           "damage_per_second": [
@@ -61781,11 +61787,11 @@
         "Description": "+1400 Icarus Dive Cast Range"
       },
       {
-        "Id": 6085,
-        "Key": "special_bonus_unique_phoenix_2",
+        "Id": 426,
+        "Key": "special_bonus_unique_phoenix_7",
         "Level": 20,
         "HeroId": 110,
-        "Description": "+1.25s Supernova Stun Duration"
+        "Description": "Sun Ray During Supernova"
       },
       {
         "Id": 6227,
@@ -66480,7 +66486,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": "dark_willow_bedlam",
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Also grants Bedlam ability.",
         "Linked": "dark_willow_bedlam",
         "AbilitySpecial": {
           "destination_travel_speed": [
@@ -69704,11 +69710,11 @@
         "Description": "+3 Mana Regen"
       },
       {
-        "Id": 5939,
-        "Key": "special_bonus_attack_damage_30",
+        "Id": 6009,
+        "Key": "special_bonus_attack_damage_25",
         "Level": 10,
         "HeroId": 126,
-        "Description": "+30 Damage"
+        "Description": "+25 Damage"
       },
       {
         "Id": 7713,
