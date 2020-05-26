@@ -283,6 +283,12 @@ namespace HGV.Basilius.Tools.Collection
         private static void IsAbilityDrafEnabled(Ability ability, Hero hero, JObject heroesData)
         {
             // Short Curit
+            if (ability.Key == "invoker_sun_strike")
+            {
+                ability.AbilityDraftEnabled = false;
+                return;
+            }
+
             if (ability.Key == "vengefulspirit_nether_swap")
             {
                 ability.AbilityDraftEnabled = true;
