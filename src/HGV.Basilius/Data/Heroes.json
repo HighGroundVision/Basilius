@@ -25328,7 +25328,7 @@
         "Id": 5150,
         "Key": "tinker_laser",
         "Name": "Laser",
-        "Description": "Fires an intense energy beam, erasing the target's base magic resistance, dealing damage and blinding the target, causing it to miss all physical attacks.",
+        "Description": "Fires an intense energy beam, dealing damage and blinding the target, causing it to miss all physical attacks.",
         "UpgradeDescription": "Causes Laser to refract between all visible enemy heroes within range.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/tinker_laser.png",
         "HeroId": 34,
@@ -39151,6 +39151,832 @@
             5.0,
             5.75,
             6.5
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7843,
+        "Key": "invoker_chaos_meteor_ad",
+        "Name": "Chaos Meteor (AD)",
+        "Description": "Invoker pulls a flaming meteor from space onto the targeted location. Upon landing, the meteor rolls forward, constantly dealing damage and rolling further based on the level. Units hit by the meteor will also be set on fire for a short time.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_chaos_meteor_ad.png",
+        "HeroId": 74,
+        "Index": 1,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_POINT",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          700
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          55.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          200.0
+        ],
+        "AbilityModifierSupportValue": 0.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 1,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "land_time": [
+            1.3
+          ],
+          "area_of_effect": [
+            275.0
+          ],
+          "travel_distance": [
+            615.0,
+            866.0,
+            1118.0,
+            1370.0
+          ],
+          "travel_speed": [
+            300.0
+          ],
+          "damage_interval": [
+            0.5
+          ],
+          "vision_distance": [
+            500.0
+          ],
+          "end_vision_duration": [
+            3.0
+          ],
+          "main_damage": [
+            75.0,
+            105.0,
+            135.0,
+            162.5
+          ],
+          "burn_duration": [
+            3.0
+          ],
+          "burn_dps": [
+            15.0,
+            21.0,
+            26.5,
+            32.5
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7845,
+        "Key": "invoker_deafening_blast_ad",
+        "Name": "Deafening Blast",
+        "Description": "Invoker unleashes a mighty sonic wave in front of him, dealing damage to any enemy unit it collides with. The sheer impact from the blast is enough to knock those enemy units back for a duration then disarm their attacks for a duration.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_deafening_blast_ad.png",
+        "HeroId": 74,
+        "Index": 2,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_POINT",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          1000
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          40.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          300.0
+        ],
+        "AbilityModifierSupportValue": 0.5,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 1,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "travel_distance": [
+            1000.0
+          ],
+          "travel_speed": [
+            1100.0
+          ],
+          "radius_start": [
+            175.0
+          ],
+          "radius_end": [
+            225.0
+          ],
+          "end_vision_duration": [
+            1.75
+          ],
+          "damage": [
+            80.0,
+            146.0,
+            214.0,
+            280.0
+          ],
+          "knockback_duration": [
+            0.5,
+            0.9,
+            1.33,
+            1.75
+          ],
+          "disarm_duration": [
+            2.0,
+            3.25,
+            4.5,
+            5.75
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7838,
+        "Key": "invoker_tornado_ad",
+        "Name": "Tornado (AD)",
+        "Description": "Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level and holds enemies in the air for a duration. DISPEL TYPE: Basic Dispel",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_tornado_ad.png",
+        "HeroId": 74,
+        "Index": 3,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_POINT",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          2000
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          30.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          150.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 0,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "travel_distance": [
+            1200.0,
+            1865.0,
+            2530.0,
+            3200.0
+          ],
+          "travel_speed": [
+            1000.0
+          ],
+          "area_of_effect": [
+            200.0
+          ],
+          "vision_distance": [
+            200.0
+          ],
+          "end_vision_duration": [
+            1.75
+          ],
+          "lift_duration": [
+            1.1,
+            1.6,
+            2.1,
+            2.6
+          ],
+          "base_damage": [
+            70.0
+          ],
+          "quas_damage": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "wex_damage": [
+            90.0,
+            165.0,
+            240.0,
+            315.0
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7839,
+        "Key": "invoker_emp_ad",
+        "Name": "E.M.P. (AD)",
+        "Description": "Invoker builds up a charge of electromagnetic energy at a targeted location which automatically detonates after 2.9 seconds. The detonation covers an area, draining mana. Deals damage for each point of mana drained.  If EMP drains mana from an enemy hero, Invoker gains 50% of the mana drained.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_emp_ad.png",
+        "HeroId": 74,
+        "Index": 4,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_POINT",
+          "DOTA_ABILITY_BEHAVIOR_AOE",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": null,
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          950
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          30.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          125.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 0,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "delay": [
+            2.9
+          ],
+          "area_of_effect": [
+            675.0
+          ],
+          "mana_burned": [
+            175.0,
+            300.0,
+            425.0,
+            550.0
+          ],
+          "damage_per_mana_pct": [
+            60.0
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7840,
+        "Key": "invoker_alacrity_ad",
+        "Name": "Alacrity (AD)",
+        "Description": "Invoker infuses an ally with an immense surge of energy, increasing their attack speed and their damage.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_alacrity_ad.png",
+        "HeroId": 74,
+        "Index": 5,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": [
+          "DOTA_UNIT_TARGET_HERO",
+          "DOTA_UNIT_TARGET_CREEP"
+        ],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES",
+        "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+        "AbilityUnitDamageType": null,
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          650
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          17.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          60.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 0,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "bonus_attack_speed": [
+            25.0,
+            50.0,
+            75.0,
+            100.0
+          ],
+          "bonus_damage": [
+            25.0,
+            50.0,
+            75.0,
+            100.0
+          ],
+          "duration": [
+            9.0
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7836,
+        "Key": "invoker_cold_snap_ad",
+        "Name": "Cold Snap (AD)",
+        "Description": "Invoker draws the heat from an enemy, chilling them to their very core for a duration. The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage. The enemy can only be frozen so often, but the freeze cooldown decreases as the level goes up.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_cold_snap_ad.png",
+        "HeroId": 74,
+        "Index": 6,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": [
+          "DOTA_UNIT_TARGET_HERO",
+          "DOTA_UNIT_TARGET_BASIC"
+        ],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          1000
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          20.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          100.0
+        ],
+        "AbilityModifierSupportValue": 0.15,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 1,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "duration": [
+            3.5,
+            4.3,
+            5.1,
+            6.0
+          ],
+          "freeze_duration": [
+            0.4
+          ],
+          "freeze_cooldown": [
+            0.74,
+            0.69,
+            0.64,
+            0.6
+          ],
+          "freeze_damage": [
+            16.0,
+            30.0,
+            44.0,
+            56.0
+          ],
+          "damage_trigger": [
+            10.0
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7841,
+        "Key": "invoker_sun_strike_ad",
+        "Name": "Sun Strike (AD)",
+        "Description": "Sends a catastrophic ray of fierce energy from the sun at any targeted location, incinerating all enemies standing beneath it once it reaches the earth. Damage is spread evenly over all enemies hit.",
+        "UpgradeDescription": "Adds Cataclysm. Launched when Sun Strike is double tapped. Puts it on a %cataclysm_cooldown% second cooldown. Creates 2 visible Sun Strikes within %cataclysm_min_range%-%cataclysm_max_range% range of each enemy hero.",
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_sun_strike_ad.png",
+        "HeroId": 74,
+        "Index": 7,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_POINT",
+          "DOTA_ABILITY_BEHAVIOR_AOE",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
+        "SpellDispellableType": null,
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": true,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [
+          0
+        ],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          25.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          175.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 1,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "delay": [
+            1.7
+          ],
+          "area_of_effect": [
+            175.0
+          ],
+          "damage": [
+            162.0,
+            266.0,
+            370.0,
+            475.0
+          ],
+          "vision_distance": [
+            400.0
+          ],
+          "vision_duration": [
+            4.0
+          ],
+          "cataclysm_cooldown": [
+            90.0
+          ],
+          "cataclysm_min_range": [
+            160.0
+          ],
+          "cataclysm_max_range": [
+            200.0
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7842,
+        "Key": "invoker_forge_spirit_ad",
+        "Name": "Forge Spirit (AD)",
+        "Description": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. The elemental's scorching attack is capable of melting the armor of enemy heroes.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_forge_spirit_ad.png",
+        "HeroId": 74,
+        "Index": 8,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": null,
+        "AbilityUnitDamageType": null,
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          30.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          75.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 0,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "spirit_damage": [
+            32.0,
+            45.0,
+            68.0,
+            82.0
+          ],
+          "spirit_mana": [
+            140.0,
+            220.0,
+            340.0,
+            400.0
+          ],
+          "spirit_armor": [
+            1.0,
+            2.0,
+            4.0,
+            6.0
+          ],
+          "spirit_attack_range": [
+            365.0,
+            470.0,
+            580.0,
+            690.0
+          ],
+          "spirit_hp": [
+            400.0,
+            566.0,
+            732.0,
+            900.0
+          ],
+          "spirit_duration": [
+            30.0,
+            46.0,
+            62.0,
+            80.0
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7844,
+        "Key": "invoker_ice_wall_ad",
+        "Name": "Ice Wall (AD)",
+        "Description": "Generates a wall of solid ice directly in front of Invoker for a duration. The bitter cold emanating from it greatly slows nearby enemies and deals damage each second.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_ice_wall_ad.png",
+        "HeroId": 74,
+        "Index": 9,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          25.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          175.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 1,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "duration": [
+            4.5,
+            7.0,
+            9.5,
+            12.0
+          ],
+          "slow": [
+            -40.0,
+            -74.0,
+            -106.0,
+            -140.0
+          ],
+          "slow_duration": [
+            2.0
+          ],
+          "damage_per_second": [
+            12.0,
+            22.0,
+            32.0,
+            42.0
+          ],
+          "wall_place_distance": [
+            200.0
+          ],
+          "num_wall_elements": [
+            15.0
+          ],
+          "wall_element_spacing": [
+            80.0
+          ],
+          "wall_element_radius": [
+            105.0
+          ]
+        },
+        "Keywords": []
+      },
+      {
+        "Id": 7837,
+        "Key": "invoker_ghost_walk_ad",
+        "Name": "Ghost Walk (AD)",
+        "Description": "Invoker manipulates the ice and electrical energies around him, rendering his body invisible. The elemental imbalance created as a consequence slows nearby enemies, and slows Invoker as well based on the level.",
+        "UpgradeDescription": null,
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_ghost_walk_ad.png",
+        "HeroId": 74,
+        "Index": 10,
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+        ],
+        "AbilityUnitTargetTeam": null,
+        "AbilityUnitTargetType": [],
+        "AbilityUnitTargetFlags": [],
+        "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+        "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+        "AbilityUnitDamageType": null,
+        "IsSkill": true,
+        "IsUltimate": false,
+        "HasScepterUpgrade": false,
+        "IsGrantedByScepter": false,
+        "OnCastbar": true,
+        "OnLearnbar": true,
+        "AbilityCastRange": [],
+        "AbilityCastRangeBuffer": 250,
+        "AbilityCastPoint": [
+          0.05
+        ],
+        "AbilityChannelTime": [],
+        "AbilityCooldown": [
+          45.0
+        ],
+        "AbilityDuration": [],
+        "AbilityDamage": [],
+        "AbilityManaCost": [
+          200.0
+        ],
+        "AbilityModifierSupportValue": 1.0,
+        "AbilityModifierSupportBonus": 0.0,
+        "FightRecapLevel": 0,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": null,
+        "AbilityDraftUltScepterAbility": null,
+        "AbilityDraftNote": null,
+        "Linked": null,
+        "AbilitySpecial": {
+          "duration": [
+            100.0
+          ],
+          "area_of_effect": [
+            400.0
+          ],
+          "enemy_slow": [
+            -25.0,
+            -34.0,
+            -42.0,
+            -50.0
+          ],
+          "self_slow": [
+            -20.0,
+            0.0,
+            16.0,
+            30.0
+          ],
+          "aura_fade_time": [
+            2.0
           ]
         },
         "Keywords": []

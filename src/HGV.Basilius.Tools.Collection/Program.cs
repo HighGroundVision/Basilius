@@ -227,6 +227,7 @@ namespace HGV.Basilius.Tools.Collection
 
             // Get Abilties
             var abilityTalentStart = getValue<int>(heroesData, "npc_dota_hero_base", key, "AbilityTalentStart");
+            var abilityDraftAbilities = heroesData[key]["AbilityDraftAbilities"];
             for (int i = 1; i < abilityTalentStart; i++)
             {
                 var field = string.Format("Ability{0}", i);
@@ -238,6 +239,20 @@ namespace HGV.Basilius.Tools.Collection
                     ability.HeroId = hero.Id;
                     ability.Index = i;
                     hero.Abilities.Add(ability);
+                }
+            }
+
+            if (abilityDraftAbilities != null)
+            {
+                var i = 1;
+                foreach (JProperty item in abilityDraftAbilities)
+                {
+                    var abilityKey = (string)abilityDraftAbilities[item.Name];
+                    var ability = ExtractAbilityData(languageAbilties, abiltiesData, abilityKey);
+                    ability.HeroId = hero.Id;
+                    ability.Index = i++;
+                    if(hero.Abilities.Any(_ => _.Key == abilityKey) == false)
+                        hero.Abilities.Add(ability);
                 }
             }
 
@@ -313,13 +328,13 @@ namespace HGV.Basilius.Tools.Collection
             // Test
             if (ability.IsGrantedByScepter == true)
             {
-                if(hero.Abilities.Any(_ => _.AbilityDraftUltScepterAbility == ability.Key))
+                if (hero.Abilities.Any(_ => _.AbilityDraftUltScepterAbility == ability.Key))
                 {
                     ability.AbilityDraftEnabled = true;
                     return;
                 }
             }
-            else 
+            else
             {
                 if (heroData["AbilityDraftAbilities"] != null)
                 {
