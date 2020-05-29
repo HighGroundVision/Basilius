@@ -27577,7 +27577,7 @@
         "Key": "special_bonus_unique_venomancer_4",
         "Level": 20,
         "HeroId": 40,
-        "Description": "+5.5s Poison Nova Duration"
+        "Description": "+5s Poison Nova Duration"
       },
       {
         "Id": 434,
@@ -51777,10 +51777,10 @@
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
         "AbilityDraftEnabled": true,
-        "AbilityDraftPreAbility": null,
+        "AbilityDraftPreAbility": "keeper_of_the_light_spirit_form_illuminate",
         "AbilityDraftUltScepterAbility": null,
         "AbilityDraftNote": null,
-        "Linked": null,
+        "Linked": "keeper_of_the_light_spirit_form_illuminate",
         "AbilitySpecial": {
           "damage_per_second": [
             100.0,
@@ -60103,7 +60103,7 @@
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
-    "AbilityDraftEnabled": false,
+    "AbilityDraftEnabled": true,
     "Complexity": 3,
     "Roles": [
       {
@@ -60181,10 +60181,10 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Stone Remnant combination require drafting Magnetize to get the Stone Remnants.",
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -60275,10 +60275,10 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Stone Remnant combination require drafting Magnetize to get the Stone Remnants.",
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
@@ -60514,7 +60514,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
         "AbilityDraftNote": null,
@@ -60579,11 +60579,11 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 2,
-        "AbilityDraftEnabled": false,
-        "AbilityDraftPreAbility": null,
-        "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
-        "Linked": null,
+        "AbilityDraftEnabled": true,
+        "AbilityDraftPreAbility": "earth_spirit_stone_caller",
+        "AbilityDraftUltScepterAbility": "earth_spirit_petrify",
+        "AbilityDraftNote": "Also grants Stone Remnant ability. Aquiring Scepter will grant the Enchant Remnant ability.",
+        "Linked": "earth_spirit_stone_caller",
         "AbilitySpecial": {
           "cast_radius": [
             350.0
