@@ -39,14 +39,14 @@ namespace HGV.Basilius.Tools.Collection
             JObject rootItems = JObject.Parse(jsonItems);
             JObject itemsData = (JObject)rootItems["DOTAAbilities"];
 
-            var jsonRegions = await client.GetStringAsync("https://api.stratz.com/api/v1/Region");
-            JArray rootRegions = JArray.Parse(jsonRegions);
+            //var jsonRegions = await client.GetStringAsync("https://api.stratz.com/api/v1/Region");
+            //JArray rootRegions = JArray.Parse(jsonRegions);
 
-            var jsonClusters = await client.GetStringAsync("https://api.stratz.com/api/v1/Cluster");
-            JArray rootClusters = JArray.Parse(jsonClusters);
+            //var jsonClusters = await client.GetStringAsync("https://api.stratz.com/api/v1/Cluster");
+            //JArray rootClusters = JArray.Parse(jsonClusters);
 
-            var jsonModes = await client.GetStringAsync("https://api.stratz.com/api/v1/GameMode");
-            JObject rootModes = JObject.Parse(jsonModes);
+            //var jsonModes = await client.GetStringAsync("https://api.stratz.com/api/v1/GameMode");
+            //JObject rootModes = JObject.Parse(jsonModes);
 
             var activeItems = new List<string>();
             foreach (JProperty property in itemsData.Properties())
@@ -64,6 +64,7 @@ namespace HGV.Basilius.Tools.Collection
                 items.Add(item);
             }
 
+            /*
             var modes = rootModes.Properties()
                 .Select(_ => new { id = rootModes[_.Name]["id"], name = rootModes[_.Name]["name"] })
                 .ToDictionary(_ => _.id, _ => _.name);
@@ -81,6 +82,7 @@ namespace HGV.Basilius.Tools.Collection
             var clusters = rootClusters.ToDictionary(_ => (int)_["id"], _ => (int)_["regionId"]);
             var outputClusters = Newtonsoft.Json.JsonConvert.SerializeObject(clusters, Newtonsoft.Json.Formatting.Indented);
             System.IO.File.WriteAllText("Clusters.json", outputClusters);
+            */
 
             var outputItems = Newtonsoft.Json.JsonConvert.SerializeObject(items, Newtonsoft.Json.Formatting.Indented);
             System.IO.File.WriteAllText("Items.json", outputItems);
