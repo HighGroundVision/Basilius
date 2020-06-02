@@ -15971,7 +15971,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Shadowraze (Near)",
         "Linked": "nevermore_shadowraze2",
         "AbilitySpecial": {
           "shadowraze_damage": [
@@ -62330,7 +62330,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Level 20 talent requires Sun Ray to also be drafted.",
         "Linked": null,
         "AbilitySpecial": {
           "aura_radius": [
@@ -63672,7 +63672,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": "techies_focused_detonate",
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Also grants Minefield Sign ability.",
         "Linked": "techies_focused_detonate",
         "AbilitySpecial": {
           "max_mines": [
