@@ -11,5 +11,6 @@ namespace HGV.Basilius
         public string group { get; set; }
         public double latitude { get; set; }
         public double longitude { get; set; }
+        public string color { get; set; }
     }
 }
