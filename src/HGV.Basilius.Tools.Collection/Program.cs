@@ -309,6 +309,12 @@ namespace HGV.Basilius.Tools.Collection
                 return;
             }
 
+            if(ability.Key == "techies_minefield_sign")
+            {
+                ability.AbilityDraftEnabled = true;
+                return;
+            }
+
             // Gruads
             if (hero.AbilityDraftEnabled == false)
             {
