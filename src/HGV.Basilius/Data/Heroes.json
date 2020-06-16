@@ -66255,7 +66255,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": "Primal Spring disabled in Ability Draft. Tree Dance is only for jumping between trees.",
+        "AbilityDraftNote": "For Ability Draft only, Tree Dance ability swaps with Primal Spring while you are perched on a tree. You can no longer jump to other trees without returning to the ground first.",
         "Linked": null,
         "AbilitySpecial": {
           "leap_speed": [

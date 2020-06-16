@@ -2391,7 +2391,7 @@
     "Id": 39,
     "Key": "item_flask",
     "Name": null,
-    "Description": "<h1>Use: Salve</h1> Grants 50 health regeneration to the target for 8 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Salve</h1> Grants 40 health regeneration to the target for 10 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_flask.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2402,10 +2402,10 @@
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
       "buff_duration": [
-        8.0
+        10.0
       ],
       "health_regen": [
-        50.0
+        40.0
       ]
     },
     "ItemDeclarations": [],
@@ -13500,13 +13500,7 @@
     "AbilityCooldown": 0.0,
     "AbilityManaCost": 0.0,
     "AbilitySpecial": {
-      "bonus_int": [
-        4.0
-      ],
-      "bonus_str": [
-        4.0
-      ],
-      "bonus_agi": [
+      "bonus_all_stats": [
         4.0
       ],
       "bonus_mana_regen": [
