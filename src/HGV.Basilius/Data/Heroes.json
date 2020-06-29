@@ -25754,7 +25754,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "For abilities with charges, a single charge of the ability will be added everytime Rearm is cast.",
         "Linked": null,
         "AbilitySpecial": {},
         "Keywords": []
