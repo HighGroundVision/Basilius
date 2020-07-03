@@ -5017,7 +5017,7 @@
         "Key": "special_bonus_unique_dark_seer_3",
         "Level": 25,
         "HeroId": 55,
-        "Description": "400 AoE Surge"
+        "Description": "320 AoE Surge"
       }
     ],
     "Legs": 2,
@@ -6303,10 +6303,10 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 0,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Devour will only acquire the passive abilities that the creep possessed.  If Rearm is drafted and cast, this ability's cooldown will <b>not</b> be reset.",
         "Linked": null,
         "AbilitySpecial": {
           "bonus_gold": [
@@ -9791,13 +9791,13 @@
             28.0
           ],
           "treant_large_hp_bonus": [
-            1650.0
+            1320.0
           ],
           "treant_large_damage_bonus": [
-            72.0,
-            84.0,
-            96.0,
-            108.0
+            57.0,
+            67.0,
+            77.0,
+            87.0
           ]
         },
         "Keywords": []
@@ -62444,9 +62444,9 @@
             4.0
           ],
           "attackspeed_slow": [
-            -50.0,
             -80.0,
-            -110.0,
+            -100.0,
+            -120.0,
             -140.0
           ],
           "damage_per_second": [
