@@ -166,9 +166,9 @@
         "AbilityDamage": [],
         "AbilityManaCost": [
           40.0,
-          60.0,
-          80.0,
-          100.0
+          55.0,
+          70.0,
+          85.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -541,7 +541,7 @@
         "Key": "special_bonus_unique_ancient_apparition_7",
         "Level": 10,
         "HeroId": 68,
-        "Description": "140 Chilling Touch Attack Range"
+        "Description": "+175 Chilling Touch Attack Range"
       },
       {
         "Id": 5949,
@@ -576,7 +576,7 @@
         "Key": "special_bonus_unique_ancient_apparition_2",
         "Level": 20,
         "HeroId": 68,
-        "Description": "+65 Chilling Touch Damage"
+        "Description": "+70 Chilling Touch Damage"
       },
       {
         "Id": 7106,
@@ -1047,11 +1047,11 @@
     ],
     "Talents": [
       {
-        "Id": 6137,
-        "Key": "special_bonus_strength_10",
+        "Id": 6250,
+        "Key": "special_bonus_strength_9",
         "Level": 10,
         "HeroId": 1,
-        "Description": "+10 Strength"
+        "Description": "+9 Strength"
       },
       {
         "Id": 6119,
@@ -1100,7 +1100,7 @@
         "Key": "special_bonus_unique_antimage_2",
         "Level": 25,
         "HeroId": 1,
-        "Description": "-45s Mana Void Cooldown"
+        "Description": "-50s Mana Void Cooldown"
       }
     ],
     "Legs": 2,
@@ -1120,7 +1120,7 @@
     "AttributeBaseIntelligence": 12,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 24,
-    "AttributeAgilityGain": 3.0,
+    "AttributeAgilityGain": 2.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -1556,8 +1556,8 @@
         "AbilitySpecial": {
           "kill_threshold": [
             250.0,
-            325.0,
-            400.0
+            350.0,
+            450.0
           ],
           "damage": [
             150.0,
@@ -1582,11 +1582,11 @@
     ],
     "Talents": [
       {
-        "Id": 5982,
-        "Key": "special_bonus_strength_8",
+        "Id": 6016,
+        "Key": "special_bonus_attack_speed_25",
         "Level": 10,
         "HeroId": 2,
-        "Description": "+8 Strength"
+        "Description": "+25 Attack Speed"
       },
       {
         "Id": 5918,
@@ -1603,11 +1603,18 @@
         "Description": "+2 Mana Regen"
       },
       {
-        "Id": 6196,
-        "Key": "special_bonus_attack_speed_35",
+        "Id": 6815,
+        "Key": "special_bonus_unique_axe_3",
         "Level": 15,
         "HeroId": 2,
-        "Description": "+35 Attack Speed"
+        "Description": "Attacking Procs Counter Helix"
+      },
+      {
+        "Id": 562,
+        "Key": "special_bonus_unique_axe_5",
+        "Level": 20,
+        "HeroId": 2,
+        "Description": "+150 Culling Blade Threshold"
       },
       {
         "Id": 6079,
@@ -1615,13 +1622,6 @@
         "Level": 20,
         "HeroId": 2,
         "Description": "+20 Health Regen"
-      },
-      {
-        "Id": 6815,
-        "Key": "special_bonus_unique_axe_3",
-        "Level": 20,
-        "HeroId": 2,
-        "Description": "Attacking Procs Counter Helix"
       },
       {
         "Id": 6608,
@@ -1847,10 +1847,10 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          90.0,
-          115.0,
-          140.0,
-          165.0
+          110.0,
+          130.0,
+          150.0,
+          170.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -2174,11 +2174,11 @@
         "Description": "+15% Magic Resistance"
       },
       {
-        "Id": 522,
-        "Key": "special_bonus_spell_amplify_7",
+        "Id": 511,
+        "Key": "special_bonus_spell_amplify_9",
         "Level": 15,
         "HeroId": 3,
-        "Description": "+7% Spell Amplification"
+        "Description": "+9% Spell Amplification"
       },
       {
         "Id": 6197,
@@ -2195,11 +2195,11 @@
         "Description": "-3s Nightmare Cooldown"
       },
       {
-        "Id": 6093,
-        "Key": "special_bonus_movement_speed_40",
+        "Id": 6141,
+        "Key": "special_bonus_movement_speed_30",
         "Level": 20,
         "HeroId": 3,
-        "Description": "+40 Movement Speed"
+        "Description": "+30 Movement Speed"
       },
       {
         "Id": 6069,
@@ -2228,11 +2228,11 @@
     "AttackRange": 400,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
-    "AttributeBaseStrength": 23,
+    "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 2.6,
-    "AttributeBaseIntelligence": 23,
+    "AttributeBaseIntelligence": 22,
     "AttributeIntelligenceGain": 2.6,
-    "AttributeBaseAgility": 23,
+    "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 2.6,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
@@ -2334,10 +2334,7 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          80.0,
-          85.0,
-          90.0,
-          95.0
+          80.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -2374,6 +2371,12 @@
           ],
           "scepter_cooldown": [
             0.0
+          ],
+          "min_throw_duration": [
+            0.4
+          ],
+          "max_throw_duration": [
+            1.0
           ]
         },
         "Keywords": []
@@ -2418,7 +2421,10 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          50.0
+          60.0,
+          65.0,
+          70.0,
+          75.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -2780,11 +2786,11 @@
         "Description": "+6 Armor"
       },
       {
-        "Id": 6611,
-        "Key": "special_bonus_unique_beastmaster_3",
+        "Id": 506,
+        "Key": "special_bonus_unique_beastmaster_5",
         "Level": 15,
         "HeroId": 38,
-        "Description": "-14s Hawks Cooldown"
+        "Description": "+200 Hawk Vision"
       },
       {
         "Id": 6517,
@@ -2794,11 +2800,11 @@
         "Description": "+30 Boar Damage"
       },
       {
-        "Id": 5976,
-        "Key": "special_bonus_hp_400",
+        "Id": 467,
+        "Key": "special_bonus_hp_450",
         "Level": 20,
         "HeroId": 38,
-        "Description": "+400 Health"
+        "Description": "+450 Health"
       },
       {
         "Id": 6612,
@@ -2812,7 +2818,7 @@
         "Key": "special_bonus_unique_beastmaster",
         "Level": 25,
         "HeroId": 38,
-        "Description": "+80 Wild Axes Damage"
+        "Description": "+100 Wild Axes Damage"
       }
     ],
     "Legs": 2,
@@ -2899,19 +2905,19 @@
         "Id": 5015,
         "Key": "bloodseeker_bloodrage",
         "Name": "Bloodrage",
-        "Description": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer. If you do not get the last hit, but are within 300 AoE of the dying hero, you will take 50% of the heal.",
+        "Description": "Drives you into a bloodthirsty rage during which you attacks faster and deal more spell damage at the cost a percentage of your health per second. Provides half attack speed to allied heroes.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/bloodseeker_bloodrage.png",
         "HeroId": 4,
         "Index": 1,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
         ],
-        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
         "AbilityUnitTargetType": [
-          "DOTA_UNIT_TARGET_HERO",
-          "DOTA_UNIT_TARGET_CREEP"
+          "DOTA_UNIT_TARGET_HERO"
         ],
         "AbilityUnitTargetFlags": [],
         "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
@@ -2932,14 +2938,16 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          9.0,
-          8.0,
-          7.0,
-          6.0
+          14.0,
+          12.0,
+          10.0,
+          8.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
-        "AbilityManaCost": [],
+        "AbilityManaCost": [
+          25.0
+        ],
         "AbilityModifierSupportValue": 0.1,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
@@ -2950,40 +2958,25 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            9.0,
-            10.0,
-            11.0,
-            12.0
+            8.0
           ],
-          "damage_increase_outgoing_pct": [
+          "attack_speed": [
+            50.0,
+            80.0,
+            110.0,
+            140.0
+          ],
+          "spell_amp": [
+            6.0,
             12.0,
             18.0,
-            24.0,
-            30.0
+            24.0
           ],
-          "damage_increase_incoming_pct": [
-            10.0,
-            14.0,
-            18.0,
-            22.0
-          ],
-          "health_bonus_pct": [
-            10.0,
-            15.0,
-            20.0,
-            25.0
-          ],
-          "health_bonus_creep_pct": [
-            10.0,
-            15.0,
-            20.0,
-            25.0
-          ],
-          "health_bonus_aoe": [
-            300.0
-          ],
-          "health_bonus_share_percent": [
-            50.0
+          "damage_pct": [
+            2.2,
+            2.4,
+            2.6,
+            2.8
           ]
         },
         "Keywords": []
@@ -3052,10 +3045,10 @@
             6.0
           ],
           "damage": [
-            125.0,
-            175.0,
-            225.0,
-            275.0
+            120.0,
+            180.0,
+            240.0,
+            300.0
           ],
           "delay": [
             2.6
@@ -3070,7 +3063,7 @@
         "Id": 5017,
         "Key": "bloodseeker_thirst",
         "Name": "Thirst",
-        "Description": "Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack speed whenever an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero. Unlocks max movement speed for Bloodseeker.",
+        "Description": "Bloodseeker is invigorated by the wounds of his enemies, restoring some life when he kills an enemy unit. Also gains bonus movement speed when an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero. Unlocks max movement speed for Bloodseeker.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/bloodseeker_thirst.png",
         "HeroId": 4,
@@ -3117,11 +3110,20 @@
             34.0,
             44.0
           ],
-          "bonus_attack_speed": [
-            30.0,
-            45.0,
-            60.0,
-            75.0
+          "hero_kill_heal": [
+            12.0,
+            18.0,
+            24.0,
+            30.0
+          ],
+          "creep_kill_heal": [
+            8.0,
+            12.0,
+            16.0,
+            20.0
+          ],
+          "half_bonus_aoe": [
+            300.0
           ],
           "max_bonus_pct": [
             25.0
@@ -3313,32 +3315,32 @@
     ],
     "Talents": [
       {
-        "Id": 5906,
-        "Key": "special_bonus_attack_speed_20",
+        "Id": 482,
+        "Key": "special_bonus_unique_bloodseeker_5",
         "Level": 10,
         "HeroId": 4,
-        "Description": "+20 Attack Speed"
+        "Description": "+30 Bloodrage Attack Speed"
       },
       {
-        "Id": 5932,
-        "Key": "special_bonus_armor_5",
+        "Id": 5933,
+        "Key": "special_bonus_armor_6",
         "Level": 10,
         "HeroId": 4,
-        "Description": "+5 Armor"
+        "Description": "+6 Armor"
       },
       {
-        "Id": 6405,
-        "Key": "special_bonus_hp_225",
+        "Id": 6289,
+        "Key": "special_bonus_lifesteal_15",
         "Level": 15,
         "HeroId": 4,
-        "Description": "+225 Health"
+        "Description": "15% Lifesteal"
       },
       {
         "Id": 6356,
         "Key": "special_bonus_unique_bloodseeker_2",
         "Level": 15,
         "HeroId": 4,
-        "Description": "+60 Blood Rite Damage"
+        "Description": "+75 Blood Rite Damage"
       },
       {
         "Id": 6357,
@@ -3348,11 +3350,11 @@
         "Description": "+475 Rupture Cast Range"
       },
       {
-        "Id": 6078,
-        "Key": "special_bonus_lifesteal_20",
+        "Id": 5976,
+        "Key": "special_bonus_hp_400",
         "Level": 20,
         "HeroId": 4,
-        "Description": "20% Lifesteal"
+        "Description": "+400 Health"
       },
       {
         "Id": 6230,
@@ -3383,8 +3385,8 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 24,
     "AttributeStrengthGain": 2.7,
-    "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 1.7,
+    "AttributeBaseIntelligence": 21,
+    "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 3.4,
     "StatusHealth": 200,
@@ -4370,7 +4372,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
-            835.0
+            810.0
           ],
           "explosion_radius": [
             300.0
@@ -4402,7 +4404,7 @@
             250.0
           ],
           "scepter_delay": [
-            2.0
+            1.75
           ]
         },
         "Keywords": []
@@ -4428,14 +4430,14 @@
         "Key": "special_bonus_unique_crystal_maiden_4",
         "Level": 15,
         "HeroId": 5,
-        "Description": "+8% Magic Resistance Arcane Aura"
+        "Description": "+6% Magic Resistance Arcane Aura"
       },
       {
         "Id": 7654,
         "Key": "special_bonus_unique_crystal_maiden_5",
         "Level": 15,
         "HeroId": 5,
-        "Description": "-2s Crystal Nova Cooldown"
+        "Description": "-3s Crystal Nova Cooldown"
       },
       {
         "Id": 6622,
@@ -4470,8 +4472,8 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 30,
-    "AttackDamageMax": 36,
+    "AttackDamageMin": 28,
+    "AttackDamageMax": 34,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.45,
     "AttackAcquisitionRange": 800,
@@ -4480,7 +4482,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 18,
     "AttributeStrengthGain": 2.2,
-    "AttributeBaseIntelligence": 14,
+    "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 3.3,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.6,
@@ -4492,7 +4494,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 275,
+    "MovementSpeed": 280,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": true,
     "Team": 1,
@@ -4588,10 +4590,10 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          100.0,
-          130.0,
-          160.0,
-          190.0
+          60.0,
+          90.0,
+          120.0,
+          150.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -4615,10 +4617,10 @@
             0.6
           ],
           "damage": [
-            50.0,
             100.0,
             150.0,
-            200.0
+            200.0,
+            250.0
           ],
           "radius_tree": [
             275.0
@@ -4953,7 +4955,7 @@
             70.0
           ],
           "slow_duration": [
-            0.75
+            1.0
           ],
           "scepter_length_multiplier": [
             2.0
@@ -4964,11 +4966,11 @@
     ],
     "Talents": [
       {
-        "Id": 5971,
-        "Key": "special_bonus_evasion_10",
+        "Id": 420,
+        "Key": "special_bonus_unique_dark_seer_5",
         "Level": 10,
         "HeroId": 55,
-        "Description": "10% Evasion"
+        "Description": "+75 Ion Shell Radius"
       },
       {
         "Id": 6365,
@@ -4978,18 +4980,18 @@
         "Description": "+60 Vacuum AoE"
       },
       {
-        "Id": 5912,
-        "Key": "special_bonus_hp_regen_10",
+        "Id": 513,
+        "Key": "special_bonus_unique_dark_seer_6",
         "Level": 15,
         "HeroId": 55,
-        "Description": "+10 Health Regen"
+        "Description": "Ion Shell Provides 400 Max Health"
       },
       {
-        "Id": 420,
-        "Key": "special_bonus_unique_dark_seer_5",
+        "Id": 560,
+        "Key": "special_bonus_unique_dark_seer_7",
         "Level": 15,
         "HeroId": 55,
-        "Description": "+100 Ion Shell Radius"
+        "Description": "+25% Wall of Replica Illusion Damage"
       },
       {
         "Id": 5934,
@@ -5021,7 +5023,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 3.0,
+    "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 33,
@@ -5036,7 +5038,7 @@
     "AttributeStrengthGain": 3.1,
     "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 3.1,
-    "AttributeBaseAgility": 12,
+    "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
@@ -5530,11 +5532,11 @@
         "Description": "+50 Damage"
       },
       {
-        "Id": 7132,
-        "Key": "special_bonus_mp_regen_150",
+        "Id": 6926,
+        "Key": "special_bonus_mp_regen_175",
         "Level": 10,
         "HeroId": 50,
-        "Description": "+1.5 Mana Regen"
+        "Description": "+1.75 Mana Regen"
       },
       {
         "Id": 6056,
@@ -5548,7 +5550,7 @@
         "Key": "special_bonus_unique_dazzle_2",
         "Level": 15,
         "HeroId": 50,
-        "Description": "+24 Shadow Wave Heal / Damage"
+        "Description": "+30 Shadow Wave Heal / Damage"
       },
       {
         "Id": 6141,
@@ -5576,7 +5578,7 @@
         "Key": "special_bonus_unique_dazzle_4",
         "Level": 25,
         "HeroId": 50,
-        "Description": "+0.4 Bad Juju Armor Reduction"
+        "Description": "+0.5 Bad Juju Armor Reduction"
       }
     ],
     "Legs": 2,
@@ -6310,16 +6312,16 @@
         "Linked": null,
         "AbilitySpecial": {
           "bonus_gold": [
-            20.0,
-            80.0,
-            140.0,
+            50.0,
+            100.0,
+            150.0,
             200.0
           ],
           "regen": [
-            3.0,
-            7.0,
-            11.0,
-            15.0
+            2.0,
+            6.0,
+            10.0,
+            14.0
           ],
           "creep_level": [
             4.0,
@@ -6447,7 +6449,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          175
+          200
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -6674,11 +6676,11 @@
     ],
     "Talents": [
       {
-        "Id": 6370,
-        "Key": "special_bonus_unique_doom_4",
+        "Id": 459,
+        "Key": "special_bonus_unique_doom_7",
         "Level": 10,
         "HeroId": 69,
-        "Description": "+16 Scorched Earth Damage"
+        "Description": "+2 Doom Duration"
       },
       {
         "Id": 7123,
@@ -6688,11 +6690,11 @@
         "Description": "+13% Scorched Earth Movement Speed"
       },
       {
-        "Id": 459,
-        "Key": "special_bonus_unique_doom_7",
+        "Id": 6370,
+        "Key": "special_bonus_unique_doom_4",
         "Level": 15,
         "HeroId": 69,
-        "Description": "+3 Doom Duration"
+        "Description": "+30 Scorched Earth Damage"
       },
       {
         "Id": 6369,
@@ -6731,7 +6733,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 30,
@@ -6739,7 +6741,7 @@
     "AttackRate": 2.0,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 600,
-    "AttackRange": 175,
+    "AttackRange": 200,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 24,
@@ -7232,7 +7234,7 @@
         "Key": "special_bonus_unique_drow_ranger_5",
         "Level": 10,
         "HeroId": 6,
-        "Description": "+40% Gust Blind"
+        "Description": "+50% Gust Blind"
       },
       {
         "Id": 5921,
@@ -7249,11 +7251,11 @@
         "Description": "+10 Agility"
       },
       {
-        "Id": 5918,
-        "Key": "special_bonus_movement_speed_20",
+        "Id": 486,
+        "Key": "special_bonus_unique_drow_ranger_6",
         "Level": 15,
         "HeroId": 6,
-        "Description": "+20 Movement Speed"
+        "Description": "-6s Multishot Cooldown"
       },
       {
         "Id": 6202,
@@ -7285,11 +7287,11 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 29,
-    "AttackDamageMax": 40,
+    "AttackDamageMin": 31,
+    "AttackDamageMax": 38,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.55,
     "AttackAcquisitionRange": 800,
@@ -7310,7 +7312,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 285,
+    "MovementSpeed": 290,
     "MovementTurnRate": 0.7,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -7432,6 +7434,9 @@
             1400.0
           ],
           "fissure_duration": [
+            6.5,
+            7.0,
+            7.5,
             8.0
           ],
           "fissure_radius": [
@@ -7773,11 +7778,11 @@
     ],
     "Talents": [
       {
-        "Id": 6009,
-        "Key": "special_bonus_attack_damage_25",
+        "Id": 496,
+        "Key": "special_bonus_attack_base_damage_20",
         "Level": 10,
         "HeroId": 7,
-        "Description": "+25 Damage"
+        "Description": "+20 Base Damage"
       },
       {
         "Id": 6094,
@@ -8130,7 +8135,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "heal_interval": [
-            1.0
+            0.5
           ],
           "heal": [
             7.0,
@@ -8212,6 +8217,9 @@
           ],
           "hop_height": [
             150.0
+          ],
+          "attack_range": [
+            150.0
           ]
         },
         "Keywords": []
@@ -8266,7 +8274,7 @@
         "Key": "enchantress_untouchable",
         "Name": "Untouchable",
         "Description": "Enchantress beguiles her enemies, slowing their attacks when she is attacked.",
-        "UpgradeDescription": "Grants new ability: Sproink. Enchantress leaps backward and dodges incoming projectiles.",
+        "UpgradeDescription": "Grants new ability: Sproink. Enchantress leaps backward and dodges incoming projectiles. Also increases your attack range.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/enchantress_untouchable.png",
         "HeroId": 58,
         "Index": 6,
@@ -8324,11 +8332,11 @@
         "Description": "+12% Magic Resistance"
       },
       {
-        "Id": 5917,
-        "Key": "special_bonus_movement_speed_15",
+        "Id": 5918,
+        "Key": "special_bonus_movement_speed_20",
         "Level": 10,
         "HeroId": 58,
-        "Description": "+15 Movement Speed"
+        "Description": "+20 Movement Speed"
       },
       {
         "Id": 5940,
@@ -8388,7 +8396,7 @@
     "AttributeBaseStrength": 17,
     "AttributeStrengthGain": 1.7,
     "AttributeBaseIntelligence": 22,
-    "AttributeIntelligenceGain": 3.6,
+    "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
@@ -8400,7 +8408,7 @@
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
     "MovementSpeed": 320,
-    "MovementTurnRate": 0.5,
+    "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": 1,
     "TeamName": "Radiant",
@@ -8524,10 +8532,10 @@
             1.0
           ],
           "damage": [
-            30.0,
-            55.0,
+            40.0,
+            60.0,
             80.0,
-            105.0
+            100.0
           ],
           "duration": [
             4.0,
@@ -8915,18 +8923,18 @@
     ],
     "Talents": [
       {
-        "Id": 346,
-        "Key": "special_bonus_unique_enigma_4",
+        "Id": 520,
+        "Key": "special_bonus_unique_enigma_7",
         "Level": 10,
         "HeroId": 33,
-        "Description": "+150 Eidolon Attack Range"
+        "Description": "+135 Eidolon Health"
       },
       {
-        "Id": 6299,
-        "Key": "special_bonus_magic_resistance_12",
+        "Id": 521,
+        "Key": "special_bonus_unique_enigma_8",
         "Level": 10,
         "HeroId": 33,
-        "Description": "+12% Magic Resistance"
+        "Description": "+4s Midnight Pulse Duration"
       },
       {
         "Id": 6190,
@@ -8940,7 +8948,7 @@
         "Key": "special_bonus_unique_enigma_6",
         "Level": 15,
         "HeroId": 33,
-        "Description": "+0.25s Malefice Stun Duration"
+        "Description": "+0.35s Malefice Stun Duration"
       },
       {
         "Id": 5976,
@@ -8968,7 +8976,7 @@
         "Key": "special_bonus_unique_enigma",
         "Level": 25,
         "HeroId": 33,
-        "Description": "+6 Demonic Conversion Eidolons"
+        "Description": "+5 Demonic Conversion Eidolons"
       }
     ],
     "Legs": 0,
@@ -9116,7 +9124,7 @@
             2.0
           ],
           "radius_scepter": [
-            250.0
+            350.0
           ]
         },
         "Keywords": []
@@ -9439,11 +9447,11 @@
         "Description": "+55 Time Lock Damage"
       },
       {
-        "Id": 7388,
-        "Key": "special_bonus_unique_faceless_void_5",
+        "Id": 6128,
+        "Key": "special_bonus_unique_faceless_void",
         "Level": 15,
         "HeroId": 41,
-        "Description": "-1.2s Time Walk"
+        "Description": "+275 Timewalk Cast Range"
       },
       {
         "Id": 6210,
@@ -9453,11 +9461,11 @@
         "Description": "+40 Attack Speed"
       },
       {
-        "Id": 6128,
-        "Key": "special_bonus_unique_faceless_void",
+        "Id": 7388,
+        "Key": "special_bonus_unique_faceless_void_5",
         "Level": 20,
         "HeroId": 41,
-        "Description": "+350 Timewalk Cast Range"
+        "Description": "-1.75s Time Walk"
       },
       {
         "Id": 7001,
@@ -9995,25 +10003,25 @@
     ],
     "Talents": [
       {
-        "Id": 6009,
-        "Key": "special_bonus_attack_damage_25",
+        "Id": 5960,
+        "Key": "special_bonus_attack_damage_20",
         "Level": 10,
         "HeroId": 53,
-        "Description": "+25 Damage"
+        "Description": "+20 Damage"
       },
       {
         "Id": 470,
         "Key": "special_bonus_unique_furion_5",
         "Level": 10,
         "HeroId": 53,
-        "Description": "+15 Wrath of Nature Base Damage"
+        "Description": "+25 Wrath of Nature Base Damage"
       },
       {
-        "Id": 5934,
-        "Key": "special_bonus_armor_8",
+        "Id": 6016,
+        "Key": "special_bonus_attack_speed_25",
         "Level": 15,
         "HeroId": 53,
-        "Description": "+8 Armor"
+        "Description": "+25 Attack Speed"
       },
       {
         "Id": 6500,
@@ -10023,11 +10031,11 @@
         "Description": "+4 Treants Summoned"
       },
       {
-        "Id": 5907,
-        "Key": "special_bonus_attack_speed_30",
+        "Id": 5934,
+        "Key": "special_bonus_armor_8",
         "Level": 20,
         "HeroId": 53,
-        "Description": "+30 Attack Speed"
+        "Description": "+8 Armor"
       },
       {
         "Id": 5952,
@@ -10052,7 +10060,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 2.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 27,
@@ -10504,12 +10512,15 @@
         "Linked": null,
         "AbilitySpecial": {
           "attack_rate_multiplier": [
-            1.7
+            1.6
           ],
           "bonus_damage": [
             30.0,
             40.0,
             50.0
+          ],
+          "bonus_attack_speed": [
+            40.0
           ],
           "duration": [
             3.0,
@@ -10543,7 +10554,7 @@
         "Key": "special_bonus_unique_juggernaut_4",
         "Level": 15,
         "HeroId": 8,
-        "Description": "+80 Blade Fury Movement Speed"
+        "Description": "+100 Blade Fury Movement Speed"
       },
       {
         "Id": 5906,
@@ -10564,7 +10575,7 @@
         "Key": "special_bonus_unique_juggernaut_3",
         "Level": 20,
         "HeroId": 8,
-        "Description": "+100 Blade Fury DPS"
+        "Description": "+140 Blade Fury DPS"
       },
       {
         "Id": 429,
@@ -11232,7 +11243,7 @@
         "Key": "special_bonus_unique_kunkka_4",
         "Level": 25,
         "HeroId": 23,
-        "Description": "+85% Tidebringer Cleave"
+        "Description": "+110% Tidebringer Cleave"
       }
     ],
     "Legs": 2,
@@ -11520,12 +11531,7 @@
           4.0
         ],
         "AbilityDuration": [],
-        "AbilityDamage": [
-          90.0,
-          130.0,
-          170.0,
-          210.0
-        ],
+        "AbilityDamage": [],
         "AbilityManaCost": [
           80.0,
           100.0,
@@ -11541,6 +11547,12 @@
         "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
+          "damage": [
+            90.0,
+            130.0,
+            170.0,
+            210.0
+          ],
           "jump_count": [
             4.0,
             6.0,
@@ -11566,7 +11578,7 @@
             1.0
           ],
           "interval_scepter": [
-            1.75
+            1.5
           ],
           "radius_scepter": [
             750.0
@@ -11749,11 +11761,11 @@
         "Description": "+4 Armor"
       },
       {
-        "Id": 6094,
-        "Key": "special_bonus_mp_200",
+        "Id": 509,
+        "Key": "special_bonus_unique_leshrac_5",
         "Level": 10,
         "HeroId": 52,
-        "Description": "+200 Mana"
+        "Description": "+40 Split Earth Radius"
       },
       {
         "Id": 5928,
@@ -11770,11 +11782,11 @@
         "Description": "+25 Movement Speed"
       },
       {
-        "Id": 6195,
-        "Key": "special_bonus_hp_350",
+        "Id": 6240,
+        "Key": "special_bonus_unique_leshrac_2",
         "Level": 20,
         "HeroId": 52,
-        "Description": "+350 Health"
+        "Description": "+1s Lightning Storm Slow Duration"
       },
       {
         "Id": 6672,
@@ -11791,27 +11803,27 @@
         "Description": "+30 Diabolic Edict Explosions"
       },
       {
-        "Id": 6240,
-        "Key": "special_bonus_unique_leshrac_2",
+        "Id": 516,
+        "Key": "special_bonus_unique_leshrac_6",
         "Level": 25,
         "HeroId": 52,
-        "Description": "+2.5s Lightning Storm Slow Duration"
+        "Description": "+175 Lightning Storm Damage"
       }
     ],
     "Legs": 4,
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 19,
-    "AttackDamageMax": 23,
+    "AttackDamageMin": 22,
+    "AttackDamageMax": 26,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
-    "AttackRange": 600,
+    "AttackRange": 575,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.3,
+    "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 22,
     "AttributeIntelligenceGain": 3.5,
     "AttributeBaseAgility": 23,
@@ -12327,18 +12339,18 @@
     ],
     "Talents": [
       {
-        "Id": 5902,
-        "Key": "special_bonus_hp_150",
+        "Id": 6003,
+        "Key": "special_bonus_cast_range_100",
         "Level": 10,
         "HeroId": 31,
-        "Description": "+150 Health"
+        "Description": "+100 Cast Range"
       },
       {
-        "Id": 5917,
-        "Key": "special_bonus_movement_speed_15",
+        "Id": 530,
+        "Key": "special_bonus_unique_lich_6",
         "Level": 10,
         "HeroId": 31,
-        "Description": "+15 Movement Speed"
+        "Description": "+60 Frost Nova AoE Damage"
       },
       {
         "Id": 5979,
@@ -12355,18 +12367,18 @@
         "Description": "-3s Frost Blast Cooldown"
       },
       {
-        "Id": 6056,
-        "Key": "special_bonus_cast_range_150",
+        "Id": 531,
+        "Key": "special_bonus_unique_lich_7",
         "Level": 20,
         "HeroId": 31,
-        "Description": "+150 Cast Range"
+        "Description": "+100 Chain Frost Damage"
       },
       {
         "Id": 7360,
         "Key": "special_bonus_unique_lich_4",
         "Level": 20,
         "HeroId": 31,
-        "Description": "+2.5s Frost Shield Duration"
+        "Description": "+4s Frost Shield Duration"
       },
       {
         "Id": 6039,
@@ -12915,18 +12927,18 @@
     ],
     "Talents": [
       {
-        "Id": 5902,
-        "Key": "special_bonus_hp_150",
+        "Id": 5959,
+        "Key": "special_bonus_hp_200",
         "Level": 10,
         "HeroId": 54,
-        "Description": "+150 Health"
+        "Description": "+200 Health"
       },
       {
-        "Id": 6016,
-        "Key": "special_bonus_attack_speed_25",
+        "Id": 5907,
+        "Key": "special_bonus_attack_speed_30",
         "Level": 10,
         "HeroId": 54,
-        "Description": "+25 Attack Speed"
+        "Description": "+30 Attack Speed"
       },
       {
         "Id": 6009,
@@ -12950,11 +12962,11 @@
         "Description": "16% Evasion"
       },
       {
-        "Id": 6676,
-        "Key": "special_bonus_unique_lifestealer_2",
+        "Id": 499,
+        "Key": "special_bonus_unique_lifestealer_5",
         "Level": 20,
         "HeroId": 54,
-        "Description": "+40% Open Wounds Lifesteal"
+        "Description": "-4s Open Wounds Cooldown"
       },
       {
         "Id": 7012,
@@ -12975,7 +12987,7 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 17,
+    "AttackDamageMin": 21,
     "AttackDamageMax": 27,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.39,
@@ -13428,9 +13440,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage": [
-            450.0,
-            650.0,
-            850.0
+            500.0,
+            700.0,
+            900.0
           ],
           "cast_range_scepter": [
             600.0
@@ -13483,7 +13495,7 @@
         "Key": "special_bonus_unique_lina_2",
         "Level": 20,
         "HeroId": 25,
-        "Description": "+24/{s:value2}% Fiery Soul Per Stack"
+        "Description": "+30/{s:value2}% Fiery Soul Per Stack"
       },
       {
         "Id": 6212,
@@ -14023,11 +14035,11 @@
     ],
     "Talents": [
       {
-        "Id": 5947,
-        "Key": "special_bonus_cast_range_75",
+        "Id": 465,
+        "Key": "special_bonus_unique_lion_6",
         "Level": 10,
         "HeroId": 26,
-        "Description": "+75 Cast Range"
+        "Description": "+15% Mana Drain Slow"
       },
       {
         "Id": 5942,
@@ -14037,25 +14049,25 @@
         "Description": "+70 Damage"
       },
       {
-        "Id": 6600,
-        "Key": "special_bonus_unique_lion_3",
+        "Id": 540,
+        "Key": "special_bonus_unique_lion_7",
         "Level": 15,
         "HeroId": 26,
-        "Description": "+160 Finger of Death Damage"
+        "Description": "-2s Earth Spike Cooldown"
       },
       {
-        "Id": 465,
-        "Key": "special_bonus_unique_lion_6",
+        "Id": 6056,
+        "Key": "special_bonus_cast_range_150",
         "Level": 15,
         "HeroId": 26,
-        "Description": "+15% Mana Drain Slow"
+        "Description": "+150 Cast Range"
       },
       {
-        "Id": 5976,
-        "Key": "special_bonus_hp_400",
+        "Id": 541,
+        "Key": "special_bonus_unique_lion_8",
         "Level": 20,
         "HeroId": 26,
-        "Description": "+400 Health"
+        "Description": "+20 Finger of Death Damage Per Kill"
       },
       {
         "Id": 6174,
@@ -14080,7 +14092,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 29,
@@ -14278,10 +14290,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          19.0,
           18.0,
           17.0,
-          16.0,
-          15.0
+          16.0
         ],
         "AbilityDuration": [
           3.11,
@@ -14389,7 +14401,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "leap_distance": [
-            550.0
+            575.0
           ],
           "leap_speed": [
             1300.0
@@ -14570,6 +14582,8 @@
             18.0
           ],
           "bonus_movement_speed": [
+            9.0,
+            12.0,
             15.0
           ]
         },
@@ -14603,7 +14617,7 @@
         "Key": "special_bonus_unique_mirana_1",
         "Level": 15,
         "HeroId": 9,
-        "Description": "+65 Leap Attack Speed"
+        "Description": "+75 Leap Attack Speed"
       },
       {
         "Id": 5989,
@@ -15854,7 +15868,7 @@
         "Key": "special_bonus_unique_necrophos",
         "Level": 25,
         "HeroId": 36,
-        "Description": "-2s Death Pulse Cooldown"
+        "Description": "-2.5s Death Pulse Cooldown"
       }
     ],
     "Legs": 2,
@@ -16157,7 +16171,7 @@
         "Id": 5062,
         "Key": "nevermore_necromastery",
         "Name": "Necromastery",
-        "Description": "Shadow Fiend steals the soul from units he kills, gaining bonus damage. If the killed unit is a hero, he gains an additional 11 bonus souls.  On death, he releases half of them from bondage.",
+        "Description": "Shadow Fiend steals the soul from units he kills, gaining bonus damage. On death, he releases half of them from bondage.",
         "UpgradeDescription": "Increases max souls.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/nevermore_necromastery.png",
         "HeroId": 11,
@@ -16196,25 +16210,22 @@
         "Linked": null,
         "AbilitySpecial": {
           "necromastery_damage_per_soul": [
-            2.0
+            1.0,
+            2.0,
+            3.0,
+            4.0
           ],
           "necromastery_max_souls": [
-            12.0,
-            20.0,
-            28.0,
-            36.0
+            11.0,
+            14.0,
+            17.0,
+            20.0
           ],
           "necromastery_soul_release": [
             0.5
           ],
-          "necromastery_souls_hero_bonus": [
-            11.0
-          ],
           "necromastery_max_souls_scepter": [
-            22.0,
-            30.0,
-            38.0,
-            46.0
+            25.0
           ]
         },
         "Keywords": []
@@ -16280,7 +16291,7 @@
         "Id": 5064,
         "Key": "nevermore_requiem",
         "Name": "Requiem of Souls",
-        "Description": "Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will be feared and have its movement speed reduced for 0.8 seconds for each line hit. Lines of energy are created for every 2/2/2 souls captured through Necromastery. <br><br> Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.",
+        "Description": "Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will be feared and have its movement speed reduced for 0.8 seconds for each line hit. Lines of energy are created for every soul captured through Necromastery. <br><br> Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.",
         "UpgradeDescription": "Increases Necromastery Max Souls and causes Requiem of Souls to return back to Shadow Fiend. The wave back to Shadow Fiend deals less damage, but heals Shadow Fiend for all the damage it dealt.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/nevermore_requiem.png",
         "HeroId": 11,
@@ -16353,9 +16364,7 @@
             700.0
           ],
           "requiem_soul_conversion": [
-            2.0,
-            2.0,
-            2.0
+            1.0
           ],
           "requiem_line_width_start": [
             125.0
@@ -16415,7 +16424,7 @@
         "Key": "special_bonus_unique_nevermore_1",
         "Level": 20,
         "HeroId": 11,
-        "Description": "+2 Damage Per Soul"
+        "Description": "+3 Damage Per Soul"
       },
       {
         "Id": 6070,
@@ -16443,8 +16452,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 15,
-    "AttackDamageMax": 21,
+    "AttackDamageMin": 19,
+    "AttackDamageMax": 25,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 800,
@@ -16565,12 +16574,7 @@
           8.0
         ],
         "AbilityDuration": [],
-        "AbilityDamage": [
-          80.0,
-          160.0,
-          240.0,
-          320.0
-        ],
+        "AbilityDamage": [],
         "AbilityManaCost": [
           80.0,
           90.0,
@@ -16586,6 +16590,12 @@
         "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
+          "damage": [
+            80.0,
+            160.0,
+            240.0,
+            320.0
+          ],
           "duration_day": [
             1.25
           ],
@@ -16896,18 +16906,18 @@
     ],
     "Talents": [
       {
-        "Id": 5902,
-        "Key": "special_bonus_hp_150",
+        "Id": 505,
+        "Key": "special_bonus_unique_night_stalker_4",
         "Level": 10,
         "HeroId": 60,
-        "Description": "+150 Health"
+        "Description": "+45 Void Damage"
       },
       {
-        "Id": 5905,
-        "Key": "special_bonus_mp_150",
+        "Id": 503,
+        "Key": "special_bonus_unique_night_stalker_5",
         "Level": 10,
         "HeroId": 60,
-        "Description": "+150 Mana"
+        "Description": "+7% Hunter In The Night Movement Speed"
       },
       {
         "Id": 5928,
@@ -17054,7 +17064,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          400
+          550
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -17070,10 +17080,10 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          85.0,
-          100.0,
-          115.0,
-          130.0
+          80.0,
+          95.0,
+          110.0,
+          125.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -17180,7 +17190,7 @@
         "Id": 5265,
         "Key": "omniknight_degen_aura",
         "Name": "Degen Aura",
-        "Description": "Greatly degenerates the movement and attack capabilities of enemy units that stray too near.",
+        "Description": "Greatly degenerates the movement capabilities of enemy units that stray too near.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/omniknight_degen_aura.png",
         "HeroId": 57,
@@ -17203,7 +17213,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          275
+          375
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [],
@@ -17222,19 +17232,13 @@
         "Linked": null,
         "AbilitySpecial": {
           "speed_bonus": [
-            -10.0,
-            -18.0,
-            -26.0,
-            -34.0
-          ],
-          "attack_bonus_tooltip": [
-            -10.0,
-            -18.0,
-            -26.0,
-            -34.0
+            10.0,
+            18.0,
+            26.0,
+            34.0
           ],
           "radius": [
-            300.0
+            375.0
           ]
         },
         "Keywords": []
@@ -17435,14 +17439,14 @@
         "Key": "special_bonus_unique_omniknight_2",
         "Level": 20,
         "HeroId": 57,
-        "Description": "-10% Degen Aura"
+        "Description": "-15% Degen Aura"
       },
       {
-        "Id": 6160,
-        "Key": "special_bonus_mp_regen_3",
+        "Id": 6709,
+        "Key": "special_bonus_unique_omniknight_3",
         "Level": 20,
         "HeroId": 57,
-        "Description": "+3 Mana Regen"
+        "Description": "-3s Heavenly Grace Cooldown"
       },
       {
         "Id": 5981,
@@ -17452,11 +17456,11 @@
         "Description": "+160 Purification Damage/Heal"
       },
       {
-        "Id": 6709,
-        "Key": "special_bonus_unique_omniknight_3",
+        "Id": 501,
+        "Key": "special_bonus_unique_omniknight_7",
         "Level": 25,
         "HeroId": 57,
-        "Description": "-6.5s Heavenly Grace Cooldown"
+        "Description": "-60s Guardian Angel Cooldown"
       }
     ],
     "Legs": 2,
@@ -17485,7 +17489,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 300,
+    "MovementSpeed": 305,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -18024,7 +18028,7 @@
         "Key": "special_bonus_unique_puck_6",
         "Level": 25,
         "HeroId": 13,
-        "Description": "+350 Waning Rift AoE and Range"
+        "Description": "+300 Waning Rift AoE and Range"
       },
       {
         "Id": 6855,
@@ -18148,9 +18152,9 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          27.0,
-          22.0,
-          17.0,
+          21.0,
+          18.0,
+          15.0,
           12.0
         ],
         "AbilityDuration": [],
@@ -18175,6 +18179,12 @@
         "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
+          "damage": [
+            150.0,
+            220.0,
+            290.0,
+            360.0
+          ],
           "hook_speed": [
             1450.0
           ],
@@ -18256,9 +18266,9 @@
             0.2
           ],
           "rot_slow": [
-            -11.0,
-            -18.0,
-            -25.0,
+            -14.0,
+            -20.0,
+            -26.0,
             -32.0
           ],
           "rot_damage": [
@@ -18319,10 +18329,10 @@
             14.0
           ],
           "flesh_heap_strength_buff_amount": [
-            1.0,
             1.5,
             2.0,
-            2.5
+            2.5,
+            3.0
           ],
           "flesh_heap_range": [
             450.0
@@ -18545,7 +18555,7 @@
         "Key": "special_bonus_unique_pudge_2",
         "Level": 10,
         "HeroId": 14,
-        "Description": "+28 Rot Damage"
+        "Description": "+30 Rot Damage"
       },
       {
         "Id": 6564,
@@ -18603,13 +18613,13 @@
     "ProjectileSpeed": 0,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 25,
-    "AttributeStrengthGain": 4.0,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.5,
     "StatusHealth": 200,
-    "StatusHealthRegen": 1.0,
+    "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -19400,7 +19410,7 @@
         "Id": 5239,
         "Key": "rattletrap_rocket_flare",
         "Name": "Rocket Flare",
-        "Description": "Fires a global range flare that explodes over a given area, damaging enemies and providing vision for 10 seconds.",
+        "Description": "Fires a global range flare that explodes over a given area, damaging enemies and providing vision for 8 seconds.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/rattletrap_rocket_flare.png",
         "HeroId": 51,
@@ -19461,7 +19471,7 @@
             600.0
           ],
           "duration": [
-            10.0
+            8.0
           ],
           "speed": [
             2250.0
@@ -19697,11 +19707,11 @@
         "Description": "+15 Movement Speed"
       },
       {
-        "Id": 5928,
-        "Key": "special_bonus_strength_12",
+        "Id": 502,
+        "Key": "special_bonus_unique_clockwerk_5",
         "Level": 15,
         "HeroId": 51,
-        "Description": "+12 Strength"
+        "Description": "+1 Power Cogs Hit To Kill"
       },
       {
         "Id": 6512,
@@ -19853,7 +19863,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          14.0
+          13.0,
+          12.0,
+          11.0,
+          10.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -19909,7 +19922,7 @@
         "Id": 5083,
         "Key": "razor_static_link",
         "Name": "Static Link",
-        "Description": "Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor. Causes Razor to continuously attack the linked target, even while moving. Razor cannot attack other targets during this time.",
+        "Description": "Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor. Allows razor to attack while moving with the link active.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/razor_static_link.png",
         "HeroId": 15,
@@ -20018,7 +20031,7 @@
         "Id": 5084,
         "Key": "razor_unstable_current",
         "Name": "Storm Surge",
-        "Description": "Passively increases the movement speed for you and your allied heroes. Has stronger effect on your hero.",
+        "Description": "Passively increases your movement speed.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/razor_unstable_current.png",
         "HeroId": 15,
@@ -20056,20 +20069,11 @@
         "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
-          "movement_speed_pct": [
-            2.0,
-            4.0,
-            6.0,
-            8.0
-          ],
           "self_movement_speed_pct": [
-            6.0,
-            10.0,
-            14.0,
-            18.0
-          ],
-          "radius": [
-            1200.0
+            12.0,
+            16.0,
+            20.0,
+            24.0
           ]
         },
         "Keywords": []
@@ -20168,7 +20172,7 @@
         "Id": 5085,
         "Key": "razor_eye_of_the_storm",
         "Name": "Eye of the Storm",
-        "Description": "A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor. Additionally, shocks every unit within a 500 radius of Razor. ",
+        "Description": "A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor.",
         "UpgradeDescription": "Causes Eye of the Storm to strike two different units instead of one and can damage structures.  When striking buildings, it will only target towers, barracks, and the Ancient.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/razor_eye_of_the_storm.png",
         "HeroId": 15,
@@ -20220,14 +20224,6 @@
           "radius": [
             500.0
           ],
-          "passive_area_damage": [
-            60.0,
-            100.0,
-            140.0
-          ],
-          "passive_area_interval": [
-            3.0
-          ],
           "duration": [
             30.0
           ],
@@ -20242,9 +20238,9 @@
             1.0
           ],
           "damage": [
-            40.0,
-            55.0,
-            70.0
+            60.0,
+            75.0,
+            90.0
           ]
         },
         "Keywords": []
@@ -20301,11 +20297,11 @@
         "Description": "+80 Attack Speed"
       },
       {
-        "Id": 6861,
-        "Key": "special_bonus_unique_razor_4",
+        "Id": 586,
+        "Key": "special_bonus_unique_razor_6",
         "Level": 25,
         "HeroId": 15,
-        "Description": "+180 Eye of the Storm Passive Damage"
+        "Description": "+1 Eye of the Storm Target"
       }
     ],
     "Legs": 0,
@@ -20321,11 +20317,11 @@
     "ProjectileSpeed": 2000,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 22,
-    "AttributeStrengthGain": 2.6,
+    "AttributeStrengthGain": 2.8,
     "AttributeBaseIntelligence": 21,
-    "AttributeIntelligenceGain": 1.8,
+    "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 2.1,
+    "AttributeAgilityGain": 2.6,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -20334,7 +20330,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 280,
+    "MovementSpeed": 285,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -21095,7 +21091,7 @@
         "Id": 5104,
         "Key": "sandking_caustic_finale",
         "Name": "Caustic Finale",
-        "Description": "Sand King's attacks inject a venom that causes enemy units to violently explode when its timer expires, or when the unit dies, damaging and slowing nearby enemies. Deals less damage if its timer expires.",
+        "Description": "Sand King's attacks inject a venom that causes enemy units to move more slowly and to violently explode when it dies.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/sandking_caustic_finale.png",
         "HeroId": 16,
@@ -21134,40 +21130,28 @@
         "Linked": null,
         "AbilitySpecial": {
           "caustic_finale_radius": [
-            400.0
+            500.0
           ],
-          "caustic_finale_damage": [
+          "caustic_finale_damage_base": [
+            70.0,
             90.0,
-            130.0,
-            170.0,
-            220.0
+            110.0,
+            130.0
           ],
-          "caustic_finale_damage_expire": [
-            20.0,
-            50.0,
-            80.0,
-            110.0
+          "caustic_finale_damage_pct": [
+            10.0,
+            14.0,
+            18.0,
+            22.0
           ],
           "caustic_finale_duration": [
-            6.0
+            5.0
           ],
           "caustic_finale_slow": [
+            -10.0,
             -15.0,
             -20.0,
-            -25.0,
-            -30.0
-          ],
-          "caustic_finale_slow_as": [
-            -15.0,
-            -20.0,
-            -25.0,
-            -30.0
-          ],
-          "caustic_finale_slow_duration": [
-            3.0,
-            3.5,
-            4.0,
-            4.5
+            -25.0
           ]
         },
         "Keywords": []
@@ -21363,11 +21347,11 @@
     ],
     "Talents": [
       {
-        "Id": 6530,
-        "Key": "special_bonus_unique_sand_king_3",
+        "Id": 6872,
+        "Key": "special_bonus_unique_sand_king_5",
         "Level": 10,
         "HeroId": 16,
-        "Description": "-30 Epicenter Attack Slow"
+        "Description": "+20 Epicenter Damage Per Pulse"
       },
       {
         "Id": 6034,
@@ -21384,32 +21368,32 @@
         "Description": "+30 Sand Storm DPS"
       },
       {
-        "Id": 6207,
-        "Key": "special_bonus_unique_sand_king",
+        "Id": 497,
+        "Key": "special_bonus_unique_sand_king_6",
         "Level": 15,
         "HeroId": 16,
-        "Description": "+2 Epicenter Pulses"
+        "Description": "+8% Caustic Finale Slow"
       },
       {
-        "Id": 5934,
-        "Key": "special_bonus_armor_8",
+        "Id": 498,
+        "Key": "special_bonus_unique_sand_king_7",
         "Level": 20,
         "HeroId": 16,
-        "Description": "+8 Armor"
+        "Description": "-2s Burrowstrike Cooldown"
       },
       {
-        "Id": 6872,
-        "Key": "special_bonus_unique_sand_king_5",
+        "Id": 6079,
+        "Key": "special_bonus_hp_regen_20",
         "Level": 20,
         "HeroId": 16,
-        "Description": "+25 Epicenter Damage Per Pulse"
+        "Description": "+20 Health Regen"
       },
       {
-        "Id": 6022,
-        "Key": "special_bonus_hp_regen_40",
+        "Id": 6207,
+        "Key": "special_bonus_unique_sand_king",
         "Level": 25,
         "HeroId": 16,
-        "Description": "+40 Health Regen"
+        "Description": "+4 Epicenter Pulses"
       },
       {
         "Id": 475,
@@ -21936,7 +21920,7 @@
         "Key": "special_bonus_unique_shadow_shaman_6",
         "Level": 10,
         "HeroId": 27,
-        "Description": "+100 Shackles Total Damage"
+        "Description": "+140 Shackles Total Damage"
       },
       {
         "Id": 6003,
@@ -21950,7 +21934,7 @@
         "Key": "special_bonus_unique_shadow_shaman_5",
         "Level": 15,
         "HeroId": 27,
-        "Description": "-4s Hex Cooldown"
+        "Description": "-4.5s Hex Cooldown"
       },
       {
         "Id": 6295,
@@ -21971,7 +21955,7 @@
         "Key": "special_bonus_unique_shadow_shaman_3",
         "Level": 25,
         "HeroId": 27,
-        "Description": "+320 Ether Shock Damage"
+        "Description": "+340 Ether Shock Damage"
       },
       {
         "Id": 6521,
@@ -21985,8 +21969,8 @@
     "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 52,
-    "AttackDamageMax": 59,
+    "AttackDamageMin": 46,
+    "AttackDamageMax": 53,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
@@ -21995,7 +21979,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 2.3,
-    "AttributeBaseIntelligence": 19,
+    "AttributeBaseIntelligence": 25,
     "AttributeIntelligenceGain": 3.5,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.6,
@@ -22451,9 +22435,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "armor_reduction": [
-            -8.0,
-            -13.0,
-            -18.0
+            -10.0,
+            -15.0,
+            -20.0
           ],
           "duration": [
             18.0
@@ -22499,18 +22483,18 @@
         "Description": "25% Lifesteal"
       },
       {
-        "Id": 457,
-        "Key": "special_bonus_night_vision_800",
+        "Id": 504,
+        "Key": "special_bonus_unique_slardar_5",
         "Level": 20,
         "HeroId": 28,
-        "Description": "+800 Night Vision"
+        "Description": "-4 Corrosive Haze Armor"
       },
       {
         "Id": 7871,
         "Key": "special_bonus_unique_slardar_4",
         "Level": 25,
         "HeroId": 28,
-        "Description": "-3.5s Slithereen Crush Cooldown"
+        "Description": "-4s Slithereen Crush Cooldown"
       },
       {
         "Id": 6890,
@@ -22654,9 +22638,9 @@
           ],
           "shrapnel_damage": [
             20.0,
-            40.0,
-            60.0,
-            80.0
+            35.0,
+            50.0,
+            65.0
           ],
           "duration": [
             10.0
@@ -22972,6 +22956,8 @@
             0.0
           ],
           "scepter_stun_duration": [
+            1.0,
+            1.25,
             1.5
           ],
           "scepter_cast_point": [
@@ -23236,7 +23222,7 @@
         "Id": 5335,
         "Key": "spectre_desolate",
         "Name": "Desolate",
-        "Description": "Deals bonus damage whenever Spectre attacks an enemy that does not have any allied units within a 500 radius around them. Reduces the enemy vision for 5 seconds.",
+        "Description": "Deals bonus damage whenever Spectre attacks an enemy that does not have any allied units within a 425 radius around them.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/spectre_desolate.png",
         "HeroId": 67,
@@ -23275,22 +23261,13 @@
         "Linked": null,
         "AbilitySpecial": {
           "bonus_damage": [
-            20.0,
-            30.0,
-            40.0,
-            50.0
+            24.0,
+            36.0,
+            48.0,
+            60.0
           ],
           "radius": [
-            500.0
-          ],
-          "blind_pct": [
-            40.0,
-            50.0,
-            60.0,
-            70.0
-          ],
-          "blind_duration": [
-            5.0
+            425.0
           ]
         },
         "Keywords": []
@@ -23425,7 +23402,7 @@
           "DOTA_UNIT_TARGET_HERO"
         ],
         "AbilityUnitTargetFlags": [
-          "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
+          "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
         ],
         "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
         "SpellDispellableType": null,
@@ -23487,9 +23464,7 @@
             200.0
           ],
           "attack_delay": [
-            1.0,
-            1.0,
-            1.0
+            0.0
           ],
           "tooltip_cooldown": [
             35.0
@@ -23501,7 +23476,7 @@
         "Id": 5337,
         "Key": "spectre_haunt",
         "Name": "Haunt",
-        "Description": "Creates a spectral nemesis to attack each enemy hero after a short delay. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt. Haunt illusions are uncontrollable, take extra damage, and deal less damage than Spectre herself.  They move at 400 base movement speed and ignore terrain.",
+        "Description": "Creates a spectral nemesis to attack each enemy hero. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt. Haunt illusions are uncontrollable, take extra damage, and deal less damage than Spectre herself.  They ignore terrain.",
         "UpgradeDescription": "Grants new ability: Shadow Step. Allows you to perform a single target unit Haunt",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/spectre_haunt.png",
         "HeroId": 67,
@@ -23577,9 +23552,7 @@
             200.0
           ],
           "attack_delay": [
-            1.0,
-            1.0,
-            1.0
+            0.0
           ]
         },
         "Keywords": []
@@ -23662,7 +23635,7 @@
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 2.1,
     "StatusHealth": 200,
-    "StatusHealthRegen": 2.5,
+    "StatusHealthRegen": 1.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -24044,7 +24017,7 @@
         "Id": 5101,
         "Key": "storm_spirit_ball_lightning",
         "Name": "Ball Lightning",
-        "Description": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is 30+8% of his total mana pool, and the cost per 100 units traveled is 12+0.7% of his total mana pool.  Damage is expressed in damage per 100 units traveled.",
+        "Description": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is 30+8% of his total mana pool, and the cost per 100 units traveled is 10+0.65% of his total mana pool.  Damage is expressed in damage per 100 units traveled.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/storm_spirit_ball_lightning.png",
         "HeroId": 17,
@@ -24108,10 +24081,10 @@
             200.0
           ],
           "ball_lightning_travel_cost_base": [
-            12.0
+            10.0
           ],
           "ball_lightning_travel_cost_percent": [
-            0.7
+            0.65
           ],
           "ball_lightning_vision_radius": [
             400.0
@@ -24201,7 +24174,7 @@
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 3.9,
     "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 1.5,
+    "AttributeAgilityGain": 1.7,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -24403,7 +24376,7 @@
             360.0
           ],
           "cleave_distance": [
-            650.0
+            700.0
           ],
           "great_cleave_damage": [
             30.0,
@@ -24418,7 +24391,7 @@
         "Id": 5096,
         "Key": "sven_warcry",
         "Name": "Warcry",
-        "Description": "Sven's Warcry heartens his allied heroes for battle, increasing their armor and damage. Additionally increases Sven's own movement speed. Lasts 8 seconds.",
+        "Description": "Sven's Warcry heartens his allied heroes for battle, increasing their armor and movement speed. Lasts 8 seconds.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/sven_warcry.png",
         "HeroId": 18,
@@ -24458,6 +24431,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
+          30.0,
+          40.0,
+          50.0,
           60.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -24470,22 +24446,16 @@
         "Linked": null,
         "AbilitySpecial": {
           "movespeed": [
-            10.0,
-            14.0,
-            18.0,
-            22.0
+            8.0,
+            12.0,
+            16.0,
+            20.0
           ],
           "bonus_armor": [
             6.0,
             9.0,
             12.0,
             15.0
-          ],
-          "bonus_damage": [
-            12.0,
-            16.0,
-            20.0,
-            24.0
           ],
           "radius": [
             700.0
@@ -24590,7 +24560,7 @@
         "Id": 5097,
         "Key": "sven_gods_strength",
         "Name": "God's Strength",
-        "Description": "Sven channels his rogue strength, granting bonus strength and damage for %abilityduration% seconds.",
+        "Description": "Sven channels his rogue strength, granting bonus damage for %abilityduration% seconds.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/sven_gods_strength.png",
         "HeroId": 18,
@@ -24624,7 +24594,7 @@
           110.0
         ],
         "AbilityDuration": [
-          25.0
+          40.0
         ],
         "AbilityDamage": [],
         "AbilityManaCost": [
@@ -24642,14 +24612,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "gods_strength_damage": [
-            80.0,
-            120.0,
-            160.0
-          ],
-          "gods_strength_bonus_str": [
-            10.0,
-            20.0,
-            30.0
+            110.0,
+            160.0,
+            210.0
           ]
         },
         "Keywords": []
@@ -24703,7 +24668,7 @@
         "Key": "special_bonus_unique_sven_2",
         "Level": 25,
         "HeroId": 18,
-        "Description": "+32 STR God's Strength"
+        "Description": "+50% God's Strength Damage"
       },
       {
         "Id": 7112,
@@ -24739,7 +24704,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 315,
+    "MovementSpeed": 325,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -24929,10 +24894,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_reduction": [
-            12.0,
-            24.0,
-            36.0,
-            48.0
+            14.0,
+            26.0,
+            38.0,
+            50.0
           ],
           "damage_cleanse": [
             600.0,
@@ -25228,7 +25193,7 @@
         "Key": "special_bonus_unique_tidehunter_4",
         "Level": 20,
         "HeroId": 29,
-        "Description": "+24 Kraken Shell Damage Block"
+        "Description": "+30 Kraken Shell Damage Block"
       },
       {
         "Id": 6151,
@@ -25264,7 +25229,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-    "AttributeBaseStrength": 25,
+    "AttributeBaseStrength": 27,
     "AttributeStrengthGain": 3.5,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.7,
@@ -25980,8 +25945,8 @@
           "stun_duration": [
             0.2
           ],
-          "projectile_duration": [
-            0.5
+          "projectile_speed": [
+            1200.0
           ],
           "avalanche_damage": [
             75.0,
@@ -26059,7 +26024,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            1.3
+            1.4
           ],
           "grab_radius": [
             275.0
@@ -26086,7 +26051,7 @@
         "Id": 5108,
         "Key": "tiny_tree_grab",
         "Name": "Tree Grab",
-        "Description": "Grabs a tree to whack enemies on the head. Grants bonus attack range but Tiny is slowed by 30. Attacks deal more damage and fully splash on units along the way. The tree can be thrown, to deal your attack to a unit at a distance.",
+        "Description": "Grabs a tree to whack enemies on the head for a limited number of attacks. Grants bonus attack range. Attacks deal more damage and fully splash on units along the way. The tree can be thrown, to deal your attack to a unit at a distance.",
         "UpgradeDescription": "Grants new ability: Tree Volley. Tiny throws random trees within range towards the targeted aoe.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/tiny_tree_grab.png",
         "HeroId": 19,
@@ -26138,17 +26103,17 @@
         "AbilityDraftNote": "Tree Volley not available in Ability Draft. (Non-ultimate Scepter abilities disabled)",
         "Linked": "tiny_toss_tree",
         "AbilitySpecial": {
+          "attack_count": [
+            5.0
+          ],
           "bonus_damage": [
-            10.0,
-            20.0,
-            30.0,
-            40.0
+            25.0
           ],
           "bonus_damage_buildings": [
-            20.0,
-            50.0,
-            80.0,
-            110.0
+            90.0,
+            120.0,
+            150.0,
+            180.0
           ],
           "attack_range": [
             350.0
@@ -26160,10 +26125,10 @@
             400.0
           ],
           "splash_pct": [
-            30.0,
             40.0,
-            50.0,
-            60.0
+            60.0,
+            80.0,
+            100.0
           ],
           "throw_splash_pct": [
             150.0
@@ -26172,7 +26137,7 @@
             0.0
           ],
           "speed_reduction": [
-            30.0
+            0.0
           ]
         },
         "Keywords": []
@@ -26350,9 +26315,9 @@
             22.0
           ],
           "bonus_damage": [
-            30.0,
-            45.0,
-            60.0
+            25.0,
+            50.0,
+            75.0
           ],
           "attack_speed_reduction": [
             20.0,
@@ -26421,10 +26386,7 @@
             1300.0
           ],
           "bonus_damage": [
-            10.0,
-            20.0,
-            30.0,
-            40.0
+            25.0
           ],
           "splash_radius": [
             275.0
@@ -26452,11 +26414,11 @@
         "Description": "+25 Damage"
       },
       {
-        "Id": 6423,
-        "Key": "special_bonus_hp_325",
+        "Id": 558,
+        "Key": "special_bonus_unique_tiny_6",
         "Level": 15,
         "HeroId": 19,
-        "Description": "+325 Health"
+        "Description": "+3 Tree Grab Attack Charges"
       },
       {
         "Id": 6153,
@@ -26466,11 +26428,11 @@
         "Description": "+80 Avalanche Damage"
       },
       {
-        "Id": 447,
-        "Key": "special_bonus_strength_16",
+        "Id": 469,
+        "Key": "special_bonus_strength_18",
         "Level": 20,
         "HeroId": 19,
-        "Description": "+16 Strength"
+        "Description": "+18 Strength"
       },
       {
         "Id": 7005,
@@ -26513,7 +26475,7 @@
     "AttributeBaseAgility": 0,
     "AttributeAgilityGain": 0.0,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.0,
+    "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -26733,7 +26695,7 @@
             -6.0
           ],
           "vision_aoe": [
-            300.0
+            350.0
           ],
           "vision_duration": [
             4.0
@@ -27005,14 +26967,14 @@
         "Key": "special_bonus_unique_vengeful_spirit_1",
         "Level": 20,
         "HeroId": 20,
-        "Description": "+160 Magic Missile Damage"
+        "Description": "+200 Magic Missile Damage"
       },
       {
-        "Id": 6237,
-        "Key": "special_bonus_unique_vengeful_spirit_2",
+        "Id": 493,
+        "Key": "special_bonus_unique_vengeful_spirit_8",
         "Level": 20,
         "HeroId": 20,
-        "Description": "+6 Vengeance Aura Attributes"
+        "Description": "+100 Vengeance Aura Attack Range"
       },
       {
         "Id": 323,
@@ -27212,7 +27174,7 @@
         "Id": 5179,
         "Key": "venomancer_poison_sting",
         "Name": "Poison Sting",
-        "Description": "Adds poison damage to Venomancer's normal attacks, slowing movement speed and reducing the target's HP regeneration.",
+        "Description": "Adds poison damage to Venomancer's normal attacks and slowing movement speed.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/venomancer_poison_sting.png",
         "HeroId": 40,
@@ -27257,22 +27219,16 @@
             15.0
           ],
           "damage": [
-            6.0,
-            12.0,
-            18.0,
-            24.0
+            8.0,
+            16.0,
+            24.0,
+            32.0
           ],
           "movement_speed": [
             -11.0,
             -13.0,
             -15.0,
             -17.0
-          ],
-          "hp_regen_reduction": [
-            15.0,
-            20.0,
-            25.0,
-            30.0
           ]
         },
         "Keywords": []
@@ -27319,9 +27275,6 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          20.0,
-          20.0,
-          20.0,
           20.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -27337,9 +27290,9 @@
             40.0
           ],
           "ward_hp_tooltip": [
-            75.0,
-            200.0,
-            325.0,
+            120.0,
+            230.0,
+            340.0,
             450.0
           ],
           "ward_damage_tooltip": [
@@ -27524,8 +27477,8 @@
             90.0
           ],
           "cooldown_scepter": [
-            140.0,
-            120.0,
+            100.0,
+            80.0,
             60.0
           ],
           "duration_scepter": [
@@ -27556,7 +27509,7 @@
         "Key": "special_bonus_unique_venomancer_7",
         "Level": 10,
         "HeroId": 40,
-        "Description": "+12s Plague Ward Duration"
+        "Description": "+15s Plague Ward Duration"
       },
       {
         "Id": 6981,
@@ -27627,7 +27580,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 275,
+    "MovementSpeed": 280,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -28178,8 +28131,8 @@
     "ArmorPhysical": -2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 25,
-    "AttackDamageMax": 27,
+    "AttackDamageMin": 27,
+    "AttackDamageMax": 29,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 800,
@@ -28188,8 +28141,8 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 21,
     "AttributeStrengthGain": 2.4,
-    "AttributeBaseIntelligence": 15,
-    "AttributeIntelligenceGain": 1.8,
+    "AttributeBaseIntelligence": 17,
+    "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 21,
     "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
@@ -28417,9 +28370,9 @@
           ],
           "speed": [
             200.0,
-            220.0,
-            240.0,
-            260.0
+            230.0,
+            260.0,
+            290.0
           ],
           "radius": [
             175.0,
@@ -28627,7 +28580,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          1000
+          600
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -28659,10 +28612,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "cooldown_scepter": [
-            16.0
+            20.0
           ],
           "cast_range_tooltip_scepter": [
-            1000.0
+            600.0
           ]
         },
         "Keywords": []
@@ -28677,18 +28630,18 @@
         "Description": "+60 Shukuchi Damage"
       },
       {
-        "Id": 7384,
-        "Key": "special_bonus_agility_6",
+        "Id": 5938,
+        "Key": "special_bonus_attack_damage_15",
         "Level": 10,
         "HeroId": 63,
-        "Description": "+6 Agility"
+        "Description": "+15 Damage"
       },
       {
-        "Id": 436,
-        "Key": "special_bonus_mana_break_15",
+        "Id": 6987,
+        "Key": "special_bonus_mana_break_20",
         "Level": 15,
         "HeroId": 63,
-        "Description": "+15 Mana Break"
+        "Description": "+20 Mana Break"
       },
       {
         "Id": 437,
@@ -29841,6 +29794,9 @@
             650.0,
             650.0,
             650.0
+          ],
+          "scepter_lifesteal": [
+            10.0
           ]
         },
         "Keywords": []
@@ -29883,11 +29839,11 @@
         "Description": "+100 Death Ward Attack Range"
       },
       {
-        "Id": 6995,
-        "Key": "special_bonus_unique_witch_doctor_4",
+        "Id": 555,
+        "Key": "special_bonus_unique_witch_doctor_7",
         "Level": 20,
         "HeroId": 30,
-        "Description": "+{s:value2} Maledict Tick"
+        "Description": "+15% Maledict Burst Damage"
       },
       {
         "Id": 6298,
@@ -30022,10 +29978,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "arc_damage": [
-            70.0,
-            95.0,
-            120.0,
-            145.0
+            75.0,
+            100.0,
+            125.0,
+            150.0
           ],
           "radius": [
             500.0,
@@ -30105,10 +30061,10 @@
           350.0
         ],
         "AbilityManaCost": [
-          90.0,
-          105.0,
-          120.0,
-          135.0
+          125.0,
+          130.0,
+          135.0,
+          140.0
         ],
         "AbilityModifierSupportValue": 0.1,
         "AbilityModifierSupportBonus": 0.0,
@@ -30225,7 +30181,7 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          35.0
+          45.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -30342,7 +30298,7 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          90.0
+          120.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -30373,9 +30329,9 @@
             3.0
           ],
           "damage": [
-            250.0,
-            350.0,
-            450.0
+            300.0,
+            400.0,
+            500.0
           ]
         },
         "Keywords": []
@@ -30383,11 +30339,11 @@
     ],
     "Talents": [
       {
-        "Id": 5961,
-        "Key": "special_bonus_mp_regen_2",
+        "Id": 6926,
+        "Key": "special_bonus_mp_regen_175",
         "Level": 10,
         "HeroId": 22,
-        "Description": "+2 Mana Regen"
+        "Description": "+1.75 Mana Regen"
       },
       {
         "Id": 5959,
@@ -30425,11 +30381,11 @@
         "Description": "+0.4s Lightning Bolt Ministun"
       },
       {
-        "Id": 443,
-        "Key": "special_bonus_cast_range_225",
+        "Id": 7117,
+        "Key": "special_bonus_cast_range_275",
         "Level": 25,
         "HeroId": 22,
-        "Description": "+225 Cast Range"
+        "Description": "+275 Cast Range"
       },
       {
         "Id": 6501,
@@ -30465,7 +30421,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 300,
+    "MovementSpeed": 310,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -30746,10 +30702,10 @@
             60.0
           ],
           "bonus_movespeed": [
-            -16.0,
-            -26.0,
-            -36.0,
-            -46.0
+            -20.0,
+            -30.0,
+            -40.0,
+            -50.0
           ],
           "duration": [
             2.0,
@@ -30929,7 +30885,7 @@
         "Key": "special_bonus_unique_broodmother_3",
         "Level": 10,
         "HeroId": 61,
-        "Description": "+100 Spawn Spiderlings Damage"
+        "Description": "+80 Spawn Spiderlings Damage"
       },
       {
         "Id": 6029,
@@ -30957,7 +30913,7 @@
         "Key": "special_bonus_unique_broodmother_4",
         "Level": 20,
         "HeroId": 61,
-        "Description": "+25 Spiders Attack Damage"
+        "Description": "+20 Spiders Attack Damage"
       },
       {
         "Id": 5976,
@@ -30994,11 +30950,11 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.8,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 15,
-    "AttributeAgilityGain": 2.8,
+    "AttributeAgilityGain": 3.2,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -31156,7 +31112,7 @@
         "Id": 5087,
         "Key": "skeleton_king_vampiric_aura",
         "Name": "Vampiric Aura",
-        "Description": "Nearby friendly melee units deal bonus damage and restore health based on the damage they deal when attacking enemy units. Lifesteal has a bigger effect on  you. Does not affect allied creeps.",
+        "Description": "Nearby friendly heroes restore health based on the damage they deal when attacking enemy units. Has 50% effect on ranged allied heroes. Does not affect allied creeps.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/skeleton_king_vampiric_aura.png",
         "HeroId": 42,
@@ -31199,19 +31155,13 @@
             1200.0
           ],
           "vampiric_aura": [
-            5.0,
-            10.0,
-            15.0,
-            20.0
-          ],
-          "damage": [
-            4.0,
-            10.0,
+            8.0,
             16.0,
-            22.0
+            24.0,
+            32.0
           ],
-          "self_bonus": [
-            1.5
+          "vampiric_aura_ranged_pct": [
+            50.0
           ]
         },
         "Keywords": []
@@ -31292,6 +31242,12 @@
           ],
           "reincarnate_time": [
             3.0
+          ],
+          "gold_bounty": [
+            5.0
+          ],
+          "xp_bounty": [
+            5.0
           ]
         },
         "Keywords": []
@@ -31528,8 +31484,8 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 37,
-    "AttackDamageMax": 39,
+    "AttackDamageMin": 40,
+    "AttackDamageMax": 42,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.56,
     "AttackAcquisitionRange": 600,
@@ -31646,7 +31602,10 @@
         ],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          110.0
+          110.0,
+          120.0,
+          130.0,
+          140.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -31658,10 +31617,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "strike_damage": [
-            50.0,
-            75.0,
-            100.0,
-            125.0
+            30.0,
+            60.0,
+            90.0,
+            120.0
           ],
           "duration_damage": [
             30.0,
@@ -31959,8 +31918,8 @@
         "AbilityDamage": [],
         "AbilityManaCost": [
           250.0,
-          360.0,
-          500.0
+          400.0,
+          550.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -32077,7 +32036,7 @@
     "ProjectileSpeed": 1500,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.3,
+    "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 25,
     "AttributeIntelligenceGain": 3.4,
     "AttributeBaseAgility": 22,
@@ -32208,7 +32167,7 @@
             4.0
           ],
           "knockback_distance": [
-            550.0
+            400.0
           ],
           "knockback_duration": [
             0.6
@@ -32589,11 +32548,11 @@
         "Description": "+325 Life Break Cast Range"
       },
       {
-        "Id": 5963,
-        "Key": "special_bonus_attack_range_150",
+        "Id": 6186,
+        "Key": "special_bonus_attack_range_175",
         "Level": 25,
         "HeroId": 59,
-        "Description": "+150 Attack Range"
+        "Description": "+175 Attack Range"
       },
       {
         "Id": 7143,
@@ -32607,8 +32566,8 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 19,
-    "AttackDamageMax": 24,
+    "AttackDamageMin": 21,
+    "AttackDamageMax": 26,
     "AttackRate": 1.6,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
@@ -32620,7 +32579,7 @@
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 15,
-    "AttributeAgilityGain": 1.4,
+    "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
@@ -32729,9 +32688,9 @@
           0.0
         ],
         "AbilityManaCost": [
-          135.0,
           140.0,
-          155.0,
+          150.0,
+          160.0,
           170.0
         ],
         "AbilityModifierSupportValue": 0.25,
@@ -32835,7 +32794,7 @@
           0.0
         ],
         "AbilityManaCost": [
-          90.0
+          100.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -33134,11 +33093,11 @@
     ],
     "Talents": [
       {
-        "Id": 481,
-        "Key": "special_bonus_attack_range_275",
+        "Id": 584,
+        "Key": "special_bonus_attack_range_325",
         "Level": 10,
         "HeroId": 64,
-        "Description": "+275 Attack Range"
+        "Description": "+325 Attack Range"
       },
       {
         "Id": 5996,
@@ -33148,11 +33107,11 @@
         "Description": "+6% Spell Amplification"
       },
       {
-        "Id": 6311,
-        "Key": "special_bonus_hp_275",
+        "Id": 526,
+        "Key": "special_bonus_unique_jakiro_6",
         "Level": 15,
         "HeroId": 64,
-        "Description": "+275 Health"
+        "Description": "-1s Ice Path Cooldown"
       },
       {
         "Id": 6381,
@@ -33198,14 +33157,14 @@
     "AttackDamageMax": 35,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
-    "AttackAcquisitionRange": 800,
+    "AttackAcquisitionRange": 950,
     "AttackRange": 400,
     "ProjectileSpeed": 1100,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 27,
     "AttributeStrengthGain": 3.0,
     "AttributeBaseIntelligence": 26,
-    "AttributeIntelligenceGain": 3.2,
+    "AttributeIntelligenceGain": 2.8,
     "AttributeBaseAgility": 10,
     "AttributeAgilityGain": 1.2,
     "StatusHealth": 200,
@@ -33352,9 +33311,9 @@
             -8.0
           ],
           "turn_rate_pct": [
-            -70.0,
-            -70.0,
-            -70.0,
+            -40.0,
+            -50.0,
+            -60.0,
             -70.0
           ],
           "max_stacks": [
@@ -33744,7 +33703,7 @@
             400.0
           ],
           "grab_radius_scepter": [
-            450.0
+            550.0
           ],
           "damage": [
             20.0,
@@ -33771,11 +33730,11 @@
         "Description": "+4 Armor"
       },
       {
-        "Id": 6610,
-        "Key": "special_bonus_unique_batrider_3",
+        "Id": 512,
+        "Key": "special_bonus_unique_batrider_4",
         "Level": 15,
         "HeroId": 65,
-        "Description": "+2s Flamebreak Burn Duration"
+        "Description": "+5 Sticky Napalm Damage"
       },
       {
         "Id": 5903,
@@ -33810,7 +33769,7 @@
         "Key": "special_bonus_unique_batrider_2",
         "Level": 25,
         "HeroId": 65,
-        "Description": "-8s Flamebreak Cooldown"
+        "Description": "-10s Flamebreak Cooldown"
       }
     ],
     "Legs": 2,
@@ -33830,7 +33789,7 @@
     "AttributeBaseIntelligence": 22,
     "AttributeIntelligenceGain": 2.9,
     "AttributeBaseAgility": 15,
-    "AttributeAgilityGain": 1.5,
+    "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 1.75,
     "StatusMana": 75,
@@ -33995,9 +33954,9 @@
         "OnLearnbar": true,
         "AbilityCastRange": [
           450,
-          550,
-          650,
-          750
+          600,
+          750,
+          900
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -34628,7 +34587,7 @@
             360.0
           ],
           "radius": [
-            200.0
+            250.0
           ]
         },
         "Keywords": []
@@ -34958,7 +34917,7 @@
             300.0
           ],
           "midair_explosion_radius": [
-            200.0
+            250.0
           ],
           "brew_explosion": [
             7.0
@@ -35008,7 +34967,7 @@
         "Key": "special_bonus_unique_alchemist_2",
         "Level": 20,
         "HeroId": 73,
-        "Description": "+350 Unstable Concoction Damage"
+        "Description": "+400 Unstable Concoction Damage"
       },
       {
         "Id": 351,
@@ -35022,7 +34981,7 @@
         "Key": "special_bonus_unique_alchemist_4",
         "Level": 25,
         "HeroId": 73,
-        "Description": "+40 Chemical Rage Regeneration"
+        "Description": "+50 Chemical Rage Regeneration"
       }
     ],
     "Legs": 2,
@@ -35135,7 +35094,7 @@
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.4
+          0.2
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
@@ -35593,7 +35552,7 @@
         "Key": "special_bonus_unique_death_prophet_2",
         "Level": 20,
         "HeroId": 43,
-        "Description": "-2.5s Crypt Swarm Cooldown"
+        "Description": "-3s Crypt Swarm Cooldown"
       },
       {
         "Id": 6805,
@@ -35607,7 +35566,7 @@
         "Key": "special_bonus_unique_death_prophet",
         "Level": 25,
         "HeroId": 43,
-        "Description": "+6 Exorcism Spirits"
+        "Description": "+8 Exorcism Spirits"
       }
     ],
     "Legs": 2,
@@ -35722,10 +35681,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          11.0,
+          10.0,
           9.0,
-          8.0,
-          7.0,
-          6.0
+          8.0
         ],
         "AbilityDuration": [
           4.0
@@ -35753,9 +35712,9 @@
           ],
           "movement_slow": [
             -10.0,
-            -25.0,
-            -40.0,
-            -55.0
+            -20.0,
+            -30.0,
+            -40.0
           ],
           "hop_distance": [
             250.0
@@ -36029,8 +35988,8 @@
         "AbilityCastPoint": [],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          70.0,
           50.0,
-          40.0,
           30.0
         ],
         "AbilityDuration": [],
@@ -36099,11 +36058,11 @@
         "Description": "+2 Mana Regen"
       },
       {
-        "Id": 6974,
-        "Key": "special_bonus_unique_ursa_3",
+        "Id": 6973,
+        "Key": "special_bonus_unique_ursa_2",
         "Level": 20,
         "HeroId": 70,
-        "Description": "+1.2s Enrage Duration"
+        "Description": "-3s Earthshock Cooldown"
       },
       {
         "Id": 6132,
@@ -36560,7 +36519,7 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          65.0
+          60.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -36610,18 +36569,18 @@
     ],
     "Talents": [
       {
-        "Id": 5917,
-        "Key": "special_bonus_movement_speed_15",
+        "Id": 5918,
+        "Key": "special_bonus_movement_speed_20",
         "Level": 10,
         "HeroId": 62,
-        "Description": "+15 Movement Speed"
+        "Description": "+20 Movement Speed"
       },
       {
-        "Id": 5960,
-        "Key": "special_bonus_attack_damage_20",
+        "Id": 484,
+        "Key": "special_bonus_unique_bounty_hunter_4",
         "Level": 10,
         "HeroId": 62,
-        "Description": "+20 Damage"
+        "Description": "+40 Jinada Damage"
       },
       {
         "Id": 6358,
@@ -36670,8 +36629,8 @@
     "ArmorPhysical": 4.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 27,
-    "AttackDamageMax": 41,
+    "AttackDamageMin": 30,
+    "AttackDamageMax": 38,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.59,
     "AttackAcquisitionRange": 600,
@@ -36687,7 +36646,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 1.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.5,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -36808,9 +36767,9 @@
         "AbilitySpecial": {
           "damage": [
             16.0,
-            24.0,
-            32.0,
-            40.0
+            26.0,
+            36.0,
+            46.0
           ],
           "radius": [
             425.0
@@ -37116,7 +37075,9 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          130.0
+          130.0,
+          115.0,
+          100.0
         ],
         "AbilityDuration": [
           4.5,
@@ -37165,7 +37126,7 @@
         "Key": "special_bonus_unique_silencer",
         "Level": 15,
         "HeroId": 75,
-        "Description": "+20 Arcane Curse Damage"
+        "Description": "+30 Arcane Curse Damage"
       },
       {
         "Id": 6878,
@@ -37186,7 +37147,7 @@
         "Key": "special_bonus_unique_silencer_6",
         "Level": 20,
         "HeroId": 75,
-        "Description": "+15% Arcane Curse Slow"
+        "Description": "+20% Arcane Curse Slow"
       },
       {
         "Id": 6879,
@@ -37196,11 +37157,11 @@
         "Description": "+15% Glaives of Wisdom Damage"
       },
       {
-        "Id": 6880,
-        "Key": "special_bonus_unique_silencer_4",
+        "Id": 6561,
+        "Key": "special_bonus_cooldown_reduction_30",
         "Level": 25,
         "HeroId": 75,
-        "Description": "+1.5s Global Silence"
+        "Description": "30% Cooldown Reduction"
       }
     ],
     "Legs": 2,
@@ -37318,10 +37279,7 @@
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.47,
-          0.47,
-          0.47,
-          0.47
+          0.3
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
@@ -37740,11 +37698,11 @@
         "Description": "+10 Health Regen"
       },
       {
-        "Id": 5939,
-        "Key": "special_bonus_attack_damage_30",
+        "Id": 5940,
+        "Key": "special_bonus_attack_damage_40",
         "Level": 15,
         "HeroId": 71,
-        "Description": "+30 Damage"
+        "Description": "+40 Damage"
       },
       {
         "Id": 6543,
@@ -38842,7 +38800,7 @@
         "Id": 5387,
         "Key": "invoker_forge_spirit",
         "Name": "Forge Spirit",
-        "Description": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage, mana, and armor are based on the level of <font color='#cabe68'>Exort</font> while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>. The elemental's scorching attack is capable of melting the armor of enemy heroes.",
+        "Description": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage and armor are based on the level of <font color='#cabe68'>Exort</font> while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>. The elemental's scorching attack is capable of melting the armor of enemy heroes.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/invoker_forge_spirit.png",
         "HeroId": 74,
@@ -39995,7 +39953,7 @@
         "Key": "special_bonus_unique_invoker_6",
         "Level": 10,
         "HeroId": 74,
-        "Description": "+50 Chaos Meteor Contact Damage"
+        "Description": "+{s:value_tooltip}% Chaos Meteor Damage"
       },
       {
         "Id": 6097,
@@ -40044,8 +40002,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 27,
-    "AttackDamageMax": 33,
+    "AttackDamageMin": 29,
+    "AttackDamageMax": 35,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
@@ -40113,24 +40071,25 @@
     "BotImplemented": false,
     "Abilities": [
       {
-        "Id": 5262,
-        "Key": "clinkz_death_pact",
-        "Name": "Death Pact",
-        "Description": "Clinkz consumes the target enemy unit or skeleton, gaining max health and armor reduction on attack. If a hero dies under this debuff, Clinkz will gain a permanent damage bonus and Death Pact will be refreshed.",
+        "Id": 5259,
+        "Key": "clinkz_strafe",
+        "Name": "Strafe",
+        "Description": "Clinkz nimbly attacks with a barrage of arrows. Gains 100% evasion from ranged attackers and dramatically increases attack speed for a short time.",
         "UpgradeDescription": null,
-        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_death_pact.png",
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_strafe.png",
         "HeroId": 56,
         "Index": 1,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
-          "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+          "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+          "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
         ],
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
         "AbilityUnitTargetFlags": [],
         "SpellImmunityType": null,
-        "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+        "SpellDispellableType": "SPELL_DISPELLABLE_YES",
         "AbilityUnitDamageType": null,
         "IsSkill": true,
         "IsUltimate": false,
@@ -40138,25 +40097,32 @@
         "IsGrantedByScepter": false,
         "OnCastbar": true,
         "OnLearnbar": true,
-        "AbilityCastRange": [
-          900
-        ],
+        "AbilityCastRange": [],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.2
+          0.0,
+          0.0,
+          0.0,
+          0.0
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          90.0
+          34.0,
+          30.0,
+          26.0,
+          22.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          60.0
+          40.0,
+          50.0,
+          60.0,
+          70.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
-        "FightRecapLevel": 0,
+        "FightRecapLevel": 1,
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
@@ -40164,28 +40130,16 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            55.0
-          ],
-          "health_gain": [
-            250.0,
-            350.0,
-            450.0,
-            550.0
-          ],
-          "damage_gain": [
-            0.0
-          ],
-          "permanent_bonus": [
-            5.0
-          ],
-          "debuff_duration": [
-            3.0
-          ],
-          "armor_reduction": [
-            2.0,
             3.0,
             4.0,
-            5.0
+            5.0,
+            6.0
+          ],
+          "attack_speed_bonus_pct": [
+            90.0,
+            120.0,
+            150.0,
+            180.0
           ]
         },
         "Keywords": []
@@ -40243,9 +40197,6 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          9.0,
-          10.0,
-          11.0,
           12.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -40258,10 +40209,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_bonus": [
-            25.0,
-            35.0,
-            45.0,
-            55.0
+            24.0,
+            36.0,
+            48.0,
+            60.0
           ]
         },
         "Keywords": []
@@ -40270,8 +40221,8 @@
         "Id": 5261,
         "Key": "clinkz_wind_walk",
         "Name": "Skeleton Walk",
-        "Description": "Clinkz moves invisibly through units until the moment he attacks or uses an ability. When exiting invisibility, Clinkz gains bonus attack speed.",
-        "UpgradeDescription": "Creates two skeletons near Clinkz when exiting Skeleton Walk. Increases Skeleton Walk movement speed and unlocks max movement speed.",
+        "Description": "Clinkz moves invisibly through units until the moment he attacks or uses items.",
+        "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_wind_walk.png",
         "HeroId": 56,
         "Index": 3,
@@ -40289,7 +40240,7 @@
         "AbilityUnitDamageType": null,
         "IsSkill": true,
         "IsUltimate": false,
-        "HasScepterUpgrade": true,
+        "HasScepterUpgrade": false,
         "IsGrantedByScepter": false,
         "OnCastbar": true,
         "OnLearnbar": true,
@@ -40326,10 +40277,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
-            20.0,
             25.0,
             30.0,
-            35.0
+            35.0,
+            40.0
           ],
           "fade_time": [
             0.6,
@@ -40339,77 +40290,85 @@
           ],
           "move_speed_bonus_pct": [
             15.0,
-            25.0,
-            35.0,
-            45.0
-          ],
-          "attack_speed_duration": [
-            4.0
-          ],
-          "attack_speed_bonus_pct": [
-            70.0,
-            100.0,
-            130.0,
-            160.0
-          ],
-          "scepter_bonus": [
-            30.0
-          ],
-          "scepter_skeleton_count": [
-            2.0
-          ],
-          "scepter_bonus_tooltip": [
+            30.0,
             45.0,
-            55.0,
-            65.0,
-            75.0
+            60.0
           ]
         },
         "Keywords": []
       },
       {
-        "Id": 6251,
-        "Key": "generic_hidden",
-        "Name": null,
-        "Description": null,
+        "Id": 7319,
+        "Key": "clinkz_burning_army",
+        "Name": "Burning Army",
+        "Description": "Clinkz summons an army of fiery ranged skeleton archers. Archers are immobile and die with 2 attacks from a hero. Skeletons deal a percentage of Clinkz' damage, use his current Searing Arrows ability and attack only heroes. Attack range is equal to Clinkz's attack range.",
         "UpgradeDescription": null,
-        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/generic_hidden.png",
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_burning_army.png",
         "HeroId": 56,
         "Index": 4,
-        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityBehaviors": [
+          "DOTA_ABILITY_BEHAVIOR_POINT",
+          "DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING",
           "DOTA_ABILITY_BEHAVIOR_HIDDEN",
-          "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+          "DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
         ],
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
         "AbilityUnitTargetFlags": [],
         "SpellImmunityType": null,
         "SpellDispellableType": null,
-        "AbilityUnitDamageType": null,
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "IsSkill": false,
         "IsUltimate": false,
-        "HasScepterUpgrade": false,
-        "IsGrantedByScepter": false,
+        "HasScepterUpgrade": true,
+        "IsGrantedByScepter": true,
         "OnCastbar": true,
         "OnLearnbar": true,
-        "AbilityCastRange": [],
+        "AbilityCastRange": [
+          1200
+        ],
         "AbilityCastRangeBuffer": 250,
-        "AbilityCastPoint": [],
+        "AbilityCastPoint": [
+          0.0
+        ],
         "AbilityChannelTime": [],
-        "AbilityCooldown": [],
+        "AbilityCooldown": [
+          90.0
+        ],
         "AbilityDuration": [],
         "AbilityDamage": [],
-        "AbilityManaCost": [],
+        "AbilityManaCost": [
+          150.0
+        ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
-        "FightRecapLevel": 0,
+        "FightRecapLevel": 1,
         "AbilityDraftEnabled": false,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Searing Arrows must be drafted for skeleton archers to have the extra damage.",
         "Linked": null,
-        "AbilitySpecial": {},
+        "AbilitySpecial": {
+          "range": [
+            1300.0
+          ],
+          "duration": [
+            20.0
+          ],
+          "count": [
+            5.0
+          ],
+          "attack_rate": [
+            1.6
+          ],
+          "damage_percent": [
+            30.0
+          ],
+          "spawn_interval": [
+            0.7
+          ]
+        },
         "Keywords": []
       },
       {
@@ -40458,25 +40417,25 @@
         "Keywords": []
       },
       {
-        "Id": 7319,
-        "Key": "clinkz_burning_army",
-        "Name": "Burning Army",
-        "Description": "Clinkz summons an army of fiery ranged skeleton archers. Archers are immobile and die with 2 attacks from a hero. Skeletons deal a percentage of Clinkz' damage, use his current Searing Arrows ability and attack only heroes. Attack range is equal to Clinkz's attack range.",
+        "Id": 5262,
+        "Key": "clinkz_death_pact",
+        "Name": "Death Pact",
+        "Description": "Clinkz consumes the target enemy unit or friendly unit, gaining max health and damage based on its current health.",
         "UpgradeDescription": null,
-        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_burning_army.png",
+        "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/clinkz_death_pact.png",
         "HeroId": 56,
         "Index": 6,
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_POINT",
-          "DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING"
+          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
         ],
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
         "AbilityUnitTargetFlags": [],
         "SpellImmunityType": null,
-        "SpellDispellableType": null,
-        "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+        "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+        "AbilityUnitDamageType": null,
         "IsSkill": false,
         "IsUltimate": true,
         "HasScepterUpgrade": false,
@@ -40484,51 +40443,44 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          1200
+          900
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.0
+          0.2
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          110.0
+          80.0,
+          70.0,
+          60.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          125.0,
-          175.0,
-          225.0
+          100.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
-        "FightRecapLevel": 1,
+        "FightRecapLevel": 0,
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": "Searing Arrows must be drafted for skeleton archers to have the extra damage.",
+        "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
-          "range": [
-            1300.0
-          ],
           "duration": [
-            20.0
+            65.0
           ],
-          "count": [
+          "health_gain_pct": [
+            40.0,
+            70.0,
+            100.0
+          ],
+          "damage_gain_pct": [
             4.0,
-            5.0,
-            6.0
-          ],
-          "attack_rate": [
-            1.6
-          ],
-          "damage_percent": [
-            30.0
-          ],
-          "spawn_interval": [
-            0.7
+            9.0,
+            14.0
           ]
         },
         "Keywords": []
@@ -40536,53 +40488,53 @@
     ],
     "Talents": [
       {
-        "Id": 454,
-        "Key": "special_bonus_agility_7",
+        "Id": 554,
+        "Key": "special_bonus_unique_clinkz_9",
         "Level": 10,
         "HeroId": 56,
-        "Description": "+7 Agility"
+        "Description": "Skeleton Walk Exit Summons A Burning Army Skeleton"
       },
       {
-        "Id": 6250,
-        "Key": "special_bonus_strength_9",
+        "Id": 6926,
+        "Key": "special_bonus_mp_regen_175",
         "Level": 10,
         "HeroId": 56,
-        "Description": "+9 Strength"
+        "Description": "+1.75 Mana Regen"
       },
       {
-        "Id": 7895,
-        "Key": "special_bonus_unique_clinkz_5",
+        "Id": 523,
+        "Key": "special_bonus_unique_clinkz_10",
         "Level": 15,
         "HeroId": 56,
-        "Description": "-30s Burning Army Cooldown"
+        "Description": "-10s Skeleton Walk Cooldown"
       },
       {
         "Id": 6104,
         "Key": "special_bonus_unique_clinkz_1",
         "Level": 15,
         "HeroId": 56,
-        "Description": "+12 Searing Arrows Damage"
+        "Description": "+25 Searing Arrows Damage"
       },
       {
-        "Id": 5943,
-        "Key": "special_bonus_attack_range_100",
+        "Id": 5944,
+        "Key": "special_bonus_attack_range_125",
         "Level": 20,
         "HeroId": 56,
-        "Description": "+100 Attack Range"
+        "Description": "+125 Attack Range"
       },
       {
-        "Id": 345,
-        "Key": "special_bonus_unique_clinkz_6",
+        "Id": 583,
+        "Key": "special_bonus_unique_clinkz_11",
         "Level": 20,
         "HeroId": 56,
-        "Description": "+325 Death Pact Health"
+        "Description": "Kills Reset Death Pact Cooldown"
       },
       {
-        "Id": 6231,
-        "Key": "special_bonus_unique_clinkz_2",
+        "Id": 495,
+        "Key": "special_bonus_unique_clinkz_8",
         "Level": 25,
         "HeroId": 56,
-        "Description": "+3s Skeleton Walk Attack Speed Duration"
+        "Description": "+50/{s:value2}% Death Pact Health/Damage"
       },
       {
         "Id": 6620,
@@ -40599,7 +40551,7 @@
     "AttackDamageMin": 15,
     "AttackDamageMax": 21,
     "AttackRate": 1.7,
-    "AttackAnimationPoint": 0.7,
+    "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
     "AttackRange": 625,
     "ProjectileSpeed": 900,
@@ -40607,7 +40559,7 @@
     "AttributeBaseStrength": 14,
     "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 1.7,
+    "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 2.7,
     "StatusHealth": 200,
@@ -40706,9 +40658,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          110.0,
-          140.0,
-          170.0,
+          80.0,
+          120.0,
+          160.0,
           200.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -40744,6 +40696,7 @@
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
           "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_AOE",
           "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
         ],
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY | DOTA_UNIT_TARGET_TEAM_FRIENDLY",
@@ -40764,9 +40717,9 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          225,
           300,
-          375,
+          350,
+          400,
           450
         ],
         "AbilityCastRangeBuffer": 250,
@@ -40892,10 +40845,10 @@
             50.0
           ],
           "slow_duration": [
-            1.75
+            2.0
           ],
           "duration": [
-            6.0
+            8.0
           ]
         },
         "Keywords": []
@@ -41129,11 +41082,11 @@
         "Description": "+1.6% Arcane Orb Damage"
       },
       {
-        "Id": 434,
-        "Key": "special_bonus_spell_lifesteal_12",
+        "Id": 6166,
+        "Key": "special_bonus_spell_lifesteal_20",
         "Level": 25,
         "HeroId": 76,
-        "Description": "12% Spell Lifesteal"
+        "Description": "20% Spell Lifesteal"
       }
     ],
     "Legs": 4,
@@ -41309,6 +41262,12 @@
           ],
           "AbilityCharges": [
             0.0
+          ],
+          "illusion_bounty_base": [
+            0.0
+          ],
+          "illusion_bounty_growth": [
+            2.0
           ]
         },
         "Keywords": []
@@ -41681,11 +41640,11 @@
     ],
     "Talents": [
       {
-        "Id": 5926,
-        "Key": "special_bonus_intelligence_12",
+        "Id": 5991,
+        "Key": "special_bonus_intelligence_15",
         "Level": 10,
         "HeroId": 79,
-        "Description": "+12 Intelligence"
+        "Description": "+15 Intelligence"
       },
       {
         "Id": 5947,
@@ -42378,7 +42337,7 @@
         "Id": 5412,
         "Key": "lone_druid_spirit_bear",
         "Name": "Summon Spirit Bear",
-        "Description": "Summons a powerful Spirit Bear companion that can equip items.  If the bear moves 1100 distance away from the Lone Druid, it cannot attack.  Lone Druid suffers 10% of his max health as backlash damage if the Spirit Bear dies. Spirit Bear does not benefit from attributes.\\nSpirit Bear has the Return, Demolish and Entangling Roots abilities.",
+        "Description": "Summons a powerful Spirit Bear companion that can equip items.  If the bear moves 1100 distance away from the Lone Druid, it cannot attack.  Lone Druid suffers 20% of his max health as backlash damage if the Spirit Bear dies. Spirit Bear does not benefit from attributes.\\nSpirit Bear has the Return, Demolish and Entangling Roots abilities.",
         "UpgradeDescription": "Allows Spirit Bear to attack at any range from Lone Druid, and to survive if Lone Druid dies.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/lone_druid_spirit_bear.png",
         "HeroId": 80,
@@ -42453,7 +42412,7 @@
             6.0
           ],
           "backlash_damage": [
-            10.0
+            20.0
           ],
           "cooldown_scepter": [
             120.0
@@ -42734,9 +42693,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "bonus_armor": [
+            8.0,
             10.0,
-            15.0,
-            20.0
+            12.0
           ],
           "bonus_hp": [
             500.0,
@@ -42804,7 +42763,7 @@
         "Key": "special_bonus_unique_lone_druid_10",
         "Level": 25,
         "HeroId": 80,
-        "Description": "0.15 Spirit Bear Attack Time"
+        "Description": "0.1 Spirit Bear Attack Time"
       },
       {
         "Id": 6680,
@@ -42827,7 +42786,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.7,
+    "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 13,
     "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 20,
@@ -42973,12 +42932,6 @@
           ],
           "duration": [
             4.0
-          ],
-          "duration_creeps": [
-            8.0,
-            8.0,
-            8.0,
-            8.0
           ]
         },
         "Keywords": []
@@ -43029,6 +42982,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
+          50.0,
+          60.0,
+          70.0,
           80.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -43044,10 +43000,10 @@
             5.0
           ],
           "total_damage": [
-            100.0,
-            160.0,
-            220.0,
-            280.0
+            75.0,
+            150.0,
+            225.0,
+            300.0
           ],
           "movement_slow": [
             24.0,
@@ -43310,11 +43266,11 @@
         "Description": "+12 Damage"
       },
       {
-        "Id": 5902,
-        "Key": "special_bonus_hp_150",
+        "Id": 6034,
+        "Key": "special_bonus_hp_175",
         "Level": 10,
         "HeroId": 78,
-        "Description": "+150 Health"
+        "Description": "+175 Health"
       },
       {
         "Id": 6516,
@@ -43356,7 +43312,7 @@
         "Key": "special_bonus_unique_brewmaster_4",
         "Level": 25,
         "HeroId": 78,
-        "Description": "+140% Drunken Brawler Critical Strike Damage"
+        "Description": "+120% Drunken Brawler Critical Strike Damage"
       }
     ],
     "Legs": 2,
@@ -43499,9 +43455,9 @@
         "AbilitySpecial": {
           "lance_damage": [
             100.0,
-            150.0,
-            200.0,
-            250.0
+            160.0,
+            220.0,
+            280.0
           ],
           "lance_speed": [
             1000.0,
@@ -43896,11 +43852,11 @@
         "Description": "+200 Health"
       },
       {
-        "Id": 6400,
-        "Key": "special_bonus_unique_phantom_lancer_2",
+        "Id": 563,
+        "Key": "special_bonus_unique_phantom_lancer_5",
         "Level": 15,
         "HeroId": 12,
-        "Description": "+100 Spirit Lance Damage"
+        "Description": "-1s Spirit Lance CD"
       },
       {
         "Id": 6146,
@@ -43910,11 +43866,11 @@
         "Description": "+400 Phantom Rush Range"
       },
       {
-        "Id": 6849,
-        "Key": "special_bonus_unique_phantom_lancer_3",
+        "Id": 564,
+        "Key": "special_bonus_unique_phantom_lancer_6",
         "Level": 20,
         "HeroId": 12,
-        "Description": "+5 Max Juxtapose Illusions"
+        "Description": "+4% Juxtapose Damage"
       },
       {
         "Id": 6850,
@@ -43935,8 +43891,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 22,
-    "AttackDamageMax": 44,
+    "AttackDamageMin": 26,
+    "AttackDamageMax": 40,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 600,
@@ -44106,14 +44062,14 @@
         "Id": 5435,
         "Key": "treant_leech_seed",
         "Name": "Leech Seed",
-        "Description": "Treant saps life from a random nearby enemy unit every second, prioritizing heroes. Drains health and slows enemies.",
+        "Description": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/treant_leech_seed.png",
         "HeroId": 83,
         "Index": 2,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+          "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
         ],
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": [
@@ -44130,22 +44086,27 @@
         "IsGrantedByScepter": false,
         "OnCastbar": true,
         "OnLearnbar": true,
-        "AbilityCastRange": [],
+        "AbilityCastRange": [
+          400
+        ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
           0.4
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          22.0,
-          19.0,
+          18.0,
           16.0,
-          13.0
+          14.0,
+          12.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          110.0
+          110.0,
+          120.0,
+          130.0,
+          140.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -44157,31 +44118,28 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_interval": [
-            0.5
+            1.0
           ],
           "leech_damage": [
-            15.0,
-            30.0,
-            45.0,
-            60.0
+            16.0,
+            32.0,
+            48.0,
+            64.0
           ],
           "movement_slow": [
-            -18.0,
-            -24.0,
-            -30.0,
-            -36.0
-          ],
-          "slow_duration": [
-            0.5
+            -8.0,
+            -14.0,
+            -20.0,
+            -26.0
           ],
           "radius": [
-            700.0
+            650.0
           ],
           "duration": [
             5.0
           ],
           "projectile_speed": [
-            550.0
+            450.0
           ]
         },
         "Keywords": []
@@ -44297,9 +44255,7 @@
           0.2
         ],
         "AbilityChannelTime": [],
-        "AbilityCooldown": [
-          35.0
-        ],
+        "AbilityCooldown": [],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
@@ -44393,7 +44349,7 @@
         "Key": "treant_overgrowth",
         "Name": "Overgrowth",
         "Description": "Summons an overgrowth of vines and branches around Treant that deal damage to afflicted enemies and prevent them from moving, blinking, going invisible, or attacking.",
-        "UpgradeDescription": "Adds new ability: Eye in the Forest.\\n When Overgrowth is cast, it is also cast around Eye of the Forest. Causes all trees to respawn much faster.",
+        "UpgradeDescription": "Adds new ability: Eyes in the Forest.\\n When Overgrowth is cast, it is also cast around Eyes in the Forest. Causes all trees to respawn much faster.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/treant_overgrowth.png",
         "HeroId": 83,
         "Index": 6,
@@ -44438,7 +44394,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": "treant_eyes_in_the_forest",
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Eyes In The Forest available in Ability Draft.",
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -44850,7 +44806,7 @@
         "Id": 5466,
         "Key": "ogre_magi_unrefined_fireblast",
         "Name": "Unrefined Fireblast",
-        "Description": "Blasts an enemy unit with a wave of fire, dealing damage and stunning the target. Its mana cost is 60% of Ogre Magi's current mana.",
+        "Description": "Blasts an enemy unit with a wave of fire, dealing damage and stunning the target. Its mana cost is 45% of Ogre Magi's current mana.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/ogre_magi_unrefined_fireblast.png",
         "HeroId": 84,
@@ -44908,7 +44864,7 @@
             0.6
           ],
           "scepter_mana": [
-            60.0
+            45.0
           ],
           "fireblast_damage": [
             275.0
@@ -45097,7 +45053,7 @@
     "AttributeBaseIntelligence": 15,
     "AttributeIntelligenceGain": 2.5,
     "AttributeBaseAgility": 14,
-    "AttributeAgilityGain": 1.9,
+    "AttributeAgilityGain": 1.5,
     "StatusHealth": 200,
     "StatusHealthRegen": 3.25,
     "StatusMana": 75,
@@ -45343,7 +45299,7 @@
         "Id": 5428,
         "Key": "chaos_knight_chaos_strike",
         "Name": "Chaos Strike",
-        "Description": "Chaos Knight's attacks deal a critical strike of varying strength, in addition to a lifesteal for 25/40/55/70% of the damage.",
+        "Description": "Chaos Knight's attacks have a chance to deal a critical strike of varying strength, in addition to a lifesteal for percentage of the damage.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chaos_knight_chaos_strike.png",
         "HeroId": 81,
@@ -45368,9 +45324,7 @@
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [],
         "AbilityChannelTime": [],
-        "AbilityCooldown": [
-          4.0
-        ],
+        "AbilityCooldown": [],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [],
@@ -45383,6 +45337,9 @@
         "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
+          "chance": [
+            30.0
+          ],
           "crit_min": [
             120.0
           ],
@@ -45495,7 +45452,7 @@
         "Id": 5429,
         "Key": "chaos_knight_phantasm",
         "Name": "Phantasm",
-        "Description": "Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms are strong illusions that deal 40/70/100% damage, have 25% magic resistance, but take 325% damage.\\nDISPEL TYPE: Basic Dispel",
+        "Description": "Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms are strong illusions that deal 100% damage, but take 325% damage.\\nDISPEL TYPE: Basic Dispel",
         "UpgradeDescription": "Creates an illusion of allied heroes. Creates an additional illusion for Chaos Knight as well.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/chaos_knight_phantasm.png",
         "HeroId": 81,
@@ -45531,14 +45488,14 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          125.0
+          75.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
+          75.0,
           125.0,
-          200.0,
-          275.0
+          175.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -45550,19 +45507,17 @@
         "Linked": null,
         "AbilitySpecial": {
           "images_count": [
+            1.0,
+            2.0,
             3.0
           ],
           "illusion_duration": [
             30.0
           ],
           "outgoing_damage": [
-            -60.0,
-            -30.0,
             0.0
           ],
           "outgoing_damage_tooltip": [
-            40.0,
-            70.0,
             100.0
           ],
           "incoming_damage": [
@@ -45578,7 +45533,7 @@
             400.0
           ],
           "magic_resistance": [
-            25.0
+            0.0
           ]
         },
         "Keywords": []
@@ -45607,11 +45562,11 @@
         "Description": "+12 Strength"
       },
       {
-        "Id": 6190,
-        "Key": "special_bonus_cooldown_reduction_12",
+        "Id": 568,
+        "Key": "special_bonus_cooldown_reduction_14",
         "Level": 15,
         "HeroId": 81,
-        "Description": "12% Cooldown Reduction"
+        "Description": "14% Cooldown Reduction"
       },
       {
         "Id": 7651,
@@ -45628,22 +45583,22 @@
         "Description": "Reality Rift Pierces Spell Immune"
       },
       {
-        "Id": 6618,
-        "Key": "special_bonus_unique_chaos_knight_2",
+        "Id": 510,
+        "Key": "special_bonus_unique_chaos_knight_5",
         "Level": 25,
         "HeroId": 81,
-        "Description": "-1.5s Chaos Strike Cooldown"
+        "Description": "+10% Chaos Strike Chance"
       },
       {
         "Id": 6619,
         "Key": "special_bonus_unique_chaos_knight_3",
         "Level": 25,
         "HeroId": 81,
-        "Description": "+1.5 Max Chaos Bolt Duration"
+        "Description": "+1 Min/Max Chaos Bolt Duration"
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 1.0,
+    "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 29,
@@ -45871,6 +45826,9 @@
           ],
           "duration": [
             2.0
+          ],
+          "abilitycastrange": [
+            0.0
           ]
         },
         "Keywords": []
@@ -45946,7 +45904,7 @@
             0.75
           ],
           "scepter_cooldown": [
-            12.0
+            10.0
           ]
         },
         "Keywords": []
@@ -46104,11 +46062,11 @@
         "Description": "+175 Health"
       },
       {
-        "Id": 6159,
-        "Key": "special_bonus_attack_damage_12",
+        "Id": 559,
+        "Key": "special_bonus_unique_phantom_assassin_7",
         "Level": 10,
         "HeroId": 44,
-        "Description": "+12 Damage"
+        "Description": "-1s Stifling Dagger Cooldown"
       },
       {
         "Id": 433,
@@ -46118,11 +46076,11 @@
         "Description": "12% Lifesteal"
       },
       {
-        "Id": 6801,
-        "Key": "special_bonus_cleave_25",
+        "Id": 490,
+        "Key": "special_bonus_unique_phantom_assassin_6",
         "Level": 15,
         "HeroId": 44,
-        "Description": "+25% Cleave"
+        "Description": "+350 Phantom Strike Cast Range"
       },
       {
         "Id": 7383,
@@ -46136,7 +46094,7 @@
         "Key": "special_bonus_unique_phantom_assassin_3",
         "Level": 20,
         "HeroId": 44,
-        "Description": "+30% Blur Evasion"
+        "Description": "+35% Blur Evasion"
       },
       {
         "Id": 483,
@@ -46157,8 +46115,8 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-    "AttackDamageMin": 27,
-    "AttackDamageMax": 29,
+    "AttackDamageMin": 30,
+    "AttackDamageMax": 32,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 600,
@@ -46386,7 +46344,7 @@
             1500.0
           ],
           "pre_flight_time": [
-            3.0
+            2.5
           ],
           "hero_damage": [
             34.0
@@ -46442,7 +46400,7 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          20.0
+          18.0
         ],
         "AbilityDuration": [
           10.0
@@ -46671,18 +46629,18 @@
     ],
     "Talents": [
       {
-        "Id": 6159,
-        "Key": "special_bonus_attack_damage_12",
+        "Id": 487,
+        "Key": "special_bonus_attack_damage_16",
         "Level": 10,
         "HeroId": 72,
-        "Description": "+12 Damage"
+        "Description": "+16 Damage"
       },
       {
-        "Id": 6034,
-        "Key": "special_bonus_hp_175",
+        "Id": 5959,
+        "Key": "special_bonus_hp_200",
         "Level": 10,
         "HeroId": 72,
-        "Description": "+175 Health"
+        "Description": "+200 Health"
       },
       {
         "Id": 7141,
@@ -46710,7 +46668,7 @@
         "Key": "special_bonus_unique_gyrocopter_3",
         "Level": 20,
         "HeroId": 72,
-        "Description": "+12 Rocket Barrage Damage"
+        "Description": "+16 Rocket Barrage Damage"
       },
       {
         "Id": 6216,
@@ -46741,7 +46699,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
     "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 2.5,
-    "AttributeBaseIntelligence": 19,
+    "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 2.1,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 3.6,
@@ -46898,7 +46856,7 @@
         "Id": 5450,
         "Key": "rubick_fade_bolt",
         "Name": "Fade Bolt",
-        "Description": "Rubick creates a powerful stream of arcane energy that travels between enemy units, dealing damage and reducing their attack damage.  Each jump deals less damage.",
+        "Description": "Rubick creates a powerful stream of arcane energy that travels between enemy units, dealing damage and reducing their attack damage. Each jump deals less damage.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/rubick_fade_bolt.png",
         "HeroId": 86,
@@ -46945,9 +46903,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          135.0,
+          120.0,
+          130.0,
           140.0,
-          145.0,
           150.0
         ],
         "AbilityModifierSupportValue": 0.35,
@@ -46960,25 +46918,19 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage": [
-            80.0,
-            160.0,
-            240.0,
-            320.0
+            100.0,
+            175.0,
+            250.0,
+            325.0
           ],
           "jump_damage_reduction_pct": [
             8.0
           ],
-          "hero_attack_damage_reduction": [
-            20.0,
-            25.0,
-            30.0,
-            35.0
-          ],
-          "creep_attack_damage_reduction": [
+          "attack_damage_reduction": [
             10.0,
-            13.0,
-            15.0,
-            17.0
+            18.0,
+            26.0,
+            34.0
           ],
           "duration": [
             10.0,
@@ -47425,11 +47377,11 @@
         "Description": "+150 Health"
       },
       {
-        "Id": 5941,
-        "Key": "special_bonus_attack_damage_50",
+        "Id": 548,
+        "Key": "special_bonus_attack_base_damage_50",
         "Level": 10,
         "HeroId": 86,
-        "Description": "+50 Damage"
+        "Description": "+50 Base Damage"
       },
       {
         "Id": 6003,
@@ -47439,11 +47391,11 @@
         "Description": "+100 Cast Range"
       },
       {
-        "Id": 6862,
-        "Key": "special_bonus_unique_rubick_2",
+        "Id": 518,
+        "Key": "special_bonus_unique_rubick_6",
         "Level": 15,
         "HeroId": 86,
-        "Description": "-80 Fade Bolt Hero Attack"
+        "Description": "Fade Bolt Steals Hero Damage"
       },
       {
         "Id": 6863,
@@ -47478,8 +47430,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 22,
-    "AttackDamageMax": 32,
+    "AttackDamageMin": 24,
+    "AttackDamageMax": 30,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
@@ -47663,13 +47615,16 @@
             500.0
           ],
           "bounces": [
-            1.0,
-            2.0,
             3.0,
+            4.0,
+            5.0,
             6.0
           ],
           "damage_reduction_percent": [
-            35.0
+            52.0,
+            46.0,
+            40.0,
+            34.0
           ]
         },
         "Keywords": []
@@ -47678,7 +47633,7 @@
         "Id": 5224,
         "Key": "luna_lunar_blessing",
         "Name": "Lunar Blessing",
-        "Description": "Increases the attack damage and armor for Luna and nearby allied ranged player units. Luna is also blessed with increased vision range at night.",
+        "Description": "Increases the attack damage for Luna and nearby allied ranged player units. Luna is also blessed with increased vision range at night.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/luna_lunar_blessing.png",
         "HeroId": 48,
@@ -47720,16 +47675,10 @@
             1200.0
           ],
           "damage_pct": [
-            15.0,
-            20.0,
-            25.0,
-            30.0
-          ],
-          "armor_pct": [
-            15.0,
-            20.0,
-            25.0,
-            30.0
+            10.0,
+            18.0,
+            26.0,
+            34.0
           ],
           "bonus_night_vision": [
             200.0,
@@ -47999,8 +47948,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-    "AttackDamageMin": 29,
-    "AttackDamageMax": 35,
+    "AttackDamageMin": 32,
+    "AttackDamageMax": 38,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 800,
@@ -48703,7 +48652,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 280,
+    "MovementSpeed": 320,
     "MovementTurnRate": 0.7,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -48992,7 +48941,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
-            340.0
+            350.0
           ],
           "formation_time": [
             1.2,
@@ -49181,11 +49130,11 @@
     ],
     "Talents": [
       {
-        "Id": 6000,
-        "Key": "special_bonus_magic_resistance_20",
+        "Id": 6368,
+        "Key": "special_bonus_unique_disruptor_2",
         "Level": 10,
         "HeroId": 87,
-        "Description": "+20% Magic Resistance"
+        "Description": "-2s Kinetic Field Cooldown"
       },
       {
         "Id": 6536,
@@ -49202,11 +49151,11 @@
         "Description": "+125 Cast Range"
       },
       {
-        "Id": 6368,
-        "Key": "special_bonus_unique_disruptor_2",
+        "Id": 517,
+        "Key": "special_bonus_unique_disruptor_7",
         "Level": 15,
         "HeroId": 87,
-        "Description": "-3s Kinetic Field Cooldown"
+        "Description": "+1.5s Static Storm Duration"
       },
       {
         "Id": 7656,
@@ -49673,7 +49622,7 @@
         "Id": 5447,
         "Key": "undying_flesh_golem",
         "Name": "Flesh Golem",
-        "Description": "Undying transforms into a horrifying flesh golem. Gains a percentage increase to strength and imbues attacks with a slow and damage over time. Zombies do double damage to enemies affected by Flesh Golem's attacks.",
+        "Description": "Undying transforms into a horrifying flesh golem. Gains a percentage increase to strength and imbues attacks with a slow and damage amplification.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/undying_flesh_golem.png",
         "HeroId": 85,
@@ -49723,10 +49672,10 @@
             45.0,
             50.0
           ],
-          "damage": [
+          "damage_amp": [
             25.0,
-            35.0,
-            45.0
+            30.0,
+            35.0
           ],
           "slow_duration": [
             6.0
@@ -49738,14 +49687,6 @@
           ],
           "duration": [
             40.0
-          ],
-          "spawn_rate": [
-            3.0,
-            2.5,
-            2.0
-          ],
-          "zombie_radius": [
-            400.0
           ],
           "movement_bonus": [
             30.0
@@ -49999,6 +49940,9 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
+          12.0,
+          10.0,
+          8.0,
           6.0
         ],
         "AbilityDuration": [
@@ -50027,9 +49971,9 @@
             200.0
           ],
           "bonus_armor": [
-            -2.0,
-            -4.0,
+            -5.0,
             -6.0,
+            -7.0,
             -8.0
           ]
         },
@@ -50399,7 +50343,7 @@
         "Key": "special_bonus_unique_templar_assassin",
         "Level": 25,
         "HeroId": 46,
-        "Description": "+4 Refraction Instances"
+        "Description": "+6 Refraction Instances"
       }
     ],
     "Legs": 2,
@@ -50609,7 +50553,7 @@
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.6
+          0.5
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
@@ -50639,9 +50583,6 @@
             5.0
           ],
           "net_speed": [
-            1500.0,
-            1500.0,
-            1500.0,
             1500.0
           ],
           "fake_ensnare_distance": [
@@ -50893,6 +50834,11 @@
           ],
           "regen_rate_tooltip_scepter": [
             10.0
+          ],
+          "scepter_cooldown": [
+            140.0,
+            100.0,
+            60.0
           ]
         },
         "Keywords": []
@@ -51035,7 +50981,7 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
-    "MovementSpeed": 320,
+    "MovementSpeed": 330,
     "MovementTurnRate": 0.5,
     "HasAggressiveStance": false,
     "Team": 1,
@@ -51164,10 +51110,10 @@
             7.0
           ],
           "impale_damage": [
-            80.0,
-            140.0,
-            200.0,
-            260.0
+            100.0,
+            160.0,
+            220.0,
+            280.0
           ]
         },
         "Keywords": []
@@ -51588,11 +51534,11 @@
     ],
     "Talents": [
       {
-        "Id": 5996,
-        "Key": "special_bonus_spell_amplify_6",
+        "Id": 5949,
+        "Key": "special_bonus_spell_amplify_8",
         "Level": 10,
         "HeroId": 88,
-        "Description": "+6% Spell Amplification"
+        "Description": "+8% Spell Amplification"
       },
       {
         "Id": 402,
@@ -51758,9 +51704,9 @@
         ],
         "AbilityChannelTime": [
           2.0,
-          3.0,
-          4.0,
-          5.0
+          2.7,
+          3.4,
+          4.1
         ],
         "AbilityCooldown": [
           11.0
@@ -51782,17 +51728,17 @@
         "AbilityDraftNote": null,
         "Linked": "keeper_of_the_light_spirit_form_illuminate",
         "AbilitySpecial": {
-          "damage_per_second": [
-            100.0,
-            100.0,
-            100.0,
-            100.0
+          "total_damage": [
+            200.0,
+            300.0,
+            400.0,
+            500.0
           ],
           "max_channel_time": [
             2.0,
-            3.0,
-            4.0,
-            5.0
+            2.7,
+            3.4,
+            4.1
           ],
           "radius": [
             375.0
@@ -51826,12 +51772,6 @@
           ],
           "channel_vision_step": [
             150.0
-          ],
-          "total_damage": [
-            200.0,
-            300.0,
-            400.0,
-            500.0
           ]
         },
         "Keywords": []
@@ -52300,17 +52240,17 @@
         "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
-          "damage_per_second": [
-            100.0,
-            100.0,
-            100.0,
-            100.0
+          "total_damage": [
+            200.0,
+            300.0,
+            400.0,
+            500.0
           ],
           "max_channel_time": [
             2.0,
-            3.0,
-            4.0,
-            5.0
+            2.7,
+            3.4,
+            4.1
           ],
           "radius": [
             375.0
@@ -52344,12 +52284,6 @@
           ],
           "channel_vision_step": [
             150.0
-          ],
-          "total_damage": [
-            200.0,
-            300.0,
-            400.0,
-            500.0
           ]
         },
         "Keywords": []
@@ -52444,11 +52378,11 @@
         "Description": "+150 Will-O-Wisp AOE"
       },
       {
-        "Id": 6527,
-        "Key": "special_bonus_unique_keeper_of_the_light_2",
+        "Id": 527,
+        "Key": "special_bonus_unique_keeper_of_the_light_7",
         "Level": 20,
         "HeroId": 90,
-        "Description": "+250 Chakra Magic Mana"
+        "Description": "-4s Chakra Magic Cooldown"
       },
       {
         "Id": 7398,
@@ -52673,6 +52607,9 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
+          135.0,
+          140.0,
+          145.0,
           150.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -53004,11 +52941,11 @@
         "Description": "+25 Damage"
       },
       {
-        "Id": 439,
-        "Key": "special_bonus_corruption_25",
+        "Id": 7383,
+        "Key": "special_bonus_corruption_3",
         "Level": 15,
         "HeroId": 92,
-        "Description": "-2.5 Armor Corruption"
+        "Description": "-3 Armor Corruption"
       },
       {
         "Id": 6522,
@@ -53056,7 +52993,7 @@
     "AttackAnimationPoint": 0.46,
     "AttackAcquisitionRange": 800,
     "AttackRange": 600,
-    "ProjectileSpeed": 900,
+    "ProjectileSpeed": 1000,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 2.8,
@@ -53706,7 +53643,7 @@
             0.2
           ],
           "movement_slow": [
-            60.0
+            75.0
           ],
           "slow_duration": [
             2.0
@@ -53793,10 +53730,10 @@
             50.0
           ],
           "bonus_damage_pct": [
-            10.0,
-            15.0,
-            20.0,
-            25.0
+            11.0,
+            18.0,
+            25.0,
+            32.0
           ],
           "cleave_damage_pct": [
             10.0,
@@ -53869,10 +53806,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          26.0,
-          24.0,
           22.0,
-          20.0
+          20.0,
+          18.0,
+          16.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -53907,7 +53844,7 @@
             40.0
           ],
           "skewer_radius": [
-            135.0
+            145.0
           ],
           "slow_duration": [
             3.25
@@ -54106,11 +54043,11 @@
     ],
     "Talents": [
       {
-        "Id": 6119,
-        "Key": "special_bonus_attack_speed_15",
+        "Id": 5960,
+        "Key": "special_bonus_attack_damage_20",
         "Level": 10,
         "HeroId": 97,
-        "Description": "+15 Attack Speed"
+        "Description": "+20 Damage"
       },
       {
         "Id": 5959,
@@ -54131,7 +54068,7 @@
         "Key": "special_bonus_unique_magnus_4",
         "Level": 15,
         "HeroId": 97,
-        "Description": "+100 Shockwave Damage"
+        "Description": "+140 Shockwave Damage"
       },
       {
         "Id": 5934,
@@ -54277,17 +54214,17 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          22.0,
-          19.0,
-          16.0,
-          13.0
+          15.0,
+          14.0,
+          13.0,
+          12.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          115.0,
+          100.0,
+          110.0,
           120.0,
-          125.0,
           130.0
         ],
         "AbilityModifierSupportValue": 1.0,
@@ -54303,16 +54240,16 @@
             315.0
           ],
           "stun_duration": [
+            1.7,
             2.0,
-            2.25,
-            2.5,
-            2.75
+            2.3,
+            2.6
           ],
           "stomp_damage": [
-            80.0,
-            110.0,
-            140.0,
-            170.0
+            100.0,
+            150.0,
+            200.0,
+            250.0
           ]
         },
         "Keywords": []
@@ -54357,7 +54294,7 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          5.0
+          4.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -54398,15 +54335,14 @@
         "Id": 5516,
         "Key": "centaur_return",
         "Name": "Retaliate",
-        "Description": "Centaur counters all attacks, dealing damage back to the attacker. Each time Centaur gets attacked by a hero or a tower, he gains a charge counter. Can be cast to consume all charges, granting you a percentage base damage increase for 20 seconds.",
+        "Description": "Centaur counters all attacks, dealing damage back to the attacker. Returns a fixed amount plus a percentage of your strength. Deals half damage to towers.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/centaur_return.png",
         "HeroId": 96,
         "Index": 3,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-          "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+          "DOTA_ABILITY_BEHAVIOR_PASSIVE"
         ],
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
@@ -54424,12 +54360,7 @@
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [],
         "AbilityChannelTime": [],
-        "AbilityCooldown": [
-          55.0,
-          50.0,
-          45.0,
-          40.0
-        ],
+        "AbilityCooldown": [],
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [],
@@ -54443,22 +54374,16 @@
         "Linked": null,
         "AbilitySpecial": {
           "return_damage": [
-            16.0,
-            36.0,
-            56.0,
-            76.0
+            15.0,
+            30.0,
+            45.0,
+            60.0
           ],
-          "damage_gain_pct": [
-            4.0,
-            6.0,
-            8.0,
-            10.0
-          ],
-          "damage_gain_duration": [
-            20.0
-          ],
-          "max_stacks": [
-            13.0
+          "return_damage_str": [
+            20.0,
+            25.0,
+            30.0,
+            35.0
           ],
           "aura_radius": [
             1200.0
@@ -54653,11 +54578,11 @@
         "Description": "+15 Movement Speed"
       },
       {
-        "Id": 450,
-        "Key": "special_bonus_attack_base_damage_25",
+        "Id": 5940,
+        "Key": "special_bonus_attack_damage_40",
         "Level": 15,
         "HeroId": 96,
-        "Description": "+25 Base Damage"
+        "Description": "+40 Damage"
       },
       {
         "Id": 6617,
@@ -54671,7 +54596,7 @@
         "Key": "special_bonus_unique_centaur_3",
         "Level": 20,
         "HeroId": 96,
-        "Description": "+70 Retaliate Damage"
+        "Description": "+50 Retaliate Damage"
       },
       {
         "Id": 453,
@@ -55922,11 +55847,11 @@
         "Description": "+175 Health"
       },
       {
-        "Id": 5961,
-        "Key": "special_bonus_mp_regen_2",
+        "Id": 6926,
+        "Key": "special_bonus_mp_regen_175",
         "Level": 10,
         "HeroId": 98,
-        "Description": "+2 Mana Regen"
+        "Description": "+1.75 Mana Regen"
       },
       {
         "Id": 5949,
@@ -55940,7 +55865,7 @@
         "Key": "special_bonus_unique_timbersaw_2",
         "Level": 15,
         "HeroId": 98,
-        "Description": "+6 Reactive Armor Stacks"
+        "Description": "+8 Reactive Armor Stacks"
       },
       {
         "Id": 447,
@@ -55983,7 +55908,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-    "AttributeBaseStrength": 23,
+    "AttributeBaseStrength": 24,
     "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 2.7,
@@ -55992,7 +55917,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.0,
     "StatusMana": 75,
-    "StatusManaRegen": 0.25,
+    "StatusManaRegen": 0.5,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -56054,7 +55979,9 @@
         "Index": 1,
         "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
         "AbilityBehaviors": [
-          "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+          "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+          "DOTA_ABILITY_BEHAVIOR_TOGGLE",
+          "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
         ],
         "AbilityUnitTargetTeam": null,
         "AbilityUnitTargetType": [],
@@ -56091,22 +56018,22 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage_modifier": [
-            -70.0,
-            -55.0,
+            -50.0,
             -40.0,
-            -25.0
+            -30.0,
+            -20.0
           ],
           "damage_modifier_tooltip": [
-            30.0,
-            45.0,
+            50.0,
             60.0,
-            75.0
+            70.0,
+            80.0
           ],
           "arrow_count": [
-            3.0
+            4.0
           ],
           "split_shot_bonus_range": [
-            100.0
+            150.0
           ]
         },
         "Keywords": []
@@ -56144,14 +56071,11 @@
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.4,
-          0.4,
-          0.4,
-          0.4
+          0.2
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          11.0
+          10.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -56532,9 +56456,9 @@
     "AttackRange": 600,
     "ProjectileSpeed": 1200,
     "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
-    "AttributeBaseStrength": 15,
+    "AttributeBaseStrength": 17,
     "AttributeStrengthGain": 1.5,
-    "AttributeBaseIntelligence": 19,
+    "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 4.0,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 3.6,
@@ -57045,18 +56969,18 @@
         "Description": "+200 Health"
       },
       {
-        "Id": 6958,
-        "Key": "special_bonus_unique_troll_warlord_2",
+        "Id": 492,
+        "Key": "special_bonus_unique_troll_warlord_5",
         "Level": 15,
         "HeroId": 95,
-        "Description": "+3 Max Fervor Stacks"
+        "Description": "+5 Fervor Attack Speed"
       },
       {
         "Id": 6959,
         "Key": "special_bonus_unique_troll_warlord_3",
         "Level": 15,
         "HeroId": 95,
-        "Description": "+70 Whirling Axes Damage"
+        "Description": "+90 Whirling Axes Damage"
       },
       {
         "Id": 5973,
@@ -57330,9 +57254,9 @@
           ],
           "snowball_damage_bonus": [
             20.0,
-            30.0,
             40.0,
-            50.0
+            60.0,
+            80.0
           ],
           "stun_duration": [
             0.5,
@@ -57755,11 +57679,11 @@
         "Key": "special_bonus_unique_tusk_6",
         "Level": 25,
         "HeroId": 100,
-        "Description": "-6s Snowball Cooldown"
+        "Description": "-8s Snowball Cooldown"
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": 0.0,
+    "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 27,
@@ -58827,7 +58751,7 @@
         "Key": "special_bonus_unique_skywrath",
         "Level": 15,
         "HeroId": 101,
-        "Description": "-7s Ancient Seal Cooldown"
+        "Description": "-8s Ancient Seal Cooldown"
       },
       {
         "Id": 6884,
@@ -58972,9 +58896,6 @@
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.4,
-          0.4,
-          0.4,
           0.4
         ],
         "AbilityChannelTime": [
@@ -59110,7 +59031,7 @@
             10.0
           ],
           "speed": [
-            800.0
+            900.0
           ],
           "move_pct_creeps": [
             1.0
@@ -59480,11 +59401,11 @@
         "Description": "+15 Movement Speed"
       },
       {
-        "Id": 5982,
-        "Key": "special_bonus_strength_8",
+        "Id": 5906,
+        "Key": "special_bonus_attack_speed_20",
         "Level": 10,
         "HeroId": 103,
-        "Description": "+8 Strength"
+        "Description": "+20 Attack Speed"
       },
       {
         "Id": 6138,
@@ -59501,11 +59422,11 @@
         "Description": "+25 Astral Spirit Hero Attack"
       },
       {
-        "Id": 409,
-        "Key": "special_bonus_attack_speed_55",
+        "Id": 6827,
+        "Key": "special_bonus_cleave_100",
         "Level": 20,
         "HeroId": 103,
-        "Description": "+55 Attack Speed"
+        "Description": "+100% Cleave"
       },
       {
         "Id": 6378,
@@ -59541,7 +59462,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-    "AttributeBaseStrength": 24,
+    "AttributeBaseStrength": 26,
     "AttributeStrengthGain": 3.0,
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 1.6,
@@ -59630,7 +59551,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          500
+          575
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -60028,11 +59949,11 @@
         "Description": "15% Cooldown Reduction"
       },
       {
-        "Id": 5942,
-        "Key": "special_bonus_attack_damage_70",
+        "Id": 442,
+        "Key": "special_bonus_attack_damage_80",
         "Level": 20,
         "HeroId": 102,
-        "Description": "+70 Damage"
+        "Description": "+80 Damage"
       },
       {
         "Id": 6100,
@@ -60046,7 +59967,7 @@
         "Key": "special_bonus_unique_abaddon_4",
         "Level": 25,
         "HeroId": 102,
-        "Description": "340 AoE Mist Coil"
+        "Description": "375 AoE Mist Coil"
       }
     ],
     "Legs": 2,
@@ -60068,7 +59989,7 @@
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 1.5,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.0,
+    "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -60282,7 +60203,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
-            150.0
+            160.0
           ],
           "speed": [
             800.0
@@ -60589,9 +60510,9 @@
             350.0
           ],
           "damage_per_second": [
-            50.0,
-            75.0,
-            100.0
+            40.0,
+            80.0,
+            120.0
           ],
           "damage_duration": [
             6.0
@@ -60688,7 +60609,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-    "AttributeBaseStrength": 21,
+    "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 4.4,
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 2.1,
@@ -60990,10 +60911,10 @@
             0.2
           ],
           "damage_per_second": [
-            30.0,
-            40.0,
-            50.0,
-            60.0
+            25.0,
+            35.0,
+            45.0,
+            55.0
           ],
           "blind_pct": [
             50.0
@@ -61743,8 +61664,8 @@
           ],
           "reward_damage": [
             10.0,
-            18.0,
-            26.0
+            20.0,
+            30.0
           ],
           "victory_range": [
             600.0
@@ -61780,7 +61701,7 @@
         "Key": "special_bonus_unique_legion_commander_6",
         "Level": 15,
         "HeroId": 104,
-        "Description": "-4s Overwhelming Odds Cooldown"
+        "Description": "-6s Overwhelming Odds Cooldown"
       },
       {
         "Id": 6141,
@@ -61801,14 +61722,14 @@
         "Key": "special_bonus_unique_legion_commander",
         "Level": 25,
         "HeroId": 104,
-        "Description": "+32 Duel Damage Bonus"
+        "Description": "+30 Duel Damage Bonus"
       },
       {
         "Id": 7395,
         "Key": "special_bonus_unique_legion_commander_5",
         "Level": 25,
         "HeroId": 104,
-        "Description": "275 AoE Press The Attack"
+        "Description": "400 AoE Press The Attack"
       }
     ],
     "Legs": 2,
@@ -61823,7 +61744,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-    "AttributeBaseStrength": 26,
+    "AttributeBaseStrength": 25,
     "AttributeStrengthGain": 3.3,
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 2.2,
@@ -62021,10 +61942,7 @@
         "AbilityDuration": [],
         "AbilityDamage": [],
         "AbilityManaCost": [
-          80.0,
-          90.0,
-          100.0,
-          110.0
+          120.0
         ],
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
@@ -62347,9 +62265,9 @@
             3.0
           ],
           "max_hero_attacks": [
-            5.0,
+            6.0,
             8.0,
-            11.0
+            10.0
           ],
           "max_hero_attacks_scepter": [
             7.0,
@@ -62577,7 +62495,7 @@
         "Key": "special_bonus_unique_phoenix_6",
         "Level": 10,
         "HeroId": 110,
-        "Description": "+14% Icarus Dive Slow"
+        "Description": "+18% Icarus Dive Slow"
       },
       {
         "Id": 5996,
@@ -62594,11 +62512,11 @@
         "Description": "+25 Fire Spirits DPS"
       },
       {
-        "Id": 5976,
-        "Key": "special_bonus_hp_400",
+        "Id": 6235,
+        "Key": "special_bonus_hp_500",
         "Level": 15,
         "HeroId": 110,
-        "Description": "+400 Health"
+        "Description": "+500 Health"
       },
       {
         "Id": 6852,
@@ -62931,7 +62849,7 @@
             80.0
           ],
           "speed_loss": [
-            30.0
+            0.0
           ],
           "metamorph_aura_tooltip": [
             1200.0
@@ -63121,11 +63039,11 @@
     ],
     "Talents": [
       {
-        "Id": 5918,
-        "Key": "special_bonus_movement_speed_20",
+        "Id": 5917,
+        "Key": "special_bonus_movement_speed_15",
         "Level": 10,
         "HeroId": 109,
-        "Description": "+20 Movement Speed"
+        "Description": "+15 Movement Speed"
       },
       {
         "Id": 452,
@@ -63859,7 +63777,7 @@
         "Id": 5637,
         "Key": "oracle_fortunes_end",
         "Name": "Fortune's End",
-        "Description": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge debuffs. Can be channeled for up to %abilitychanneltime% seconds. The root duration is equal to the time spent channeling. DISPEL TYPE: Basic Dispel",
+        "Description": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge debuffs. The root duration is equal to the time spent channeling. DISPEL TYPE: Basic Dispel",
         "UpgradeDescription": "Increases cast range and stuns for a percentage of the duration.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/oracle_fortunes_end.png",
         "HeroId": 111,
@@ -63895,9 +63813,7 @@
         "AbilityCastPoint": [
           0.0
         ],
-        "AbilityChannelTime": [
-          2.5
-        ],
+        "AbilityChannelTime": [],
         "AbilityCooldown": [
           15.0,
           12.0,
@@ -63918,6 +63834,9 @@
         "AbilityDraftNote": null,
         "Linked": null,
         "AbilitySpecial": {
+          "channel_time": [
+            2.5
+          ],
           "damage": [
             120.0,
             150.0,
@@ -64056,7 +63975,7 @@
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.3
+          0.15
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
@@ -64293,7 +64212,7 @@
         "Key": "special_bonus_unique_oracle_5",
         "Level": 15,
         "HeroId": 111,
-        "Description": "-0.8s Purifying Flames Cooldown"
+        "Description": "-1s Purifying Flames Cooldown"
       },
       {
         "Id": 471,
@@ -64310,11 +64229,11 @@
         "Description": "False Promise Invisibility"
       },
       {
-        "Id": 6710,
-        "Key": "special_bonus_unique_oracle_3",
+        "Id": 544,
+        "Key": "special_bonus_unique_oracle_7",
         "Level": 25,
         "HeroId": 111,
-        "Description": "-4s Fate's Edict Cooldown"
+        "Description": "-1.5s Fortune's End Max Channel Time"
       },
       {
         "Id": 6206,
@@ -64801,7 +64720,7 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          80.0
+          90.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -65191,7 +65110,7 @@
             2.0
           ],
           "duration": [
-            50.0
+            45.0
           ],
           "wraith_speed": [
             400.0
@@ -65391,32 +65310,32 @@
     ],
     "Talents": [
       {
-        "Id": 428,
-        "Key": "special_bonus_cooldown_reduction_6",
-        "Level": 10,
-        "HeroId": 113,
-        "Description": "6% Cooldown Reduction"
-      },
-      {
-        "Id": 5907,
-        "Key": "special_bonus_attack_speed_30",
-        "Level": 10,
-        "HeroId": 113,
-        "Description": "+30 Attack Speed"
-      },
-      {
-        "Id": 5903,
-        "Key": "special_bonus_hp_250",
-        "Level": 15,
-        "HeroId": 113,
-        "Description": "+250 Health"
-      },
-      {
         "Id": 7120,
         "Key": "special_bonus_unique_arc_warden_5",
+        "Level": 10,
+        "HeroId": 113,
+        "Description": "+350 Flux Cast Range"
+      },
+      {
+        "Id": 5959,
+        "Key": "special_bonus_hp_200",
+        "Level": 10,
+        "HeroId": 113,
+        "Description": "+200 Health"
+      },
+      {
+        "Id": 6020,
+        "Key": "special_bonus_attack_speed_50",
         "Level": 15,
         "HeroId": 113,
-        "Description": "+325 Flux Cast Range"
+        "Description": "+50 Attack Speed"
+      },
+      {
+        "Id": 5951,
+        "Key": "special_bonus_cooldown_reduction_15",
+        "Level": 15,
+        "HeroId": 113,
+        "Description": "15% Cooldown Reduction"
       },
       {
         "Id": 7104,
@@ -65448,7 +65367,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -2.0,
+    "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
     "AttackDamageMin": 31,
@@ -65463,8 +65382,8 @@
     "AttributeStrengthGain": 3.0,
     "AttributeBaseIntelligence": 24,
     "AttributeIntelligenceGain": 2.6,
-    "AttributeBaseAgility": 15,
-    "AttributeAgilityGain": 2.4,
+    "AttributeBaseAgility": 16,
+    "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -65554,11 +65473,11 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          750
+          675
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
-          0.6
+          0.5
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
@@ -65582,7 +65501,10 @@
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
-            400.0
+            400.0,
+            430.0,
+            460.0,
+            490.0
           ],
           "wave_duration": [
             7.0
@@ -65647,7 +65569,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          750
+          675
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [
@@ -65655,10 +65577,10 @@
         ],
         "AbilityChannelTime": [],
         "AbilityCooldown": [
-          22.0,
-          20.0,
           18.0,
-          16.0
+          17.0,
+          16.0,
+          15.0
         ],
         "AbilityDuration": [],
         "AbilityDamage": [],
@@ -65702,7 +65624,7 @@
         "Id": 5615,
         "Key": "abyssal_underlord_atrophy_aura",
         "Name": "Atrophy Aura",
-        "Description": "Nearby enemy units are weakened, losing a portion of their base damage. If an enemy hero dies while under this effect, Underlord gains bonus damage.",
+        "Description": "Nearby enemy units are weakened, losing a portion of their base damage. If an enemy dies while under this effect, Underlord gains temporary bonus damage.",
         "UpgradeDescription": "Causes bonus damage to be granted to nearby allied heroes within %radius% range for half the values.",
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/abyssal_underlord_atrophy_aura.png",
         "HeroId": 108,
@@ -65744,7 +65666,7 @@
         "Linked": null,
         "AbilitySpecial": {
           "radius": [
-            1200.0
+            900.0
           ],
           "damage_reduction_pct": [
             5.0,
@@ -65753,7 +65675,10 @@
             35.0
           ],
           "bonus_damage_from_creep": [
-            5.0
+            4.0,
+            5.0,
+            6.0,
+            7.0
           ],
           "bonus_damage_from_hero": [
             30.0,
@@ -65763,21 +65688,15 @@
           ],
           "bonus_damage_duration": [
             30.0,
-            40.0,
-            50.0,
-            60.0
+            45.0,
+            60.0,
+            75.0
           ],
           "bonus_damage_duration_scepter": [
             70.0,
             80.0,
             90.0,
             100.0
-          ],
-          "permanent_bonus": [
-            2.0,
-            3.0,
-            4.0,
-            5.0
           ]
         },
         "Keywords": []
@@ -65998,32 +65917,32 @@
     ],
     "Talents": [
       {
-        "Id": 6967,
-        "Key": "special_bonus_unique_underlord_2",
+        "Id": 5932,
+        "Key": "special_bonus_armor_5",
         "Level": 10,
         "HeroId": 108,
-        "Description": "+14 Firestorm Wave Damage"
+        "Description": "+5 Armor"
       },
       {
-        "Id": 5918,
-        "Key": "special_bonus_movement_speed_20",
+        "Id": 6299,
+        "Key": "special_bonus_magic_resistance_12",
         "Level": 10,
         "HeroId": 108,
-        "Description": "+20 Movement Speed"
+        "Description": "+12% Magic Resistance"
       },
       {
-        "Id": 6120,
-        "Key": "special_bonus_cast_range_175",
+        "Id": 557,
+        "Key": "special_bonus_unique_underlord_6",
         "Level": 15,
         "HeroId": 108,
-        "Description": "+175 Cast Range"
+        "Description": "+75 Pit of Malice AoE"
       },
       {
-        "Id": 6968,
-        "Key": "special_bonus_unique_underlord_3",
+        "Id": 556,
+        "Key": "special_bonus_unique_underlord_5",
         "Level": 15,
         "HeroId": 108,
-        "Description": "+5 Atrophy Permanent Bonus Damage "
+        "Description": "-3s Firestorm Cooldown"
       },
       {
         "Id": 6020,
@@ -66051,7 +65970,7 @@
         "Key": "special_bonus_unique_underlord_4",
         "Level": 25,
         "HeroId": 108,
-        "Description": "20% Firestorm Building Damage"
+        "Description": "15% Firestorm Building Damage"
       }
     ],
     "Legs": 2,
@@ -66063,7 +65982,7 @@
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.45,
     "AttackAcquisitionRange": 600,
-    "AttackRange": 150,
+    "AttackRange": 175,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 25,
@@ -66437,16 +66356,19 @@
             4.0
           ],
           "counter_duration": [
+            7.0,
+            8.0,
+            9.0,
             10.0
           ],
           "charges": [
             4.0
           ],
           "bonus_damage": [
-            60.0,
-            90.0,
-            120.0,
-            150.0
+            40.0,
+            70.0,
+            100.0,
+            130.0
           ],
           "lifesteal": [
             15.0,
@@ -66605,7 +66527,7 @@
             24.0
           ],
           "attack_speed": [
-            1.2
+            1.1
           ],
           "duration": [
             13.0
@@ -66761,14 +66683,14 @@
         "Key": "special_bonus_unique_monkey_king_5",
         "Level": 10,
         "HeroId": 114,
-        "Description": "+325 Tree Dance Vision AoE"
+        "Description": "+400 Tree Dance Vision AoE"
       },
       {
-        "Id": 6119,
-        "Key": "special_bonus_attack_speed_15",
+        "Id": 5906,
+        "Key": "special_bonus_attack_speed_20",
         "Level": 10,
         "HeroId": 114,
-        "Description": "+15 Attack Speed"
+        "Description": "+20 Attack Speed"
       },
       {
         "Id": 7038,
@@ -66782,7 +66704,7 @@
         "Key": "special_bonus_unique_monkey_king_2",
         "Level": 15,
         "HeroId": 114,
-        "Description": "+80 Jingu Mastery Damage"
+        "Description": "+100 Jingu Mastery Damage"
       },
       {
         "Id": 6303,
@@ -66814,7 +66736,7 @@
       }
     ],
     "Legs": 2,
-    "ArmorPhysical": -2.0,
+    "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
     "AttackDamageMin": 29,
@@ -67131,7 +67053,7 @@
             3.25
           ],
           "stun_radius": [
-            325.0
+            360.0
           ]
         },
         "Keywords": []
@@ -67322,7 +67244,7 @@
             4.0
           ],
           "return_travel_speed": [
-            500.0
+            600.0
           ],
           "starting_height": [
             300.0
@@ -67333,11 +67255,11 @@
     ],
     "Talents": [
       {
-        "Id": 5965,
-        "Key": "special_bonus_intelligence_10",
+        "Id": 515,
+        "Key": "special_bonus_unique_dark_willow_6",
         "Level": 10,
         "HeroId": 119,
-        "Description": "+10 Intelligence"
+        "Description": "+0.4s Cursed Crown Stun Duration"
       },
       {
         "Id": 6003,
@@ -67354,11 +67276,11 @@
         "Description": "+32 Bedlam Damage"
       },
       {
-        "Id": 6141,
-        "Key": "special_bonus_movement_speed_30",
+        "Id": 514,
+        "Key": "special_bonus_unique_dark_willow_5",
         "Level": 15,
         "HeroId": 119,
-        "Description": "+30 Movement Speed"
+        "Description": "-2s Shadow Realm Cooldown"
       },
       {
         "Id": 5941,
@@ -68627,11 +68549,11 @@
     ],
     "Talents": [
       {
-        "Id": 5918,
-        "Key": "special_bonus_movement_speed_20",
+        "Id": 6003,
+        "Key": "special_bonus_cast_range_100",
         "Level": 10,
         "HeroId": 121,
-        "Description": "+20 Movement Speed"
+        "Description": "+100 Cast Range"
       },
       {
         "Id": 7659,
@@ -68648,18 +68570,18 @@
         "Description": "+15% Spell Amplification"
       },
       {
-        "Id": 6056,
-        "Key": "special_bonus_cast_range_150",
+        "Id": 508,
+        "Key": "special_bonus_unique_grimstroke_6",
         "Level": 15,
         "HeroId": 121,
-        "Description": "+150 Cast Range"
+        "Description": "+20% Ink Swell Movement Speed"
       },
       {
         "Id": 8003,
         "Key": "special_bonus_unique_grimstroke_3",
         "Level": 20,
         "HeroId": 121,
-        "Description": "+650 Stroke of Fate Cast Range"
+        "Description": "+800 Stroke of Fate Cast Range"
       },
       {
         "Id": 8004,
@@ -68692,7 +68614,7 @@
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 800,
-    "AttackRange": 550,
+    "AttackRange": 575,
     "ProjectileSpeed": 900,
     "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
     "AttributeBaseStrength": 21,
@@ -69185,7 +69107,7 @@
             250.0
           ],
           "formation_time": [
-            0.6
+            0.3
           ],
           "spear_distance_from_wall": [
             160.0
@@ -69222,7 +69144,7 @@
         "Key": "special_bonus_unique_mars_spear_cooldown",
         "Level": 10,
         "HeroId": 129,
-        "Description": "-2s Spear Cooldown"
+        "Description": "-3s Spear Cooldown"
       },
       {
         "Id": 5918,
@@ -69243,14 +69165,14 @@
         "Key": "special_bonus_unique_mars_spear_bonus_damage",
         "Level": 20,
         "HeroId": 129,
-        "Description": "Spear Of Mars +160 Damage"
+        "Description": "+160 Spear Of Mars Damage"
       },
       {
         "Id": 6584,
         "Key": "special_bonus_unique_mars_spear_stun_duration",
         "Level": 20,
         "HeroId": 129,
-        "Description": "+0.8s Spear Stun"
+        "Description": "+0.8s Spear of Mars Stun"
       },
       {
         "Id": 6756,
@@ -69281,7 +69203,7 @@
     "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
     "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 3.4,
-    "AttributeBaseIntelligence": 17,
+    "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 1.9,
@@ -69423,6 +69345,9 @@
           "movement_slow_pct": [
             100.0
           ],
+          "attack_slow_pct": [
+            100.0
+          ],
           "point_blank_range": [
             450.0
           ],
@@ -69534,7 +69459,7 @@
         "Id": 6488,
         "Key": "snapfire_lil_shredder",
         "Name": "Lil' Shredder",
-        "Description": "Snapfire heats up her mounted turret to rapidly fire 6 fixed-damage attacks. Each attack slows the enemy's attack speed. Provides bonus attack range for the duration.",
+        "Description": "Snapfire heats up her mounted turret to rapidly fire 6 fixed-damage attacks. Each attack reduces the enemy's armor. Provides bonus attack range for the duration.",
         "UpgradeDescription": null,
         "Image": "https://hgv-hyperstone.azurewebsites.net/abilities/snapfire_lil_shredder.png",
         "HeroId": 128,
@@ -69587,9 +69512,9 @@
         "Linked": null,
         "AbilitySpecial": {
           "damage": [
-            35.0,
-            50.0,
-            65.0,
+            20.0,
+            40.0,
+            60.0,
             80.0
           ],
           "buffed_attacks": [
@@ -69610,14 +69535,11 @@
           "base_attack_time": [
             1.0
           ],
-          "attack_speed_slow_per_stack": [
-            15.0,
-            20.0,
-            25.0,
-            30.0
+          "armor_reduction_per_attack": [
+            1.0
           ],
-          "slow_duration": [
-            3.0
+          "armor_duration": [
+            4.0
           ]
         },
         "Keywords": []
@@ -69949,7 +69871,7 @@
         "Key": "special_bonus_unique_snapfire_7",
         "Level": 15,
         "HeroId": 128,
-        "Description": "+48 Scatterblast Damage"
+        "Description": "+60 Scatterblast Damage"
       },
       {
         "Id": 382,
@@ -69966,11 +69888,11 @@
         "Description": "+20% Mortimer Kisses Movement Slow"
       },
       {
-        "Id": 6489,
-        "Key": "special_bonus_unique_snapfire_3",
+        "Id": 500,
+        "Key": "special_bonus_unique_snapfire_8",
         "Level": 25,
         "HeroId": 128,
-        "Description": "Scatterblast Applies 2.5s Disarm"
+        "Description": "3x Lil' Shredder Multishot"
       },
       {
         "Id": 6485,
@@ -70340,7 +70262,7 @@
             2.0
           ],
           "charge_restore_time": [
-            16.0
+            18.0
           ],
           "silence_duration_scepter": [
             2.0

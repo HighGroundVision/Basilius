@@ -2507,6 +2507,9 @@
       ],
       "health_regen": [
         40.0
+      ],
+      "break_on_hero_damage": [
+        1.0
       ]
     },
     "ItemDeclarations": [],
@@ -2615,11 +2618,20 @@
       "mana_restore": [
         75.0
       ],
+      "health_restore_pct": [
+        0.0
+      ],
+      "mana_restore_pct": [
+        0.0
+      ],
       "restore_time": [
         2.5
       ],
       "max_charges": [
         3.0
+      ],
+      "break_on_hero_damage": [
+        1.0
       ]
     },
     "ItemDeclarations": [],
@@ -5891,7 +5903,7 @@
         20.0
       ],
       "bonus_attack_speed": [
-        30.0
+        25.0
       ],
       "bonus_damage": [
         30.0
@@ -9832,7 +9844,7 @@
         28.0
       ],
       "bonus_armor": [
-        7.0
+        6.0
       ],
       "bonus_intellect": [
         0.0
@@ -10754,7 +10766,7 @@
     "Id": 145,
     "Key": "item_bfury",
     "Name": null,
-    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree.<br><br>Cast Range: %abilitycastrange%\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 18 for melee heroes, and 5 for ranged. \\n<h1>Passive: Cleave</h1> Deals 70% of attack damage as physical damage in a cone up to 650 around the target. Deals 50% against creeps. (Melee Only)",
+    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree.<br><br>Cast Range: %abilitycastrange%\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 18 for melee heroes, and 6 for ranged. \\n<h1>Passive: Cleave</h1> Deals 70% of attack damage as physical damage in a cone up to 650 around the target. Deals 50% against creeps. (Melee Only)",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_bfury.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10783,7 +10795,7 @@
         18.0
       ],
       "quelling_bonus_ranged": [
-        5.0
+        6.0
       ],
       "cleave_starting_width": [
         150.0
@@ -11948,7 +11960,7 @@
         25.0
       ],
       "unholy_lifesteal_percent": [
-        170.0
+        175.0
       ],
       "unholy_lifesteal_total_tooltip": [
         200.0
@@ -12391,7 +12403,7 @@
     "Id": 164,
     "Key": "item_helm_of_the_dominator",
     "Name": null,
-    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500. Also provides the unit with +40 base attack damage, +12 health regen and +4 mana regen<br><br>Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to 200 gold.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500. Also provides the unit with +25 base attack damage, +12 health regen and +4 mana regen<br><br>Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to 200 gold.<br><br>Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_helm_of_the_dominator.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12420,7 +12432,7 @@
         200.0
       ],
       "creep_bonus_damage": [
-        40.0
+        25.0
       ],
       "creep_bonus_hp_regen": [
         12.0
@@ -14494,7 +14506,7 @@
     "Id": 208,
     "Key": "item_abyssal_blade",
     "Name": null,
-    "Description": "<h1>Active: Overwhelm</h1> Blinks to and stuns a target enemy unit for 1.8 seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Bash</h1> Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 100 bonus physical damage.  Bash chance for ranged heroes is 10%.\\n<h1>Passive: Damage Block</h1> Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged.",
+    "Description": "<h1>Active: Overwhelm</h1> Blinks to and stuns a target enemy unit for 2 seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Bash</h1> Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 100 bonus physical damage.  Bash chance for ranged heroes is 10%.\\n<h1>Passive: Damage Block</h1> Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_abyssal_blade.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14541,7 +14553,7 @@
         100.0
       ],
       "stun_duration": [
-        1.8
+        2.0
       ]
     },
     "ItemDeclarations": [],
