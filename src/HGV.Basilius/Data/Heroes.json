@@ -30913,7 +30913,7 @@
         "Key": "special_bonus_unique_broodmother_4",
         "Level": 20,
         "HeroId": 61,
-        "Description": "+20 Spiders Attack Damage"
+        "Description": "+18 Spiders Attack Damage"
       },
       {
         "Id": 5976,
@@ -31148,7 +31148,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": "Vampiric Aura lifesteal does not work with ranged Heroes.",
+        "AbilityDraftNote": "Vampiric Aura lifesteal has %vampiric_aura_ranged_pct%%% effect on ranged Heroes.",
         "Linked": null,
         "AbilitySpecial": {
           "vampiric_aura_radius": [
@@ -40273,7 +40273,7 @@
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftNote": "Only Clinkz's default spells will not break invisibility.",
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -40344,7 +40344,7 @@
         "AbilityModifierSupportValue": 1.0,
         "AbilityModifierSupportBonus": 0.0,
         "FightRecapLevel": 1,
-        "AbilityDraftEnabled": false,
+        "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
         "AbilityDraftUltScepterAbility": null,
         "AbilityDraftNote": "Searing Arrows must be drafted for skeleton archers to have the extra damage.",
@@ -40465,8 +40465,8 @@
         "FightRecapLevel": 0,
         "AbilityDraftEnabled": true,
         "AbilityDraftPreAbility": null,
-        "AbilityDraftUltScepterAbility": null,
-        "AbilityDraftNote": null,
+        "AbilityDraftUltScepterAbility": "clinkz_burning_army",
+        "AbilityDraftNote": "Burning Army available in Ability Draft. Searing Arrows must also be drafted for Burning Army archers to have the extra damage.",
         "Linked": null,
         "AbilitySpecial": {
           "duration": [
@@ -65647,7 +65647,7 @@
         "OnCastbar": true,
         "OnLearnbar": true,
         "AbilityCastRange": [
-          1200
+          900
         ],
         "AbilityCastRangeBuffer": 250,
         "AbilityCastPoint": [],

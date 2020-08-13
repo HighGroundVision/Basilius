@@ -5320,7 +5320,7 @@
     "Id": 269,
     "Key": "item_holy_locket",
     "Name": null,
-    "Description": "<h1>Active: Energy Charge</h1>Target an allied unit to instantly restores 15 health and mana per charge stored. <br><br>Max 20 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability.  \\n\\n <h1>Passive: Holy Blessing</h1>Amplifies heals you provide by 35%.",
+    "Description": "<h1>Active: Energy Charge</h1>Target an allied unit to instantly restore 15 health and mana per charge stored. <br><br>Max 20 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability.  \\n\\n <h1>Passive: Holy Blessing</h1>Amplifies heals you provide by 35%.",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_holy_locket.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
