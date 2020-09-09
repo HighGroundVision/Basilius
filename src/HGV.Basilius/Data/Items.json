@@ -12403,7 +12403,7 @@
     "Id": 164,
     "Key": "item_helm_of_the_dominator",
     "Name": null,
-    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500. Also provides the unit with +25 base attack damage, +12 health regen and +4 mana regen<br><br>Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to 200 gold.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1000. Also provides the unit with +25 base attack damage, +12 health regen, +4 mana regen and +4 armor. <br><br>Dominated units with a max health of greater than 1000 retain their original max health.  Dominated unit's bounty is set to 200 gold.<br><br>Range: %abilitycastrange%",
     "Image": "https://hgv-hyperstone.azurewebsites.net/items/item_helm_of_the_dominator.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12423,7 +12423,7 @@
         6.0
       ],
       "health_min": [
-        1500.0
+        1000.0
       ],
       "speed_base": [
         425.0
@@ -12438,6 +12438,9 @@
         12.0
       ],
       "creep_bonus_mp_regen": [
+        4.0
+      ],
+      "creep_bonus_armor": [
         4.0
       ]
     },
@@ -13635,7 +13638,7 @@
         20.0
       ],
       "bonus_all_stats": [
-        6.0
+        4.0
       ],
       "bonus_mana_regen": [
         1.5
