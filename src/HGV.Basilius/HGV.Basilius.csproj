@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.0</Version>
+    <Version>6.0.0</Version>
     <Authors>RGBKnights</Authors>
     <Company>High Ground Vision</Company>
     <Copyright>Venatio Studios 2018</Copyright>
