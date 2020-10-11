@@ -6,8 +6,6 @@ namespace HGV.Basilius
 {
     public class Ability
     {
-        public static int GENERIC = 6251;
-
         public int Id { get; set; }
         public string Key { get; set; }
 
@@ -15,13 +13,30 @@ namespace HGV.Basilius
         public string Description { get; set; }
         public string UpgradeDescription { get; set; }
 
-        public string Image { get { return string.Format("https://hgv-hyperstone.azurewebsites.net/abilities/{0}.png", this.Key); } }
+        public string Image { get; set; }
 
         public int HeroId { get; set; }
-        public int Index { get; set; }
 
-        public string AbilityType { get; set; } // DOTA_ABILITY_TYPE_BASIC | DOTA_ABILITY_TYPE_ATTRIBUTES | DOTA_ABILITY_TYPE_ULTIMATE
-        public List<string> AbilityBehaviors { get; set; } // DOTA_ABILITY_BEHAVIOR_NONE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL
+        public string AbilityType { get; set; }
+        public bool IsAttribute { get; set; }
+        public bool IsSkill { get; set; }
+        public bool IsUltimate { get; set; }
+
+        public List<string> AbilityBehaviors { get; set; }
+
+        public bool IsToggle { get; set; }
+        public bool IsPassive { get; set; }
+        public bool IsChannelled { get; set; }
+        public bool NoTarget { get; set; }
+        public bool PointTarget { get; set; }
+        public bool VectorTargeting { get; set; }
+        public bool IsAttack { get; set; }
+        public bool IsAOE { get; set; }
+        public bool IsAutocast { get; set; }
+        public bool IsDirectional { get; set; }
+        public bool IsAura { get; set; }
+        public bool DoesntCancelChannel { get; set; }
+        public bool DisabledByRoot { get; set; }
 
         public string AbilityUnitTargetTeam { get; set; }
         public List<string> AbilityUnitTargetType { get; set; }
@@ -31,8 +46,6 @@ namespace HGV.Basilius
         public string SpellDispellableType { get; set; }
         public string AbilityUnitDamageType { get; set; }
 
-        public bool IsSkill { get; set; }
-        public bool IsUltimate { get; set; }
         public bool HasScepterUpgrade { get; set; }
         public bool IsGrantedByScepter { get; set; }
 
@@ -54,7 +67,6 @@ namespace HGV.Basilius
 
         public int FightRecapLevel { get; set; }
 
-        public bool AbilityDraftEnabled { get; set; }
         public string AbilityDraftPreAbility { get; set; }
         public string AbilityDraftUltScepterAbility { get; set; }
         public string AbilityDraftNote { get; set; }

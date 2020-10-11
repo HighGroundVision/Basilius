@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,13 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HGV.Basilius\HGV.Basilius.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="ability-keywords.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\src\HGV.Basilius.csproj" />
   </ItemGroup>
 
 </Project>
