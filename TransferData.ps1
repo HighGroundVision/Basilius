@@ -1,5 +1,5 @@
 $location = Get-Location
-get-childitem $location foreach-object {write-host $_.FullName}
+get-childitem $location | foreach-object {write-host $_.FullName}
 
 Copy-Item "$location\Abilities.json" -Destination "$location\src\Data\Abilities.json"
 Copy-Item "$location\Clusters.json" -Destination  "$location\src\Data\Clusters.json"
