@@ -1,7 +1,7 @@
 $location = Get-Location
-Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Abilities.json" -Destination "$location\src\Data\Abilities.json"
-Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Clusters.json" -Destination  "$location\src\Data\Clusters.json"
-Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Heroes.json" -Destination "$location\src\Data\Heroes.json"
-Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Items.json" -Destination "$location\src\Data\Items.json"
-Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Modes.json" -Destination  "$location\src\Data\Modes.json"
-Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Regions.json" -Destination  "$location\src\Data\Regions.json"
+Copy-Item "$location\Abilities.json" -Destination "$location\src\Data\Abilities.json"
+Copy-Item "$location\Clusters.json" -Destination  "$location\src\Data\Clusters.json"
+Copy-Item "$location\\Heroes.json" -Destination "$location\src\Data\Heroes.json"
+Copy-Item "$location\Items.json" -Destination "$location\src\Data\Items.json"
+Copy-Item "$location\Modes.json" -Destination  "$location\src\Data\Modes.json"
+Copy-Item "$location\\Regions.json" -Destination  "$location\src\Data\Regions.json"
