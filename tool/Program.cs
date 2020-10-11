@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.IO;
 using HGV.Basilius.Contants;
+using System.Reflection;
 
 namespace HGV.Basilius.Tools.Collection
 {
@@ -32,12 +33,14 @@ namespace HGV.Basilius.Tools.Collection
                 throw new InvalidOperationException("GameMode Enumeration needs to be updated");
 
             var formatting = Formatting.None;
-            File.WriteAllText("Regions.json", JsonConvert.SerializeObject(regions, formatting));
-            File.WriteAllText("Clusters.json", JsonConvert.SerializeObject(clusters, formatting));
-            File.WriteAllText("Modes.json", JsonConvert.SerializeObject(modes, formatting));
-            File.WriteAllText("Abilities.json", JsonConvert.SerializeObject(abilities, formatting));
-            File.WriteAllText("Heroes.json", JsonConvert.SerializeObject(heroes, formatting));
-            File.WriteAllText("Items.json", JsonConvert.SerializeObject(items, formatting));
+            string path = AppDomain.CurrentDomain.BaseDirectory;
+
+            File.WriteAllText($@"{path}\Regions.json", JsonConvert.SerializeObject(regions, formatting));
+            File.WriteAllText($@"{path}\Clusters.json", JsonConvert.SerializeObject(clusters, formatting));
+            File.WriteAllText($@"{path}\Modes.json", JsonConvert.SerializeObject(modes, formatting));
+            File.WriteAllText($@"{path}\Abilities.json", JsonConvert.SerializeObject(abilities, formatting));
+            File.WriteAllText($@"{path}\Heroes.json", JsonConvert.SerializeObject(heroes, formatting));
+            File.WriteAllText($@"{path}\Items.json", JsonConvert.SerializeObject(items, formatting));
         }
 
         #region Lanaguage

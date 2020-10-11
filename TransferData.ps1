@@ -1,6 +1,4 @@
 $location = Get-Location
-Get-ChildItem -Path "$location\tool\bin\Release\netcoreapp3.1\" | foreach-object {write-host $_.FullName}
-
 Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Abilities.json" -Destination "$location\src\Data\Abilities.json"
 Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Clusters.json" -Destination  "$location\src\Data\Clusters.json"
 Copy-Item "$location\tool\bin\Release\netcoreapp3.1\Heroes.json" -Destination "$location\src\Data\Heroes.json"
