@@ -12,6 +12,7 @@ env:
   DOTNET_CLI_TELEMETRY_OPTOUT: true
   # Project name to pack and publish
   PROJECT_NAME: HGV.Basilius
+  GENERATOR_NAME: HGV.Basilius.Tools.Collection
   # GitHub Packages Feed settings
   GITHUB_FEED: https://nuget.pkg.github.com/HighGroundVision/
   GITHUB_USER: RGBKnights
@@ -34,7 +35,7 @@ jobs:
       - name: Build
         run: dotnet build -c Release --no-restore
       - name: Generate
-        run: dotnet run --configuration Release --project src/$PROJECT_NAME.*proj
+        run: dotnet run --configuration Release --project tool/$GENERATOR_NAME.*proj
       - name: Copy Data
         run: TransferData.ps1
       - name: Build
