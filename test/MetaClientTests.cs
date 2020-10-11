@@ -202,7 +202,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(HasScepterUpgrade: true);
 
-            Assert.AreEqual(154, abilities.Count());
+            Assert.AreEqual(129, abilities.Count());
         }
 
         [TestMethod]

@@ -33,8 +33,6 @@ jobs:
         run: dotnet restore
       - name: Build
         run: dotnet build -c Release --no-restore
-      - name: Test
-        run: dotnet test -c Release
       - name: Generate
         run: dotnet run --configuration Release src/$PROJECT_NAME.*proj
       - name: Copy Data
