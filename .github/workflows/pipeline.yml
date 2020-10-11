@@ -38,7 +38,7 @@ jobs:
         run: dotnet run --configuration Release --project tool/$GENERATOR_NAME.*proj
       - name: Copy Data
         run: ./TransferData.ps1
-         shell: powershell
+        shell: powershell
       - name: Build
         run: dotnet build -c Release --no-restore
       - name: Test
