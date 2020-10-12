@@ -179,10 +179,10 @@ namespace HGV.Basilius.Tools.Collection
 
             hero.NameAliases = getList<string>(heroesData, "npc_dota_hero_base", key, "Role", ';');
 
-            var img = key.Replace("npc_dota_hero_", "");
-            hero.ImageProfile = $"https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/{img}_vert.jpg?v=6120190";
-            hero.ImageBanner = $"https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/{img}_full.png?v=6120190";
-            hero.ImageIcon = $"";
+            var img = hero.Id;
+            hero.ImageProfile = $"https://hyperstone.highgroundvision.com/images/heroes/profile/{img}.jpg";
+            hero.ImageBanner = $"https://hyperstone.highgroundvision.com/images/heroes/banner/{img}.png";
+            hero.ImageIcon = $"https://hyperstone.highgroundvision.com/images/heroes/icon/{img}.png";
 
             hero.Enabled = isTrue(heroesData, "npc_dota_hero_base", key, "Enabled");
             hero.NewPlayerEnable = hero.Enabled && isTrue(heroesData, "npc_dota_hero_base", key, "new_player_enable");
@@ -375,8 +375,8 @@ namespace HGV.Basilius.Tools.Collection
             if(language.TryGetValue(desc, out string item_desc))
                 item.Description = item_desc;
 
-            var img = key.Replace("item_", "");
-            item.Image = string.Format("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/{0}_lg.png", img);
+            var img = item.Id;
+            item.Image = $"https://hyperstone.highgroundvision.com/images/items/{img}.jpg";
 
             item.ItemAliases = getList<string>(itemsData, "ability_base", key, "ItemAliases", ';');
             item.ItemCost = getValue<int>(itemsData, "ability_base", key, "ItemCost");
@@ -519,8 +519,11 @@ namespace HGV.Basilius.Tools.Collection
             ability.IsSkill = ability.AbilityType.Contains("DOTA_ABILITY_TYPE_BASIC");
             ability.IsUltimate = ability.AbilityType.Contains("DOTA_ABILITY_TYPE_ULTIMATE");
 
+            var img = ability.Id;
             if(ability.IsSkill || ability.IsUltimate)
-                ability.Image = $"https://cdn.cloudflare.steamstatic.com/apps/dota2/images/abilities/{key}_hp1.png?v=6120190";
+                ability.Image = $"https://hyperstone.highgroundvision.com/images/abilities/{img}.jpg";
+            else
+                ability.Image = $"https://hyperstone.highgroundvision.com/images/abilities/5002.jpg";
 
             ability.AbilityBehaviors = getList<string>(abiltiesData, "ability_base", key, "AbilityBehavior", '|');
             ability.IsPassive = ability.AbilityBehaviors.Contains(AbilityBehaviors.PASSIVE);
