@@ -169,8 +169,11 @@ namespace HGV.Basilius.Tools.Collection
             hero.Id = getValue<int>(heroesData, "npc_dota_hero_base", key, "HeroID");
             hero.Key = key;
 
+            var workshop_guide_name = getValue<string>(heroesData, "npc_dota_hero_base", key, "workshop_guide_name");
             if(language.TryGetValue(key.ToUpper(), out string hero_name))
                 hero.Name = hero_name;
+            else if (workshop_guide_name != null)
+                hero.Name = workshop_guide_name;
             else
                 hero.Name = "Unknown";
 
