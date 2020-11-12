@@ -177,7 +177,7 @@ namespace HGV.Basilius.Tools.Collection
             else
                 hero.Name = "Unknown";
 
-            hero.NameAliases = getList<string>(heroesData, "npc_dota_hero_base", key, "Role", ';');
+            hero.NameAliases = getList<string>(heroesData, "npc_dota_hero_base", key, "NameAliases", ';');
 
             var img = hero.Id;
             hero.ImageProfile = $"https://hyperstone.highgroundvision.com/images/heroes/profile/{img}.jpg";
