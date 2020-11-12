@@ -166,7 +166,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities();
 
-            Assert.AreEqual(1895, abilities.Count());
+            Assert.AreEqual(1896, abilities.Count());
         }
 
         [TestMethod]
@@ -175,7 +175,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsSkill: true);
 
-            Assert.AreEqual(677, abilities.Count());
+            Assert.AreEqual(678, abilities.Count());
         }
 
         [TestMethod]
