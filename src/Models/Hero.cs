@@ -20,6 +20,7 @@ namespace HGV.Basilius
         public bool NewPlayerEnable { get; set; }
         public bool CaptainsModeEnabled { get; set; }
         public bool AbilityDraftEnabled { get; set; }
+        public bool AbilityReplaceRequired { get; set; }
 
         public int Complexity { get; set; }
         public List<string> Roles { get; set; } = new List<string>();

@@ -274,7 +274,7 @@ namespace HGV.Basilius.Tools.Collection
                 hero.Talents.Add(talent);
             }
 
-            var abilityDraftIgnoreCount = getValue<int>(heroesData, "npc_dota_hero_base", key, "AbilityDraftIgnoreCount");
+            var abilityDraftIgnoreCount = hero.Id == 20 ? 0 : getValue<int>(heroesData, "npc_dota_hero_base", key, "AbilityDraftIgnoreCount");
             var abilityDraftAbilities = heroesData[key]["AbilityDraftAbilities"];
             if (abilityDraftAbilities != null)
             {
@@ -321,6 +321,9 @@ namespace HGV.Basilius.Tools.Collection
                     hero.AbilityDraftPool.Add(id);
                 }
             }
+
+            var collection = abilities.Join(hero.AbilityDraftPool, _ => _.Id, _ => _, (lhs, rhs) => lhs).ToList();
+            hero.AbilityReplaceRequired = !collection.Any(_ => _.IsUltimate) || collection.Count < 4;
 
             return hero;
         }
