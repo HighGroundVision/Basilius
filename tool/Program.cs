@@ -196,7 +196,7 @@ namespace HGV.Basilius.Tools.Collection
             hero.ArmorPhysical = getValue<double>(heroesData, "npc_dota_hero_base", key, "ArmorPhysical");
             hero.MagicalResistance = getValue<int>(heroesData, "npc_dota_hero_base", key, "MagicalResistance");
             var attack = getValue<string>(heroesData, "npc_dota_hero_base", key, "AttackCapabilities");
-            hero.AttackCapabilities = attack == " DOTA_UNIT_CAP_RANGED_ATTACK" ? "RANGED" : "MELEE";
+            hero.AttackCapabilities = attack == "DOTA_UNIT_CAP_RANGED_ATTACK" ? "RANGED" : "MELEE";
             hero.AttackDamageMin = getValue<int>(heroesData, "npc_dota_hero_base", key, "AttackDamageMin");
             hero.AttackDamageMax = getValue<int>(heroesData, "npc_dota_hero_base", key, "AttackDamageMax");
             hero.AttackRate = getValue<double>(heroesData, "npc_dota_hero_base", key, "AttackRate");
