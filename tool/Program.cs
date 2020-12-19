@@ -317,6 +317,9 @@ namespace HGV.Basilius.Tools.Collection
                     
                     if(ability.IsGrantedByScepter == true)
                         continue;
+                    
+                    if(ability.IsGrantedByShard == true)
+                        continue;
 
                     hero.AbilityDraftPool.Add(id);
                 }
@@ -549,6 +552,8 @@ namespace HGV.Basilius.Tools.Collection
             ability.SpellImmunityType = getValue<string>(abiltiesData, "ability_base", key, "SpellImmunityType");
             ability.SpellDispellableType = getValue<string>(abiltiesData, "ability_base", key, "SpellDispellableType");
             ability.AbilityUnitDamageType = getValue<string>(abiltiesData, "ability_base", key, "AbilityUnitDamageType");
+
+            ability.IsGrantedByShard = isTrue(abiltiesData, "ability_base", key, "IsGrantedByShard");
 
             ability.IsGrantedByScepter = isTrue(abiltiesData, "ability_base", key, "IsGrantedByScepter");
             ability.HasScepterUpgrade = ability.IsGrantedByScepter == true ? false : isTrue(abiltiesData, "ability_base", key, "HasScepterUpgrade");

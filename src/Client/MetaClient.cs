@@ -20,7 +20,7 @@ namespace HGV.Basilius.Client
         IEnumerable<Hero> GetHeroes(bool? enabled = null, bool? CaptainsModeEnabled = null, bool? AbilityDraftEnabled = null, bool? NewPlayerEnable = null, string PrimaryAttribute = null);
         Hero GetHero(int id);
         IEnumerable<Ability> GetAbilities();
-        IEnumerable<Ability> GetAbilities(int? HeroId = null,bool? IsAttribute = null, bool? IsSkill = null, bool? IsUltimate = null,bool? IsPassive = null, bool? IsChannelled = null, bool? NoTarget = null,bool? PointTarget = null,bool? VectorTargeting = null,bool? IsAOE = null,bool? IsToggle = null,bool? IsAutocast = null,bool? IsDirectional = null,bool? IsAura = null,bool? IsAttack = null,bool? DoesntCancelChannel = null,bool? DisabledByRoot = null,bool? HasScepterUpgrade = null,bool? IsGrantedByScepter = null,bool? IsLinked = null);
+        IEnumerable<Ability> GetAbilities(int? HeroId = null,bool? IsAttribute = null, bool? IsSkill = null, bool? IsUltimate = null,bool? IsPassive = null, bool? IsChannelled = null, bool? NoTarget = null,bool? PointTarget = null,bool? VectorTargeting = null,bool? IsAOE = null,bool? IsToggle = null,bool? IsAutocast = null,bool? IsDirectional = null,bool? IsAura = null,bool? IsAttack = null,bool? DoesntCancelChannel = null,bool? DisabledByRoot = null,bool? HasScepterUpgrade = null,bool? IsGrantedByScepter = null,bool? IsGrantedByShard = null,bool? IsLinked = null);
         Ability GetAbility(int id);
         IEnumerable<Item> GetItems();
         IEnumerable<Item> GetItems(bool? IsSellable = null,bool? IsPurchasable = null,bool? IsDroppable = null,bool? IsRecipe = null,bool? IsStackable = null,bool? IsPermanent = null,bool? IsNeutralDrop = null,bool? IsObsolete = null);
@@ -157,6 +157,7 @@ namespace HGV.Basilius.Client
             bool? DisabledByRoot = null,
             bool? HasScepterUpgrade = null,
             bool? IsGrantedByScepter = null,
+            bool? IsGrantedByShard = null,
             bool? IsLinked = null)
         {
             var query = this.abilities.AsQueryable();
@@ -202,6 +203,8 @@ namespace HGV.Basilius.Client
                 query = query.Where(_ => _.HasScepterUpgrade == HasScepterUpgrade.Value);
             if(IsGrantedByScepter.HasValue)
                 query = query.Where(_ => _.IsGrantedByScepter == IsGrantedByScepter.Value);
+            if(IsGrantedByShard.HasValue)
+                query = query.Where(_ => _.IsGrantedByShard == IsGrantedByShard.Value);
             if(IsLinked.HasValue)
                 query = query.Where(_ => IsLinked.Value == true ? _.Linked != null : _.Linked == null);
 

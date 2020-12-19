@@ -48,6 +48,7 @@ namespace HGV.Basilius
 
         public bool HasScepterUpgrade { get; set; }
         public bool IsGrantedByScepter { get; set; }
+        public bool IsGrantedByShard { get; set; }
 
         public bool OnCastbar { get; set; }
         public bool OnLearnbar { get; set; }
