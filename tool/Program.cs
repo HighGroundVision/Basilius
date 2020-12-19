@@ -629,18 +629,25 @@ namespace HGV.Basilius.Tools.Collection
 
         static T getValue<T>(JObject data, string master, string key, string field) 
         {
-            var baseData = data[master];
-            var itemData = data[key];
+            try
+            {
+                var baseData = data[master];
+                var itemData = data[key];
 
-            if(itemData[field] != null)
-            {
-                return itemData[field].Value<T>();
+                if(itemData[field] != null)
+                {
+                    return itemData[field].Value<T>();
+                }
+                else if (baseData[field] != null)
+                {
+                    return baseData[field].Value<T>();
+                }
+                else
+                {
+                    return default(T);
+                }
             }
-            else if (baseData[field] != null)
-            {
-                return baseData[field].Value<T>();
-            }
-            else
+            catch (Exception)
             {
                 return default(T);
             }
