@@ -32,7 +32,7 @@ namespace HGV.Basilius.Tools.Collection
             if(Enum.GetValues(typeof(Contants.GameMode)).Length != modes.Count)
                 throw new InvalidOperationException("GameMode Enumeration needs to be updated");
 
-            var formatting = Formatting.None;
+            var formatting = Formatting.Indented;
             File.WriteAllText("Regions.json", JsonConvert.SerializeObject(regions, formatting));
             File.WriteAllText("Clusters.json", JsonConvert.SerializeObject(clusters, formatting));
             File.WriteAllText("Modes.json", JsonConvert.SerializeObject(modes, formatting));

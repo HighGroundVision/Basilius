@@ -47,7 +47,7 @@ namespace HGV.Basilius.Tests
             Assert.AreEqual("US West", region.Name);
             Assert.AreEqual(47.6052, region.Latitude);
             Assert.AreEqual(-122.16999816894531, region.Longitude);
-            Assert.IsTrue(Enumerable.SequenceEqual(new List<int>() { 111,112,113,114,118 }, region.Clusters));
+            Assert.IsTrue(Enumerable.SequenceEqual(new List<int>() { 111,112,113,114,117,118 }, region.Clusters));
         }
 
         [TestMethod]
@@ -61,7 +61,7 @@ namespace HGV.Basilius.Tests
             Assert.AreEqual("US West", region.Name);
             Assert.AreEqual(47.6052, region.Latitude);
             Assert.AreEqual(-122.16999816894531, region.Longitude);
-            Assert.IsTrue(Enumerable.SequenceEqual(new List<int>() { 111,112,113,114,118 }, region.Clusters));
+            Assert.IsTrue(Enumerable.SequenceEqual(new List<int>() { 111,112,113,114,117,118 }, region.Clusters));
         }
 
         [TestMethod]
@@ -166,7 +166,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities();
 
-            Assert.AreEqual(2152, abilities.Count());
+            Assert.AreEqual(2155, abilities.Count());
         }
 
         [TestMethod]
@@ -175,7 +175,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsSkill: true);
 
-            Assert.AreEqual(741, abilities.Count());
+            Assert.AreEqual(743, abilities.Count());
         }
 
         [TestMethod]
