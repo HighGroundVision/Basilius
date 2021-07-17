@@ -33,7 +33,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var regions = client.GetRegions();
 
-            Assert.AreEqual(22, regions.Count());
+            Assert.AreEqual(23, regions.Count());
         }
 
         [TestMethod]
