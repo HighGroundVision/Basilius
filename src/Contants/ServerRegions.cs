@@ -28,5 +28,6 @@ namespace HGV.Basilius.Contants
         PerfectWorldTelecomWuhan = 20,
         PerfectWorldUnicomTianjin = 25,
         Taiwan = 37,
+        Argentina = 38,
     }
 }

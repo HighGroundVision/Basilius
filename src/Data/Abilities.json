@@ -10032,7 +10032,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": "Shard: Does <i>NOT</i> grant Electric Rave ability.",
+    "AbilityDraftNote": null,
     "Linked": null,
     "AbilitySpecial": {
       "overload_aoe": [
@@ -15901,6 +15901,9 @@
         28.0,
         38.0,
         47.0
+      ],
+      "creep_max_level": [
+        4.0
       ]
     },
     "Keywords": []
@@ -17435,7 +17438,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": null,
+    "AbilityDraftNote": "Ghost Shroud is removed as soon as you cast any magic immune spells (Bladefury, Rage, etc.)",
     "Linked": null,
     "AbilitySpecial": {
       "duration": [
@@ -23110,7 +23113,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": "Fireball ability only available while in Elder Dragon Form",
+    "AbilityDraftNote": "Shard: Grants Fireball.",
     "Linked": null,
     "AbilitySpecial": {
       "duration": [
@@ -29352,7 +29355,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": "Shard: Does <i>NOT</i> grant Silken Bola.",
+    "AbilityDraftNote": null,
     "Linked": null,
     "AbilitySpecial": {
       "radius": [
@@ -41672,7 +41675,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": null,
+    "AbilityDraftNote": "In Ability Draft, Shadow Poison Release works by toggling auto-cast off, either by right-clicking the ability, or using the alt-hotkey combo.  Auto-cast state will be on if there are any units with Shadow Poison applied.",
     "Linked": null,
     "AbilitySpecial": {
       "stack_damage": [
@@ -54121,7 +54124,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": null,
+    "AbilityDraftNote": "Shard upgrade effects require Mist Coil and/or Aphotic Shield to be drafted.",
     "Linked": null,
     "AbilitySpecial": {
       "slow_duration": [
@@ -56043,7 +56046,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": null,
+    "AbilityDraftNote": "Requires Magnetize to also be drafted to utilize stone remnants.",
     "Linked": null,
     "AbilitySpecial": {
       "radius": [
@@ -57893,7 +57896,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": "Level 20 talent requires Sun Ray to also be drafted.",
+    "AbilityDraftNote": null,
     "Linked": null,
     "AbilitySpecial": {
       "aura_radius": [
@@ -64106,7 +64109,7 @@
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
     "AbilityDraftUltScepterAbility": null,
-    "AbilityDraftNote": null,
+    "AbilityDraftNote": "Does not requires Bushwhack to be drafted for full effect.",
     "Linked": null,
     "AbilitySpecial": {
       "duration": [
@@ -64485,7 +64488,7 @@
     "AbilityModifierSupportBonus": 0.0,
     "FightRecapLevel": 0,
     "AbilityDraftPreAbility": null,
-    "AbilityDraftUltScepterAbility": null,
+    "AbilityDraftUltScepterAbility": "hoodwink_hunters_boomerang",
     "AbilityDraftNote": null,
     "Linked": null,
     "AbilitySpecial": {
@@ -65600,7 +65603,11 @@
     "AbilityDraftUltScepterAbility": null,
     "AbilityDraftNote": null,
     "Linked": null,
-    "AbilitySpecial": {},
+    "AbilitySpecial": {
+      "value": [
+        1.0
+      ]
+    },
     "Keywords": []
   },
   {
@@ -65840,7 +65847,11 @@
     "AbilityDraftUltScepterAbility": null,
     "AbilityDraftNote": null,
     "Linked": null,
-    "AbilitySpecial": {},
+    "AbilitySpecial": {
+      "value": [
+        0.0
+      ]
+    },
     "Keywords": []
   },
   {
@@ -71017,6 +71028,9 @@
       ],
       "radius": [
         1200.0
+      ],
+      "allow_multiple": [
+        0.0
       ]
     },
     "Keywords": []
@@ -154559,7 +154573,7 @@
     "OnCastbar": true,
     "OnLearnbar": true,
     "AbilityCastRange": [
-      9000
+      600
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityCastPoint": [

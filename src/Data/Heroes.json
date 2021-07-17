@@ -5546,7 +5546,7 @@
     "BountyGoldMax": 0,
     "MovementSpeed": 310,
     "MovementTurnRate": 0.6,
-    "HasAggressiveStance": false,
+    "HasAggressiveStance": true,
     "Team": "RADIANT",
     "VisionDaytimeRange": 1800,
     "VisionNighttimeRange": 800,
@@ -9034,7 +9034,7 @@
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
     "AbilityDraftEnabled": true,
-    "AbilityReplaceRequired": true,
+    "AbilityReplaceRequired": false,
     "Complexity": 2,
     "Roles": [
       "Support",
@@ -9084,6 +9084,7 @@
     "AbilityDraftPool": [
       5421,
       5422,
+      5423,
       5425
     ],
     "Talents": [
@@ -12241,7 +12242,7 @@
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
     "AbilityDraftEnabled": true,
-    "AbilityReplaceRequired": true,
+    "AbilityReplaceRequired": false,
     "Complexity": 3,
     "Roles": [
       "Nuker",
@@ -12292,6 +12293,7 @@
     "AbilityDraftPool": [
       5608,
       5609,
+      5610,
       5612
     ],
     "Talents": [
@@ -14066,6 +14068,7 @@
     "AbilityReplaceRequired": false,
     "Complexity": 2,
     "Roles": [
+      "Support",
       "Nuker",
       "Escape",
       "Disabler"

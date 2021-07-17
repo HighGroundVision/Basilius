@@ -286,5 +286,17 @@
     "Latitude": 25.4,
     "Longitude": 121.30999755859375,
     "Clusters": []
+  },
+  {
+    "Id": 38,
+    "Key": "Argentina",
+    "Name": "Unknown",
+    "Group": "americas",
+    "Latitude": 0.0,
+    "Longitude": -77.0451889038086,
+    "Clusters": [
+      346,
+      347
+    ]
   }
 ]
