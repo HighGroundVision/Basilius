@@ -144,7 +144,7 @@ namespace HGV.Basilius.Tests
             var collection = heroes.Where(_ => _.AbilityDraftPool.Count() > 4).ToList();
             var hero = collection.FirstOrDefault();
 
-            Assert.AreEqual(1, collection.Count);
+            Assert.AreEqual(2, collection.Count);
             Assert.AreEqual(74, hero.Id);
         }
 
@@ -166,7 +166,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities();
 
-            Assert.AreEqual(2155, abilities.Count());
+            Assert.AreEqual(2216, abilities.Count());
         }
 
         [TestMethod]
@@ -175,7 +175,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsSkill: true);
 
-            Assert.AreEqual(743, abilities.Count());
+            Assert.AreEqual(749, abilities.Count());
         }
 
         [TestMethod]
@@ -193,7 +193,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsGrantedByScepter: true);
 
-            Assert.AreEqual(39, abilities.Count());
+            Assert.AreEqual(41, abilities.Count());
         }
 
         
@@ -212,7 +212,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(HasScepterUpgrade: true);
 
-            Assert.AreEqual(122, abilities.Count());
+            Assert.AreEqual(121, abilities.Count());
         }
 
         [TestMethod]
@@ -242,7 +242,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var items = client.GetItems();
 
-            Assert.AreEqual(405, items.Count());
+            Assert.AreEqual(420, items.Count());
         }
 
         [TestMethod]
@@ -251,7 +251,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var items = client.GetItems(IsNeutralDrop: true);
 
-            Assert.AreEqual(94, items.Count());
+            Assert.AreEqual(109, items.Count());
         }
 
         [TestMethod]
