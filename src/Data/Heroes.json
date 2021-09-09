@@ -6,7 +6,7 @@
     "NameAliases": [
       "am"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/1.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/1.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/1.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/1.jpg",
     "Enabled": true,
@@ -121,7 +121,7 @@
     "Name": "Axe",
     "Key": "npc_dota_hero_axe",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/2.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/2.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/2.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/2.jpg",
     "Enabled": true,
@@ -238,7 +238,7 @@
     "Name": "Bane",
     "Key": "npc_dota_hero_bane",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/3.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/3.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/3.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/3.jpg",
     "Enabled": true,
@@ -357,7 +357,7 @@
     "NameAliases": [
       "bs"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/4.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/4.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/4.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/4.jpg",
     "Enabled": true,
@@ -477,7 +477,7 @@
       "cm",
       "rylai"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/5.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/5.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/5.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/5.jpg",
     "Enabled": true,
@@ -594,7 +594,7 @@
     "Name": "Drow Ranger",
     "Key": "npc_dota_hero_drow_ranger",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/6.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/6.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/6.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/6.jpg",
     "Enabled": true,
@@ -709,7 +709,7 @@
     "Name": "Earthshaker",
     "Key": "npc_dota_hero_earthshaker",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/7.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/7.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/7.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/7.jpg",
     "Enabled": true,
@@ -825,7 +825,7 @@
     "Name": "Juggernaut",
     "Key": "npc_dota_hero_juggernaut",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/8.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/8.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/8.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/8.jpg",
     "Enabled": true,
@@ -940,7 +940,7 @@
     "Name": "Mirana",
     "Key": "npc_dota_hero_mirana",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/9.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/9.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/9.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/9.jpg",
     "Enabled": true,
@@ -1059,7 +1059,7 @@
     "NameAliases": [
       "sf"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/11.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/11.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/11.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/11.jpg",
     "Enabled": true,
@@ -1173,7 +1173,7 @@
     "Name": "Morphling",
     "Key": "npc_dota_hero_morphling",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/10.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/10.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/10.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/10.jpg",
     "Enabled": true,
@@ -1293,7 +1293,7 @@
     "NameAliases": [
       "pl"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/12.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/12.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/12.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/12.jpg",
     "Enabled": true,
@@ -1409,7 +1409,7 @@
     "Name": "Puck",
     "Key": "npc_dota_hero_puck",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/13.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/13.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/13.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/13.jpg",
     "Enabled": true,
@@ -1525,7 +1525,7 @@
     "Name": "Pudge",
     "Key": "npc_dota_hero_pudge",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/14.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/14.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/14.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/14.jpg",
     "Enabled": true,
@@ -1641,7 +1641,7 @@
     "Name": "Razor",
     "Key": "npc_dota_hero_razor",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/15.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/15.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/15.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/15.jpg",
     "Enabled": true,
@@ -1759,7 +1759,7 @@
     "NameAliases": [
       "sk"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/16.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/16.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/16.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/16.jpg",
     "Enabled": true,
@@ -1880,7 +1880,7 @@
       "ss",
       "raijin"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/17.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/17.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/17.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/17.jpg",
     "Enabled": true,
@@ -1997,7 +1997,7 @@
     "Name": "Sven",
     "Key": "npc_dota_hero_sven",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/18.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/18.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/18.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/18.jpg",
     "Enabled": true,
@@ -2066,9 +2066,9 @@
         "Level": 10
       },
       {
-        "Id": 5906,
-        "Key": "special_bonus_attack_speed_20",
-        "Name": "+20 Attack Speed",
+        "Id": 6119,
+        "Key": "special_bonus_attack_speed_15",
+        "Name": "+15 Attack Speed",
         "Level": 10
       },
       {
@@ -2114,7 +2114,7 @@
     "Name": "Tiny",
     "Key": "npc_dota_hero_tiny",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/19.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/19.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/19.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/19.jpg",
     "Enabled": true,
@@ -2235,7 +2235,7 @@
     "NameAliases": [
       "vs"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/20.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/20.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/20.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/20.jpg",
     "Enabled": true,
@@ -2354,7 +2354,7 @@
     "NameAliases": [
       "wr"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/21.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/21.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/21.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/21.jpg",
     "Enabled": true,
@@ -2471,7 +2471,7 @@
     "Name": "Zeus",
     "Key": "npc_dota_hero_zuus",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/22.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/22.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/22.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/22.jpg",
     "Enabled": true,
@@ -2585,7 +2585,7 @@
     "Name": "Kunkka",
     "Key": "npc_dota_hero_kunkka",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/23.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/23.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/23.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/23.jpg",
     "Enabled": true,
@@ -2704,7 +2704,7 @@
     "Name": "Lina",
     "Key": "npc_dota_hero_lina",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/25.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/25.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/25.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/25.jpg",
     "Enabled": true,
@@ -2820,7 +2820,7 @@
     "Name": "Lich",
     "Key": "npc_dota_hero_lich",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/31.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/31.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/31.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/31.jpg",
     "Enabled": true,
@@ -2934,7 +2934,7 @@
     "Name": "Lion",
     "Key": "npc_dota_hero_lion",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/26.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/26.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/26.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/26.jpg",
     "Enabled": true,
@@ -3052,7 +3052,7 @@
     "NameAliases": [
       "ss"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/27.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/27.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/27.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/27.jpg",
     "Enabled": true,
@@ -3169,7 +3169,7 @@
     "Name": "Slardar",
     "Key": "npc_dota_hero_slardar",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/28.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/28.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/28.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/28.jpg",
     "Enabled": true,
@@ -3286,7 +3286,7 @@
     "Name": "Tidehunter",
     "Key": "npc_dota_hero_tidehunter",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/29.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/29.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/29.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/29.jpg",
     "Enabled": true,
@@ -3405,7 +3405,7 @@
     "NameAliases": [
       "wd"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/30.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/30.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/30.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/30.jpg",
     "Enabled": true,
@@ -3520,7 +3520,7 @@
     "Name": "Riki",
     "Key": "npc_dota_hero_riki",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/32.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/32.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/32.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/32.jpg",
     "Enabled": true,
@@ -3635,7 +3635,7 @@
     "Name": "Enigma",
     "Key": "npc_dota_hero_enigma",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/33.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/33.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/33.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/33.jpg",
     "Enabled": true,
@@ -3751,7 +3751,7 @@
     "Name": "Tinker",
     "Key": "npc_dota_hero_tinker",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/34.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/34.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/34.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/34.jpg",
     "Enabled": true,
@@ -3808,7 +3808,6 @@
       5150,
       5151,
       650,
-      4646,
       5153
     ],
     "Talents": [
@@ -3867,7 +3866,7 @@
     "Name": "Sniper",
     "Key": "npc_dota_hero_sniper",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/35.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/35.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/35.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/35.jpg",
     "Enabled": true,
@@ -3981,7 +3980,7 @@
     "Name": "Necrophos",
     "Key": "npc_dota_hero_necrolyte",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/36.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/36.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/36.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/36.jpg",
     "Enabled": true,
@@ -4097,7 +4096,7 @@
     "Name": "Warlock",
     "Key": "npc_dota_hero_warlock",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/37.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/37.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/37.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/37.jpg",
     "Enabled": true,
@@ -4214,7 +4213,7 @@
     "NameAliases": [
       "bm"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/38.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/38.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/38.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/38.jpg",
     "Enabled": true,
@@ -4296,7 +4295,7 @@
       {
         "Id": 613,
         "Key": "special_bonus_unique_beastmaster_6",
-        "Name": "+350 Health Beastmaster Controlled",
+        "Name": "+250 Health Beastmaster Controlled",
         "Level": 15
       },
       {
@@ -4332,7 +4331,7 @@
     "NameAliases": [
       "qop"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/39.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/39.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/39.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/39.jpg",
     "Enabled": true,
@@ -4447,7 +4446,7 @@
     "Name": "Venomancer",
     "Key": "npc_dota_hero_venomancer",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/40.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/40.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/40.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/40.jpg",
     "Enabled": true,
@@ -4566,7 +4565,7 @@
     "NameAliases": [
       "fv"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/41.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/41.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/41.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/41.jpg",
     "Enabled": true,
@@ -4688,7 +4687,7 @@
       "wk",
       "skeleton"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/42.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/42.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/42.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/42.jpg",
     "Enabled": true,
@@ -4807,7 +4806,7 @@
     "NameAliases": [
       "dp"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/43.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/43.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/43.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/43.jpg",
     "Enabled": true,
@@ -4926,7 +4925,7 @@
       "pa",
       "mortred"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/44.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/44.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/44.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/44.jpg",
     "Enabled": true,
@@ -5040,7 +5039,7 @@
     "Name": "Pugna",
     "Key": "npc_dota_hero_pugna",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/45.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/45.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/45.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/45.jpg",
     "Enabled": true,
@@ -5156,7 +5155,7 @@
     "NameAliases": [
       "ta"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/46.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/46.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/46.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/46.jpg",
     "Enabled": true,
@@ -5270,7 +5269,7 @@
     "Name": "Viper",
     "Key": "npc_dota_hero_viper",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/47.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/47.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/47.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/47.jpg",
     "Enabled": true,
@@ -5386,7 +5385,7 @@
     "Name": "Luna",
     "Key": "npc_dota_hero_luna",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/48.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/48.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/48.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/48.jpg",
     "Enabled": true,
@@ -5503,7 +5502,7 @@
     "NameAliases": [
       "dk,davion"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/49.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/49.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/49.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/49.jpg",
     "Enabled": true,
@@ -5621,7 +5620,7 @@
     "Name": "Dazzle",
     "Key": "npc_dota_hero_dazzle",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/50.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/50.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/50.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/50.jpg",
     "Enabled": true,
@@ -5736,7 +5735,7 @@
     "Name": "Clockwerk",
     "Key": "npc_dota_hero_rattletrap",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/51.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/51.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/51.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/51.jpg",
     "Enabled": true,
@@ -5852,7 +5851,7 @@
     "Name": "Leshrac",
     "Key": "npc_dota_hero_leshrac",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/52.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/52.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/52.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/52.jpg",
     "Enabled": true,
@@ -5971,7 +5970,7 @@
     "NameAliases": [
       "np"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/53.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/53.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/53.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/53.jpg",
     "Enabled": true,
@@ -6088,7 +6087,7 @@
     "Name": "Lifestealer",
     "Key": "npc_dota_hero_life_stealer",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/54.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/54.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/54.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/54.jpg",
     "Enabled": true,
@@ -6208,7 +6207,7 @@
     "NameAliases": [
       "ds"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/55.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/55.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/55.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/55.jpg",
     "Enabled": true,
@@ -6324,7 +6323,7 @@
     "Name": "Clinkz",
     "Key": "npc_dota_hero_clinkz",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/56.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/56.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/56.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/56.jpg",
     "Enabled": true,
@@ -6439,7 +6438,7 @@
     "Name": "Omniknight",
     "Key": "npc_dota_hero_omniknight",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/57.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/57.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/57.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/57.jpg",
     "Enabled": true,
@@ -6554,7 +6553,7 @@
     "Name": "Enchantress",
     "Key": "npc_dota_hero_enchantress",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/58.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/58.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/58.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/58.jpg",
     "Enabled": true,
@@ -6671,7 +6670,7 @@
     "Name": "Huskar",
     "Key": "npc_dota_hero_huskar",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/59.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/59.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/59.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/59.jpg",
     "Enabled": true,
@@ -6788,7 +6787,7 @@
     "NameAliases": [
       "ns"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/60.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/60.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/60.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/60.jpg",
     "Enabled": true,
@@ -6907,7 +6906,7 @@
     "NameAliases": [
       "bm"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/61.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/61.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/61.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/61.jpg",
     "Enabled": true,
@@ -6939,7 +6938,7 @@
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 19,
-    "AttributeAgilityGain": 3.0,
+    "AttributeAgilityGain": 3.4,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -7025,7 +7024,7 @@
     "NameAliases": [
       "bh"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/62.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/62.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/62.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/62.jpg",
     "Enabled": true,
@@ -7139,7 +7138,7 @@
     "Name": "Weaver",
     "Key": "npc_dota_hero_weaver",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/63.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/63.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/63.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/63.jpg",
     "Enabled": true,
@@ -7253,7 +7252,7 @@
     "Name": "Jakiro",
     "Key": "npc_dota_hero_jakiro",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/64.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/64.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/64.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/64.jpg",
     "Enabled": true,
@@ -7371,7 +7370,7 @@
     "NameAliases": [
       "br"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/65.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/65.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/65.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/65.jpg",
     "Enabled": true,
@@ -7487,7 +7486,7 @@
     "Name": "Chen",
     "Key": "npc_dota_hero_chen",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/66.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/66.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/66.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/66.jpg",
     "Enabled": true,
@@ -7602,7 +7601,7 @@
     "Name": "Spectre",
     "Key": "npc_dota_hero_spectre",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/67.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/67.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/67.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/67.jpg",
     "Enabled": true,
@@ -7719,7 +7718,7 @@
     "NameAliases": [
       "db"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/69.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/69.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/69.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/69.jpg",
     "Enabled": true,
@@ -7838,7 +7837,7 @@
     "NameAliases": [
       "aa"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/68.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/68.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/68.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/68.jpg",
     "Enabled": true,
@@ -7954,7 +7953,7 @@
     "Name": "Ursa",
     "Key": "npc_dota_hero_ursa",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/70.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/70.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/70.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/70.jpg",
     "Enabled": true,
@@ -8072,7 +8071,7 @@
     "NameAliases": [
       "sb"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/71.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/71.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/71.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/71.jpg",
     "Enabled": true,
@@ -8189,7 +8188,7 @@
     "Name": "Gyrocopter",
     "Key": "npc_dota_hero_gyrocopter",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/72.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/72.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/72.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/72.jpg",
     "Enabled": true,
@@ -8304,7 +8303,7 @@
     "Name": "Alchemist",
     "Key": "npc_dota_hero_alchemist",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/73.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/73.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/73.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/73.jpg",
     "Enabled": true,
@@ -8423,7 +8422,7 @@
     "Name": "Invoker",
     "Key": "npc_dota_hero_invoker",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/74.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/74.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/74.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/74.jpg",
     "Enabled": true,
@@ -8556,7 +8555,7 @@
     "Name": "Silencer",
     "Key": "npc_dota_hero_silencer",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/75.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/75.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/75.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/75.jpg",
     "Enabled": true,
@@ -8639,7 +8638,7 @@
       {
         "Id": 410,
         "Key": "special_bonus_unique_silencer_6",
-        "Name": "+10% Arcane Curse Slow",
+        "Name": "+8% Arcane Curse Slow",
         "Level": 15
       },
       {
@@ -8651,7 +8650,7 @@
       {
         "Id": 6880,
         "Key": "special_bonus_unique_silencer_4",
-        "Name": "+1.5x Last Word Int Multiplier",
+        "Name": "+1.2x Last Word Int Multiplier",
         "Level": 20
       },
       {
@@ -8675,7 +8674,7 @@
     "NameAliases": [
       "od"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/76.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/76.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/76.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/76.jpg",
     "Enabled": true,
@@ -8790,7 +8789,7 @@
     "Name": "Lycan",
     "Key": "npc_dota_hero_lycan",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/77.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/77.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/77.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/77.jpg",
     "Enabled": true,
@@ -8861,7 +8860,7 @@
       {
         "Id": 621,
         "Key": "special_bonus_unique_lycan_6",
-        "Name": "+20 Summon Wolves Damage",
+        "Name": "+15 Summon Wolves Damage",
         "Level": 10
       },
       {
@@ -8909,7 +8908,7 @@
     "NameAliases": [
       "bm"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/78.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/78.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/78.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/78.jpg",
     "Enabled": true,
@@ -9028,7 +9027,7 @@
     "NameAliases": [
       "sd"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/79.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/79.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/79.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/79.jpg",
     "Enabled": true,
@@ -9146,7 +9145,7 @@
     "NameAliases": [
       "ld"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/80.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/80.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/80.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/80.jpg",
     "Enabled": true,
@@ -9264,7 +9263,7 @@
     "NameAliases": [
       "ck"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/81.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/81.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/81.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/81.jpg",
     "Enabled": true,
@@ -9384,7 +9383,7 @@
       "geomancer",
       "meepwn"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/82.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/82.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/82.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/82.jpg",
     "Enabled": true,
@@ -9501,7 +9500,7 @@
     "Name": "Treant Protector",
     "Key": "npc_dota_hero_treant",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/83.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/83.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/83.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/83.jpg",
     "Enabled": true,
@@ -9620,7 +9619,7 @@
     "NameAliases": [
       "om"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/84.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/84.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/84.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/84.jpg",
     "Enabled": true,
@@ -9738,7 +9737,7 @@
     "NameAliases": [
       "dirge"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/85.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/85.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/85.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/85.jpg",
     "Enabled": true,
@@ -9856,7 +9855,7 @@
     "NameAliases": [
       "rubick"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/86.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/86.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/86.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/86.jpg",
     "Enabled": true,
@@ -9977,7 +9976,7 @@
     "NameAliases": [
       "disruptor"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/87.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/87.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/87.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/87.jpg",
     "Enabled": true,
@@ -10095,7 +10094,7 @@
     "NameAliases": [
       "na"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/88.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/88.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/88.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/88.jpg",
     "Enabled": true,
@@ -10214,7 +10213,7 @@
     "NameAliases": [
       "naga"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/89.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/89.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/89.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/89.jpg",
     "Enabled": true,
@@ -10337,7 +10336,7 @@
       "ezalor",
       "kotl"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/90.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/90.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/90.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/90.jpg",
     "Enabled": true,
@@ -10459,7 +10458,7 @@
     "NameAliases": [
       "wisp"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/91.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/91.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/91.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/91.jpg",
     "Enabled": true,
@@ -10577,7 +10576,7 @@
     "NameAliases": [
       "visage"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/92.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/92.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/92.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/92.jpg",
     "Enabled": true,
@@ -10697,7 +10696,7 @@
     "NameAliases": [
       "slark"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/93.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/93.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/93.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/93.jpg",
     "Enabled": true,
@@ -10773,7 +10772,7 @@
       {
         "Id": 6892,
         "Key": "special_bonus_unique_slark_2",
-        "Name": "+80 Dark Pact Damage",
+        "Name": "+70 Dark Pact Damage",
         "Level": 15
       },
       {
@@ -10815,7 +10814,7 @@
     "NameAliases": [
       "medusa,gorgon"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/94.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/94.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/94.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/94.jpg",
     "Enabled": true,
@@ -10932,7 +10931,7 @@
     "NameAliases": [
       "troll,jahrakal"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/95.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/95.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/95.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/95.jpg",
     "Enabled": true,
@@ -11050,7 +11049,7 @@
     "NameAliases": [
       "centaur"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/96.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/96.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/96.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/96.jpg",
     "Enabled": true,
@@ -11169,7 +11168,7 @@
     "NameAliases": [
       "magnataur, magnus"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/97.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/97.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/97.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/97.jpg",
     "Enabled": true,
@@ -11289,7 +11288,7 @@
       "Shredder",
       "Timbersaw"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/98.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/98.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/98.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/98.jpg",
     "Enabled": true,
@@ -11409,7 +11408,7 @@
       "Rigwarl",
       "bb"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/99.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/99.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/99.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/99.jpg",
     "Enabled": true,
@@ -11527,7 +11526,7 @@
     "NameAliases": [
       "Tuskarr"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/100.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/100.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/100.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/100.jpg",
     "Enabled": true,
@@ -11645,7 +11644,7 @@
     "NameAliases": [
       "dragonus"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/101.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/101.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/101.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/101.jpg",
     "Enabled": true,
@@ -11762,7 +11761,7 @@
     "NameAliases": [
       "Abaddon"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/102.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/102.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/102.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/102.jpg",
     "Enabled": true,
@@ -11879,7 +11878,7 @@
     "NameAliases": [
       "TC,Cairne"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/103.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/103.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/103.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/103.jpg",
     "Enabled": true,
@@ -11998,7 +11997,7 @@
     "NameAliases": [
       "Tresdin,Legion"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/104.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/104.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/104.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/104.jpg",
     "Enabled": true,
@@ -12117,7 +12116,7 @@
     "NameAliases": [
       "Xin,Ember"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/106.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/106.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/106.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/106.jpg",
     "Enabled": true,
@@ -12236,7 +12235,7 @@
     "NameAliases": [
       "Kaolin,Earth"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/107.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/107.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/107.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/107.jpg",
     "Enabled": true,
@@ -12355,7 +12354,7 @@
     "NameAliases": [
       "tb"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/109.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/109.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/109.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/109.jpg",
     "Enabled": true,
@@ -12472,7 +12471,7 @@
     "NameAliases": [
       "ph"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/110.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/110.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/110.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/110.jpg",
     "Enabled": true,
@@ -12594,7 +12593,7 @@
     "NameAliases": [
       "ora"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/111.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/111.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/111.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/111.jpg",
     "Enabled": true,
@@ -12710,7 +12709,7 @@
     "Name": "Techies",
     "Key": "npc_dota_hero_techies",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/105.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/105.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/105.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/105.jpg",
     "Enabled": true,
@@ -12824,7 +12823,7 @@
     "Name": "Target Dummy",
     "Key": "npc_dota_hero_target_dummy",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/127.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/127.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/127.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/127.jpg",
     "Enabled": false,
@@ -12877,7 +12876,7 @@
     "Name": "Winter Wyvern",
     "Key": "npc_dota_hero_winter_wyvern",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/112.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/112.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/112.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/112.jpg",
     "Enabled": true,
@@ -12994,7 +12993,7 @@
     "NameAliases": [
       "zet"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/113.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/113.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/113.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/113.jpg",
     "Enabled": true,
@@ -13110,7 +13109,7 @@
     "NameAliases": [
       "PitLord,Azgalor"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/108.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/108.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/108.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/108.jpg",
     "Enabled": true,
@@ -13230,7 +13229,7 @@
     "NameAliases": [
       "mk"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/114.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/114.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/114.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/114.jpg",
     "Enabled": true,
@@ -13350,7 +13349,7 @@
     "NameAliases": [
       "ar"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/120.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/120.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/120.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/120.jpg",
     "Enabled": true,
@@ -13469,7 +13468,7 @@
     "Name": "Dark Willow",
     "Key": "npc_dota_hero_dark_willow",
     "NameAliases": [],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/119.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/119.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/119.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/119.jpg",
     "Enabled": true,
@@ -13587,7 +13586,7 @@
     "NameAliases": [
       "gs"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/121.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/121.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/121.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/121.jpg",
     "Enabled": true,
@@ -13705,7 +13704,7 @@
     "NameAliases": [
       "mars"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/129.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/129.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/129.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/129.jpg",
     "Enabled": true,
@@ -13823,7 +13822,7 @@
     "NameAliases": [
       "Void,VS,Inai"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/126.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/126.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/126.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/126.jpg",
     "Enabled": true,
@@ -13941,7 +13940,7 @@
     "NameAliases": [
       "snap,mortimer"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/128.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/128.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/128.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/128.jpg",
     "Enabled": true,
@@ -14059,7 +14058,7 @@
     "NameAliases": [
       "squirrel"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/123.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/123.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/123.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/123.jpg",
     "Enabled": true,
@@ -14178,7 +14177,7 @@
     "NameAliases": [
       "Dawnbreaker, Valora"
     ],
-    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/135.jpg",
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/135.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/135.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/135.jpg",
     "Enabled": true,

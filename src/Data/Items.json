@@ -13365,7 +13365,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 350,
+    "ItemCost": 500,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13453,7 +13453,7 @@
         60.0
       ]
     },
-    "ItemCost": 5300,
+    "ItemCost": 5450,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14473,7 +14473,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1000,
+    "ItemCost": 1250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14578,7 +14578,7 @@
         1200.0
       ]
     },
-    "ItemCost": 6050,
+    "ItemCost": 6300,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -23936,7 +23936,7 @@
     "Id": 837,
     "Key": "item_heavy_blade",
     "Name": "Witchbane",
-    "Description": "<h1>Active: Cleanse</h1>Purge all enemies and allies within 300 radius and deals 500 damage to all illusions in the area.\\n<h1>Passive: Subjugate</h1>Your attacks deal bonus damage equal to 4% of your target Max Mana.",
+    "Description": "<h1>Active: Cleanse</h1>Purge all enemies and allies within 300 radius.\\n<h1>Passive: Subjugate</h1>Your attacks deal bonus damage equal to 4% of your target Max Mana.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/837.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",

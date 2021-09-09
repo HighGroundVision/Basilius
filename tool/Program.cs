@@ -180,7 +180,7 @@ namespace HGV.Basilius.Tools.Collection
             hero.NameAliases = getList<string>(heroesData, "npc_dota_hero_base", key, "NameAliases", ';');
 
             var img = hero.Id;
-            hero.ImageProfile = $"https://hyperstone.highgroundvision.com/images/heroes/profile/{img}.jpg";
+            hero.ImageProfile = $"https://hyperstone.highgroundvision.com/images/heroes/profile/{img}.png";
             hero.ImageBanner = $"https://hyperstone.highgroundvision.com/images/heroes/banner/{img}.jpg";
             hero.ImageIcon = $"https://hyperstone.highgroundvision.com/images/heroes/icon/{img}.png";
 
