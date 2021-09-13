@@ -183,6 +183,7 @@ namespace HGV.Basilius.Tools.Collection
             hero.ImageProfile = $"https://hyperstone.highgroundvision.com/images/heroes/profile/{img}.png";
             hero.ImageBanner = $"https://hyperstone.highgroundvision.com/images/heroes/banner/{img}.jpg";
             hero.ImageIcon = $"https://hyperstone.highgroundvision.com/images/heroes/icon/{img}.png";
+            hero.ImagePortrait = $"https://hyperstone.highgroundvision.com/images/heroes/portrait/{img}.jpg";
 
             hero.Enabled = isTrue(heroesData, "npc_dota_hero_base", key, "Enabled");
             hero.NewPlayerEnable = hero.Enabled && isTrue(heroesData, "npc_dota_hero_base", key, "new_player_enable");

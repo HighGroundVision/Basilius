@@ -88,7 +88,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(CaptainsModeEnabled: true);
 
-            Assert.AreEqual(120, heroes.Count());
+            Assert.AreEqual(121, heroes.Count());
         }
 
         [TestMethod]
@@ -137,17 +137,17 @@ namespace HGV.Basilius.Tests
         }
 
         // Tinker WTF?
-        //[TestMethod]
-        //public void AbilityDraftPool()
-        //{
-        //    IMetaClient client = new MetaClient();
-        //    var heroes = client.GetHeroes();
-        //    var collection = heroes.Where(_ => _.AbilityDraftPool.Count() > 4).ToList();
-        //    var hero = collection.FirstOrDefault();
+        [TestMethod]
+        public void AbilityDraftPool()
+        {
+            IMetaClient client = new MetaClient();
+            var heroes = client.GetHeroes();
+            var collection = heroes.Where(_ => _.AbilityDraftPool.Count() > 4).ToList();
+            var hero = collection.FirstOrDefault();
 
-        //    Assert.AreEqual(2, collection.Count);
-        //    Assert.AreEqual(74, hero.Id);
-        //}
+            Assert.AreEqual(1, collection.Count);
+            Assert.AreEqual(74, hero.Id);
+        }
 
         [TestMethod]
         public void GetHero()

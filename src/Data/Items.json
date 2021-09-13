@@ -662,7 +662,7 @@
         5.0
       ]
     },
-    "ItemCost": 925,
+    "ItemCost": 950,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -3436,7 +3436,7 @@
         360.0
       ],
       "lifetime_sentry": [
-        480.0
+        420.0
       ],
       "creation_delay": [
         0.0
@@ -4290,7 +4290,7 @@
         60.0
       ]
     },
-    "ItemCost": 3800,
+    "ItemCost": 3750,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7259,7 +7259,7 @@
         15.0
       ],
       "bonus_strength": [
-        15.0
+        13.0
       ],
       "bonus_intellect": [
         10.0
@@ -7268,7 +7268,7 @@
         10.0
       ],
       "bonus_mana_regen": [
-        2.25
+        1.75
       ],
       "movement_slow": [
         100.0
@@ -10777,7 +10777,7 @@
         0.5
       ]
     },
-    "ItemCost": 4725,
+    "ItemCost": 4700,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11443,7 +11443,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 950,
+    "ItemCost": 875,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11527,7 +11527,7 @@
         40.0
       ]
     },
-    "ItemCost": 3700,
+    "ItemCost": 3650,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12066,7 +12066,7 @@
         350.0
       ]
     },
-    "ItemCost": 6000,
+    "ItemCost": 5950,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12158,7 +12158,7 @@
         40.0
       ],
       "bonus_attack_speed": [
-        35.0
+        45.0
       ],
       "bonus_chance": [
         80.0
@@ -12277,7 +12277,7 @@
         700.0
       ]
     },
-    "ItemCost": 5150,
+    "ItemCost": 5100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13119,7 +13119,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 650,
+    "ItemCost": 625,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13406,7 +13406,7 @@
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      18.0
+      20.0
     ],
     "AbilityManaCost": [
       75.0
@@ -13553,7 +13553,7 @@
         16.0
       ],
       "status_resistance": [
-        25.0
+        22.0
       ],
       "bonus_attack_speed": [
         12.0
@@ -13667,7 +13667,7 @@
         16.0
       ],
       "status_resistance": [
-        25.0
+        22.0
       ],
       "mana_regen_multiplier": [
         50.0
@@ -14423,7 +14423,7 @@
         1.0
       ]
     },
-    "ItemCost": 2350,
+    "ItemCost": 2375,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14473,7 +14473,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1250,
+    "ItemCost": 1225,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14502,7 +14502,7 @@
     "Id": 635,
     "Key": "item_helm_of_the_overlord",
     "Name": "Helm of the Overlord",
-    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral target unit and sets its movement speed to 400 and max health to a minimum of 1800. Also provides the unit with +80 base attack damage, +12 health regen, +4 mana regen and +8 armor. <br><br>Dominated units with a max health of greater than 1800 retain their original max health.  Dominated unit's bounty is set to 200 gold.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Vladmir's Aura</h1>Grants 15% lifesteal, 18% bonus damage, 1.75 mana regeneration, and 3 armor to nearby allies.",
+    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral target unit and sets its movement speed to 400 and max health to a minimum of 1800. Also provides the unit with +80 base attack damage, +12 health regen, +4 mana regen and +8 armor. <br><br>Dominated units with a max health of greater than 1800 retain their original max health.  Dominated unit's bounty is set to 250 gold.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Vladmir's Aura</h1>Grants 15% lifesteal, 18% bonus damage, 1.75 mana regeneration, and 3 armor to nearby allies.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/635.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CREEP"
@@ -14527,13 +14527,13 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_stats": [
-        8.0
+        7.0
       ],
       "bonus_armor": [
-        8.0
+        7.0
       ],
       "bonus_regen": [
-        8.0
+        7.0
       ],
       "health_min": [
         1800.0
@@ -14542,7 +14542,7 @@
         400.0
       ],
       "bounty_gold": [
-        200.0
+        250.0
       ],
       "creep_bonus_damage": [
         80.0
@@ -19167,7 +19167,7 @@
     "Id": 834,
     "Key": "item_black_powder_bag",
     "Name": "Blast Rig",
-    "Description": "<h1>Passive: Hair Trigger</h1> The next time you get attacked by a hero within 300 range, explode dealing 300 damage to all enemies within a 300 radius and causing them to miss 100% of their attacks for 2.5 seconds.",
+    "Description": "<h1>Passive: Hair Trigger</h1> The next time you get attacked by a hero within 300 range, explode dealing 300 damage to all enemies within a 300 radius and causing them to miss 100% of their attacks for 2 seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/834.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -19183,7 +19183,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_armor": [
-        8.0
+        7.0
       ],
       "radius": [
         300.0
@@ -19192,7 +19192,7 @@
         300.0
       ],
       "blind_duration": [
-        2.5
+        2.0
       ],
       "blind_pct": [
         100.0
@@ -20233,10 +20233,10 @@
         50.0
       ],
       "attack_range": [
-        125.0
+        110.0
       ],
       "cast_range": [
-        125.0
+        110.0
       ],
       "aura_range": [
         1200.0
@@ -21311,7 +21311,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "primary_stat": [
-        75.0
+        70.0
       ]
     },
     "ItemCost": 0,
@@ -23323,10 +23323,10 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_strength": [
-        40.0
+        35.0
       ],
       "movement_speed": [
-        60.0
+        50.0
       ],
       "model_scale": [
         60.0
@@ -23655,7 +23655,7 @@
     "Id": 825,
     "Key": "item_ascetic_cap",
     "Name": "Ascetic's Cap",
-    "Description": "<h1>Passive: Endurance</h1>Whenever a debuff would be applied to the owner, grant 50% Status resistance for 3 seconds.",
+    "Description": "<h1>Passive: Endurance</h1>Whenever a debuff would be applied to the owner, grant 40% Status resistance for 3 seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/825.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -23673,10 +23673,10 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "status_resistance": [
-        50.0
+        40.0
       ],
       "bonus_health": [
-        300.0
+        250.0
       ],
       "duration": [
         3.0
@@ -23936,13 +23936,15 @@
     "Id": 837,
     "Key": "item_heavy_blade",
     "Name": "Witchbane",
-    "Description": "<h1>Active: Cleanse</h1>Purge all enemies and allies within 300 radius.\\n<h1>Passive: Subjugate</h1>Your attacks deal bonus damage equal to 4% of your target Max Mana.",
+    "Description": "<h1>Active: Cleanse</h1>Purge Target Enemy or Ally.\\n<h1>Passive: Subjugate</h1>Your attacks deal bonus damage equal to 4% of your target Max Mana.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/837.jpg",
-    "AbilityUnitTargetType": [],
-    "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+    "AbilityUnitTargetType": [
+      "DOTA_UNIT_TARGET_HERO",
+      "DOTA_UNIT_TARGET_BASIC"
+    ],
+    "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_AOE",
-      "DOTA_ABILITY_BEHAVIOR_POINT"
+      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     ],
     "AbilityCastRange": [
       500.0,

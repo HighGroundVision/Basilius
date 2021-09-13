@@ -9,6 +9,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/1.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/1.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/1.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/1.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -124,6 +125,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/2.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/2.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/2.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/2.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -241,6 +243,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/3.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/3.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/3.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/3.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -266,11 +269,11 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "INTELLECT",
     "AttributeBaseStrength": 22,
-    "AttributeStrengthGain": 2.6,
+    "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 22,
-    "AttributeIntelligenceGain": 2.6,
+    "AttributeIntelligenceGain": 2.5,
     "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 2.6,
+    "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -307,9 +310,9 @@
         "Level": 10
       },
       {
-        "Id": 6138,
-        "Key": "special_bonus_magic_resistance_15",
-        "Name": "+15% Magic Resistance",
+        "Id": 6299,
+        "Key": "special_bonus_magic_resistance_12",
+        "Name": "+12% Magic Resistance",
         "Level": 10
       },
       {
@@ -345,7 +348,7 @@
       {
         "Id": 6609,
         "Key": "special_bonus_unique_bane_3",
-        "Name": "+5.5s Fiend's Grip Duration",
+        "Name": "+5s Fiend's Grip Duration",
         "Level": 25
       }
     ]
@@ -360,6 +363,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/4.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/4.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/4.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/4.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -390,7 +394,7 @@
     "AttributeBaseIntelligence": 17,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 3.4,
+    "AttributeAgilityGain": 3.1,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -428,7 +432,7 @@
       {
         "Id": 818,
         "Key": "special_bonus_unique_bloodseeker_6",
-        "Name": "+10% Bloodrage Spell Amplification",
+        "Name": "+8% Bloodrage Spell Amplification",
         "Level": 10
       },
       {
@@ -480,6 +484,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/5.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/5.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/5.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/5.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -597,6 +602,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/6.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/6.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/6.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/6.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -693,7 +699,7 @@
       {
         "Id": 6280,
         "Key": "special_bonus_unique_drow_ranger_3",
-        "Name": "+12 Marksmanship Chance",
+        "Name": "+12% Marksmanship Chance",
         "Level": 25
       },
       {
@@ -712,6 +718,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/7.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/7.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/7.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/7.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -828,6 +835,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/8.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/8.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/8.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/8.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -943,6 +951,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/9.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/9.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/9.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/9.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -1023,13 +1032,13 @@
       {
         "Id": 6013,
         "Key": "special_bonus_unique_mirana_1",
-        "Name": "+75 Leap Attack Speed",
+        "Name": "+80 Leap Attack Speed",
         "Level": 15
       },
       {
         "Id": 6692,
         "Key": "special_bonus_unique_mirana_4",
-        "Name": "-25s Moonlight Shadow Cooldown",
+        "Name": "-20s Moonlight Shadow Cooldown",
         "Level": 20
       },
       {
@@ -1047,7 +1056,7 @@
       {
         "Id": 823,
         "Key": "special_bonus_unique_mirana_7",
-        "Name": "+180 Starstorm Damage",
+        "Name": "+200 Starstorm Damage",
         "Level": 25
       }
     ]
@@ -1062,6 +1071,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/11.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/11.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/11.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/11.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -1139,7 +1149,7 @@
       {
         "Id": 6070,
         "Key": "special_bonus_unique_nevermore_2",
-        "Name": "+80 Shadowraze Damage",
+        "Name": "+100 Shadowraze Damage",
         "Level": 15
       },
       {
@@ -1151,7 +1161,7 @@
       {
         "Id": 815,
         "Key": "special_bonus_unique_nevermore_6",
-        "Name": "+0.3s Requiem Fear per line.",
+        "Name": "+0.4s Requiem Fear per line.",
         "Level": 20
       },
       {
@@ -1163,7 +1173,7 @@
       {
         "Id": 6876,
         "Key": "special_bonus_unique_nevermore_4",
-        "Name": "-40s Requiem of Souls Cooldown",
+        "Name": "-50s Requiem of Souls Cooldown",
         "Level": 25
       }
     ]
@@ -1176,6 +1186,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/10.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/10.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/10.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/10.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -1296,6 +1307,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/12.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/12.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/12.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/12.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -1375,7 +1387,7 @@
       {
         "Id": 563,
         "Key": "special_bonus_unique_phantom_lancer_5",
-        "Name": "-3s Spirit Lance CD",
+        "Name": "-2s Spirit Lance CD",
         "Level": 15
       },
       {
@@ -1412,6 +1424,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/13.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/13.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/13.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/13.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -1528,6 +1541,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/14.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/14.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/14.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/14.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -1644,6 +1658,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/15.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/15.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/15.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/15.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -1762,6 +1777,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/16.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/16.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/16.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/16.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -1883,6 +1899,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/17.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/17.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/17.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/17.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -2000,6 +2017,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/18.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/18.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/18.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/18.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2019,7 +2037,7 @@
     "AttackCapabilities": "MELEE",
     "AttackDamageMin": 41,
     "AttackDamageMax": 43,
-    "AttackRate": 1.8,
+    "AttackRate": 1.9,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
@@ -2117,6 +2135,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/19.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/19.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/19.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/19.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2143,8 +2162,8 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "STRENGTH",
-    "AttributeBaseStrength": 28,
-    "AttributeStrengthGain": 3.8,
+    "AttributeBaseStrength": 30,
+    "AttributeStrengthGain": 4.0,
     "AttributeBaseIntelligence": 17,
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 0,
@@ -2223,7 +2242,7 @@
       {
         "Id": 6932,
         "Key": "special_bonus_unique_tiny_2",
-        "Name": "3 Toss Charges",
+        "Name": "2 Toss Charges",
         "Level": 25
       }
     ]
@@ -2238,6 +2257,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/20.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/20.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/20.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/20.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2268,7 +2288,7 @@
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 20,
-    "AttributeAgilityGain": 3.8,
+    "AttributeAgilityGain": 3.4,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -2357,6 +2377,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/21.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/21.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/21.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/21.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2474,6 +2495,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/22.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/22.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/22.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/22.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2588,6 +2610,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/23.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/23.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/23.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/23.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2707,6 +2730,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/25.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/25.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/25.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/25.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2808,9 +2832,9 @@
         "Level": 25
       },
       {
-        "Id": 5963,
-        "Key": "special_bonus_attack_range_150",
-        "Name": "+150 Attack Range",
+        "Id": 5944,
+        "Key": "special_bonus_attack_range_125",
+        "Name": "+125 Attack Range",
         "Level": 25
       }
     ]
@@ -2823,6 +2847,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/31.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/31.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/31.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/31.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -2937,6 +2962,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/26.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/26.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/26.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/26.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3055,6 +3081,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/27.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/27.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/27.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/27.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3087,7 +3114,7 @@
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.6,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
+    "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -3129,7 +3156,7 @@
       {
         "Id": 793,
         "Key": "special_bonus_unique_shadow_shaman_8",
-        "Name": "+100 Serpent Wards Attack Range",
+        "Name": "+120 Serpent Wards Attack Range",
         "Level": 15
       },
       {
@@ -3153,7 +3180,7 @@
       {
         "Id": 6502,
         "Key": "special_bonus_unique_shadow_shaman_3",
-        "Name": "+370 Ether Shock Damage",
+        "Name": "+380 Ether Shock Damage",
         "Level": 25
       },
       {
@@ -3172,6 +3199,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/28.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/28.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/28.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/28.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3258,7 +3286,7 @@
       {
         "Id": 6211,
         "Key": "special_bonus_unique_slardar",
-        "Name": "+100 Slithereen Crush Damage",
+        "Name": "+125 Slithereen Crush Damage",
         "Level": 20
       },
       {
@@ -3289,6 +3317,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/29.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/29.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/29.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/29.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3408,6 +3437,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/30.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/30.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/30.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/30.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3523,6 +3553,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/32.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/32.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/32.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/32.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3638,6 +3669,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/33.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/33.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/33.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/33.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3754,6 +3786,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/34.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/34.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/34.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/34.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3869,6 +3902,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/35.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/35.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/35.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/35.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -3983,6 +4017,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/36.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/36.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/36.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/36.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4099,6 +4134,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/37.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/37.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/37.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/37.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4216,6 +4252,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/38.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/38.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/38.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/38.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4232,8 +4269,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 35,
-    "AttackDamageMax": 39,
+    "AttackDamageMin": 33,
+    "AttackDamageMax": 37,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 600,
@@ -4281,21 +4318,21 @@
         "Level": 10
       },
       {
-        "Id": 5918,
-        "Key": "special_bonus_movement_speed_20",
-        "Name": "+20 Movement Speed",
+        "Id": 6926,
+        "Key": "special_bonus_mp_regen_175",
+        "Name": "+1.75 Mana Regen",
         "Level": 10
       },
       {
-        "Id": 6160,
-        "Key": "special_bonus_mp_regen_3",
-        "Name": "+3 Mana Regen",
+        "Id": 6141,
+        "Key": "special_bonus_movement_speed_30",
+        "Name": "+30 Movement Speed",
         "Level": 15
       },
       {
-        "Id": 613,
-        "Key": "special_bonus_unique_beastmaster_6",
-        "Name": "+250 Health Beastmaster Controlled",
+        "Id": 901,
+        "Key": "special_bonus_unique_beastmaster_9",
+        "Name": "+2.5% Wild Axes Damage Amp Per Stack",
         "Level": 15
       },
       {
@@ -4305,9 +4342,9 @@
         "Level": 20
       },
       {
-        "Id": 722,
-        "Key": "special_bonus_unique_beastmaster_7",
-        "Name": "-30s Primal Roar Cooldown",
+        "Id": 613,
+        "Key": "special_bonus_unique_beastmaster_6",
+        "Name": "+250 Health Beastmaster Controlled",
         "Level": 20
       },
       {
@@ -4317,9 +4354,9 @@
         "Level": 25
       },
       {
-        "Id": 901,
-        "Key": "special_bonus_unique_beastmaster_9",
-        "Name": "+4% Wild Axes Damage Amp Per Stack",
+        "Id": 722,
+        "Key": "special_bonus_unique_beastmaster_7",
+        "Name": "-30s Primal Roar Cooldown",
         "Level": 25
       }
     ]
@@ -4334,6 +4371,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/39.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/39.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/39.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/39.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4449,6 +4487,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/40.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/40.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/40.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/40.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4479,7 +4518,7 @@
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 24,
-    "AttributeAgilityGain": 3.0,
+    "AttributeAgilityGain": 2.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -4553,7 +4592,7 @@
       {
         "Id": 6058,
         "Key": "special_bonus_unique_venomancer",
-        "Name": "2.6x Plague Ward HP/Damage",
+        "Name": "2.5x Plague Ward HP/Damage",
         "Level": 25
       }
     ]
@@ -4568,6 +4607,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/41.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/41.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/41.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/41.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4690,6 +4730,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/42.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/42.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/42.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/42.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4809,6 +4850,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/43.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/43.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/43.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/43.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4836,17 +4878,17 @@
     "AttributeBaseStrength": 21,
     "AttributeStrengthGain": 3.1,
     "AttributeBaseIntelligence": 24,
-    "AttributeIntelligenceGain": 3.5,
+    "AttributeIntelligenceGain": 3.3,
     "AttributeBaseAgility": 14,
-    "AttributeAgilityGain": 1.4,
+    "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.5,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 320,
+    "MovementSpeed": 325,
     "MovementTurnRate": 0.8,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -4928,6 +4970,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/44.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/44.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/44.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/44.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -4957,7 +5000,7 @@
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 3.4,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
+    "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -5042,6 +5085,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/45.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/45.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/45.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/45.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5158,6 +5202,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/46.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/46.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/46.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/46.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5272,6 +5317,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/47.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/47.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/47.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/47.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5301,7 +5347,7 @@
     "AttributeBaseIntelligence": 17,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 21,
-    "AttributeAgilityGain": 2.5,
+    "AttributeAgilityGain": 2.7,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -5388,6 +5434,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/48.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/48.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/48.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/48.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5505,6 +5552,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/49.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/49.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/49.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/49.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5523,8 +5571,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 31,
-    "AttackDamageMax": 37,
+    "AttackDamageMin": 32,
+    "AttackDamageMax": 38,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 600,
@@ -5623,6 +5671,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/50.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/50.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/50.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/50.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5643,7 +5692,7 @@
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
-    "AttackRange": 550,
+    "AttackRange": 575,
     "ProjectileSpeed": 1200,
     "AttributePrimary": "INTELLECT",
     "AttributeBaseStrength": 18,
@@ -5713,7 +5762,7 @@
       {
         "Id": 6528,
         "Key": "special_bonus_unique_dazzle_3",
-        "Name": "+36 Poison Touch DPS",
+        "Name": "+40 Poison Touch DPS",
         "Level": 20
       },
       {
@@ -5738,6 +5787,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/51.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/51.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/51.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/51.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5854,6 +5904,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/52.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/52.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/52.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/52.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -5973,6 +6024,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/53.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/53.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/53.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/53.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6007,7 +6059,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.5,
+    "StatusManaRegen": 0.75,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -6090,6 +6142,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/54.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/54.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/54.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/54.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6119,8 +6172,8 @@
     "AttributeStrengthGain": 2.4,
     "AttributeBaseIntelligence": 15,
     "AttributeIntelligenceGain": 1.8,
-    "AttributeBaseAgility": 18,
-    "AttributeAgilityGain": 2.4,
+    "AttributeBaseAgility": 19,
+    "AttributeAgilityGain": 2.6,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -6210,6 +6263,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/55.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/55.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/55.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/55.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6295,7 +6349,7 @@
       {
         "Id": 736,
         "Key": "special_bonus_unique_dark_seer_13",
-        "Name": "-35s Wall of Replica Cooldown",
+        "Name": "-40s Wall of Replica Cooldown",
         "Level": 20
       },
       {
@@ -6313,7 +6367,7 @@
       {
         "Id": 6624,
         "Key": "special_bonus_unique_dark_seer_3",
-        "Name": "320 AoE Surge",
+        "Name": "350 AoE Surge",
         "Level": 25
       }
     ]
@@ -6326,6 +6380,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/56.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/56.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/56.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/56.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6346,7 +6401,7 @@
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
-    "AttackRange": 625,
+    "AttackRange": 600,
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
     "AttributeBaseStrength": 16,
@@ -6354,7 +6409,7 @@
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 2.7,
+    "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -6441,6 +6496,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/57.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/57.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/57.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/57.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6531,7 +6587,7 @@
       {
         "Id": 6709,
         "Key": "special_bonus_unique_omniknight_3",
-        "Name": "-3s Heavenly Grace Cooldown",
+        "Name": "-2s Heavenly Grace Cooldown",
         "Level": 20
       },
       {
@@ -6556,6 +6612,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/58.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/58.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/58.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/58.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6673,6 +6730,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/59.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/59.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/59.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/59.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6757,7 +6815,7 @@
       {
         "Id": 462,
         "Key": "special_bonus_unique_huskar_6",
-        "Name": "+35% Berserker's Blood Regen",
+        "Name": "+30% Berserker's Blood Regen",
         "Level": 20
       },
       {
@@ -6769,7 +6827,7 @@
       {
         "Id": 6204,
         "Key": "special_bonus_unique_huskar",
-        "Name": "+16% Life Break Damage",
+        "Name": "+20% Life Break Damage",
         "Level": 25
       },
       {
@@ -6790,6 +6848,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/60.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/60.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/60.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/60.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -6822,7 +6881,7 @@
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 2.3,
     "StatusHealth": 200,
-    "StatusHealthRegen": 2.25,
+    "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -6864,7 +6923,7 @@
       {
         "Id": 480,
         "Key": "special_bonus_unique_night_stalker_3",
-        "Name": "+50 Dark Ascension Damage",
+        "Name": "+40 Dark Ascension Damage",
         "Level": 15
       },
       {
@@ -6880,9 +6939,9 @@
         "Level": 20
       },
       {
-        "Id": 5984,
-        "Key": "special_bonus_strength_25",
-        "Name": "+25 Strength",
+        "Id": 6080,
+        "Key": "special_bonus_strength_20",
+        "Name": "+20 Strength",
         "Level": 20
       },
       {
@@ -6909,6 +6968,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/61.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/61.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/61.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/61.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7027,6 +7087,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/62.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/62.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/62.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/62.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7141,6 +7202,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/63.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/63.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/63.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/63.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7170,7 +7232,7 @@
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 3.1,
     "StatusHealth": 200,
-    "StatusHealthRegen": 1.0,
+    "StatusHealthRegen": 1.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.75,
     "BountyXP": 62,
@@ -7255,6 +7317,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/64.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/64.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/64.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/64.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7280,9 +7343,9 @@
     "ProjectileSpeed": 1100,
     "AttributePrimary": "INTELLECT",
     "AttributeBaseStrength": 27,
-    "AttributeStrengthGain": 3.0,
+    "AttributeStrengthGain": 2.8,
     "AttributeBaseIntelligence": 26,
-    "AttributeIntelligenceGain": 2.8,
+    "AttributeIntelligenceGain": 3.0,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.2,
     "StatusHealth": 200,
@@ -7373,6 +7436,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/65.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/65.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/65.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/65.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7414,7 +7478,7 @@
     "MovementTurnRate": 0.9,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
-    "VisionDaytimeRange": 1200,
+    "VisionDaytimeRange": 1600,
     "VisionNighttimeRange": 800,
     "Abilities": [
       5320,
@@ -7489,6 +7553,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/66.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/66.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/66.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/66.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -7553,9 +7618,9 @@
         "Level": 10
       },
       {
-        "Id": 6034,
-        "Key": "special_bonus_hp_175",
-        "Name": "+175 Health",
+        "Id": 5959,
+        "Key": "special_bonus_hp_200",
+        "Name": "+200 Health",
         "Level": 10
       },
       {
@@ -7604,6 +7669,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/67.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/67.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/67.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/67.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7721,6 +7787,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/69.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/69.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/69.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/69.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7840,6 +7907,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/68.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/68.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/68.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/68.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -7901,7 +7969,7 @@
       {
         "Id": 7652,
         "Key": "special_bonus_unique_ancient_apparition_7",
-        "Name": "+175 Chilling Touch Attack Range",
+        "Name": "+200 Chilling Touch Attack Range",
         "Level": 10
       },
       {
@@ -7919,7 +7987,7 @@
       {
         "Id": 6214,
         "Key": "special_bonus_unique_ancient_apparition_1",
-        "Name": "+150 Cold Feet Breaking distance",
+        "Name": "+200 Cold Feet Breaking distance",
         "Level": 15
       },
       {
@@ -7931,13 +7999,13 @@
       {
         "Id": 6291,
         "Key": "special_bonus_unique_ancient_apparition_2",
-        "Name": "+70 Chilling Touch Damage",
+        "Name": "+80 Chilling Touch Damage",
         "Level": 20
       },
       {
         "Id": 7106,
         "Key": "special_bonus_unique_ancient_apparition_6",
-        "Name": "500 AoE Cold Feet",
+        "Name": "450 AoE Cold Feet",
         "Level": 25
       },
       {
@@ -7956,6 +8024,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/70.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/70.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/70.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/70.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -8053,7 +8122,7 @@
       {
         "Id": 6976,
         "Key": "special_bonus_unique_ursa_5",
-        "Name": "+480 AoE Earthshock",
+        "Name": "+500 AoE Earthshock",
         "Level": 25
       },
       {
@@ -8074,6 +8143,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/71.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/71.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/71.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/71.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -8191,6 +8261,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/72.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/72.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/72.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/72.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -8306,6 +8377,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/73.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/73.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/73.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/73.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -8324,8 +8396,8 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 33,
+    "AttackDamageMin": 28,
+    "AttackDamageMax": 32,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 600,
@@ -8425,6 +8497,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/74.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/74.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/74.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/74.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -8558,6 +8631,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/75.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/75.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/75.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/75.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -8677,6 +8751,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/76.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/76.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/76.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/76.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -8792,6 +8867,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/77.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/77.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/77.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/77.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -8854,13 +8930,13 @@
       {
         "Id": 6519,
         "Key": "special_bonus_unique_lycan_3",
-        "Name": "+8 Feral HP Regen",
+        "Name": "+10 Feral HP Regen",
         "Level": 10
       },
       {
         "Id": 621,
         "Key": "special_bonus_unique_lycan_6",
-        "Name": "+15 Summon Wolves Damage",
+        "Name": "+13 Summon Wolves Damage",
         "Level": 10
       },
       {
@@ -8872,7 +8948,7 @@
       {
         "Id": 846,
         "Key": "special_bonus_unique_lycan_8",
-        "Name": "-20s Shapeshift Cooldown",
+        "Name": "-15s Shapeshift Cooldown",
         "Level": 15
       },
       {
@@ -8884,7 +8960,7 @@
       {
         "Id": 6684,
         "Key": "special_bonus_unique_lycan_4",
-        "Name": "+30% Feral Impulse Damage",
+        "Name": "+25% Feral Impulse Damage",
         "Level": 20
       },
       {
@@ -8911,6 +8987,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/78.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/78.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/78.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/78.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -9015,7 +9092,7 @@
       {
         "Id": 6614,
         "Key": "special_bonus_unique_brewmaster_4",
-        "Name": "+80% Drunken Brawler Critical Strike Damage",
+        "Name": "+90% Drunken Brawler Critical Strike Damage",
         "Level": 25
       }
     ]
@@ -9030,6 +9107,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/79.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/79.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/79.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/79.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -9148,6 +9226,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/80.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/80.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/80.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/80.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -9266,6 +9345,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/81.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/81.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/81.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/81.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -9304,7 +9384,7 @@
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 320,
+    "MovementSpeed": 325,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -9386,6 +9466,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/82.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/82.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/82.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/82.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -9503,6 +9584,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/83.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/83.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/83.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/83.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -9622,6 +9704,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/84.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/84.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/84.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/84.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -9740,6 +9823,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/85.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/85.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/85.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/85.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -9773,7 +9857,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.25,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -9801,7 +9885,7 @@
       {
         "Id": 813,
         "Key": "special_bonus_unique_undying_8",
-        "Name": "+50 Decay Damage",
+        "Name": "+55 Decay Damage",
         "Level": 10
       },
       {
@@ -9858,6 +9942,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/86.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/86.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/86.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/86.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -9890,7 +9975,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.5,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -9979,6 +10064,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/87.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/87.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/87.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/87.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -10076,13 +10162,13 @@
       {
         "Id": 6630,
         "Key": "special_bonus_unique_disruptor_4",
-        "Name": "-11s Glimpse Cooldown",
+        "Name": "-12s Glimpse Cooldown",
         "Level": 25
       },
       {
         "Id": 737,
         "Key": "special_bonus_unique_disruptor_8",
-        "Name": "+275 Static Storm AoE",
+        "Name": "+250 Static Storm AoE",
         "Level": 25
       }
     ]
@@ -10097,6 +10183,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/88.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/88.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/88.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/88.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -10216,6 +10303,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/89.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/89.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/89.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/89.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -10242,7 +10330,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 22,
+    "AttributeBaseStrength": 21,
     "AttributeStrengthGain": 2.8,
     "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 2.0,
@@ -10304,7 +10392,7 @@
       {
         "Id": 601,
         "Key": "special_bonus_unique_naga_siren_5",
-        "Name": "+10% Rip Tide Chance",
+        "Name": "+12% Rip Tide Chance",
         "Level": 20
       },
       {
@@ -10322,7 +10410,7 @@
       {
         "Id": 6701,
         "Key": "special_bonus_unique_naga_siren_3",
-        "Name": "-6 Rip Tide Armor",
+        "Name": "-7 Rip Tide Armor",
         "Level": 25
       }
     ]
@@ -10339,6 +10427,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/90.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/90.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/90.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/90.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -10461,6 +10550,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/91.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/91.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/91.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/91.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -10579,6 +10669,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/92.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/92.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/92.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/92.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -10699,6 +10790,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/93.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/93.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/93.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/93.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -10802,7 +10894,7 @@
       {
         "Id": 6894,
         "Key": "special_bonus_unique_slark_4",
-        "Name": "+65 Essence Shift Duration",
+        "Name": "+55 Essence Shift Duration",
         "Level": 25
       }
     ]
@@ -10817,6 +10909,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/94.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/94.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/94.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/94.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -10934,6 +11027,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/95.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/95.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/95.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/95.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11052,6 +11146,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/96.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/96.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/96.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/96.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11144,7 +11239,7 @@
       {
         "Id": 453,
         "Key": "special_bonus_unique_centaur_5",
-        "Name": "-20s Stampede Cooldown",
+        "Name": "-25s Stampede Cooldown",
         "Level": 20
       },
       {
@@ -11171,6 +11266,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/97.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/97.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/97.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/97.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11291,6 +11387,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/98.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/98.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/98.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/98.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11306,8 +11403,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 26,
-    "AttackDamageMax": 30,
+    "AttackDamageMin": 27,
+    "AttackDamageMax": 31,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.36,
     "AttackAcquisitionRange": 600,
@@ -11383,7 +11480,7 @@
       {
         "Id": 6951,
         "Key": "special_bonus_unique_timbersaw_4",
-        "Name": "+3% Chakram Slow",
+        "Name": "+4% Chakram Slow",
         "Level": 20
       },
       {
@@ -11411,6 +11508,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/99.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/99.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/99.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/99.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11529,6 +11627,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/100.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/100.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/100.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/100.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11632,7 +11731,7 @@
       {
         "Id": 7891,
         "Key": "special_bonus_unique_tusk_6",
-        "Name": "-10s Snowball Cooldown",
+        "Name": "-8s Snowball Cooldown",
         "Level": 25
       }
     ]
@@ -11647,6 +11746,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/101.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/101.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/101.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/101.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11764,6 +11864,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/102.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/102.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/102.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/102.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -11852,9 +11953,9 @@
         "Level": 20
       },
       {
-        "Id": 6136,
-        "Key": "special_bonus_armor_9",
-        "Name": "+9 Armor",
+        "Id": 7340,
+        "Key": "special_bonus_unique_abaddon_5",
+        "Name": "-8s Borrowed Time Cooldown",
         "Level": 20
       },
       {
@@ -11881,6 +11982,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/103.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/103.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/103.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/103.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -12000,6 +12102,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/104.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/104.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/104.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/104.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -12119,6 +12222,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/106.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/106.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/106.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/106.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -12149,9 +12253,9 @@
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 2.6,
+    "AttributeAgilityGain": 2.9,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.5,
+    "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -12238,6 +12342,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/107.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/107.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/107.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/107.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -12357,6 +12462,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/109.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/109.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/109.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/109.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -12381,7 +12487,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
     "AttributeBaseStrength": 16,
-    "AttributeStrengthGain": 1.7,
+    "AttributeStrengthGain": 2.0,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 22,
@@ -12474,6 +12580,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/110.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/110.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/110.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/110.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -12596,6 +12703,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/111.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/111.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/111.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/111.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -12712,6 +12820,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/105.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/105.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/105.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/105.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -12826,6 +12935,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/127.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/127.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/127.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/127.jpg",
     "Enabled": false,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": false,
@@ -12879,6 +12989,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/112.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/112.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/112.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/112.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -12996,6 +13107,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/113.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/113.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/113.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/113.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -13011,19 +13123,19 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 31,
-    "AttackDamageMax": 41,
+    "AttackDamageMin": 27,
+    "AttackDamageMax": 37,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 625,
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 23,
-    "AttributeStrengthGain": 2.8,
+    "AttributeBaseStrength": 22,
+    "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 24,
     "AttributeIntelligenceGain": 2.6,
-    "AttributeBaseAgility": 16,
+    "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 2.5,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
@@ -13089,9 +13201,9 @@
         "Level": 20
       },
       {
-        "Id": 6111,
-        "Key": "special_bonus_lifesteal_25",
-        "Name": "25% Lifesteal",
+        "Id": 8011,
+        "Key": "special_bonus_lifesteal_35",
+        "Name": "35% Lifesteal",
         "Level": 25
       },
       {
@@ -13112,6 +13224,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/108.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/108.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/108.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/108.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -13181,7 +13294,7 @@
       {
         "Id": 710,
         "Key": "special_bonus_unique_underlord_8",
-        "Name": "+125 Firestorm Radius",
+        "Name": "+100 Firestorm Radius",
         "Level": 10
       },
       {
@@ -13205,7 +13318,7 @@
       {
         "Id": 6968,
         "Key": "special_bonus_unique_underlord_3",
-        "Name": "+12% Atrophy Aura Attack Damage Reduction",
+        "Name": "+15% Atrophy Aura Attack Damage Reduction",
         "Level": 20
       },
       {
@@ -13232,6 +13345,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/114.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/114.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/114.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/114.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -13352,6 +13466,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/120.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/120.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/120.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/120.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -13458,7 +13573,7 @@
       {
         "Id": 9062,
         "Key": "special_bonus_unique_pangolier_5",
-        "Name": "-28s Rolling Thunder Cooldown",
+        "Name": "-25s Rolling Thunder Cooldown",
         "Level": 25
       }
     ]
@@ -13471,6 +13586,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/119.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/119.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/119.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/119.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -13589,6 +13705,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/121.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/121.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/121.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/121.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -13674,7 +13791,7 @@
       {
         "Id": 8003,
         "Key": "special_bonus_unique_grimstroke_3",
-        "Name": "+800 Stroke of Fate Cast Range",
+        "Name": "+1000 Stroke of Fate Cast Range",
         "Level": 20
       },
       {
@@ -13692,7 +13809,7 @@
       {
         "Id": 8002,
         "Key": "special_bonus_unique_grimstroke_2",
-        "Name": "+40% Stroke of Fate Damage",
+        "Name": "+50% Stroke of Fate Damage",
         "Level": 25
       }
     ]
@@ -13707,6 +13824,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/129.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/129.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/129.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/129.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -13825,6 +13943,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/126.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/126.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/126.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/126.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -13884,15 +14003,15 @@
     ],
     "Talents": [
       {
-        "Id": 7873,
-        "Key": "special_bonus_mp_regen_250",
-        "Name": "+2.5 Mana Regen",
+        "Id": 6926,
+        "Key": "special_bonus_mp_regen_175",
+        "Name": "+1.75 Mana Regen",
         "Level": 10
       },
       {
         "Id": 7707,
         "Key": "special_bonus_unique_void_spirit_2",
-        "Name": "+60 Aether Remnant Damage",
+        "Name": "+50 Aether Remnant Damage",
         "Level": 10
       },
       {
@@ -13928,7 +14047,7 @@
       {
         "Id": 7708,
         "Key": "special_bonus_unique_void_spirit_3",
-        "Name": "Dissimilate Stuns for 2.5s",
+        "Name": "Dissimilate Stuns for 2s",
         "Level": 25
       }
     ]
@@ -13943,6 +14062,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/128.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/128.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/128.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/128.jpg",
     "Enabled": true,
     "NewPlayerEnable": false,
     "CaptainsModeEnabled": true,
@@ -13974,7 +14094,7 @@
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.9,
     "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
+    "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -14061,6 +14181,7 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/123.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/123.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/123.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/123.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
     "CaptainsModeEnabled": true,
@@ -14165,7 +14286,7 @@
       {
         "Id": 9507,
         "Key": "special_bonus_unique_hoodwink_sharpshooter_pure_damage",
-        "Name": "Sharpshooter Pure Damage and Pierces Spell Immunity",
+        "Name": "Sharpshooter Pierces Spell Immunity",
         "Level": 25
       }
     ]
@@ -14180,9 +14301,10 @@
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/135.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/135.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/135.jpg",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/135.jpg",
     "Enabled": true,
     "NewPlayerEnable": true,
-    "CaptainsModeEnabled": false,
+    "CaptainsModeEnabled": true,
     "AbilityDraftEnabled": true,
     "AbilityReplaceRequired": false,
     "Complexity": 1,
