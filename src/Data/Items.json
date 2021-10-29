@@ -69,7 +69,7 @@
     "Id": 600,
     "Key": "item_overwhelming_blink",
     "Name": "Overwhelming Blink",
-    "Description": "<h1>Active: Overwhelming Blink</h1> Teleport to a target point up to 1200 units away.<br><br>After teleportation, all enemies in a 800 AoE have 50% movement speed slow and 50 attack speed slow for 6 seconds, and take damage equal to 200 + 100% of your strength. <br><br>Overwhelming Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
+    "Description": "<h1>Active: Overwhelming Blink</h1> Teleport to a target point up to 1200 units away.<br><br>After teleportation, all enemies in a 800 AoE have 50% movement speed slow and 50 attack speed slow for 6 seconds, and take damage equal to 100 + 150% of your strength. <br><br>Overwhelming Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/600.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -117,7 +117,7 @@
         6.0
       ],
       "damage_pct": [
-        100.0
+        150.0
       ]
     },
     "ItemCost": 6800,
@@ -153,7 +153,7 @@
     "Id": 603,
     "Key": "item_swift_blink",
     "Name": "Swift Blink",
-    "Description": "<h1>Active: Swift Blink</h1> Teleport to a target point up to 1200 units away.<br><br>After teleportation, you gain 40% phased movement speed, +50 Attack Speed, and +50 Attack Damage for 6 seconds. <br><br>Swift Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
+    "Description": "<h1>Active: Swift Blink</h1> Teleport to a target point up to 1200 units away.<br><br>After teleportation, you gain 40% phased movement speed, +45 Attack Speed, and +45 Attack Damage for 6 seconds. <br><br>Swift Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/603.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -192,10 +192,10 @@
         40.0
       ],
       "bonus_attack_speed": [
-        50.0
+        45.0
       ],
       "bonus_attack_damage": [
-        50.0
+        45.0
       ],
       "duration": [
         6.0
@@ -662,7 +662,7 @@
         5.0
       ]
     },
-    "ItemCost": 950,
+    "ItemCost": 975,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -3137,7 +3137,7 @@
     "Id": 41,
     "Key": "item_bottle",
     "Name": "Bottle",
-    "Description": "<h1>Active: Regenerate</h1>Consumes a charge to restore 110 health and 60 mana over 2.7 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.<br><br>Range: %abilitycastrange%\\n<h1>Passive:  Store Rune</h1>Runes can be stored in the bottle for later use by right-clicking them. Unused runes will automatically activate after 2 minutes.<br><br>Using a stored rune fully refills the Bottle.",
+    "Description": "<h1>Active: Regenerate</h1>Consumes a charge to restore 110 health and 60 mana over 2.7 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.<br><br>Range: %abilitycastrange%\\n<h1>Passive:  Store Rune</h1>Runes can be stored in the bottle for later use by right-clicking them. Unused runes will automatically activate after 90 seconds.<br><br>Using a stored rune fully refills the Bottle.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/41.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -3181,6 +3181,9 @@
       ],
       "break_on_hero_damage": [
         1.0
+      ],
+      "rune_expire_time": [
+        90.0
       ]
     },
     "ItemCost": 675,
@@ -3574,6 +3577,9 @@
       ],
       "buff_duration": [
         16.0
+      ],
+      "duration_to_use": [
+        40.0
       ]
     },
     "ItemCost": 30,
@@ -5271,7 +5277,7 @@
         35.0
       ],
       "bonus_intellect": [
-        12.0
+        14.0
       ],
       "bonus_armor": [
         6.0
@@ -5755,7 +5761,7 @@
         5.0
       ],
       "bonus_armor": [
-        1.5
+        2.0
       ]
     },
     "ItemCost": 505,
@@ -6030,7 +6036,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 500,
+    "ItemCost": 400,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6090,7 +6096,7 @@
         1200.0
       ]
     },
-    "ItemCost": 2700,
+    "ItemCost": 2600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6370,7 +6376,7 @@
     "Id": 269,
     "Key": "item_holy_locket",
     "Name": "Holy Locket",
-    "Description": "<h1>Active: Energy Charge</h1>Target an allied unit to instantly restore 15 health and mana per charge stored. <br><br>Max 20 charges. Automatically gains a charge every 10 seconds and whenever a visible enemy within 1200 range uses an ability.\\n\\n<h1>Passive: Holy Blessing</h1>Amplifies heals you provide by 35%.\\n\\n<h1>Passive: Regeneration Aura</h1>Grants 3 health regeneration to allies.<br><br>Radius: 1200",
+    "Description": "<h1>Active: Energy Charge</h1>Target an allied unit to instantly restore 15 health and mana per charge stored. <br><br>Max 20 charges. Automatically gains a charge every 10 seconds and whenever a visible enemy within 1200 range uses an ability.\\n\\n<h1>Passive: Holy Blessing</h1>Amplifies heals you provide by 30%.\\n\\n<h1>Passive: Regeneration Aura</h1>Grants 3 health regeneration to allies.<br><br>Radius: 1200",
     "Image": "https://hyperstone.highgroundvision.com/images/items/269.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -6406,7 +6412,7 @@
         1200.0
       ],
       "heal_increase": [
-        35.0
+        30.0
       ],
       "max_charges": [
         20.0
@@ -7248,7 +7254,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      5.0
+      6.0
     ],
     "AbilityManaCost": [
       0.0
@@ -7792,7 +7798,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 450,
+    "ItemCost": 350,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7881,7 +7887,7 @@
         100.0
       ]
     },
-    "ItemCost": 4550,
+    "ItemCost": 4450,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9438,20 +9444,8 @@
     "ItemStockTime": 0.0,
     "ItemIsNeutralDrop": false,
     "ItemShareability": "ITEM_FULLY_SHAREABLE",
-    "ItemShopTags": [
-      "int",
-      "str",
-      "agi",
-      "mana_pool",
-      "health_pool",
-      "hard_to_tag"
-    ],
-    "ItemAliases": [
-      "ags",
-      "ultimate",
-      "aghanim's scepter",
-      "ags"
-    ],
+    "ItemShopTags": [],
+    "ItemAliases": [],
     "ItemQuality": "rare"
   },
   {
@@ -9542,24 +9536,12 @@
     "AllowedInBackpack": false,
     "IsObsolete": false,
     "ItemInitialCharges": 0,
-    "ItemStockMax": 1,
-    "ItemStockTime": 1.0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
     "ItemIsNeutralDrop": false,
     "ItemShareability": "ITEM_FULLY_SHAREABLE",
-    "ItemShopTags": [
-      "int",
-      "str",
-      "agi",
-      "mana_pool",
-      "health_pool",
-      "hard_to_tag"
-    ],
-    "ItemAliases": [
-      "ags",
-      "shard",
-      "aghanim's shard",
-      "aghs"
-    ],
+    "ItemShopTags": [],
+    "ItemAliases": [],
     "ItemQuality": "rare"
   },
   {
@@ -9795,7 +9777,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1300,
+    "ItemCost": 1200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9847,7 +9829,7 @@
         1.6
       ]
     },
-    "ItemCost": 5100,
+    "ItemCost": 5000,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10385,7 +10367,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_all_stats": [
-        14.0
+        16.0
       ],
       "bonus_health_regen": [
         7.0
@@ -10777,7 +10759,7 @@
         0.5
       ]
     },
-    "ItemCost": 4700,
+    "ItemCost": 4725,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11443,7 +11425,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 875,
+    "ItemCost": 800,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11527,7 +11509,7 @@
         40.0
       ]
     },
-    "ItemCost": 3650,
+    "ItemCost": 3600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12527,7 +12509,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 900,
+    "ItemCost": 825,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12593,7 +12575,7 @@
         100.0
       ]
     },
-    "ItemCost": 2950,
+    "ItemCost": 2875,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12670,7 +12652,7 @@
     "Id": 145,
     "Key": "item_bfury",
     "Name": "Battle Fury",
-    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree.<br><br>Cast Range: %abilitycastrange%\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 18 for melee heroes, and 6 for ranged. \\n<h1>Passive: Cleave</h1> Deals 70% of attack damage as physical damage in a cone up to 650 around the target. Deals 40% against creeps. (Melee Only)",
+    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree.<br><br>Cast Range: %abilitycastrange%\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by 15 for melee heroes, and 6 for ranged. \\n<h1>Passive: Cleave</h1> Deals 70% of attack damage as physical damage in a cone up to 650 around the target. Deals 40% against creeps. (Melee Only)",
     "Image": "https://hyperstone.highgroundvision.com/images/items/145.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_TREE",
@@ -12693,7 +12675,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_damage": [
-        55.0
+        60.0
       ],
       "bonus_health_regen": [
         7.5
@@ -12708,7 +12690,7 @@
         40.0
       ],
       "quelling_bonus": [
-        18.0
+        15.0
       ],
       "quelling_bonus_ranged": [
         6.0
@@ -13196,7 +13178,7 @@
         0.036
       ]
     },
-    "ItemCost": 2475,
+    "ItemCost": 2500,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13295,7 +13277,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_damage": [
-        25.0
+        20.0
       ],
       "bonus_attack_speed": [
         35.0
@@ -13414,10 +13396,10 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_damage": [
-        60.0
+        52.0
       ],
       "bonus_attack_speed": [
-        40.0
+        35.0
       ],
       "bonus_strength": [
         0.0
@@ -13901,7 +13883,7 @@
         25.0
       ],
       "bonus_damage": [
-        55.0
+        45.0
       ],
       "lifesteal_percent": [
         25.0
@@ -14023,7 +14005,7 @@
         24.0
       ],
       "bonus_attack_speed": [
-        65.0
+        70.0
       ],
       "static_duration": [
         15.0
@@ -14423,7 +14405,7 @@
         1.0
       ]
     },
-    "ItemCost": 2375,
+    "ItemCost": 2400,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14473,7 +14455,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1225,
+    "ItemCost": 1325,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14578,7 +14560,7 @@
         1200.0
       ]
     },
-    "ItemCost": 6300,
+    "ItemCost": 6325,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -16023,7 +16005,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 225,
+    "ItemCost": 250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -16075,7 +16057,7 @@
         12.0
       ]
     },
-    "ItemCost": 1100,
+    "ItemCost": 1125,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -16151,7 +16133,7 @@
     "Id": 598,
     "Key": "item_mage_slayer",
     "Name": "Mage Slayer",
-    "Description": "<h1>Passive: Mage Slayer</h1>Places a debuff when you attack enemies, causing them to do 35% less spell damage for 4 seconds.",
+    "Description": "<h1>Passive: Mage Slayer</h1>Places a debuff when you attack enemies, causing them to do 35% less spell damage for 6 seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/598.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -16171,7 +16153,7 @@
         20.0
       ],
       "bonus_attack_speed": [
-        15.0
+        20.0
       ],
       "bonus_damage": [
         20.0
@@ -16183,7 +16165,7 @@
         2.0
       ],
       "duration": [
-        4.0
+        6.0
       ],
       "bonus_intellect": [
         10.0
@@ -16829,7 +16811,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1600,
+    "ItemCost": 1500,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -16915,7 +16897,7 @@
         1200.0
       ]
     },
-    "ItemCost": 5200,
+    "ItemCost": 5100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -17288,7 +17270,7 @@
         2.0
       ]
     },
-    "ItemCost": 6325,
+    "ItemCost": 6250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -19451,7 +19433,7 @@
         75.0
       ],
       "all_stats": [
-        16.0
+        10.0
       ],
       "block_cooldown": [
         8.0
@@ -20773,13 +20755,13 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_magic_resistance": [
-        25.0
+        20.0
       ],
       "bonus_spell_amp": [
-        8.0
+        6.0
       ],
       "bonus_armor": [
-        3.0
+        2.0
       ]
     },
     "ItemCost": 0,
@@ -21595,7 +21577,7 @@
     "Id": 371,
     "Key": "item_fallen_sky",
     "Name": "Fallen Sky",
-    "Description": "<h1>Active: Fallen Sky</h1> Transform into a meteor that strikes down at the target area after 0.5 seconds in a 315 AoE, stunning enemies for 2 seconds and dealing impact damage. Continues to deal damage every 1 seconds to enemy units and buildings for 6 seconds.<BR><BR>Building Impact Damage: 75 <BR>Building Over Time Damage: 50 <BR><BR>Non-Building Impact Damage: 150 <BR>Non-Building Over Time Damage: 90<BR><BR> Range: %abilitycastrange%",
+    "Description": "<h1>Active: Fallen Sky</h1> Transform into a meteor that strikes down at the target area after 1 seconds in a 315 AoE, stunning enemies for 2 seconds and dealing impact damage. Continues to deal damage every 1 seconds to enemy units and buildings for 6 seconds.<BR><BR>Building Impact Damage: 75 <BR>Building Over Time Damage: 50 <BR><BR>Non-Building Impact Damage: 150 <BR>Non-Building Over Time Damage: 90<BR><BR> Range: %abilitycastrange%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/371.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -21642,7 +21624,7 @@
         1.0
       ],
       "land_time": [
-        0.5
+        1.0
       ],
       "impact_radius": [
         315.0
@@ -21810,7 +21792,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_armor": [
-        25.0
+        20.0
       ]
     },
     "ItemCost": 0,
@@ -23832,7 +23814,7 @@
     "Id": 828,
     "Key": "item_misericorde",
     "Name": "Brigand's Blade",
-    "Description": "<h1>Passive: Dark Mercy</h1>Your attacks deal 7 more damage to enemies for each 10% HP they are missing.",
+    "Description": "<h1>Passive: Dark Mercy</h1>Your attacks deal 8 more damage to enemies for each 10% HP they are missing.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/828.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -23846,7 +23828,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_damage": [
-        7.0
+        8.0
       ],
       "missing_hp": [
         10.0
@@ -24002,7 +23984,7 @@
     "Id": 838,
     "Key": "item_unstable_wand",
     "Name": "Pig Pole",
-    "Description": "<h1>Active: Pig, Out!</h1>Turns your hero into a critter and gives them +10% Movement Speed.",
+    "Description": "<h1>Active: Pig, Out!</h1>Turns your hero into a critter for 4 seconds and gives them +10% Movement Speed.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/838.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -24120,12 +24102,13 @@
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      30.0
+      20.0
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -24172,7 +24155,7 @@
     "Id": 835,
     "Key": "item_paintball",
     "Name": "Fae Grenade",
-    "Description": "<h1>Active: Shadow Brand</h1>Throws a Mark towards an enemy within %abilitycastrange% range dealing your attack damage, and applying a debuff that deals 20 damage every second and provides vision of the unit for 7 seconds.",
+    "Description": "<h1>Active: Shadow Brand</h1>Throws a Mark towards an enemy within %abilitycastrange% range applying a debuff that deals 35 damage every second and provides vision of the unit for 7 seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/835.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -24200,7 +24183,7 @@
         20.0
       ],
       "dps": [
-        20.0
+        35.0
       ],
       "duration": [
         7.0

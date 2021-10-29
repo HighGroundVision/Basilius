@@ -16,6 +16,7 @@ namespace HGV.Basilius
         public string ImageIcon { get; set; }
         public string ImageBanner { get; set; }
         public string ImagePortrait { get; set; }
+        public string Animation { get; set; }
 
         public bool Enabled { get; set; }
         public bool NewPlayerEnable { get; set; }
