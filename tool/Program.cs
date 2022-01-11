@@ -19,23 +19,23 @@ namespace HGV.Basilius.Tools.Collection
 
             var rootLanaguage = await ExtractRootLanaguage(client);
             var abilityLanaguage = await ExtractAbilityLanaguage(client);
-            var clusters = await ExtractCluster(client);
-            var regions = await ExtractRegions(client, clusters);
-            var modes = await ExtractGameModes(client);
+            //var clusters = await ExtractCluster(client);
+            //var regions = await ExtractRegions(client, clusters);
+            //var modes = await ExtractGameModes(client);
             var abilities = await ExtractAbilities(client, abilityLanaguage);
             var heroes = await ExtractHeroes(client, rootLanaguage, abilities);
             var items = await ExtractItems(client, abilityLanaguage);
 
-            if(Enum.GetValues(typeof(Contants.ServerRegion)).Length != regions.Count)
-                throw new InvalidOperationException("ServerRegion Enumeration needs to be updated");
+            //if(Enum.GetValues(typeof(Contants.ServerRegion)).Length != regions.Count)
+            //    throw new InvalidOperationException("ServerRegion Enumeration needs to be updated");
 
-            if(Enum.GetValues(typeof(Contants.GameMode)).Length != modes.Count)
-                throw new InvalidOperationException("GameMode Enumeration needs to be updated");
+            //if(Enum.GetValues(typeof(Contants.GameMode)).Length != modes.Count)
+            //    throw new InvalidOperationException("GameMode Enumeration needs to be updated");
 
             var formatting = Formatting.Indented;
-            File.WriteAllText("Regions.json", JsonConvert.SerializeObject(regions, formatting));
-            File.WriteAllText("Clusters.json", JsonConvert.SerializeObject(clusters, formatting));
-            File.WriteAllText("Modes.json", JsonConvert.SerializeObject(modes, formatting));
+            //File.WriteAllText("Regions.json", JsonConvert.SerializeObject(regions, formatting));
+            //File.WriteAllText("Clusters.json", JsonConvert.SerializeObject(clusters, formatting));
+            //File.WriteAllText("Modes.json", JsonConvert.SerializeObject(modes, formatting));
             File.WriteAllText("Abilities.json", JsonConvert.SerializeObject(abilities, formatting));
             File.WriteAllText("Heroes.json", JsonConvert.SerializeObject(heroes, formatting));
             File.WriteAllText("Items.json", JsonConvert.SerializeObject(items, formatting));
@@ -556,10 +556,12 @@ namespace HGV.Basilius.Tools.Collection
             ability.AbilityUnitDamageType = getValue<string>(abiltiesData, "ability_base", key, "AbilityUnitDamageType");
 
             ability.IsGrantedByShard = isTrue(abiltiesData, "ability_base", key, "IsGrantedByShard");
+            ability.HasShardUpgrade = ability.IsGrantedByShard == true ? false : isTrue(abiltiesData, "ability_base", key, "HasShardUpgrade");
 
             ability.IsGrantedByScepter = isTrue(abiltiesData, "ability_base", key, "IsGrantedByScepter");
             ability.HasScepterUpgrade = ability.IsGrantedByScepter == true ? false : isTrue(abiltiesData, "ability_base", key, "HasScepterUpgrade");
             
+
             ability.AbilityDraftPreAbility = getValue<string>(abiltiesData, "ability_base", key, "AbilityDraftPreAbility");
             ability.AbilityDraftUltScepterAbility = getValue<string>(abiltiesData, "ability_base", key, "AbilityDraftUltScepterAbility");
 

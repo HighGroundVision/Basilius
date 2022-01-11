@@ -647,7 +647,7 @@
     "BountyGoldMax": 0,
     "MovementSpeed": 295,
     "MovementTurnRate": 0.7,
-    "HasAggressiveStance": false,
+    "HasAggressiveStance": true,
     "Team": "RADIANT",
     "VisionDaytimeRange": 1800,
     "VisionNighttimeRange": 800,
@@ -4343,7 +4343,7 @@
     ],
     "AbilityDraftPool": [
       5168,
-      7230,
+      7231,
       5172,
       5177
     ],
@@ -14575,7 +14575,7 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.5,
+    "StatusManaRegen": 0.0,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -14615,19 +14615,19 @@
       {
         "Id": 8238,
         "Key": "special_bonus_unique_marci_grapple_stun_duration",
-        "Name": "+0.75s Dispose Stun Duration",
+        "Name": "+0.5s Dispose Stun Duration",
         "Level": 15
       },
       {
         "Id": 8243,
         "Key": "special_bonus_unique_marci_lunge_range",
-        "Name": "+250 Rebound Cast/Jump Range",
+        "Name": "+200 Rebound Cast/Jump Range",
         "Level": 15
       },
       {
-        "Id": 8239,
-        "Key": "special_bonus_unique_marci_guardian_magic_immune",
-        "Name": "1.75s Sidekick Spell Immunity",
+        "Id": 8242,
+        "Key": "special_bonus_unique_marci_guardian_lifesteal",
+        "Name": "+25% Sidekick Lifesteal",
         "Level": 20
       },
       {
@@ -14643,9 +14643,9 @@
         "Level": 25
       },
       {
-        "Id": 8242,
-        "Key": "special_bonus_unique_marci_guardian_lifesteal",
-        "Name": "+50% Sidekick Lifesteal",
+        "Id": 8239,
+        "Key": "special_bonus_unique_marci_guardian_magic_immune",
+        "Name": "1.5s Sidekick Spell Immunity",
         "Level": 25
       }
     ]
