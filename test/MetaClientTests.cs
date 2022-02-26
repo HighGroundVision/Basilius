@@ -185,7 +185,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsUltimate: true);
 
-            Assert.AreEqual(149, abilities.Count());
+            Assert.AreEqual(154, abilities.Count());
         }
 
         [TestMethod]
