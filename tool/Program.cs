@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using System.IO;
 using HGV.Basilius.Contants;
 using System.Reflection;
+using System.Net.Http.Headers;
 
 namespace HGV.Basilius.Tools.Collection
 {
@@ -15,27 +16,37 @@ namespace HGV.Basilius.Tools.Collection
     {
         static async Task Main(string[] args)
         {
+            Console.WriteLine("Enter Stratz Token");
+            var stratzToken = Console.ReadLine();
+
+            //Console.WriteLine("Enter OpenDota API Key:");
+            //var openDotaKey = Console.ReadLine();
+
             var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", stratzToken);
+
+            var clusters = await ExtractCluster(client);
+            var regions = await ExtractRegions(client, clusters);
+            var modes = await ExtractGameModes(client);
+
+            client.DefaultRequestHeaders.Clear();
 
             var rootLanaguage = await ExtractRootLanaguage(client);
             var abilityLanaguage = await ExtractAbilityLanaguage(client);
-            //var clusters = await ExtractCluster(client);
-            //var regions = await ExtractRegions(client, clusters);
-            //var modes = await ExtractGameModes(client);
             var abilities = await ExtractAbilities(client, abilityLanaguage);
             var heroes = await ExtractHeroes(client, rootLanaguage, abilities);
             var items = await ExtractItems(client, abilityLanaguage);
 
-            //if(Enum.GetValues(typeof(Contants.ServerRegion)).Length != regions.Count)
-            //    throw new InvalidOperationException("ServerRegion Enumeration needs to be updated");
+            if (Enum.GetValues(typeof(Contants.ServerRegion)).Length != regions.Count)
+                throw new InvalidOperationException("ServerRegion Enumeration needs to be updated");
 
-            //if(Enum.GetValues(typeof(Contants.GameMode)).Length != modes.Count)
-            //    throw new InvalidOperationException("GameMode Enumeration needs to be updated");
+            if (Enum.GetValues(typeof(Contants.GameMode)).Length != modes.Count)
+                throw new InvalidOperationException("GameMode Enumeration needs to be updated");
 
             var formatting = Formatting.Indented;
-            //File.WriteAllText("Regions.json", JsonConvert.SerializeObject(regions, formatting));
-            //File.WriteAllText("Clusters.json", JsonConvert.SerializeObject(clusters, formatting));
-            //File.WriteAllText("Modes.json", JsonConvert.SerializeObject(modes, formatting));
+            File.WriteAllText("Regions.json", JsonConvert.SerializeObject(regions, formatting));
+            File.WriteAllText("Clusters.json", JsonConvert.SerializeObject(clusters, formatting));
+            File.WriteAllText("Modes.json", JsonConvert.SerializeObject(modes, formatting));
             File.WriteAllText("Abilities.json", JsonConvert.SerializeObject(abilities, formatting));
             File.WriteAllText("Heroes.json", JsonConvert.SerializeObject(heroes, formatting));
             File.WriteAllText("Items.json", JsonConvert.SerializeObject(items, formatting));
