@@ -16,11 +16,13 @@ namespace HGV.Basilius.Tools.Collection
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Enter Stratz Token");
-            var stratzToken = Console.ReadLine();
+            var stratzToken = Environment.GetEnvironmentVariable("STRATZ_TOKEN");
 
-            //Console.WriteLine("Enter OpenDota API Key:");
-            //var openDotaKey = Console.ReadLine();
+            if(string.IsNullOrWhiteSpace(stratzToken))
+            {
+                Console.WriteLine("Enter Stratz Token");
+                stratzToken = Console.ReadLine();
+            }
 
             var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", stratzToken);
