@@ -20,7 +20,6 @@ env:
   # Official NuGet Feed settings
   NUGET_FEED: https://api.nuget.org/v3/index.json
   NUGET_KEY: ${{ secrets.NUGETKEY }}
-  STRATZ_TOKEN: ${{ secrets.STRATZ_TOKEN }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,14 +32,6 @@ jobs:
           dotnet-version: 3.1.301
       - name: Restore
         run: dotnet restore
-      - name: Build
-        run: dotnet build -c Release --no-restore
-      - name: Generate
-        run: dotnet run --configuration Release --project tool/$GENERATOR_NAME.*proj
-      - name: Copy Data
-        shell: pwsh
-        run: |
-          .\TransferData.ps1
       - name: Build
         run: dotnet build -c Release --no-restore
       - name: Test
