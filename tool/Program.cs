@@ -16,13 +16,8 @@ namespace HGV.Basilius.Tools.Collection
     {
         static async Task Main(string[] args)
         {
-            var stratzToken = Environment.GetEnvironmentVariable("STRATZ_TOKEN");
-
-            if(string.IsNullOrWhiteSpace(stratzToken))
-            {
-                Console.WriteLine("Enter Stratz Token");
-                stratzToken = Console.ReadLine();
-            }
+            Console.WriteLine("Enter Stratz Token");
+            var stratzToken = Console.ReadLine();
 
             var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", stratzToken);

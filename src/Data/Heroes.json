@@ -1236,8 +1236,8 @@
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 280,
-    "MovementTurnRate": 0.6,
+    "MovementSpeed": 285,
+    "MovementTurnRate": 0.7,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
     "VisionDaytimeRange": 1800,
@@ -1471,12 +1471,12 @@
     "StatusHealth": 200,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.5,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementSpeed": 290,
-    "MovementTurnRate": 0.8,
+    "MovementTurnRate": 0.9,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
     "VisionDaytimeRange": 1800,
@@ -1659,7 +1659,7 @@
       {
         "Id": 6023,
         "Key": "special_bonus_unique_pudge_1",
-        "Name": "+1.5 Flesh Heap Stack Str",
+        "Name": "{s:bonus_flesh_heap_strength_buff_amount}x Flesh Heap Stack Str and Damage Block bonuses",
         "Level": 25
       }
     ]
@@ -2231,7 +2231,7 @@
       {
         "Id": 718,
         "Key": "special_bonus_unique_tiny_7",
-        "Name": "+{s:bonus_tree_bonus_damage_pct}% Tree Grow Bonus Damage",
+        "Name": "+{s:bonus_tree_bonus_damage_pct}% Grow Bonus Damage With Tree",
         "Level": 15
       },
       {
@@ -2782,9 +2782,9 @@
     "AttributeBaseStrength": 20,
     "AttributeStrengthGain": 2.4,
     "AttributeBaseIntelligence": 30,
-    "AttributeIntelligenceGain": 3.7,
+    "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 23,
-    "AttributeAgilityGain": 2.1,
+    "AttributeAgilityGain": 2.4,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -3621,7 +3621,7 @@
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 320,
+    "MovementSpeed": 315,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -6817,8 +6817,8 @@
     "AttributeStrengthGain": 3.3,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.5,
-    "AttributeBaseAgility": 13,
-    "AttributeAgilityGain": 1.6,
+    "AttributeBaseAgility": 10,
+    "AttributeAgilityGain": 1.5,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -7539,7 +7539,7 @@
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 300,
+    "MovementSpeed": 310,
     "MovementTurnRate": 0.9,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -7573,9 +7573,9 @@
         "Level": 10
       },
       {
-        "Id": 5919,
-        "Key": "special_bonus_movement_speed_25",
-        "Name": "+25 Movement Speed",
+        "Id": 5918,
+        "Key": "special_bonus_movement_speed_20",
+        "Name": "+20 Movement Speed",
         "Level": 15
       },
       {
@@ -9580,7 +9580,7 @@
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 1.9,
     "AttributeBaseAgility": 17,
-    "AttributeAgilityGain": 2.4,
+    "AttributeAgilityGain": 2.2,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
@@ -13014,7 +13014,7 @@
       {
         "Id": 6552,
         "Key": "special_bonus_unique_techies_2",
-        "Name": "+{s:bonus_damage} Sticky Bomb Damage",
+        "Name": "+{s:bonus_radius} Sticky Bomb Latch/Explosion Radius",
         "Level": 20
       },
       {
