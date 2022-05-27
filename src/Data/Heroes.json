@@ -77,43 +77,43 @@
       {
         "Id": 6012,
         "Key": "special_bonus_unique_antimage",
-        "Name": "-1s Blink Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Blink Cooldown",
         "Level": 10
       },
       {
         "Id": 666,
         "Key": "special_bonus_unique_antimage_7",
-        "Name": "+0.6% Max Mana Mana Burn",
+        "Name": "+{s:bonus_mana_per_hit_pct}% Max Mana Mana Burn",
         "Level": 15
       },
       {
         "Id": 735,
         "Key": "special_bonus_unique_antimage_8",
-        "Name": "+0.7s Mana Void Stun",
+        "Name": "+{s:bonus_mana_void_ministun}s Mana Void Stun",
         "Level": 15
       },
       {
         "Id": 665,
         "Key": "special_bonus_unique_antimage_6",
-        "Name": "+0.1 Mana Void Damage Multiplier",
+        "Name": "+{s:bonus_mana_void_damage_per_mana} Mana Void Damage Multiplier",
         "Level": 20
       },
       {
         "Id": 6606,
         "Key": "special_bonus_unique_antimage_3",
-        "Name": "+250 Blink Cast Range",
+        "Name": "+{s:bonus_AbilityCastRange} Blink Cast Range",
         "Level": 20
       },
       {
         "Id": 6607,
         "Key": "special_bonus_unique_antimage_4",
-        "Name": "+20% Counterspell Magic Resistance",
+        "Name": "+{s:bonus_magic_resistance}% Counterspell Magic Resistance",
         "Level": 25
       },
       {
         "Id": 6353,
         "Key": "special_bonus_unique_antimage_2",
-        "Name": "-50s Mana Void Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Mana Void Cooldown",
         "Level": 25
       }
     ]
@@ -160,7 +160,7 @@
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 2.2,
     "StatusHealth": 200,
-    "StatusHealthRegen": 2.75,
+    "StatusHealthRegen": 2.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -208,7 +208,7 @@
       {
         "Id": 6991,
         "Key": "special_bonus_unique_axe_4",
-        "Name": "+30 Counter Helix Damage",
+        "Name": "+{s:bonus_damage} Counter Helix Damage",
         "Level": 15
       },
       {
@@ -226,7 +226,7 @@
       {
         "Id": 6608,
         "Key": "special_bonus_unique_axe_2",
-        "Name": "+100 Berserker's Call AoE",
+        "Name": "+{s:bonus_radius} Berserker's Call AoE",
         "Level": 25
       },
       {
@@ -321,19 +321,19 @@
       {
         "Id": 720,
         "Key": "special_bonus_unique_bane_8",
-        "Name": "-3s Brain Sap Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Brain Sap Cooldown",
         "Level": 15
       },
       {
         "Id": 779,
         "Key": "special_bonus_unique_bane_9",
-        "Name": "+5% Fiend's Grip Max Mana Drain",
+        "Name": "+{s:bonus_fiend_grip_mana_drain}% Fiend's Grip Max Mana Drain",
         "Level": 15
       },
       {
         "Id": 476,
         "Key": "special_bonus_unique_bane_5",
-        "Name": "-3s Nightmare Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Nightmare Cooldown",
         "Level": 20
       },
       {
@@ -345,13 +345,13 @@
       {
         "Id": 6069,
         "Key": "special_bonus_unique_bane_2",
-        "Name": "+200 Brain Sap Damage/Heal",
+        "Name": "+{s:bonus_brain_sap_damage} Brain Sap Damage/Heal",
         "Level": 25
       },
       {
         "Id": 6609,
         "Key": "special_bonus_unique_bane_3",
-        "Name": "+5s Fiend's Grip Duration",
+        "Name": "+{s:bonus_AbilityChannelTime}s Fiend's Grip Duration",
         "Level": 25
       }
     ]
@@ -558,7 +558,7 @@
       {
         "Id": 772,
         "Key": "special_bonus_unique_crystal_maiden_6",
-        "Name": "+125 Crystal Nova AoE",
+        "Name": "+{s:bonus_radius} Crystal Nova AoE",
         "Level": 10
       },
       {
@@ -570,7 +570,7 @@
       {
         "Id": 7654,
         "Key": "special_bonus_unique_crystal_maiden_5",
-        "Name": "-3s Crystal Nova Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Crystal Nova Cooldown",
         "Level": 15
       },
       {
@@ -582,19 +582,19 @@
       {
         "Id": 6520,
         "Key": "special_bonus_unique_crystal_maiden_3",
-        "Name": "+50 Freezing Field Damage",
+        "Name": "+{s:bonus_damage} Freezing Field Damage",
         "Level": 20
       },
       {
         "Id": 6072,
         "Key": "special_bonus_unique_crystal_maiden_1",
-        "Name": "+1.25s Frostbite Duration",
+        "Name": "+{s:bonus_duration}s Frostbite Duration",
         "Level": 25
       },
       {
         "Id": 6234,
         "Key": "special_bonus_unique_crystal_maiden_2",
-        "Name": "+240 Crystal Nova Damage",
+        "Name": "+{s:bonus_nova_damage} Crystal Nova Damage",
         "Level": 25
       }
     ]
@@ -1267,7 +1267,7 @@
       {
         "Id": 6062,
         "Key": "special_bonus_unique_morphling_1",
-        "Name": "+250 Waveform Range",
+        "Name": "+{s:value} Waveform Range",
         "Level": 10
       },
       {
@@ -1297,7 +1297,7 @@
       {
         "Id": 7052,
         "Key": "special_bonus_unique_morphling_6",
-        "Name": "2 Waveform Charges",
+        "Name": "{s:value} Waveform Charges",
         "Level": 25
       },
       {
@@ -1387,7 +1387,7 @@
       {
         "Id": 6400,
         "Key": "special_bonus_unique_phantom_lancer_2",
-        "Name": "+{s:bonus_agility_duration} Phantom Rush Bonus Agi Duration",
+        "Name": "+{s:bonus_agility_duration}s Phantom Rush Bonus Agi Duration",
         "Level": 10
       },
       {
@@ -1517,7 +1517,7 @@
       {
         "Id": 407,
         "Key": "special_bonus_unique_puck_6",
-        "Name": "+{s:bonus_damage} Waning Rift Damge",
+        "Name": "+{s:bonus_damage} Waning Rift Damage",
         "Level": 15
       },
       {
@@ -1641,7 +1641,7 @@
       {
         "Id": 408,
         "Key": "special_bonus_unique_pudge_6",
-        "Name": "+0.8s Dismember Duration",
+        "Name": "+{s:bonus_AbilityChannelTime}s Dismember Duration",
         "Level": 20
       },
       {
@@ -1653,7 +1653,7 @@
       {
         "Id": 6506,
         "Key": "special_bonus_unique_pudge_3",
-        "Name": "1.8x Dismember Damage/Heal",
+        "Name": "{s:bonus_dismember_damage}x Dismember Damage/Heal",
         "Level": 25
       },
       {
@@ -1759,7 +1759,7 @@
       {
         "Id": 567,
         "Key": "special_bonus_unique_razor_5",
-        "Name": "+26% Storm Surge Move Speed",
+        "Name": "+21% Storm Surge Move Speed",
         "Level": 20
       },
       {
@@ -1857,7 +1857,7 @@
       {
         "Id": 6409,
         "Key": "special_bonus_unique_sand_king_2",
-        "Name": "+20 Sand Storm DPS",
+        "Name": "+15 Sand Storm DPS",
         "Level": 10
       },
       {
@@ -1869,7 +1869,7 @@
       {
         "Id": 6530,
         "Key": "special_bonus_unique_sand_king_3",
-        "Name": "+150 Sand Storm Radius",
+        "Name": "+125 Sand Storm Radius",
         "Level": 15
       },
       {
@@ -1899,7 +1899,7 @@
       {
         "Id": 475,
         "Key": "special_bonus_unique_sand_king_4",
-        "Name": "40% Sand Storm Slow and Blind",
+        "Name": "35% Sand Storm Slow and Blind",
         "Level": 25
       }
     ]
@@ -1931,7 +1931,7 @@
       "Disabler"
     ],
     "Legs": 2,
-    "ArmorPhysical": 2.0,
+    "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
     "AttackDamageMin": 24,
@@ -1983,9 +1983,9 @@
         "Level": 10
       },
       {
-        "Id": 6926,
-        "Key": "special_bonus_mp_regen_175",
-        "Name": "+1.75 Mana Regen",
+        "Id": 7132,
+        "Key": "special_bonus_mp_regen_150",
+        "Name": "+1.5 Mana Regen",
         "Level": 10
       },
       {
@@ -2003,7 +2003,7 @@
       {
         "Id": 6167,
         "Key": "special_bonus_unique_storm_spirit",
-        "Name": "+0.4s Electric Vortex",
+        "Name": "+{s:bonus_AbilityDuration}s Electric Vortex",
         "Level": 20
       },
       {
@@ -2229,9 +2229,9 @@
         "Level": 10
       },
       {
-        "Id": 718,
-        "Key": "special_bonus_unique_tiny_7",
-        "Name": "+{s:bonus_tree_bonus_damage_pct}% Grow Bonus Damage With Tree",
+        "Id": 753,
+        "Key": "special_bonus_status_resistance_10",
+        "Name": "+10% Status Resistance",
         "Level": 15
       },
       {
@@ -2241,9 +2241,9 @@
         "Level": 15
       },
       {
-        "Id": 6122,
-        "Key": "special_bonus_status_resistance_15",
-        "Name": "+15% Status Resistance",
+        "Id": 718,
+        "Key": "special_bonus_unique_tiny_7",
+        "Name": "+{s:bonus_tree_bonus_damage_pct}% Grow Bonus Damage With Tree",
         "Level": 20
       },
       {
@@ -2570,7 +2570,7 @@
     "AbilityDraftPool": [
       5110,
       5111,
-      5112,
+      641,
       5113
     ],
     "Talents": [
@@ -2932,43 +2932,43 @@
       {
         "Id": 775,
         "Key": "special_bonus_unique_lich_8",
-        "Name": "+10% Frost Shield Damage Reduction",
+        "Name": "+{s:bonus_damage_reduction}% Frost Shield Damage Reduction",
         "Level": 10
       },
       {
         "Id": 530,
         "Key": "special_bonus_unique_lich_6",
-        "Name": "+125 Frost Blast Radius and Damage",
+        "Name": "+{s:bonus_radius} Frost Blast Radius and Damage",
         "Level": 10
       },
       {
         "Id": 6292,
         "Key": "special_bonus_unique_lich_2",
-        "Name": "+0.5s Sinister Gaze Duration",
+        "Name": "+{s:bonus_AbilityChannelTime}s Sinister Gaze Duration",
         "Level": 15
       },
       {
         "Id": 6387,
         "Key": "special_bonus_unique_lich_3",
-        "Name": "-3s Frost Blast Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Frost Blast Cooldown",
         "Level": 15
       },
       {
         "Id": 531,
         "Key": "special_bonus_unique_lich_7",
-        "Name": "+100 Chain Frost Damage",
+        "Name": "+{s:bonus_damage} Chain Frost Damage",
         "Level": 20
       },
       {
         "Id": 7360,
         "Key": "special_bonus_unique_lich_4",
-        "Name": "+4s Frost Shield Duration",
+        "Name": "+{s:bonus_duration}s Frost Shield Duration",
         "Level": 20
       },
       {
         "Id": 6039,
         "Key": "special_bonus_unique_lich_1",
-        "Name": "Frost Shield Provides +50 HP Regen",
+        "Name": "Frost Shield Provides +{s:bonus_health_regen} HP Regen",
         "Level": 25
       },
       {
@@ -3074,7 +3074,7 @@
       {
         "Id": 541,
         "Key": "special_bonus_unique_lion_8",
-        "Name": "+20 Finger of Death Damage Per Kill",
+        "Name": "+{s:bonus_damage_per_kill} Finger of Death Damage Per Kill",
         "Level": 20
       },
       {
@@ -3540,7 +3540,7 @@
       {
         "Id": 6524,
         "Key": "special_bonus_unique_witch_doctor_3",
-        "Name": "+2 Cask Bounces",
+        "Name": "+{s:bonus_bounces} Cask Bounces",
         "Level": 15
       },
       {
@@ -3675,7 +3675,7 @@
       {
         "Id": 795,
         "Key": "special_bonus_unique_riki_9",
-        "Name": "-4s Blink Strike Replenish Time",
+        "Name": "-{s:value}s Blink Strike Replenish Time",
         "Level": 20
       },
       {
@@ -3843,7 +3843,7 @@
     "AttackRange": 500,
     "ProjectileSpeed": 900,
     "AttributePrimary": "INTELLECT",
-    "AttributeBaseStrength": 18,
+    "AttributeBaseStrength": 19,
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 30,
     "AttributeIntelligenceGain": 3.3,
@@ -4237,7 +4237,7 @@
       {
         "Id": 768,
         "Key": "special_bonus_unique_warlock_8",
-        "Name": "+{s:bonus_duration} Shadow Word Duration",
+        "Name": "+{s:bonus_duration}s Shadow Word Duration",
         "Level": 10
       },
       {
@@ -4338,7 +4338,7 @@
       7230,
       7231,
       5172,
-      602,
+      6251,
       5177
     ],
     "AbilityDraftPool": [
@@ -4966,7 +4966,7 @@
       {
         "Id": 6628,
         "Key": "special_bonus_unique_death_prophet_3",
-        "Name": "+1% Max Health Spirit Siphon",
+        "Name": "+{s:bonus_damage_pct}% Max Health Spirit Siphon",
         "Level": 15
       },
       {
@@ -5219,7 +5219,7 @@
       {
         "Id": 6541,
         "Key": "special_bonus_unique_pugna_5",
-        "Name": "+1.5s Decrepify Duration",
+        "Name": "+{s:bonus_AbilityDuration}s Decrepify Duration",
         "Level": 20
       },
       {
@@ -5455,7 +5455,7 @@
       {
         "Id": 6820,
         "Key": "special_bonus_unique_viper_4",
-        "Name": "+{s:bonus_magic_resistance} Poison Attack Magic Resistance Reduction",
+        "Name": "+{s:bonus_magic_resistance}% Poison Attack Magic Resistance Reduction",
         "Level": 20
       },
       {
@@ -5542,25 +5542,25 @@
       {
         "Id": 847,
         "Key": "special_bonus_unique_luna_7",
-        "Name": "-8% Moon Glaives Damage Reduction",
+        "Name": "-{s:bonus_damage_reduction_percent}% Moon Glaives Damage Reduction",
         "Level": 10
       },
       {
         "Id": 7047,
         "Key": "special_bonus_unique_luna_4",
-        "Name": "+0.4s Lucent Beam Ministun",
+        "Name": "+{s:bonus_stun_duration}s Lucent Beam Ministun",
         "Level": 10
       },
       {
         "Id": 6127,
         "Key": "special_bonus_unique_luna_2",
-        "Name": "-3s Lucent Beam Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Lucent Beam Cooldown",
         "Level": 15
       },
       {
         "Id": 770,
         "Key": "special_bonus_unique_luna_6",
-        "Name": "-25s Eclipse Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Eclipse Cooldown",
         "Level": 15
       },
       {
@@ -5572,19 +5572,19 @@
       {
         "Id": 6180,
         "Key": "special_bonus_unique_luna_1",
-        "Name": "+100 Lucent Beam Damage",
+        "Name": "+{s:bonus_beam_damage} Lucent Beam Damage",
         "Level": 20
       },
       {
         "Id": 6682,
         "Key": "special_bonus_unique_luna_3",
-        "Name": "+35 Lunar Blessing Damage",
+        "Name": "+{s:bonus_bonus_damage} Lunar Blessing Damage",
         "Level": 25
       },
       {
         "Id": 7055,
         "Key": "special_bonus_unique_luna_5",
-        "Name": "+0.2s Eclipse Lucent Ministun",
+        "Name": "+{s:bonus_stun_duration}s Eclipse Lucent Ministun",
         "Level": 25
       }
     ]
@@ -5775,7 +5775,6 @@
       5233,
       5234,
       5235,
-      933,
       7304
     ],
     "Talents": [
@@ -6862,7 +6861,7 @@
       {
         "Id": 6380,
         "Key": "special_bonus_unique_huskar_2",
-        "Name": "+5 Burning Spears DPS",
+        "Name": "+4 Burning Spears DPS",
         "Level": 15
       },
       {
@@ -7209,7 +7208,7 @@
       {
         "Id": 869,
         "Key": "special_bonus_unique_bounty_hunter_5",
-        "Name": "+{s:value}% Shadow Walk Slow",
+        "Name": "+{s:bonus_slow}% Shadow Walk Slow",
         "Level": 10
       },
       {
@@ -7656,7 +7655,7 @@
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 300,
+    "MovementSpeed": 305,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -7764,10 +7763,10 @@
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 1.9,
-    "AttributeBaseAgility": 23,
+    "AttributeBaseAgility": 25,
     "AttributeAgilityGain": 2.1,
     "StatusHealth": 200,
-    "StatusHealthRegen": 1.5,
+    "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -8038,7 +8037,7 @@
       {
         "Id": 7652,
         "Key": "special_bonus_unique_ancient_apparition_7",
-        "Name": "+200 Chilling Touch Attack Range",
+        "Name": "+{s:bonus_attack_range_bonus} Chilling Touch Attack Range",
         "Level": 10
       },
       {
@@ -8050,37 +8049,37 @@
       {
         "Id": 6352,
         "Key": "special_bonus_unique_ancient_apparition_3",
-        "Name": "-2s Ice Vortex Cooldown",
+        "Name": "{s:bonus_AbilityCooldown}s Ice Vortex Cooldown",
         "Level": 15
       },
       {
         "Id": 6214,
         "Key": "special_bonus_unique_ancient_apparition_1",
-        "Name": "+200 Cold Feet Breaking distance",
+        "Name": "+{s:bonus_break_distance} Cold Feet Breaking distance",
         "Level": 15
       },
       {
         "Id": 6534,
         "Key": "special_bonus_unique_ancient_apparition_4",
-        "Name": "-5% Ice Vortex Slow/Resistance",
+        "Name": "{s:bonus_movement_speed_pct}% Ice Vortex Slow/Resistance",
         "Level": 20
       },
       {
         "Id": 6291,
         "Key": "special_bonus_unique_ancient_apparition_2",
-        "Name": "+80 Chilling Touch Damage",
+        "Name": "+{s:bonus_damage} Chilling Touch Damage",
         "Level": 20
       },
       {
         "Id": 7106,
         "Key": "special_bonus_unique_ancient_apparition_6",
-        "Name": "450 AoE Cold Feet",
+        "Name": "{s:bonus_area_of_effect} AoE Cold Feet",
         "Level": 25
       },
       {
         "Id": 6810,
         "Key": "special_bonus_unique_ancient_apparition_5",
-        "Name": "+4% Ice Blast Kill Threshold",
+        "Name": "+{s:bonus_kill_pct}% Ice Blast Kill Threshold",
         "Level": 25
       }
     ]
@@ -8521,7 +8520,7 @@
       {
         "Id": 6101,
         "Key": "special_bonus_unique_alchemist",
-        "Name": "+125 Unstable Concoction Radius",
+        "Name": "+{s:bonus_radius} Unstable Concoction Radius",
         "Level": 10
       },
       {
@@ -8545,19 +8544,19 @@
       {
         "Id": 6350,
         "Key": "special_bonus_unique_alchemist_2",
-        "Name": "+400 Unstable Concoction Damage",
+        "Name": "+{s:bonus_max_damage} Unstable Concoction Max Damage",
         "Level": 20
       },
       {
         "Id": 351,
         "Key": "special_bonus_unique_alchemist_6",
-        "Name": "+50 Chemical Rage Movement Speed",
+        "Name": "+{s:bonus_bonus_movespeed} Chemical Rage Movement Speed",
         "Level": 25
       },
       {
         "Id": 7054,
         "Key": "special_bonus_unique_alchemist_4",
-        "Name": "+50 Chemical Rage Regeneration",
+        "Name": "+{s:bonus_bonus_health_regen} Chemical Rage Regeneration",
         "Level": 25
       }
     ]
@@ -8650,37 +8649,37 @@
       {
         "Id": 7390,
         "Key": "special_bonus_unique_invoker_10",
-        "Name": "-25s Ghost Walk Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Ghost Walk Cooldown",
         "Level": 10
       },
       {
         "Id": 6811,
         "Key": "special_bonus_unique_invoker_6",
-        "Name": "+40% Chaos Meteor Damage",
+        "Name": "+{s:bonus_main_damage}% Chaos Meteor Damage",
         "Level": 10
       },
       {
         "Id": 315,
         "Key": "special_bonus_unique_invoker_11",
-        "Name": "+50 Forged Spirit Attack Speed",
+        "Name": "+{s:bonus_spirit_attack_speed} Forged Spirit Attack Speed",
         "Level": 15
       },
       {
         "Id": 7148,
         "Key": "special_bonus_unique_invoker_9",
-        "Name": "-8s Cold Snap Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Cold Snap Cooldown",
         "Level": 15
       },
       {
         "Id": 6099,
         "Key": "special_bonus_unique_invoker_3",
-        "Name": "-10s Tornado Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Tornado Cooldown",
         "Level": 20
       },
       {
         "Id": 6657,
         "Key": "special_bonus_unique_invoker_5",
-        "Name": "+30 Alacrity Damage/Speed",
+        "Name": "+{s:bonus_bonus_attack_speed} Alacrity Damage/Speed",
         "Level": 20
       },
       {
@@ -8692,7 +8691,7 @@
       {
         "Id": 724,
         "Key": "special_bonus_unique_invoker_13",
-        "Name": "3x Quas/Wex/Exort passive effects",
+        "Name": "{s:bonus_bonus_damage_per_instance}x Quas/Wex/Exort passive effects",
         "Level": 25
       }
     ]
@@ -9380,7 +9379,7 @@
       {
         "Id": 6268,
         "Key": "special_bonus_unique_lone_druid_4",
-        "Name": "-10s Savage Roar Cooldown",
+        "Name": "-8s Savage Roar Cooldown",
         "Level": 15
       },
       {
@@ -10463,7 +10462,7 @@
       {
         "Id": 6398,
         "Key": "special_bonus_unique_naga_siren_2",
-        "Name": "+{s:value} Rip Tide Damage",
+        "Name": "+30 Rip Tide Damage",
         "Level": 10
       },
       {
@@ -10481,7 +10480,7 @@
       {
         "Id": 601,
         "Key": "special_bonus_unique_naga_siren_5",
-        "Name": "-12 Rip Tide Hits",
+        "Name": "-1 Rip Tide Hits",
         "Level": 20
       },
       {
@@ -10555,7 +10554,7 @@
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 330,
+    "MovementSpeed": 320,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -10837,7 +10836,7 @@
       {
         "Id": 6031,
         "Key": "special_bonus_unique_visage_1",
-        "Name": "+1.5 Corruption to Visage and Familiars",
+        "Name": "+1.5 Armor Corruption to Visage and Familiars",
         "Level": 15
       },
       {
@@ -11094,7 +11093,7 @@
       {
         "Id": 6182,
         "Key": "special_bonus_unique_medusa",
-        "Name": "+2s Stone Gaze Duration",
+        "Name": "+{s:bonus_duration}s Stone Gaze Duration",
         "Level": 20
       },
       {
@@ -11323,7 +11322,7 @@
       {
         "Id": 6617,
         "Key": "special_bonus_unique_centaur_4",
-        "Name": "+40% Double Edge Strength Damage",
+        "Name": "+{s:bonus_strength_damage}% Double Edge Strength Damage",
         "Level": 15
       },
       {
@@ -11335,7 +11334,7 @@
       {
         "Id": 453,
         "Key": "special_bonus_unique_centaur_5",
-        "Name": "-25s Stampede Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Stampede Cooldown",
         "Level": 20
       },
       {
@@ -11347,7 +11346,7 @@
       {
         "Id": 5988,
         "Key": "special_bonus_unique_centaur_2",
-        "Name": "+1s Hoof Stomp Duration",
+        "Name": "+{s:bonus_stun_duration}s Hoof Stomp Duration",
         "Level": 25
       }
     ]
@@ -11894,7 +11893,7 @@
       5581,
       5582,
       5583,
-      6251,
+      833,
       6251,
       5584
     ],
@@ -12045,19 +12044,19 @@
       {
         "Id": 6601,
         "Key": "special_bonus_unique_abaddon_2",
-        "Name": "+50 Mist Coil Heal/Damage",
+        "Name": "+{s:bonus_target_damage} Mist Coil Heal/Damage",
         "Level": 15
       },
       {
         "Id": 6100,
         "Key": "special_bonus_unique_abaddon",
-        "Name": "+100 Aphotic Shield Health",
+        "Name": "+{s:bonus_damage_absorb} Aphotic Shield Health",
         "Level": 20
       },
       {
         "Id": 7340,
         "Key": "special_bonus_unique_abaddon_5",
-        "Name": "-8s Borrowed Time Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Borrowed Time Cooldown",
         "Level": 20
       },
       {
@@ -12069,7 +12068,7 @@
       {
         "Id": 7335,
         "Key": "special_bonus_unique_abaddon_4",
-        "Name": "400 AoE Mist Coil",
+        "Name": "{s:bonus_effect_radius} AoE Mist Coil",
         "Level": 25
       }
     ]
@@ -12148,7 +12147,7 @@
       {
         "Id": 917,
         "Key": "special_bonus_unique_elder_titan_bonus_spirit_speed",
-        "Name": "+{s:bonus_move_pct_heroes}% Ancestral Spirit Move Speed Per Hero",
+        "Name": "+{s:bonus_move_pct_heroes}% Astral Spirit Move Speed Per Hero",
         "Level": 10
       },
       {
@@ -12432,7 +12431,7 @@
       {
         "Id": 7051,
         "Key": "special_bonus_unique_ember_spirit_5",
-        "Name": "-12s Remnant Charge Restore Time",
+        "Name": "-{s:bonus_AbilityChargeRestoreTime}s Remnant Charge Restore Time",
         "Level": 25
       }
     ]
@@ -12977,14 +12976,14 @@
       886,
       5601,
       6251,
-      6251,
+      5644,
       5599
     ],
     "AbilityDraftPool": [
-      5599,
-      5600,
+      879,
+      886,
       5601,
-      879
+      5599
     ],
     "Talents": [
       {
@@ -12996,7 +12995,7 @@
       {
         "Id": 6997,
         "Key": "special_bonus_unique_techies_3",
-        "Name": "-3s Proximity Mines Cooldown",
+        "Name": "-{s:bonus_AbilityChargeRestoreTime}s Proximity Mines Cooldown",
         "Level": 10
       },
       {
@@ -13032,7 +13031,7 @@
       {
         "Id": 6998,
         "Key": "special_bonus_unique_techies_4",
-        "Name": "-{s:bonus_activation_delay} Proximity Mines Activation Delay",
+        "Name": "-{s:bonus_activation_delay}s Proximity Mines Activation Delay",
         "Level": 25
       }
     ]
@@ -13236,7 +13235,7 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 27,
+    "AttackDamageMin": 31,
     "AttackDamageMax": 37,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
@@ -13280,7 +13279,7 @@
       {
         "Id": 7120,
         "Key": "special_bonus_unique_arc_warden_5",
-        "Name": "+{s:bonus_abilitycastrange} Flux Cast Range",
+        "Name": "+{s:bonus_AbilityCastRange} Flux Cast Range",
         "Level": 10
       },
       {
@@ -13298,31 +13297,31 @@
       {
         "Id": 7104,
         "Key": "special_bonus_unique_arc_warden_3",
-        "Name": "+40 Magnetic Field Attack Speed",
+        "Name": "+{s:bonus_attack_speed_bonus} Magnetic Field Attack Speed",
         "Level": 15
       },
       {
         "Id": 6287,
         "Key": "special_bonus_unique_arc_warden",
-        "Name": "+125 Spark Wraith Damage",
+        "Name": "+{s:bonus_spark_damage} Spark Wraith Damage",
         "Level": 20
       },
       {
         "Id": 6354,
         "Key": "special_bonus_unique_arc_warden_2",
-        "Name": "+40 Flux Damage",
+        "Name": "+{s:bonus_damage_per_second} Flux Damage",
         "Level": 20
       },
       {
         "Id": 975,
         "Key": "special_bonus_unique_arc_warden_7",
-        "Name": "+{s:value}% Tempest Double Cooldown Reduction",
+        "Name": "+{s:bonus_tempest_double_cooldown_reduction}% Tempest Double Cooldown Reduction",
         "Level": 25
       },
       {
         "Id": 685,
         "Key": "special_bonus_unique_arc_warden_6",
-        "Name": "+12s Tempest Double Duration",
+        "Name": "+{s:bonus_duration}s Tempest Double Duration",
         "Level": 25
       }
     ]
@@ -13407,43 +13406,43 @@
       {
         "Id": 710,
         "Key": "special_bonus_unique_underlord_8",
-        "Name": "+100 Firestorm Radius",
+        "Name": "+{s:bonus_radius} Firestorm Radius",
         "Level": 10
       },
       {
         "Id": 557,
         "Key": "special_bonus_unique_underlord_6",
-        "Name": "+75 Pit of Malice AoE",
+        "Name": "+{s:bonus_radius} Pit of Malice AoE",
         "Level": 15
       },
       {
         "Id": 556,
         "Key": "special_bonus_unique_underlord_5",
-        "Name": "-4s Firestorm Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Firestorm Cooldown",
         "Level": 15
       },
       {
         "Id": 6969,
         "Key": "special_bonus_unique_underlord_4",
-        "Name": "+1% Firestorm Burn Damage",
+        "Name": "+{s:bonus_burn_damage}% Firestorm Burn Damage",
         "Level": 20
       },
       {
         "Id": 6968,
         "Key": "special_bonus_unique_underlord_3",
-        "Name": "+15% Atrophy Aura Attack Damage Reduction",
+        "Name": "+{s:bonus_damage_reduction_pct}% Atrophy Aura Attack Damage Reduction",
         "Level": 20
       },
       {
         "Id": 6019,
         "Key": "special_bonus_unique_underlord",
-        "Name": "+0.65s Pit of Malice Root",
+        "Name": "+{s:bonus_ensnare_duration}s Pit of Malice Root",
         "Level": 25
       },
       {
         "Id": 805,
         "Key": "special_bonus_unique_underlord_9",
-        "Name": "+50% Atrophy Allied Hero Bonus",
+        "Name": "+{s:bonus_bonus_shared_by_allies_pct}% Atrophy Allied Hero Bonus",
         "Level": 25
       }
     ]
@@ -14154,7 +14153,7 @@
       {
         "Id": 7706,
         "Key": "special_bonus_unique_void_spirit_1",
-        "Name": "4 Astral Step Charge Restore Time",
+        "Name": "-{s:bonus_AbilityChargeRestoreTime}s Astral Step Charge Restore Time",
         "Level": 20
       },
       {
@@ -14256,7 +14255,7 @@
       {
         "Id": 6487,
         "Key": "special_bonus_unique_snapfire_2",
-        "Name": "+{s:bonus_buffed_attacks} Lil Shredder attacks",
+        "Name": "+{s:bonus_buffed_attacks} Lil' Shredder attacks",
         "Level": 15
       },
       {

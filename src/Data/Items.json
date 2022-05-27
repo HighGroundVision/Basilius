@@ -10,10 +10,11 @@
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_POINT",
       "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL",
-      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+      "DOTA_ABILITY_BEHAVIOR_OVERSHOOT"
     ],
     "AbilityCastRange": [
-      0.0
+      1200.0
     ],
     "AbilityCastPoint": [
       0.0
@@ -76,10 +77,11 @@
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_POINT",
       "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL",
-      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+      "DOTA_ABILITY_BEHAVIOR_OVERSHOOT"
     ],
     "AbilityCastRange": [
-      0.0
+      1200.0
     ],
     "AbilityCastPoint": [
       0.0
@@ -160,10 +162,11 @@
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_POINT",
       "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL",
-      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+      "DOTA_ABILITY_BEHAVIOR_OVERSHOOT"
     ],
     "AbilityCastRange": [
-      0.0
+      1200.0
     ],
     "AbilityCastPoint": [
       0.0
@@ -216,10 +219,11 @@
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_POINT",
       "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL",
-      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+      "DOTA_ABILITY_BEHAVIOR_OVERSHOOT"
     ],
     "AbilityCastRange": [
-      0.0
+      1200.0
     ],
     "AbilityCastPoint": [
       0.0
@@ -1249,7 +1253,7 @@
     "Id": 247,
     "Key": "item_moon_shard",
     "Name": "Moon Shard",
-    "Description": "<h1>Use: Consume</h1> Consume the Moon Shard to permanently gain 60 attack speed and 200 bonus night vision. Max 1 use.\\n<h1>Passive: Shade Sight</h1>Grants 400 bonus night vision.",
+    "Description": "<h1>Use: Consume</h1> Consume the Moon Shard to permanently gain 60 attack speed and 200 bonus night vision. Max 1 use.\\n<h1>Passive: Shade Sight</h1>Grants bonus night vision.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/247.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -2080,7 +2084,7 @@
     "Id": 26,
     "Key": "item_lifesteal",
     "Name": "Morbid Mask",
-    "Description": "<h1>Passive: Lifesteal</h1>Heals the attacker for 15% of attack damage dealt.",
+    "Description": "<h1>Passive: Lifesteal</h1>Heals the attacker for a percentage of attack damage dealt.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/26.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2130,7 +2134,7 @@
     "Id": 473,
     "Key": "item_voodoo_mask",
     "Name": "Voodoo Mask",
-    "Description": "<h1>Passive: Spell Lifesteal</h1>10% of spell damage dealt to enemy heroes is returned to the caster as health, regardless of spell damage type.  <br><br>Lifesteal reduced to 2% against creeps.",
+    "Description": "<h1>Passive: Spell Lifesteal</h1>Spell damage dealt to enemy heroes is returned to the caster as health, regardless of spell damage type.  <br><br>Lifesteal reduced against creeps.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/473.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2143,11 +2147,8 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {
-      "hero_lifesteal": [
+      "spell_lifesteal": [
         10.0
-      ],
-      "creep_lifesteal": [
-        2.0
       ]
     },
     "ItemCost": 700,
@@ -5854,7 +5855,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 400,
+    "ItemCost": 250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -5914,7 +5915,7 @@
         1200.0
       ]
     },
-    "ItemCost": 2600,
+    "ItemCost": 2450,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6016,7 +6017,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4200,
+    "ItemCost": 4050,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6497,7 +6498,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 335,
+    "ItemCost": 375,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6575,7 +6576,7 @@
         8.0
       ]
     },
-    "ItemCost": 840,
+    "ItemCost": 880,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7454,7 +7455,7 @@
     "Id": 232,
     "Key": "item_aether_lens",
     "Name": "Aether Lens",
-    "Description": "<h1>Passive: Aethereal Focus</h1> Increases targeted spell and item cast range by 225.",
+    "Description": "<h1>Passive: Aethereal Focus</h1> Increases targeted spell and item cast range.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/232.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -7660,7 +7661,7 @@
     "Id": 263,
     "Key": "item_hurricane_pike",
     "Name": "Hurricane Pike",
-    "Description": "<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target without range restrictions and with +%bonus_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\\n<h1>Passive:  Dragon's Reach</h1> Increases attack range of ranged heroes by %base_attack_range%.",
+    "Description": "<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target without range restrictions and with +%bonus_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\\n<h1>Passive:  Dragon's Reach</h1> Increases attack range of ranged heroes.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/263.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -10896,7 +10897,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1000,
+    "ItemCost": 1100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10981,7 +10982,7 @@
         4.0
       ]
     },
-    "ItemCost": 2840,
+    "ItemCost": 2980,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11602,11 +11603,8 @@
       "barrier_duration": [
         12.0
       ],
-      "hero_lifesteal": [
+      "spell_lifesteal": [
         20.0
-      ],
-      "creep_lifesteal": [
-        4.0
       ]
     },
     "ItemCost": 3300,
@@ -12677,7 +12675,7 @@
     "Id": 236,
     "Key": "item_dragon_lance",
     "Name": "Dragon Lance",
-    "Description": "<h1>Passive: Dragon's Reach</h1> Increases attack range of ranged heroes by 140.",
+    "Description": "<h1>Passive: Dragon's Reach</h1> Increases attack range of ranged heroes.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/236.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13433,7 +13431,7 @@
     "Id": 156,
     "Key": "item_satanic",
     "Name": "Satanic",
-    "Description": "<h1>Active: Unholy Rage</h1>Increases Lifesteal percentage to 200% for 6 seconds. <br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span> \\n<h1>Passive: Lifesteal</h1>Heals the attacker for 25% of attack damage dealt.",
+    "Description": "<h1>Active: Unholy Rage</h1>Increases Lifesteal percentage to %unholy_lifesteal_total_tooltip%% for %unholy_duration% seconds. <br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span> \\n<h1>Passive: Lifesteal</h1>Heals the attacker for a percentage of attack damage dealt.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/156.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13448,26 +13446,7 @@
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
-    "AbilitySpecial": {
-      "bonus_strength": [
-        25.0
-      ],
-      "bonus_damage": [
-        45.0
-      ],
-      "lifesteal_percent": [
-        25.0
-      ],
-      "unholy_lifesteal_percent": [
-        175.0
-      ],
-      "unholy_lifesteal_total_tooltip": [
-        200.0
-      ],
-      "unholy_duration": [
-        6.0
-      ]
-    },
+    "AbilitySpecial": {},
     "ItemCost": 5050,
     "ItemCombinable": true,
     "ItemPermanent": true,
@@ -13697,7 +13676,7 @@
     "Id": 160,
     "Key": "item_skadi",
     "Name": "Eye of Skadi",
-    "Description": "<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%% movement speed and by %cold_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%% movement speed and by %cold_slow_melee% attack speed. ",
+    "Description": "<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%% movement speed and by %cold_attack_slow_melee% attack speed. ",
     "Image": "https://hyperstone.highgroundvision.com/images/items/160.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14032,7 +14011,7 @@
     "Id": 635,
     "Key": "item_helm_of_the_overlord",
     "Name": "Helm of the Overlord",
-    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral target unit and sets its movement speed to 400 and max health to a minimum of 1800. Also provides the unit with +80 base attack damage, +12 health regen, +4 mana regen and +8 armor. <br><br>Dominated units with a max health of greater than 1800 retain their original max health.  Dominated unit's bounty is set to 250 gold.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Vladmir's Aura</h1>Grants 15% lifesteal, 18% bonus damage, 1.75 mana regeneration, and 3 armor to nearby allies.",
+    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral target unit and sets its movement speed to 400 and max health to a minimum of 1800. Also provides the unit with +80 base attack damage, +12 health regen, +4 mana regen and +8 armor. <br><br>Dominated units with a max health of greater than 1800 retain their original max health.  Dominated unit's bounty is set to 250 gold.<br><br>Range: %abilitycastrange%\\n<h1>Passive: Vladmir's Aura</h1>Grants 18% lifesteal, 18% bonus damage, 2 mana regeneration, and 3 armor to nearby allies.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/635.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CREEP"
@@ -14096,10 +14075,10 @@
         3.0
       ],
       "mana_regen_aura": [
-        1.75
+        2.0
       ],
       "lifesteal_aura": [
-        15.0
+        18.0
       ],
       "damage_aura": [
         18.0
@@ -14108,7 +14087,7 @@
         1200.0
       ]
     },
-    "ItemCost": 6325,
+    "ItemCost": 6175,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14443,7 +14422,7 @@
     "Id": 168,
     "Key": "item_desolator",
     "Name": "Desolator",
-    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by %corruption_armor% for %corruption_duration% seconds.\\n<h1>Passive: Soul Stealer</h1> Desolator gains +%bonus_damage_per_kill% damage per hero kill and +%bonus_damage_per_assist% damage per assist while equipped up to a maximum of %max_damage%.",
+    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by %corruption_armor% for %corruption_duration% seconds.\\n<h1>Passive: Soul Stealer</h1> Desolator gains +%bonus_damage_per_kill% damage every time an enemy hero dies while affected by Corruption, to a maximum of %max_damage%.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/168.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14632,7 +14611,7 @@
     "Id": 172,
     "Key": "item_mask_of_madness",
     "Name": "Mask of Madness",
-    "Description": "<h1>Active: Berserk</h1>Gives 110 attack speed and 30 movement speed, but reduces your armor by 8 and silences you.  Lasts 6 seconds.\\n<h1>Passive: Lifesteal</h1>Heals the attacker for 20% of attack damage dealt.",
+    "Description": "<h1>Active: Berserk</h1>Gives 110 attack speed and 30 movement speed, but reduces your armor by 8 and silences you.  Lasts 6 seconds.\\n<h1>Passive: Lifesteal</h1>Heals the attacker for a percentage of attack damage dealt.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/172.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15163,7 +15142,7 @@
     "Id": 235,
     "Key": "item_octarine_core",
     "Name": "Octarine Core",
-    "Description": "<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items by 25%.",
+    "Description": "<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/235.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15803,7 +15782,7 @@
     "Id": 931,
     "Key": "item_boots_of_bearing",
     "Name": "Boots of Bearing",
-    "Description": "<h1>Active: Endurance</h1> Consumes a charge and gives +%bonus_attack_speed_pct% attack speed, +%bonus_movement_speed_pct%% Movement Speed to nearby allies for %duration% seconds For the first %bonus_ms_duration% seconds allies are immune to slows.<br><br>Starts with 8 Charges. Gains 1 Charge every 3 minutes.<br><br> Radius: %radius%  \\n\\n<h1>Passive: Swiftness Aura</h1>Grants %aura_movement_speed% movement speed to allies.  <br><br>Radius: %radius%",
+    "Description": "<h1>Active: Endurance</h1> Consumes a charge and gives +%bonus_attack_speed_pct% attack speed, +%bonus_movement_speed_pct%%. Movement Speed to nearby allies for %duration% seconds For the first %bonus_ms_duration% seconds allies are immune to slows.<br><br>Starts with 8 Charges. Gains 1 Charge every 3 minutes.<br><br> Radius: %radius%  \\n\\n<h1>Passive: Swiftness Aura</h1>Grants %aura_movement_speed% movement speed to allies.  <br><br>Radius: %radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/931.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -18125,7 +18104,7 @@
     "Id": 289,
     "Key": "item_quickening_charm",
     "Name": "Quickening Charm",
-    "Description": "<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items by %bonus_cooldown%%",
+    "Description": "<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/289.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -19409,7 +19388,7 @@
     "Id": 311,
     "Key": "item_spell_prism",
     "Name": "Spell Prism",
-    "Description": "<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items by %bonus_cooldown%%.",
+    "Description": "<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/311.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -23415,27 +23394,15 @@
       0.0
     ],
     "AbilityCastPoint": [
-      0.0,
-      0.0,
-      0.0,
       0.0
     ],
     "AbilityCooldown": [
-      0.0,
-      0.0,
-      0.0,
       0.0
     ],
     "AbilityManaCost": [
-      0.0,
-      0.0,
-      0.0,
       0.0
     ],
     "AbilityChannelTime": [
-      0.0,
-      0.0,
-      0.0,
       0.0
     ],
     "AbilitySpecial": {},
