@@ -2959,7 +2959,7 @@
     "Id": 39,
     "Key": "item_flask",
     "Name": "Healing Salve",
-    "Description": "<h1>Use: Salve</h1> Grants 30 health regeneration to the target for 13 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Salve</h1> Grants 30 health regeneration to the target for 13 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Heals for half the amount when cast on an ally.<br><br>Range: %abilitycastrange%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/39.jpg",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -2991,7 +2991,7 @@
         1.0
       ]
     },
-    "ItemCost": 110,
+    "ItemCost": 100,
     "ItemCombinable": true,
     "ItemPermanent": false,
     "ItemStackable": true,
@@ -5993,7 +5993,7 @@
     "Id": 908,
     "Key": "item_wraith_pact",
     "Name": "Wraith Pact",
-    "Description": "<h1>Active: Wraith's Reprisal</h1>Summons a movable totem in your location for %abilityduration% seconds that reduces all damage of enemies within %aura_radius% radius by %damage_penalty_aura%% and deals %aura_dps% damage per second.<br><br> Totem can be destroyed in 5 hits. Creeps deal half damage to the totem.\\n<h1>Passive: Vladmir's Aura</h1>Grants %lifesteal_aura%% lifesteal, %damage_aura%% bonus damage, %mana_regen_aura% mana regeneration, and %armor_aura% armor to nearby allies. <br><br>Radius: %aura_radius%",
+    "Description": "<h1>Active: Wraith's Reprisal</h1>Summons a movable totem in your location for %abilityduration% seconds that reduces all damage of enemies within %pact_aura_radius% radius by %damage_penalty_aura%% and deals %aura_dps% damage per second.<br><br> Totem can be destroyed in 5 hits. Creeps deal half damage to the totem.\\n<h1>Passive: Vladmir's Aura</h1>Grants %lifesteal_aura%% lifesteal, %damage_aura%% bonus damage, %mana_regen_aura% mana regeneration, and %armor_aura% armor to nearby allies. <br><br>Radius: %aura_radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/908.jpg",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -9718,7 +9718,7 @@
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      75.0
+      90.0
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -10017,7 +10017,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      40.0
+      30.0
     ],
     "AbilityManaCost": [
       0.0
@@ -10117,7 +10117,7 @@
     ],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      12.0
+      14.0
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -11584,7 +11584,7 @@
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      60.0
+      45.0
     ],
     "AbilityManaCost": [
       50.0
@@ -11592,7 +11592,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_spell_resist": [
-        20.0
+        25.0
       ],
       "bonus_health_regen": [
         8.5
@@ -11985,7 +11985,7 @@
     "AbilityChannelTime": [],
     "AbilitySpecial": {
       "bonus_agility": [
-        30.0
+        35.0
       ],
       "bonus_evasion": [
         35.0
@@ -16364,10 +16364,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      45.0
+      25.0
     ],
     "AbilityManaCost": [
-      250.0
+      300.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},

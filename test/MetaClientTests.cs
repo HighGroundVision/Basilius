@@ -88,7 +88,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(CaptainsModeEnabled: true);
 
-            Assert.AreEqual(121, heroes.Count());
+            Assert.AreEqual(122, heroes.Count());
         }
 
         [TestMethod]
@@ -211,7 +211,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(HasScepterUpgrade: true);
 
-            Assert.AreEqual(126, abilities.Count());
+            Assert.AreEqual(128, abilities.Count());
         }
 
         [TestMethod]

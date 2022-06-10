@@ -442,7 +442,7 @@
       {
         "Id": 819,
         "Key": "special_bonus_unique_bloodseeker_7",
-        "Name": "+10% Rupture Initial Damage",
+        "Name": "+{s:bonus_hp_pct}% Rupture Initial Damage",
         "Level": 15
       },
       {
@@ -454,7 +454,7 @@
       {
         "Id": 6357,
         "Key": "special_bonus_unique_bloodseeker_3",
-        "Name": "+475 Rupture Cast Range",
+        "Name": "+{s:bonus_AbilityCastRange} Rupture Cast Range",
         "Level": 20
       },
       {
@@ -466,7 +466,7 @@
       {
         "Id": 905,
         "Key": "special_bonus_unique_bloodseeker_rupture_charges",
-        "Name": "{s:value} Rupture Charges",
+        "Name": "{s:bonus_AbilityCharges} Rupture Charges",
         "Level": 25
       },
       {
@@ -514,7 +514,7 @@
     "AttackRange": 600,
     "ProjectileSpeed": 900,
     "AttributePrimary": "INTELLECT",
-    "AttributeBaseStrength": 18,
+    "AttributeBaseStrength": 17,
     "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 3.3,
@@ -711,7 +711,7 @@
       {
         "Id": 739,
         "Key": "special_bonus_unique_drow_ranger_8",
-        "Name": "+2 Multishot Waves",
+        "Name": "+3 Multishot Waves",
         "Level": 25
       }
     ]
@@ -1411,7 +1411,7 @@
       {
         "Id": 564,
         "Key": "special_bonus_unique_phantom_lancer_6",
-        "Name": "+5% Juxtapose Damage",
+        "Name": "+8% Juxtapose Damage",
         "Level": 20
       },
       {
@@ -1572,8 +1572,8 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 42,
-    "AttackDamageMax": 48,
+    "AttackDamageMin": 45,
+    "AttackDamageMax": 51,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 600,
@@ -1623,7 +1623,7 @@
       {
         "Id": 7142,
         "Key": "special_bonus_unique_pudge_4",
-        "Name": "-14% Rot Slow",
+        "Name": "-16% Rot Slow",
         "Level": 10
       },
       {
@@ -2295,8 +2295,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 30,
+    "AttackDamageMin": 26,
+    "AttackDamageMax": 32,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 800,
@@ -3558,7 +3558,7 @@
       {
         "Id": 555,
         "Key": "special_bonus_unique_witch_doctor_7",
-        "Name": "+15% Maledict Burst Damage",
+        "Name": "+20% Maledict Burst Damage",
         "Level": 20
       },
       {
@@ -3675,7 +3675,7 @@
       {
         "Id": 795,
         "Key": "special_bonus_unique_riki_9",
-        "Name": "-{s:value}s Blink Strike Replenish Time",
+        "Name": "-{s:bonus_AbilityChargeRestoreTime}s Blink Strike Replenish Time",
         "Level": 20
       },
       {
@@ -4207,7 +4207,7 @@
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 290,
+    "MovementSpeed": 300,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": true,
     "Team": "RADIANT",
@@ -4363,37 +4363,37 @@
       {
         "Id": 506,
         "Key": "special_bonus_unique_beastmaster_5",
-        "Name": "+25 Movespeed Beastmaster Controlled",
+        "Name": "+{s:bonus_ms} Movespeed Beastmaster Controlled",
         "Level": 15
       },
       {
         "Id": 901,
         "Key": "special_bonus_unique_beastmaster_9",
-        "Name": "+2.5% Wild Axes Damage Amp Per Stack",
+        "Name": "+{s:bonus_damage_amp}% Wild Axes Damage Amp Per Stack",
         "Level": 15
       },
       {
         "Id": 6517,
         "Key": "special_bonus_unique_beastmaster_2",
-        "Name": "+35 Boar Damage",
+        "Name": "+{s:bonus_boar_bonus_damage} Boar Damage",
         "Level": 20
       },
       {
         "Id": 613,
         "Key": "special_bonus_unique_beastmaster_6",
-        "Name": "+250 Health Beastmaster Controlled",
+        "Name": "+{s:bonus_hp} Health Beastmaster Controlled",
         "Level": 20
       },
       {
         "Id": 6612,
         "Key": "special_bonus_unique_beastmaster_4",
-        "Name": "+30 Inner Beast Attack Speed",
+        "Name": "+{s:bonus_bonus_attack_speed} Inner Beast Attack Speed",
         "Level": 25
       },
       {
         "Id": 722,
         "Key": "special_bonus_unique_beastmaster_7",
-        "Name": "-30s Primal Roar Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Primal Roar Cooldown",
         "Level": 25
       }
     ]
@@ -5631,7 +5631,7 @@
     "AttributeStrengthGain": 3.4,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.7,
-    "AttributeBaseAgility": 19,
+    "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 2.0,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
@@ -6346,7 +6346,7 @@
     "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 2.7,
-    "AttributeBaseAgility": 18,
+    "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 1.8,
     "StatusHealth": 200,
     "StatusHealthRegen": 0.25,
@@ -6643,7 +6643,7 @@
       {
         "Id": 6709,
         "Key": "special_bonus_unique_omniknight_3",
-        "Name": "-4s Hammer of Purity Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Hammer of Purity Cooldown",
         "Level": 20
       },
       {
@@ -7580,7 +7580,7 @@
       {
         "Id": 658,
         "Key": "special_bonus_unique_batrider_6",
-        "Name": "-10s Flaming Lasso Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Flaming Lasso Cooldown",
         "Level": 15
       },
       {
@@ -7592,13 +7592,13 @@
       {
         "Id": 572,
         "Key": "special_bonus_unique_batrider_5",
-        "Name": "2 Flamebreak Charges",
+        "Name": "{s:bonus_AbilityCharges} Flamebreak Charges",
         "Level": 20
       },
       {
         "Id": 6087,
         "Key": "special_bonus_unique_batrider_1",
-        "Name": "+6.5s Firefly Duration",
+        "Name": "+{s:bonus_duration}s Firefly Duration",
         "Level": 25
       },
       {
@@ -8732,7 +8732,7 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "INTELLECT",
     "AttributeBaseStrength": 19,
-    "AttributeStrengthGain": 2.4,
+    "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 25,
     "AttributeIntelligenceGain": 2.9,
     "AttributeBaseAgility": 22,
@@ -8792,7 +8792,7 @@
       {
         "Id": 721,
         "Key": "special_bonus_unique_silencer_7",
-        "Name": "-20s Global Silence Cooldown",
+        "Name": "-25s Global Silence Cooldown",
         "Level": 20
       },
       {
@@ -10899,7 +10899,7 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 32,
+    "AttackDamageMin": 34,
     "AttackDamageMax": 40,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
@@ -11508,7 +11508,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "STRENGTH",
-    "AttributeBaseStrength": 24,
+    "AttributeBaseStrength": 25,
     "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 2.7,
@@ -12286,7 +12286,7 @@
       {
         "Id": 6671,
         "Key": "special_bonus_unique_legion_commander_4",
-        "Name": "+75 Overwhelming Odds Hero Damage",
+        "Name": "+100 Overwhelming Odds Hero Damage",
         "Level": 15
       },
       {
@@ -12352,7 +12352,7 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 21,
+    "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 2.2,
@@ -13958,8 +13958,8 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 29,
-    "AttackDamageMax": 37,
+    "AttackDamageMin": 26,
+    "AttackDamageMax": 34,
     "AttackRate": 1.8,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 600,
@@ -14445,8 +14445,8 @@
     "AttackRange": 150,
     "ProjectileSpeed": 900,
     "AttributePrimary": "STRENGTH",
-    "AttributeBaseStrength": 26,
-    "AttributeStrengthGain": 3.6,
+    "AttributeBaseStrength": 27,
+    "AttributeStrengthGain": 3.4,
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 14,
@@ -14542,7 +14542,7 @@
     "Animation": "https://hyperstone.highgroundvision.com/images/heroes/animation/136.webm",
     "Enabled": true,
     "NewPlayerEnable": true,
-    "CaptainsModeEnabled": false,
+    "CaptainsModeEnabled": true,
     "AbilityDraftEnabled": true,
     "AbilityReplaceRequired": false,
     "Complexity": 2,
