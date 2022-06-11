@@ -189,9 +189,9 @@ namespace HGV.Basilius.Tools.Collection
 
             var img = hero.Id;
             hero.ImageProfile = $"https://hyperstone.highgroundvision.com/images/heroes/profile/{img}.png";
-            hero.ImageBanner = $"https://hyperstone.highgroundvision.com/images/heroes/banner/{img}.jpg";
+            hero.ImageBanner = $"https://hyperstone.highgroundvision.com/images/heroes/banner/{img}.png";
             hero.ImageIcon = $"https://hyperstone.highgroundvision.com/images/heroes/icon/{img}.png";
-            hero.ImagePortrait = $"https://hyperstone.highgroundvision.com/images/heroes/portrait/{img}.jpg";
+            hero.ImagePortrait = $"https://hyperstone.highgroundvision.com/images/heroes/portrait/{img}.png";
             hero.Animation = $"https://hyperstone.highgroundvision.com/images/heroes/animation/{img}.webm";
 
             hero.Enabled = isTrue(heroesData, "npc_dota_hero_base", key, "Enabled");
@@ -392,7 +392,7 @@ namespace HGV.Basilius.Tools.Collection
                 item.Description = item_desc;
 
             var img = item.Id;
-            item.Image = $"https://hyperstone.highgroundvision.com/images/items/{img}.jpg";
+            item.Image = $"https://hyperstone.highgroundvision.com/images/items/{img}.png";
 
             item.ItemAliases = getList<string>(itemsData, "ability_base", key, "ItemAliases", ';');
             item.ItemCost = getValue<int>(itemsData, "ability_base", key, "ItemCost");
@@ -537,9 +537,9 @@ namespace HGV.Basilius.Tools.Collection
 
             var img = ability.Id;
             if(ability.IsSkill || ability.IsUltimate)
-                ability.Image = $"https://hyperstone.highgroundvision.com/images/abilities/{img}.jpg";
+                ability.Image = $"https://hyperstone.highgroundvision.com/images/abilities/{img}.png";
             else
-                ability.Image = $"https://hyperstone.highgroundvision.com/images/abilities/5002.jpg";
+                ability.Image = $"https://hyperstone.highgroundvision.com/images/abilities/5002.png";
 
             ability.AbilityBehaviors = getList<string>(abiltiesData, "ability_base", key, "AbilityBehavior", '|');
             ability.IsPassive = ability.AbilityBehaviors.Contains(AbilityBehaviors.PASSIVE);
