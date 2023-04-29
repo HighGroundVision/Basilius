@@ -34,14 +34,14 @@
     "AttackRange": 150,
     "ProjectileSpeed": 0,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 21,
+    "AttributeBaseStrength": 19,
     "AttributeStrengthGain": 1.6,
     "AttributeBaseIntelligence": 12,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 2.8,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -138,7 +138,6 @@
       "Initiator",
       "Durable",
       "Disabler",
-      "Jungler",
       "Carry"
     ],
     "Legs": 2,
@@ -159,14 +158,14 @@
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 2.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 2.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 310,
+    "MovementSpeed": 315,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -263,21 +262,21 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 33,
-    "AttackDamageMax": 39,
+    "AttackDamageMin": 4,
+    "AttackDamageMax": 10,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 400,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "INTELLECT",
-    "AttributeBaseStrength": 22,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 2.5,
-    "AttributeBaseIntelligence": 22,
+    "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 2.5,
-    "AttributeBaseAgility": 22,
+    "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 2.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -307,9 +306,9 @@
     ],
     "Talents": [
       {
-        "Id": 978,
-        "Key": "special_bonus_unique_bane_10",
-        "Name": "Nightmare Damage Heals Bane",
+        "Id": 720,
+        "Key": "special_bonus_unique_bane_8",
+        "Name": "-{s:bonus_AbilityCooldown}s Brain Sap Cooldown",
         "Level": 10
       },
       {
@@ -319,9 +318,9 @@
         "Level": 10
       },
       {
-        "Id": 720,
-        "Key": "special_bonus_unique_bane_8",
-        "Name": "-{s:bonus_AbilityCooldown}s Brain Sap Cooldown",
+        "Id": 978,
+        "Key": "special_bonus_unique_bane_10",
+        "Name": "+{s:bonus_enfeeble_tick_damage} Enfeeble Damage Per Second",
         "Level": 15
       },
       {
@@ -377,7 +376,6 @@
     "Roles": [
       "Carry",
       "Disabler",
-      "Jungler",
       "Nuker",
       "Initiator"
     ],
@@ -399,7 +397,7 @@
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 3.1,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -499,15 +497,14 @@
     "Roles": [
       "Support",
       "Disabler",
-      "Nuker",
-      "Jungler"
+      "Nuker"
     ],
     "Legs": 2,
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 28,
-    "AttackDamageMax": 34,
+    "AttackDamageMin": 30,
+    "AttackDamageMax": 36,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.45,
     "AttackAcquisitionRange": 800,
@@ -520,7 +517,7 @@
     "AttributeIntelligenceGain": 3.3,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 1.0,
@@ -574,9 +571,9 @@
         "Level": 15
       },
       {
-        "Id": 6622,
-        "Key": "special_bonus_attack_speed_200",
-        "Name": "+200 Attack Speed",
+        "Id": 6623,
+        "Key": "special_bonus_attack_speed_225",
+        "Name": "+225 Attack Speed",
         "Level": 20
       },
       {
@@ -638,7 +635,7 @@
     "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 2.9,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -655,7 +652,7 @@
       5019,
       5632,
       343,
-      6251,
+      1121,
       6251,
       5022
     ],
@@ -675,7 +672,7 @@
       {
         "Id": 6209,
         "Key": "special_bonus_unique_drow_ranger_2",
-        "Name": "+15 Frost Arrow Damage",
+        "Name": "+{s:bonus_damage} Frost Arrow Damage",
         "Level": 10
       },
       {
@@ -720,7 +717,9 @@
     "Id": 7,
     "Name": "Earthshaker",
     "Key": "npc_dota_hero_earthshaker",
-    "NameAliases": [],
+    "NameAliases": [
+      "es"
+    ],
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/7.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/7.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/7.png",
@@ -756,7 +755,7 @@
     "AttributeIntelligenceGain": 2.1,
     "AttributeBaseAgility": 12,
     "AttributeAgilityGain": 1.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -811,13 +810,13 @@
       {
         "Id": 6425,
         "Key": "special_bonus_unique_earthshaker_2",
-        "Name": "+40 Echo Damage",
+        "Name": "+50 Echo Damage",
         "Level": 20
       },
       {
         "Id": 6511,
         "Key": "special_bonus_unique_earthshaker_3",
-        "Name": "+320 Fissure Range",
+        "Name": "+300 Fissure Range",
         "Level": 20
       },
       {
@@ -829,7 +828,7 @@
       {
         "Id": 6035,
         "Key": "special_bonus_unique_earthshaker",
-        "Name": "-1.5s Enchant Totem Cooldown",
+        "Name": "-2s Enchant Totem Cooldown",
         "Level": 25
       }
     ]
@@ -859,8 +858,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 16,
-    "AttackDamageMax": 20,
+    "AttackDamageMin": 20,
+    "AttackDamageMax": 22,
     "AttackRate": 1.4,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 600,
@@ -873,7 +872,7 @@
     "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 34,
     "AttributeAgilityGain": 2.8,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -910,7 +909,7 @@
       {
         "Id": 6105,
         "Key": "special_bonus_unique_juggernaut",
-        "Name": "+75 Blade Fury Radius",
+        "Name": "+100 Blade Fury Radius",
         "Level": 10
       },
       {
@@ -978,21 +977,21 @@
     "ArmorPhysical": -2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 30,
+    "AttackDamageMin": 6,
+    "AttackDamageMax": 10,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 800,
     "AttackRange": 630,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.2,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 20,
+    "AttributeStrengthGain": 1.7,
     "AttributeBaseIntelligence": 22,
-    "AttributeIntelligenceGain": 1.9,
+    "AttributeIntelligenceGain": 1.2,
     "AttributeBaseAgility": 24,
-    "AttributeAgilityGain": 3.1,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.5,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.4,
@@ -1075,7 +1074,7 @@
     "Name": "Shadow Fiend",
     "Key": "npc_dota_hero_nevermore",
     "NameAliases": [
-      "sf"
+      "sf,nevermore"
     ],
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/11.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/11.png",
@@ -1110,7 +1109,7 @@
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 3.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.3,
@@ -1171,7 +1170,7 @@
       {
         "Id": 815,
         "Key": "special_bonus_unique_nevermore_6",
-        "Name": "+0.4s Requiem Fear per line",
+        "Name": "+0.25s Requiem Fear per line",
         "Level": 20
       },
       {
@@ -1223,13 +1222,13 @@
     "AttackRange": 350,
     "ProjectileSpeed": 1300,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 22,
+    "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 3.0,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 3.9,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -1295,9 +1294,9 @@
         "Level": 20
       },
       {
-        "Id": 7052,
-        "Key": "special_bonus_unique_morphling_6",
-        "Name": "{s:bonus_AbilityCharges} Waveform Charges",
+        "Id": 6383,
+        "Key": "special_bonus_unique_morphling_waveform_cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}% Waveform Cooldown",
         "Level": 25
       },
       {
@@ -1341,7 +1340,7 @@
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 600,
-    "AttackRange": 150,
+    "AttackRange": 225,
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
     "AttributeBaseStrength": 19,
@@ -1349,15 +1348,15 @@
     "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 26,
-    "AttributeAgilityGain": 3.2,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.8,
+    "StatusHealth": 120,
     "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 290,
+    "MovementSpeed": 285,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": true,
     "Team": "RADIANT",
@@ -1465,10 +1464,10 @@
     "AttributeBaseStrength": 17,
     "AttributeStrengthGain": 2.4,
     "AttributeBaseIntelligence": 23,
-    "AttributeIntelligenceGain": 3.5,
+    "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 2.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -1535,13 +1534,13 @@
       {
         "Id": 348,
         "Key": "special_bonus_unique_puck_5",
-        "Name": "Dream Coil Pierces Magic Immunity",
+        "Name": "Dream Coil Pierces Debuff Immunity",
         "Level": 25
       },
       {
-        "Id": 6855,
-        "Key": "special_bonus_unique_puck_3",
-        "Name": "Dream Coil Rapid Fire",
+        "Id": 1129,
+        "Key": "special_bonus_unique_puck_rift_radius",
+        "Name": "+{s:bonus_radius} Waning Rift Radius/Max Distance",
         "Level": 25
       }
     ]
@@ -1586,8 +1585,8 @@
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.4,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 2.0,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 1.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -1704,7 +1703,7 @@
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 2.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -1713,7 +1712,7 @@
     "BountyGoldMax": 0,
     "MovementSpeed": 280,
     "MovementTurnRate": 0.6,
-    "HasAggressiveStance": false,
+    "HasAggressiveStance": true,
     "Team": "RADIANT",
     "VisionDaytimeRange": 1800,
     "VisionNighttimeRange": 800,
@@ -1739,9 +1738,9 @@
         "Level": 10
       },
       {
-        "Id": 749,
-        "Key": "special_bonus_agility_9",
-        "Name": "+9 Agility",
+        "Id": 7386,
+        "Key": "special_bonus_agility_12",
+        "Name": "+12 Agility",
         "Level": 10
       },
       {
@@ -1765,7 +1764,7 @@
       {
         "Id": 6408,
         "Key": "special_bonus_unique_razor_2",
-        "Name": "0.1s Eye of the Storm Strike Interval",
+        "Name": "-0.1s Eye of the Storm Strike Interval",
         "Level": 20
       },
       {
@@ -1805,28 +1804,27 @@
       "Disabler",
       "Support",
       "Nuker",
-      "Escape",
-      "Jungler"
+      "Escape"
     ],
     "Legs": 6,
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 23,
-    "AttackDamageMax": 33,
+    "AttackDamageMin": 9,
+    "AttackDamageMax": 17,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.53,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 2.7,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 1.8,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -1857,7 +1855,7 @@
       {
         "Id": 6409,
         "Key": "special_bonus_unique_sand_king_2",
-        "Name": "+20 Sand Storm Damage Per Second",
+        "Name": "+{s:bonus_sand_storm_damage} Sand Storm Damage Per Second",
         "Level": 10
       },
       {
@@ -1869,13 +1867,13 @@
       {
         "Id": 6530,
         "Key": "special_bonus_unique_sand_king_3",
-        "Name": "+125 Sand Storm Radius",
+        "Name": "+{s:bonus_sand_storm_radius} Sand Storm Radius",
         "Level": 15
       },
       {
         "Id": 890,
         "Key": "special_bonus_unique_sand_king_8",
-        "Name": "+100 Caustic Finale Damage",
+        "Name": "+120 Caustic Finale Damage",
         "Level": 15
       },
       {
@@ -1887,13 +1885,13 @@
       {
         "Id": 6872,
         "Key": "special_bonus_unique_sand_king_5",
-        "Name": "+{s:bonus_epicenter_radius} Epicenter Radius",
+        "Name": "+{s:bonus_epicenter_radius_base} Epicenter Base Radius",
         "Level": 20
       },
       {
         "Id": 6207,
         "Key": "special_bonus_unique_sand_king",
-        "Name": "+5 Epicenter Pulses",
+        "Name": "+{s:bonus_epicenter_pulses} Epicenter Pulses",
         "Level": 25
       },
       {
@@ -1936,7 +1934,7 @@
     "AttackCapabilities": "RANGED",
     "AttackDamageMin": 24,
     "AttackDamageMax": 34,
-    "AttackRate": 1.7,
+    "AttackRate": 1.6,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 800,
     "AttackRange": 480,
@@ -1948,10 +1946,10 @@
     "AttributeIntelligenceGain": 3.9,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 2.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
-    "StatusManaRegen": 0.5,
+    "StatusManaRegen": 0.6,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -2003,7 +2001,7 @@
       {
         "Id": 6167,
         "Key": "special_bonus_unique_storm_spirit",
-        "Name": "+{s:bonus_AbilityDuration}s Electric Vortex",
+        "Name": "+{s:bonus_AbilityDuration}s Electric Vortex Duration",
         "Level": 20
       },
       {
@@ -2067,7 +2065,7 @@
     "AttributeIntelligenceGain": 1.3,
     "AttributeBaseAgility": 21,
     "AttributeAgilityGain": 2.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -2140,7 +2138,7 @@
       {
         "Id": 7112,
         "Key": "special_bonus_unique_sven_4",
-        "Name": "+1.25s Storm Hammer Stun Duration",
+        "Name": "+1s Storm Hammer Stun Duration",
         "Level": 25
       }
     ]
@@ -2187,7 +2185,7 @@
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 0,
     "AttributeAgilityGain": 0.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -2295,21 +2293,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 26,
-    "AttackDamageMax": 32,
+    "AttackDamageMin": 12,
+    "AttackDamageMax": 18,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 800,
     "AttackRange": 400,
     "ProjectileSpeed": 1500,
-    "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 19,
-    "AttributeStrengthGain": 2.6,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 20,
+    "AttributeStrengthGain": 2.1,
     "AttributeBaseIntelligence": 19,
-    "AttributeIntelligenceGain": 1.5,
-    "AttributeBaseAgility": 20,
-    "AttributeAgilityGain": 3.2,
-    "StatusHealth": 200,
+    "AttributeIntelligenceGain": 1.2,
+    "AttributeBaseAgility": 21,
+    "AttributeAgilityGain": 2.1,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -2352,7 +2350,7 @@
       {
         "Id": 6977,
         "Key": "special_bonus_unique_vengeful_spirit_4",
-        "Name": "-2 Wave of Terror Armor",
+        "Name": "--3 Wave of Terror Armor",
         "Level": 15
       },
       {
@@ -2380,9 +2378,9 @@
         "Level": 25
       },
       {
-        "Id": 6057,
-        "Key": "special_bonus_unique_vengeful_spirit_3",
-        "Name": "Magic Missile Pierces Spell Immunity",
+        "Id": 1233,
+        "Key": "special_bonus_unique_vengeful_spirit_swap_damage_reduction",
+        "Name": "+{s:bonus_damage_reduction}% Nether Swap Damage Reduction",
         "Level": 25
       }
     ]
@@ -2413,27 +2411,27 @@
       "Nuker"
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 36,
+    "AttackDamageMin": 11,
+    "AttackDamageMax": 17,
     "AttackRate": 1.5,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
     "AttackRange": 600,
     "ProjectileSpeed": 1250,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.6,
+    "AttributeStrengthGain": 2.4,
     "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 3.6,
+    "AttributeIntelligenceGain": 2.4,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 1.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.25,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -2485,7 +2483,7 @@
       {
         "Id": 7062,
         "Key": "special_bonus_unique_windranger_6",
-        "Name": "+0.8s Shackleshot Duration",
+        "Name": "+0.65s Shackleshot Duration",
         "Level": 20
       },
       {
@@ -2546,7 +2544,7 @@
     "AttributeIntelligenceGain": 3.3,
     "AttributeBaseAgility": 11,
     "AttributeAgilityGain": 1.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -2564,7 +2562,7 @@
       5111,
       641,
       6325,
-      5112,
+      1110,
       5113
     ],
     "AbilityDraftPool": [
@@ -2599,15 +2597,15 @@
         "Level": 15
       },
       {
-        "Id": 611,
-        "Key": "special_bonus_unique_zeus_4",
-        "Name": "+100 Thundergod's Wrath Damage",
+        "Id": 6501,
+        "Key": "special_bonus_unique_zeus_2",
+        "Name": "+{s:bonus_damage_health_pct}% Arc Lightning Current Health As Damage",
         "Level": 20
       },
       {
         "Id": 6518,
         "Key": "special_bonus_unique_zeus_3",
-        "Name": "+0.4s Lightning Bolt Ministun",
+        "Name": "+0.3s Lightning Bolt Ministun",
         "Level": 20
       },
       {
@@ -2617,9 +2615,9 @@
         "Level": 25
       },
       {
-        "Id": 6501,
-        "Key": "special_bonus_unique_zeus_2",
-        "Name": "+100 Arc Lightning Damage",
+        "Id": 611,
+        "Key": "special_bonus_unique_zeus_4",
+        "Name": "+{s:bonus_damage} Thundergod's Wrath Damage",
         "Level": 25
       }
     ]
@@ -2666,7 +2664,7 @@
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -2704,7 +2702,7 @@
       {
         "Id": 745,
         "Key": "special_bonus_unique_kunkka_6",
-        "Name": "+{s:bonus_ally_ms}% X Mark the Spot Move Speed",
+        "Name": "+{s:bonus_ally_ms}% X Marks the Spot Move Speed",
         "Level": 10
       },
       {
@@ -2768,7 +2766,7 @@
       "Disabler"
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
     "AttackDamageMin": 21,
@@ -2785,7 +2783,7 @@
     "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 2.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -2826,9 +2824,9 @@
         "Level": 10
       },
       {
-        "Id": 6195,
-        "Key": "special_bonus_hp_350",
-        "Name": "+350 Health",
+        "Id": 5903,
+        "Key": "special_bonus_hp_250",
+        "Name": "+250 Health",
         "Level": 15
       },
       {
@@ -2858,7 +2856,7 @@
       {
         "Id": 961,
         "Key": "special_bonus_unique_lina_7",
-        "Name": "Laguna Blade damage is Pure and pierces Spell Immunity",
+        "Name": "Laguna Blade damage is Pure",
         "Level": 25
       }
     ]
@@ -2898,10 +2896,10 @@
     "AttributeBaseStrength": 20,
     "AttributeStrengthGain": 2.1,
     "AttributeBaseIntelligence": 24,
-    "AttributeIntelligenceGain": 3.6,
+    "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 2.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.75,
@@ -3002,7 +3000,7 @@
       "Initiator"
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
     "AttackDamageMin": 29,
@@ -3017,9 +3015,9 @@
     "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 3.5,
-    "AttributeBaseAgility": 18,
+    "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -3140,7 +3138,7 @@
     "AttributeIntelligenceGain": 3.5,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -3171,19 +3169,19 @@
       {
         "Id": 468,
         "Key": "special_bonus_unique_shadow_shaman_6",
-        "Name": "+140 Shackles Total Damage",
+        "Name": "+170 Shackles Total Damage",
         "Level": 10
       },
       {
         "Id": 6877,
         "Key": "special_bonus_unique_shadow_shaman_5",
-        "Name": "-3s Hex Cooldown",
+        "Name": "-2s Hex Cooldown",
         "Level": 10
       },
       {
         "Id": 793,
         "Key": "special_bonus_unique_shadow_shaman_8",
-        "Name": "+120 Serpent Wards Attack Range",
+        "Name": "+140 Serpent Wards Attack Range",
         "Level": 15
       },
       {
@@ -3207,7 +3205,7 @@
       {
         "Id": 6502,
         "Key": "special_bonus_unique_shadow_shaman_3",
-        "Name": "+380 Ether Shock Damage",
+        "Name": "+400 Ether Shock Damage",
         "Level": 25
       },
       {
@@ -3259,7 +3257,7 @@
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 2.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -3378,7 +3376,7 @@
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -3445,7 +3443,7 @@
       {
         "Id": 7978,
         "Key": "special_bonus_unique_tidehunter_7",
-        "Name": "+{s:bonus_duration}s Ravage Stun",
+        "Name": "+{s:bonus_duration}s Ravage Stun Duration",
         "Level": 25
       },
       {
@@ -3497,7 +3495,7 @@
     "AttributeIntelligenceGain": 3.3,
     "AttributeBaseAgility": 13,
     "AttributeAgilityGain": 1.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -3558,7 +3556,7 @@
       {
         "Id": 555,
         "Key": "special_bonus_unique_witch_doctor_7",
-        "Name": "+20% Maledict Burst Damage",
+        "Name": "+25% Maledict Burst Damage",
         "Level": 20
       },
       {
@@ -3614,7 +3612,7 @@
     "AttributeIntelligenceGain": 1.3,
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 1.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 2.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -3631,7 +3629,7 @@
       5142,
       5143,
       5145,
-      550,
+      6251,
       6251,
       5144
     ],
@@ -3645,31 +3643,31 @@
       {
         "Id": 474,
         "Key": "special_bonus_unique_riki_7",
-        "Name": "+60 Smoke Screen Radius",
-        "Level": 10
-      },
-      {
-        "Id": 6193,
-        "Key": "special_bonus_unique_riki_2",
-        "Name": "+{s:bonus_slow}s Blink Strike Slow",
+        "Name": "+50 Smoke Screen Radius",
         "Level": 10
       },
       {
         "Id": 782,
         "Key": "special_bonus_unique_riki_8",
-        "Name": "8% Cloak and Dagger Movement Speed",
+        "Name": "+8% Cloak and Dagger Movement Speed",
+        "Level": 10
+      },
+      {
+        "Id": 6193,
+        "Key": "special_bonus_unique_riki_2",
+        "Name": "+{s:bonus_agility_pct}% Tricks of the Trade Agility Increase",
         "Level": 15
       },
       {
         "Id": 6865,
         "Key": "special_bonus_unique_riki_3",
-        "Name": "-4s Smoke Screen Cooldown",
+        "Name": "-3s Smoke Screen Cooldown",
         "Level": 15
       },
       {
         "Id": 6330,
         "Key": "special_bonus_unique_riki_1",
-        "Name": "+0.5 Backstab Multiplier",
+        "Name": "+0.4 Backstab Multiplier",
         "Level": 20
       },
       {
@@ -3710,7 +3708,6 @@
     "Complexity": 2,
     "Roles": [
       "Disabler",
-      "Jungler",
       "Initiator",
       "Pusher"
     ],
@@ -3718,24 +3715,24 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 30,
+    "AttackDamageMin": 7,
+    "AttackDamageMax": 13,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
     "AttackRange": 500,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 21,
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 3.6,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.5,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -3847,9 +3844,9 @@
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 30,
     "AttributeIntelligenceGain": 3.3,
-    "AttributeBaseAgility": 13,
-    "AttributeAgilityGain": 1.2,
-    "StatusHealth": 200,
+    "AttributeBaseAgility": 17,
+    "AttributeAgilityGain": 1.4,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.75,
@@ -3965,7 +3962,7 @@
     "AttributeIntelligenceGain": 2.6,
     "AttributeBaseAgility": 27,
     "AttributeAgilityGain": 3.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4014,19 +4011,19 @@
       {
         "Id": 7396,
         "Key": "special_bonus_unique_sniper_5",
-        "Name": "-14% Shrapnel Slow",
+        "Name": "+-15% Shrapnel Movement Slow",
         "Level": 15
       },
       {
         "Id": 6896,
         "Key": "special_bonus_unique_sniper_3",
-        "Name": "+{s:bonus_knockback_distance} Knockback Distance Headshot",
+        "Name": "+{s:bonus_knockback_distance} Headshot Knockback Distance",
         "Level": 20
       },
       {
         "Id": 6305,
         "Key": "special_bonus_unique_sniper_1",
-        "Name": "+24 Shrapnel DPS",
+        "Name": "+25 Shrapnel DPS",
         "Level": 20
       },
       {
@@ -4083,7 +4080,7 @@
     "AttributeIntelligenceGain": 2.7,
     "AttributeBaseAgility": 12,
     "AttributeAgilityGain": 1.3,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4126,13 +4123,13 @@
       {
         "Id": 7110,
         "Key": "special_bonus_unique_necrophos_3",
-        "Name": "+{s:bonus_movement_speed}% Ghost Shroud Slow",
+        "Name": "+{s:bonus_movement_speed}% Ghost Shroud Movement Slow",
         "Level": 15
       },
       {
         "Id": 7111,
         "Key": "special_bonus_unique_necrophos_4",
-        "Name": "+32 Death Pulse Heal",
+        "Name": "+30 Death Pulse Heal",
         "Level": 15
       },
       {
@@ -4200,7 +4197,7 @@
     "AttributeIntelligenceGain": 3.1,
     "AttributeBaseAgility": 10,
     "AttributeAgilityGain": 1.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4231,7 +4228,7 @@
       {
         "Id": 6982,
         "Key": "special_bonus_unique_warlock_5",
-        "Name": "+3% Fatal Bonds Damage",
+        "Name": "+4% Fatal Bonds Damage",
         "Level": 10
       },
       {
@@ -4247,9 +4244,9 @@
         "Level": 15
       },
       {
-        "Id": 6412,
-        "Key": "special_bonus_unique_warlock_3",
-        "Name": "-{s:bonus_AbilityCooldown}s Shadow Word Cooldown",
+        "Id": 764,
+        "Key": "special_bonus_unique_warlock_7",
+        "Name": "+{s:bonus_damage} Shadow Word Heal/Damage",
         "Level": 15
       },
       {
@@ -4259,9 +4256,9 @@
         "Level": 20
       },
       {
-        "Id": 764,
-        "Key": "special_bonus_unique_warlock_7",
-        "Name": "+{s:bonus_damage} Shadow Word Damage/Heal",
+        "Id": 6412,
+        "Key": "special_bonus_unique_warlock_3",
+        "Name": "+{s:bonus_spell_aoe} Shadow Word AoE",
         "Level": 20
       },
       {
@@ -4306,21 +4303,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 31,
-    "AttackDamageMax": 35,
+    "AttackDamageMin": 12,
+    "AttackDamageMax": 16,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 0,
-    "AttributePrimary": "STRENGTH",
-    "AttributeBaseStrength": 23,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 25,
     "AttributeStrengthGain": 2.9,
     "AttributeBaseIntelligence": 16,
-    "AttributeIntelligenceGain": 1.9,
+    "AttributeIntelligenceGain": 1.2,
     "AttributeBaseAgility": 18,
-    "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.4,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4364,7 +4361,7 @@
       {
         "Id": 506,
         "Key": "special_bonus_unique_beastmaster_5",
-        "Name": "+{s:bonus_ms} Movespeed Beastmaster Controlled",
+        "Name": "+{s:bonus_ms} Movespeed Aura to Beastmaster and his units",
         "Level": 15
       },
       {
@@ -4376,13 +4373,13 @@
       {
         "Id": 6517,
         "Key": "special_bonus_unique_beastmaster_2",
-        "Name": "+{s:bonus_boar_bonus_damage} Boar Damage",
+        "Name": "+{s:bonus_boar_bonus_damage} Boar Attack Damage",
         "Level": 20
       },
       {
         "Id": 613,
         "Key": "special_bonus_unique_beastmaster_6",
-        "Name": "+{s:bonus_hp} Health Beastmaster Controlled",
+        "Name": "+{s:bonus_hp} Max Health Aura to Beastmaster and his units",
         "Level": 20
       },
       {
@@ -4426,8 +4423,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 30,
+    "AttackDamageMin": 26,
+    "AttackDamageMax": 32,
     "AttackRate": 1.5,
     "AttackAnimationPoint": 0.56,
     "AttackAcquisitionRange": 800,
@@ -4440,7 +4437,7 @@
     "AttributeIntelligenceGain": 3.4,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 2.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4545,21 +4542,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 22,
-    "AttackDamageMax": 25,
+    "AttackDamageMin": 9,
+    "AttackDamageMax": 12,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 450,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "AGILITY",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 19,
-    "AttributeStrengthGain": 2.1,
+    "AttributeStrengthGain": 2.0,
     "AttributeBaseIntelligence": 19,
-    "AttributeIntelligenceGain": 1.8,
+    "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 24,
-    "AttributeAgilityGain": 2.8,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.0,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4577,14 +4574,14 @@
       5179,
       5180,
       986,
-      6251,
-      5181
+      5181,
+      1105
     ],
     "AbilityDraftPool": [
       5178,
       5179,
       5180,
-      5181
+      1105
     ],
     "Talents": [
       {
@@ -4614,7 +4611,7 @@
       {
         "Id": 6980,
         "Key": "special_bonus_unique_venomancer_4",
-        "Name": "+5s Poison Nova Duration",
+        "Name": "+{s:bonus_health_damage}% Noxious Plague Max HP Damage",
         "Level": 20
       },
       {
@@ -4626,7 +4623,7 @@
       {
         "Id": 6981,
         "Key": "special_bonus_unique_venomancer_5",
-        "Name": "Poison Nova reduces {s:bonus_aspd_slow} Attack Speed",
+        "Name": "Noxious Plague Aura reduces {s:bonus_attack_slow} Attack Speed",
         "Level": 25
       },
       {
@@ -4680,7 +4677,7 @@
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 3.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4804,7 +4801,7 @@
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -4847,13 +4844,13 @@
       {
         "Id": 809,
         "Key": "special_bonus_unique_wraith_king_11",
-        "Name": "+0.7s Wraithfire Blast Stun Duration",
+        "Name": "+0.5s Wraithfire Blast Stun Duration",
         "Level": 15
       },
       {
         "Id": 6822,
         "Key": "special_bonus_unique_wraith_king_6",
-        "Name": "+26 Skeletons Attack Damage",
+        "Name": "+{s:bonus_talent_skeleton_damage} Skeletons Attack Damage",
         "Level": 15
       },
       {
@@ -4919,12 +4916,12 @@
     "ProjectileSpeed": 1000,
     "AttributePrimary": "INTELLECT",
     "AttributeBaseStrength": 21,
-    "AttributeStrengthGain": 3.1,
+    "AttributeStrengthGain": 2.9,
     "AttributeBaseIntelligence": 24,
-    "AttributeIntelligenceGain": 3.3,
+    "AttributeIntelligenceGain": 3.0,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 2.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -4965,9 +4962,9 @@
         "Level": 10
       },
       {
-        "Id": 6628,
-        "Key": "special_bonus_unique_death_prophet_3",
-        "Name": "+{s:bonus_damage} Spirit Siphon Damage/Heal",
+        "Id": 5993,
+        "Key": "special_bonus_hp_300",
+        "Name": "+300 Health",
         "Level": 15
       },
       {
@@ -4979,19 +4976,19 @@
       {
         "Id": 6805,
         "Key": "special_bonus_unique_death_prophet_4",
-        "Name": "20% Spirit Siphon Move Speed Slow",
+        "Name": "25% Spirit Siphon Move Speed Slow",
         "Level": 20
       },
       {
-        "Id": 5976,
-        "Key": "special_bonus_hp_400",
-        "Name": "+400 Health",
+        "Id": 6628,
+        "Key": "special_bonus_unique_death_prophet_3",
+        "Name": "+{s:bonus_damage} Spirit Siphon Damage/Heal",
         "Level": 20
       },
       {
         "Id": 698,
         "Key": "special_bonus_unique_death_prophet_5",
-        "Name": "-20s Spirit Siphon Replenish Time",
+        "Name": "-22s Spirit Siphon Replenish Time",
         "Level": 25
       },
       {
@@ -5043,8 +5040,8 @@
     "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 3.2,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 0.75,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -5159,7 +5156,7 @@
     "AttributeIntelligenceGain": 5.2,
     "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 1.3,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -5208,7 +5205,7 @@
       {
         "Id": 6859,
         "Key": "special_bonus_unique_pugna_6",
-        "Name": "+3 Nether Ward Health",
+        "Name": "+{s:bonus_attacks_to_destroy} Nether Ward Health",
         "Level": 15
       },
       {
@@ -5232,7 +5229,7 @@
       {
         "Id": 6403,
         "Key": "special_bonus_unique_pugna_3",
-        "Name": "+1.75 Nether Ward Damage Per Mana",
+        "Name": "+{s:bonus_mana_multiplier} Nether Ward Damage Per Mana",
         "Level": 25
       }
     ]
@@ -5268,16 +5265,16 @@
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
-    "AttackRange": 160,
+    "AttackRange": 200,
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 21,
+    "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 2.4,
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 3.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -5395,7 +5392,7 @@
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 21,
     "AttributeAgilityGain": 2.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -5432,7 +5429,7 @@
       {
         "Id": 6156,
         "Key": "special_bonus_unique_viper_1",
-        "Name": "+13 Corrosive Skin Damage",
+        "Name": "+{s:bonus_damage} Corrosive Skin Damage Per Second",
         "Level": 10
       },
       {
@@ -5512,7 +5509,7 @@
     "AttributeIntelligenceGain": 1.9,
     "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 3.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -5620,8 +5617,8 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 32,
-    "AttackDamageMax": 38,
+    "AttackDamageMin": 34,
+    "AttackDamageMax": 40,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 600,
@@ -5629,12 +5626,12 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "STRENGTH",
     "AttributeBaseStrength": 21,
-    "AttributeStrengthGain": 3.4,
+    "AttributeStrengthGain": 3.6,
     "AttributeBaseIntelligence": 18,
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 2.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -5677,7 +5674,7 @@
       {
         "Id": 6635,
         "Key": "special_bonus_unique_dragon_knight_2",
-        "Name": "+0.5s Dragon Tail",
+        "Name": "+0.4s Dragon Tail Stun",
         "Level": 15
       },
       {
@@ -5689,7 +5686,7 @@
       {
         "Id": 740,
         "Key": "special_bonus_unique_dragon_knight_7",
-        "Name": "+175 Elder Dragon Form Attack Range",
+        "Name": "+150 Elder Dragon Form Attack Range",
         "Level": 20
       },
       {
@@ -5737,24 +5734,24 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 22,
-    "AttackDamageMax": 28,
+    "AttackDamageMin": 10,
+    "AttackDamageMax": 16,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 575,
     "ProjectileSpeed": 1200,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.3,
+    "AttributeStrengthGain": 2.0,
     "AttributeBaseIntelligence": 25,
-    "AttributeIntelligenceGain": 3.7,
+    "AttributeIntelligenceGain": 2.5,
     "AttributeBaseAgility": 20,
-    "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.4,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
-    "StatusManaRegen": 0.0,
+    "StatusManaRegen": 0.3,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
@@ -5769,7 +5766,7 @@
       5234,
       5235,
       6251,
-      933,
+      6251,
       7304
     ],
     "AbilityDraftPool": [
@@ -5780,9 +5777,9 @@
     ],
     "Talents": [
       {
-        "Id": 5941,
-        "Key": "special_bonus_attack_damage_50",
-        "Name": "+50 Damage",
+        "Id": 5907,
+        "Key": "special_bonus_attack_speed_30",
+        "Name": "+30 Attack Speed",
         "Level": 10
       },
       {
@@ -5818,13 +5815,13 @@
       {
         "Id": 6049,
         "Key": "special_bonus_unique_dazzle_1",
-        "Name": "{s:bonus_slow}% Poison Touch Slow",
+        "Name": "+{s:bonus_slow}% Poison Touch Slow",
         "Level": 25
       },
       {
         "Id": 6626,
         "Key": "special_bonus_unique_dazzle_4",
-        "Name": "+0.5 Bad Juju Armor Reduction",
+        "Name": "+0.5 Bad Juju Armor Reduction/Increase",
         "Level": 25
       }
     ]
@@ -5855,21 +5852,21 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 26,
+    "AttackDamageMin": 12,
+    "AttackDamageMax": 14,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "STRENGTH",
-    "AttributeBaseStrength": 26,
-    "AttributeStrengthGain": 3.5,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 27,
+    "AttributeStrengthGain": 2.8,
     "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 1.5,
+    "AttributeIntelligenceGain": 1.3,
     "AttributeBaseAgility": 13,
-    "AttributeAgilityGain": 2.3,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.8,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -5928,15 +5925,15 @@
         "Level": 20
       },
       {
-        "Id": 6364,
-        "Key": "special_bonus_unique_clockwerk_2",
-        "Name": "Power Cogs Leash Units Inside",
+        "Id": 8252,
+        "Key": "special_bonus_unique_clockwerk_flare_damage",
+        "Name": "+{s:bonus_damage} Rocket Flare Damage",
         "Level": 20
       },
       {
         "Id": 614,
         "Key": "special_bonus_unique_clockwerk_6",
-        "Name": "Spell Immunity Inside Power Cogs",
+        "Name": "Debuff Immunity Inside Power Cogs",
         "Level": 25
       },
       {
@@ -5988,7 +5985,7 @@
     "AttributeIntelligenceGain": 3.5,
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 2.8,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -6017,9 +6014,9 @@
     ],
     "Talents": [
       {
-        "Id": 6926,
-        "Key": "special_bonus_mp_regen_175",
-        "Name": "+1.75 Mana Regen",
+        "Id": 7132,
+        "Key": "special_bonus_mp_regen_150",
+        "Name": "+1.5 Mana Regen",
         "Level": 10
       },
       {
@@ -6035,15 +6032,15 @@
         "Level": 15
       },
       {
-        "Id": 5919,
-        "Key": "special_bonus_movement_speed_25",
-        "Name": "+25 Movement Speed",
+        "Id": 9418,
+        "Key": "special_bonus_unique_leshrac_7",
+        "Name": "+{s:bonus_bonus_movespeed}% Movement Speed during Pulse Nova",
         "Level": 15
       },
       {
-        "Id": 6080,
-        "Key": "special_bonus_strength_20",
-        "Name": "+20 Strength",
+        "Id": 7101,
+        "Key": "special_bonus_unique_leshrac_4",
+        "Name": "+{s:bonus_damage_resistance}% Damage Reduction during Pulse Nova",
         "Level": 20
       },
       {
@@ -6086,7 +6083,6 @@
     "Complexity": 2,
     "Roles": [
       "Carry",
-      "Jungler",
       "Pusher",
       "Escape",
       "Nuker"
@@ -6105,11 +6101,11 @@
     "AttributePrimary": "INTELLECT",
     "AttributeBaseStrength": 21,
     "AttributeStrengthGain": 2.6,
-    "AttributeBaseIntelligence": 23,
-    "AttributeIntelligenceGain": 3.7,
-    "AttributeBaseAgility": 22,
-    "AttributeAgilityGain": 3.6,
-    "StatusHealth": 200,
+    "AttributeBaseIntelligence": 22,
+    "AttributeIntelligenceGain": 3.5,
+    "AttributeBaseAgility": 20,
+    "AttributeAgilityGain": 3.4,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.75,
@@ -6140,25 +6136,25 @@
       {
         "Id": 926,
         "Key": "special_bonus_unique_furion_6",
-        "Name": "-8s Nature's Call Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Nature's Call Cooldown",
         "Level": 10
       },
       {
         "Id": 470,
         "Key": "special_bonus_unique_furion_5",
-        "Name": "+30 Wrath of Nature Base Damage",
+        "Name": "+{s:bonus_damage} Wrath of Nature Base Damage",
         "Level": 10
-      },
-      {
-        "Id": 6016,
-        "Key": "special_bonus_attack_speed_25",
-        "Name": "+25 Attack Speed",
-        "Level": 15
       },
       {
         "Id": 6500,
         "Key": "special_bonus_unique_furion_2",
-        "Name": "+5 Treants Summoned",
+        "Name": "+{s:bonus_max_treants} Treants Summoned",
+        "Level": 15
+      },
+      {
+        "Id": 1118,
+        "Key": "special_bonus_unique_furion_teleportation_max_stacks",
+        "Name": "+{s:bonus_max_stacks} Teleportation Max Stacks",
         "Level": 15
       },
       {
@@ -6170,7 +6166,7 @@
       {
         "Id": 6702,
         "Key": "special_bonus_unique_furion_4",
-        "Name": "100% Miss chance for Sprouted units",
+        "Name": "{s:bonus_blind_pct}% Miss chance for Sprouted units",
         "Level": 20
       },
       {
@@ -6182,7 +6178,7 @@
       {
         "Id": 6084,
         "Key": "special_bonus_unique_furion",
-        "Name": "2.5x Treant HP/Damage",
+        "Name": "{s:bonus_treant_health}x Treant HP/Damage",
         "Level": 25
       }
     ]
@@ -6191,7 +6187,9 @@
     "Id": 54,
     "Name": "Lifestealer",
     "Key": "npc_dota_hero_life_stealer",
-    "NameAliases": [],
+    "NameAliases": [
+      "ls"
+    ],
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/54.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/54.png",
     "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/54.png",
@@ -6206,7 +6204,6 @@
     "Roles": [
       "Carry",
       "Durable",
-      "Jungler",
       "Escape",
       "Disabler"
     ],
@@ -6228,7 +6225,7 @@
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 2.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -6327,7 +6324,6 @@
     "Complexity": 1,
     "Roles": [
       "Initiator",
-      "Jungler",
       "Escape",
       "Disabler"
     ],
@@ -6335,22 +6331,22 @@
     "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 33,
-    "AttackDamageMax": 39,
+    "AttackDamageMin": 13,
+    "AttackDamageMax": 19,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.59,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 2.7,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 1.8,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -6452,21 +6448,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 15,
-    "AttackDamageMax": 21,
+    "AttackDamageMin": 19,
+    "AttackDamageMax": 25,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
     "AttackRange": 600,
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 16,
+    "AttributeBaseStrength": 17,
     "AttributeStrengthGain": 2.0,
-    "AttributeBaseIntelligence": 18,
+    "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 2.2,
-    "AttributeBaseAgility": 22,
+    "AttributeBaseAgility": 25,
     "AttributeAgilityGain": 2.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -6480,66 +6476,66 @@
     "VisionDaytimeRange": 1800,
     "VisionNighttimeRange": 800,
     "Abilities": [
-      5259,
-      5260,
-      5261,
+      1120,
+      1119,
+      5262,
       7319,
-      6251,
-      5262
+      5259,
+      5261
     ],
     "AbilityDraftPool": [
-      5259,
-      5260,
-      5261,
-      5262
+      1120,
+      1119,
+      5262,
+      5261
     ],
     "Talents": [
       {
         "Id": 6104,
         "Key": "special_bonus_unique_clinkz_1",
-        "Name": "+20 Searing Arrows Damage",
+        "Name": "+{s:bonus_damage_bonus} Tar Bomb Bonus Attack Damage",
         "Level": 10
       },
       {
         "Id": 523,
         "Key": "special_bonus_unique_clinkz_10",
-        "Name": "-3s Skeleton Walk Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Skeleton Walk Cooldown",
         "Level": 10
+      },
+      {
+        "Id": 6027,
+        "Key": "special_bonus_attack_range_75",
+        "Name": "+75 Attack Range",
+        "Level": 15
+      },
+      {
+        "Id": 554,
+        "Key": "special_bonus_unique_clinkz_9",
+        "Name": "+{s:bonus_AbilityCharges} Death Pact Charge",
+        "Level": 15
       },
       {
         "Id": 495,
         "Key": "special_bonus_unique_clinkz_8",
-        "Name": "+20% Death Pact Health",
-        "Level": 15
-      },
-      {
-        "Id": 6231,
-        "Key": "special_bonus_unique_clinkz_2",
-        "Name": "Death Pact Steal creep abilities",
-        "Level": 15
-      },
-      {
-        "Id": 5944,
-        "Key": "special_bonus_attack_range_125",
-        "Name": "+125 Attack Range",
+        "Name": "+{s:bonus_health_gain} Death Pact Health",
         "Level": 20
       },
       {
-        "Id": 617,
-        "Key": "special_bonus_unique_clinkz_12",
-        "Name": "+3 Burning Barrage arrows",
+        "Id": 494,
+        "Key": "special_bonus_unique_clinkz_7",
+        "Name": "+{s:bonus_attack_speed_bonus} Strafe Attack Speed",
         "Level": 20
       },
       {
         "Id": 7878,
         "Key": "special_bonus_unique_clinkz_4",
-        "Name": "+{s:bonus_damage_pct}% Burning Barrage Damage",
+        "Name": "-{s:bonus_AbilityCooldown}s Strafe Cooldown",
         "Level": 25
       },
       {
         "Id": 6620,
         "Key": "special_bonus_unique_clinkz_3",
-        "Name": "Searing Arrows Multishot",
+        "Name": "Tar Bomb Multishot",
         "Level": 25
       }
     ]
@@ -6583,7 +6579,7 @@
     "AttributeIntelligenceGain": 2.1,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 2.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -6600,7 +6596,7 @@
       5263,
       895,
       656,
-      5265,
+      6251,
       6251,
       5266
     ],
@@ -6679,7 +6675,6 @@
     "Complexity": 2,
     "Roles": [
       "Support",
-      "Jungler",
       "Pusher",
       "Durable",
       "Disabler"
@@ -6702,7 +6697,7 @@
     "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 2.1,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -6731,9 +6726,9 @@
     ],
     "Talents": [
       {
-        "Id": 5937,
-        "Key": "special_bonus_magic_resistance_10",
-        "Name": "+10% Magic Resistance",
+        "Id": 5936,
+        "Key": "special_bonus_magic_resistance_8",
+        "Name": "+8% Magic Resistance",
         "Level": 10
       },
       {
@@ -6757,13 +6752,13 @@
       {
         "Id": 6379,
         "Key": "special_bonus_unique_enchantress_3",
-        "Name": "-65 Untouchable Slow",
+        "Name": "+-65 Untouchable Attack Slow",
         "Level": 20
       },
       {
-        "Id": 6331,
-        "Key": "special_bonus_unique_enchantress_1",
-        "Name": "Enchant Affects Ancients",
+        "Id": 1130,
+        "Key": "special_bonus_unique_enchantress_enchant_health_damage",
+        "Name": "+{s:bonus_enchant_health}% Enchanted Creep Health/Damage",
         "Level": 20
       },
       {
@@ -6819,7 +6814,7 @@
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 10,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -6874,13 +6869,13 @@
       {
         "Id": 462,
         "Key": "special_bonus_unique_huskar_6",
-        "Name": "+30% Berserker's Blood Regen",
+        "Name": "+25% Berserker's Blood Regen",
         "Level": 20
       },
       {
         "Id": 688,
         "Key": "special_bonus_unique_huskar_7",
-        "Name": "-4s Life Break Cooldown",
+        "Name": "-5s Life Break Cooldown",
         "Level": 20
       },
       {
@@ -6940,7 +6935,7 @@
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 2.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -7046,21 +7041,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 29,
-    "AttackDamageMax": 35,
+    "AttackDamageMin": 14,
+    "AttackDamageMax": 20,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 600,
-    "AttackRange": 150,
+    "AttackRange": 175,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "AGILITY",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 3.2,
+    "AttributeStrengthGain": 2.3,
     "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 2.0,
-    "AttributeBaseAgility": 19,
-    "AttributeAgilityGain": 3.4,
-    "StatusHealth": 200,
+    "AttributeIntelligenceGain": 1.4,
+    "AttributeBaseAgility": 18,
+    "AttributeAgilityGain": 2.4,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -7103,7 +7098,7 @@
       {
         "Id": 8033,
         "Key": "special_bonus_unique_broodmother_5",
-        "Name": "-{s:bonus_AbilityChargeRestoreTime}s Spin Web Recharge Time",
+        "Name": "-{s:bonus_AbilityChargeRestoreTime}s Spin Web Restore Time",
         "Level": 15
       },
       {
@@ -7119,9 +7114,9 @@
         "Level": 20
       },
       {
-        "Id": 6150,
-        "Key": "special_bonus_agility_25",
-        "Name": "+25 Agility",
+        "Id": 6196,
+        "Key": "special_bonus_attack_speed_35",
+        "Name": "+35 Attack Speed",
         "Level": 20
       },
       {
@@ -7178,7 +7173,7 @@
     "AttributeIntelligenceGain": 1.9,
     "AttributeBaseAgility": 21,
     "AttributeAgilityGain": 2.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -7209,19 +7204,19 @@
       {
         "Id": 869,
         "Key": "special_bonus_unique_bounty_hunter_5",
-        "Name": "+{s:bonus_slow}% Shadow Walk Slow",
+        "Name": "+{s:bonus_slow_duration}s Shuriken Toss Slow",
         "Level": 10
       },
       {
         "Id": 484,
         "Key": "special_bonus_unique_bounty_hunter_4",
-        "Name": "+40 Jinada Damage",
+        "Name": "+{s:bonus_bonus_damage} Jinada Damage",
         "Level": 10
       },
       {
         "Id": 959,
         "Key": "special_bonus_unique_bounty_hunter_9",
-        "Name": "{s:bonus_silence_duration}s Silence on Hit With Shadow Walk",
+        "Name": "-{s:bonus_damage_reduction_pct}% Damage Taken in Shadow Walk",
         "Level": 15
       },
       {
@@ -7233,13 +7228,13 @@
       {
         "Id": 878,
         "Key": "special_bonus_unique_bounty_hunter_8",
-        "Name": "Track Grants 600 Ground Vision",
+        "Name": "Track Grants Shared Vision",
         "Level": 20
       },
       {
         "Id": 6018,
         "Key": "special_bonus_unique_bounty_hunter",
-        "Name": "+50 Jinada Gold Steal",
+        "Name": "+{s:bonus_gold_steal} Jinada Gold Steal",
         "Level": 20
       },
       {
@@ -7277,7 +7272,7 @@
       "Escape"
     ],
     "Legs": 4,
-    "ArmorPhysical": 0.0,
+    "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
     "AttackDamageMin": 37,
@@ -7294,7 +7289,7 @@
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 3.1,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -7361,7 +7356,7 @@
       {
         "Id": 796,
         "Key": "special_bonus_unique_weaver_6",
-        "Name": "{s:bonus_AbilityCharges} Shukuchi Charges",
+        "Name": "-{s:bonus_AbilityCooldown}s Shukuchi Cooldown",
         "Level": 25
       },
       {
@@ -7412,7 +7407,7 @@
     "AttributeIntelligenceGain": 3.0,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -7510,7 +7505,6 @@
     "Complexity": 2,
     "Roles": [
       "Initiator",
-      "Jungler",
       "Disabler",
       "Escape"
     ],
@@ -7518,28 +7512,28 @@
     "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 17,
-    "AttackDamageMax": 21,
+    "AttackDamageMin": 0,
+    "AttackDamageMax": 4,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 400,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 28,
-    "AttributeStrengthGain": 2.9,
+    "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 22,
-    "AttributeIntelligenceGain": 2.9,
+    "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 15,
-    "AttributeAgilityGain": 1.8,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.4,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 310,
+    "MovementSpeed": 330,
     "MovementTurnRate": 0.9,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
@@ -7628,28 +7622,27 @@
     "Complexity": 3,
     "Roles": [
       "Support",
-      "Jungler",
       "Pusher"
     ],
     "Legs": 2,
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 27,
-    "AttackDamageMax": 37,
+    "AttackDamageMin": 14,
+    "AttackDamageMax": 21,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 800,
     "AttackRange": 650,
     "ProjectileSpeed": 1100,
-    "AttributePrimary": "INTELLECT",
-    "AttributeBaseStrength": 25,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 2.0,
     "AttributeBaseIntelligence": 19,
     "AttributeIntelligenceGain": 3.2,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 2.1,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -7698,7 +7691,7 @@
       {
         "Id": 529,
         "Key": "special_bonus_unique_chen_8",
-        "Name": "+12% Penitence Slow",
+        "Name": "+14% Penitence Slow",
         "Level": 15
       },
       {
@@ -7766,7 +7759,7 @@
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 25,
     "AttributeAgilityGain": 2.1,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -7815,7 +7808,7 @@
       {
         "Id": 8040,
         "Key": "special_bonus_unique_spectre_6",
-        "Name": "+100 Spectral Dagger Damage",
+        "Name": "+80 Spectral Dagger Damage",
         "Level": 15
       },
       {
@@ -7833,7 +7826,7 @@
       {
         "Id": 6902,
         "Key": "special_bonus_unique_spectre_4",
-        "Name": "+32% Haunt Illusion Damage",
+        "Name": "+30% Haunt Illusion Damage",
         "Level": 25
       },
       {
@@ -7887,7 +7880,7 @@
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -7924,7 +7917,7 @@
       {
         "Id": 6370,
         "Key": "special_bonus_unique_doom_4",
-        "Name": "+20 Scorched Earth Damage",
+        "Name": "+15 Scorched Earth Damage",
         "Level": 10
       },
       {
@@ -8006,7 +7999,7 @@
     "AttributeIntelligenceGain": 3.4,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 2.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -8062,7 +8055,7 @@
       {
         "Id": 6534,
         "Key": "special_bonus_unique_ancient_apparition_4",
-        "Name": "{s:bonus_movement_speed_pct}% Ice Vortex Slow/Resistance",
+        "Name": "+{s:bonus_movement_speed_pct}% Ice Vortex Slow/Increased Magic Damage",
         "Level": 20
       },
       {
@@ -8103,7 +8096,6 @@
     "Complexity": 1,
     "Roles": [
       "Carry",
-      "Jungler",
       "Durable",
       "Disabler"
     ],
@@ -8125,7 +8117,7 @@
     "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 2.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -8246,7 +8238,7 @@
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -8301,13 +8293,13 @@
       {
         "Id": 6149,
         "Key": "special_bonus_unique_spirit_breaker_1",
-        "Name": "+10% Greater Bash Chance",
+        "Name": "+17% Greater Bash Chance",
         "Level": 20
       },
       {
         "Id": 830,
         "Key": "special_bonus_unique_spirit_breaker_4",
-        "Name": "+175 Charge of Darkness Move Speed",
+        "Name": "+175 Charge of Darkness Bonus Speed",
         "Level": 20
       },
       {
@@ -8317,9 +8309,9 @@
         "Level": 25
       },
       {
-        "Id": 6905,
-        "Key": "special_bonus_hp_800",
-        "Name": "+800 Health",
+        "Id": 8254,
+        "Key": "special_bonus_unique_spirit_breaker_shield",
+        "Name": "Bulldoze {s:bonus_damage_barrier} All Damage Barrier",
         "Level": 25
       }
     ]
@@ -8363,7 +8355,7 @@
     "AttributeIntelligenceGain": 2.4,
     "AttributeBaseAgility": 26,
     "AttributeAgilityGain": 3.3,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -8406,7 +8398,7 @@
       {
         "Id": 7141,
         "Key": "special_bonus_unique_gyrocopter_6",
-        "Name": "+0.4s Homing Missile Stun Duration",
+        "Name": "+0.3s Homing Missile Stun Duration",
         "Level": 15
       },
       {
@@ -8424,7 +8416,7 @@
       {
         "Id": 6652,
         "Key": "special_bonus_unique_gyrocopter_3",
-        "Name": "+16 Rocket Barrage Damage",
+        "Name": "+14 Rocket Barrage Damage",
         "Level": 20
       },
       {
@@ -8483,14 +8475,14 @@
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 305,
+    "MovementSpeed": 300,
     "MovementTurnRate": 0.6,
     "HasAggressiveStance": true,
     "Team": "RADIANT",
@@ -8499,15 +8491,16 @@
     "Abilities": [
       5365,
       5366,
-      5368,
+      1116,
       642,
-      6251,
+      5368,
       5369,
       5367
     ],
     "AbilityDraftPool": [
       5365,
       5366,
+      1116,
       5368,
       5369
     ],
@@ -8603,7 +8596,7 @@
     "AttributeIntelligenceGain": 4.6,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.9,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -8648,9 +8641,9 @@
     ],
     "Talents": [
       {
-        "Id": 7390,
-        "Key": "special_bonus_unique_invoker_10",
-        "Name": "+{s:bonus_damage_per_mana_pct}% E.M.P. Mana Burnt",
+        "Id": 5761,
+        "Key": "special_bonus_unique_invoker_ice_wall_dps",
+        "Name": "+{s:bonus_damage_per_second} Ice Wall DPS",
         "Level": 10
       },
       {
@@ -8672,9 +8665,9 @@
         "Level": 15
       },
       {
-        "Id": 6811,
-        "Key": "special_bonus_unique_invoker_6",
-        "Name": "+{s:bonus_main_damage}% Chaos Meteor Damage",
+        "Id": 5762,
+        "Key": "special_bonus_unique_invoker_additional_chaos_meteors",
+        "Name": "+{s:bonus_meteor_count} Chaos Meteors",
         "Level": 20
       },
       {
@@ -8738,7 +8731,7 @@
     "AttributeIntelligenceGain": 2.9,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 2.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -8781,7 +8774,7 @@
       {
         "Id": 721,
         "Key": "special_bonus_unique_silencer_7",
-        "Name": "-25s Global Silence Cooldown",
+        "Name": "-20s Global Silence Cooldown",
         "Level": 15
       },
       {
@@ -8857,7 +8850,7 @@
     "AttributeIntelligenceGain": 4.2,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -8954,7 +8947,6 @@
     "Roles": [
       "Carry",
       "Pusher",
-      "Jungler",
       "Durable",
       "Escape"
     ],
@@ -8962,21 +8954,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 29,
+    "AttackDamageMin": 8,
+    "AttackDamageMax": 13,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.55,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 26,
-    "AttributeStrengthGain": 3.4,
+    "AttributeStrengthGain": 3.0,
     "AttributeBaseIntelligence": 23,
-    "AttributeIntelligenceGain": 1.7,
+    "AttributeIntelligenceGain": 1.2,
     "AttributeBaseAgility": 16,
-    "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.4,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -9083,21 +9075,21 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 29,
-    "AttackDamageMax": 36,
+    "AttackDamageMin": 14,
+    "AttackDamageMax": 21,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 23,
     "AttributeStrengthGain": 3.7,
     "AttributeBaseIntelligence": 15,
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 2.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -9126,9 +9118,9 @@
     ],
     "Talents": [
       {
-        "Id": 5938,
-        "Key": "special_bonus_attack_damage_15",
-        "Name": "+15 Damage",
+        "Id": 6359,
+        "Key": "special_bonus_unique_brewmaster_2",
+        "Name": "+{s:bonus_bonus_damage} Brewlings Damage",
         "Level": 10
       },
       {
@@ -9152,7 +9144,7 @@
       {
         "Id": 6082,
         "Key": "special_bonus_unique_brewmaster",
-        "Name": "+1200 Brewlings Health",
+        "Name": "+{s:bonus_bonus_brewling_hp} Brewlings Health",
         "Level": 20
       },
       {
@@ -9217,7 +9209,7 @@
     "AttributeIntelligenceGain": 3.6,
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 2.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -9264,9 +9256,9 @@
         "Level": 15
       },
       {
-        "Id": 6208,
-        "Key": "special_bonus_unique_shadow_demon_1",
-        "Name": "+200 Demonic Purge Damage",
+        "Id": 6542,
+        "Key": "special_bonus_unique_shadow_demon_3",
+        "Name": "-1s Shadow Poison Cooldown",
         "Level": 15
       },
       {
@@ -9276,9 +9268,9 @@
         "Level": 20
       },
       {
-        "Id": 6542,
-        "Key": "special_bonus_unique_shadow_demon_3",
-        "Name": "-1.25s Shadow Poison Cooldown",
+        "Id": 6208,
+        "Key": "special_bonus_unique_shadow_demon_1",
+        "Name": "+200 Demonic Purge/Cleanse Damage/Heal",
         "Level": 20
       },
       {
@@ -9316,28 +9308,27 @@
     "Roles": [
       "Carry",
       "Pusher",
-      "Jungler",
       "Durable"
     ],
     "Legs": 2,
     "ArmorPhysical": -2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 18,
-    "AttackDamageMax": 22,
+    "AttackDamageMin": 4,
+    "AttackDamageMax": 8,
     "AttackRate": 1.6,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 600,
     "AttackRange": 550,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "AGILITY",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 18,
-    "AttributeStrengthGain": 2.5,
+    "AttributeStrengthGain": 2.0,
     "AttributeBaseIntelligence": 13,
-    "AttributeIntelligenceGain": 1.4,
+    "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 20,
-    "AttributeAgilityGain": 2.8,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.0,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -9404,7 +9395,7 @@
       {
         "Id": 7382,
         "Key": "special_bonus_unique_lone_druid_10",
-        "Name": "0.1 Spirit Bear Attack Time",
+        "Name": "-0.1 Spirit Bear Base Attack Time",
         "Level": 25
       },
       {
@@ -9458,7 +9449,7 @@
     "AttributeIntelligenceGain": 1.2,
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 1.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -9489,7 +9480,7 @@
       {
         "Id": 871,
         "Key": "special_bonus_unique_chaos_knight_6",
-        "Name": "+22% Chaos Strike Lifesteal",
+        "Name": "+25% Chaos Strike Lifesteal",
         "Level": 10
       },
       {
@@ -9513,13 +9504,13 @@
       {
         "Id": 6619,
         "Key": "special_bonus_unique_chaos_knight_3",
-        "Name": "+0.5 Min/Max Chaos Bolt Duration",
+        "Name": "+0.6 Min/Max Chaos Bolt Duration",
         "Level": 20
       },
       {
         "Id": 6133,
         "Key": "special_bonus_unique_chaos_knight",
-        "Name": "Reality Rift Pierces Spell Immune",
+        "Name": "Reality Rift Pierces Spell Immunity",
         "Level": 20
       },
       {
@@ -9581,7 +9572,7 @@
     "AttributeIntelligenceGain": 1.9,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 2.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -9599,8 +9590,9 @@
       5431,
       7318,
       547,
-      6251,
-      5433
+      1109,
+      5433,
+      329
     ],
     "AbilityDraftPool": [
       5430,
@@ -9699,7 +9691,7 @@
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.8,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -9742,7 +9734,7 @@
       {
         "Id": 6955,
         "Key": "special_bonus_unique_treant_3",
-        "Name": "+15% Leech Seed Movement Slow",
+        "Name": "+18% Leech Seed Movement Slow",
         "Level": 15
       },
       {
@@ -9760,13 +9752,13 @@
       {
         "Id": 6531,
         "Key": "special_bonus_unique_treant_2",
-        "Name": "+40 Leech Seed Damage/Heal",
+        "Name": "+45 Leech Seed Damage/Heal",
         "Level": 20
       },
       {
-        "Id": 342,
-        "Key": "special_bonus_unique_treant_11",
-        "Name": "Overgrowth Undispellable",
+        "Id": 1131,
+        "Key": "special_bonus_unique_treant_14",
+        "Name": "-{s:bonus_AbilityCooldown}s Overgrowth Cooldown",
         "Level": 25
       },
       {
@@ -9806,23 +9798,23 @@
     "ArmorPhysical": 4.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 54,
-    "AttackDamageMax": 60,
+    "AttackDamageMin": 44,
+    "AttackDamageMax": 50,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "STRENGTH",
     "AttributeBaseStrength": 23,
-    "AttributeStrengthGain": 3.3,
-    "AttributeBaseIntelligence": 15,
-    "AttributeIntelligenceGain": 2.5,
+    "AttributeStrengthGain": 4.2,
+    "AttributeBaseIntelligence": 0,
+    "AttributeIntelligenceGain": 0.0,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
-    "StatusMana": 75,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 0.75,
+    "StatusMana": 120,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
     "BountyGoldMin": 0,
@@ -9839,7 +9831,8 @@
       5440,
       5466,
       648,
-      5441
+      5441,
+      1115
     ],
     "AbilityDraftPool": [
       5438,
@@ -9939,7 +9932,7 @@
     "AttributeIntelligenceGain": 2.8,
     "AttributeBaseAgility": 10,
     "AttributeAgilityGain": 1.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.25,
@@ -9956,7 +9949,7 @@
       5442,
       5443,
       5444,
-      6251,
+      1108,
       6251,
       5447
     ],
@@ -9970,7 +9963,7 @@
       {
         "Id": 813,
         "Key": "special_bonus_unique_undying_8",
-        "Name": "+60 Decay Damage",
+        "Name": "+{s:bonus_decay_damage} Decay Damage",
         "Level": 10
       },
       {
@@ -9982,13 +9975,13 @@
       {
         "Id": 6155,
         "Key": "special_bonus_unique_undying",
-        "Name": "+22 Tombstone Zombie Damage",
+        "Name": "+{s:bonus_zombie_damage_tooltip} Tombstone Zombie Damage",
         "Level": 15
       },
       {
         "Id": 616,
         "Key": "special_bonus_unique_undying_6",
-        "Name": "+12 Soul Rip Damage/Heal",
+        "Name": "+10 Soul Rip Damage/Heal",
         "Level": 15
       },
       {
@@ -10004,15 +9997,15 @@
         "Level": 20
       },
       {
-        "Id": 449,
-        "Key": "special_bonus_reincarnation_300",
-        "Name": "Gains Reincarnation 300 CD",
+        "Id": 6971,
+        "Key": "special_bonus_unique_undying_4",
+        "Name": "+{s:bonus_str_percentage}% Flesh Golem Strength Bonus",
         "Level": 25
       },
       {
         "Id": 6972,
         "Key": "special_bonus_unique_undying_5",
-        "Name": "+6 Tombstone Attacks to Destroy",
+        "Name": "+{s:bonus_hits_to_destroy_tooltip} Tombstone Attacks to Destroy",
         "Level": 25
       }
     ]
@@ -10044,8 +10037,8 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 24,
-    "AttackDamageMax": 30,
+    "AttackDamageMin": 27,
+    "AttackDamageMax": 33,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
@@ -10058,7 +10051,7 @@
     "AttributeIntelligenceGain": 3.1,
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 2.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -10093,7 +10086,7 @@
       {
         "Id": 897,
         "Key": "special_bonus_unique_rubick_8",
-        "Name": "+175 Telekinesis Landing Damage",
+        "Name": "+150 Telekinesis Landing Damage",
         "Level": 10
       },
       {
@@ -10111,7 +10104,7 @@
       {
         "Id": 787,
         "Key": "special_bonus_unique_rubick_7",
-        "Name": "+0.6s Telekinesis Lift Duration",
+        "Name": "+0.4s Telekinesis Lift Duration",
         "Level": 15
       },
       {
@@ -10182,7 +10175,7 @@
     "AttributeIntelligenceGain": 2.9,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -10219,7 +10212,7 @@
       {
         "Id": 6536,
         "Key": "special_bonus_unique_disruptor_3",
-        "Name": "+30 Thunder Strike Damage",
+        "Name": "+{s:bonus_radius} Thunder Strike Radius",
         "Level": 10
       },
       {
@@ -10231,7 +10224,7 @@
       {
         "Id": 517,
         "Key": "special_bonus_unique_disruptor_7",
-        "Name": "+2s Static Storm Duration",
+        "Name": "+1.5s Static Storm Duration",
         "Level": 15
       },
       {
@@ -10243,7 +10236,7 @@
       {
         "Id": 6215,
         "Key": "special_bonus_unique_disruptor",
-        "Name": "+3 Thunder Strike Hits",
+        "Name": "+{s:bonus_slow_duration}s Thunder Strike Slow Duration",
         "Level": 20
       },
       {
@@ -10255,7 +10248,7 @@
       {
         "Id": 737,
         "Key": "special_bonus_unique_disruptor_8",
-        "Name": "+250 Static Storm AoE",
+        "Name": "+200 Static Storm Radius",
         "Level": 25
       }
     ]
@@ -10288,21 +10281,21 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 27,
-    "AttackDamageMax": 31,
+    "AttackDamageMin": 15,
+    "AttackDamageMax": 19,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.46,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "AGILITY",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 17,
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 21,
-    "AttributeIntelligenceGain": 2.1,
+    "AttributeIntelligenceGain": 2.5,
     "AttributeBaseAgility": 18,
-    "AttributeAgilityGain": 2.5,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.1,
+    "StatusHealth": 120,
     "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -10317,7 +10310,7 @@
     "VisionNighttimeRange": 800,
     "Abilities": [
       5462,
-      5463,
+      1104,
       5464,
       5666,
       6251,
@@ -10326,7 +10319,7 @@
     ],
     "AbilityDraftPool": [
       5462,
-      5463,
+      1104,
       5464,
       5465
     ],
@@ -10340,7 +10333,7 @@
       {
         "Id": 402,
         "Key": "special_bonus_unique_nyx_4",
-        "Name": "+0.25s Impale Stun Duration",
+        "Name": "+0.2s Impale Stun Duration",
         "Level": 10
       },
       {
@@ -10352,7 +10345,7 @@
       {
         "Id": 778,
         "Key": "special_bonus_unique_nyx_5",
-        "Name": "+{s:bonus_float_multiplier}x Mana Burn Intelligence Multiplier",
+        "Name": "+{s:bonus_float_multiplier}x Mind Flare Intelligence Multiplier",
         "Level": 15
       },
       {
@@ -10370,7 +10363,7 @@
       {
         "Id": 6130,
         "Key": "special_bonus_unique_nyx",
-        "Name": "{s:bonus_aoe} Mana Burn Radius",
+        "Name": "{s:bonus_aoe} Mind Flare Radius",
         "Level": 25
       },
       {
@@ -10408,7 +10401,7 @@
       "Escape"
     ],
     "Legs": 0,
-    "ArmorPhysical": 3.0,
+    "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
     "AttackDamageMin": 23,
@@ -10420,13 +10413,13 @@
     "ProjectileSpeed": 900,
     "AttributePrimary": "AGILITY",
     "AttributeBaseStrength": 21,
-    "AttributeStrengthGain": 2.8,
+    "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 21,
     "AttributeIntelligenceGain": 2.0,
     "AttributeBaseAgility": 21,
     "AttributeAgilityGain": 3.3,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 1.5,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 1.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
     "BountyXP": 62,
@@ -10481,7 +10474,7 @@
       {
         "Id": 601,
         "Key": "special_bonus_unique_naga_siren_5",
-        "Name": "+{s:bonus_radius} Song of the Siren Radius",
+        "Name": "-{s:value}s Song of the Siren Cooldown",
         "Level": 20
       },
       {
@@ -10499,7 +10492,7 @@
       {
         "Id": 6701,
         "Key": "special_bonus_unique_naga_siren_3",
-        "Name": "-7 Rip Tide Armor",
+        "Name": "--1 Attack to Trigger Rip Tide",
         "Level": 25
       }
     ]
@@ -10527,15 +10520,14 @@
     "Roles": [
       "Support",
       "Nuker",
-      "Disabler",
-      "Jungler"
+      "Disabler"
     ],
     "Legs": 2,
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 18,
-    "AttackDamageMax": 25,
+    "AttackDamageMin": 20,
+    "AttackDamageMax": 27,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
@@ -10548,7 +10540,7 @@
     "AttributeIntelligenceGain": 3.2,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -10556,16 +10548,16 @@
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
     "MovementSpeed": 320,
-    "MovementTurnRate": 0.6,
+    "MovementTurnRate": 0.7,
     "HasAggressiveStance": false,
     "Team": "RADIANT",
     "VisionDaytimeRange": 1800,
     "VisionNighttimeRange": 800,
     "Abilities": [
       5471,
-      532,
-      5473,
       5476,
+      5473,
+      532,
       7316,
       5474,
       5477,
@@ -10657,21 +10649,21 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 28,
-    "AttackDamageMax": 34,
+    "AttackDamageMin": 7,
+    "AttackDamageMax": 13,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 500,
     "ProjectileSpeed": 1200,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 17,
-    "AttributeStrengthGain": 3.0,
+    "AttributeStrengthGain": 2.7,
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -10721,7 +10713,7 @@
       {
         "Id": 6265,
         "Key": "special_bonus_unique_wisp",
-        "Name": "+55 Spirits Hero Damage",
+        "Name": "+{s:bonus_hero_damage} Spirits Hero Damage",
         "Level": 15
       },
       {
@@ -10779,21 +10771,21 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 23,
-    "AttackDamageMax": 33,
+    "AttackDamageMin": 7,
+    "AttackDamageMax": 17,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.4,
     "AttackAcquisitionRange": 800,
     "AttackRange": 600,
     "ProjectileSpeed": 1400,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 22,
-    "AttributeStrengthGain": 2.8,
+    "AttributeStrengthGain": 2.4,
     "AttributeBaseIntelligence": 22,
-    "AttributeIntelligenceGain": 2.9,
+    "AttributeIntelligenceGain": 2.4,
     "AttributeBaseAgility": 11,
-    "AttributeAgilityGain": 1.3,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.0,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -10849,7 +10841,7 @@
       {
         "Id": 6983,
         "Key": "special_bonus_unique_visage_4",
-        "Name": "+20 Soul Assumption Damage Per Charge",
+        "Name": "+25 Soul Assumption Damage Per Charge",
         "Level": 20
       },
       {
@@ -10914,7 +10906,7 @@
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 21,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -10975,7 +10967,7 @@
       {
         "Id": 892,
         "Key": "special_bonus_unique_slark_7",
-        "Name": "+75 Shadow Dance Attack Speed",
+        "Name": "+80 Shadow Dance Attack Speed",
         "Level": 20
       },
       {
@@ -11027,13 +11019,13 @@
     "AttackRange": 600,
     "ProjectileSpeed": 1200,
     "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 17,
-    "AttributeStrengthGain": 1.5,
-    "AttributeBaseIntelligence": 23,
-    "AttributeIntelligenceGain": 3.4,
+    "AttributeBaseStrength": 0,
+    "AttributeStrengthGain": 0.0,
+    "AttributeBaseIntelligence": 27,
+    "AttributeIntelligenceGain": 3.7,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 3.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -11068,9 +11060,9 @@
         "Level": 10
       },
       {
-        "Id": 920,
-        "Key": "special_bonus_unique_medusa_6",
-        "Name": "+{s:bonus_damage_per_mana} Mana Shield Damage per Mana",
+        "Id": 1345,
+        "Key": "special_bonus_unique_medusa_8",
+        "Name": "+{s:bonus_bonus_physical_damage}% Stone Gaze Bonus Physical Damage",
         "Level": 10
       },
       {
@@ -11098,9 +11090,9 @@
         "Level": 20
       },
       {
-        "Id": 528,
-        "Key": "special_bonus_intelligence_75",
-        "Name": "+75 Intelligence",
+        "Id": 920,
+        "Key": "special_bonus_unique_medusa_6",
+        "Name": "+{s:bonus_damage_per_mana} Mana Shield Damage per Mana",
         "Level": 25
       },
       {
@@ -11151,9 +11143,9 @@
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 13,
     "AttributeIntelligenceGain": 1.0,
-    "AttributeBaseAgility": 21,
+    "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 3.3,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -11274,7 +11266,7 @@
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 5.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -11380,21 +11372,21 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 32,
-    "AttackDamageMax": 40,
+    "AttackDamageMin": 17,
+    "AttackDamageMax": 25,
     "AttackRate": 1.8,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 25,
-    "AttributeStrengthGain": 3.5,
+    "AttributeStrengthGain": 3.1,
     "AttributeBaseIntelligence": 19,
-    "AttributeIntelligenceGain": 2.1,
+    "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 15,
-    "AttributeAgilityGain": 2.5,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.0,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -11425,19 +11417,19 @@
       {
         "Id": 6690,
         "Key": "special_bonus_unique_magnus_4",
-        "Name": "+10s Empower Duration",
+        "Name": "+{s:bonus_empower_duration}s Empower Duration",
         "Level": 10
       },
       {
         "Id": 525,
         "Key": "special_bonus_unique_magnus_6",
-        "Name": "+{s:value}s Shockwave Slow Duration",
+        "Name": "+{s:bonus_basic_slow_duration}s Shockwave Slow Duration",
         "Level": 10
       },
       {
         "Id": 1037,
-        "Key": "special_bonus_unique_magnus_reverse_polarity_strength",
-        "Name": "+{s:bonus_strength_per_stack} Strength per hero hit with Reverse Polarity",
+        "Key": "special_bonus_unique_magnus_reverse_polarity_stats",
+        "Name": "+{s:bonus_stats_per_stack} All Stats per hero hit with Reverse Polarity",
         "Level": 15
       },
       {
@@ -11461,7 +11453,7 @@
       {
         "Id": 6390,
         "Key": "special_bonus_unique_magnus_2",
-        "Name": "+10% Empower Damage/Cleave",
+        "Name": "+{s:bonus_bonus_damage_pct}% Empower Damage/Cleave",
         "Level": 25
       },
       {
@@ -11501,21 +11493,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 27,
-    "AttackDamageMax": 31,
+    "AttackDamageMin": 10,
+    "AttackDamageMax": 14,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.36,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 25,
-    "AttributeStrengthGain": 3.5,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 23,
     "AttributeIntelligenceGain": 2.7,
     "AttributeBaseAgility": 16,
-    "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.3,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -11570,9 +11562,9 @@
         "Level": 15
       },
       {
-        "Id": 447,
-        "Key": "special_bonus_strength_16",
-        "Name": "+16 Strength",
+        "Id": 6000,
+        "Key": "special_bonus_magic_resistance_20",
+        "Name": "+20% Magic Resistance",
         "Level": 20
       },
       {
@@ -11584,7 +11576,7 @@
       {
         "Id": 6223,
         "Key": "special_bonus_unique_timbersaw",
-        "Name": "+10% Whirling Death Attribute Reduction",
+        "Name": "Second Chakram",
         "Level": 25
       },
       {
@@ -11638,8 +11630,8 @@
     "AttributeIntelligenceGain": 2.8,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 1.8,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.25,
     "BountyXP": 62,
@@ -11757,7 +11749,7 @@
     "AttributeIntelligenceGain": 1.7,
     "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 2.1,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -11789,7 +11781,7 @@
       {
         "Id": 6961,
         "Key": "special_bonus_unique_tusk_3",
-        "Name": "+25 Tag Team Damage",
+        "Name": "+{s:bonus_bonus_damage} Tag Team Damage",
         "Level": 10
       },
       {
@@ -11877,7 +11869,7 @@
     "AttributeIntelligenceGain": 4.1,
     "AttributeBaseAgility": 13,
     "AttributeAgilityGain": 0.8,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -11906,9 +11898,9 @@
     ],
     "Talents": [
       {
-        "Id": 6034,
-        "Key": "special_bonus_hp_175",
-        "Name": "+175 Health",
+        "Id": 5959,
+        "Key": "special_bonus_hp_200",
+        "Name": "+200 Health",
         "Level": 10
       },
       {
@@ -11938,7 +11930,7 @@
       {
         "Id": 6885,
         "Key": "special_bonus_unique_skywrath_3",
-        "Name": "-12% Ancient Seal Magic Resistance Reduction",
+        "Name": "+-10% Ancient Seal Increased Magic Damage",
         "Level": 20
       },
       {
@@ -11950,7 +11942,7 @@
       {
         "Id": 6921,
         "Key": "special_bonus_unique_skywrath_5",
-        "Name": "+450 Mystic Flare Damage",
+        "Name": "+400 Mystic Flare Damage",
         "Level": 25
       }
     ]
@@ -11982,21 +11974,21 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 28,
-    "AttackDamageMax": 38,
-    "AttackRate": 1.7,
+    "AttackDamageMin": 9,
+    "AttackDamageMax": 19,
+    "AttackRate": 1.5,
     "AttackAnimationPoint": 0.56,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 22,
-    "AttributeStrengthGain": 2.6,
+    "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 18,
-    "AttributeIntelligenceGain": 2.0,
+    "AttributeIntelligenceGain": 1.2,
     "AttributeBaseAgility": 23,
-    "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.3,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.25,
@@ -12051,13 +12043,13 @@
       {
         "Id": 6100,
         "Key": "special_bonus_unique_abaddon",
-        "Name": "+{s:bonus_damage_absorb} Aphotic Shield Health",
+        "Name": "+{s:bonus_damage_absorb} Aphotic Shield Barrier Amount",
         "Level": 20
       },
       {
-        "Id": 7340,
-        "Key": "special_bonus_unique_abaddon_5",
-        "Name": "-{s:bonus_AbilityCooldown}s Borrowed Time Cooldown",
+        "Id": 8251,
+        "Key": "special_bonus_unique_abaddon_immolation",
+        "Name": "{s:bonus_immolate_damage} DPS Borrowed Time Immolation",
         "Level": 20
       },
       {
@@ -12079,7 +12071,7 @@
     "Name": "Elder Titan",
     "Key": "npc_dota_hero_elder_titan",
     "NameAliases": [
-      "TC,Cairne"
+      "TC,Cairne,et"
     ],
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/103.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/103.png",
@@ -12116,8 +12108,8 @@
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 16,
     "AttributeAgilityGain": 1.8,
-    "StatusHealth": 200,
-    "StatusHealthRegen": 0.25,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.25,
     "BountyXP": 62,
@@ -12160,7 +12152,7 @@
       {
         "Id": 6378,
         "Key": "special_bonus_unique_elder_titan_2",
-        "Name": "+{s:value} Echo Stomp Damage",
+        "Name": "+{s:bonus_stomp_damage} Echo Stomp Damage",
         "Level": 15
       },
       {
@@ -12184,13 +12176,13 @@
       {
         "Id": 6720,
         "Key": "special_bonus_unique_elder_titan_3",
-        "Name": "-60 Earth Splitter Cooldown",
+        "Name": "-60s Earth Splitter Cooldown",
         "Level": 25
       },
       {
         "Id": 7350,
         "Key": "special_bonus_unique_elder_titan_4",
-        "Name": "+{s:value} Echo Stomp Wake Damage",
+        "Name": "+{s:bonus_wake_damage_limit} Echo Stomp Wake Damage",
         "Level": 25
       }
     ]
@@ -12200,7 +12192,7 @@
     "Name": "Legion Commander",
     "Key": "npc_dota_hero_legion_commander",
     "NameAliases": [
-      "Tresdin,Legion"
+      "Tresdin,Legion,lc"
     ],
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/104.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/104.png",
@@ -12238,7 +12230,7 @@
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -12267,9 +12259,9 @@
     ],
     "Talents": [
       {
-        "Id": 6449,
-        "Key": "special_bonus_unique_legion_commander_2",
-        "Name": "+100 Overwhelming Odds Radius",
+        "Id": 1113,
+        "Key": "special_bonus_unique_legion_commander_9",
+        "Name": "-{s:bonus_AbilityCooldown}s Overwhelming Odds Cooldown",
         "Level": 10
       },
       {
@@ -12281,13 +12273,13 @@
       {
         "Id": 463,
         "Key": "special_bonus_unique_legion_commander_6",
-        "Name": "+40 Press The Attack HP Regen",
+        "Name": "+30 Press The Attack HP Regen",
         "Level": 15
       },
       {
         "Id": 6671,
         "Key": "special_bonus_unique_legion_commander_4",
-        "Name": "+100 Overwhelming Odds Hero Damage",
+        "Name": "+{s:bonus_damage_per_hero} Overwhelming Odds Damage per Hero",
         "Level": 15
       },
       {
@@ -12299,7 +12291,7 @@
       {
         "Id": 6526,
         "Key": "special_bonus_unique_legion_commander_3",
-        "Name": "+10% Moment of Courage Proc Chance",
+        "Name": "+12% Moment of Courage Proc Chance",
         "Level": 20
       },
       {
@@ -12311,7 +12303,7 @@
       {
         "Id": 925,
         "Key": "special_bonus_unique_legion_commander_8",
-        "Name": "Press the Attack grants 1.5s Spell Immunity",
+        "Name": "Press the Attack grants 1.5s Debuff Immunity",
         "Level": 25
       }
     ]
@@ -12342,7 +12334,7 @@
       "Initiator"
     ],
     "Legs": 2,
-    "ArmorPhysical": -1.0,
+    "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
     "AttackDamageMin": 33,
@@ -12359,7 +12351,7 @@
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 3.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -12388,15 +12380,15 @@
     ],
     "Talents": [
       {
-        "Id": 5938,
-        "Key": "special_bonus_attack_damage_15",
-        "Name": "+15 Damage",
+        "Id": 6159,
+        "Key": "special_bonus_attack_damage_12",
+        "Name": "+12 Damage",
         "Level": 10
       },
       {
         "Id": 6172,
         "Key": "special_bonus_unique_ember_spirit_1",
-        "Name": "+200 Flame Guard Absorption",
+        "Name": "+200 Flame Guard Barrier Amount",
         "Level": 10
       },
       {
@@ -12420,7 +12412,7 @@
       {
         "Id": 353,
         "Key": "special_bonus_unique_ember_spirit_6",
-        "Name": "+65 Sleight of Fist Hero Damage",
+        "Name": "+55 Sleight of Fist Hero Damage",
         "Level": 20
       },
       {
@@ -12480,7 +12472,7 @@
     "AttributeIntelligenceGain": 2.1,
     "AttributeBaseAgility": 17,
     "AttributeAgilityGain": 2.4,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -12515,15 +12507,15 @@
         "Level": 10
       },
       {
-        "Id": 7661,
-        "Key": "special_bonus_unique_earth_spirit_6",
-        "Name": "+{s:bonus_damage_duration}s Magnetize Duration",
+        "Id": 5949,
+        "Key": "special_bonus_spell_amplify_8",
+        "Name": "+8% Spell Amplification",
         "Level": 10
       },
       {
         "Id": 977,
         "Key": "special_bonus_unique_earth_spirit_8",
-        "Name": "+{s:bonus_damage_per_second} Magnetize Damage Per Second",
+        "Name": "+{s:bonus_damage_duration}% Magnetize Damage & Duration",
         "Level": 15
       },
       {
@@ -12533,27 +12525,27 @@
         "Level": 15
       },
       {
-        "Id": 6514,
-        "Key": "special_bonus_unique_earth_spirit_2",
-        "Name": "Geomagnetic Grip Targets Allies",
+        "Id": 7661,
+        "Key": "special_bonus_unique_earth_spirit_6",
+        "Name": "+{s:bonus_rock_damage} Boulder Smash Damage",
         "Level": 20
       },
       {
         "Id": 7657,
         "Key": "special_bonus_unique_earth_spirit_5",
-        "Name": "+3s Geomagnetic Grip Silence",
+        "Name": "-{s:bonus_AbilityCooldown}s Geomagnetic Grip Cooldown",
         "Level": 20
       },
       {
-        "Id": 6327,
-        "Key": "special_bonus_spell_amplify_25",
-        "Name": "+25% Spell Amplification",
+        "Id": 6514,
+        "Key": "special_bonus_unique_earth_spirit_2",
+        "Name": "Magnetize Undispellable",
         "Level": 25
       },
       {
         "Id": 6640,
         "Key": "special_bonus_unique_earth_spirit_3",
-        "Name": "+0.6s Rolling Boulder Stun Duration",
+        "Name": "+0.5s Rolling Boulder Stun Duration",
         "Level": 25
       }
     ]
@@ -12599,7 +12591,7 @@
     "AttributeIntelligenceGain": 1.6,
     "AttributeBaseAgility": 22,
     "AttributeAgilityGain": 4.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.5,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -12648,7 +12640,7 @@
       {
         "Id": 924,
         "Key": "special_bonus_unique_terrorblade_6",
-        "Name": "+{s:bonus_move_slow}% Reflection Slow",
+        "Name": "+{s:bonus_move_slow}% Reflection Slow/Damage",
         "Level": 15
       },
       {
@@ -12666,7 +12658,7 @@
       {
         "Id": 6107,
         "Key": "special_bonus_unique_terrorblade",
-        "Name": "-34s Sunder Cooldown",
+        "Name": "-30s Sunder Cooldown",
         "Level": 25
       },
       {
@@ -12706,21 +12698,21 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 26,
-    "AttackDamageMax": 36,
+    "AttackDamageMin": 14,
+    "AttackDamageMax": 24,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 800,
     "AttackRange": 525,
     "ProjectileSpeed": 1100,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 23,
-    "AttributeStrengthGain": 3.6,
+    "AttributeStrengthGain": 3.3,
     "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 1.8,
     "AttributeBaseAgility": 12,
     "AttributeAgilityGain": 1.5,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 2.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -12784,7 +12776,7 @@
       {
         "Id": 6085,
         "Key": "special_bonus_unique_phoenix_2",
-        "Name": "+0.5s Supernova Stun Duration",
+        "Name": "+0.4s Supernova Stun Duration",
         "Level": 20
       },
       {
@@ -12843,7 +12835,7 @@
     "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -12880,7 +12872,7 @@
       {
         "Id": 791,
         "Key": "special_bonus_unique_oracle_9",
-        "Name": "+{s:value} Armor False Promise",
+        "Name": "+{s:bonus_bonus_armor} Armor False Promise",
         "Level": 10
       },
       {
@@ -12892,13 +12884,13 @@
       {
         "Id": 405,
         "Key": "special_bonus_unique_oracle_5",
-        "Name": "-1.25s Purifying Flames Cooldown",
+        "Name": "-1s Purifying Flames Cooldown",
         "Level": 15
       },
       {
         "Id": 471,
         "Key": "special_bonus_unique_oracle_6",
-        "Name": "-{s:value}s False Promise Cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s False Promise Cooldown",
         "Level": 20
       },
       {
@@ -12916,7 +12908,7 @@
       {
         "Id": 6206,
         "Key": "special_bonus_unique_oracle",
-        "Name": "+{s:value}s False Promise Duration",
+        "Name": "+{s:bonus_duration}s False Promise Duration",
         "Level": 25
       }
     ]
@@ -12945,21 +12937,21 @@
     "ArmorPhysical": 3.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 21,
-    "AttackDamageMax": 23,
+    "AttackDamageMin": 12,
+    "AttackDamageMax": 14,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.5,
     "AttackAcquisitionRange": 800,
     "AttackRange": 700,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 19,
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 25,
     "AttributeIntelligenceGain": 3.0,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.3,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 1.0,
@@ -13071,7 +13063,7 @@
     "AttributePrimary": "AGILITY",
     "AttributeBaseStrength": 31,
     "AttributeStrengthGain": 0.0,
-    "AttributeBaseIntelligence": 30,
+    "AttributeBaseIntelligence": 0,
     "AttributeIntelligenceGain": 0.0,
     "AttributeBaseAgility": 0,
     "AttributeAgilityGain": 0.0,
@@ -13117,21 +13109,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 14,
-    "AttackDamageMax": 21,
+    "AttackDamageMin": 0,
+    "AttackDamageMax": 5,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.25,
     "AttackAcquisitionRange": 800,
     "AttackRange": 425,
     "ProjectileSpeed": 700,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 22,
-    "AttributeStrengthGain": 2.5,
+    "AttributeStrengthGain": 2.2,
     "AttributeBaseIntelligence": 26,
-    "AttributeIntelligenceGain": 3.6,
+    "AttributeIntelligenceGain": 2.8,
     "AttributeBaseAgility": 16,
-    "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.5,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -13198,7 +13190,7 @@
       {
         "Id": 6523,
         "Key": "special_bonus_unique_winter_wyvern_3",
-        "Name": "+1.5s Winter's Curse Duration",
+        "Name": "+1.25s Winter's Curse Duration",
         "Level": 25
       },
       {
@@ -13250,7 +13242,7 @@
     "AttributeIntelligenceGain": 2.6,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 3.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -13284,9 +13276,9 @@
         "Level": 10
       },
       {
-        "Id": 6405,
-        "Key": "special_bonus_hp_225",
-        "Name": "+225 Health",
+        "Id": 5959,
+        "Key": "special_bonus_hp_200",
+        "Name": "+200 Health",
         "Level": 10
       },
       {
@@ -13298,25 +13290,25 @@
       {
         "Id": 7104,
         "Key": "special_bonus_unique_arc_warden_3",
-        "Name": "+{s:bonus_attack_speed_bonus} Magnetic Field Attack Speed",
+        "Name": "+{s:bonus_attack_speed_bonus} Magnetic Field Attack Speed/Bonus Magic Damage",
         "Level": 15
       },
       {
         "Id": 6287,
         "Key": "special_bonus_unique_arc_warden",
-        "Name": "+{s:bonus_spark_damage} Spark Wraith Damage",
+        "Name": "+{s:bonus_spark_damage_base}% Spark Wraith Damage",
         "Level": 20
       },
       {
-        "Id": 6354,
-        "Key": "special_bonus_unique_arc_warden_2",
-        "Name": "+{s:bonus_damage_per_second} Flux Damage",
+        "Id": 1112,
+        "Key": "special_bonus_unique_arc_warden_9",
+        "Name": "-{s:bonus_AbilityCooldown}s Magnetic Field Cooldown",
         "Level": 20
       },
       {
-        "Id": 975,
-        "Key": "special_bonus_unique_arc_warden_7",
-        "Name": "+{s:bonus_tempest_double_cooldown_reduction}% Tempest Double Cooldown Reduction",
+        "Id": 1111,
+        "Key": "special_bonus_unique_arc_warden_8",
+        "Name": "No Damage Penalty Distance For Tempest Double",
         "Level": 25
       },
       {
@@ -13332,7 +13324,7 @@
     "Name": "Underlord",
     "Key": "npc_dota_hero_abyssal_underlord",
     "NameAliases": [
-      "PitLord,Azgalor"
+      "PitLord,Azgalor,ul"
     ],
     "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/108.png",
     "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/108.png",
@@ -13370,7 +13362,7 @@
     "AttributeIntelligenceGain": 2.3,
     "AttributeBaseAgility": 12,
     "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -13488,9 +13480,9 @@
     "AttributeStrengthGain": 2.8,
     "AttributeBaseIntelligence": 20,
     "AttributeIntelligenceGain": 1.8,
-    "AttributeBaseAgility": 22,
+    "AttributeBaseAgility": 23,
     "AttributeAgilityGain": 3.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 1.0,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -13545,9 +13537,9 @@
         "Level": 15
       },
       {
-        "Id": 822,
-        "Key": "special_bonus_unique_monkey_king_11",
-        "Name": "+2 Jingu Mastery Charges",
+        "Id": 747,
+        "Key": "special_bonus_unique_monkey_king_8",
+        "Name": "0 Cooldown Primal Spring",
         "Level": 20
       },
       {
@@ -13557,9 +13549,9 @@
         "Level": 20
       },
       {
-        "Id": 747,
-        "Key": "special_bonus_unique_monkey_king_8",
-        "Name": "0 Cooldown Primal Spring",
+        "Id": 822,
+        "Key": "special_bonus_unique_monkey_king_11",
+        "Name": "-{s:bonus_required_hits} Jingu Mastery Required Hits",
         "Level": 25
       },
       {
@@ -13597,24 +13589,24 @@
       "Initiator"
     ],
     "Legs": 2,
-    "ArmorPhysical": 1.0,
+    "ArmorPhysical": 2.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 33,
-    "AttackDamageMax": 39,
+    "AttackDamageMin": 18,
+    "AttackDamageMax": 24,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.33,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "AGILITY",
-    "AttributeBaseStrength": 17,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 19,
     "AttributeStrengthGain": 2.5,
     "AttributeBaseIntelligence": 16,
     "AttributeIntelligenceGain": 1.9,
     "AttributeBaseAgility": 18,
-    "AttributeAgilityGain": 3.2,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.5,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -13652,7 +13644,7 @@
       {
         "Id": 9063,
         "Key": "special_bonus_unique_pangolier",
-        "Name": "+400 Swashbuckle Slash Range",
+        "Name": "+350 Swashbuckle Slash Range",
         "Level": 10
       },
       {
@@ -13670,7 +13662,7 @@
       {
         "Id": 9060,
         "Key": "special_bonus_unique_pangolier_3",
-        "Name": "+30 Swashbuckle Damage",
+        "Name": "+25 Swashbuckle Damage",
         "Level": 20
       },
       {
@@ -13682,13 +13674,13 @@
       {
         "Id": 9061,
         "Key": "special_bonus_unique_pangolier_4",
-        "Name": "3s Swashbuckle Cooldown",
+        "Name": "-3s Swashbuckle Cooldown",
         "Level": 25
       },
       {
         "Id": 9062,
         "Key": "special_bonus_unique_pangolier_5",
-        "Name": "-20s Rolling Thunder Cooldown",
+        "Name": "-18s Rolling Thunder Cooldown",
         "Level": 25
       }
     ]
@@ -13719,21 +13711,21 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 27,
-    "AttackDamageMax": 35,
+    "AttackDamageMin": 9,
+    "AttackDamageMax": 17,
     "AttackRate": 1.5,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 800,
     "AttackRange": 475,
     "ProjectileSpeed": 1200,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 20,
     "AttributeStrengthGain": 2.0,
     "AttributeBaseIntelligence": 21,
-    "AttributeIntelligenceGain": 3.5,
+    "AttributeIntelligenceGain": 2.6,
     "AttributeBaseAgility": 18,
-    "AttributeAgilityGain": 1.6,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.3,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -13764,7 +13756,7 @@
       {
         "Id": 515,
         "Key": "special_bonus_unique_dark_willow_6",
-        "Name": "+0.5s Cursed Crown Stun Duration",
+        "Name": "+0.4s Cursed Crown Stun Duration",
         "Level": 10
       },
       {
@@ -13804,9 +13796,9 @@
         "Level": 25
       },
       {
-        "Id": 6465,
-        "Key": "special_bonus_unique_dark_willow_2",
-        "Name": "Bedlam Pierces Magic Immunity",
+        "Id": 1133,
+        "Key": "special_bonus_unique_dark_willow_bedlam_targets",
+        "Name": "+{s:bonus_target_count} Bedlam Attack Targets",
         "Level": 25
       }
     ]
@@ -13853,7 +13845,7 @@
     "AttributeIntelligenceGain": 3.8,
     "AttributeBaseAgility": 18,
     "AttributeAgilityGain": 1.9,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -13884,7 +13876,7 @@
       {
         "Id": 774,
         "Key": "special_bonus_unique_grimstroke_8",
-        "Name": "+50 Phantom's Embrace DPS",
+        "Name": "+65 Phantom's Embrace DPS",
         "Level": 10
       },
       {
@@ -13926,7 +13918,7 @@
       {
         "Id": 8002,
         "Key": "special_bonus_unique_grimstroke_2",
-        "Name": "+50% Stroke of Fate Damage",
+        "Name": "+60% Stroke of Fate Damage",
         "Level": 25
       }
     ]
@@ -13973,7 +13965,7 @@
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 20,
     "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.5,
@@ -14034,7 +14026,7 @@
       {
         "Id": 6584,
         "Key": "special_bonus_unique_mars_spear_stun_duration",
-        "Name": "+0.8s Spear of Mars Stun",
+        "Name": "+0.6s Spear of Mars Stun",
         "Level": 20
       },
       {
@@ -14079,28 +14071,28 @@
     "ArmorPhysical": -1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 30,
-    "AttackDamageMax": 34,
+    "AttackDamageMin": 15,
+    "AttackDamageMax": 19,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 600,
     "AttackRange": 200,
     "ProjectileSpeed": 900,
-    "AttributePrimary": "INTELLECT",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 22,
     "AttributeStrengthGain": 2.6,
     "AttributeBaseIntelligence": 24,
     "AttributeIntelligenceGain": 3.1,
     "AttributeBaseAgility": 19,
     "AttributeAgilityGain": 2.2,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.6,
     "BountyXP": 62,
     "BountyGoldMin": 0,
     "BountyGoldMax": 0,
-    "MovementSpeed": 295,
+    "MovementSpeed": 290,
     "MovementTurnRate": 0.7,
     "HasAggressiveStance": true,
     "Team": "RADIANT",
@@ -14199,21 +14191,21 @@
     "ArmorPhysical": 1.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "RANGED",
-    "AttackDamageMin": 26,
-    "AttackDamageMax": 32,
+    "AttackDamageMin": 8,
+    "AttackDamageMax": 14,
     "AttackRate": 1.6,
     "AttackAnimationPoint": 0.35,
     "AttackAcquisitionRange": 800,
     "AttackRange": 500,
     "ProjectileSpeed": 1800,
-    "AttributePrimary": "STRENGTH",
-    "AttributeBaseStrength": 20,
-    "AttributeStrengthGain": 3.5,
+    "AttributePrimary": "ALL",
+    "AttributeBaseStrength": 21,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 21,
-    "AttributeIntelligenceGain": 2.2,
+    "AttributeIntelligenceGain": 2.1,
     "AttributeBaseAgility": 16,
-    "AttributeAgilityGain": 1.9,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 1.2,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.75,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -14244,7 +14236,7 @@
       {
         "Id": 384,
         "Key": "special_bonus_unique_snapfire_7",
-        "Name": "+60 Scatterblast Damage",
+        "Name": "+70 Scatterblast Damage",
         "Level": 10
       },
       {
@@ -14333,7 +14325,7 @@
     "AttributeIntelligenceGain": 2.9,
     "AttributeBaseAgility": 24,
     "AttributeAgilityGain": 3.6,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -14452,7 +14444,7 @@
     "AttributeIntelligenceGain": 2.2,
     "AttributeBaseAgility": 14,
     "AttributeAgilityGain": 1.7,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -14484,19 +14476,19 @@
       {
         "Id": 7941,
         "Key": "special_bonus_unique_dawnbreaker_fire_wreath_swipe",
-        "Name": "+18 Starbreaker Swipe/Smash Damage",
+        "Name": "+{s:bonus_swipe_damage} Starbreaker Swipe/Smash Damage",
         "Level": 10
       },
       {
         "Id": 7942,
         "Key": "special_bonus_unique_dawnbreaker_celestial_hammer_slow",
-        "Name": "+12% Celestial Hammer Slow",
+        "Name": "+{s:bonus_move_slow}% Celestial Hammer Slow",
         "Level": 10
       },
       {
         "Id": 7937,
         "Key": "special_bonus_unique_dawnbreaker_luminosity_crit",
-        "Name": "+50% Luminosity Crit",
+        "Name": "+50% Luminosity Critical Strike Damage",
         "Level": 15
       },
       {
@@ -14518,15 +14510,15 @@
         "Level": 20
       },
       {
-        "Id": 7939,
-        "Key": "special_bonus_unique_dawnbreaker_fire_wreath_charges",
-        "Name": "2 Starbreaker Charges",
+        "Id": 7931,
+        "Key": "special_bonus_unique_dawnbreaker_fire_wreath_cooldown",
+        "Name": "-{s:bonus_AbilityCooldown}s Starbreaker Cooldown",
         "Level": 25
       },
       {
         "Id": 7934,
         "Key": "special_bonus_unique_dawnbreaker_celestial_hammer_cast_range",
-        "Name": "+1100 Celestial Hammer Cast Range",
+        "Name": "+{s:bonus_range}% Celestial Hammer Cast Range/Speed",
         "Level": 25
       }
     ]
@@ -14558,21 +14550,21 @@
     "ArmorPhysical": 0.0,
     "MagicalResistance": 25,
     "AttackCapabilities": "MELEE",
-    "AttackDamageMin": 33,
-    "AttackDamageMax": 37,
+    "AttackDamageMin": 15,
+    "AttackDamageMax": 21,
     "AttackRate": 1.7,
     "AttackAnimationPoint": 0.3,
     "AttackAcquisitionRange": 600,
     "AttackRange": 150,
     "ProjectileSpeed": 0,
-    "AttributePrimary": "STRENGTH",
+    "AttributePrimary": "ALL",
     "AttributeBaseStrength": 23,
-    "AttributeStrengthGain": 3.6,
+    "AttributeStrengthGain": 3.2,
     "AttributeBaseIntelligence": 19,
-    "AttributeIntelligenceGain": 1.9,
+    "AttributeIntelligenceGain": 1.5,
     "AttributeBaseAgility": 20,
-    "AttributeAgilityGain": 2.4,
-    "StatusHealth": 200,
+    "AttributeAgilityGain": 2.0,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -14603,7 +14595,7 @@
       {
         "Id": 8243,
         "Key": "special_bonus_unique_marci_lunge_range",
-        "Name": "+125 Rebound Cast/Jump Range",
+        "Name": "+100 Rebound Cast/Jump Range",
         "Level": 10
       },
       {
@@ -14637,15 +14629,15 @@
         "Level": 20
       },
       {
-        "Id": 8241,
-        "Key": "special_bonus_unique_marci_unleash_silence",
-        "Name": "1.5s Unleash Pulse Silence",
+        "Id": 8347,
+        "Key": "special_bonus_unique_marci_dispose_range",
+        "Name": "+{s:bonus_throw_distance_behind} Dispose Throw Distance",
         "Level": 25
       },
       {
         "Id": 8239,
         "Key": "special_bonus_unique_marci_guardian_magic_immune",
-        "Name": "1.5s Sidekick Spell Immunity",
+        "Name": "1.5s Sidekick Debuff Immunity",
         "Level": 25
       }
     ]
@@ -14689,7 +14681,7 @@
     "AttributeIntelligenceGain": 1.4,
     "AttributeBaseAgility": 15,
     "AttributeAgilityGain": 1.0,
-    "StatusHealth": 200,
+    "StatusHealth": 120,
     "StatusHealthRegen": 0.25,
     "StatusMana": 75,
     "StatusManaRegen": 0.0,
@@ -14738,7 +14730,7 @@
       {
         "Id": 7740,
         "Key": "special_bonus_unique_primal_beast_roar_dispells",
-        "Name": "Beast dispells himself when activating Uproar",
+        "Name": "Beast dispels himself when activating Uproar",
         "Level": 15
       },
       {
@@ -14754,15 +14746,135 @@
         "Level": 20
       },
       {
-        "Id": 904,
-        "Key": "special_bonus_unique_primal_beast_pulverize_pierces_magic_immunity",
-        "Name": "Pulverize Pierces Magic Immunity",
+        "Id": 1132,
+        "Key": "special_bonus_unique_primal_beast_trample_unslowable",
+        "Name": "Cannot be slowed or rooted during Trample",
         "Level": 25
       },
       {
         "Id": 7743,
         "Key": "special_bonus_unique_primal_beast_pulverize_duration",
         "Name": "+{s:bonus_channel_time}% Pulverize Duration",
+        "Level": 25
+      }
+    ]
+  },
+  {
+    "Id": 138,
+    "Name": "Muerta",
+    "Key": "npc_dota_hero_muerta",
+    "NameAliases": [],
+    "ImageProfile": "https://hyperstone.highgroundvision.com/images/heroes/profile/138.png",
+    "ImageIcon": "https://hyperstone.highgroundvision.com/images/heroes/icon/138.png",
+    "ImageBanner": "https://hyperstone.highgroundvision.com/images/heroes/banner/138.png",
+    "ImagePortrait": "https://hyperstone.highgroundvision.com/images/heroes/portrait/138.png",
+    "Animation": "https://hyperstone.highgroundvision.com/images/heroes/animation/138.webm",
+    "Enabled": true,
+    "NewPlayerEnable": false,
+    "CaptainsModeEnabled": true,
+    "AbilityDraftEnabled": true,
+    "AbilityReplaceRequired": false,
+    "Complexity": 1,
+    "Roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "Legs": 2,
+    "ArmorPhysical": -1.0,
+    "MagicalResistance": 25,
+    "AttackCapabilities": "RANGED",
+    "AttackDamageMin": 24,
+    "AttackDamageMax": 32,
+    "AttackRate": 1.6,
+    "AttackAnimationPoint": 0.35,
+    "AttackAcquisitionRange": 800,
+    "AttackRange": 575,
+    "ProjectileSpeed": 3000,
+    "AttributePrimary": "INTELLECT",
+    "AttributeBaseStrength": 19,
+    "AttributeStrengthGain": 2.0,
+    "AttributeBaseIntelligence": 24,
+    "AttributeIntelligenceGain": 3.3,
+    "AttributeBaseAgility": 20,
+    "AttributeAgilityGain": 2.7,
+    "StatusHealth": 120,
+    "StatusHealthRegen": 0.25,
+    "StatusMana": 75,
+    "StatusManaRegen": 0.0,
+    "BountyXP": 62,
+    "BountyGoldMin": 0,
+    "BountyGoldMax": 0,
+    "MovementSpeed": 295,
+    "MovementTurnRate": 0.7,
+    "HasAggressiveStance": true,
+    "Team": "RADIANT",
+    "VisionDaytimeRange": 1800,
+    "VisionNighttimeRange": 800,
+    "Abilities": [
+      5751,
+      5752,
+      5753,
+      5760,
+      6251,
+      5754,
+      6251,
+      6251,
+      6251
+    ],
+    "AbilityDraftPool": [
+      5751,
+      5752,
+      5753,
+      5754
+    ],
+    "Talents": [
+      {
+        "Id": 5756,
+        "Key": "special_bonus_unique_muerta_dead_shot_damage",
+        "Name": "+{s:bonus_damage} Dead Shot Damage",
+        "Level": 10
+      },
+      {
+        "Id": 5982,
+        "Key": "special_bonus_strength_8",
+        "Name": "+8 Strength",
+        "Level": 10
+      },
+      {
+        "Id": 5757,
+        "Key": "special_bonus_unique_muerta_dead_shot_range",
+        "Name": "+{s:bonus_AbilityCastRange} Dead Shot Cast Range",
+        "Level": 15
+      },
+      {
+        "Id": 6164,
+        "Key": "special_bonus_attack_damage_35",
+        "Name": "+35 Damage",
+        "Level": 15
+      },
+      {
+        "Id": 5755,
+        "Key": "special_bonus_unique_muerta_dead_shot_charges",
+        "Name": "2 Dead Shot Charges",
+        "Level": 20
+      },
+      {
+        "Id": 5759,
+        "Key": "special_bonus_unique_muerta_gunslinger_double_shot_chance",
+        "Name": "+{s:bonus_double_shot_chance}% Gunslinger chance",
+        "Level": 20
+      },
+      {
+        "Id": 5758,
+        "Key": "special_bonus_unique_muerta_the_calling_num_revenants",
+        "Name": "The Calling summons {s:bonus_num_revenants} additional revenants",
+        "Level": 25
+      },
+      {
+        "Id": 6091,
+        "Key": "special_bonus_magic_resistance_25",
+        "Name": "+25% Magic Resistance",
         "Level": 25
       }
     ]
