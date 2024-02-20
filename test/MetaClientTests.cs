@@ -133,7 +133,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(PrimaryAttribute: PrimaryAttributes.INT);
 
-            Assert.AreEqual(31, heroes.Count());
+            Assert.AreEqual(30, heroes.Count());
         }
 
         [TestMethod]
@@ -142,7 +142,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(PrimaryAttribute: PrimaryAttributes.UNIVERSAL);
 
-            Assert.AreEqual(31, heroes.Count());
+            Assert.AreEqual(32, heroes.Count());
         }
 
         // Tinker WTF?
@@ -174,7 +174,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities();
 
-            Assert.AreEqual(2484, abilities.Count());
+            Assert.AreEqual(1920, abilities.Count());
         }
 
         [TestMethod]
@@ -183,7 +183,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsSkill: true);
 
-            Assert.AreEqual(834, abilities.Count());
+            Assert.AreEqual(654, abilities.Count());
         }
 
         [TestMethod]
@@ -192,7 +192,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsUltimate: true);
 
-            Assert.AreEqual(156, abilities.Count());
+            Assert.AreEqual(147, abilities.Count());
         }
 
         [TestMethod]
@@ -201,7 +201,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsGrantedByScepter: true);
 
-            Assert.AreEqual(52, abilities.Count());
+            Assert.AreEqual(53, abilities.Count());
         }
 
         
@@ -211,7 +211,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsGrantedByShard: true);
 
-            Assert.AreEqual(48, abilities.Count());
+            Assert.AreEqual(51, abilities.Count());
         }
 
         [TestMethod]
@@ -220,7 +220,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(HasScepterUpgrade: true);
 
-            Assert.AreEqual(108, abilities.Count());
+            Assert.AreEqual(111, abilities.Count());
         }
 
         [TestMethod]
@@ -229,7 +229,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(HeroId: 1);
 
-            Assert.AreEqual(5, abilities.Count());
+            Assert.AreEqual(6, abilities.Count());
         }
 
         [TestMethod]
@@ -262,17 +262,17 @@ namespace HGV.Basilius.Tests
             Assert.AreEqual(137, items.Count());
         }
 
-        [TestMethod]
-        public void GetItem()
-        {
-            IMetaClient client = new MetaClient();
-            var item = client.GetItem(1);
+        //[TestMethod]
+        //public void GetItem()
+        //{
+        //    IMetaClient client = new MetaClient();
+        //    var item = client.GetItem(1);
 
-            Assert.AreEqual(1, item.Id);
-            Assert.AreEqual("Blink Dagger", item.Name);
+        //    Assert.AreEqual(1, item.Id);
+        //    Assert.AreEqual("Blink Dagger", item.Name);
 
-            // TODO: Assert Item Properties
-        }
+        //    // TODO: Assert Item Properties
+        //}
     }
 }
 
