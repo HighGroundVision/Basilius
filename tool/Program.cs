@@ -19,7 +19,7 @@ class Program
   static async Task Main(string[] args)
   {
     Console.WriteLine("Enter Stratz Token");
-    var stratzToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWJqZWN0IjoiYjAwN2ZhYjQtMjJkMy00MDVlLWEzMWQtOWMyY2I2YTQ1MDQzIiwiU3RlYW1JZCI6IjEzMDI5ODEyIiwibmJmIjoxNzI2NjY2NDU4LCJleHAiOjE3NTgyMDI0NTgsImlhdCI6MTcyNjY2NjQ1OCwiaXNzIjoiaHR0cHM6Ly9hcGkuc3RyYXR6LmNvbSJ9.fsfEZ8oyDRf8xeTzdmStImjBp-bC6--kNFOeAJLonUM"; // Console.ReadLine();
+    var stratzToken = Console.ReadLine();
 
     var client = new HttpClient();
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", stratzToken);
