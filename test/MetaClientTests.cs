@@ -70,7 +70,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes();
 
-            Assert.AreEqual(125, heroes.Count());
+            Assert.AreEqual(126, heroes.Count());
         }
 
         [TestMethod]
@@ -79,7 +79,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(enabled: true);
 
-            Assert.AreEqual(124, heroes.Count());
+            Assert.AreEqual(125, heroes.Count());
         }
 
         [TestMethod]
@@ -97,7 +97,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(AbilityDraftEnabled: true);
 
-            Assert.AreEqual(124, heroes.Count());
+            Assert.AreEqual(125, heroes.Count());
         }
 
         [TestMethod]
@@ -124,7 +124,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(PrimaryAttribute: PrimaryAttributes.STR);
 
-            Assert.AreEqual(31, heroes.Count());
+            Assert.AreEqual(32, heroes.Count());
         }
 
         [TestMethod]
@@ -133,7 +133,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(PrimaryAttribute: PrimaryAttributes.INT);
 
-            Assert.AreEqual(30, heroes.Count());
+            Assert.AreEqual(31, heroes.Count());
         }
 
         [TestMethod]
@@ -142,7 +142,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var heroes = client.GetHeroes(PrimaryAttribute: PrimaryAttributes.UNIVERSAL);
 
-            Assert.AreEqual(32, heroes.Count());
+            Assert.AreEqual(31, heroes.Count());
         }
 
         // Tinker WTF?
@@ -153,7 +153,7 @@ namespace HGV.Basilius.Tests
             var heroes = client.GetHeroes();
             var collection = heroes.Where(_ => _.AbilityDraftPool.Count() > 4).ToList();
 
-            Assert.AreEqual(2, collection.Count);
+            Assert.AreEqual(1, collection.Count);
         }
 
         [TestMethod]
@@ -174,7 +174,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities();
 
-            Assert.AreEqual(1920, abilities.Count());
+            Assert.AreEqual(1943, abilities.Count());
         }
 
         [TestMethod]
@@ -183,7 +183,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsSkill: true);
 
-            Assert.AreEqual(654, abilities.Count());
+            Assert.AreEqual(867, abilities.Count());
         }
 
         [TestMethod]
@@ -192,7 +192,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsUltimate: true);
 
-            Assert.AreEqual(147, abilities.Count());
+            Assert.AreEqual(148, abilities.Count());
         }
 
         [TestMethod]
@@ -201,7 +201,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsGrantedByScepter: true);
 
-            Assert.AreEqual(53, abilities.Count());
+            Assert.AreEqual(51, abilities.Count());
         }
 
         
@@ -211,7 +211,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(IsGrantedByShard: true);
 
-            Assert.AreEqual(51, abilities.Count());
+            Assert.AreEqual(43, abilities.Count());
         }
 
         [TestMethod]
@@ -220,7 +220,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var abilities = client.GetAbilities(HasScepterUpgrade: true);
 
-            Assert.AreEqual(111, abilities.Count());
+            Assert.AreEqual(116, abilities.Count());
         }
 
         [TestMethod]
@@ -250,7 +250,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var items = client.GetItems();
 
-            Assert.AreEqual(483, items.Count());
+            Assert.AreEqual(501, items.Count());
         }
 
         [TestMethod]
@@ -259,7 +259,7 @@ namespace HGV.Basilius.Tests
             IMetaClient client = new MetaClient();
             var items = client.GetItems(IsNeutralDrop: true);
 
-            Assert.AreEqual(137, items.Count());
+            Assert.AreEqual(145, items.Count());
         }
 
         //[TestMethod]
