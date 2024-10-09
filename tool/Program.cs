@@ -1,5 +1,6 @@
 ﻿using Gameloop.Vdf;
 using Gameloop.Vdf.JsonConverter;
+using Gameloop.Vdf.Linq;
 using HGV.Basilius.Contants;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -11,7 +12,6 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-
 namespace HGV.Basilius.Tools.Collection;
 
 class Program
@@ -19,7 +19,7 @@ class Program
   static async Task Main(string[] args)
   {
     Console.WriteLine("Enter Stratz Token");
-    var stratzToken = Console.ReadLine();
+    var stratzToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWJqZWN0IjoiYjAwN2ZhYjQtMjJkMy00MDVlLWEzMWQtOWMyY2I2YTQ1MDQzIiwiU3RlYW1JZCI6IjEzMDI5ODEyIiwibmJmIjoxNzI2NjY2NDU4LCJleHAiOjE3NTgyMDI0NTgsImlhdCI6MTcyNjY2NjQ1OCwiaXNzIjoiaHR0cHM6Ly9hcGkuc3RyYXR6LmNvbSJ9.fsfEZ8oyDRf8xeTzdmStImjBp-bC6--kNFOeAJLonUM"; // Console.ReadLine();
 
     var client = new HttpClient();
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", stratzToken);
@@ -54,23 +54,60 @@ class Program
   }
 
   #region Lanaguage
+  
 
   private static async Task<Dictionary<string, string>> ExtractAbilityLanaguage(HttpClient client)
   {
-    var json = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/abilities_english.json");
-    JObject root = JObject.Parse(json);
-    JObject tokens = (JObject)root["lang"]["Tokens"];
+    var settings = new VdfJsonConversionSettings()
+    {
+      ObjectDuplicateKeyHandling = DuplicateKeyHandling.Replace,
+      ValueDuplicateKeyHandling = DuplicateKeyHandling.Replace
+    };
+    var options = new VdfSerializerSettings()
+    {
+      UsesEscapeSequences = true,
+    };
+
+    var vfd = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/abilities_english.txt");
+    var root = VdfConvert.Deserialize(vfd, options);
+    var json = root.Value.ToJson(settings);
+
+    JObject tokens = (JObject)json["Tokens"];
     var collection = tokens.Properties().ToDictionary(_ => _.Name.ToUpper(), _ => (string)_.Value);
     return collection;
+
+    //JObject root = await GetJson(client, "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/abilities_english.txt");
+    //JObject tokens = (JObject)root["Tokens"];
+    //var collection = tokens.Properties().ToDictionary(_ => _.Name.ToUpper(), _ => (string)_.Value);
+    //return collection;
   }
+
 
   private static async Task<Dictionary<string, string>> ExtractRootLanaguage(HttpClient client)
   {
-    var json = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/dota_english.json");
-    JObject root = JObject.Parse(json);
-    JObject tokens = (JObject)root["lang"]["Tokens"];
+    var settings = new VdfJsonConversionSettings()
+    {
+      ObjectDuplicateKeyHandling = DuplicateKeyHandling.Replace,
+      ValueDuplicateKeyHandling = DuplicateKeyHandling.Replace,
+    };
+    var options = new VdfSerializerSettings()
+    {
+      UsesEscapeSequences = true,
+      MaximumTokenSize = int.MaxValue/2,
+    };
+
+    var vfd = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/dota_english.txt");
+    var root = VdfConvert.Deserialize(vfd, options);
+    var json = root.Value.ToJson(settings);
+
+    JObject tokens = (JObject)json["Tokens"];
     var collection = tokens.Properties().ToDictionary(_ => _.Name.ToUpper(), _ => (string)_.Value);
     return collection;
+
+    //JObject root = await GetJson(client, "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/dota_english.txt");
+    //JObject tokens = (JObject)root["Tokens"];
+    //var collection = tokens.Properties().ToDictionary(_ => _.Name.ToUpper(), _ => (string)_.Value);
+    //return collection;
   }
 
   #endregion
@@ -149,9 +186,19 @@ class Program
 
   private static async Task<List<string>> GetHeroes(HttpClient client)
   {
-    var jsonHeroes = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/activelist.json");
-    JObject rootHeroes = JObject.Parse(jsonHeroes);
-    JObject heroesData = (JObject)rootHeroes["whitelist"];
+    var settings = new VdfJsonConversionSettings()
+    {
+      ObjectDuplicateKeyHandling = DuplicateKeyHandling.Replace,
+      ValueDuplicateKeyHandling = DuplicateKeyHandling.Replace
+    };
+    var options = new VdfSerializerSettings()
+    {
+      UsesEscapeSequences = true,
+    };
+
+    var vfd = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/activelist.txt");
+    var root = VdfConvert.Deserialize(vfd, options);
+    var heroesData = root.Value.ToJson(settings) as JObject;
 
     var heroes = new List<string>();
     foreach (JProperty property in heroesData.Properties())
@@ -185,9 +232,24 @@ class Program
 
   private static async Task<List<Hero>> ExtractHeroes(HttpClient client, Dictionary<string, string> language, List<Ability> abilities)
   {
-    var jsonHeroes = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_heroes.json");
-    JObject rootHeroes = JObject.Parse(jsonHeroes);
-    JObject heroesData = (JObject)rootHeroes["DOTAHeroes"];
+    var settings = new VdfJsonConversionSettings()
+    {
+      ObjectDuplicateKeyHandling = DuplicateKeyHandling.Replace,
+      ValueDuplicateKeyHandling = DuplicateKeyHandling.Replace
+    };
+    var options = new VdfSerializerSettings()
+    {
+      UsesEscapeSequences = true,
+    };
+
+    var vfd = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_heroes.txt");
+    var root = VdfConvert.Deserialize(vfd, options);
+    var heroesData = root.Value.ToJson(settings) as JObject;
+    //JObject heroesData = (JObject)json["DOTAHeroes"];
+
+    //var jsonHeroes = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_heroes.json");
+    //JObject rootHeroes = JObject.Parse(jsonHeroes);
+    //JObject heroesData = (JObject)rootHeroes["DOTAHeroes"];
 
     var activeHeroes = new List<string>();
     foreach (JProperty property in heroesData.Properties())
@@ -316,12 +378,14 @@ class Program
       if (ability == null)
         continue;
 
+      levels.TryDequeue(out int lvl);
+
       var talent = new Talent()
       {
         Id = ability.Id,
         Key = ability_key,
         Name = ability.Name,
-        Level = levels.Dequeue(),
+        Level = lvl,
       };
 
       hero.Talents.Add(talent);
@@ -390,14 +454,34 @@ class Program
 
   private static async Task<List<Item>> ExtractItems(HttpClient client, Dictionary<string, string> language)
   {
-    var jsonAbilities = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.json");
-    JObject rootAbilities = JObject.Parse(jsonAbilities);
-    JObject abilitiesData = (JObject)rootAbilities["DOTAAbilities"];
+    var settings = new VdfJsonConversionSettings()
+    {
+      ObjectDuplicateKeyHandling = DuplicateKeyHandling.Replace,
+      ValueDuplicateKeyHandling = DuplicateKeyHandling.Replace
+    };
+    var options = new VdfSerializerSettings()
+    {
+      UsesEscapeSequences = true,
+    };
 
-    var jsonItems = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/items.json");
-    JObject rootItems = JObject.Parse(jsonItems);
-    JObject itemsData = (JObject)rootItems["DOTAAbilities"];
+
+    var vfd_abilities = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.txt");
+    var abilitiesData = VdfConvert.Deserialize(vfd_abilities, options).Value.ToJson(settings) as JObject;
+    //JObject abilitiesData = (JObject)rootAbilities["DOTAAbilities"];
+
+    //var jsonAbilities = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.json");
+    //JObject rootAbilities = JObject.Parse(jsonAbilities);
+    //JObject abilitiesData = (JObject)rootAbilities["DOTAAbilities"];
+
+    var vfd_items = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/items.txt");
+    var itemsData = VdfConvert.Deserialize(vfd_items, options).Value.ToJson(settings) as JObject;
+    // JObject itemsData = (JObject)rootItems["DOTAAbilities"];
     itemsData.Add("ability_base", abilitiesData["ability_base"]);
+
+    //var jsonItems = await client.GetStringAsync("https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/items.json");
+    //JObject rootItems = JObject.Parse(jsonItems);
+    //JObject itemsData = (JObject)rootItems["DOTAAbilities"];
+    //itemsData.Add("ability_base", abilitiesData["ability_base"]);
 
     var activeItems = new List<string>();
     foreach (JProperty property in itemsData.Properties())

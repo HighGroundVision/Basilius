@@ -191,7 +191,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      7.0
+      9.0
     ],
     "AbilityManaCost": [
       0.0
@@ -602,7 +602,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1100,
+    "ItemCost": 900,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -755,7 +755,7 @@
     "ItemSupport": false,
     "ItemContributesToNetWorthWhenDropped": false,
     "AllowedInBackpack": false,
-    "IsObsolete": false,
+    "IsObsolete": true,
     "ItemInitialCharges": 0,
     "ItemStockMax": 0,
     "ItemStockTime": 0.0,
@@ -774,7 +774,7 @@
     "Id": 0,
     "Key": "item_quelling_blade",
     "Name": "Quelling Blade",
-    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree. <br><br>Cast Range: %abilitycastrange%\\n\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by %damage_bonus% for melee heroes, and %damage_bonus_ranged% for ranged.",
+    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree.  \n\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by %damage_bonus% for melee heroes, and %damage_bonus_ranged% for ranged.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_TREE",
@@ -1116,7 +1116,7 @@
     "Id": 0,
     "Key": "item_moon_shard",
     "Name": "Moon Shard",
-    "Description": "<h1>Use: Consume</h1> Consume the Moon Shard to permanently gain %consumed_bonus% attack speed and %consumed_bonus_night_vision% bonus night vision. Max 1 use.\\n\\n<h1>Passive: Shade Sight</h1>Grants bonus night vision.",
+    "Description": "<h1>Use: Consume</h1> Consume the Moon Shard to permanently gain %consumed_bonus% attack speed and %consumed_bonus_night_vision% bonus night vision. Max 1 use.\n\n<h1>Passive: Shade Sight</h1>Grants bonus night vision.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -1304,7 +1304,7 @@
     "Id": 0,
     "Key": "item_branches",
     "Name": "Iron Branch",
-    "Description": "<h1>Use: Plant Tree</h1> Targets the ground to plant a happy little tree that lasts for %tree_duration% seconds.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Plant Tree</h1> Targets the ground to plant a happy little tree that lasts for %tree_duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -1792,7 +1792,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2050,
+    "ItemCost": 2800,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -2058,52 +2058,6 @@
   },
   {
     "Id": 0,
-    "Key": "item_ring_of_tarrasque",
-    "Name": "Ring of Tarrasque",
-    "Description": null,
-    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
-    "AbilityUnitTargetType": [],
-    "AbilityUnitTargetTeam": null,
-    "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-    ],
-    "AbilityCastRange": [],
-    "AbilityCastPoint": [],
-    "AbilityCooldown": [],
-    "AbilityManaCost": [],
-    "AbilityChannelTime": [],
-    "AbilitySpecial": {},
-    "ItemCost": 650,
-    "ItemCombinable": true,
-    "ItemPermanent": true,
-    "ItemStackable": false,
-    "ItemRecipe": false,
-    "ItemDroppable": true,
-    "ItemPurchasable": false,
-    "ItemSellable": true,
-    "ItemRequiresCharges": false,
-    "ItemKillable": true,
-    "ItemDisassemblable": false,
-    "ItemDeclaresPurchase": false,
-    "ItemSupport": false,
-    "ItemContributesToNetWorthWhenDropped": false,
-    "AllowedInBackpack": false,
-    "IsObsolete": true,
-    "ItemInitialCharges": 0,
-    "ItemStockMax": 0,
-    "ItemStockTime": 0.0,
-    "ItemIsNeutralDrop": false,
-    "ItemShareability": "ITEM_NOT_SHAREABLE",
-    "ItemShopTags": [
-      "regen_health"
-    ],
-    "ItemAliases": [
-      "rot"
-    ],
-    "ItemQuality": "component"
-  },
-  {
-    "Id": 0,
     "Key": "item_sobi_mask",
     "Name": "Sage's Mask",
     "Description": null,
@@ -2198,7 +2152,7 @@
     "Id": 0,
     "Key": "item_gem",
     "Name": "Gem of True Sight",
-    "Description": "<h1>Active: Reveal</h1> Gives True Sight over a %active_radius% radius revealing wards and units even in Fog of War.\\n<h1>Passive: True Sight</h1> Grants the ability to see invisible units and wards to any allied vision within %radius% range of its carrier. \\n\\n<h1>Passive: Everlasting</h1><font color='#e03e2e'>Dropped on death, and cannot be destroyed.</font>",
+    "Description": "<h1>Active: Reveal</h1> Gives True Sight over a %active_radius% radius revealing wards and units even in Fog of War.\n<h1>Passive: True Sight</h1> Grants the ability to see invisible units and wards to any allied vision within %radius% range of its carrier. \n\n<h1>Passive: Everlasting</h1><font color='#e03e2e'>Dropped on death, and cannot be destroyed.</font>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -2399,7 +2353,7 @@
     ],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      13.0
+      17.0
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -2495,7 +2449,7 @@
     ],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      13.0
+      15.0
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -2591,7 +2545,7 @@
     "Id": 0,
     "Key": "item_clarity",
     "Name": "Clarity",
-    "Description": "<h1>Use: Replenish</h1> Grants %mana_regen% mana regeneration to the target for %buff_duration% seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Replenish</h1> Grants %mana_regen% mana regeneration to the target for %buff_duration% seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -2646,7 +2600,7 @@
     "Id": 0,
     "Key": "item_enchanted_mango",
     "Name": "Enchanted Mango",
-    "Description": "<h1>Use: Eat Mango</h1> Instantly restores %replenish_amount% mana.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Eat Mango</h1> Instantly restores %replenish_amount% mana.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -2702,7 +2656,7 @@
     "Id": 0,
     "Key": "item_famango",
     "Name": "Healing Lotus",
-    "Description": "<h1>Use: Eat Lotus</h1> Instantly restores %replenish_amount% health and mana.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Eat Lotus</h1> Instantly restores %replenish_amount% health and mana.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -2760,7 +2714,7 @@
     "Id": 0,
     "Key": "item_great_famango",
     "Name": "Great Healing Lotus",
-    "Description": "<h1>Use: Eat Lotus</h1> Instantly restores %replenish_amount% health and mana.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Eat Lotus</h1> Instantly restores %replenish_amount% health and mana.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -2818,7 +2772,7 @@
     "Id": 0,
     "Key": "item_greater_famango",
     "Name": "Greater Healing Lotus",
-    "Description": "<h1>Use: Eat Lotus</h1> Instantly restores %replenish_amount% health and mana.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Eat Lotus</h1> Instantly restores %replenish_amount% health and mana.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -2970,7 +2924,8 @@
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_POINT",
       "DOTA_ABILITY_BEHAVIOR_AOE",
-      "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+      "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
     "AbilityCastRange": [
       900.0
@@ -3070,7 +3025,7 @@
     "Id": 0,
     "Key": "item_flask",
     "Name": "Healing Salve",
-    "Description": "<h1>Use: Salve</h1> Grants %health_regen% health regeneration to the target for %buff_duration% seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Heals for half the amount when cast on an ally.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Salve</h1> Grants %health_regen% health regeneration to the target for %buff_duration% seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Heals for half the amount when cast on an ally.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -3178,7 +3133,7 @@
     "Id": 0,
     "Key": "item_bottle",
     "Name": "Bottle",
-    "Description": "<h1>Active: Regenerate</h1>Consumes a charge to restore %health_restore% health and %mana_restore% mana over %restore_time% seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.<br><br>Range: %abilitycastrange%\\n\\n<h1>Passive:  Store Rune</h1>Runes can be stored in the Bottle for later use by right-clicking them. Unused runes will automatically activate after 90 seconds.<br><br>Using a stored rune fully refills the Bottle.",
+    "Description": "<h1>Active: Regenerate</h1>Consumes a charge to restore %health_restore% health and %mana_restore% mana over %restore_time% seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.\n\n<h1>Passive:  Store Rune</h1>Runes can be stored in the Bottle for later use by right-clicking them. Unused runes will automatically activate after 90 seconds.<br><br>Using a stored rune fully refills the Bottle.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -3235,7 +3190,7 @@
     "Id": 0,
     "Key": "item_ward_observer",
     "Name": "Observer Ward",
-    "Description": "<h1>Use: Plant</h1>Plants an Observer Ward, an invisible watcher that gives ground vision in a %vision_range_tooltip% radius to your team. Lasts %duration_minutes_tooltip% minutes.<br><br>Hold Control to give one Observer Ward to an allied hero.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Plant</h1>Plants an Observer Ward, an invisible watcher that gives ground vision in a %vision_range_tooltip% radius to your team. Lasts %duration_minutes_tooltip% minutes.<br><br>Hold Control to give one Observer Ward to an allied hero.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -3292,7 +3247,7 @@
     "Id": 0,
     "Key": "item_ward_sentry",
     "Name": "Sentry Ward",
-    "Description": "<h1>Use: Plant</h1> Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a %true_sight_range% radius.<br>Lasts %duration_minutes_tooltip% minutes.<br><br>Does not grant ground vision.<br>Hold Control to give one Sentry Ward to an allied hero. <br/><br/>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Plant</h1> Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a %true_sight_range% radius.<br>Lasts %duration_minutes_tooltip% minutes.<br><br>Does not grant ground vision.<br>Hold Control to give one Sentry Ward to an allied hero.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -3391,7 +3346,7 @@
     "Id": 0,
     "Key": "item_ward_dispenser",
     "Name": "Observer and Sentry Wards",
-    "Description": "<h1>Use: Plant</h1> Plant the currently active ward.  Double-Click to switch the currently active ward.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Plant</h1> Plant the currently active ward.  Double-Click to switch the currently active ward.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -3653,7 +3608,6 @@
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_POINT",
       "DOTA_ABILITY_BEHAVIOR_CHANNELLED",
-      "DOTA_ABILITY_BEHAVIOR_NOASSIST",
       "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
       "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL",
       "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
@@ -3794,7 +3748,7 @@
     "Id": 0,
     "Key": "item_travel_boots",
     "Name": "Boots of Travel",
-    "Description": "<h1>Upgrade: Town Portal Scroll</h1>Upgrades your Town Portal Scroll, allowing it to target units, reduces cooldown and does not consume a charge on usage. \\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Upgrade: Town Portal Scroll</h1>Upgrades your Town Portal Scroll, allowing it to target units, reduces cooldown and does not consume a charge on usage. \nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -3846,7 +3800,7 @@
     "Id": 0,
     "Key": "item_travel_boots_2",
     "Name": "Boots of Travel 2",
-    "Description": "<h1>Upgrade: Town Portal Scroll</h1>Upgrades your Town Portal Scroll, allowing it to target units and heroes, reduces cooldown, channel time and does not consume a charge on usage. \\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Upgrade: Town Portal Scroll</h1>Upgrades your Town Portal Scroll, allowing it to target units and heroes, reduces cooldown, channel time and does not consume a charge on usage. \nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -3940,7 +3894,7 @@
     "Id": 0,
     "Key": "item_phase_boots",
     "Name": "Phase Boots",
-    "Description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%% increased movement speed on melee heroes, and %phase_movement_speed_range%% on ranged heroes, and lets you move through units and turn more quickly for %phase_duration% seconds.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%% increased movement speed on melee heroes, and %phase_movement_speed_range%% on ranged heroes, and lets you move through units and turn more quickly for %phase_duration% seconds.\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4267,6 +4221,53 @@
   },
   {
     "Id": 0,
+    "Key": "item_ring_of_tarrasque",
+    "Name": "Ring of Tarrasque",
+    "Description": null,
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 1800,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": true,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [
+      "regen_health"
+    ],
+    "ItemAliases": [
+      "rot",
+      "ring of tarrasque"
+    ],
+    "ItemQuality": "component"
+  },
+  {
+    "Id": 0,
     "Key": "item_void_stone",
     "Name": "Void Stone",
     "Description": "",
@@ -4308,6 +4309,52 @@
     ],
     "ItemAliases": [
       "void stone"
+    ],
+    "ItemQuality": "component"
+  },
+  {
+    "Id": 0,
+    "Key": "item_tiara_of_selemene",
+    "Name": "Tiara of Selemene",
+    "Description": "",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 1800,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": true,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [
+      "regen_mana"
+    ],
+    "ItemAliases": [
+      "tiara of selemene"
     ],
     "ItemQuality": "component"
   },
@@ -4591,7 +4638,7 @@
     "Id": 0,
     "Key": "item_power_treads",
     "Name": "Power Treads",
-    "Description": "<h1>Active: Switch Attribute</h1>Switches between +%bonus_stat% Strength, +%bonus_stat% Agility, or +%bonus_stat% Intelligence.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Switch Attribute</h1>Switches between +%bonus_stat% Strength, +%bonus_stat% Agility, or +%bonus_stat% Intelligence.\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4684,7 +4731,7 @@
     "Id": 0,
     "Key": "item_samurai_tabi",
     "Name": "Samurai Tabi",
-    "Description": "<h1>Active: Switch Attribute</h1>Switches between an additional +%bonus_stat_tooltip% <font color='#ff0000'>Strength</font>, +%bonus_stat_tooltip% <font color='#9acd32'>Agility</font>, or +%bonus_stat_tooltip% <font color='#87ceeb'>Intelligence</font>, and provides the bonuses corresponding with that parameter. \\n <h2>Intelligence</h2> Once fully charged, deals %int_damage% to %int_max_targets% random targets in %int_damage_range% range every %int_damage_interval% seconds.\\n <h2> Strength </h2>Once fully charged an attack has a %str_root_chance%% chance to deal %str_bonus_damage% bonus damage and root the target for %str_root_duration% seconds. %str_root_cooldown%s Cooldown.\\n <h2> Agility </h2> Once fully charged, when attacked, the hero has a %agi_counter_chance% to counter-attack a target within their attack range. %agi_counter_cooldown%s Cooldown. ",
+    "Description": "<h1>Active: Switch Attribute</h1>Switches between an additional +%bonus_stat_tooltip% <font color='#ff0000'>Strength</font>, +%bonus_stat_tooltip% <font color='#9acd32'>Agility</font>, or +%bonus_stat_tooltip% <font color='#87ceeb'>Intelligence</font>, and provides the bonuses corresponding with that parameter. \n <h2>Intelligence</h2> Once fully charged, deals %int_damage% to %int_max_targets% random targets in %int_damage_range% range every %int_damage_interval% seconds.\n <h2> Strength </h2>Once fully charged an attack has a %str_root_chance%% chance to deal %str_bonus_damage% bonus damage and root the target for %str_root_duration% seconds. %str_root_cooldown%s Cooldown.\n <h2> Agility </h2> Once fully charged, when attacked, the hero has a %agi_counter_chance% to counter-attack a target within their attack range. %agi_counter_cooldown%s Cooldown. ",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -4698,7 +4745,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4500,
+    "ItemCost": 5250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -4777,7 +4824,7 @@
     "Id": 0,
     "Key": "item_hermes_sandals",
     "Name": "Hermes Sandals",
-    "Description": "<h1>Active: Greater Phase</h1> When activated, the user cannot be slowed or rooted. Gives %phase_movement_speed%% increased movement speed on melee heroes, and %phase_movement_speed_range%% on ranged heroes, and lets you move through units and turn more quickly for %phase_duration% seconds. Does not dispel roots that are already in place.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Greater Phase</h1> When activated, the user cannot be slowed or rooted. Gives %phase_movement_speed%% increased movement speed on melee heroes, and %phase_movement_speed_range%% on ranged heroes, and lets you move through units and turn more quickly for %phase_duration% seconds. Does not dispel roots that are already in place.\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -5058,7 +5105,7 @@
   {
     "Id": 0,
     "Key": "item_recipe_phylactery",
-    "Name": null,
+    "Name": "Phylactery Recipe",
     "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
@@ -5072,7 +5119,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 0,
+    "ItemCost": 400,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -5116,7 +5163,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2375,
+    "ItemCost": 2600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -5142,6 +5189,97 @@
     ],
     "ItemAliases": [
       "phylactery"
+    ],
+    "ItemQuality": "common"
+  },
+  {
+    "Id": 0,
+    "Key": "item_recipe_angels_demise",
+    "Name": "Khanda Recipe",
+    "Description": null,
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_NONE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 600,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": true,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": true,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_angels_demise",
+    "Name": "Khanda",
+    "Description": "<h1>Passive: Empower Spell</h1> The next Unit Target spell you cast on an enemy deals %spell_crit_flat% + %spell_crit_multiplier%% of your attack damage as bonus damage to the target, and slows them by %slow%% for %slow_duration%s.\n\n<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%% chance to deal %crit_multiplier%% damage.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [
+      6.0
+    ],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 5200,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": true,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [
+      "hard_to_tag"
+    ],
+    "ItemAliases": [
+      "angel",
+      "demise"
     ],
     "ItemQuality": "common"
   },
@@ -5244,7 +5382,7 @@
     "Id": 0,
     "Key": "item_hand_of_midas",
     "Name": "Hand of Midas",
-    "Description": "<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience. When used on a neutral creep, guarantees to create a neutral item if available. <br><br> Cannot be used on Ancient creeps.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience. When used on a neutral creep, guarantees to create a neutral item if available. <br><br> Cannot be used on Ancient creeps.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CREEP"
@@ -5295,6 +5433,62 @@
     ],
     "ItemAliases": [
       "hand of midas"
+    ],
+    "ItemQuality": "common"
+  },
+  {
+    "Id": 0,
+    "Key": "item_aetherial_halo",
+    "Name": "Aetherial Hammer",
+    "Description": "<h1>Active: Aetherial Hammer</h1> CHANNELED - After a successful channel, summons a meteor that strikes a %impact_radius% AoE, stunning enemies for %stun_duration% seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for %burn_duration% seconds. Non-building units are also slowed for %burn_slow%% for the duration of the burn. <BR><BR>Building Impact Damage: %impact_damage_buildings% <BR>Building Over Time Damage: %burn_dps_buildings% <BR><BR>Non-Building Impact Damage: %impact_damage_units% <BR>Non-Building Over Time Damage: %burn_dps_units% <BR><BR>Channel Duration: %max_duration% seconds.<BR>Landing Time: %land_time% seconds.\n\n<h1>Passive:Foci</h1> Increases targeted spell and item Area of Effect by %bonus_aoe%.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_POINT",
+      "DOTA_ABILITY_BEHAVIOR_AOE",
+      "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+    ],
+    "AbilityCastRange": [
+      600.0
+    ],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [
+      24.0
+    ],
+    "AbilityManaCost": [
+      100.0
+    ],
+    "AbilityChannelTime": [
+      1.5
+    ],
+    "AbilitySpecial": {},
+    "ItemCost": 5900,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": true,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": true,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [
+      "hard_to_tag"
+    ],
+    "ItemAliases": [
+      "aetherial halo"
     ],
     "ItemQuality": "common"
   },
@@ -5357,7 +5551,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1500,
+    "ItemCost": 1625,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -5450,7 +5644,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2600,
+    "ItemCost": 2775,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -5800,7 +5994,7 @@
     "Id": 0,
     "Key": "item_bracer",
     "Name": "Bracer",
-    "Description": "Doubles its bonuses after minute %clock_time%.",
+    "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -5891,7 +6085,7 @@
     "Id": 0,
     "Key": "item_wraith_band",
     "Name": "Wraith Band",
-    "Description": "Doubles its bonuses after minute %clock_time%.",
+    "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -5982,7 +6176,7 @@
     "Id": 0,
     "Key": "item_null_talisman",
     "Name": "Null Talisman",
-    "Description": "Doubles its bonuses after minute %clock_time%.",
+    "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -6073,7 +6267,7 @@
     "Id": 0,
     "Key": "item_mekansm",
     "Name": "Mekansm",
-    "Description": "<h1>Active: Restore</h1>Restores %heal_amount% health to allied units in a %heal_radius% radius.\\n\\n<h1>Passive: Mekansm Aura</h1>Grants %aura_health_regen% health regeneration to allied units in a %aura_radius% radius.",
+    "Description": "<h1>Active: Restore</h1>Restores %heal_amount% health to allied units in a %heal_radius% radius.\n\n<h1>Passive: Mekansm Aura</h1>Grants %aura_health_regen% health regeneration to allied units in a %aura_radius% radius.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -6144,7 +6338,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 250,
+    "ItemCost": 0,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6188,7 +6382,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2450,
+    "ItemCost": 2200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6266,7 +6460,7 @@
     "Id": 0,
     "Key": "item_wraith_pact",
     "Name": "Wraith Pact",
-    "Description": "<h1>Active: Wraith's Reprisal</h1>Summons a movable totem in your location for %abilityduration% seconds that reduces all physical damage of enemies within %pact_aura_radius% radius by %damage_penalty_aura%% and deals %aura_dps% damage per second.<br><br> The totem eminates the Vladmir's Aura around it. Totem can be destroyed in 4 hits. Creeps deal half damage to the totem.\\n\\n<h1>Passive: Vladmir's Aura</h1>Grants %lifesteal_aura%% lifesteal, %damage_aura%% bonus damage, %mana_regen_aura% mana regeneration, and %armor_aura% armor to nearby allies. Lifesteal from creeps is reduced by %creep_lifesteal_reduction_pct%%.<br><br>Radius: %aura_radius%",
+    "Description": "<h1>Active: Wraith's Reprisal</h1>Summons a movable totem in your location for %abilityduration% seconds that reduces all physical damage of enemies within %pact_aura_radius% radius by %damage_penalty_aura%% and deals %aura_dps% damage per second.<br><br> The totem eminates the Vladmir's Aura around it. Totem can be destroyed in 4 hits. Creeps deal half damage to the totem.\n\n<h1>Passive: Vladmir's Aura</h1>Grants %lifesteal_aura%% lifesteal, %damage_aura%% bonus damage, %mana_regen_aura% mana regeneration, and %armor_aura% armor to nearby allies. Lifesteal from creeps is reduced by %creep_lifesteal_reduction_pct%%.<br><br>Radius: %aura_radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -6290,7 +6484,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4050,
+    "ItemCost": 3800,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6521,7 +6715,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 525,
+    "ItemCost": 800,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6550,7 +6744,7 @@
     "Id": 0,
     "Key": "item_holy_locket",
     "Name": "Holy Locket",
-    "Description": "<h1>Active: Energy Charge</h1>Target an allied unit to instantly restore %restore_per_charge% health and mana per charge stored. <br><br>Automatically gains a charge every %AbilityChargeRestoreTime% seconds and whenever a visible enemy within %charge_radius% range uses an ability.\\n\\n<h1>Passive: Holy Blessing</h1>Amplifies heals you provide by %heal_increase%%.\\n\\n<h1>Passive: Regeneration Aura</h1>Grants %aura_health_regen% health regeneration to allies.<br><br>Radius: %aura_radius%",
+    "Description": "<h1>Active: Energy Charge</h1>Target an allied unit to instantly restore %restore_per_charge% health and mana per charge stored. <br><br>Automatically gains a charge every %AbilityChargeRestoreTime% seconds and whenever a visible enemy within %charge_radius% range uses an ability.\n\n<h1>Passive: Holy Blessing</h1>Amplifies heals you provide by %heal_increase%%.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -6573,7 +6767,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2400,
+    "ItemCost": 2250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6618,7 +6812,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1450,
+    "ItemCost": 700,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6647,7 +6841,7 @@
     "Id": 0,
     "Key": "item_pipe",
     "Name": "Pipe of Insight",
-    "Description": "<h1>Active: Barrier</h1>Gives a magic damage barrier that absorbs %barrier_block% damage to all nearby allies. Lasts %barrier_duration% seconds.<br><br>Radius: %barrier_radius%\\n\\n<h1>Passive: Insight Aura</h1> Gives allied units %aura_health_regen% health regeneration and %magic_resistance_aura%% magic resistance.<br><br>Radius: %aura_radius%",
+    "Description": "<h1>Active: Barrier</h1>Gives a magic damage barrier that absorbs %barrier_block% damage to all nearby allies. Lasts %barrier_duration% seconds.<br><br>Radius: %barrier_radius%\n\n<h1>Passive: Insight Aura</h1> Gives allied units %aura_health_regen% health regeneration and %magic_resistance_aura%% magic resistance.<br><br>Radius: %aura_radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -6667,7 +6861,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 3375,
+    "ItemCost": 3725,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6714,7 +6908,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 375,
+    "ItemCost": 280,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6743,14 +6937,15 @@
     "Id": 0,
     "Key": "item_urn_of_shadows",
     "Name": "Urn of Shadows",
-    "Description": "<h1>Active: Soul Release</h1> Provides %soul_heal_amount% health regeneration when cast on allies, and deals %soul_damage_amount% damage per second when cast on enemies. <br><br>Lasts %duration% seconds.  <br><br>Gains charges every time an enemy hero dies within %soul_radius% units.  Only the closest Urn to the dying hero will gain a charge.<br><br>Cast Range: %abilitycastrange%",
+    "Description": "<h1>Active: Soul Release</h1> Provides %soul_heal_amount% health regeneration when cast on allies, and deals %soul_damage_amount% damage per second when cast on enemies. <br><br>Lasts %duration% seconds.  <br><br>Gains charges every time an enemy hero dies within %soul_radius% units.  Only the closest Urn to the dying hero will gain a charge. ",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
     ],
     "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
     "AbilityCastRange": [
       750.0
@@ -6759,7 +6954,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      7.0
+      10.0
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -6891,7 +7086,7 @@
   {
     "Id": 0,
     "Key": "item_recipe_sheepstick",
-    "Name": null,
+    "Name": "Scythe of Vyse Recipe",
     "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
@@ -6905,7 +7100,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 0,
+    "ItemCost": 600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6934,7 +7129,7 @@
     "Id": 0,
     "Key": "item_sheepstick",
     "Name": "Scythe of Vyse",
-    "Description": "<h1>Active: Hex</h1>Turns a target unit into a harmless critter for %sheep_duration% seconds. The target has a base movement speed of %sheep_movement_speed% and will be silenced, muted, and disarmed.<br>Instantly destroys illusions.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Hex</h1>Turns a target unit into a harmless critter for %sheep_duration% seconds. The target has a base movement speed of %sheep_movement_speed% and will be silenced, muted, and disarmed.<br>Instantly destroys illusions.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -6958,7 +7153,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 5550,
+    "ItemCost": 5200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -6994,6 +7189,60 @@
   },
   {
     "Id": 0,
+    "Key": "item_caster_rapier",
+    "Name": "Caster Rapier",
+    "Description": "<h1>Passive: Everlasting</h1> <font color='#e03e2e'>Dropped on death, and cannot be destroyed.</font> <br><br>Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up and is killed. A dropped Rapier cannot be picked up by a courier.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [
+      "DOTA_UNIT_TARGET_HERO",
+      "DOTA_UNIT_TARGET_BASIC"
+    ],
+    "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [
+      9.0
+    ],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 5600,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": false,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": true,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [
+      "int",
+      "regen_mana",
+      "agi",
+      "hard_to_tag"
+    ],
+    "ItemAliases": [
+      "caster_rapier"
+    ],
+    "ItemQuality": "rare"
+  },
+  {
+    "Id": 0,
     "Key": "item_recipe_orchid",
     "Name": "Orchid Malevolence Recipe",
     "Description": null,
@@ -7009,7 +7258,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 275,
+    "ItemCost": 450,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7038,7 +7287,7 @@
     "Id": 0,
     "Key": "item_orchid",
     "Name": "Orchid Malevolence",
-    "Description": "<h1>Active: Soul Burn</h1>Silences the target unit for %silence_duration% seconds. At the end of the silence, %silence_damage_percent%% of the damage received while silenced is inflicted as bonus magical damage.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Soul Burn</h1>Silences the target unit for %silence_duration% seconds. At the end of the silence, %silence_damage_percent%% of the damage received while silenced is inflicted as bonus magical damage.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -7058,11 +7307,11 @@
       18.0
     ],
     "AbilityManaCost": [
-      100.0
+      125.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 3475,
+    "ItemCost": 3275,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7112,7 +7361,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 825,
+    "ItemCost": 450,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7141,7 +7390,7 @@
     "Id": 0,
     "Key": "item_bloodthorn",
     "Name": "Bloodthorn",
-    "Description": "<h1>Active: Soul Rend</h1> Silences a target for %silence_duration% seconds. At the end of the silence, an additional %silence_damage_percent%% of all damage taken during the silence will be dealt to the target as magical damage.<br><br>All attacks on the silenced target will have True Strike.<br><br>Range: %abilitycastrange%\\n\\n<h1>Passive: Mage Slayer</h1>Places a debuff when you attack enemies, causing them to do %spell_amp_debuff%% less spell damage for %duration% seconds.",
+    "Description": "<h1>Active: Soul Rend</h1> Silences a target for %silence_duration% seconds. At the end of the silence, an additional %silence_damage_percent%% of all damage taken during the silence will be dealt to the target as magical damage.<br><br>All attacks on the silenced target will deal additional damage equal to %proc_damage_heroes% if the attacker is a hero, and %proc_damage_creeps%, if the attacker is a creep, and have True Strike.\n\n<h1>Passive: Pierce</h1>Grants each attack a %proc_chance%% chance to pierce through evasion and deal %passive_proc_damage% bonus magical damage.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -7161,11 +7410,11 @@
       15.0
     ],
     "AbilityManaCost": [
-      100.0
+      125.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 6800,
+    "ItemCost": 6625,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7245,7 +7494,7 @@
     "Id": 0,
     "Key": "item_echo_sabre",
     "Name": "Echo Sabre",
-    "Description": "<h1>Passive: Echo Strike</h1> Causes melee attacks to attack twice in quick succession. The double attacks apply a %movement_slow%% movement slow for %slow_duration% seconds on each strike.",
+    "Description": "<h1>Passive: Echo Strike</h1> Causes melee attacks to attack twice in quick succession. The double attacks apply a %movement_slow%% movement slow for %slow_duration% seconds on the first strike.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -7257,14 +7506,14 @@
       0.0
     ],
     "AbilityCooldown": [
-      6.0
+      5.0
     ],
     "AbilityManaCost": [
       0.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2500,
+    "ItemCost": 2700,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -7286,7 +7535,6 @@
     "ItemIsNeutralDrop": false,
     "ItemShareability": "ITEM_NOT_SHAREABLE",
     "ItemShopTags": [
-      "int",
       "attack_speed",
       "damage",
       "regen_mana",
@@ -7344,7 +7592,7 @@
     "Id": 0,
     "Key": "item_cyclone",
     "Name": "Eul's Scepter of Divinity",
-    "Description": "<h1>Active: Cyclone</h1> Sweeps a target unit up into a cyclone, making them invulnerable for %cyclone_duration% seconds. Cyclone can only be cast on enemy units or yourself.<br><br>Enemy units take %tooltip_drop_damage% magical damage upon landing.<br><br>Range: %abilitycastrange%<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Cyclone</h1> Sweeps a target unit up into a cyclone, making them invulnerable for %cyclone_duration% seconds. Cyclone can only be cast on enemy units or yourself.<br><br>Enemy units take %tooltip_drop_damage% magical damage upon landing.<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CUSTOM"
@@ -7447,7 +7695,7 @@
     "Id": 0,
     "Key": "item_wind_waker",
     "Name": "Wind Waker",
-    "Description": "<h1>Active: Cyclone</h1> Sweeps a target unit up into a cyclone, making them invulnerable for %cyclone_duration% seconds. Cyclone can be cast on yourself, enemy units or allied units.<br><br>Enemy units take %tooltip_drop_damage% magical damage upon landing.<br><br>Range: %abilitycastrange%<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Cyclone</h1> Sweeps a target unit up into a cyclone, making them invulnerable for %cyclone_duration% seconds. Cyclone can be cast on yourself, enemy units or allied units.<br><br>Enemy units take %tooltip_drop_damage% magical damage upon landing.<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CUSTOM"
@@ -7464,7 +7712,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      13.0
+      16.0
     ],
     "AbilityManaCost": [
       175.0
@@ -7642,7 +7890,7 @@
     "Id": 0,
     "Key": "item_force_staff",
     "Name": "Force Staff",
-    "Description": "<h1>Active: Force</h1>Pushes any target unit %push_length% units in the direction it is facing. <br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Force</h1>Pushes any target unit %push_length% units in the direction it is facing. .",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -7747,7 +7995,7 @@
     "Id": 0,
     "Key": "item_hurricane_pike",
     "Name": "Hurricane Pike",
-    "Description": "<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target without range restrictions and with +%bonus_attack_speed% attack speed.<br><br>Can be cast on self or allies to push the target %push_length% units in the direction it is facing.<br>Enemy Range: %cast_range_enemy%\\n\\n<h1>Passive:  Dragon's Reach</h1> Increases attack range of ranged heroes.",
+    "Description": "<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target without range restrictions and with +%bonus_attack_speed% attack speed.<br><br>Can be cast on self or allies to push the target %push_length% units in the direction it is facing.<br>Enemy Range: %cast_range_enemy%\n\n<h1>Passive:  Dragon's Reach</h1> Increases attack range of ranged heroes.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -8020,7 +8268,7 @@
     "Id": 0,
     "Key": "item_dagon",
     "Name": "Dagon",
-    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Heals the caster %dagon_spell_lifesteal%% of damage dealt by Dagon. Upgradable.<br><br>Damage: %damage%<br>Range: %abilitycastrange%<br>Mana Cost: %mana_cost_tooltip%",
+    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Heals the caster %dagon_spell_lifesteal%% of damage dealt by Dagon. Upgradable.<br><br>Damage: %damage%<br> Mana Cost: %mana_cost_tooltip%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -8041,10 +8289,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      35.0,
-      30.0,
-      25.0,
-      20.0,
+      27.0,
+      24.0,
+      21.0,
+      18.0,
       15.0
     ],
     "AbilityManaCost": [
@@ -8093,7 +8341,7 @@
     "Id": 0,
     "Key": "item_dagon_2",
     "Name": "Dagon",
-    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.<br><br>Damage: %damage%<br>Range: %abilitycastrange%<br>Mana Cost: %mana_cost_tooltip%",
+    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Heals the caster %dagon_spell_lifesteal%% of damage dealt by Dagon. Upgradable.<br><br>Damage: %damage%<br> Mana Cost: %mana_cost_tooltip%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -8114,10 +8362,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      35.0,
-      30.0,
-      25.0,
-      20.0,
+      27.0,
+      24.0,
+      21.0,
+      18.0,
       15.0
     ],
     "AbilityManaCost": [
@@ -8166,7 +8414,7 @@
     "Id": 0,
     "Key": "item_dagon_3",
     "Name": "Dagon",
-    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.<br><br>Damage: %damage%<br>Range: %abilitycastrange%<br>Mana Cost: %mana_cost_tooltip%",
+    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Heals the caster %dagon_spell_lifesteal%% of damage dealt by Dagon. Upgradable.<br><br>Damage: %damage%<br> Mana Cost: %mana_cost_tooltip%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -8187,10 +8435,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      35.0,
-      30.0,
-      25.0,
-      20.0,
+      27.0,
+      24.0,
+      21.0,
+      18.0,
       15.0
     ],
     "AbilityManaCost": [
@@ -8239,7 +8487,7 @@
     "Id": 0,
     "Key": "item_dagon_4",
     "Name": "Dagon",
-    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.<br><br>Damage: %damage%<br>Range: %abilitycastrange%<br>Mana Cost: %mana_cost_tooltip%",
+    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Heals the caster %dagon_spell_lifesteal%% of damage dealt by Dagon. Upgradable.<br><br>Damage: %damage%<br> Mana Cost: %mana_cost_tooltip%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -8260,10 +8508,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      35.0,
-      30.0,
-      25.0,
-      20.0,
+      27.0,
+      24.0,
+      21.0,
+      18.0,
       15.0
     ],
     "AbilityManaCost": [
@@ -8312,7 +8560,7 @@
     "Id": 0,
     "Key": "item_dagon_5",
     "Name": "Dagon",
-    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit.<br><br>Damage: %damage%<br>Range: %abilitycastrange%<br>Mana Cost: %mana_cost_tooltip%",
+    "Description": "<h1>Active: Energy Burst</h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Heals the caster %dagon_spell_lifesteal%% of damage dealt by Dagon. <br><br>Damage: %damage%<br> Mana Cost: %mana_cost_tooltip%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -8333,10 +8581,10 @@
       0.0
     ],
     "AbilityCooldown": [
-      35.0,
-      30.0,
-      25.0,
-      20.0,
+      27.0,
+      24.0,
+      21.0,
+      18.0,
       15.0
     ],
     "AbilityManaCost": [
@@ -8970,8 +9218,8 @@
   {
     "Id": 0,
     "Key": "item_aghanims_shard_roshan",
-    "Name": "Aghanim's Shard - Roshan",
-    "Description": "<h1>Passive: Ability Upgrade</h1>Upgrades an existing ability or adds a new ability to your hero..",
+    "Name": "Aghanim's Shard - Consumable",
+    "Description": "<h1>Passive: Ability Upgrade</h1>Upgrades an existing ability or adds a new ability to your hero.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -9026,7 +9274,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2600,
+    "ItemCost": 200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9216,7 +9464,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1400,
+    "ItemCost": 600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9336,7 +9584,7 @@
     "Id": 0,
     "Key": "item_black_king_bar",
     "Name": "Black King Bar",
-    "Description": "<h1>Active: Avatar</h1> Applies a basic dispel. Grants %magic_resist%% Magic resistance and immunity to pure and reflected damage. For the duration of the effect, any negative effect from enemy spells has no effect. <br><br>Duration: %duration% <br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Avatar</h1> Applies a basic dispel. Grants %magic_resist%% Magic resistance and immunity to pure and reflected damage. For the duration of the effect, any negative effect from enemy spells has no effect. <br><br>Duration: %duration% <br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -9347,7 +9595,7 @@
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      90.0
+      95.0
     ],
     "AbilityManaCost": [
       50.0
@@ -9445,7 +9693,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 650,
+    "ItemCost": 2050,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9474,7 +9722,7 @@
     "Id": 0,
     "Key": "item_shivas_guard",
     "Name": "Shiva's Guard",
-    "Description": "<h1>Active: Arctic Blast</h1> Emits a freezing wave that deals %blast_damage% magical damage to enemies and slows their movement by %blast_movement_speed%% for %blast_debuff_duration% seconds. Deals %illusion_multiplier_pct%% damage to illusions.<br><br>Radius: %blast_radius%\\n\\n<h1>Passive: Freezing Aura</h1> Reduces the attack speed of all enemies by %aura_attack_speed% and all heals, regeneration and lifesteal by %hp_regen_degen_aura%%. <br><br>Radius: %aura_radius%",
+    "Description": "<h1>Active: Arctic Blast</h1> Emits a freezing wave that causes enemies to take %spell_amp%% more damage from spells for %resist_debuff_duration% seconds, deals %blast_damage% magical damage and slows their movement by %blast_movement_speed%% for %blast_debuff_duration% seconds. Deals %illusion_multiplier_pct%% damage to illusions.<br><br>Radius: %blast_radius%\n\n<h1>Passive: Freezing Aura</h1> Reduces the attack speed of all enemies by %aura_attack_speed% and all heals, regeneration and lifesteal by %hp_regen_degen_aura%%. <br><br>Radius: %aura_radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -9489,11 +9737,11 @@
       27.0
     ],
     "AbilityManaCost": [
-      100.0
+      75.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4850,
+    "ItemCost": 5175,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9542,7 +9790,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 700,
+    "ItemCost": 0,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9571,12 +9819,13 @@
     "Id": 0,
     "Key": "item_bloodstone",
     "Name": "Bloodstone",
-    "Description": "<h1>Active: Bloodpact</h1> Increases Bloodstone's Spell Lifesteal by %lifesteal_multiplier%x and also converts the same percentage of damage dealt to mana. Lasts %buff_duration% seconds.",
+    "Description": "<h1>Active: Bloodpact</h1> Increases Bloodstone's Spell Lifesteal by %lifesteal_multiplier%x. Lasts %buff_duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [
@@ -9640,7 +9889,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1350,
+    "ItemCost": 600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9669,7 +9918,7 @@
     "Id": 0,
     "Key": "item_sphere",
     "Name": "Linken's Sphere",
-    "Description": "<h1>Passive: Spellblock</h1>Blocks most targeted spells once every %block_cooldown% seconds.\\n\\n<h1>Active: Transfer Spellblock</h1>Temporarily removes Spellblock from the item's owner and transfers it to an allied unit for %block_cooldown% seconds.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Passive: Spellblock</h1>Blocks most targeted spells once every %block_cooldown% seconds.\n\n<h1>Active: Transfer Spellblock</h1>Temporarily removes Spellblock from the item's owner and transfers it to an allied unit for %block_cooldown% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -9688,7 +9937,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4600,
+    "ItemCost": 4800,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9769,7 +10018,7 @@
     "Id": 0,
     "Key": "item_lotus_orb",
     "Name": "Lotus Orb",
-    "Description": "<h1>Active: Echo Shell</h1>Applies a shield to the target unit for %active_duration% seconds which re-casts most targeted spells back to their caster.<br><br>The shielded unit will still take damage from the spell. <br><br>Range: %abilitycastrange%<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Echo Shell</h1>Applies a shield to the target unit for %active_duration% seconds which re-casts most targeted spells back to their caster.<br><br>The shielded unit will still take damage from the spell.<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -9842,7 +10091,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 550,
+    "ItemCost": 300,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9888,13 +10137,13 @@
       24.0
     ],
     "AbilityManaCost": [
-      100.0
+      75.0
     ],
     "AbilityChannelTime": [
       2.0
     ],
     "AbilitySpecial": {},
-    "ItemCost": 2400,
+    "ItemCost": 2850,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -9968,7 +10217,7 @@
     "Id": 0,
     "Key": "item_nullifier",
     "Name": "Nullifier",
-    "Description": "<h1>Active: Nullify</h1> Dispels the target and applies a debuff for %mute_duration% seconds. Continuously dispels the target.<br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Nullify</h1> Dispels the target and applies a debuff for %mute_duration% seconds. Continuously dispels and slows the target.<br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -10064,7 +10313,7 @@
     "Id": 0,
     "Key": "item_aeon_disk",
     "Name": "Aeon Disk",
-    "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides +%status_resistance%% Status Resistance and causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. Cooldown increases every time it triggers.<br/><br/>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Strong Dispel</span>",
+    "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides +%status_resistance%% Status Resistance and causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. Cooldown increases every time it triggers.<br/><br/>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Strong Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10131,7 +10380,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 600,
+    "ItemCost": 650,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10173,7 +10422,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2050,
+    "ItemCost": 2100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10221,7 +10470,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 0,
+    "ItemCost": 6301,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10352,7 +10601,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1200,
+    "ItemCost": 900,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10381,21 +10630,22 @@
     "Id": 0,
     "Key": "item_spirit_vessel",
     "Name": "Spirit Vessel",
-    "Description": "<h1>Active: Soul Release</h1> When used against enemies, it reduces health by %enemy_hp_drain%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%. Deals %soul_damage_amount% damage per second. <br><br>When used on allies, it provides %soul_heal_amount% health regeneration per second. <br><br>Lasts %duration% seconds.  <br><br>Gains charges every time an enemy hero dies within %soul_radius% units.  Only the closest Spirit Vessel to the dying hero will gain a charge.<br><br>Cast Range: %abilitycastrange%",
+    "Description": "<h1>Active: Soul Release</h1> When used against enemies, it reduces health by %enemy_hp_drain%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%. Deals %soul_damage_amount% damage per second. <br><br>When used on allies, it provides %soul_heal_amount% health regeneration per second. <br><br>Lasts %duration% seconds.  <br><br>Gains charges every time an enemy hero dies within %soul_radius% units or the user dies.  Only the closest Spirit Vessel to the dying hero will gain a charge. ",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
     ],
     "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
     "AbilityCastRange": [
       750.0
     ],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      7.0
+      10.0
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -10565,7 +10815,7 @@
     "Id": 0,
     "Key": "item_crimson_guard",
     "Name": "Crimson Guard",
-    "Description": "<h1>Active: Guard</h1> For %duration% seconds, grant nearby allied heroes and buildings a %block_chance_active%% chance to block damage equal to %block_damage_active% plus %strength_pct%% of the casters Strength value from each incoming attack.<br>Units may only be affected by Guard once every %tooltip_reapply_time% seconds.<br><br>Radius: %bonus_aoe_radius%\\n\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
+    "Description": "<h1>Active: Guard</h1> For %duration% seconds, grant nearby allied heroes and buildings a %block_chance_active%% chance to block damage equal to %block_damage_active% plus %max_hp_pct%% of the casters max health value from each incoming attack.<br>Units may only be affected by Guard once every %tooltip_reapply_time% seconds.<br><br>Radius: %bonus_aoe_radius%\n\n<h1>Passive: Damage Block</h1> Grants a %block_chance%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10578,7 +10828,7 @@
     ],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      35.0
+      40.0
     ],
     "AbilityManaCost": [
       75.0
@@ -10633,7 +10883,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 550,
+    "ItemCost": 750,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10662,7 +10912,7 @@
     "Id": 0,
     "Key": "item_blade_mail",
     "Name": "Blade Mail",
-    "Description": "<h1>Active: Damage Return</h1>For %duration% seconds, the damage returned from all sources is increased by %active_reflection_pct%%.\\n\\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%% of the attack damage dealt to you.",
+    "Description": "<h1>Active: Damage Return</h1>For %duration% seconds, the damage returned from all sources is increased by %active_reflection_pct%%.\n\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%% of the attack damage dealt to you.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10681,7 +10931,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2100,
+    "ItemCost": 2300,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10917,7 +11167,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 600,
+    "ItemCost": 900,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10946,7 +11196,7 @@
     "Id": 0,
     "Key": "item_eternal_shroud",
     "Name": "Eternal Shroud",
-    "Description": "<h1>Passive: Shroud</h1> Restores mana equal to %mana_restore_pct%% of incoming enemy spell damage.",
+    "Description": "<h1>Passive: Shroud</h1> Restores mana equal to %mana_restore_pct%% of incoming enemy spell damage before reductions.\n\n<h1>Passive: Eternal Endurance</h1> For every %stack_threshold% spell damage that equipped hero receives, it gains a stack of Endurance for %stack_duration%s up to a maximum of %max_stacks% charges. Each charge increases Eternal Shroud's magic resistance by %stack_resist%% .",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -10959,7 +11209,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 3100,
+    "ItemCost": 3700,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -10993,7 +11243,7 @@
   {
     "Id": 0,
     "Key": "item_recipe_rapier",
-    "Name": null,
+    "Name": "Divine Rapier Recipe",
     "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
@@ -11036,16 +11286,18 @@
     "Id": 0,
     "Key": "item_rapier",
     "Name": "Divine Rapier",
-    "Description": "<h1>Passive: Everlasting</h1> <font color='#e03e2e'>Dropped on death, and cannot be destroyed.</font> <br><br>Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up and is killed. A dropped Rapier cannot be picked up by a courier.",
+    "Description": "<h1>Toggle: Transmute</h1> Toggle to gain either %bonus_spell_amp%% bonus spell amplification or %bonus_damage% bonus attack damage.\n\n<h1>Passive: Everlasting</h1> <font color='#e03e2e'>Dropped on death, and cannot be destroyed.</font> <br><br>Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up and is killed. A dropped Rapier cannot be picked up by a courier.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+      "DOTA_ABILITY_BEHAVIOR_TOGGLE"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
-    "AbilityCooldown": [],
+    "AbilityCooldown": [
+      6.0
+    ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
@@ -11137,7 +11389,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4900,
+    "ItemCost": 4700,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11221,11 +11473,10 @@
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "DOTA_ABILITY_BEHAVIOR_TOGGLE"
+      "DOTA_ABILITY_BEHAVIOR_TOGGLE",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
-    "AbilityCastRange": [
-      700.0
-    ],
+    "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [],
     "AbilityManaCost": [],
@@ -11319,7 +11570,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4975,
+    "ItemCost": 5450,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11369,7 +11620,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1000,
+    "ItemCost": 900,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11579,7 +11830,7 @@
     "Id": 0,
     "Key": "item_bfury",
     "Name": "Battle Fury",
-    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree.<br><br>Cast Range: %abilitycastrange%\\n\\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by %quelling_bonus% for melee heroes, and %quelling_bonus_ranged% for ranged. \\n\\n<h1>Passive: Cleave</h1> Deals %cleave_damage_percent%% of attack damage as physical damage in a cone up to %cleave_distance% around the target. Deals %cleave_damage_percent_creep%% against creeps. (Melee Only)",
+    "Description": "<h1>Active: Chop Tree</h1> Destroy a target tree. \n\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by %quelling_bonus% for melee heroes, and %quelling_bonus_ranged% for ranged. \n\n<h1>Passive: Cleave</h1> Deals %cleave_damage_percent%% of attack damage as physical damage in a cone up to %cleave_distance% around the target. Deals %cleave_damage_percent_creep%% against creeps. (Melee Only)",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_TREE",
@@ -11651,7 +11902,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 500,
+    "ItemCost": 1550,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11680,7 +11931,7 @@
     "Id": 0,
     "Key": "item_manta",
     "Name": "Manta Style",
-    "Description": "<h1>Active: Mirror Image</h1>Creates %images_count% images of your hero that last %tooltip_illusion_duration% seconds. <br><br>Melee images deal %tooltip_damage_outgoing_melee%% damage, while Ranged images deal %tooltip_damage_outgoing_ranged%%. Illusions take %tooltip_damage_incoming_total_pct%% damage. <br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Mirror Image</h1>Creates %images_count% images of your hero that last %illusion_duration% seconds. <br><br>Melee images deal %tooltip_damage_outgoing_melee%% damage, while Ranged images deal %tooltip_damage_outgoing_ranged%%. Illusions take %tooltip_damage_incoming_total_pct%% damage. <br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -11693,14 +11944,14 @@
       0.0
     ],
     "AbilityCooldown": [
-      30.0
+      34.0
     ],
     "AbilityManaCost": [
       125.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4600,
+    "ItemCost": 4650,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11751,7 +12002,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 450,
+    "ItemCost": 200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11793,7 +12044,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1900,
+    "ItemCost": 2000,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -11957,7 +12208,7 @@
     "Id": 0,
     "Key": "item_armlet",
     "Name": "Armlet of Mordiggian",
-    "Description": "<h1>Toggle: Unholy Strength</h1>When active, Unholy Strength grants +%unholy_bonus_damage% damage, +%unholy_bonus_strength% strength, +%unholy_bonus_slow_resistance%% slow resistance and +%unholy_bonus_armor% armor, but drains %unholy_health_drain_per_second% health per second.<br><br> You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
+    "Description": "<h1>Toggle: Unholy Strength</h1>When active, Unholy Strength grants +%unholy_bonus_damage% damage, +%unholy_bonus_strength% strength and +%unholy_bonus_armor% armor, but drains %unholy_health_drain_per_second% health per second.<br><br> You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12124,7 +12375,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 550,
+    "ItemCost": 250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12153,7 +12404,7 @@
     "Id": 0,
     "Key": "item_silver_edge",
     "Name": "Silver Edge",
-    "Description": "<h1>Active: Shadow Walk</h1>Makes you invisible for %windwalk_duration% seconds, or until you attack or cast a spell.  While invisible, you move %windwalk_movement_speed%% faster and can move through units.  <br><br>Attacking to end the invisibility will deal %windwalk_bonus_damage% bonus physical damage and a guaranteed %crit_multiplier%% critical strike to the target, and disable their passive abilities for %backstab_duration% seconds.\\n\\n<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%% chance to deal %crit_multiplier%% damage.",
+    "Description": "<h1>Active: Shadow Walk</h1>Makes you invisible for %windwalk_duration% seconds, or until you attack or cast a spell.  While invisible, you move %windwalk_movement_speed%% faster and can move through units.  <br><br>Attacking to end the invisibility will deal %windwalk_bonus_damage% bonus physical damage and disable their passive abilities for %backstab_duration% seconds.\n\n",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12265,7 +12516,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4100,
+    "ItemCost": 4200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12360,7 +12611,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4100,
+    "ItemCost": 4200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12455,7 +12706,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4100,
+    "ItemCost": 4200,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12537,7 +12788,7 @@
     "Id": 0,
     "Key": "item_satanic",
     "Name": "Satanic",
-    "Description": "<h1>Active: Unholy Rage</h1>Increases Lifesteal percentage to %unholy_lifesteal_total_tooltip%% for %unholy_duration% seconds. <br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span> \\n\\n<h1>Passive: Lifesteal</h1>Heals the attacker for a percentage of attack damage dealt. Lifesteal from creeps is reduced by %creep_lifesteal_reduction_pct%%.",
+    "Description": "<h1>Active: Unholy Rage</h1>Increases Lifesteal percentage to %unholy_lifesteal_total_tooltip%% for %unholy_duration% seconds. <br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span> \n\n<h1>Passive: Lifesteal</h1>Heals the attacker for a percentage of attack damage dealt. Lifesteal from creeps is reduced by %creep_lifesteal_reduction_pct%%.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12603,7 +12854,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 800,
+    "ItemCost": 550,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12632,7 +12883,7 @@
     "Id": 0,
     "Key": "item_mjollnir",
     "Name": "Mjollnir",
-    "Description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for %static_duration% seconds which has a %static_chance%% chance to release a %static_damage% magical damage shocking bolt at a nearby attacker and %static_strikes% additional enemies.<br><br>Range: %abilitycastrange%\\n\\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion.  Deals %illusion_multiplier_pct%% damage to illusions.",
+    "Description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for %static_duration% seconds which has a %static_chance%% chance to release a %static_damage% magical damage shocking bolt at a nearby attacker and %static_strikes% additional enemies.\n\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion.  Deals %illusion_multiplier_pct%% damage to illusions.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -12690,7 +12941,7 @@
   {
     "Id": 0,
     "Key": "item_recipe_skadi",
-    "Name": null,
+    "Name": "Eye of Skadi Recipe",
     "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
@@ -12704,7 +12955,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 0,
+    "ItemCost": 1300,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12733,7 +12984,7 @@
     "Id": 0,
     "Key": "item_skadi",
     "Name": "Eye of Skadi",
-    "Description": "<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%% movement speed and by %cold_attack_slow_melee% attack speed. ",
+    "Description": "<h1>Passive: Cold Attack</h1> Attacks lower enemy movement by %cold_slow_melee%% if they are melee and %cold_slow_ranged%% if they are ranged, as well as their attack speed by %cold_attack_slow_melee%% if they are melee and %cold_attack_slow_ranged%% if they are ranged. Additionally it reduces all healing, lifesteal and regen by %heal_reduction%% Lasts for %cold_duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -12799,7 +13050,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 600,
+    "ItemCost": 650,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12841,7 +13092,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2050,
+    "ItemCost": 2100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -12918,7 +13169,7 @@
     "Id": 0,
     "Key": "item_helm_of_the_dominator",
     "Name": "Helm of the Dominator",
-    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to %speed_base% and max health to a minimum of %health_min%. Also provides the unit with +%creep_bonus_damage% base attack damage, +%creep_bonus_hp_regen% health regen, +%creep_bonus_mp_regen% mana regen and +%creep_bonus_armor% armor. <br><br>Dominated units with a max health of greater than %health_min% retain their original max health.  Dominated unit's bounty is set to %bounty_gold% gold.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to %speed_base% and max health to a minimum of %health_min%. Also provides the unit with +%creep_bonus_damage% base attack damage, +%creep_bonus_hp_regen% health regen, +%creep_bonus_mp_regen% mana regen and +%creep_bonus_armor% armor. <br><br>Dominated units with a max health of greater than %health_min% retain their original max health. Grants the caster the gold and experience bounty of the dominated creep.  Dominated unit's bounty is set to %bounty_gold% gold.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CREEP"
@@ -12992,7 +13243,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1325,
+    "ItemCost": 300,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13021,7 +13272,7 @@
     "Id": 0,
     "Key": "item_helm_of_the_overlord",
     "Name": "Helm of the Overlord",
-    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral target unit and sets its movement speed to %speed_base% and max health to a minimum of %health_min%. Also provides the unit with +%creep_bonus_damage% base attack damage, +%creep_bonus_hp_regen% health regen, +%creep_bonus_mp_regen% mana regen, +%creep_bonus_armor% armor, and levels up some abilities of the target by 1 level. <br><br>Dominated units with a max health of greater than %health_min% retain their original max health.  Dominated unit's bounty is set to %bounty_gold% gold.<br><br>Range: %abilitycastrange%\\n\\n<h1>Passive: Vladmir's Aura</h1>Grants %lifesteal_aura%% lifesteal, %damage_aura%% bonus damage, %mana_regen_aura% mana regeneration, and %armor_aura% armor to nearby allies.",
+    "Description": "<h1>Active: Dominate</h1>Takes control of one neutral target unit and sets its movement speed to %speed_base% and max health to a minimum of %health_min%. Also provides the unit with +%creep_bonus_damage% base attack damage, +%creep_bonus_hp_regen% health regen, +%creep_bonus_mp_regen% mana regen, +%creep_bonus_armor% armor, and levels up some abilities of the target by 1 level. <br><br>Dominated units with a max health of greater than %health_min% retain their original max health. Grants the caster the gold and experience bounty of the dominated creep. Dominated unit's bounty is set to %bounty_gold% gold..\n\n",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CREEP"
@@ -13045,7 +13296,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 6400,
+    "ItemCost": 5725,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13137,7 +13388,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2700,
+    "ItemCost": 2950,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13185,7 +13436,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 700,
+    "ItemCost": 550,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13214,7 +13465,7 @@
     "Id": 0,
     "Key": "item_gungir",
     "Name": "Gleipnir",
-    "Description": "<h1>Active: Eternal Chains</h1>Roots all enemies in a target %radius% radius for %duration% seconds and deals %active_damage% damage.<br><br>Range: %abilitycastrange% \\n\\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion. Deals %illusion_multiplier_pct%% damage to illusions.",
+    "Description": "<h1>Active: Eternal Chains</h1>Roots all enemies in a target %radius% radius for %duration% seconds and deals %active_damage% damage. \n\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion. Deals %illusion_multiplier_pct%% damage to illusions.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -13239,7 +13490,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 5650,
+    "ItemCost": 5750,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13318,7 +13569,7 @@
     "Id": 0,
     "Key": "item_desolator",
     "Name": "Desolator",
-    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by %corruption_armor% for %corruption_duration% seconds.\\n\\n<h1>Passive: Soul Stealer</h1> Desolator gains +%bonus_damage_per_kill% damage every time an enemy hero dies while affected by Corruption, to a maximum of %max_damage%.",
+    "Description": "<h1>Passive: Corruption</h1> Your attacks reduce the target's armor by %corruption_armor% for %corruption_duration% seconds.\n\n<h1>Passive: Soul Stealer</h1> Desolator gains +%bonus_damage_per_kill% damage every time an enemy hero dies while affected by Corruption, to a maximum of %max_damage%.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13378,7 +13629,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 600,
+    "ItemCost": 650,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13420,7 +13671,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2050,
+    "ItemCost": 2100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13497,7 +13748,7 @@
     "Id": 0,
     "Key": "item_mask_of_madness",
     "Name": "Mask of Madness",
-    "Description": "<h1>Active: Berserk</h1>Gives %berserk_bonus_attack_speed% attack speed and %berserk_bonus_movement_speed% movement speed, but reduces your armor by %berserk_armor_reduction% and silences you.  Lasts %berserk_duration% seconds.\\n\\n<h1>Passive: Lifesteal</h1>Heals the attacker for a percentage of attack damage dealt. Lifesteal from creeps is reduced by %creep_lifesteal_reduction_pct%%.",
+    "Description": "<h1>Active: Berserk</h1>Gives %berserk_bonus_attack_speed% attack speed and %berserk_bonus_movement_speed% movement speed, but reduces your armor by %berserk_armor_reduction% and silences you.  Lasts %berserk_duration% seconds.\n\n<h1>Passive: Lifesteal</h1>Heals the attacker for a percentage of attack damage dealt. Lifesteal from creeps is reduced by %creep_lifesteal_reduction_pct%%.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -13516,7 +13767,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1775,
+    "ItemCost": 1900,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13593,7 +13844,7 @@
     "Id": 0,
     "Key": "item_diffusal_blade",
     "Name": "Diffusal Blade",
-    "Description": "<h1>Active: Inhibit</h1> Targets an enemy, slowing it for %purge_slow_duration% seconds.<br><br>Range: %abilitycastrange%\\n\\n<h1>Passive: Manabreak</h1>Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. <br><br>Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions.",
+    "Description": "<h1>Active: Inhibit</h1> Targets an enemy, slowing it for %purge_slow_duration% seconds.\n\n<h1>Passive: Manabreak</h1>Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. <br><br>Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -13613,7 +13864,7 @@
       15.0
     ],
     "AbilityManaCost": [
-      0.0
+      25.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
@@ -13666,7 +13917,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1000,
+    "ItemCost": 800,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13695,7 +13946,7 @@
     "Id": 0,
     "Key": "item_disperser",
     "Name": "Disperser",
-    "Description": "<h1>Active: Suppress</h1> Affects all units in a %radius% AoE around the target. All enemies around the target are slowed for %enemy_effect_duration% seconds.<br><br> All allies around the target receive a basic dispel, increase their movement speed, and are unslowable for %ally_effect_duration% seconds.<br><br>Both movement speed reduction and increase start at %phase_movement_speed%% and gradually decrease to 0% over the course of the buff duration.<br><br>Range: %abilitycastrange%<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n\\n<h1>Passive: Manabreak</h1>Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. <br><br>Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions.",
+    "Description": "<h1>Active: Suppress</h1> Slows the target for %enemy_effect_duration% seconds if they are an enemy or applies a basic dispell and grants bonus movespeed and %slow_resist%% slow resistance for %ally_effect_duration% seconds if they are an ally. Caster is always granted the ally benefit on cast.<br><br>Both movement speed reduction and increase start at %phase_movement_speed%% and gradually decrease to 0% over the course of the buff duration.<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>\n\n<h1>Passive: Manabreak</h1>Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. <br><br>Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -13720,7 +13971,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 5700,
+    "ItemCost": 6100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13769,7 +14020,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1100,
+    "ItemCost": 1600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13798,7 +14049,7 @@
     "Id": 0,
     "Key": "item_ethereal_blade",
     "Name": "Ethereal Blade",
-    "Description": "<h1>Active: Ether Blast</h1>Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and %ethereal_damage_bonus%% more vulnerable to magic damage.<br><br>  Enemy targets are also slowed by %blast_movement_slow%%, and take %blast_agility_multiplier%x your target's primary attribute + %blast_damage_base% as magical damage.<br><br>Range: %abilitycastrange%<br>Duration: %duration% seconds",
+    "Description": "<h1>Active: Ether Blast</h1>Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and %ethereal_damage_bonus%% more vulnerable to magic damage.<br><br>  Enemy targets are also slowed by %blast_movement_slow%%, and take %blast_agility_multiplier%x your target's primary attribute + %blast_damage_base% as magical damage.<br>Duration: %duration% seconds",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -13823,7 +14074,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4650,
+    "ItemCost": 5375,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13909,8 +14160,7 @@
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
-      "DOTA_ABILITY_BEHAVIOR_USE_HP"
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
@@ -13953,7 +14203,7 @@
   {
     "Id": 0,
     "Key": "item_recipe_arcane_boots",
-    "Name": null,
+    "Name": "Arcane Boots Recipe",
     "Description": null,
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
@@ -13967,7 +14217,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 0,
+    "ItemCost": 475,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -13996,7 +14246,7 @@
     "Id": 0,
     "Key": "item_arcane_boots",
     "Name": "Arcane Boots",
-    "Description": "<h1>Active: Replenish Mana</h1>Restores %replenish_amount% mana to all nearby allies.<br><br>Radius: %replenish_radius%\\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Replenish Mana</h1>Restores %replenish_amount% mana to all nearby allies.<br><br>Radius: %replenish_radius%\nMovement speed bonuses from multiple pairs of boots do not stack.\n\n<h1>Passive: Basilius Aura</h1>Grants %aura_mana_regen% mana regeneration to allies.  <br><br>Radius: %aura_radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14014,7 +14264,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1300,
+    "ItemCost": 1400,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14064,7 +14314,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 200,
+    "ItemCost": 0,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14106,7 +14356,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4600,
+    "ItemCost": 4800,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14148,7 +14398,8 @@
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
@@ -14156,7 +14407,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 275,
+    "ItemCost": 250,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14249,7 +14500,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 100,
+    "ItemCost": 0,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14278,7 +14529,7 @@
     "Id": 0,
     "Key": "item_orb_of_corrosion",
     "Name": "Orb of Corrosion",
-    "Description": "<h1>Passive: Corrosion</h1>Dealing %damage% damage per second, reducing armor by %armor%, and slowing movement by %slow_melee%% if the equipped hero is melee, or by %slow_range%% if they are ranged.<br><br>Lasts for %duration% seconds.",
+    "Description": "<h1>Passive: Corrosion</h1>Dealing %damage% damage per second, and slowing movement by %slow_melee%% if the equipped hero is melee, or by %slow_range%% if they are ranged and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%% . Affects Buildings<br><br>Lasts for %duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14291,7 +14542,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 925,
+    "ItemCost": 875,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14429,7 +14680,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 200,
+    "ItemCost": 400,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14458,7 +14709,7 @@
     "Id": 0,
     "Key": "item_mage_slayer",
     "Name": "Mage Slayer",
-    "Description": "<h1>Passive: Mage Slayer</h1>Places a debuff when you attack enemies, causing them to do %spell_amp_debuff%% less spell damage for %duration% seconds.",
+    "Description": "<h1>Passive: Mage Slayer</h1>Places a debuff when you attack enemies, dealing %dps% damage per second and causing them to do %spell_amp_debuff%% less spell damage for %duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -14466,7 +14717,8 @@
     ],
     "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
@@ -14474,7 +14726,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2500,
+    "ItemCost": 2825,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14550,7 +14802,7 @@
     "Id": 0,
     "Key": "item_ancient_janggo",
     "Name": "Drum of Endurance",
-    "Description": "<h1>Active: Endurance</h1> Consumes a charge and gives +%bonus_attack_speed_pct% attack speed and +%bonus_movement_speed_pct%% movement speed to nearby allies for %duration% seconds. <br><br>Comes with %charges_tooltip% charges.<br><br>Radius: %radius%  \\n\\n<h1>Passive: Swiftness Aura</h1>Grants %aura_movement_speed% movement speed to allies.  <br><br>Radius: %radius%",
+    "Description": "<h1>Active: Endurance</h1> Consumes a charge and gives +%bonus_attack_speed_pct% attack speed and +%bonus_movement_speed_pct%% movement speed to nearby allies for %duration% seconds. <br><br>Comes with %charges_tooltip% charges.<br><br>Radius: %radius%  \n\n<h1>Passive: Swiftness Aura</h1>Grants %aura_movement_speed% movement speed to allies.  <br><br>Radius: %radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14648,7 +14900,7 @@
     "Id": 0,
     "Key": "item_boots_of_bearing",
     "Name": "Boots of Bearing",
-    "Description": "<h1>Active: Endurance</h1> Gives +%bonus_attack_speed_pct% attack speed and +%bonus_movement_speed_pct%% movement speed to nearby allies for %duration% seconds. For the first %bonus_ms_duration% seconds allies are immune to slows.<br><br> Radius: %radius%  \\n\\n<h1>Passive: Swiftness Aura</h1>Grants %aura_movement_speed% movement speed to allies.  <br><br>Radius: %radius%",
+    "Description": "<h1>Active: Endurance</h1> Gives +%bonus_attack_speed_pct% attack speed and +%bonus_movement_speed_pct%% movement speed to nearby allies for %duration% seconds. For the first %bonus_ms_duration% seconds allies are immune to slows.<br><br> Radius: %radius%  \n\n<h1>Passive: Swiftness Aura</h1>Grants %aura_movement_speed% movement speed to allies.  <br><br>Radius: %radius%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -14723,7 +14975,7 @@
     "ItemStackable": false,
     "ItemRecipe": true,
     "ItemDroppable": true,
-    "ItemPurchasable": true,
+    "ItemPurchasable": false,
     "ItemSellable": true,
     "ItemRequiresCharges": false,
     "ItemKillable": true,
@@ -14732,7 +14984,7 @@
     "ItemSupport": false,
     "ItemContributesToNetWorthWhenDropped": false,
     "AllowedInBackpack": false,
-    "IsObsolete": false,
+    "IsObsolete": true,
     "ItemInitialCharges": 0,
     "ItemStockMax": 0,
     "ItemStockTime": 0.0,
@@ -14746,7 +14998,7 @@
     "Id": 0,
     "Key": "item_medallion_of_courage",
     "Name": "Medallion of Courage",
-    "Description": "<h1>Active: Valor</h1> If cast on an ally, grants them the %armor_reduction% armor, and removing it from the caster. <br><br>If cast on an enemy, reduces %armor_reduction% armor on both the enemy and the caster. <br><br>Range: %abilitycastrange%<br><br>Duration: %duration%",
+    "Description": "<h1>Active: Valor</h1> If cast on an ally, grants them the %armor_reduction% armor, and removing it from the caster. <br><br>If cast on an enemy, reduces %armor_reduction% armor on both the enemy and the caster. .<br><br>Duration: %duration%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -14772,7 +15024,7 @@
     "ItemStackable": false,
     "ItemRecipe": false,
     "ItemDroppable": true,
-    "ItemPurchasable": true,
+    "ItemPurchasable": false,
     "ItemSellable": true,
     "ItemRequiresCharges": false,
     "ItemKillable": true,
@@ -14781,7 +15033,7 @@
     "ItemSupport": false,
     "ItemContributesToNetWorthWhenDropped": false,
     "AllowedInBackpack": false,
-    "IsObsolete": false,
+    "IsObsolete": true,
     "ItemInitialCharges": 0,
     "ItemStockMax": 0,
     "ItemStockTime": 0.0,
@@ -14814,7 +15066,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 700,
+    "ItemCost": 500,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14843,15 +15095,16 @@
     "Id": 0,
     "Key": "item_solar_crest",
     "Name": "Solar Crest",
-    "Description": "<h1>Active: Shine</h1>When cast on an ally, grants them %target_armor% armor, %target_attack_speed% attack speed, and %target_movement_speed%% movement speed. When cast on an enemy, removes %target_armor% armor, %target_attack_speed% attack speed, and %target_movement_speed%% movement speed.<br><br>Removes %target_armor% armor from the caster when used. <br><br>Range: %abilitycastrange%<br><br>Duration: %duration%",
+    "Description": "<h1>Active: Shine</h1>When cast on an ally, grants them %target_armor% armor, %target_attack_speed% attack speed, %target_movement_speed%% movement speed and a %absorb_amount% physical damage barrier. <br><br>Does not grant bonus armor, movement or attack speed if used on self. <br><br>Duration: %duration%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
       "DOTA_UNIT_TARGET_BASIC"
     ],
-    "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+    "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityCastRange": [
       1000.0
@@ -14860,10 +15113,12 @@
     "AbilityCooldown": [
       16.0
     ],
-    "AbilityManaCost": [],
+    "AbilityManaCost": [
+      100.0
+    ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 2425,
+    "ItemCost": 2600,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14911,7 +15166,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 275,
+    "ItemCost": 175,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -14940,7 +15195,7 @@
     "Id": 0,
     "Key": "item_pavise",
     "Name": "Pavise",
-    "Description": "<h1>Active: Protect</h1> When cast on an ally, grants them a physical damage barrier that absorbs %absorb_amount% damage. Duration: %duration%s <br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Protect</h1> When cast on an ally, grants them a physical damage barrier that absorbs %absorb_amount% damage. Duration: %duration%s.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -14948,7 +15203,8 @@
     ],
     "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityCastRange": [
       1000.0
@@ -14958,7 +15214,7 @@
       16.0
     ],
     "AbilityManaCost": [
-      75.0
+      100.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
@@ -15109,7 +15365,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 650,
+    "ItemCost": 300,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -15138,17 +15394,19 @@
     "Id": 0,
     "Key": "item_veil_of_discord",
     "Name": "Veil of Discord",
-    "Description": "<h1>Active: Magic Weakness</h1> Cast a %debuff_radius% radius blast that causes enemy heroes to take %spell_amp%% increased damage from spells and deals %shield_damage% damage to all barriers.<br><br>Range: %abilitycastrange%<br>Duration: %resist_debuff_duration% seconds. \\n\\n<h1>Passive: Basilius Aura</h1>Grants %aura_mana_regen% mana regeneration to allies.  <br><br>Radius: %aura_radius%",
+    "Description": "<h1>Active: Magic Weakness</h1> Cast a %debuff_radius% radius blast that causes enemy heroes to take %spell_amp%% increased damage from spells.<br><br>Can be cast while channeling.<br><br>Duration: %resist_debuff_duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_AOE",
-      "DOTA_ABILITY_BEHAVIOR_POINT",
-      "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
+      "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+      "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
     ],
     "AbilityCastRange": [
-      1200.0
+      900.0
     ],
     "AbilityCastPoint": [
       0.0
@@ -15161,7 +15419,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 1525,
+    "ItemCost": 1725,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -15240,27 +15498,115 @@
     "Id": 0,
     "Key": "item_revenants_brooch",
     "Name": "Revenant's Brooch",
-    "Description": "<h1>Active: Phantom Province</h1>Your next %number_of_attacks% attacks have True Strike, apply a debuff that reduces their magical defenses by %active_mres_reduction%% and deal magic damage.<br><br> Can attack Ethereal units.\\n\\n<h1>Passive: Witch Blade</h1> Causes your next attack to apply a poison for %slow_duration% seconds, slowing by %slow%% and dealing %int_damage_multiplier%x your intelligence as damage every second. Can only trigger once every %passive_cooldown% seconds.",
+    "Description": "<h1>Toggle: Phantom Province</h1>When enabled, attacks cost %manacost_per_hit% mana, deal magical damage, and can hit ethereal units, but cannot crit.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_TOGGLE",
       "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
     ],
     "AbilityCastRange": [],
-    "AbilityCastPoint": [
-      0.0
-    ],
-    "AbilityCooldown": [
-      25.0
-    ],
-    "AbilityManaCost": [
-      300.0
-    ],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 6200,
+    "ItemCost": 4900,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": true,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [
+      "int",
+      "hard_to_tag"
+    ],
+    "ItemAliases": [
+      "staff",
+      "misery",
+      "sm"
+    ],
+    "ItemQuality": "rare"
+  },
+  {
+    "Id": 0,
+    "Key": "item_recipe_devastator",
+    "Name": "Parasma Recipe",
+    "Description": null,
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_NONE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 400,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": true,
+    "ItemDroppable": true,
+    "ItemPurchasable": true,
+    "ItemSellable": true,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_devastator",
+    "Name": "Parasma",
+    "Description": "<h1>Passive: Witch Blade</h1> Causes your next attack to have true strike, apply a poison for %slow_duration% seconds, slowing by %slow%% and dealing %int_damage_multiplier%x your intelligence as damage every second.\n\n<h1>Passive: Magic Corruption</h1> Your attacks reduce the enemy's Magic resistance by %active_mres_reduction%% for %passive_cooldown% seconds.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [
+      7.0
+    ],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 5975,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -15338,7 +15684,7 @@
     "Id": 0,
     "Key": "item_guardian_greaves",
     "Name": "Guardian Greaves",
-    "Description": "<h1>Active: Mend</h1>Restores %replenish_health% health and %replenish_mana% mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: %replenish_radius%<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n\\n<h1>Passive: Guardian Aura</h1> Grants %aura_health_regen% health regeneration and %aura_armor% armor to allied units. If an allied hero's health falls below %aura_bonus_threshold%%, this is increased to %aura_health_regen_bonus% health regeneration and %aura_armor_bonus% armor. <br><br>Radius: %aura_radius% \\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Mend</h1>Restores %replenish_health% health and %replenish_mana% mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: %replenish_radius%<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>\n\n<h1>Passive: Guardian Aura</h1> Grants %aura_health_regen% health regeneration, %aura_mana_regen% mana regeneration and %aura_armor% armor to allied units. If an allied hero's health falls below %aura_bonus_threshold%%, this is increased to %aura_health_regen_bonus% health regeneration, %aura_mana_regen_bonus% mana regeneration and %aura_armor_bonus% armor. <br><br>Radius: %aura_radius% \nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15349,14 +15695,14 @@
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      40.0
+      45.0
     ],
     "AbilityManaCost": [
       0.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4950,
+    "ItemCost": 5050,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -15434,7 +15780,7 @@
     "Id": 0,
     "Key": "item_rod_of_atos",
     "Name": "Rod of Atos",
-    "Description": "<h1>Active: Cripple</h1>Roots the target for %duration% seconds.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Cripple</h1>Roots the target for %duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -15534,7 +15880,7 @@
     "Id": 0,
     "Key": "item_iron_talon",
     "Name": "Iron Talon",
-    "Description": "<h1>Active: Chop</h1>Targets a non-player enemy unit to remove %creep_damage_pct%% of its current HP.<br><br>If cast on a tree, instantly destroys it.<br><br>Unit Range: %abilitycastrange%<br>Tree Range: %abilitycastrange%",
+    "Description": "<h1>Active: Chop</h1>Targets a non-player enemy unit to remove %creep_damage_pct%% of its current HP.<br><br>If cast on a tree, instantly destroys it.<br><br>Unit  Tree Range: %abilitycastrange%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_TREE",
@@ -15551,7 +15897,7 @@
       0.0
     ],
     "AbilityCooldown": [
-      25.0
+      20.0
     ],
     "AbilityManaCost": [
       0.0
@@ -15633,7 +15979,7 @@
     "Id": 0,
     "Key": "item_abyssal_blade",
     "Name": "Abyssal Blade",
-    "Description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %abilitycastrange%\\n\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus physical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%.\\n\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
+    "Description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.\n\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus physical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%.\n\n<h1>Passive: Damage Block</h1> Grants a %block_chance%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -15705,7 +16051,7 @@
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 200,
+    "ItemCost": 100,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -15734,7 +16080,7 @@
     "Id": 0,
     "Key": "item_heavens_halberd",
     "Name": "Heaven's Halberd",
-    "Description": "<h1>Active: Disarm</h1>Prevents a target from attacking for %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Disarm</h1>Prevents a target from attacking for %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -15754,11 +16100,11 @@
       18.0
     ],
     "AbilityManaCost": [
-      100.0
+      75.0
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 3550,
+    "ItemCost": 3500,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -15835,7 +16181,7 @@
     "Id": 0,
     "Key": "item_ring_of_aquila",
     "Name": "Ring of Aquila",
-    "Description": "<h1>Passive: Aquila Aura</h1>Grants %aura_mana_regen% mana regeneration and %aura_bonus_armor% armor to nearby allies.<br><br>Radius: %aura_radius%\\n<h1>Toggle: Aura</h1> Deactivate to stop affecting non-hero units.",
+    "Description": "<h1>Passive: Aquila Aura</h1>Grants %aura_mana_regen% mana regeneration and %aura_bonus_armor% armor to nearby allies.<br><br>Radius: %aura_radius%\n<h1>Toggle: Aura</h1> Deactivate to stop affecting non-hero units.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15926,7 +16272,7 @@
     "Id": 0,
     "Key": "item_tranquil_boots",
     "Name": "Tranquil Boots",
-    "Description": "<h1>Passive: Break</h1> Whenever you attack a hero or are attacked by any unit, the bonus %bonus_health_regen% HP regen is lost and the movement speed bonus is reduced to %broken_movement_speed% for %break_time% seconds.\\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Passive: Break</h1> Whenever you attack a hero or are attacked by any unit, the bonus %bonus_health_regen% HP regen is lost and the movement speed bonus is reduced to %broken_movement_speed% for %break_time% seconds.\nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -15978,7 +16324,7 @@
     "Id": 0,
     "Key": "item_shadow_amulet",
     "Name": "Shadow Amulet",
-    "Description": "<h1>Active: Fade</h1>Grants invisibility to you or a target allied hero as long as the target unit remains still for up to %fade_duration%s.  <br><br>Has a %fade_time% second fade time, and breaks instantly upon moving. <br><br>There is no cooldown when using this item on yourself.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Fade</h1>Grants invisibility to you or a target allied hero for %fade_duration%s. Movement speed during the invisibility is reduced by %movement_speed_reduction%%.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -15995,7 +16341,7 @@
     ],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      7.0
+      18.0
     ],
     "AbilityManaCost": [
       0.0
@@ -16075,7 +16421,7 @@
     "Id": 0,
     "Key": "item_glimmer_cape",
     "Name": "Glimmer Cape",
-    "Description": "<h1>Active: Glimmer</h1> After a %initial_fade_delay% second delay, grants invisibility, %active_movement_speed% movement speed and a magic damage barrier that absorbs up to %barrier_block% damage to you or a target allied unit for %duration% seconds. <br><br>Range: %abilitycastrange%<br><br>Can be cast while channeling.",
+    "Description": "<h1>Active: Glimmer</h1> After a %initial_fade_delay% second delay, grants invisibility, %active_movement_speed% movement speed and a magic damage barrier that absorbs up to %barrier_block% damage to you or a target allied unit for %duration% seconds.<br><br>Can be cast while channeling.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -16808,7 +17154,7 @@
     "Id": 0,
     "Key": "item_philosophers_stone",
     "Name": "Philosopher's Stone",
-    "Description": null,
+    "Description": "<h1>Passive: Boom Bust</h1> Has %charges_tooltip% charges. Depletes a charge every time it grants gold to the owner. When all charges are depleted, the item is destroyed, and the owner receives %gold_on_expire% gold.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -16823,7 +17169,7 @@
     "AbilitySpecial": {},
     "ItemCost": 0,
     "ItemCombinable": true,
-    "ItemPermanent": true,
+    "ItemPermanent": false,
     "ItemStackable": false,
     "ItemRecipe": false,
     "ItemDroppable": true,
@@ -16837,7 +17183,7 @@
     "ItemContributesToNetWorthWhenDropped": false,
     "AllowedInBackpack": false,
     "IsObsolete": false,
-    "ItemInitialCharges": 0,
+    "ItemInitialCharges": 750,
     "ItemStockMax": 0,
     "ItemStockTime": 0.0,
     "ItemIsNeutralDrop": true,
@@ -16850,7 +17196,7 @@
     "Id": 0,
     "Key": "item_force_boots",
     "Name": "Force Boots",
-    "Description": "<h1>Active: Force</h1>Dispels the user and pushes them %push_length% units in the direction they are facing.<br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n\\n<h1>Passive: Speed Unlock</h1> Completely removes the speed limit for the wearer \\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "<h1>Active: Force</h1>Pushes the target %push_length% units in the direction they are facing. Dispels if cast on an ally.<br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>\n\n<h1>Passive: Speed Unlock</h1> Completely removes the speed limit for the wearer \nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -16993,7 +17339,8 @@
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_POINT",
-      "DOTA_ABILITY_BEHAVIOR_AOE"
+      "DOTA_ABILITY_BEHAVIOR_AOE",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityCastRange": [
       0.0
@@ -17079,7 +17426,7 @@
     "Id": 0,
     "Key": "item_elixer",
     "Name": "Elixir",
-    "Description": "<h1>Use: Consume</h1> Restores %health% health and %mana% mana to the target over %duration% seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Consume</h1> Restores %health% health and %mana% mana to the target over %duration% seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -17172,7 +17519,7 @@
     "Id": 0,
     "Key": "item_force_field",
     "Name": "Arcanist's Armor",
-    "Description": "<h1>Active: Mega Shield</h1> Force Field Aura Grants %active_reflection_pct%% Damage Reflection for 5 seconds.\\n\\n<h1>Passive: Shield</h1> Grants +%bonus_aoe_armor% armor and +%bonus_aoe_mres%% Magic Resistance to all other allies within %bonus_aoe_radius% radius.",
+    "Description": "<h1>Active: Mega Shield</h1> Force Field Aura Grants %active_reflection_pct%% Damage Reflection for 5 seconds.\n\n<h1>Passive: Shield</h1> Grants +%bonus_aoe_armor% armor and +%bonus_aoe_mres%% Magic Resistance to all other allies within %bonus_aoe_radius% radius.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -17303,16 +17650,19 @@
     "Id": 0,
     "Key": "item_craggy_coat",
     "Name": "Craggy Coat",
-    "Description": "Increases the wearer's armor, while reducing their attack speed.",
+    "Description": "<h1>Active: Toughen Up</h1> Grants you an extra %active_armor% bonus armor at the cost of -%move_speed% movement speed. Lasts %active_duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+      "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
-    "AbilityCooldown": [],
+    "AbilityCooldown": [
+      12.0
+    ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
@@ -17474,51 +17824,9 @@
   },
   {
     "Id": 0,
-    "Key": "item_recipe_ironwood_tree",
-    "Name": "Ironwood Tree Recipe",
-    "Description": null,
-    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
-    "AbilityUnitTargetType": [],
-    "AbilityUnitTargetTeam": null,
-    "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_NONE"
-    ],
-    "AbilityCastRange": [],
-    "AbilityCastPoint": [],
-    "AbilityCooldown": [],
-    "AbilityManaCost": [],
-    "AbilityChannelTime": [],
-    "AbilitySpecial": {},
-    "ItemCost": 1,
-    "ItemCombinable": true,
-    "ItemPermanent": true,
-    "ItemStackable": false,
-    "ItemRecipe": true,
-    "ItemDroppable": true,
-    "ItemPurchasable": false,
-    "ItemSellable": false,
-    "ItemRequiresCharges": false,
-    "ItemKillable": true,
-    "ItemDisassemblable": false,
-    "ItemDeclaresPurchase": false,
-    "ItemSupport": false,
-    "ItemContributesToNetWorthWhenDropped": false,
-    "AllowedInBackpack": false,
-    "IsObsolete": false,
-    "ItemInitialCharges": 0,
-    "ItemStockMax": 0,
-    "ItemStockTime": 0.0,
-    "ItemIsNeutralDrop": true,
-    "ItemShareability": "ITEM_NOT_SHAREABLE",
-    "ItemShopTags": [],
-    "ItemAliases": [],
-    "ItemQuality": null
-  },
-  {
-    "Id": 0,
     "Key": "item_ironwood_tree",
     "Name": "Ironwood Tree",
-    "Description": "<h1>Use: Plant Tree</h1> Targets the ground to plant a happy little tree that lasts for %tree_duration% seconds.<br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Plant Tree</h1> Targets the ground to plant a happy little tree that lasts for %tree_duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -17526,7 +17834,7 @@
       "DOTA_ABILITY_BEHAVIOR_POINT"
     ],
     "AbilityCastRange": [
-      800.0
+      400.0
     ],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
@@ -17564,7 +17872,7 @@
     "Id": 0,
     "Key": "item_mango_tree",
     "Name": "Mango Tree",
-    "Description": "<h1>Use: Plant a Mango Tree</h1> Targets the ground to plant a mango tree that provides unlimited mango power. The tree generates Enchanted Mangoes every %seconds% seconds, and provides unobstructed vision in the area <br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Use: Plant a Mango Tree</h1> Targets the ground to plant a mango tree that provides unlimited mango power. The tree generates Enchanted Mangoes every %seconds% seconds, and provides unobstructed vision in the area .",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -17608,7 +17916,7 @@
     "Id": 0,
     "Key": "item_royal_jelly",
     "Name": "Royal Jelly",
-    "Description": "<h1>Use: Consume</h1> Grants a target allied unit a permanent buff that provides +%health_regen% Health Regen and +%mana_regen% Mana Regen.<br><br>Does not stack on the same unit.",
+    "Description": "<h1>Active: Consume</h1> Consumes all charges and grants a target allied unit a buff that provides +%health_regen% Health Regen and +%mana_regen% Mana Regen per charge for %regen_duration%s. <br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO"
@@ -17617,13 +17925,14 @@
     "AbilityBehavior": [
       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
       "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
-      "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE"
+      "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
     ],
     "AbilityCastRange": [
+      300.0
+    ],
+    "AbilityCastPoint": [
       0.0
     ],
-    "AbilityCastPoint": [],
     "AbilityCooldown": [],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -17636,7 +17945,7 @@
     "ItemDroppable": true,
     "ItemPurchasable": false,
     "ItemSellable": false,
-    "ItemRequiresCharges": false,
+    "ItemRequiresCharges": true,
     "ItemKillable": true,
     "ItemDisassemblable": false,
     "ItemDeclaresPurchase": false,
@@ -17644,7 +17953,7 @@
     "ItemContributesToNetWorthWhenDropped": false,
     "AllowedInBackpack": false,
     "IsObsolete": false,
-    "ItemInitialCharges": 2,
+    "ItemInitialCharges": 5,
     "ItemStockMax": 0,
     "ItemStockTime": 0.0,
     "ItemIsNeutralDrop": true,
@@ -17748,7 +18057,7 @@
     "Id": 0,
     "Key": "item_repair_kit",
     "Name": "Repair Kit",
-    "Description": "<h1>Use: Building Repair</h1> Targets a building, restoring %heal_percent%% of it's health over %duration% seconds. Also grants +%armor_bonus% armor during this period.<br><br> Range: %abilitycastrange%",
+    "Description": "<h1>Use: Building Repair</h1> Targets a building, restoring %heal_percent%% of it's health over %duration% seconds. Also grants +%armor_bonus% armor during this period.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_BUILDING"
@@ -17843,7 +18152,7 @@
     "Id": 0,
     "Key": "item_third_eye",
     "Name": "Third Eye",
-    "Description": "<h1>Passive: True Sight</h1> Grants the ability to see invisible units and wards to any allied vision within %truesight_radius% range of its carrier. \\n<h1>Passive: Charge Loss</h1><font color='#e03e2e'>Loses a charge on death. After all charges are lost, the item disappears.</font>",
+    "Description": "<h1>Passive: True Sight</h1> Grants the ability to see invisible units and wards to any allied vision within %truesight_radius% range of its carrier. \n<h1>Passive: Charge Loss</h1><font color='#e03e2e'>Loses a charge on death. After all charges are lost, the item disappears.</font>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -18057,7 +18366,7 @@
     "Id": 0,
     "Key": "item_flicker",
     "Name": "Flicker",
-    "Description": "<h1>Active: Flicker</h1> Dispells debuffs and blinks you in a random forward direction for a random distance between %min_range% and %max_range%. If cast within 3 seconds of receiving player damage, it will blink in place.<br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Flicker</h1> Dispells debuffs and blinks you in a random forward direction for a random distance between %min_range% and %max_range%. If cast within 3 seconds of receiving player damage, it will blink in place.<br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -18234,7 +18543,7 @@
     "Id": 0,
     "Key": "item_vambrace",
     "Name": "Vambrace",
-    "Description": "Also provides one of the following, based on the Vambrace's main attribute:\\n <font color='#ec3d06'>Strength:</font> +%bonus_magic_resistance%% Magic Resistance \\n <font color='#3ed038'>Agility:</font> +%bonus_attack_speed% Attack Speed \\n <font color='#00d9ec'>Intelligence:</font> +%bonus_spell_amp%% Spell Amp",
+    "Description": "Also provides one of the following, based on the Vambrace's main attribute:\n <font color='#ec3d06'>Strength:</font> +%bonus_magic_resistance%% Magic Resistance \n <font color='#3ed038'>Agility:</font> +%bonus_attack_speed% Attack Speed \n <font color='#00d9ec'>Intelligence:</font> +%bonus_spell_amp%% Spell Amp",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -18284,7 +18593,7 @@
     "Id": 0,
     "Key": "item_horizon",
     "Name": "Horizon",
-    "Description": "<h1>Active: Blink Strike</h1> Targets a unit to teleport to them. Knocks enemies back %knockback_distance% distance and disables them for %knockback_duration% second. <br><br>Range: %abilitycastrange%",
+    "Description": "<h1>Active: Blink Strike</h1> Targets a unit to teleport to them. Knocks enemies back %knockback_distance% distance and disables them for %knockback_duration% second.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_CUSTOM"
@@ -18510,7 +18819,7 @@
     "Id": 0,
     "Key": "item_trusty_shovel",
     "Name": "Trusty Shovel",
-    "Description": "<h1>Active: Dig</h1> Channel for 1 second. <br>Can find a Bounty Rune, a Flask, an Enchanted Mango, or a Kobold.",
+    "Description": "<h1>Active: Dig</h1> Channel for 1 second. <br>Can find a Bounty Rune, a Flask, an Enchanted Mango, or a Kobold. If digging in a river, always digs up a Water Rune.<br><br> This item's cooldown only progresses in your hero's Neutral Item slot",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -18693,7 +19002,7 @@
     "Id": 0,
     "Key": "item_clumsy_net",
     "Name": "Clumsy Net",
-    "Description": "<h1>Active: Ensnare</h1> Ensnares the target enemy and yourself for %duration% seconds.<br><br> Range: %abilitycastrange%",
+    "Description": "<h1>Active: Ensnare</h1> Ensnares the target enemy and yourself for %duration% seconds.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -18831,7 +19140,7 @@
     "Id": 0,
     "Key": "item_illusionsts_cape",
     "Name": "Illusionist's Cape",
-    "Description": "<h1>Active: Create Illusion</h1> Creates an image under your control. \\n<h1>Passive: Illusion Mastery</h1>Increases outgoing damage of all units and illusions controlled by the hero by %attack_damage_aura%%.",
+    "Description": "<h1>Active: Create Illusion</h1> Creates an image under your control. \n<h1>Passive: Illusion Mastery</h1>Increases outgoing damage of all units and illusions controlled by the hero by %attack_damage_aura%%.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -18921,7 +19230,7 @@
     "Id": 0,
     "Key": "item_panic_button",
     "Name": "Magic Lamp",
-    "Description": "<h1>Passive: Rejuvenate </h1> When the wearer's health falls below %health_threshold%%, they will receive a hard dispel and be healed for %heal% health.",
+    "Description": "<h1>Passive: Rejuvenate</h1> When the wearer's health falls below %health_threshold%%, they will receive a hard dispel and be healed for %heal% health.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -19049,7 +19358,7 @@
     "Id": 0,
     "Key": "item_woodland_striders",
     "Name": "Woodland Striders",
-    "Description": "\\n<h1>Active: Woodland Stride</h1> Create a path of trees behind you for %active_duration% seconds. Trees last up to %tree_duration% seconds. \\n<h1>Passive: Tree Walking</h1> Removes movement speed limit and allows free pathing through trees.\\n \\nMovement speed bonuses from multiple pairs of boots do not stack.",
+    "Description": "\n<h1>Active: Woodland Stride</h1> Create a path of trees behind you for %active_duration% seconds. Trees last up to %tree_duration% seconds. \n<h1>Passive: Tree Walking</h1> Removes movement speed limit and allows free pathing through trees.\n \nMovement speed bonuses from multiple pairs of boots do not stack.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -19223,7 +19532,7 @@
     "Id": 0,
     "Key": "item_fallen_sky",
     "Name": "Fallen Sky",
-    "Description": "<h1>Active: Fallen Sky</h1> Transform into a meteor that strikes down at the target area after %land_time% seconds in a %impact_radius% AoE, stunning enemies for %stun_duration% seconds and dealing impact damage. Continues to deal damage every %burn_interval% seconds to enemy units and buildings for %burn_duration% seconds.<BR><BR>Building Impact Damage: %impact_damage_buildings% <BR>Building Over Time Damage: %burn_dps_buildings% <BR><BR>Non-Building Impact Damage: %impact_damage_units% <BR>Non-Building Over Time Damage: %burn_dps_units%<BR><BR> Range: %abilitycastrange%",
+    "Description": "<h1>Active: Fallen Sky</h1> Transform into a meteor that strikes down at the target area after %land_time% seconds in a %impact_radius% AoE, stunning enemies for %stun_duration% seconds and dealing impact damage. Continues to deal damage every %burn_interval% seconds to enemy units and buildings for %burn_duration% seconds.<BR><BR>Building Impact Damage: %impact_damage_buildings% <BR>Building Over Time Damage: %burn_dps_buildings% <BR><BR>Non-Building Impact Damage: %impact_damage_units% <BR>Non-Building Over Time Damage: %burn_dps_units%",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -19892,7 +20201,8 @@
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
@@ -20337,7 +20647,8 @@
     ],
     "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "AbilityCastRange": [
       850.0
@@ -20511,7 +20822,7 @@
     "Id": 0,
     "Key": "item_book_of_shadows",
     "Name": "Book of Shadows",
-    "Description": "<h1>Active: Shadows</h1>Target an enemy, ally or self. Causes the target to become untargetable from enemies to the caster, but also silenced, muted and disarmed for %duration% seconds. Applies a Basic Dispel.\\n\\nDispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+    "Description": "<h1>Active: Shadows</h1>Target an enemy, ally or self. Causes the target to become untargetable from enemies to the caster, but also silenced, muted and disarmed for %duration% seconds. Applies a Basic Dispel.\n\nDispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -20657,7 +20968,7 @@
     "AbilityCastRange": [],
     "AbilityCastPoint": [],
     "AbilityCooldown": [
-      3.0
+      3.5
     ],
     "AbilityManaCost": [],
     "AbilityChannelTime": [],
@@ -21045,7 +21356,7 @@
     "Id": 0,
     "Key": "item_heavy_blade",
     "Name": "Witchbane",
-    "Description": "<h1>Active: Cleanse</h1>Dispel Target Enemy or Ally.<br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n\\n<h1>Passive: Subjugate</h1>Your attacks deal bonus damage equal to 4% of your target Max Mana.",
+    "Description": "<h1>Active: Cleanse</h1>Dispel Target Enemy or Ally.<br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>\n\n<h1>Passive: Subjugate</h1>Your attacks deal bonus damage equal to 4% of your target Max Mana.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -21104,7 +21415,7 @@
     "Id": 0,
     "Key": "item_unstable_wand",
     "Name": "Pig Pole",
-    "Description": "<h1>Active: Pig, Out!</h1>Turns your hero into a critter for %duration% seconds and gives them +10% Movement Speed.",
+    "Description": "<h1>Active: Pig, Out!</h1>Turns your hero into a critter for %duration% seconds and gives them +%active_movespeed_pct%% Movement Speed.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -21250,7 +21561,8 @@
     ],
     "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
     "AbilityBehavior": [
-      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES"
     ],
     "AbilityCastRange": [
       900.0
@@ -21481,7 +21793,7 @@
       0.3
     ],
     "AbilityCooldown": [
-      40.0
+      35.0
     ],
     "AbilityManaCost": [
       25.0
@@ -21661,7 +21973,7 @@
     "Id": 0,
     "Key": "item_harpoon",
     "Name": "Harpoon",
-    "Description": "<h1>Active: Draw Forth</h1> When targeting an enemy, fire a harpoon at them, that pulls you and the target closer together, up to %pull_distance_pct%% of the distance between you and your target. If the caster is melee, the hero and target are always pulled to within melee distance of each other.\\n\\n<h1>Passive: Echo Strike</h1> Causes melee attacks to attack twice in quick succession. The double attacks apply a %movement_slow%% movement slow for %slow_duration% seconds on each strike.",
+    "Description": "<h1>Active: Draw Forth</h1> When targeting an enemy, fire a harpoon at them, that pulls you and the target closer together, up to %pull_distance_pct%% of the distance between you and your target. If the caster is melee, the hero and target are always pulled to within melee distance of each other.\n\n<h1>Passive: Echo Strike</h1> Causes melee attacks to attack twice in quick succession. The double attacks apply a %movement_slow%% movement slow for %slow_duration% seconds on each strike. Echo Strike cooldown: %passive_cooldown%s",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [
       "DOTA_UNIT_TARGET_HERO",
@@ -21687,7 +21999,7 @@
     ],
     "AbilityChannelTime": [],
     "AbilitySpecial": {},
-    "ItemCost": 4500,
+    "ItemCost": 4700,
     "ItemCombinable": true,
     "ItemPermanent": true,
     "ItemStackable": false,
@@ -21716,7 +22028,7 @@
     "Id": 0,
     "Key": "item_defiant_shell",
     "Name": "Defiant Shell",
-    "Description": "<h1>Passive: Reciprocity </h1> When attacked, the hero counter-attacks a target within their attack range. %counter_cooldown%s Cooldown.",
+    "Description": "<h1>Passive: Reciprocity</h1> When attacked, the hero counter-attacks a target within their attack range. %counter_cooldown%s Cooldown.",
     "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
     "AbilityUnitTargetType": [],
     "AbilityUnitTargetTeam": null,
@@ -22633,6 +22945,258 @@
   },
   {
     "Id": 0,
+    "Key": "item_ancient_guardian",
+    "Name": "Ancient Guardian",
+    "Description": "<h1>Passive: Ancient Power</h1> Grants %extra_bonus_damage% extra bonus damage as long as the unit is within %radius% range of an ancient.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_safety_bubble",
+    "Name": "Safety Bubble",
+    "Description": "<h1>Passive: Bubbled Up</h1> Equipped Hero has a %shield% HP Barrier against enemy damage. Barrier fully regenerates after not receiving damage for %restore_time% seconds. Self-inflicted damage bypasses the barrier.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_whisper_of_the_dread",
+    "Name": "Whisper of the Dread",
+    "Description": "<h1>Passive: Tunnel Vision</h1> Equipped Hero has their daytime vision reduced by %vision_penalty%% but their Spell damage increased by %bonus_spell_damage%%.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_nemesis_curse",
+    "Name": "Nemesis Curse",
+    "Description": "<h1>Passive: Glass Cannon</h1> Hero takes %debuff_self%% more damage from all sources.\n<h1>Passive: Glassify</h1> When attacking a hero, apply a debuff increasing the damage received by that hero by %debuff_enemy%% for %debuff_enemy_duration% seconds. Only one target can be affected by Glassify at the same time. ",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_avianas_feather",
+    "Name": "Aviana's Feather",
+    "Description": "<h1>Passive: Free Bird</h1> When equipped hero is below %flight_threshold%% HP, they gain flying movement.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_unwavering_condition",
+    "Name": "Unwavering Condition",
+    "Description": "<h1>Passive: Unwavering</h1> Hero's Max Health is set to %max_health% and can't be altered by other effects or attributes.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
     "Key": "item_horizons_equilibrium",
     "Name": "Horizon's Equilibrium",
     "Description": "<h1>Passive: Equilibrium</h1> Damage dealt to and received from units further than %distance% units from you is reduced by %damage_reduction%%.",
@@ -22889,6 +23453,275 @@
     "ItemStockMax": 0,
     "ItemStockTime": 0.0,
     "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_light_collector",
+    "Name": "Light Collector",
+    "Description": "<h1>Active: Lightbreak</h1> Produce a brilliant flash of light that destroys trees in a %tree_destruction_radius% AoE. \n\n<h1>Passive: Unclouded</h1> Provides wearer with health regeneration during the day and mana regeneration during the night. When within a %radius% distance of any trees, health and mana regeneration are decreased by %penalty%%.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [
+      30.0
+    ],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_rattlecage",
+    "Name": "Rattlecage",
+    "Description": "<h1>Passive: Reverberate</h1> After taking %damage_threshold% damage from any source, the wearer fires a projectile at up to %target_count% random enemies in a %radius% radius, prioritizing heroes, that deal %projectile_damage% physical damage and slow the targets movement and attack speed by %slow%% for %slow_duration%s. ",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_doubloon",
+    "Name": "Doubloon",
+    "Description": "<h1>Toggle: Flip</h1> Toggle to convert %conversion_pct%% of your Max Health to Max Mana, or %conversion_pct%% of your Max Mana to Max Health. Mana and health regeneration from Doubloon is increased by %regen_bonus_pct%%, based on the which side is selected.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+      "DOTA_ABILITY_BEHAVIOR_TOGGLE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [
+      5.0
+    ],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": true,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_roshans_banner",
+    "Name": "Roshan's Banner",
+    "Description": "<h1>Use: Place Banner</h1> Creates a banner at the target location. Lane creeps in the area of effect become damage immune while the Banner is up. Lasts %duration% seconds.<br><br> Can be destroyed. Melee hero attacks deal 2x damage to the banner.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_POINT",
+      "DOTA_ABILITY_BEHAVIOR_AOE"
+    ],
+    "AbilityCastRange": [
+      1200.0
+    ],
+    "AbilityCastPoint": [
+      0.0
+    ],
+    "AbilityCooldown": [
+      1.0
+    ],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": true,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": true,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_FULLY_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": "artifact"
+  },
+  {
+    "Id": 0,
+    "Key": "item_black_grimoire",
+    "Name": "Black Grimoire",
+    "Description": "<h1>Use: Profane Knowledge</h1>Hero kills and assists empower the Black Grimoire, granting it charges. Right-click to consume and grant %xp_per_charge% experience per charge. Starts on cooldown. <br><font color='#e03e2e'>This item cannot be dropped.</font>",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+      "DOTA_ABILITY_BEHAVIOR_UNSWAPPABLE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [
+      420.0
+    ],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": false,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
+    "ItemShareability": "ITEM_NOT_SHAREABLE",
+    "ItemShopTags": [],
+    "ItemAliases": [],
+    "ItemQuality": null
+  },
+  {
+    "Id": 0,
+    "Key": "item_grisgris",
+    "Name": "Gris-Gris",
+    "Description": "This item that cannot be dropped or placed in the backpack but can be put into normal inventory slots. When the owner dies, %death_gold_lost_reduction_pct%% of the gold lost from death is added to the item, and will be refunded when the item is consumed. Right-click to consume and permanently remove the item.",
+    "Image": "https://hyperstone.highgroundvision.com/images/items/0.png",
+    "AbilityUnitTargetType": [],
+    "AbilityUnitTargetTeam": null,
+    "AbilityBehavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+      "DOTA_ABILITY_BEHAVIOR_UNSWAPPABLE"
+    ],
+    "AbilityCastRange": [],
+    "AbilityCastPoint": [],
+    "AbilityCooldown": [],
+    "AbilityManaCost": [],
+    "AbilityChannelTime": [],
+    "AbilitySpecial": {},
+    "ItemCost": 0,
+    "ItemCombinable": true,
+    "ItemPermanent": true,
+    "ItemStackable": false,
+    "ItemRecipe": false,
+    "ItemDroppable": false,
+    "ItemPurchasable": false,
+    "ItemSellable": false,
+    "ItemRequiresCharges": false,
+    "ItemKillable": true,
+    "ItemDisassemblable": false,
+    "ItemDeclaresPurchase": false,
+    "ItemSupport": false,
+    "ItemContributesToNetWorthWhenDropped": false,
+    "AllowedInBackpack": false,
+    "IsObsolete": false,
+    "ItemInitialCharges": 0,
+    "ItemStockMax": 0,
+    "ItemStockTime": 0.0,
+    "ItemIsNeutralDrop": false,
     "ItemShareability": "ITEM_NOT_SHAREABLE",
     "ItemShopTags": [],
     "ItemAliases": [],
